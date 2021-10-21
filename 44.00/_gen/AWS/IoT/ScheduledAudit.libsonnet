@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.IoT.ScheduledAudit', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html'),
+  '#withDayOfMonth':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-dayofmonth', args=[d.arg(name='dayOfMonth', type=d.T.string)]),
+  withDayOfMonth(dayOfMonth): { Properties+: { DayOfMonth: dayOfMonth } },
+  '#withDayOfWeek':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-dayofweek', args=[d.arg(name='dayOfWeek', type=d.T.string)]),
+  withDayOfWeek(dayOfWeek): { Properties+: { DayOfWeek: dayOfWeek } },
+  '#withFrequency':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-frequency', args=[d.arg(name='frequency', type=d.T.string)]),
+  withFrequency(frequency): { Properties+: { Frequency: frequency } },
+  '#withScheduledAuditName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-scheduledauditname', args=[d.arg(name='scheduledAuditName', type=d.T.string)]),
+  withScheduledAuditName(scheduledAuditName): { Properties+: { ScheduledAuditName: scheduledAuditName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTargetCheckNames':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-targetchecknames', args=[d.arg(name='targetCheckNames', type=d.T.string)]),
+  withTargetCheckNames(targetCheckNames): { Properties+: { TargetCheckNames: targetCheckNames } },
+}

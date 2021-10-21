@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.ACMPCA.Certificate', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html'),
+  '#withApiPassthrough':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-apipassthrough', args=[d.arg(name='apiPassthrough', type=d.T.string)]),
+  withApiPassthrough(apiPassthrough): { Properties+: { ApiPassthrough: apiPassthrough } },
+  '#withCertificateAuthorityArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-certificateauthorityarn', args=[d.arg(name='certificateAuthorityArn', type=d.T.string)]),
+  withCertificateAuthorityArn(certificateAuthorityArn): { Properties+: { CertificateAuthorityArn: certificateAuthorityArn } },
+  '#withCertificateSigningRequest':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-certificatesigningrequest', args=[d.arg(name='certificateSigningRequest', type=d.T.string)]),
+  withCertificateSigningRequest(certificateSigningRequest): { Properties+: { CertificateSigningRequest: certificateSigningRequest } },
+  '#withSigningAlgorithm':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-signingalgorithm', args=[d.arg(name='signingAlgorithm', type=d.T.string)]),
+  withSigningAlgorithm(signingAlgorithm): { Properties+: { SigningAlgorithm: signingAlgorithm } },
+  '#withTemplateArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-templatearn', args=[d.arg(name='templateArn', type=d.T.string)]),
+  withTemplateArn(templateArn): { Properties+: { TemplateArn: templateArn } },
+  '#withValidity':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-validity', args=[d.arg(name='validity', type=d.T.string)]),
+  withValidity(validity): { Properties+: { Validity: validity } },
+  '#withValidityNotBefore':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-validitynotbefore', args=[d.arg(name='validityNotBefore', type=d.T.string)]),
+  withValidityNotBefore(validityNotBefore): { Properties+: { ValidityNotBefore: validityNotBefore } },
+}

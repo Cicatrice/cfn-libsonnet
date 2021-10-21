@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.IoT.ProvisioningTemplate', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html'),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-enabled', args=[d.arg(name='enabled', type=d.T.string)]),
+  withEnabled(enabled): { Properties+: { Enabled: enabled } },
+  '#withPreProvisioningHook':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-preprovisioninghook', args=[d.arg(name='preProvisioningHook', type=d.T.string)]),
+  withPreProvisioningHook(preProvisioningHook): { Properties+: { PreProvisioningHook: preProvisioningHook } },
+  '#withProvisioningRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-provisioningrolearn', args=[d.arg(name='provisioningRoleArn', type=d.T.string)]),
+  withProvisioningRoleArn(provisioningRoleArn): { Properties+: { ProvisioningRoleArn: provisioningRoleArn } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTemplateBody':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-templatebody', args=[d.arg(name='templateBody', type=d.T.string)]),
+  withTemplateBody(templateBody): { Properties+: { TemplateBody: templateBody } },
+  '#withTemplateName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-templatename', args=[d.arg(name='templateName', type=d.T.string)]),
+  withTemplateName(templateName): { Properties+: { TemplateName: templateName } },
+}

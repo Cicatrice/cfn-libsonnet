@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.ECS.Cluster', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html'),
+  '#withCapacityProviders':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html#cfn-ecs-cluster-capacityproviders', args=[d.arg(name='capacityProviders', type=d.T.string)]),
+  withCapacityProviders(capacityProviders): { Properties+: { CapacityProviders: capacityProviders } },
+  '#withClusterName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html#cfn-ecs-cluster-clustername', args=[d.arg(name='clusterName', type=d.T.string)]),
+  withClusterName(clusterName): { Properties+: { ClusterName: clusterName } },
+  '#withClusterSettings':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html#cfn-ecs-cluster-clustersettings', args=[d.arg(name='clusterSettings', type=d.T.string)]),
+  withClusterSettings(clusterSettings): { Properties+: { ClusterSettings: clusterSettings } },
+  '#withConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html#cfn-ecs-cluster-configuration', args=[d.arg(name='configuration', type=d.T.string)]),
+  withConfiguration(configuration): { Properties+: { Configuration: configuration } },
+  '#withDefaultCapacityProviderStrategy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html#cfn-ecs-cluster-defaultcapacityproviderstrategy', args=[d.arg(name='defaultCapacityProviderStrategy', type=d.T.string)]),
+  withDefaultCapacityProviderStrategy(defaultCapacityProviderStrategy): { Properties+: { DefaultCapacityProviderStrategy: defaultCapacityProviderStrategy } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-cluster.html#cfn-ecs-cluster-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.ImageBuilder.Image', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html'),
+  '#withContainerRecipeArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-containerrecipearn', args=[d.arg(name='containerRecipeArn', type=d.T.string)]),
+  withContainerRecipeArn(containerRecipeArn): { Properties+: { ContainerRecipeArn: containerRecipeArn } },
+  '#withDistributionConfigurationArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-distributionconfigurationarn', args=[d.arg(name='distributionConfigurationArn', type=d.T.string)]),
+  withDistributionConfigurationArn(distributionConfigurationArn): { Properties+: { DistributionConfigurationArn: distributionConfigurationArn } },
+  '#withEnhancedImageMetadataEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-enhancedimagemetadataenabled', args=[d.arg(name='enhancedImageMetadataEnabled', type=d.T.string)]),
+  withEnhancedImageMetadataEnabled(enhancedImageMetadataEnabled): { Properties+: { EnhancedImageMetadataEnabled: enhancedImageMetadataEnabled } },
+  '#withImageRecipeArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-imagerecipearn', args=[d.arg(name='imageRecipeArn', type=d.T.string)]),
+  withImageRecipeArn(imageRecipeArn): { Properties+: { ImageRecipeArn: imageRecipeArn } },
+  '#withImageTestsConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-imagetestsconfiguration', args=[d.arg(name='imageTestsConfiguration', type=d.T.string)]),
+  withImageTestsConfiguration(imageTestsConfiguration): { Properties+: { ImageTestsConfiguration: imageTestsConfiguration } },
+  '#withInfrastructureConfigurationArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-infrastructureconfigurationarn', args=[d.arg(name='infrastructureConfigurationArn', type=d.T.string)]),
+  withInfrastructureConfigurationArn(infrastructureConfigurationArn): { Properties+: { InfrastructureConfigurationArn: infrastructureConfigurationArn } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

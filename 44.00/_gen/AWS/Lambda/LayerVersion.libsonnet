@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.Lambda.LayerVersion', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html'),
+  '#withCompatibleArchitectures':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-compatiblearchitectures', args=[d.arg(name='compatibleArchitectures', type=d.T.string)]),
+  withCompatibleArchitectures(compatibleArchitectures): { Properties+: { CompatibleArchitectures: compatibleArchitectures } },
+  '#withCompatibleRuntimes':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-compatibleruntimes', args=[d.arg(name='compatibleRuntimes', type=d.T.string)]),
+  withCompatibleRuntimes(compatibleRuntimes): { Properties+: { CompatibleRuntimes: compatibleRuntimes } },
+  '#withContent':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-content', args=[d.arg(name='content', type=d.T.string)]),
+  withContent(content): { Properties+: { Content: content } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withLayerName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-layername', args=[d.arg(name='layerName', type=d.T.string)]),
+  withLayerName(layerName): { Properties+: { LayerName: layerName } },
+  '#withLicenseInfo':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-licenseinfo', args=[d.arg(name='licenseInfo', type=d.T.string)]),
+  withLicenseInfo(licenseInfo): { Properties+: { LicenseInfo: licenseInfo } },
+}

@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.SageMaker.UserProfile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html'),
+  '#withDomainId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-domainid', args=[d.arg(name='domainId', type=d.T.string)]),
+  withDomainId(domainId): { Properties+: { DomainId: domainId } },
+  '#withSingleSignOnUserIdentifier':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-singlesignonuseridentifier', args=[d.arg(name='singleSignOnUserIdentifier', type=d.T.string)]),
+  withSingleSignOnUserIdentifier(singleSignOnUserIdentifier): { Properties+: { SingleSignOnUserIdentifier: singleSignOnUserIdentifier } },
+  '#withSingleSignOnUserValue':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-singlesignonuservalue', args=[d.arg(name='singleSignOnUserValue', type=d.T.string)]),
+  withSingleSignOnUserValue(singleSignOnUserValue): { Properties+: { SingleSignOnUserValue: singleSignOnUserValue } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withUserProfileName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-userprofilename', args=[d.arg(name='userProfileName', type=d.T.string)]),
+  withUserProfileName(userProfileName): { Properties+: { UserProfileName: userProfileName } },
+  '#withUserSettings':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-usersettings', args=[d.arg(name='userSettings', type=d.T.string)]),
+  withUserSettings(userSettings): { Properties+: { UserSettings: userSettings } },
+}

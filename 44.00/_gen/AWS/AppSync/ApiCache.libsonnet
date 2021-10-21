@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.AppSync.ApiCache', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html'),
+  '#withApiCachingBehavior':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html#cfn-appsync-apicache-apicachingbehavior', args=[d.arg(name='apiCachingBehavior', type=d.T.string)]),
+  withApiCachingBehavior(apiCachingBehavior): { Properties+: { ApiCachingBehavior: apiCachingBehavior } },
+  '#withApiId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html#cfn-appsync-apicache-apiid', args=[d.arg(name='apiId', type=d.T.string)]),
+  withApiId(apiId): { Properties+: { ApiId: apiId } },
+  '#withAtRestEncryptionEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html#cfn-appsync-apicache-atrestencryptionenabled', args=[d.arg(name='atRestEncryptionEnabled', type=d.T.string)]),
+  withAtRestEncryptionEnabled(atRestEncryptionEnabled): { Properties+: { AtRestEncryptionEnabled: atRestEncryptionEnabled } },
+  '#withTransitEncryptionEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html#cfn-appsync-apicache-transitencryptionenabled', args=[d.arg(name='transitEncryptionEnabled', type=d.T.string)]),
+  withTransitEncryptionEnabled(transitEncryptionEnabled): { Properties+: { TransitEncryptionEnabled: transitEncryptionEnabled } },
+  '#withTtl':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html#cfn-appsync-apicache-ttl', args=[d.arg(name='ttl', type=d.T.string)]),
+  withTtl(ttl): { Properties+: { Ttl: ttl } },
+  '#withType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-apicache.html#cfn-appsync-apicache-type', args=[d.arg(name='type', type=d.T.string)]),
+  withType(type): { Properties+: { Type: type } },
+}

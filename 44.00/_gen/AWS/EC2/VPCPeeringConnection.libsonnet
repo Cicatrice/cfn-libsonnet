@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.EC2.VPCPeeringConnection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html'),
+  '#withPeerOwnerId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-peerownerid', args=[d.arg(name='peerOwnerId', type=d.T.string)]),
+  withPeerOwnerId(peerOwnerId): { Properties+: { PeerOwnerId: peerOwnerId } },
+  '#withPeerRegion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-peerregion', args=[d.arg(name='peerRegion', type=d.T.string)]),
+  withPeerRegion(peerRegion): { Properties+: { PeerRegion: peerRegion } },
+  '#withPeerRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-peerrolearn', args=[d.arg(name='peerRoleArn', type=d.T.string)]),
+  withPeerRoleArn(peerRoleArn): { Properties+: { PeerRoleArn: peerRoleArn } },
+  '#withPeerVpcId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-peervpcid', args=[d.arg(name='peerVpcId', type=d.T.string)]),
+  withPeerVpcId(peerVpcId): { Properties+: { PeerVpcId: peerVpcId } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withVpcId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-vpcid', args=[d.arg(name='vpcId', type=d.T.string)]),
+  withVpcId(vpcId): { Properties+: { VpcId: vpcId } },
+}

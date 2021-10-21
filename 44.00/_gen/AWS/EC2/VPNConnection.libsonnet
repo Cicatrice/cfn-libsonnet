@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.EC2.VPNConnection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html'),
+  '#withCustomerGatewayId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-customergatewayid', args=[d.arg(name='customerGatewayId', type=d.T.string)]),
+  withCustomerGatewayId(customerGatewayId): { Properties+: { CustomerGatewayId: customerGatewayId } },
+  '#withStaticRoutesOnly':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-StaticRoutesOnly', args=[d.arg(name='staticRoutesOnly', type=d.T.string)]),
+  withStaticRoutesOnly(staticRoutesOnly): { Properties+: { StaticRoutesOnly: staticRoutesOnly } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTransitGatewayId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-transitgatewayid', args=[d.arg(name='transitGatewayId', type=d.T.string)]),
+  withTransitGatewayId(transitGatewayId): { Properties+: { TransitGatewayId: transitGatewayId } },
+  '#withType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-type', args=[d.arg(name='type', type=d.T.string)]),
+  withType(type): { Properties+: { Type: type } },
+  '#withVpnGatewayId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-vpngatewayid', args=[d.arg(name='vpnGatewayId', type=d.T.string)]),
+  withVpnGatewayId(vpnGatewayId): { Properties+: { VpnGatewayId: vpnGatewayId } },
+  '#withVpnTunnelOptionsSpecifications':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-vpntunneloptionsspecifications', args=[d.arg(name='vpnTunnelOptionsSpecifications', type=d.T.string)]),
+  withVpnTunnelOptionsSpecifications(vpnTunnelOptionsSpecifications): { Properties+: { VpnTunnelOptionsSpecifications: vpnTunnelOptionsSpecifications } },
+}

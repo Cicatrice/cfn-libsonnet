@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.SageMaker.Pipeline', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html'),
+  '#withPipelineDefinition':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-pipelinedefinition', args=[d.arg(name='pipelineDefinition', type=d.T.string)]),
+  withPipelineDefinition(pipelineDefinition): { Properties+: { PipelineDefinition: pipelineDefinition } },
+  '#withPipelineDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-pipelinedescription', args=[d.arg(name='pipelineDescription', type=d.T.string)]),
+  withPipelineDescription(pipelineDescription): { Properties+: { PipelineDescription: pipelineDescription } },
+  '#withPipelineDisplayName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-pipelinedisplayname', args=[d.arg(name='pipelineDisplayName', type=d.T.string)]),
+  withPipelineDisplayName(pipelineDisplayName): { Properties+: { PipelineDisplayName: pipelineDisplayName } },
+  '#withPipelineName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-pipelinename', args=[d.arg(name='pipelineName', type=d.T.string)]),
+  withPipelineName(pipelineName): { Properties+: { PipelineName: pipelineName } },
+  '#withRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-rolearn', args=[d.arg(name='roleArn', type=d.T.string)]),
+  withRoleArn(roleArn): { Properties+: { RoleArn: roleArn } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

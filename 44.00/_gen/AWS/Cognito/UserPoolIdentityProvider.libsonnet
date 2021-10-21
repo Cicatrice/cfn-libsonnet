@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.Cognito.UserPoolIdentityProvider', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html'),
+  '#withAttributeMapping':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-attributemapping', args=[d.arg(name='attributeMapping', type=d.T.string)]),
+  withAttributeMapping(attributeMapping): { Properties+: { AttributeMapping: attributeMapping } },
+  '#withIdpIdentifiers':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-idpidentifiers', args=[d.arg(name='idpIdentifiers', type=d.T.string)]),
+  withIdpIdentifiers(idpIdentifiers): { Properties+: { IdpIdentifiers: idpIdentifiers } },
+  '#withProviderDetails':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-providerdetails', args=[d.arg(name='providerDetails', type=d.T.string)]),
+  withProviderDetails(providerDetails): { Properties+: { ProviderDetails: providerDetails } },
+  '#withProviderName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-providername', args=[d.arg(name='providerName', type=d.T.string)]),
+  withProviderName(providerName): { Properties+: { ProviderName: providerName } },
+  '#withProviderType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-providertype', args=[d.arg(name='providerType', type=d.T.string)]),
+  withProviderType(providerType): { Properties+: { ProviderType: providerType } },
+  '#withUserPoolId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-userpoolid', args=[d.arg(name='userPoolId', type=d.T.string)]),
+  withUserPoolId(userPoolId): { Properties+: { UserPoolId: userPoolId } },
+}

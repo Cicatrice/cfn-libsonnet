@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.QuickSight.Template', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html'),
+  '#withAwsAccountId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-awsaccountid', args=[d.arg(name='awsAccountId', type=d.T.string)]),
+  withAwsAccountId(awsAccountId): { Properties+: { AwsAccountId: awsAccountId } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withPermissions':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-permissions', args=[d.arg(name='permissions', type=d.T.string)]),
+  withPermissions(permissions): { Properties+: { Permissions: permissions } },
+  '#withSourceEntity':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-sourceentity', args=[d.arg(name='sourceEntity', type=d.T.string)]),
+  withSourceEntity(sourceEntity): { Properties+: { SourceEntity: sourceEntity } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTemplateId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-templateid', args=[d.arg(name='templateId', type=d.T.string)]),
+  withTemplateId(templateId): { Properties+: { TemplateId: templateId } },
+  '#withVersionDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-versiondescription', args=[d.arg(name='versionDescription', type=d.T.string)]),
+  withVersionDescription(versionDescription): { Properties+: { VersionDescription: versionDescription } },
+}

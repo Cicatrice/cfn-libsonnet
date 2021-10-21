@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.IoTAnalytics.Datastore', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html'),
+  '#withDatastoreName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-datastorename', args=[d.arg(name='datastoreName', type=d.T.string)]),
+  withDatastoreName(datastoreName): { Properties+: { DatastoreName: datastoreName } },
+  '#withDatastorePartitions':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-datastorepartitions', args=[d.arg(name='datastorePartitions', type=d.T.string)]),
+  withDatastorePartitions(datastorePartitions): { Properties+: { DatastorePartitions: datastorePartitions } },
+  '#withDatastoreStorage':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-datastorestorage', args=[d.arg(name='datastoreStorage', type=d.T.string)]),
+  withDatastoreStorage(datastoreStorage): { Properties+: { DatastoreStorage: datastoreStorage } },
+  '#withFileFormatConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-fileformatconfiguration', args=[d.arg(name='fileFormatConfiguration', type=d.T.string)]),
+  withFileFormatConfiguration(fileFormatConfiguration): { Properties+: { FileFormatConfiguration: fileFormatConfiguration } },
+  '#withRetentionPeriod':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-retentionperiod', args=[d.arg(name='retentionPeriod', type=d.T.string)]),
+  withRetentionPeriod(retentionPeriod): { Properties+: { RetentionPeriod: retentionPeriod } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

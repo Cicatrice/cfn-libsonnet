@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.ElastiCache.User', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html'),
+  '#withAccessString':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-accessstring', args=[d.arg(name='accessString', type=d.T.string)]),
+  withAccessString(accessString): { Properties+: { AccessString: accessString } },
+  '#withEngine':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-engine', args=[d.arg(name='engine', type=d.T.string)]),
+  withEngine(engine): { Properties+: { Engine: engine } },
+  '#withNoPasswordRequired':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-nopasswordrequired', args=[d.arg(name='noPasswordRequired', type=d.T.string)]),
+  withNoPasswordRequired(noPasswordRequired): { Properties+: { NoPasswordRequired: noPasswordRequired } },
+  '#withPasswords':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-passwords', args=[d.arg(name='passwords', type=d.T.string)]),
+  withPasswords(passwords): { Properties+: { Passwords: passwords } },
+  '#withUserId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-userid', args=[d.arg(name='userId', type=d.T.string)]),
+  withUserId(userId): { Properties+: { UserId: userId } },
+  '#withUserName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-username', args=[d.arg(name='userName', type=d.T.string)]),
+  withUserName(userName): { Properties+: { UserName: userName } },
+}

@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.Config.DeliveryChannel', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html'),
+  '#withConfigSnapshotDeliveryProperties':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-configsnapshotdeliveryproperties', args=[d.arg(name='configSnapshotDeliveryProperties', type=d.T.string)]),
+  withConfigSnapshotDeliveryProperties(configSnapshotDeliveryProperties): { Properties+: { ConfigSnapshotDeliveryProperties: configSnapshotDeliveryProperties } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withS3BucketName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-s3bucketname', args=[d.arg(name='s3bucketName', type=d.T.string)]),
+  withS3BucketName(s3bucketName): { Properties+: { S3BucketName: s3bucketName } },
+  '#withS3KeyPrefix':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-s3keyprefix', args=[d.arg(name='s3keyPrefix', type=d.T.string)]),
+  withS3KeyPrefix(s3keyPrefix): { Properties+: { S3KeyPrefix: s3keyPrefix } },
+  '#withS3KmsKeyArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-s3kmskeyarn', args=[d.arg(name='s3kmsKeyArn', type=d.T.string)]),
+  withS3KmsKeyArn(s3kmsKeyArn): { Properties+: { S3KmsKeyArn: s3kmsKeyArn } },
+  '#withSnsTopicARN':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-snstopicarn', args=[d.arg(name='snsTopicArn', type=d.T.string)]),
+  withSnsTopicARN(snsTopicArn): { Properties+: { SnsTopicARN: snsTopicArn } },
+}

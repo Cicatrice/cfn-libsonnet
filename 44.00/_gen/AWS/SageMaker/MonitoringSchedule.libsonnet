@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.SageMaker.MonitoringSchedule', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html'),
+  '#withEndpointName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-endpointname', args=[d.arg(name='endpointName', type=d.T.string)]),
+  withEndpointName(endpointName): { Properties+: { EndpointName: endpointName } },
+  '#withFailureReason':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-failurereason', args=[d.arg(name='failureReason', type=d.T.string)]),
+  withFailureReason(failureReason): { Properties+: { FailureReason: failureReason } },
+  '#withLastMonitoringExecutionSummary':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-lastmonitoringexecutionsummary', args=[d.arg(name='lastMonitoringExecutionSummary', type=d.T.string)]),
+  withLastMonitoringExecutionSummary(lastMonitoringExecutionSummary): { Properties+: { LastMonitoringExecutionSummary: lastMonitoringExecutionSummary } },
+  '#withMonitoringScheduleConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-monitoringscheduleconfig', args=[d.arg(name='monitoringScheduleConfig', type=d.T.string)]),
+  withMonitoringScheduleConfig(monitoringScheduleConfig): { Properties+: { MonitoringScheduleConfig: monitoringScheduleConfig } },
+  '#withMonitoringScheduleName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-monitoringschedulename', args=[d.arg(name='monitoringScheduleName', type=d.T.string)]),
+  withMonitoringScheduleName(monitoringScheduleName): { Properties+: { MonitoringScheduleName: monitoringScheduleName } },
+  '#withMonitoringScheduleStatus':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-monitoringschedulestatus', args=[d.arg(name='monitoringScheduleStatus', type=d.T.string)]),
+  withMonitoringScheduleStatus(monitoringScheduleStatus): { Properties+: { MonitoringScheduleStatus: monitoringScheduleStatus } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

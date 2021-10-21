@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AWS.SageMaker.App', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html'),
+  '#withAppName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-appname', args=[d.arg(name='appName', type=d.T.string)]),
+  withAppName(appName): { Properties+: { AppName: appName } },
+  '#withAppType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-apptype', args=[d.arg(name='appType', type=d.T.string)]),
+  withAppType(appType): { Properties+: { AppType: appType } },
+  '#withDomainId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-domainid', args=[d.arg(name='domainId', type=d.T.string)]),
+  withDomainId(domainId): { Properties+: { DomainId: domainId } },
+  '#withResourceSpec':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-resourcespec', args=[d.arg(name='resourceSpec', type=d.T.string)]),
+  withResourceSpec(resourceSpec): { Properties+: { ResourceSpec: resourceSpec } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withUserProfileName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-userprofilename', args=[d.arg(name='userProfileName', type=d.T.string)]),
+  withUserProfileName(userProfileName): { Properties+: { UserProfileName: userProfileName } },
+}
