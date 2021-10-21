@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='DHCPOptions', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html'),
+  '#withDomainName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-domainname', args=[d.arg(name='domainName', type=d.T.string)]),
+  withDomainName(domainName): { Properties+: { DomainName: domainName } },
+  '#withDomainNameServers':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-domainnameservers', args=[d.arg(name='domainNameServers', type=d.T.string)]),
+  withDomainNameServers(domainNameServers): { Properties+: { DomainNameServers: domainNameServers } },
+  '#withNetbiosNameServers':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-netbiosnameservers', args=[d.arg(name='netbiosNameServers', type=d.T.string)]),
+  withNetbiosNameServers(netbiosNameServers): { Properties+: { NetbiosNameServers: netbiosNameServers } },
+  '#withNetbiosNodeType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-netbiosnodetype', args=[d.arg(name='netbiosNodeType', type=d.T.string)]),
+  withNetbiosNodeType(netbiosNodeType): { Properties+: { NetbiosNodeType: netbiosNodeType } },
+  '#withNtpServers':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-ntpservers', args=[d.arg(name='ntpServers', type=d.T.string)]),
+  withNtpServers(ntpServers): { Properties+: { NtpServers: ntpServers } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='EventSubscription', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html'),
+  '#withEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-enabled', args=[d.arg(name='enabled', type=d.T.string)]),
+  withEnabled(enabled): { Properties+: { Enabled: enabled } },
+  '#withEventCategories':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-eventcategories', args=[d.arg(name='eventCategories', type=d.T.string)]),
+  withEventCategories(eventCategories): { Properties+: { EventCategories: eventCategories } },
+  '#withSnsTopicArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-snstopicarn', args=[d.arg(name='snsTopicArn', type=d.T.string)]),
+  withSnsTopicArn(snsTopicArn): { Properties+: { SnsTopicArn: snsTopicArn } },
+  '#withSourceIds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-sourceids', args=[d.arg(name='sourceIds', type=d.T.string)]),
+  withSourceIds(sourceIds): { Properties+: { SourceIds: sourceIds } },
+  '#withSourceType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-sourcetype', args=[d.arg(name='sourceType', type=d.T.string)]),
+  withSourceType(sourceType): { Properties+: { SourceType: sourceType } },
+  '#withSubscriptionName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-subscriptionname', args=[d.arg(name='subscriptionName', type=d.T.string)]),
+  withSubscriptionName(subscriptionName): { Properties+: { SubscriptionName: subscriptionName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

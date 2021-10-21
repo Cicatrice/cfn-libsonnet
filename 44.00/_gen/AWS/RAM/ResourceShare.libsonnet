@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ResourceShare', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html'),
+  '#withAllowExternalPrincipals':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-allowexternalprincipals', args=[d.arg(name='allowExternalPrincipals', type=d.T.string)]),
+  withAllowExternalPrincipals(allowExternalPrincipals): { Properties+: { AllowExternalPrincipals: allowExternalPrincipals } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withPermissionArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-permissionarns', args=[d.arg(name='permissionArns', type=d.T.string)]),
+  withPermissionArns(permissionArns): { Properties+: { PermissionArns: permissionArns } },
+  '#withPrincipals':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-principals', args=[d.arg(name='principals', type=d.T.string)]),
+  withPrincipals(principals): { Properties+: { Principals: principals } },
+  '#withResourceArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-resourcearns', args=[d.arg(name='resourceArns', type=d.T.string)]),
+  withResourceArns(resourceArns): { Properties+: { ResourceArns: resourceArns } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

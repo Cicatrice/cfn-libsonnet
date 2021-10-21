@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='SecurityProfile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html'),
+  '#withAdditionalMetricsToRetainV2':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-additionalmetricstoretainv2', args=[d.arg(name='additionalMetricsToRetainV2', type=d.T.string)]),
+  withAdditionalMetricsToRetainV2(additionalMetricsToRetainV2): { Properties+: { AdditionalMetricsToRetainV2: additionalMetricsToRetainV2 } },
+  '#withAlertTargets':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-alerttargets', args=[d.arg(name='alertTargets', type=d.T.string)]),
+  withAlertTargets(alertTargets): { Properties+: { AlertTargets: alertTargets } },
+  '#withBehaviors':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-behaviors', args=[d.arg(name='behaviors', type=d.T.string)]),
+  withBehaviors(behaviors): { Properties+: { Behaviors: behaviors } },
+  '#withSecurityProfileDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-securityprofiledescription', args=[d.arg(name='securityProfileDescription', type=d.T.string)]),
+  withSecurityProfileDescription(securityProfileDescription): { Properties+: { SecurityProfileDescription: securityProfileDescription } },
+  '#withSecurityProfileName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-securityprofilename', args=[d.arg(name='securityProfileName', type=d.T.string)]),
+  withSecurityProfileName(securityProfileName): { Properties+: { SecurityProfileName: securityProfileName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTargetArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-targetarns', args=[d.arg(name='targetArns', type=d.T.string)]),
+  withTargetArns(targetArns): { Properties+: { TargetArns: targetArns } },
+}

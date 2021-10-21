@@ -1,0 +1,17 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='RDS', url='', help=''),
+  DBCluster: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBCluster.libsonnet'),
+  DBClusterParameterGroup: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBClusterParameterGroup.libsonnet'),
+  DBInstance: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBInstance.libsonnet'),
+  DBParameterGroup: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBParameterGroup.libsonnet'),
+  DBProxy: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBProxy.libsonnet'),
+  DBProxyEndpoint: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBProxyEndpoint.libsonnet'),
+  DBProxyTargetGroup: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBProxyTargetGroup.libsonnet'),
+  DBSecurityGroup: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBSecurityGroup.libsonnet'),
+  DBSecurityGroupIngress: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBSecurityGroupIngress.libsonnet'),
+  DBSubnetGroup: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/DBSubnetGroup.libsonnet'),
+  EventSubscription: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/EventSubscription.libsonnet'),
+  GlobalCluster: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/GlobalCluster.libsonnet'),
+  OptionGroup: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/RDS/OptionGroup.libsonnet'),
+}

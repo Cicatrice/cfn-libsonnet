@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ApiDestination', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html'),
+  '#withConnectionArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-connectionarn', args=[d.arg(name='connectionArn', type=d.T.string)]),
+  withConnectionArn(connectionArn): { Properties+: { ConnectionArn: connectionArn } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withHttpMethod':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-httpmethod', args=[d.arg(name='httpMethod', type=d.T.string)]),
+  withHttpMethod(httpMethod): { Properties+: { HttpMethod: httpMethod } },
+  '#withInvocationEndpoint':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-invocationendpoint', args=[d.arg(name='invocationEndpoint', type=d.T.string)]),
+  withInvocationEndpoint(invocationEndpoint): { Properties+: { InvocationEndpoint: invocationEndpoint } },
+  '#withInvocationRateLimitPerSecond':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-invocationratelimitpersecond', args=[d.arg(name='invocationRateLimitPerSecond', type=d.T.string)]),
+  withInvocationRateLimitPerSecond(invocationRateLimitPerSecond): { Properties+: { InvocationRateLimitPerSecond: invocationRateLimitPerSecond } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+}

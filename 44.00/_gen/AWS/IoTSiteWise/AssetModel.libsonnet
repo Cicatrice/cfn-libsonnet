@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AssetModel', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html'),
+  '#withAssetModelCompositeModels':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelcompositemodels', args=[d.arg(name='assetModelCompositeModels', type=d.T.string)]),
+  withAssetModelCompositeModels(assetModelCompositeModels): { Properties+: { AssetModelCompositeModels: assetModelCompositeModels } },
+  '#withAssetModelDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodeldescription', args=[d.arg(name='assetModelDescription', type=d.T.string)]),
+  withAssetModelDescription(assetModelDescription): { Properties+: { AssetModelDescription: assetModelDescription } },
+  '#withAssetModelHierarchies':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelhierarchies', args=[d.arg(name='assetModelHierarchies', type=d.T.string)]),
+  withAssetModelHierarchies(assetModelHierarchies): { Properties+: { AssetModelHierarchies: assetModelHierarchies } },
+  '#withAssetModelName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelname', args=[d.arg(name='assetModelName', type=d.T.string)]),
+  withAssetModelName(assetModelName): { Properties+: { AssetModelName: assetModelName } },
+  '#withAssetModelProperties':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelproperties', args=[d.arg(name='assetModelProperties', type=d.T.string)]),
+  withAssetModelProperties(assetModelProperties): { Properties+: { AssetModelProperties: assetModelProperties } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

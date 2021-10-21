@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='EndpointConfig', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html'),
+  '#withAsyncInferenceConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-asyncinferenceconfig', args=[d.arg(name='asyncInferenceConfig', type=d.T.string)]),
+  withAsyncInferenceConfig(asyncInferenceConfig): { Properties+: { AsyncInferenceConfig: asyncInferenceConfig } },
+  '#withDataCaptureConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-datacaptureconfig', args=[d.arg(name='dataCaptureConfig', type=d.T.string)]),
+  withDataCaptureConfig(dataCaptureConfig): { Properties+: { DataCaptureConfig: dataCaptureConfig } },
+  '#withEndpointConfigName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-endpointconfigname', args=[d.arg(name='endpointConfigName', type=d.T.string)]),
+  withEndpointConfigName(endpointConfigName): { Properties+: { EndpointConfigName: endpointConfigName } },
+  '#withKmsKeyId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-kmskeyid', args=[d.arg(name='kmsKeyId', type=d.T.string)]),
+  withKmsKeyId(kmsKeyId): { Properties+: { KmsKeyId: kmsKeyId } },
+  '#withProductionVariants':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-productionvariants', args=[d.arg(name='productionVariants', type=d.T.string)]),
+  withProductionVariants(productionVariants): { Properties+: { ProductionVariants: productionVariants } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

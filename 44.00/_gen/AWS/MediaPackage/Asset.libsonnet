@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Asset', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html'),
+  '#withId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html#cfn-mediapackage-asset-id', args=[d.arg(name='id', type=d.T.string)]),
+  withId(id): { Properties+: { Id: id } },
+  '#withPackagingGroupId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html#cfn-mediapackage-asset-packaginggroupid', args=[d.arg(name='packagingGroupId', type=d.T.string)]),
+  withPackagingGroupId(packagingGroupId): { Properties+: { PackagingGroupId: packagingGroupId } },
+  '#withResourceId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html#cfn-mediapackage-asset-resourceid', args=[d.arg(name='resourceId', type=d.T.string)]),
+  withResourceId(resourceId): { Properties+: { ResourceId: resourceId } },
+  '#withSourceArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html#cfn-mediapackage-asset-sourcearn', args=[d.arg(name='sourceArn', type=d.T.string)]),
+  withSourceArn(sourceArn): { Properties+: { SourceArn: sourceArn } },
+  '#withSourceRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html#cfn-mediapackage-asset-sourcerolearn', args=[d.arg(name='sourceRoleArn', type=d.T.string)]),
+  withSourceRoleArn(sourceRoleArn): { Properties+: { SourceRoleArn: sourceRoleArn } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-asset.html#cfn-mediapackage-asset-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

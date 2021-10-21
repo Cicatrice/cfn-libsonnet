@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ReplicaKey', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html'),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-enabled', args=[d.arg(name='enabled', type=d.T.string)]),
+  withEnabled(enabled): { Properties+: { Enabled: enabled } },
+  '#withKeyPolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-keypolicy', args=[d.arg(name='keyPolicy', type=d.T.string)]),
+  withKeyPolicy(keyPolicy): { Properties+: { KeyPolicy: keyPolicy } },
+  '#withPendingWindowInDays':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-pendingwindowindays', args=[d.arg(name='pendingWindowInDays', type=d.T.string)]),
+  withPendingWindowInDays(pendingWindowInDays): { Properties+: { PendingWindowInDays: pendingWindowInDays } },
+  '#withPrimaryKeyArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-primarykeyarn', args=[d.arg(name='primaryKeyArn', type=d.T.string)]),
+  withPrimaryKeyArn(primaryKeyArn): { Properties+: { PrimaryKeyArn: primaryKeyArn } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

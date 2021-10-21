@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='PartnerAccount', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html'),
+  '#withAccountLinked':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-accountlinked', args=[d.arg(name='accountLinked', type=d.T.string)]),
+  withAccountLinked(accountLinked): { Properties+: { AccountLinked: accountLinked } },
+  '#withFingerprint':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-fingerprint', args=[d.arg(name='fingerprint', type=d.T.string)]),
+  withFingerprint(fingerprint): { Properties+: { Fingerprint: fingerprint } },
+  '#withPartnerAccountId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-partneraccountid', args=[d.arg(name='partnerAccountId', type=d.T.string)]),
+  withPartnerAccountId(partnerAccountId): { Properties+: { PartnerAccountId: partnerAccountId } },
+  '#withPartnerType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-partnertype', args=[d.arg(name='partnerType', type=d.T.string)]),
+  withPartnerType(partnerType): { Properties+: { PartnerType: partnerType } },
+  '#withSidewalk':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-sidewalk', args=[d.arg(name='sidewalk', type=d.T.string)]),
+  withSidewalk(sidewalk): { Properties+: { Sidewalk: sidewalk } },
+  '#withSidewalkUpdate':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-sidewalkupdate', args=[d.arg(name='sidewalkUpdate', type=d.T.string)]),
+  withSidewalkUpdate(sidewalkUpdate): { Properties+: { SidewalkUpdate: sidewalkUpdate } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

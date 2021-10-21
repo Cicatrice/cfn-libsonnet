@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Authorizer', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html'),
+  '#withAuthorizerFunctionArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-authorizerfunctionarn', args=[d.arg(name='authorizerFunctionArn', type=d.T.string)]),
+  withAuthorizerFunctionArn(authorizerFunctionArn): { Properties+: { AuthorizerFunctionArn: authorizerFunctionArn } },
+  '#withAuthorizerName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-authorizername', args=[d.arg(name='authorizerName', type=d.T.string)]),
+  withAuthorizerName(authorizerName): { Properties+: { AuthorizerName: authorizerName } },
+  '#withSigningDisabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-signingdisabled', args=[d.arg(name='signingDisabled', type=d.T.string)]),
+  withSigningDisabled(signingDisabled): { Properties+: { SigningDisabled: signingDisabled } },
+  '#withStatus':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-status', args=[d.arg(name='status', type=d.T.string)]),
+  withStatus(status): { Properties+: { Status: status } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTokenKeyName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-tokenkeyname', args=[d.arg(name='tokenKeyName', type=d.T.string)]),
+  withTokenKeyName(tokenKeyName): { Properties+: { TokenKeyName: tokenKeyName } },
+  '#withTokenSigningPublicKeys':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-tokensigningpublickeys', args=[d.arg(name='tokenSigningPublicKeys', type=d.T.string)]),
+  withTokenSigningPublicKeys(tokenSigningPublicKeys): { Properties+: { TokenSigningPublicKeys: tokenSigningPublicKeys } },
+}

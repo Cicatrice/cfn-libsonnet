@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='EmailTemplate', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html'),
+  '#withDefaultSubstitutions':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-defaultsubstitutions', args=[d.arg(name='defaultSubstitutions', type=d.T.string)]),
+  withDefaultSubstitutions(defaultSubstitutions): { Properties+: { DefaultSubstitutions: defaultSubstitutions } },
+  '#withHtmlPart':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-htmlpart', args=[d.arg(name='htmlPart', type=d.T.string)]),
+  withHtmlPart(htmlPart): { Properties+: { HtmlPart: htmlPart } },
+  '#withSubject':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-subject', args=[d.arg(name='subject', type=d.T.string)]),
+  withSubject(subject): { Properties+: { Subject: subject } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTemplateDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-templatedescription', args=[d.arg(name='templateDescription', type=d.T.string)]),
+  withTemplateDescription(templateDescription): { Properties+: { TemplateDescription: templateDescription } },
+  '#withTemplateName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-templatename', args=[d.arg(name='templateName', type=d.T.string)]),
+  withTemplateName(templateName): { Properties+: { TemplateName: templateName } },
+  '#withTextPart':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-textpart', args=[d.arg(name='textPart', type=d.T.string)]),
+  withTextPart(textPart): { Properties+: { TextPart: textPart } },
+}

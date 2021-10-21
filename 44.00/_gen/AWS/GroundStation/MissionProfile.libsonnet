@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='MissionProfile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html'),
+  '#withContactPostPassDurationSeconds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-contactpostpassdurationseconds', args=[d.arg(name='contactPostPassDurationSeconds', type=d.T.string)]),
+  withContactPostPassDurationSeconds(contactPostPassDurationSeconds): { Properties+: { ContactPostPassDurationSeconds: contactPostPassDurationSeconds } },
+  '#withContactPrePassDurationSeconds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-contactprepassdurationseconds', args=[d.arg(name='contactPrePassDurationSeconds', type=d.T.string)]),
+  withContactPrePassDurationSeconds(contactPrePassDurationSeconds): { Properties+: { ContactPrePassDurationSeconds: contactPrePassDurationSeconds } },
+  '#withDataflowEdges':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-dataflowedges', args=[d.arg(name='dataflowEdges', type=d.T.string)]),
+  withDataflowEdges(dataflowEdges): { Properties+: { DataflowEdges: dataflowEdges } },
+  '#withMinimumViableContactDurationSeconds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-minimumviablecontactdurationseconds', args=[d.arg(name='minimumViableContactDurationSeconds', type=d.T.string)]),
+  withMinimumViableContactDurationSeconds(minimumViableContactDurationSeconds): { Properties+: { MinimumViableContactDurationSeconds: minimumViableContactDurationSeconds } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTrackingConfigArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-trackingconfigarn', args=[d.arg(name='trackingConfigArn', type=d.T.string)]),
+  withTrackingConfigArn(trackingConfigArn): { Properties+: { TrackingConfigArn: trackingConfigArn } },
+}

@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='CustomDataIdentifier', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html'),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withIgnoreWords':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-ignorewords', args=[d.arg(name='ignoreWords', type=d.T.string)]),
+  withIgnoreWords(ignoreWords): { Properties+: { IgnoreWords: ignoreWords } },
+  '#withKeywords':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-keywords', args=[d.arg(name='keywords', type=d.T.string)]),
+  withKeywords(keywords): { Properties+: { Keywords: keywords } },
+  '#withMaximumMatchDistance':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-maximummatchdistance', args=[d.arg(name='maximumMatchDistance', type=d.T.string)]),
+  withMaximumMatchDistance(maximumMatchDistance): { Properties+: { MaximumMatchDistance: maximumMatchDistance } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withRegex':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-regex', args=[d.arg(name='regex', type=d.T.string)]),
+  withRegex(regex): { Properties+: { Regex: regex } },
+}

@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ManagedPolicy', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html'),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withGroups':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-groups', args=[d.arg(name='groups', type=d.T.string)]),
+  withGroups(groups): { Properties+: { Groups: groups } },
+  '#withManagedPolicyName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-managedpolicyname', args=[d.arg(name='managedPolicyName', type=d.T.string)]),
+  withManagedPolicyName(managedPolicyName): { Properties+: { ManagedPolicyName: managedPolicyName } },
+  '#withPath':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-ec2-dhcpoptions-path', args=[d.arg(name='path', type=d.T.string)]),
+  withPath(path): { Properties+: { Path: path } },
+  '#withPolicyDocument':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-policydocument', args=[d.arg(name='policyDocument', type=d.T.string)]),
+  withPolicyDocument(policyDocument): { Properties+: { PolicyDocument: policyDocument } },
+  '#withRoles':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-roles', args=[d.arg(name='roles', type=d.T.string)]),
+  withRoles(roles): { Properties+: { Roles: roles } },
+  '#withUsers':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-users', args=[d.arg(name='users', type=d.T.string)]),
+  withUsers(users): { Properties+: { Users: users } },
+}

@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Container', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html'),
+  '#withAccessLoggingEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-accessloggingenabled', args=[d.arg(name='accessLoggingEnabled', type=d.T.string)]),
+  withAccessLoggingEnabled(accessLoggingEnabled): { Properties+: { AccessLoggingEnabled: accessLoggingEnabled } },
+  '#withContainerName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-containername', args=[d.arg(name='containerName', type=d.T.string)]),
+  withContainerName(containerName): { Properties+: { ContainerName: containerName } },
+  '#withCorsPolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-corspolicy', args=[d.arg(name='corsPolicy', type=d.T.string)]),
+  withCorsPolicy(corsPolicy): { Properties+: { CorsPolicy: corsPolicy } },
+  '#withLifecyclePolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-lifecyclepolicy', args=[d.arg(name='lifecyclePolicy', type=d.T.string)]),
+  withLifecyclePolicy(lifecyclePolicy): { Properties+: { LifecyclePolicy: lifecyclePolicy } },
+  '#withMetricPolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-metricpolicy', args=[d.arg(name='metricPolicy', type=d.T.string)]),
+  withMetricPolicy(metricPolicy): { Properties+: { MetricPolicy: metricPolicy } },
+  '#withPolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-policy', args=[d.arg(name='policy', type=d.T.string)]),
+  withPolicy(policy): { Properties+: { Policy: policy } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+}

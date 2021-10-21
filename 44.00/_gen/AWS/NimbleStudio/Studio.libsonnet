@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Studio', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html'),
+  '#withAdminRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-adminrolearn', args=[d.arg(name='adminRoleArn', type=d.T.string)]),
+  withAdminRoleArn(adminRoleArn): { Properties+: { AdminRoleArn: adminRoleArn } },
+  '#withDisplayName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-displayname', args=[d.arg(name='displayName', type=d.T.string)]),
+  withDisplayName(displayName): { Properties+: { DisplayName: displayName } },
+  '#withStudioEncryptionConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-studioencryptionconfiguration', args=[d.arg(name='studioEncryptionConfiguration', type=d.T.string)]),
+  withStudioEncryptionConfiguration(studioEncryptionConfiguration): { Properties+: { StudioEncryptionConfiguration: studioEncryptionConfiguration } },
+  '#withStudioName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-studioname', args=[d.arg(name='studioName', type=d.T.string)]),
+  withStudioName(studioName): { Properties+: { StudioName: studioName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withUserRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-userrolearn', args=[d.arg(name='userRoleArn', type=d.T.string)]),
+  withUserRoleArn(userRoleArn): { Properties+: { UserRoleArn: userRoleArn } },
+}

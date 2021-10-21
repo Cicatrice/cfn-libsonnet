@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Cluster', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html'),
+  '#withEncryptionConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-encryptionconfig', args=[d.arg(name='encryptionConfig', type=d.T.string)]),
+  withEncryptionConfig(encryptionConfig): { Properties+: { EncryptionConfig: encryptionConfig } },
+  '#withKubernetesNetworkConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-kubernetesnetworkconfig', args=[d.arg(name='kubernetesNetworkConfig', type=d.T.string)]),
+  withKubernetesNetworkConfig(kubernetesNetworkConfig): { Properties+: { KubernetesNetworkConfig: kubernetesNetworkConfig } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withResourcesVpcConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-resourcesvpcconfig', args=[d.arg(name='resourcesVpcConfig', type=d.T.string)]),
+  withResourcesVpcConfig(resourcesVpcConfig): { Properties+: { ResourcesVpcConfig: resourcesVpcConfig } },
+  '#withRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-rolearn', args=[d.arg(name='roleArn', type=d.T.string)]),
+  withRoleArn(roleArn): { Properties+: { RoleArn: roleArn } },
+  '#withVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-version', args=[d.arg(name='version', type=d.T.string)]),
+  withVersion(version): { Properties+: { Version: version } },
+}

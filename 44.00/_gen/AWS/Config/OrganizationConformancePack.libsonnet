@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='OrganizationConformancePack', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html'),
+  '#withConformancePackInputParameters':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-conformancepackinputparameters', args=[d.arg(name='conformancePackInputParameters', type=d.T.string)]),
+  withConformancePackInputParameters(conformancePackInputParameters): { Properties+: { ConformancePackInputParameters: conformancePackInputParameters } },
+  '#withDeliveryS3Bucket':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-deliverys3bucket', args=[d.arg(name='deliveryS3bucket', type=d.T.string)]),
+  withDeliveryS3Bucket(deliveryS3bucket): { Properties+: { DeliveryS3Bucket: deliveryS3bucket } },
+  '#withDeliveryS3KeyPrefix':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-deliverys3keyprefix', args=[d.arg(name='deliveryS3keyPrefix', type=d.T.string)]),
+  withDeliveryS3KeyPrefix(deliveryS3keyPrefix): { Properties+: { DeliveryS3KeyPrefix: deliveryS3keyPrefix } },
+  '#withExcludedAccounts':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-excludedaccounts', args=[d.arg(name='excludedAccounts', type=d.T.string)]),
+  withExcludedAccounts(excludedAccounts): { Properties+: { ExcludedAccounts: excludedAccounts } },
+  '#withOrganizationConformancePackName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-organizationconformancepackname', args=[d.arg(name='organizationConformancePackName', type=d.T.string)]),
+  withOrganizationConformancePackName(organizationConformancePackName): { Properties+: { OrganizationConformancePackName: organizationConformancePackName } },
+  '#withTemplateBody':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-templatebody', args=[d.arg(name='templateBody', type=d.T.string)]),
+  withTemplateBody(templateBody): { Properties+: { TemplateBody: templateBody } },
+  '#withTemplateS3Uri':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-templates3uri', args=[d.arg(name='templateS3uri', type=d.T.string)]),
+  withTemplateS3Uri(templateS3uri): { Properties+: { TemplateS3Uri: templateS3uri } },
+}

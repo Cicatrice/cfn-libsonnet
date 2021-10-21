@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='TaskDefinition', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html'),
+  '#withAutoCreateTasks':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-autocreatetasks', args=[d.arg(name='autoCreateTasks', type=d.T.string)]),
+  withAutoCreateTasks(autoCreateTasks): { Properties+: { AutoCreateTasks: autoCreateTasks } },
+  '#withLoRaWANUpdateGatewayTaskEntry':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-lorawanupdategatewaytaskentry', args=[d.arg(name='loRaWanupdateGatewayTaskEntry', type=d.T.string)]),
+  withLoRaWANUpdateGatewayTaskEntry(loRaWanupdateGatewayTaskEntry): { Properties+: { LoRaWANUpdateGatewayTaskEntry: loRaWanupdateGatewayTaskEntry } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-tags', args=[d.arg(name='tags', type=d.T.string)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTaskDefinitionType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-taskdefinitiontype', args=[d.arg(name='taskDefinitionType', type=d.T.string)]),
+  withTaskDefinitionType(taskDefinitionType): { Properties+: { TaskDefinitionType: taskDefinitionType } },
+  '#withUpdate':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-update', args=[d.arg(name='update', type=d.T.string)]),
+  withUpdate(update): { Properties+: { Update: update } },
+}
