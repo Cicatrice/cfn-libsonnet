@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-be
 * [`fn withApplicationName(applicationName)`](#fn-withapplicationname)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withResourceLifecycleConfig(resourceLifecycleConfig)`](#fn-withresourcelifecycleconfig)
+* [`fn withResourceLifecycleConfigMixin(resourceLifecycleConfig)`](#fn-withresourcelifecycleconfigmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-be
 
 ```ts
 withResourceLifecycleConfig(resourceLifecycleConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk.html#cfn-elasticbeanstalk-application-resourcelifecycleconfig
+
+### fn withResourceLifecycleConfigMixin
+
+```ts
+withResourceLifecycleConfigMixin(resourceLifecycleConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk.html#cfn-elasticbeanstalk-application-resourcelifecycleconfig

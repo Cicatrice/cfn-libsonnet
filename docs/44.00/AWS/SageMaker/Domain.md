@@ -24,10 +24,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withAppNetworkAccessType(appNetworkAccessType)`](#fn-withappnetworkaccesstype)
 * [`fn withAuthMode(authMode)`](#fn-withauthmode)
 * [`fn withDefaultUserSettings(defaultUserSettings)`](#fn-withdefaultusersettings)
+* [`fn withDefaultUserSettingsMixin(defaultUserSettings)`](#fn-withdefaultusersettingsmixin)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withSubnetIds(subnetIds)`](#fn-withsubnetids)
+* [`fn withSubnetIdsMixin(subnetIds)`](#fn-withsubnetidsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
 
 ## Fields
@@ -160,6 +163,14 @@ withDefaultUserSettings(defaultUserSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html#cfn-sagemaker-domain-defaultusersettings
 
+### fn withDefaultUserSettingsMixin
+
+```ts
+withDefaultUserSettingsMixin(defaultUserSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html#cfn-sagemaker-domain-defaultusersettings
+
 ### fn withDomainName
 
 ```ts
@@ -184,10 +195,26 @@ withSubnetIds(subnetIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html#cfn-sagemaker-domain-subnetids
 
+### fn withSubnetIdsMixin
+
+```ts
+withSubnetIdsMixin(subnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html#cfn-sagemaker-domain-subnetids
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html#cfn-sagemaker-domain-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-domain.html#cfn-sagemaker-domain-tags

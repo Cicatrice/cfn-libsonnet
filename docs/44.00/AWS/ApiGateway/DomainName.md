@@ -24,11 +24,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withCertificateArn(certificateArn)`](#fn-withcertificatearn)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withEndpointConfiguration(endpointConfiguration)`](#fn-withendpointconfiguration)
+* [`fn withEndpointConfigurationMixin(endpointConfiguration)`](#fn-withendpointconfigurationmixin)
 * [`fn withMutualTlsAuthentication(mutualTlsAuthentication)`](#fn-withmutualtlsauthentication)
+* [`fn withMutualTlsAuthenticationMixin(mutualTlsAuthentication)`](#fn-withmutualtlsauthenticationmixin)
 * [`fn withOwnershipVerificationCertificateArn(ownershipVerificationCertificateArn)`](#fn-withownershipverificationcertificatearn)
 * [`fn withRegionalCertificateArn(regionalCertificateArn)`](#fn-withregionalcertificatearn)
 * [`fn withSecurityPolicy(securityPolicy)`](#fn-withsecuritypolicy)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -160,10 +163,26 @@ withEndpointConfiguration(endpointConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html#cfn-apigateway-domainname-endpointconfiguration
 
+### fn withEndpointConfigurationMixin
+
+```ts
+withEndpointConfigurationMixin(endpointConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html#cfn-apigateway-domainname-endpointconfiguration
+
 ### fn withMutualTlsAuthentication
 
 ```ts
 withMutualTlsAuthentication(mutualTlsAuthentication)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html#cfn-apigateway-domainname-mutualtlsauthentication
+
+### fn withMutualTlsAuthenticationMixin
+
+```ts
+withMutualTlsAuthenticationMixin(mutualTlsAuthentication)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html#cfn-apigateway-domainname-mutualtlsauthentication
@@ -196,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html#cfn-apigateway-domainname-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-domainname.html#cfn-apigateway-domainname-tags

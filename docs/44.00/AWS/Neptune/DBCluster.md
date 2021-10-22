@@ -22,13 +22,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nept
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssociatedRoles(associatedRoles)`](#fn-withassociatedroles)
+* [`fn withAssociatedRolesMixin(associatedRoles)`](#fn-withassociatedrolesmixin)
 * [`fn withAvailabilityZones(availabilityZones)`](#fn-withavailabilityzones)
+* [`fn withAvailabilityZonesMixin(availabilityZones)`](#fn-withavailabilityzonesmixin)
 * [`fn withBackupRetentionPeriod(backupRetentionPeriod)`](#fn-withbackupretentionperiod)
 * [`fn withDBClusterIdentifier(dbclusterIdentifier)`](#fn-withdbclusteridentifier)
 * [`fn withDBClusterParameterGroupName(dbclusterParameterGroupName)`](#fn-withdbclusterparametergroupname)
 * [`fn withDBSubnetGroupName(dbsubnetGroupName)`](#fn-withdbsubnetgroupname)
 * [`fn withDeletionProtection(deletionProtection)`](#fn-withdeletionprotection)
 * [`fn withEnableCloudwatchLogsExports(enableCloudwatchLogsExports)`](#fn-withenablecloudwatchlogsexports)
+* [`fn withEnableCloudwatchLogsExportsMixin(enableCloudwatchLogsExports)`](#fn-withenablecloudwatchlogsexportsmixin)
 * [`fn withEngineVersion(engineVersion)`](#fn-withengineversion)
 * [`fn withIamAuthEnabled(iamAuthEnabled)`](#fn-withiamauthenabled)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
@@ -41,8 +44,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nept
 * [`fn withSourceDBClusterIdentifier(sourceDbclusterIdentifier)`](#fn-withsourcedbclusteridentifier)
 * [`fn withStorageEncrypted(storageEncrypted)`](#fn-withstorageencrypted)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUseLatestRestorableTime(useLatestRestorableTime)`](#fn-withuselatestrestorabletime)
 * [`fn withVpcSecurityGroupIds(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupids)
+* [`fn withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupidsmixin)
 
 ## Fields
 
@@ -158,10 +163,26 @@ withAssociatedRoles(associatedRoles)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-associatedroles
 
+### fn withAssociatedRolesMixin
+
+```ts
+withAssociatedRolesMixin(associatedRoles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-associatedroles
+
 ### fn withAvailabilityZones
 
 ```ts
 withAvailabilityZones(availabilityZones)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-availabilityzones
+
+### fn withAvailabilityZonesMixin
+
+```ts
+withAvailabilityZonesMixin(availabilityZones)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-availabilityzones
@@ -210,6 +231,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nept
 
 ```ts
 withEnableCloudwatchLogsExports(enableCloudwatchLogsExports)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-enablecloudwatchlogsexports
+
+### fn withEnableCloudwatchLogsExportsMixin
+
+```ts
+withEnableCloudwatchLogsExportsMixin(enableCloudwatchLogsExports)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-enablecloudwatchlogsexports
@@ -310,6 +339,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-tags
+
 ### fn withUseLatestRestorableTime
 
 ```ts
@@ -322,6 +359,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nept
 
 ```ts
 withVpcSecurityGroupIds(vpcSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-vpcsecuritygroupids
+
+### fn withVpcSecurityGroupIdsMixin
+
+```ts
+withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbcluster.html#cfn-neptune-dbcluster-vpcsecuritygroupids

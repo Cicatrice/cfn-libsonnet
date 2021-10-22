@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTargetArns(targetArns)`](#fn-withtargetarns)
+* [`fn withTargetArnsMixin(targetArns)`](#fn-withtargetarnsmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withTargetArns(targetArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-vpclink.html#cfn-apigateway-vpclink-targetarns
+
+### fn withTargetArnsMixin
+
+```ts
+withTargetArnsMixin(targetArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-vpclink.html#cfn-apigateway-vpclink-targetarns

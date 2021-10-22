@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 * [`fn withProjectDescription(projectDescription)`](#fn-withprojectdescription)
 * [`fn withProjectName(projectName)`](#fn-withprojectname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -160,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-project.html#cfn-iotsitewise-project-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-project.html#cfn-iotsitewise-project-tags

@@ -23,14 +23,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withJobDefinitionName(jobDefinitionName)`](#fn-withjobdefinitionname)
 * [`fn withJobResources(jobResources)`](#fn-withjobresources)
+* [`fn withJobResourcesMixin(jobResources)`](#fn-withjobresourcesmixin)
 * [`fn withModelBiasAppSpecification(modelBiasAppSpecification)`](#fn-withmodelbiasappspecification)
+* [`fn withModelBiasAppSpecificationMixin(modelBiasAppSpecification)`](#fn-withmodelbiasappspecificationmixin)
 * [`fn withModelBiasBaselineConfig(modelBiasBaselineConfig)`](#fn-withmodelbiasbaselineconfig)
+* [`fn withModelBiasBaselineConfigMixin(modelBiasBaselineConfig)`](#fn-withmodelbiasbaselineconfigmixin)
 * [`fn withModelBiasJobInput(modelBiasJobInput)`](#fn-withmodelbiasjobinput)
+* [`fn withModelBiasJobInputMixin(modelBiasJobInput)`](#fn-withmodelbiasjobinputmixin)
 * [`fn withModelBiasJobOutputConfig(modelBiasJobOutputConfig)`](#fn-withmodelbiasjoboutputconfig)
+* [`fn withModelBiasJobOutputConfigMixin(modelBiasJobOutputConfig)`](#fn-withmodelbiasjoboutputconfigmixin)
 * [`fn withNetworkConfig(networkConfig)`](#fn-withnetworkconfig)
+* [`fn withNetworkConfigMixin(networkConfig)`](#fn-withnetworkconfigmixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withStoppingCondition(stoppingCondition)`](#fn-withstoppingcondition)
+* [`fn withStoppingConditionMixin(stoppingCondition)`](#fn-withstoppingconditionmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -154,10 +162,26 @@ withJobResources(jobResources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-jobresources
 
+### fn withJobResourcesMixin
+
+```ts
+withJobResourcesMixin(jobResources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-jobresources
+
 ### fn withModelBiasAppSpecification
 
 ```ts
 withModelBiasAppSpecification(modelBiasAppSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasappspecification
+
+### fn withModelBiasAppSpecificationMixin
+
+```ts
+withModelBiasAppSpecificationMixin(modelBiasAppSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasappspecification
@@ -170,10 +194,26 @@ withModelBiasBaselineConfig(modelBiasBaselineConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasbaselineconfig
 
+### fn withModelBiasBaselineConfigMixin
+
+```ts
+withModelBiasBaselineConfigMixin(modelBiasBaselineConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasbaselineconfig
+
 ### fn withModelBiasJobInput
 
 ```ts
 withModelBiasJobInput(modelBiasJobInput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasjobinput
+
+### fn withModelBiasJobInputMixin
+
+```ts
+withModelBiasJobInputMixin(modelBiasJobInput)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasjobinput
@@ -186,10 +226,26 @@ withModelBiasJobOutputConfig(modelBiasJobOutputConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasjoboutputconfig
 
+### fn withModelBiasJobOutputConfigMixin
+
+```ts
+withModelBiasJobOutputConfigMixin(modelBiasJobOutputConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-modelbiasjoboutputconfig
+
 ### fn withNetworkConfig
 
 ```ts
 withNetworkConfig(networkConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-networkconfig
+
+### fn withNetworkConfigMixin
+
+```ts
+withNetworkConfigMixin(networkConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-networkconfig
@@ -210,10 +266,26 @@ withStoppingCondition(stoppingCondition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-stoppingcondition
 
+### fn withStoppingConditionMixin
+
+```ts
+withStoppingConditionMixin(stoppingCondition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-stoppingcondition
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelbiasjobdefinition.html#cfn-sagemaker-modelbiasjobdefinition-tags

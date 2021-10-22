@@ -26,7 +26,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withIntegrationId(integrationId)`](#fn-withintegrationid)
 * [`fn withIntegrationResponseKey(integrationResponseKey)`](#fn-withintegrationresponsekey)
 * [`fn withResponseParameters(responseParameters)`](#fn-withresponseparameters)
+* [`fn withResponseParametersMixin(responseParameters)`](#fn-withresponseparametersmixin)
 * [`fn withResponseTemplates(responseTemplates)`](#fn-withresponsetemplates)
+* [`fn withResponseTemplatesMixin(responseTemplates)`](#fn-withresponsetemplatesmixin)
 * [`fn withTemplateSelectionExpression(templateSelectionExpression)`](#fn-withtemplateselectionexpression)
 
 ## Fields
@@ -175,10 +177,26 @@ withResponseParameters(responseParameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integrationresponse.html#cfn-apigatewayv2-integrationresponse-responseparameters
 
+### fn withResponseParametersMixin
+
+```ts
+withResponseParametersMixin(responseParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integrationresponse.html#cfn-apigatewayv2-integrationresponse-responseparameters
+
 ### fn withResponseTemplates
 
 ```ts
 withResponseTemplates(responseTemplates)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integrationresponse.html#cfn-apigatewayv2-integrationresponse-responsetemplates
+
+### fn withResponseTemplatesMixin
+
+```ts
+withResponseTemplatesMixin(responseTemplates)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integrationresponse.html#cfn-apigatewayv2-integrationresponse-responsetemplates

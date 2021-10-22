@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotf
 * [`fn withApplicationName(applicationName)`](#fn-withapplicationname)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -160,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotf
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-tags

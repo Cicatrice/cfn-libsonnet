@@ -22,18 +22,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withComponents(components)`](#fn-withcomponents)
+* [`fn withComponentsMixin(components)`](#fn-withcomponentsmixin)
 * [`fn withContainerType(containerType)`](#fn-withcontainertype)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDockerfileTemplateData(dockerfileTemplateData)`](#fn-withdockerfiletemplatedata)
 * [`fn withDockerfileTemplateUri(dockerfileTemplateUri)`](#fn-withdockerfiletemplateuri)
 * [`fn withImageOsVersionOverride(imageOsVersionOverride)`](#fn-withimageosversionoverride)
 * [`fn withInstanceConfiguration(instanceConfiguration)`](#fn-withinstanceconfiguration)
+* [`fn withInstanceConfigurationMixin(instanceConfiguration)`](#fn-withinstanceconfigurationmixin)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withParentImage(parentImage)`](#fn-withparentimage)
 * [`fn withPlatformOverride(platformOverride)`](#fn-withplatformoverride)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetRepository(targetRepository)`](#fn-withtargetrepository)
+* [`fn withTargetRepositoryMixin(targetRepository)`](#fn-withtargetrepositorymixin)
 * [`fn withVersion(version)`](#fn-withversion)
 * [`fn withWorkingDirectory(workingDirectory)`](#fn-withworkingdirectory)
 
@@ -151,6 +155,14 @@ withComponents(components)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-components
 
+### fn withComponentsMixin
+
+```ts
+withComponentsMixin(components)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-components
+
 ### fn withContainerType
 
 ```ts
@@ -199,6 +211,14 @@ withInstanceConfiguration(instanceConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-instanceconfiguration
 
+### fn withInstanceConfigurationMixin
+
+```ts
+withInstanceConfigurationMixin(instanceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-instanceconfiguration
+
 ### fn withKmsKeyId
 
 ```ts
@@ -239,10 +259,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-tags
+
 ### fn withTargetRepository
 
 ```ts
 withTargetRepository(targetRepository)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-targetrepository
+
+### fn withTargetRepositoryMixin
+
+```ts
+withTargetRepositoryMixin(targetRepository)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-containerrecipe.html#cfn-imagebuilder-containerrecipe-targetrepository

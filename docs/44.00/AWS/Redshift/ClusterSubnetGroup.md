@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-reds
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withSubnetIds(subnetIds)`](#fn-withsubnetids)
+* [`fn withSubnetIdsMixin(subnetIds)`](#fn-withsubnetidsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -147,10 +149,26 @@ withSubnetIds(subnetIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html#cfn-redshift-clustersubnetgroup-subnetids
 
+### fn withSubnetIdsMixin
+
+```ts
+withSubnetIdsMixin(subnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html#cfn-redshift-clustersubnetgroup-subnetids
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html#cfn-redshift-clustersubnetgroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html#cfn-redshift-clustersubnetgroup-tags

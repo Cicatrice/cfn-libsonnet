@@ -22,10 +22,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withGroups(groups)`](#fn-withgroups)
+* [`fn withGroupsMixin(groups)`](#fn-withgroupsmixin)
 * [`fn withPolicyDocument(policyDocument)`](#fn-withpolicydocument)
+* [`fn withPolicyDocumentMixin(policyDocument)`](#fn-withpolicydocumentmixin)
 * [`fn withPolicyName(policyName)`](#fn-withpolicyname)
 * [`fn withRoles(roles)`](#fn-withroles)
+* [`fn withRolesMixin(roles)`](#fn-withrolesmixin)
 * [`fn withUsers(users)`](#fn-withusers)
+* [`fn withUsersMixin(users)`](#fn-withusersmixin)
 
 ## Fields
 
@@ -141,10 +145,26 @@ withGroups(groups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-groups
 
+### fn withGroupsMixin
+
+```ts
+withGroupsMixin(groups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-groups
+
 ### fn withPolicyDocument
 
 ```ts
 withPolicyDocument(policyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-policydocument
+
+### fn withPolicyDocumentMixin
+
+```ts
+withPolicyDocumentMixin(policyDocument)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-policydocument
@@ -165,10 +185,26 @@ withRoles(roles)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-roles
 
+### fn withRolesMixin
+
+```ts
+withRolesMixin(roles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-roles
+
 ### fn withUsers
 
 ```ts
 withUsers(users)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-users
+
+### fn withUsersMixin
+
+```ts
+withUsersMixin(users)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-policy.html#cfn-iam-policy-users

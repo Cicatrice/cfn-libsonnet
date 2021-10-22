@@ -26,6 +26,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSchema(schema)`](#fn-withschema)
+* [`fn withSchemaMixin(schema)`](#fn-withschemamixin)
 
 ## Fields
 
@@ -169,6 +170,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withSchema(schema)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-model.html#cfn-apigatewayv2-model-schema
+
+### fn withSchemaMixin
+
+```ts
+withSchemaMixin(schema)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-model.html#cfn-apigatewayv2-model-schema

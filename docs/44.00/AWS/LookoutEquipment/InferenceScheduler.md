@@ -23,13 +23,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-look
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDataDelayOffsetInMinutes(dataDelayOffsetInMinutes)`](#fn-withdatadelayoffsetinminutes)
 * [`fn withDataInputConfiguration(dataInputConfiguration)`](#fn-withdatainputconfiguration)
+* [`fn withDataInputConfigurationMixin(dataInputConfiguration)`](#fn-withdatainputconfigurationmixin)
 * [`fn withDataOutputConfiguration(dataOutputConfiguration)`](#fn-withdataoutputconfiguration)
+* [`fn withDataOutputConfigurationMixin(dataOutputConfiguration)`](#fn-withdataoutputconfigurationmixin)
 * [`fn withDataUploadFrequency(dataUploadFrequency)`](#fn-withdatauploadfrequency)
 * [`fn withInferenceSchedulerName(inferenceSchedulerName)`](#fn-withinferenceschedulername)
 * [`fn withModelName(modelName)`](#fn-withmodelname)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withServerSideKmsKeyId(serverSideKmsKeyId)`](#fn-withserversidekmskeyid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -153,10 +156,26 @@ withDataInputConfiguration(dataInputConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html#cfn-lookoutequipment-inferencescheduler-datainputconfiguration
 
+### fn withDataInputConfigurationMixin
+
+```ts
+withDataInputConfigurationMixin(dataInputConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html#cfn-lookoutequipment-inferencescheduler-datainputconfiguration
+
 ### fn withDataOutputConfiguration
 
 ```ts
 withDataOutputConfiguration(dataOutputConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html#cfn-lookoutequipment-inferencescheduler-dataoutputconfiguration
+
+### fn withDataOutputConfigurationMixin
+
+```ts
+withDataOutputConfigurationMixin(dataOutputConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html#cfn-lookoutequipment-inferencescheduler-dataoutputconfiguration
@@ -205,6 +224,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-look
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html#cfn-lookoutequipment-inferencescheduler-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutequipment-inferencescheduler.html#cfn-lookoutequipment-inferencescheduler-tags

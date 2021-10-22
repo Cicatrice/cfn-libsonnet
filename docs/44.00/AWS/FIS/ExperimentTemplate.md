@@ -22,11 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActions(actions)`](#fn-withactions)
+* [`fn withActionsMixin(actions)`](#fn-withactionsmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withStopConditions(stopConditions)`](#fn-withstopconditions)
+* [`fn withStopConditionsMixin(stopConditions)`](#fn-withstopconditionsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargets(targets)`](#fn-withtargets)
+* [`fn withTargetsMixin(targets)`](#fn-withtargetsmixin)
 
 ## Fields
 
@@ -142,6 +146,14 @@ withActions(actions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-actions
 
+### fn withActionsMixin
+
+```ts
+withActionsMixin(actions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-actions
+
 ### fn withDescription
 
 ```ts
@@ -166,6 +178,14 @@ withStopConditions(stopConditions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-stopconditions
 
+### fn withStopConditionsMixin
+
+```ts
+withStopConditionsMixin(stopConditions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-stopconditions
+
 ### fn withTags
 
 ```ts
@@ -174,10 +194,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-tags
+
 ### fn withTargets
 
 ```ts
 withTargets(targets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-targets
+
+### fn withTargetsMixin
+
+```ts
+withTargetsMixin(targets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fis-experimenttemplate.html#cfn-fis-experimenttemplate-targets

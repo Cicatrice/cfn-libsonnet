@@ -23,11 +23,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCategory(category)`](#fn-withcategory)
 * [`fn withConfigurationProperties(configurationProperties)`](#fn-withconfigurationproperties)
+* [`fn withConfigurationPropertiesMixin(configurationProperties)`](#fn-withconfigurationpropertiesmixin)
 * [`fn withInputArtifactDetails(inputArtifactDetails)`](#fn-withinputartifactdetails)
+* [`fn withInputArtifactDetailsMixin(inputArtifactDetails)`](#fn-withinputartifactdetailsmixin)
 * [`fn withOutputArtifactDetails(outputArtifactDetails)`](#fn-withoutputartifactdetails)
+* [`fn withOutputArtifactDetailsMixin(outputArtifactDetails)`](#fn-withoutputartifactdetailsmixin)
 * [`fn withProvider(provider)`](#fn-withprovider)
 * [`fn withSettings(settings)`](#fn-withsettings)
+* [`fn withSettingsMixin(settings)`](#fn-withsettingsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVersion(version)`](#fn-withversion)
 
 ## Fields
@@ -152,6 +157,14 @@ withConfigurationProperties(configurationProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-configurationproperties
 
+### fn withConfigurationPropertiesMixin
+
+```ts
+withConfigurationPropertiesMixin(configurationProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-configurationproperties
+
 ### fn withInputArtifactDetails
 
 ```ts
@@ -160,10 +173,26 @@ withInputArtifactDetails(inputArtifactDetails)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-inputartifactdetails
 
+### fn withInputArtifactDetailsMixin
+
+```ts
+withInputArtifactDetailsMixin(inputArtifactDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-inputartifactdetails
+
 ### fn withOutputArtifactDetails
 
 ```ts
 withOutputArtifactDetails(outputArtifactDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-outputartifactdetails
+
+### fn withOutputArtifactDetailsMixin
+
+```ts
+withOutputArtifactDetailsMixin(outputArtifactDetails)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-outputartifactdetails
@@ -184,10 +213,26 @@ withSettings(settings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-settings
 
+### fn withSettingsMixin
+
+```ts
+withSettingsMixin(settings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-settings
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-customactiontype.html#cfn-codepipeline-customactiontype-tags

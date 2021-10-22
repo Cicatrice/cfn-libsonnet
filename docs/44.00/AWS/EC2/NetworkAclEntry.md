@@ -24,9 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn withCidrBlock(cidrBlock)`](#fn-withcidrblock)
 * [`fn withEgress(egress)`](#fn-withegress)
 * [`fn withIcmp(icmp)`](#fn-withicmp)
+* [`fn withIcmpMixin(icmp)`](#fn-withicmpmixin)
 * [`fn withIpv6CidrBlock(ipv6cidrBlock)`](#fn-withipv6cidrblock)
 * [`fn withNetworkAclId(networkAclId)`](#fn-withnetworkaclid)
 * [`fn withPortRange(portRange)`](#fn-withportrange)
+* [`fn withPortRangeMixin(portRange)`](#fn-withportrangemixin)
 * [`fn withProtocol(protocol)`](#fn-withprotocol)
 * [`fn withRuleAction(ruleAction)`](#fn-withruleaction)
 * [`fn withRuleNumber(ruleNumber)`](#fn-withrulenumber)
@@ -161,6 +163,14 @@ withIcmp(icmp)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkaclentry.html#cfn-ec2-networkaclentry-icmp
 
+### fn withIcmpMixin
+
+```ts
+withIcmpMixin(icmp)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkaclentry.html#cfn-ec2-networkaclentry-icmp
+
 ### fn withIpv6CidrBlock
 
 ```ts
@@ -181,6 +191,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withPortRange(portRange)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkaclentry.html#cfn-ec2-networkaclentry-portrange
+
+### fn withPortRangeMixin
+
+```ts
+withPortRangeMixin(portRange)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkaclentry.html#cfn-ec2-networkaclentry-portrange

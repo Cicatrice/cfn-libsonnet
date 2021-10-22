@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withNetworkServices(networkServices)`](#fn-withnetworkservices)
+* [`fn withNetworkServicesMixin(networkServices)`](#fn-withnetworkservicesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -147,10 +149,26 @@ withNetworkServices(networkServices)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilter.html#cfn-ec2-trafficmirrorfilter-networkservices
 
+### fn withNetworkServicesMixin
+
+```ts
+withNetworkServicesMixin(networkServices)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilter.html#cfn-ec2-trafficmirrorfilter-networkservices
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilter.html#cfn-ec2-trafficmirrorfilter-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilter.html#cfn-ec2-trafficmirrorfilter-tags

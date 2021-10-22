@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withEncryptionKey(encryptionKey)`](#fn-withencryptionkey)
 * [`fn withPermissionsPolicyDocument(permissionsPolicyDocument)`](#fn-withpermissionspolicydocument)
+* [`fn withPermissionsPolicyDocumentMixin(permissionsPolicyDocument)`](#fn-withpermissionspolicydocumentmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -156,10 +158,26 @@ withPermissionsPolicyDocument(permissionsPolicyDocument)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-permissionspolicydocument
 
+### fn withPermissionsPolicyDocumentMixin
+
+```ts
+withPermissionsPolicyDocumentMixin(permissionsPolicyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-permissionspolicydocument
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-tags

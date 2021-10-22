@@ -22,12 +22,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ia
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withGroups(groups)`](#fn-withgroups)
+* [`fn withGroupsMixin(groups)`](#fn-withgroupsmixin)
 * [`fn withLoginProfile(loginProfile)`](#fn-withloginprofile)
+* [`fn withLoginProfileMixin(loginProfile)`](#fn-withloginprofilemixin)
 * [`fn withManagedPolicyArns(managedPolicyArns)`](#fn-withmanagedpolicyarns)
+* [`fn withManagedPolicyArnsMixin(managedPolicyArns)`](#fn-withmanagedpolicyarnsmixin)
 * [`fn withPath(path)`](#fn-withpath)
 * [`fn withPermissionsBoundary(permissionsBoundary)`](#fn-withpermissionsboundary)
 * [`fn withPolicies(policies)`](#fn-withpolicies)
+* [`fn withPoliciesMixin(policies)`](#fn-withpoliciesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserName(userName)`](#fn-withusername)
 
 ## Fields
@@ -144,6 +149,14 @@ withGroups(groups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-groups
 
+### fn withGroupsMixin
+
+```ts
+withGroupsMixin(groups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-groups
+
 ### fn withLoginProfile
 
 ```ts
@@ -152,10 +165,26 @@ withLoginProfile(loginProfile)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-loginprofile
 
+### fn withLoginProfileMixin
+
+```ts
+withLoginProfileMixin(loginProfile)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-loginprofile
+
 ### fn withManagedPolicyArns
 
 ```ts
 withManagedPolicyArns(managedPolicyArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-managepolicyarns
+
+### fn withManagedPolicyArnsMixin
+
+```ts
+withManagedPolicyArnsMixin(managedPolicyArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-managepolicyarns
@@ -184,10 +213,26 @@ withPolicies(policies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-policies
 
+### fn withPoliciesMixin
+
+```ts
+withPoliciesMixin(policies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-policies
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-user.html#cfn-iam-user-tags

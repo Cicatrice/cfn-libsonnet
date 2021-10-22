@@ -26,8 +26,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn withSigningDisabled(signingDisabled)`](#fn-withsigningdisabled)
 * [`fn withStatus(status)`](#fn-withstatus)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTokenKeyName(tokenKeyName)`](#fn-withtokenkeyname)
 * [`fn withTokenSigningPublicKeys(tokenSigningPublicKeys)`](#fn-withtokensigningpublickeys)
+* [`fn withTokenSigningPublicKeysMixin(tokenSigningPublicKeys)`](#fn-withtokensigningpublickeysmixin)
 
 ## Fields
 
@@ -175,6 +177,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-tags
+
 ### fn withTokenKeyName
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 
 ```ts
 withTokenSigningPublicKeys(tokenSigningPublicKeys)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-tokensigningpublickeys
+
+### fn withTokenSigningPublicKeysMixin
+
+```ts
+withTokenSigningPublicKeysMixin(tokenSigningPublicKeys)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-authorizer.html#cfn-iot-authorizer-tokensigningpublickeys

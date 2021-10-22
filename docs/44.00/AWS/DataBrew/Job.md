@@ -22,22 +22,30 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDataCatalogOutputs(dataCatalogOutputs)`](#fn-withdatacatalogoutputs)
+* [`fn withDataCatalogOutputsMixin(dataCatalogOutputs)`](#fn-withdatacatalogoutputsmixin)
 * [`fn withDatabaseOutputs(databaseOutputs)`](#fn-withdatabaseoutputs)
+* [`fn withDatabaseOutputsMixin(databaseOutputs)`](#fn-withdatabaseoutputsmixin)
 * [`fn withDatasetName(datasetName)`](#fn-withdatasetname)
 * [`fn withEncryptionKeyArn(encryptionKeyArn)`](#fn-withencryptionkeyarn)
 * [`fn withEncryptionMode(encryptionMode)`](#fn-withencryptionmode)
 * [`fn withJobSample(jobSample)`](#fn-withjobsample)
+* [`fn withJobSampleMixin(jobSample)`](#fn-withjobsamplemixin)
 * [`fn withLogSubscription(logSubscription)`](#fn-withlogsubscription)
 * [`fn withMaxCapacity(maxCapacity)`](#fn-withmaxcapacity)
 * [`fn withMaxRetries(maxRetries)`](#fn-withmaxretries)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOutputLocation(outputLocation)`](#fn-withoutputlocation)
+* [`fn withOutputLocationMixin(outputLocation)`](#fn-withoutputlocationmixin)
 * [`fn withOutputs(outputs)`](#fn-withoutputs)
+* [`fn withOutputsMixin(outputs)`](#fn-withoutputsmixin)
 * [`fn withProfileConfiguration(profileConfiguration)`](#fn-withprofileconfiguration)
+* [`fn withProfileConfigurationMixin(profileConfiguration)`](#fn-withprofileconfigurationmixin)
 * [`fn withProjectName(projectName)`](#fn-withprojectname)
 * [`fn withRecipe(recipe)`](#fn-withrecipe)
+* [`fn withRecipeMixin(recipe)`](#fn-withrecipemixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeout(timeout)`](#fn-withtimeout)
 * [`fn withType(type)`](#fn-withtype)
 
@@ -155,10 +163,26 @@ withDataCatalogOutputs(dataCatalogOutputs)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-datacatalogoutputs
 
+### fn withDataCatalogOutputsMixin
+
+```ts
+withDataCatalogOutputsMixin(dataCatalogOutputs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-datacatalogoutputs
+
 ### fn withDatabaseOutputs
 
 ```ts
 withDatabaseOutputs(databaseOutputs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-databaseoutputs
+
+### fn withDatabaseOutputsMixin
+
+```ts
+withDatabaseOutputsMixin(databaseOutputs)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-databaseoutputs
@@ -191,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withJobSample(jobSample)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-jobsample
+
+### fn withJobSampleMixin
+
+```ts
+withJobSampleMixin(jobSample)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-jobsample
@@ -235,6 +267,14 @@ withOutputLocation(outputLocation)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-outputlocation
 
+### fn withOutputLocationMixin
+
+```ts
+withOutputLocationMixin(outputLocation)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-outputlocation
+
 ### fn withOutputs
 
 ```ts
@@ -243,10 +283,26 @@ withOutputs(outputs)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-outputs
 
+### fn withOutputsMixin
+
+```ts
+withOutputsMixin(outputs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-outputs
+
 ### fn withProfileConfiguration
 
 ```ts
 withProfileConfiguration(profileConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-profileconfiguration
+
+### fn withProfileConfigurationMixin
+
+```ts
+withProfileConfigurationMixin(profileConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-profileconfiguration
@@ -267,6 +323,14 @@ withRecipe(recipe)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-recipe
 
+### fn withRecipeMixin
+
+```ts
+withRecipeMixin(recipe)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-recipe
+
 ### fn withRoleArn
 
 ```ts
@@ -279,6 +343,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-job.html#cfn-databrew-job-tags

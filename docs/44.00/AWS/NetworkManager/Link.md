@@ -22,11 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBandwidth(bandwidth)`](#fn-withbandwidth)
+* [`fn withBandwidthMixin(bandwidth)`](#fn-withbandwidthmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withGlobalNetworkId(globalNetworkId)`](#fn-withglobalnetworkid)
 * [`fn withProvider(provider)`](#fn-withprovider)
 * [`fn withSiteId(siteId)`](#fn-withsiteid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -143,6 +145,14 @@ withBandwidth(bandwidth)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html#cfn-networkmanager-link-bandwidth
 
+### fn withBandwidthMixin
+
+```ts
+withBandwidthMixin(bandwidth)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html#cfn-networkmanager-link-bandwidth
+
 ### fn withDescription
 
 ```ts
@@ -179,6 +189,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html#cfn-networkmanager-link-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html#cfn-networkmanager-link-tags

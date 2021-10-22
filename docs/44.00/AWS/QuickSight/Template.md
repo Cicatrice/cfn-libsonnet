@@ -24,8 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quic
 * [`fn withAwsAccountId(awsAccountId)`](#fn-withawsaccountid)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPermissions(permissions)`](#fn-withpermissions)
+* [`fn withPermissionsMixin(permissions)`](#fn-withpermissionsmixin)
 * [`fn withSourceEntity(sourceEntity)`](#fn-withsourceentity)
+* [`fn withSourceEntityMixin(sourceEntity)`](#fn-withsourceentitymixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTemplateId(templateId)`](#fn-withtemplateid)
 * [`fn withVersionDescription(versionDescription)`](#fn-withversiondescription)
 
@@ -159,6 +162,14 @@ withPermissions(permissions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-permissions
 
+### fn withPermissionsMixin
+
+```ts
+withPermissionsMixin(permissions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-permissions
+
 ### fn withSourceEntity
 
 ```ts
@@ -167,10 +178,26 @@ withSourceEntity(sourceEntity)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-sourceentity
 
+### fn withSourceEntityMixin
+
+```ts
+withSourceEntityMixin(sourceEntity)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-sourceentity
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-tags

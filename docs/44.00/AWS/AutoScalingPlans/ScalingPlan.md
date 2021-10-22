@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auto
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApplicationSource(applicationSource)`](#fn-withapplicationsource)
+* [`fn withApplicationSourceMixin(applicationSource)`](#fn-withapplicationsourcemixin)
 * [`fn withScalingInstructions(scalingInstructions)`](#fn-withscalinginstructions)
+* [`fn withScalingInstructionsMixin(scalingInstructions)`](#fn-withscalinginstructionsmixin)
 
 ## Fields
 
@@ -138,10 +140,26 @@ withApplicationSource(applicationSource)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscalingplans-scalingplan.html#cfn-autoscalingplans-scalingplan-applicationsource
 
+### fn withApplicationSourceMixin
+
+```ts
+withApplicationSourceMixin(applicationSource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscalingplans-scalingplan.html#cfn-autoscalingplans-scalingplan-applicationsource
+
 ### fn withScalingInstructions
 
 ```ts
 withScalingInstructions(scalingInstructions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscalingplans-scalingplan.html#cfn-autoscalingplans-scalingplan-scalinginstructions
+
+### fn withScalingInstructionsMixin
+
+```ts
+withScalingInstructionsMixin(scalingInstructions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-autoscalingplans-scalingplan.html#cfn-autoscalingplans-scalingplan-scalinginstructions

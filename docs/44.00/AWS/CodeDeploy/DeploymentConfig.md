@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn withComputePlatform(computePlatform)`](#fn-withcomputeplatform)
 * [`fn withDeploymentConfigName(deploymentConfigName)`](#fn-withdeploymentconfigname)
 * [`fn withMinimumHealthyHosts(minimumHealthyHosts)`](#fn-withminimumhealthyhosts)
+* [`fn withMinimumHealthyHostsMixin(minimumHealthyHosts)`](#fn-withminimumhealthyhostsmixin)
 * [`fn withTrafficRoutingConfig(trafficRoutingConfig)`](#fn-withtrafficroutingconfig)
+* [`fn withTrafficRoutingConfigMixin(trafficRoutingConfig)`](#fn-withtrafficroutingconfigmixin)
 
 ## Fields
 
@@ -156,10 +158,26 @@ withMinimumHealthyHosts(minimumHealthyHosts)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentconfig.html#cfn-codedeploy-deploymentconfig-minimumhealthyhosts
 
+### fn withMinimumHealthyHostsMixin
+
+```ts
+withMinimumHealthyHostsMixin(minimumHealthyHosts)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentconfig.html#cfn-codedeploy-deploymentconfig-minimumhealthyhosts
+
 ### fn withTrafficRoutingConfig
 
 ```ts
 withTrafficRoutingConfig(trafficRoutingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentconfig.html#cfn-codedeploy-deploymentconfig-trafficroutingconfig
+
+### fn withTrafficRoutingConfigMixin
+
+```ts
+withTrafficRoutingConfigMixin(trafficRoutingConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentconfig.html#cfn-codedeploy-deploymentconfig-trafficroutingconfig

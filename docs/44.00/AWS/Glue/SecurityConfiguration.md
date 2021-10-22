@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withEncryptionConfiguration(encryptionConfiguration)`](#fn-withencryptionconfiguration)
+* [`fn withEncryptionConfigurationMixin(encryptionConfiguration)`](#fn-withencryptionconfigurationmixin)
 * [`fn withName(name)`](#fn-withname)
 
 ## Fields
@@ -134,6 +135,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withEncryptionConfiguration(encryptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-securityconfiguration.html#cfn-glue-securityconfiguration-encryptionconfiguration
+
+### fn withEncryptionConfigurationMixin
+
+```ts
+withEncryptionConfigurationMixin(encryptionConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-securityconfiguration.html#cfn-glue-securityconfiguration-encryptionconfiguration

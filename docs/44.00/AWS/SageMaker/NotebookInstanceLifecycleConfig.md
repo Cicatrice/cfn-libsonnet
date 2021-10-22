@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withNotebookInstanceLifecycleConfigName(notebookInstanceLifecycleConfigName)`](#fn-withnotebookinstancelifecycleconfigname)
 * [`fn withOnCreate(onCreate)`](#fn-withoncreate)
+* [`fn withOnCreateMixin(onCreate)`](#fn-withoncreatemixin)
 * [`fn withOnStart(onStart)`](#fn-withonstart)
+* [`fn withOnStartMixin(onStart)`](#fn-withonstartmixin)
 
 ## Fields
 
@@ -147,10 +149,26 @@ withOnCreate(onCreate)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstancelifecycleconfig.html#cfn-sagemaker-notebookinstancelifecycleconfig-oncreate
 
+### fn withOnCreateMixin
+
+```ts
+withOnCreateMixin(onCreate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstancelifecycleconfig.html#cfn-sagemaker-notebookinstancelifecycleconfig-oncreate
+
 ### fn withOnStart
 
 ```ts
 withOnStart(onStart)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstancelifecycleconfig.html#cfn-sagemaker-notebookinstancelifecycleconfig-onstart
+
+### fn withOnStartMixin
+
+```ts
+withOnStartMixin(onStart)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstancelifecycleconfig.html#cfn-sagemaker-notebookinstancelifecycleconfig-onstart

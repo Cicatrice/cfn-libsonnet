@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withPublicKeyConfig(publicKeyConfig)`](#fn-withpublickeyconfig)
+* [`fn withPublicKeyConfigMixin(publicKeyConfig)`](#fn-withpublickeyconfigmixin)
 
 ## Fields
 
@@ -133,6 +134,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withPublicKeyConfig(publicKeyConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-publickey.html#cfn-cloudfront-publickey-publickeyconfig
+
+### fn withPublicKeyConfigMixin
+
+```ts
+withPublicKeyConfigMixin(publicKeyConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-publickey.html#cfn-cloudfront-publickey-publickeyconfig

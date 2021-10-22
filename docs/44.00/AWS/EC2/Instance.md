@@ -25,14 +25,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 * [`fn withAffinity(affinity)`](#fn-withaffinity)
 * [`fn withAvailabilityZone(availabilityZone)`](#fn-withavailabilityzone)
 * [`fn withBlockDeviceMappings(blockDeviceMappings)`](#fn-withblockdevicemappings)
+* [`fn withBlockDeviceMappingsMixin(blockDeviceMappings)`](#fn-withblockdevicemappingsmixin)
 * [`fn withCpuOptions(cpuOptions)`](#fn-withcpuoptions)
+* [`fn withCpuOptionsMixin(cpuOptions)`](#fn-withcpuoptionsmixin)
 * [`fn withCreditSpecification(creditSpecification)`](#fn-withcreditspecification)
+* [`fn withCreditSpecificationMixin(creditSpecification)`](#fn-withcreditspecificationmixin)
 * [`fn withDisableApiTermination(disableApiTermination)`](#fn-withdisableapitermination)
 * [`fn withEbsOptimized(ebsOptimized)`](#fn-withebsoptimized)
 * [`fn withElasticGpuSpecifications(elasticGpuSpecifications)`](#fn-withelasticgpuspecifications)
+* [`fn withElasticGpuSpecificationsMixin(elasticGpuSpecifications)`](#fn-withelasticgpuspecificationsmixin)
 * [`fn withElasticInferenceAccelerators(elasticInferenceAccelerators)`](#fn-withelasticinferenceaccelerators)
+* [`fn withElasticInferenceAcceleratorsMixin(elasticInferenceAccelerators)`](#fn-withelasticinferenceacceleratorsmixin)
 * [`fn withEnclaveOptions(enclaveOptions)`](#fn-withenclaveoptions)
+* [`fn withEnclaveOptionsMixin(enclaveOptions)`](#fn-withenclaveoptionsmixin)
 * [`fn withHibernationOptions(hibernationOptions)`](#fn-withhibernationoptions)
+* [`fn withHibernationOptionsMixin(hibernationOptions)`](#fn-withhibernationoptionsmixin)
 * [`fn withHostId(hostId)`](#fn-withhostid)
 * [`fn withHostResourceGroupArn(hostResourceGroupArn)`](#fn-withhostresourcegrouparn)
 * [`fn withIamInstanceProfile(iamInstanceProfile)`](#fn-withiaminstanceprofile)
@@ -41,24 +48,33 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 * [`fn withInstanceType(instanceType)`](#fn-withinstancetype)
 * [`fn withIpv6AddressCount(ipv6addressCount)`](#fn-withipv6addresscount)
 * [`fn withIpv6Addresses(ipv6addresses)`](#fn-withipv6addresses)
+* [`fn withIpv6AddressesMixin(ipv6addresses)`](#fn-withipv6addressesmixin)
 * [`fn withKernelId(kernelId)`](#fn-withkernelid)
 * [`fn withKeyName(keyName)`](#fn-withkeyname)
 * [`fn withLaunchTemplate(launchTemplate)`](#fn-withlaunchtemplate)
+* [`fn withLaunchTemplateMixin(launchTemplate)`](#fn-withlaunchtemplatemixin)
 * [`fn withLicenseSpecifications(licenseSpecifications)`](#fn-withlicensespecifications)
+* [`fn withLicenseSpecificationsMixin(licenseSpecifications)`](#fn-withlicensespecificationsmixin)
 * [`fn withMonitoring(monitoring)`](#fn-withmonitoring)
 * [`fn withNetworkInterfaces(networkInterfaces)`](#fn-withnetworkinterfaces)
+* [`fn withNetworkInterfacesMixin(networkInterfaces)`](#fn-withnetworkinterfacesmixin)
 * [`fn withPlacementGroupName(placementGroupName)`](#fn-withplacementgroupname)
 * [`fn withPrivateIpAddress(privateIpAddress)`](#fn-withprivateipaddress)
 * [`fn withRamdiskId(ramdiskId)`](#fn-withramdiskid)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSecurityGroups(securityGroups)`](#fn-withsecuritygroups)
+* [`fn withSecurityGroupsMixin(securityGroups)`](#fn-withsecuritygroupsmixin)
 * [`fn withSourceDestCheck(sourceDestCheck)`](#fn-withsourcedestcheck)
 * [`fn withSsmAssociations(ssmAssociations)`](#fn-withssmassociations)
+* [`fn withSsmAssociationsMixin(ssmAssociations)`](#fn-withssmassociationsmixin)
 * [`fn withSubnetId(subnetId)`](#fn-withsubnetid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTenancy(tenancy)`](#fn-withtenancy)
 * [`fn withUserData(userData)`](#fn-withuserdata)
 * [`fn withVolumes(volumes)`](#fn-withvolumes)
+* [`fn withVolumesMixin(volumes)`](#fn-withvolumesmixin)
 
 ## Fields
 
@@ -198,6 +214,14 @@ withBlockDeviceMappings(blockDeviceMappings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-blockdevicemappings
 
+### fn withBlockDeviceMappingsMixin
+
+```ts
+withBlockDeviceMappingsMixin(blockDeviceMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-blockdevicemappings
+
 ### fn withCpuOptions
 
 ```ts
@@ -206,10 +230,26 @@ withCpuOptions(cpuOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-cpuoptions
 
+### fn withCpuOptionsMixin
+
+```ts
+withCpuOptionsMixin(cpuOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-cpuoptions
+
 ### fn withCreditSpecification
 
 ```ts
 withCreditSpecification(creditSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-creditspecification
+
+### fn withCreditSpecificationMixin
+
+```ts
+withCreditSpecificationMixin(creditSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-creditspecification
@@ -238,10 +278,26 @@ withElasticGpuSpecifications(elasticGpuSpecifications)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-elasticgpuspecifications
 
+### fn withElasticGpuSpecificationsMixin
+
+```ts
+withElasticGpuSpecificationsMixin(elasticGpuSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-elasticgpuspecifications
+
 ### fn withElasticInferenceAccelerators
 
 ```ts
 withElasticInferenceAccelerators(elasticInferenceAccelerators)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-elasticinferenceaccelerators
+
+### fn withElasticInferenceAcceleratorsMixin
+
+```ts
+withElasticInferenceAcceleratorsMixin(elasticInferenceAccelerators)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-elasticinferenceaccelerators
@@ -254,10 +310,26 @@ withEnclaveOptions(enclaveOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-enclaveoptions
 
+### fn withEnclaveOptionsMixin
+
+```ts
+withEnclaveOptionsMixin(enclaveOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-enclaveoptions
+
 ### fn withHibernationOptions
 
 ```ts
 withHibernationOptions(hibernationOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-hibernationoptions
+
+### fn withHibernationOptionsMixin
+
+```ts
+withHibernationOptionsMixin(hibernationOptions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-hibernationoptions
@@ -326,6 +398,14 @@ withIpv6Addresses(ipv6addresses)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-ipv6addresses
 
+### fn withIpv6AddressesMixin
+
+```ts
+withIpv6AddressesMixin(ipv6addresses)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-ipv6addresses
+
 ### fn withKernelId
 
 ```ts
@@ -350,10 +430,26 @@ withLaunchTemplate(launchTemplate)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-launchtemplate
 
+### fn withLaunchTemplateMixin
+
+```ts
+withLaunchTemplateMixin(launchTemplate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-launchtemplate
+
 ### fn withLicenseSpecifications
 
 ```ts
 withLicenseSpecifications(licenseSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-licensespecifications
+
+### fn withLicenseSpecificationsMixin
+
+```ts
+withLicenseSpecificationsMixin(licenseSpecifications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-licensespecifications
@@ -370,6 +466,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 
 ```ts
 withNetworkInterfaces(networkInterfaces)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-networkinterfaces
+
+### fn withNetworkInterfacesMixin
+
+```ts
+withNetworkInterfacesMixin(networkInterfaces)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-networkinterfaces
@@ -406,10 +510,26 @@ withSecurityGroupIds(securityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-securitygroupids
 
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-securitygroupids
+
 ### fn withSecurityGroups
 
 ```ts
 withSecurityGroups(securityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-securitygroups
+
+### fn withSecurityGroupsMixin
+
+```ts
+withSecurityGroupsMixin(securityGroups)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-securitygroups
@@ -430,6 +550,14 @@ withSsmAssociations(ssmAssociations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-ssmassociations
 
+### fn withSsmAssociationsMixin
+
+```ts
+withSsmAssociationsMixin(ssmAssociations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-ssmassociations
+
 ### fn withSubnetId
 
 ```ts
@@ -442,6 +570,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-tags
@@ -466,6 +602,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 
 ```ts
 withVolumes(volumes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-volumes
+
+### fn withVolumesMixin
+
+```ts
+withVolumesMixin(volumes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-instance.html#cfn-ec2-instance-volumes

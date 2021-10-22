@@ -1,7 +1,7 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Amplify', url='', help=''),
-  App: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Amplify/App.libsonnet'),
-  Branch: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Amplify/Branch.libsonnet'),
-  Domain: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Amplify/Domain.libsonnet'),
+  App:: (import 'App.libsonnet'),
+  Branch:: (import 'Branch.libsonnet'),
+  Domain:: (import 'Domain.libsonnet'),
 }

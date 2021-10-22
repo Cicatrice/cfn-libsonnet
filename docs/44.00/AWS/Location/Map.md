@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-loca
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConfiguration(configuration)`](#fn-withconfiguration)
+* [`fn withConfigurationMixin(configuration)`](#fn-withconfigurationmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withMapName(mapName)`](#fn-withmapname)
 * [`fn withPricingPlan(pricingPlan)`](#fn-withpricingplan)
@@ -136,6 +137,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withConfiguration(configuration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-map.html#cfn-location-map-configuration
+
+### fn withConfigurationMixin
+
+```ts
+withConfigurationMixin(configuration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-map.html#cfn-location-map-configuration

@@ -22,26 +22,36 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withArchitectures(architectures)`](#fn-witharchitectures)
+* [`fn withArchitecturesMixin(architectures)`](#fn-witharchitecturesmixin)
 * [`fn withCode(code)`](#fn-withcode)
+* [`fn withCodeMixin(code)`](#fn-withcodemixin)
 * [`fn withCodeSigningConfigArn(codeSigningConfigArn)`](#fn-withcodesigningconfigarn)
 * [`fn withDeadLetterConfig(deadLetterConfig)`](#fn-withdeadletterconfig)
+* [`fn withDeadLetterConfigMixin(deadLetterConfig)`](#fn-withdeadletterconfigmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEnvironment(environment)`](#fn-withenvironment)
+* [`fn withEnvironmentMixin(environment)`](#fn-withenvironmentmixin)
 * [`fn withFileSystemConfigs(fileSystemConfigs)`](#fn-withfilesystemconfigs)
+* [`fn withFileSystemConfigsMixin(fileSystemConfigs)`](#fn-withfilesystemconfigsmixin)
 * [`fn withFunctionName(functionName)`](#fn-withfunctionname)
 * [`fn withHandler(handler)`](#fn-withhandler)
 * [`fn withImageConfig(imageConfig)`](#fn-withimageconfig)
+* [`fn withImageConfigMixin(imageConfig)`](#fn-withimageconfigmixin)
 * [`fn withKmsKeyArn(kmsKeyArn)`](#fn-withkmskeyarn)
 * [`fn withLayers(layers)`](#fn-withlayers)
+* [`fn withLayersMixin(layers)`](#fn-withlayersmixin)
 * [`fn withMemorySize(memorySize)`](#fn-withmemorysize)
 * [`fn withPackageType(packageType)`](#fn-withpackagetype)
 * [`fn withReservedConcurrentExecutions(reservedConcurrentExecutions)`](#fn-withreservedconcurrentexecutions)
 * [`fn withRole(role)`](#fn-withrole)
 * [`fn withRuntime(runtime)`](#fn-withruntime)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeout(timeout)`](#fn-withtimeout)
 * [`fn withTracingConfig(tracingConfig)`](#fn-withtracingconfig)
+* [`fn withTracingConfigMixin(tracingConfig)`](#fn-withtracingconfigmixin)
 * [`fn withVpcConfig(vpcConfig)`](#fn-withvpcconfig)
+* [`fn withVpcConfigMixin(vpcConfig)`](#fn-withvpcconfigmixin)
 
 ## Fields
 
@@ -157,10 +167,26 @@ withArchitectures(architectures)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-architectures
 
+### fn withArchitecturesMixin
+
+```ts
+withArchitecturesMixin(architectures)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-architectures
+
 ### fn withCode
 
 ```ts
 withCode(code)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-code
+
+### fn withCodeMixin
+
+```ts
+withCodeMixin(code)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-code
@@ -181,6 +207,14 @@ withDeadLetterConfig(deadLetterConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-deadletterconfig
 
+### fn withDeadLetterConfigMixin
+
+```ts
+withDeadLetterConfigMixin(deadLetterConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-deadletterconfig
+
 ### fn withDescription
 
 ```ts
@@ -197,10 +231,26 @@ withEnvironment(environment)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-environment
 
+### fn withEnvironmentMixin
+
+```ts
+withEnvironmentMixin(environment)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-environment
+
 ### fn withFileSystemConfigs
 
 ```ts
 withFileSystemConfigs(fileSystemConfigs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-filesystemconfigs
+
+### fn withFileSystemConfigsMixin
+
+```ts
+withFileSystemConfigsMixin(fileSystemConfigs)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-filesystemconfigs
@@ -229,6 +279,14 @@ withImageConfig(imageConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-imageconfig
 
+### fn withImageConfigMixin
+
+```ts
+withImageConfigMixin(imageConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-imageconfig
+
 ### fn withKmsKeyArn
 
 ```ts
@@ -241,6 +299,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 
 ```ts
 withLayers(layers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-layers
+
+### fn withLayersMixin
+
+```ts
+withLayersMixin(layers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-layers
@@ -293,6 +359,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tags
+
 ### fn withTimeout
 
 ```ts
@@ -309,10 +383,26 @@ withTracingConfig(tracingConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tracingconfig
 
+### fn withTracingConfigMixin
+
+```ts
+withTracingConfigMixin(tracingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-tracingconfig
+
 ### fn withVpcConfig
 
 ```ts
 withVpcConfig(vpcConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-vpcconfig
+
+### fn withVpcConfigMixin
+
+```ts
+withVpcConfigMixin(vpcConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-vpcconfig

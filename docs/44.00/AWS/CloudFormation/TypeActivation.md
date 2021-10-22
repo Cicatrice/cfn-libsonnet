@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn withAutoUpdate(autoUpdate)`](#fn-withautoupdate)
 * [`fn withExecutionRoleArn(executionRoleArn)`](#fn-withexecutionrolearn)
 * [`fn withLoggingConfig(loggingConfig)`](#fn-withloggingconfig)
+* [`fn withLoggingConfigMixin(loggingConfig)`](#fn-withloggingconfigmixin)
 * [`fn withMajorVersion(majorVersion)`](#fn-withmajorversion)
 * [`fn withPublicTypeArn(publicTypeArn)`](#fn-withpublictypearn)
 * [`fn withPublisherId(publisherId)`](#fn-withpublisherid)
@@ -158,6 +159,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withLoggingConfig(loggingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-typeactivation.html#cfn-cloudformation-typeactivation-loggingconfig
+
+### fn withLoggingConfigMixin
+
+```ts
+withLoggingConfigMixin(loggingConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-typeactivation.html#cfn-cloudformation-typeactivation-loggingconfig

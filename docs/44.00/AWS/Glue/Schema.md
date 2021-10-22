@@ -22,13 +22,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCheckpointVersion(checkpointVersion)`](#fn-withcheckpointversion)
+* [`fn withCheckpointVersionMixin(checkpointVersion)`](#fn-withcheckpointversionmixin)
 * [`fn withCompatibility(compatibility)`](#fn-withcompatibility)
 * [`fn withDataFormat(dataFormat)`](#fn-withdataformat)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRegistry(registry)`](#fn-withregistry)
+* [`fn withRegistryMixin(registry)`](#fn-withregistrymixin)
 * [`fn withSchemaDefinition(schemaDefinition)`](#fn-withschemadefinition)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -144,6 +147,14 @@ withCheckpointVersion(checkpointVersion)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schema.html#cfn-glue-schema-checkpointversion
 
+### fn withCheckpointVersionMixin
+
+```ts
+withCheckpointVersionMixin(checkpointVersion)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schema.html#cfn-glue-schema-checkpointversion
+
 ### fn withCompatibility
 
 ```ts
@@ -184,6 +195,14 @@ withRegistry(registry)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schema.html#cfn-glue-schema-registry
 
+### fn withRegistryMixin
+
+```ts
+withRegistryMixin(registry)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schema.html#cfn-glue-schema-registry
+
 ### fn withSchemaDefinition
 
 ```ts
@@ -196,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schema.html#cfn-glue-schema-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schema.html#cfn-glue-schema-tags

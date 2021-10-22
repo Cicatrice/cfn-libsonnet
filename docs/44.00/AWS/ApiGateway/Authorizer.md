@@ -29,6 +29,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withIdentityValidationExpression(identityValidationExpression)`](#fn-withidentityvalidationexpression)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withProviderARNs(providerArns)`](#fn-withproviderarns)
+* [`fn withProviderARNsMixin(providerArns)`](#fn-withproviderarnsmixin)
 * [`fn withRestApiId(restApiId)`](#fn-withrestapiid)
 * [`fn withType(type)`](#fn-withtype)
 
@@ -198,6 +199,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withProviderARNs(providerArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-authorizer.html#cfn-apigateway-authorizer-providerarns
+
+### fn withProviderARNsMixin
+
+```ts
+withProviderARNsMixin(providerArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-authorizer.html#cfn-apigateway-authorizer-providerarns

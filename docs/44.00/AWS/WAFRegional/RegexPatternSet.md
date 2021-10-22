@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRegexPatternStrings(regexPatternStrings)`](#fn-withregexpatternstrings)
+* [`fn withRegexPatternStringsMixin(regexPatternStrings)`](#fn-withregexpatternstringsmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 
 ```ts
 withRegexPatternStrings(regexPatternStrings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-regexpatternset.html#cfn-wafregional-regexpatternset-regexpatternstrings
+
+### fn withRegexPatternStringsMixin
+
+```ts
+withRegexPatternStringsMixin(regexPatternStrings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-regexpatternset.html#cfn-wafregional-regexpatternset-regexpatternstrings

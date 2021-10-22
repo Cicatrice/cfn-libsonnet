@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSizeConstraints(sizeConstraints)`](#fn-withsizeconstraints)
+* [`fn withSizeConstraintsMixin(sizeConstraints)`](#fn-withsizeconstraintsmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 
 ```ts
 withSizeConstraints(sizeConstraints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-sizeconstraintset.html#cfn-wafregional-sizeconstraintset-sizeconstraints
+
+### fn withSizeConstraintsMixin
+
+```ts
+withSizeConstraintsMixin(sizeConstraints)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-sizeconstraintset.html#cfn-wafregional-sizeconstraintset-sizeconstraints

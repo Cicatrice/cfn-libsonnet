@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withIdentityPoolId(identityPoolId)`](#fn-withidentitypoolid)
 * [`fn withRoleMappings(roleMappings)`](#fn-withrolemappings)
+* [`fn withRoleMappingsMixin(roleMappings)`](#fn-withrolemappingsmixin)
 * [`fn withRoles(roles)`](#fn-withroles)
+* [`fn withRolesMixin(roles)`](#fn-withrolesmixin)
 
 ## Fields
 
@@ -147,10 +149,26 @@ withRoleMappings(roleMappings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypoolroleattachment.html#cfn-cognito-identitypoolroleattachment-rolemappings
 
+### fn withRoleMappingsMixin
+
+```ts
+withRoleMappingsMixin(roleMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypoolroleattachment.html#cfn-cognito-identitypoolroleattachment-rolemappings
+
 ### fn withRoles
 
 ```ts
 withRoles(roles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypoolroleattachment.html#cfn-cognito-identitypoolroleattachment-roles
+
+### fn withRolesMixin
+
+```ts
+withRolesMixin(roles)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypoolroleattachment.html#cfn-cognito-identitypoolroleattachment-roles

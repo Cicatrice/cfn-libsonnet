@@ -24,9 +24,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn withDBProxyEndpointName(dbproxyEndpointName)`](#fn-withdbproxyendpointname)
 * [`fn withDBProxyName(dbproxyName)`](#fn-withdbproxyname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetRole(targetRole)`](#fn-withtargetrole)
 * [`fn withVpcSecurityGroupIds(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupids)
+* [`fn withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupidsmixin)
 * [`fn withVpcSubnetIds(vpcSubnetIds)`](#fn-withvpcsubnetids)
+* [`fn withVpcSubnetIdsMixin(vpcSubnetIds)`](#fn-withvpcsubnetidsmixin)
 
 ## Fields
 
@@ -158,6 +161,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxyendpoint.html#cfn-rds-dbproxyendpoint-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxyendpoint.html#cfn-rds-dbproxyendpoint-tags
+
 ### fn withTargetRole
 
 ```ts
@@ -174,10 +185,26 @@ withVpcSecurityGroupIds(vpcSecurityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxyendpoint.html#cfn-rds-dbproxyendpoint-vpcsecuritygroupids
 
+### fn withVpcSecurityGroupIdsMixin
+
+```ts
+withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxyendpoint.html#cfn-rds-dbproxyendpoint-vpcsecuritygroupids
+
 ### fn withVpcSubnetIds
 
 ```ts
 withVpcSubnetIds(vpcSubnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxyendpoint.html#cfn-rds-dbproxyendpoint-vpcsubnetids
+
+### fn withVpcSubnetIdsMixin
+
+```ts
+withVpcSubnetIdsMixin(vpcSubnetIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxyendpoint.html#cfn-rds-dbproxyendpoint-vpcsubnetids

@@ -23,11 +23,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appr
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAutoScalingConfigurationArn(autoScalingConfigurationArn)`](#fn-withautoscalingconfigurationarn)
 * [`fn withEncryptionConfiguration(encryptionConfiguration)`](#fn-withencryptionconfiguration)
+* [`fn withEncryptionConfigurationMixin(encryptionConfiguration)`](#fn-withencryptionconfigurationmixin)
 * [`fn withHealthCheckConfiguration(healthCheckConfiguration)`](#fn-withhealthcheckconfiguration)
+* [`fn withHealthCheckConfigurationMixin(healthCheckConfiguration)`](#fn-withhealthcheckconfigurationmixin)
 * [`fn withInstanceConfiguration(instanceConfiguration)`](#fn-withinstanceconfiguration)
+* [`fn withInstanceConfigurationMixin(instanceConfiguration)`](#fn-withinstanceconfigurationmixin)
 * [`fn withServiceName(serviceName)`](#fn-withservicename)
 * [`fn withSourceConfiguration(sourceConfiguration)`](#fn-withsourceconfiguration)
+* [`fn withSourceConfigurationMixin(sourceConfiguration)`](#fn-withsourceconfigurationmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -151,6 +156,14 @@ withEncryptionConfiguration(encryptionConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-encryptionconfiguration
 
+### fn withEncryptionConfigurationMixin
+
+```ts
+withEncryptionConfigurationMixin(encryptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-encryptionconfiguration
+
 ### fn withHealthCheckConfiguration
 
 ```ts
@@ -159,10 +172,26 @@ withHealthCheckConfiguration(healthCheckConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-healthcheckconfiguration
 
+### fn withHealthCheckConfigurationMixin
+
+```ts
+withHealthCheckConfigurationMixin(healthCheckConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-healthcheckconfiguration
+
 ### fn withInstanceConfiguration
 
 ```ts
 withInstanceConfiguration(instanceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-instanceconfiguration
+
+### fn withInstanceConfigurationMixin
+
+```ts
+withInstanceConfigurationMixin(instanceConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-instanceconfiguration
@@ -183,10 +212,26 @@ withSourceConfiguration(sourceConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-sourceconfiguration
 
+### fn withSourceConfigurationMixin
+
+```ts
+withSourceConfigurationMixin(sourceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-sourceconfiguration
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apprunner-service.html#cfn-apprunner-service-tags

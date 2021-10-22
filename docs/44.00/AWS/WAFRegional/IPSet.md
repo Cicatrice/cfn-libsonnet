@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withIPSetDescriptors(ipsetDescriptors)`](#fn-withipsetdescriptors)
+* [`fn withIPSetDescriptorsMixin(ipsetDescriptors)`](#fn-withipsetdescriptorsmixin)
 * [`fn withName(name)`](#fn-withname)
 
 ## Fields
@@ -134,6 +135,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withIPSetDescriptors(ipsetDescriptors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ipset.html#cfn-wafregional-ipset-ipsetdescriptors
+
+### fn withIPSetDescriptorsMixin
+
+```ts
+withIPSetDescriptorsMixin(ipsetDescriptors)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ipset.html#cfn-wafregional-ipset-ipsetdescriptors

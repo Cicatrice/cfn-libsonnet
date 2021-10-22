@@ -23,10 +23,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iota
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDatastoreName(datastoreName)`](#fn-withdatastorename)
 * [`fn withDatastorePartitions(datastorePartitions)`](#fn-withdatastorepartitions)
+* [`fn withDatastorePartitionsMixin(datastorePartitions)`](#fn-withdatastorepartitionsmixin)
 * [`fn withDatastoreStorage(datastoreStorage)`](#fn-withdatastorestorage)
+* [`fn withDatastoreStorageMixin(datastoreStorage)`](#fn-withdatastorestoragemixin)
 * [`fn withFileFormatConfiguration(fileFormatConfiguration)`](#fn-withfileformatconfiguration)
+* [`fn withFileFormatConfigurationMixin(fileFormatConfiguration)`](#fn-withfileformatconfigurationmixin)
 * [`fn withRetentionPeriod(retentionPeriod)`](#fn-withretentionperiod)
+* [`fn withRetentionPeriodMixin(retentionPeriod)`](#fn-withretentionperiodmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -150,10 +155,26 @@ withDatastorePartitions(datastorePartitions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-datastorepartitions
 
+### fn withDatastorePartitionsMixin
+
+```ts
+withDatastorePartitionsMixin(datastorePartitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-datastorepartitions
+
 ### fn withDatastoreStorage
 
 ```ts
 withDatastoreStorage(datastoreStorage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-datastorestorage
+
+### fn withDatastoreStorageMixin
+
+```ts
+withDatastoreStorageMixin(datastoreStorage)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-datastorestorage
@@ -166,6 +187,14 @@ withFileFormatConfiguration(fileFormatConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-fileformatconfiguration
 
+### fn withFileFormatConfigurationMixin
+
+```ts
+withFileFormatConfigurationMixin(fileFormatConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-fileformatconfiguration
+
 ### fn withRetentionPeriod
 
 ```ts
@@ -174,10 +203,26 @@ withRetentionPeriod(retentionPeriod)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-retentionperiod
 
+### fn withRetentionPeriodMixin
+
+```ts
+withRetentionPeriodMixin(retentionPeriod)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-retentionperiod
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-datastore.html#cfn-iotanalytics-datastore-tags

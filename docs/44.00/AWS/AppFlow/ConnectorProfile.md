@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appf
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConnectionMode(connectionMode)`](#fn-withconnectionmode)
 * [`fn withConnectorProfileConfig(connectorProfileConfig)`](#fn-withconnectorprofileconfig)
+* [`fn withConnectorProfileConfigMixin(connectorProfileConfig)`](#fn-withconnectorprofileconfigmixin)
 * [`fn withConnectorProfileName(connectorProfileName)`](#fn-withconnectorprofilename)
 * [`fn withConnectorType(connectorType)`](#fn-withconnectortype)
 * [`fn withKMSArn(kmsarn)`](#fn-withkmsarn)
@@ -145,6 +146,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appf
 
 ```ts
 withConnectorProfileConfig(connectorProfileConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-connectorprofileconfig
+
+### fn withConnectorProfileConfigMixin
+
+```ts
+withConnectorProfileConfigMixin(connectorProfileConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-connectorprofileconfig

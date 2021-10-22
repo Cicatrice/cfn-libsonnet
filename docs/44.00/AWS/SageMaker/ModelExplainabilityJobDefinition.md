@@ -23,14 +23,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withJobDefinitionName(jobDefinitionName)`](#fn-withjobdefinitionname)
 * [`fn withJobResources(jobResources)`](#fn-withjobresources)
+* [`fn withJobResourcesMixin(jobResources)`](#fn-withjobresourcesmixin)
 * [`fn withModelExplainabilityAppSpecification(modelExplainabilityAppSpecification)`](#fn-withmodelexplainabilityappspecification)
+* [`fn withModelExplainabilityAppSpecificationMixin(modelExplainabilityAppSpecification)`](#fn-withmodelexplainabilityappspecificationmixin)
 * [`fn withModelExplainabilityBaselineConfig(modelExplainabilityBaselineConfig)`](#fn-withmodelexplainabilitybaselineconfig)
+* [`fn withModelExplainabilityBaselineConfigMixin(modelExplainabilityBaselineConfig)`](#fn-withmodelexplainabilitybaselineconfigmixin)
 * [`fn withModelExplainabilityJobInput(modelExplainabilityJobInput)`](#fn-withmodelexplainabilityjobinput)
+* [`fn withModelExplainabilityJobInputMixin(modelExplainabilityJobInput)`](#fn-withmodelexplainabilityjobinputmixin)
 * [`fn withModelExplainabilityJobOutputConfig(modelExplainabilityJobOutputConfig)`](#fn-withmodelexplainabilityjoboutputconfig)
+* [`fn withModelExplainabilityJobOutputConfigMixin(modelExplainabilityJobOutputConfig)`](#fn-withmodelexplainabilityjoboutputconfigmixin)
 * [`fn withNetworkConfig(networkConfig)`](#fn-withnetworkconfig)
+* [`fn withNetworkConfigMixin(networkConfig)`](#fn-withnetworkconfigmixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withStoppingCondition(stoppingCondition)`](#fn-withstoppingcondition)
+* [`fn withStoppingConditionMixin(stoppingCondition)`](#fn-withstoppingconditionmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -154,10 +162,26 @@ withJobResources(jobResources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-jobresources
 
+### fn withJobResourcesMixin
+
+```ts
+withJobResourcesMixin(jobResources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-jobresources
+
 ### fn withModelExplainabilityAppSpecification
 
 ```ts
 withModelExplainabilityAppSpecification(modelExplainabilityAppSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilityappspecification
+
+### fn withModelExplainabilityAppSpecificationMixin
+
+```ts
+withModelExplainabilityAppSpecificationMixin(modelExplainabilityAppSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilityappspecification
@@ -170,10 +194,26 @@ withModelExplainabilityBaselineConfig(modelExplainabilityBaselineConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilitybaselineconfig
 
+### fn withModelExplainabilityBaselineConfigMixin
+
+```ts
+withModelExplainabilityBaselineConfigMixin(modelExplainabilityBaselineConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilitybaselineconfig
+
 ### fn withModelExplainabilityJobInput
 
 ```ts
 withModelExplainabilityJobInput(modelExplainabilityJobInput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilityjobinput
+
+### fn withModelExplainabilityJobInputMixin
+
+```ts
+withModelExplainabilityJobInputMixin(modelExplainabilityJobInput)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilityjobinput
@@ -186,10 +226,26 @@ withModelExplainabilityJobOutputConfig(modelExplainabilityJobOutputConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilityjoboutputconfig
 
+### fn withModelExplainabilityJobOutputConfigMixin
+
+```ts
+withModelExplainabilityJobOutputConfigMixin(modelExplainabilityJobOutputConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-modelexplainabilityjoboutputconfig
+
 ### fn withNetworkConfig
 
 ```ts
 withNetworkConfig(networkConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-networkconfig
+
+### fn withNetworkConfigMixin
+
+```ts
+withNetworkConfigMixin(networkConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-networkconfig
@@ -210,10 +266,26 @@ withStoppingCondition(stoppingCondition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-stoppingcondition
 
+### fn withStoppingConditionMixin
+
+```ts
+withStoppingConditionMixin(stoppingCondition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-stoppingcondition
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelexplainabilityjobdefinition.html#cfn-sagemaker-modelexplainabilityjobdefinition-tags

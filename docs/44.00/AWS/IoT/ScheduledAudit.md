@@ -26,7 +26,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn withFrequency(frequency)`](#fn-withfrequency)
 * [`fn withScheduledAuditName(scheduledAuditName)`](#fn-withscheduledauditname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetCheckNames(targetCheckNames)`](#fn-withtargetchecknames)
+* [`fn withTargetCheckNamesMixin(targetCheckNames)`](#fn-withtargetchecknamesmixin)
 
 ## Fields
 
@@ -174,10 +176,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-tags
+
 ### fn withTargetCheckNames
 
 ```ts
 withTargetCheckNames(targetCheckNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-targetchecknames
+
+### fn withTargetCheckNamesMixin
+
+```ts
+withTargetCheckNamesMixin(targetCheckNames)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-targetchecknames

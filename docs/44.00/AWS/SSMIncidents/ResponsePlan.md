@@ -22,12 +22,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActions(actions)`](#fn-withactions)
+* [`fn withActionsMixin(actions)`](#fn-withactionsmixin)
 * [`fn withChatChannel(chatChannel)`](#fn-withchatchannel)
+* [`fn withChatChannelMixin(chatChannel)`](#fn-withchatchannelmixin)
 * [`fn withDisplayName(displayName)`](#fn-withdisplayname)
 * [`fn withEngagements(engagements)`](#fn-withengagements)
+* [`fn withEngagementsMixin(engagements)`](#fn-withengagementsmixin)
 * [`fn withIncidentTemplate(incidentTemplate)`](#fn-withincidenttemplate)
+* [`fn withIncidentTemplateMixin(incidentTemplate)`](#fn-withincidenttemplatemixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -143,10 +148,26 @@ withActions(actions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-actions
 
+### fn withActionsMixin
+
+```ts
+withActionsMixin(actions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-actions
+
 ### fn withChatChannel
 
 ```ts
 withChatChannel(chatChannel)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-chatchannel
+
+### fn withChatChannelMixin
+
+```ts
+withChatChannelMixin(chatChannel)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-chatchannel
@@ -167,10 +188,26 @@ withEngagements(engagements)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-engagements
 
+### fn withEngagementsMixin
+
+```ts
+withEngagementsMixin(engagements)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-engagements
+
 ### fn withIncidentTemplate
 
 ```ts
 withIncidentTemplate(incidentTemplate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-incidenttemplate
+
+### fn withIncidentTemplateMixin
+
+```ts
+withIncidentTemplateMixin(incidentTemplate)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-incidenttemplate
@@ -187,6 +224,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmi
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-tags

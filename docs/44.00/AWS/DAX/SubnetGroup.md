@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withSubnetGroupName(subnetGroupName)`](#fn-withsubnetgroupname)
 * [`fn withSubnetIds(subnetIds)`](#fn-withsubnetids)
+* [`fn withSubnetIdsMixin(subnetIds)`](#fn-withsubnetidsmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-
 
 ```ts
 withSubnetIds(subnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-subnetgroup.html#cfn-dax-subnetgroup-subnetids
+
+### fn withSubnetIdsMixin
+
+```ts
+withSubnetIdsMixin(subnetIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-subnetgroup.html#cfn-dax-subnetgroup-subnetids

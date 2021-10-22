@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAcceleratorTypes(acceleratorTypes)`](#fn-withacceleratortypes)
+* [`fn withAcceleratorTypesMixin(acceleratorTypes)`](#fn-withacceleratortypesmixin)
 * [`fn withAdditionalCodeRepositories(additionalCodeRepositories)`](#fn-withadditionalcoderepositories)
+* [`fn withAdditionalCodeRepositoriesMixin(additionalCodeRepositories)`](#fn-withadditionalcoderepositoriesmixin)
 * [`fn withDefaultCodeRepository(defaultCodeRepository)`](#fn-withdefaultcoderepository)
 * [`fn withDirectInternetAccess(directInternetAccess)`](#fn-withdirectinternetaccess)
 * [`fn withInstanceType(instanceType)`](#fn-withinstancetype)
@@ -33,8 +35,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withRootAccess(rootAccess)`](#fn-withrootaccess)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSubnetId(subnetId)`](#fn-withsubnetid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVolumeSizeInGB(volumeSizeInGb)`](#fn-withvolumesizeingb)
 
 ## Fields
@@ -151,10 +155,26 @@ withAcceleratorTypes(acceleratorTypes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-acceleratortypes
 
+### fn withAcceleratorTypesMixin
+
+```ts
+withAcceleratorTypesMixin(acceleratorTypes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-acceleratortypes
+
 ### fn withAdditionalCodeRepositories
 
 ```ts
 withAdditionalCodeRepositories(additionalCodeRepositories)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-additionalcoderepositories
+
+### fn withAdditionalCodeRepositoriesMixin
+
+```ts
+withAdditionalCodeRepositoriesMixin(additionalCodeRepositories)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-additionalcoderepositories
@@ -239,6 +259,14 @@ withSecurityGroupIds(securityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-securitygroupids
 
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-securitygroupids
+
 ### fn withSubnetId
 
 ```ts
@@ -251,6 +279,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-tags

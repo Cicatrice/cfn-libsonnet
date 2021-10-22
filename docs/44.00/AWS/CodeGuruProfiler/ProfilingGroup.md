@@ -22,10 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAgentPermissions(agentPermissions)`](#fn-withagentpermissions)
+* [`fn withAgentPermissionsMixin(agentPermissions)`](#fn-withagentpermissionsmixin)
 * [`fn withAnomalyDetectionNotificationConfiguration(anomalyDetectionNotificationConfiguration)`](#fn-withanomalydetectionnotificationconfiguration)
+* [`fn withAnomalyDetectionNotificationConfigurationMixin(anomalyDetectionNotificationConfiguration)`](#fn-withanomalydetectionnotificationconfigurationmixin)
 * [`fn withComputePlatform(computePlatform)`](#fn-withcomputeplatform)
 * [`fn withProfilingGroupName(profilingGroupName)`](#fn-withprofilinggroupname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -141,10 +144,26 @@ withAgentPermissions(agentPermissions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html#cfn-codeguruprofiler-profilinggroup-agentpermissions
 
+### fn withAgentPermissionsMixin
+
+```ts
+withAgentPermissionsMixin(agentPermissions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html#cfn-codeguruprofiler-profilinggroup-agentpermissions
+
 ### fn withAnomalyDetectionNotificationConfiguration
 
 ```ts
 withAnomalyDetectionNotificationConfiguration(anomalyDetectionNotificationConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html#cfn-codeguruprofiler-profilinggroup-anomalydetectionnotificationconfiguration
+
+### fn withAnomalyDetectionNotificationConfigurationMixin
+
+```ts
+withAnomalyDetectionNotificationConfigurationMixin(anomalyDetectionNotificationConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html#cfn-codeguruprofiler-profilinggroup-anomalydetectionnotificationconfiguration
@@ -169,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html#cfn-codeguruprofiler-profilinggroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeguruprofiler-profilinggroup.html#cfn-codeguruprofiler-profilinggroup-tags

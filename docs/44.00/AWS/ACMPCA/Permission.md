@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmp
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActions(actions)`](#fn-withactions)
+* [`fn withActionsMixin(actions)`](#fn-withactionsmixin)
 * [`fn withCertificateAuthorityArn(certificateAuthorityArn)`](#fn-withcertificateauthorityarn)
 * [`fn withPrincipal(principal)`](#fn-withprincipal)
 * [`fn withSourceAccount(sourceAccount)`](#fn-withsourceaccount)
@@ -136,6 +137,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withActions(actions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-permission.html#cfn-acmpca-permission-actions
+
+### fn withActionsMixin
+
+```ts
+withActionsMixin(actions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-permission.html#cfn-acmpca-permission-actions

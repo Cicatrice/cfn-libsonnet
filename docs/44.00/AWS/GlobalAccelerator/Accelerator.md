@@ -24,8 +24,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glob
 * [`fn withEnabled(enabled)`](#fn-withenabled)
 * [`fn withIpAddressType(ipAddressType)`](#fn-withipaddresstype)
 * [`fn withIpAddresses(ipAddresses)`](#fn-withipaddresses)
+* [`fn withIpAddressesMixin(ipAddresses)`](#fn-withipaddressesmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -157,6 +159,14 @@ withIpAddresses(ipAddresses)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-accelerator.html#cfn-globalaccelerator-accelerator-ipaddresses
 
+### fn withIpAddressesMixin
+
+```ts
+withIpAddressesMixin(ipAddresses)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-accelerator.html#cfn-globalaccelerator-accelerator-ipaddresses
+
 ### fn withName
 
 ```ts
@@ -169,6 +179,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glob
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-accelerator.html#cfn-globalaccelerator-accelerator-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-accelerator.html#cfn-globalaccelerator-accelerator-tags

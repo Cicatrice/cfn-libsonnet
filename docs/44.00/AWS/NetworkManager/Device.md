@@ -24,10 +24,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withGlobalNetworkId(globalNetworkId)`](#fn-withglobalnetworkid)
 * [`fn withLocation(location)`](#fn-withlocation)
+* [`fn withLocationMixin(location)`](#fn-withlocationmixin)
 * [`fn withModel(model)`](#fn-withmodel)
 * [`fn withSerialNumber(serialNumber)`](#fn-withserialnumber)
 * [`fn withSiteId(siteId)`](#fn-withsiteid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 * [`fn withVendor(vendor)`](#fn-withvendor)
 
@@ -161,6 +163,14 @@ withLocation(location)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-device.html#cfn-networkmanager-device-location
 
+### fn withLocationMixin
+
+```ts
+withLocationMixin(location)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-device.html#cfn-networkmanager-device-location
+
 ### fn withModel
 
 ```ts
@@ -189,6 +199,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-device.html#cfn-networkmanager-device-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-device.html#cfn-networkmanager-device-tags

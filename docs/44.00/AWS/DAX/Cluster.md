@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAvailabilityZones(availabilityZones)`](#fn-withavailabilityzones)
+* [`fn withAvailabilityZonesMixin(availabilityZones)`](#fn-withavailabilityzonesmixin)
 * [`fn withClusterEndpointEncryptionType(clusterEndpointEncryptionType)`](#fn-withclusterendpointencryptiontype)
 * [`fn withClusterName(clusterName)`](#fn-withclustername)
 * [`fn withDescription(description)`](#fn-withdescription)
@@ -32,9 +33,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-
 * [`fn withPreferredMaintenanceWindow(preferredMaintenanceWindow)`](#fn-withpreferredmaintenancewindow)
 * [`fn withReplicationFactor(replicationFactor)`](#fn-withreplicationfactor)
 * [`fn withSSESpecification(ssespecification)`](#fn-withssespecification)
+* [`fn withSSESpecificationMixin(ssespecification)`](#fn-withssespecificationmixin)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSubnetGroupName(subnetGroupName)`](#fn-withsubnetgroupname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -150,6 +154,14 @@ withAvailabilityZones(availabilityZones)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-availabilityzones
 
+### fn withAvailabilityZonesMixin
+
+```ts
+withAvailabilityZonesMixin(availabilityZones)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-availabilityzones
+
 ### fn withClusterEndpointEncryptionType
 
 ```ts
@@ -230,10 +242,26 @@ withSSESpecification(ssespecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-ssespecification
 
+### fn withSSESpecificationMixin
+
+```ts
+withSSESpecificationMixin(ssespecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-ssespecification
+
 ### fn withSecurityGroupIds
 
 ```ts
 withSecurityGroupIds(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-securitygroupids
+
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-securitygroupids
@@ -250,6 +278,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-tags

@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCatalogId(catalogId)`](#fn-withcatalogid)
 * [`fn withConnectionInput(connectionInput)`](#fn-withconnectioninput)
+* [`fn withConnectionInputMixin(connectionInput)`](#fn-withconnectioninputmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withConnectionInput(connectionInput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-connection.html#cfn-glue-connection-connectioninput
+
+### fn withConnectionInputMixin
+
+```ts
+withConnectionInputMixin(connectionInput)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-connection.html#cfn-glue-connection-connectioninput

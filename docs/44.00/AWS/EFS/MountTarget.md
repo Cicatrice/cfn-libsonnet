@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-
 * [`fn withFileSystemId(fileSystemId)`](#fn-withfilesystemid)
 * [`fn withIpAddress(ipAddress)`](#fn-withipaddress)
 * [`fn withSecurityGroups(securityGroups)`](#fn-withsecuritygroups)
+* [`fn withSecurityGroupsMixin(securityGroups)`](#fn-withsecuritygroupsmixin)
 * [`fn withSubnetId(subnetId)`](#fn-withsubnetid)
 
 ## Fields
@@ -152,6 +153,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-
 
 ```ts
 withSecurityGroups(securityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-securitygroups
+
+### fn withSecurityGroupsMixin
+
+```ts
+withSecurityGroupsMixin(securityGroups)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-securitygroups

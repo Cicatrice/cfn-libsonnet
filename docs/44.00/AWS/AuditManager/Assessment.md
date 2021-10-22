@@ -22,14 +22,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-audi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssessmentReportsDestination(assessmentReportsDestination)`](#fn-withassessmentreportsdestination)
+* [`fn withAssessmentReportsDestinationMixin(assessmentReportsDestination)`](#fn-withassessmentreportsdestinationmixin)
 * [`fn withAwsAccount(awsAccount)`](#fn-withawsaccount)
+* [`fn withAwsAccountMixin(awsAccount)`](#fn-withawsaccountmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withFrameworkId(frameworkId)`](#fn-withframeworkid)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRoles(roles)`](#fn-withroles)
+* [`fn withRolesMixin(roles)`](#fn-withrolesmixin)
 * [`fn withScope(scope)`](#fn-withscope)
+* [`fn withScopeMixin(scope)`](#fn-withscopemixin)
 * [`fn withStatus(status)`](#fn-withstatus)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -145,10 +150,26 @@ withAssessmentReportsDestination(assessmentReportsDestination)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-assessmentreportsdestination
 
+### fn withAssessmentReportsDestinationMixin
+
+```ts
+withAssessmentReportsDestinationMixin(assessmentReportsDestination)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-assessmentreportsdestination
+
 ### fn withAwsAccount
 
 ```ts
 withAwsAccount(awsAccount)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-awsaccount
+
+### fn withAwsAccountMixin
+
+```ts
+withAwsAccountMixin(awsAccount)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-awsaccount
@@ -185,10 +206,26 @@ withRoles(roles)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-roles
 
+### fn withRolesMixin
+
+```ts
+withRolesMixin(roles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-roles
+
 ### fn withScope
 
 ```ts
 withScope(scope)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-scope
+
+### fn withScopeMixin
+
+```ts
+withScopeMixin(scope)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-scope
@@ -205,6 +242,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-audi
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-auditmanager-assessment.html#cfn-auditmanager-assessment-tags

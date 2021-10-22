@@ -27,11 +27,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOwner(owner)`](#fn-withowner)
 * [`fn withProvisioningArtifactParameters(provisioningArtifactParameters)`](#fn-withprovisioningartifactparameters)
+* [`fn withProvisioningArtifactParametersMixin(provisioningArtifactParameters)`](#fn-withprovisioningartifactparametersmixin)
 * [`fn withReplaceProvisioningArtifacts(replaceProvisioningArtifacts)`](#fn-withreplaceprovisioningartifacts)
 * [`fn withSupportDescription(supportDescription)`](#fn-withsupportdescription)
 * [`fn withSupportEmail(supportEmail)`](#fn-withsupportemail)
 * [`fn withSupportUrl(supportUrl)`](#fn-withsupporturl)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -187,6 +189,14 @@ withProvisioningArtifactParameters(provisioningArtifactParameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationproduct.html#cfn-servicecatalog-cloudformationproduct-provisioningartifactparameters
 
+### fn withProvisioningArtifactParametersMixin
+
+```ts
+withProvisioningArtifactParametersMixin(provisioningArtifactParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationproduct.html#cfn-servicecatalog-cloudformationproduct-provisioningartifactparameters
+
 ### fn withReplaceProvisioningArtifacts
 
 ```ts
@@ -223,6 +233,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationproduct.html#cfn-servicecatalog-cloudformationproduct-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationproduct.html#cfn-servicecatalog-cloudformationproduct-tags

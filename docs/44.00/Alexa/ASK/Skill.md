@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ask-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuthenticationConfiguration(authenticationConfiguration)`](#fn-withauthenticationconfiguration)
+* [`fn withAuthenticationConfigurationMixin(authenticationConfiguration)`](#fn-withauthenticationconfigurationmixin)
 * [`fn withSkillPackage(skillPackage)`](#fn-withskillpackage)
+* [`fn withSkillPackageMixin(skillPackage)`](#fn-withskillpackagemixin)
 * [`fn withVendorId(vendorId)`](#fn-withvendorid)
 
 ## Fields
@@ -139,10 +141,26 @@ withAuthenticationConfiguration(authenticationConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ask-skill.html#cfn-ask-skill-authenticationconfiguration
 
+### fn withAuthenticationConfigurationMixin
+
+```ts
+withAuthenticationConfigurationMixin(authenticationConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ask-skill.html#cfn-ask-skill-authenticationconfiguration
+
 ### fn withSkillPackage
 
 ```ts
 withSkillPackage(skillPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ask-skill.html#cfn-ask-skill-skillpackage
+
+### fn withSkillPackageMixin
+
+```ts
+withSkillPackageMixin(skillPackage)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ask-skill.html#cfn-ask-skill-skillpackage

@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withPolicyDocument(policyDocument)`](#fn-withpolicydocument)
+* [`fn withPolicyDocumentMixin(policyDocument)`](#fn-withpolicydocumentmixin)
 * [`fn withQueues(queues)`](#fn-withqueues)
+* [`fn withQueuesMixin(queues)`](#fn-withqueuesmixin)
 
 ## Fields
 
@@ -138,10 +140,26 @@ withPolicyDocument(policyDocument)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-queuepolicy.html#cfn-sqs-queuepolicy-policydocument
 
+### fn withPolicyDocumentMixin
+
+```ts
+withPolicyDocumentMixin(policyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-queuepolicy.html#cfn-sqs-queuepolicy-policydocument
+
 ### fn withQueues
 
 ```ts
 withQueues(queues)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-queuepolicy.html#cfn-sqs-queuepolicy-queues
+
+### fn withQueuesMixin
+
+```ts
+withQueuesMixin(queues)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sqs-queuepolicy.html#cfn-sqs-queuepolicy-queues

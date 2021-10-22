@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 * [`fn withInstanceId(instanceId)`](#fn-withinstanceid)
 * [`fn withPublicIpv4Pool(publicIpv4pool)`](#fn-withpublicipv4pool)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -160,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip.html#cfn-ec2-eip-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-eip.html#cfn-ec2-eip-tags

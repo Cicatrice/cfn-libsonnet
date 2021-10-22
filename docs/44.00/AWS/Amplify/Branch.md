@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAppId(appId)`](#fn-withappid)
 * [`fn withBasicAuthConfig(basicAuthConfig)`](#fn-withbasicauthconfig)
+* [`fn withBasicAuthConfigMixin(basicAuthConfig)`](#fn-withbasicauthconfigmixin)
 * [`fn withBranchName(branchName)`](#fn-withbranchname)
 * [`fn withBuildSpec(buildSpec)`](#fn-withbuildspec)
 * [`fn withDescription(description)`](#fn-withdescription)
@@ -30,9 +31,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 * [`fn withEnablePerformanceMode(enablePerformanceMode)`](#fn-withenableperformancemode)
 * [`fn withEnablePullRequestPreview(enablePullRequestPreview)`](#fn-withenablepullrequestpreview)
 * [`fn withEnvironmentVariables(environmentVariables)`](#fn-withenvironmentvariables)
+* [`fn withEnvironmentVariablesMixin(environmentVariables)`](#fn-withenvironmentvariablesmixin)
 * [`fn withPullRequestEnvironmentName(pullRequestEnvironmentName)`](#fn-withpullrequestenvironmentname)
 * [`fn withStage(stage)`](#fn-withstage)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -156,6 +159,14 @@ withBasicAuthConfig(basicAuthConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html#cfn-amplify-branch-basicauthconfig
 
+### fn withBasicAuthConfigMixin
+
+```ts
+withBasicAuthConfigMixin(basicAuthConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html#cfn-amplify-branch-basicauthconfig
+
 ### fn withBranchName
 
 ```ts
@@ -212,6 +223,14 @@ withEnvironmentVariables(environmentVariables)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html#cfn-amplify-branch-environmentvariables
 
+### fn withEnvironmentVariablesMixin
+
+```ts
+withEnvironmentVariablesMixin(environmentVariables)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html#cfn-amplify-branch-environmentvariables
+
 ### fn withPullRequestEnvironmentName
 
 ```ts
@@ -232,6 +251,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html#cfn-amplify-branch-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html#cfn-amplify-branch-tags

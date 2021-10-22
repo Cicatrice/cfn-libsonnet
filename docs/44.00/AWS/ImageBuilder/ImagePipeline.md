@@ -27,11 +27,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 * [`fn withEnhancedImageMetadataEnabled(enhancedImageMetadataEnabled)`](#fn-withenhancedimagemetadataenabled)
 * [`fn withImageRecipeArn(imageRecipeArn)`](#fn-withimagerecipearn)
 * [`fn withImageTestsConfiguration(imageTestsConfiguration)`](#fn-withimagetestsconfiguration)
+* [`fn withImageTestsConfigurationMixin(imageTestsConfiguration)`](#fn-withimagetestsconfigurationmixin)
 * [`fn withInfrastructureConfigurationArn(infrastructureConfigurationArn)`](#fn-withinfrastructureconfigurationarn)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSchedule(schedule)`](#fn-withschedule)
+* [`fn withScheduleMixin(schedule)`](#fn-withschedulemixin)
 * [`fn withStatus(status)`](#fn-withstatus)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -187,6 +190,14 @@ withImageTestsConfiguration(imageTestsConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html#cfn-imagebuilder-imagepipeline-imagetestsconfiguration
 
+### fn withImageTestsConfigurationMixin
+
+```ts
+withImageTestsConfigurationMixin(imageTestsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html#cfn-imagebuilder-imagepipeline-imagetestsconfiguration
+
 ### fn withInfrastructureConfigurationArn
 
 ```ts
@@ -211,6 +222,14 @@ withSchedule(schedule)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html#cfn-imagebuilder-imagepipeline-schedule
 
+### fn withScheduleMixin
+
+```ts
+withScheduleMixin(schedule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html#cfn-imagebuilder-imagepipeline-schedule
+
 ### fn withStatus
 
 ```ts
@@ -223,6 +242,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html#cfn-imagebuilder-imagepipeline-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html#cfn-imagebuilder-imagepipeline-tags

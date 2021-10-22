@@ -24,10 +24,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn withDataTransferSubscriberFeePercent(dataTransferSubscriberFeePercent)`](#fn-withdatatransfersubscriberfeepercent)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEncryption(encryption)`](#fn-withencryption)
+* [`fn withEncryptionMixin(encryption)`](#fn-withencryptionmixin)
 * [`fn withEntitlementStatus(entitlementStatus)`](#fn-withentitlementstatus)
 * [`fn withFlowArn(flowArn)`](#fn-withflowarn)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSubscribers(subscribers)`](#fn-withsubscribers)
+* [`fn withSubscribersMixin(subscribers)`](#fn-withsubscribersmixin)
 
 ## Fields
 
@@ -159,6 +161,14 @@ withEncryption(encryption)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowentitlement.html#cfn-mediaconnect-flowentitlement-encryption
 
+### fn withEncryptionMixin
+
+```ts
+withEncryptionMixin(encryption)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowentitlement.html#cfn-mediaconnect-flowentitlement-encryption
+
 ### fn withEntitlementStatus
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withSubscribers(subscribers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowentitlement.html#cfn-mediaconnect-flowentitlement-subscribers
+
+### fn withSubscribersMixin
+
+```ts
+withSubscribersMixin(subscribers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowentitlement.html#cfn-mediaconnect-flowentitlement-subscribers

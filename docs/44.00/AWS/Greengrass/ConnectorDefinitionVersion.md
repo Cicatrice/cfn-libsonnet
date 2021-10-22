@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConnectorDefinitionId(connectorDefinitionId)`](#fn-withconnectordefinitionid)
 * [`fn withConnectors(connectors)`](#fn-withconnectors)
+* [`fn withConnectorsMixin(connectors)`](#fn-withconnectorsmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 
 ```ts
 withConnectors(connectors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-connectordefinitionversion.html#cfn-greengrass-connectordefinitionversion-connectors
+
+### fn withConnectorsMixin
+
+```ts
+withConnectorsMixin(connectors)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-connectordefinitionversion.html#cfn-greengrass-connectordefinitionversion-connectors

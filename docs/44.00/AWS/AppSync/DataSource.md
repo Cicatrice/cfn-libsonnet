@@ -24,12 +24,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn withApiId(apiId)`](#fn-withapiid)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDynamoDBConfig(dynamoDbconfig)`](#fn-withdynamodbconfig)
+* [`fn withDynamoDBConfigMixin(dynamoDbconfig)`](#fn-withdynamodbconfigmixin)
 * [`fn withElasticsearchConfig(elasticsearchConfig)`](#fn-withelasticsearchconfig)
+* [`fn withElasticsearchConfigMixin(elasticsearchConfig)`](#fn-withelasticsearchconfigmixin)
 * [`fn withHttpConfig(httpConfig)`](#fn-withhttpconfig)
+* [`fn withHttpConfigMixin(httpConfig)`](#fn-withhttpconfigmixin)
 * [`fn withLambdaConfig(lambdaConfig)`](#fn-withlambdaconfig)
+* [`fn withLambdaConfigMixin(lambdaConfig)`](#fn-withlambdaconfigmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOpenSearchServiceConfig(openSearchServiceConfig)`](#fn-withopensearchserviceconfig)
+* [`fn withOpenSearchServiceConfigMixin(openSearchServiceConfig)`](#fn-withopensearchserviceconfigmixin)
 * [`fn withRelationalDatabaseConfig(relationalDatabaseConfig)`](#fn-withrelationaldatabaseconfig)
+* [`fn withRelationalDatabaseConfigMixin(relationalDatabaseConfig)`](#fn-withrelationaldatabaseconfigmixin)
 * [`fn withServiceRoleArn(serviceRoleArn)`](#fn-withservicerolearn)
 * [`fn withType(type)`](#fn-withtype)
 
@@ -163,10 +169,26 @@ withDynamoDBConfig(dynamoDbconfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-dynamodbconfig
 
+### fn withDynamoDBConfigMixin
+
+```ts
+withDynamoDBConfigMixin(dynamoDbconfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-dynamodbconfig
+
 ### fn withElasticsearchConfig
 
 ```ts
 withElasticsearchConfig(elasticsearchConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-elasticsearchconfig
+
+### fn withElasticsearchConfigMixin
+
+```ts
+withElasticsearchConfigMixin(elasticsearchConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-elasticsearchconfig
@@ -179,10 +201,26 @@ withHttpConfig(httpConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-httpconfig
 
+### fn withHttpConfigMixin
+
+```ts
+withHttpConfigMixin(httpConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-httpconfig
+
 ### fn withLambdaConfig
 
 ```ts
 withLambdaConfig(lambdaConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-lambdaconfig
+
+### fn withLambdaConfigMixin
+
+```ts
+withLambdaConfigMixin(lambdaConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-lambdaconfig
@@ -203,10 +241,26 @@ withOpenSearchServiceConfig(openSearchServiceConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-opensearchserviceconfig
 
+### fn withOpenSearchServiceConfigMixin
+
+```ts
+withOpenSearchServiceConfigMixin(openSearchServiceConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-opensearchserviceconfig
+
 ### fn withRelationalDatabaseConfig
 
 ```ts
 withRelationalDatabaseConfig(relationalDatabaseConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-relationaldatabaseconfig
+
+### fn withRelationalDatabaseConfigMixin
+
+```ts
+withRelationalDatabaseConfigMixin(relationalDatabaseConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-relationaldatabaseconfig

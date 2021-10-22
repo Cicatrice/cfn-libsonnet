@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withLocation(location)`](#fn-withlocation)
+* [`fn withLocationMixin(location)`](#fn-withlocationmixin)
 * [`fn withProperties(properties)`](#fn-withproperties)
 * [`fn withRestApiId(restApiId)`](#fn-withrestapiid)
 
@@ -135,6 +136,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withLocation(location)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationpart.html#cfn-apigateway-documentationpart-location
+
+### fn withLocationMixin
+
+```ts
+withLocationMixin(location)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationpart.html#cfn-apigateway-documentationpart-location

@@ -35,7 +35,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 * [`fn withReplicationSubnetGroupIdentifier(replicationSubnetGroupIdentifier)`](#fn-withreplicationsubnetgroupidentifier)
 * [`fn withResourceIdentifier(resourceIdentifier)`](#fn-withresourceidentifier)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcSecurityGroupIds(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupids)
+* [`fn withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupidsmixin)
 
 ## Fields
 
@@ -255,10 +257,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationinstance.html#cfn-dms-replicationinstance-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationinstance.html#cfn-dms-replicationinstance-tags
+
 ### fn withVpcSecurityGroupIds
 
 ```ts
 withVpcSecurityGroupIds(vpcSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationinstance.html#cfn-dms-replicationinstance-vpcsecuritygroupids
+
+### fn withVpcSecurityGroupIdsMixin
+
+```ts
+withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationinstance.html#cfn-dms-replicationinstance-vpcsecuritygroupids

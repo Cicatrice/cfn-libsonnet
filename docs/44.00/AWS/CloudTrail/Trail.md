@@ -25,8 +25,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn withCloudWatchLogsRoleArn(cloudWatchLogsRoleArn)`](#fn-withcloudwatchlogsrolearn)
 * [`fn withEnableLogFileValidation(enableLogFileValidation)`](#fn-withenablelogfilevalidation)
 * [`fn withEventSelectors(eventSelectors)`](#fn-witheventselectors)
+* [`fn withEventSelectorsMixin(eventSelectors)`](#fn-witheventselectorsmixin)
 * [`fn withIncludeGlobalServiceEvents(includeGlobalServiceEvents)`](#fn-withincludeglobalserviceevents)
 * [`fn withInsightSelectors(insightSelectors)`](#fn-withinsightselectors)
+* [`fn withInsightSelectorsMixin(insightSelectors)`](#fn-withinsightselectorsmixin)
 * [`fn withIsLogging(isLogging)`](#fn-withislogging)
 * [`fn withIsMultiRegionTrail(isMultiRegionTrail)`](#fn-withismultiregiontrail)
 * [`fn withIsOrganizationTrail(isOrganizationTrail)`](#fn-withisorganizationtrail)
@@ -35,6 +37,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn withS3KeyPrefix(s3keyPrefix)`](#fn-withs3keyprefix)
 * [`fn withSnsTopicName(snsTopicName)`](#fn-withsnstopicname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTrailName(trailName)`](#fn-withtrailname)
 
 ## Fields
@@ -175,6 +178,14 @@ withEventSelectors(eventSelectors)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-eventselectors
 
+### fn withEventSelectorsMixin
+
+```ts
+withEventSelectorsMixin(eventSelectors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-eventselectors
+
 ### fn withIncludeGlobalServiceEvents
 
 ```ts
@@ -187,6 +198,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withInsightSelectors(insightSelectors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-insightselectors
+
+### fn withInsightSelectorsMixin
+
+```ts
+withInsightSelectorsMixin(insightSelectors)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-insightselectors
@@ -251,6 +270,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-tags

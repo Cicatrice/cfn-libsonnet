@@ -22,15 +22,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccelerationSettings(accelerationSettings)`](#fn-withaccelerationsettings)
+* [`fn withAccelerationSettingsMixin(accelerationSettings)`](#fn-withaccelerationsettingsmixin)
 * [`fn withCategory(category)`](#fn-withcategory)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withHopDestinations(hopDestinations)`](#fn-withhopdestinations)
+* [`fn withHopDestinationsMixin(hopDestinations)`](#fn-withhopdestinationsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPriority(priority)`](#fn-withpriority)
 * [`fn withQueue(queue)`](#fn-withqueue)
 * [`fn withSettingsJson(settingsJson)`](#fn-withsettingsjson)
+* [`fn withSettingsJsonMixin(settingsJson)`](#fn-withsettingsjsonmixin)
 * [`fn withStatusUpdateInterval(statusUpdateInterval)`](#fn-withstatusupdateinterval)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -146,6 +150,14 @@ withAccelerationSettings(accelerationSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-accelerationsettings
 
+### fn withAccelerationSettingsMixin
+
+```ts
+withAccelerationSettingsMixin(accelerationSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-accelerationsettings
+
 ### fn withCategory
 
 ```ts
@@ -166,6 +178,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withHopDestinations(hopDestinations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-hopdestinations
+
+### fn withHopDestinationsMixin
+
+```ts
+withHopDestinationsMixin(hopDestinations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-hopdestinations
@@ -202,6 +222,14 @@ withSettingsJson(settingsJson)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-settingsjson
 
+### fn withSettingsJsonMixin
+
+```ts
+withSettingsJsonMixin(settingsJson)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-settingsjson
+
 ### fn withStatusUpdateInterval
 
 ```ts
@@ -214,6 +242,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconvert-jobtemplate.html#cfn-mediaconvert-jobtemplate-tags

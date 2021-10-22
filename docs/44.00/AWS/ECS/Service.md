@@ -22,25 +22,34 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCapacityProviderStrategy(capacityProviderStrategy)`](#fn-withcapacityproviderstrategy)
+* [`fn withCapacityProviderStrategyMixin(capacityProviderStrategy)`](#fn-withcapacityproviderstrategymixin)
 * [`fn withCluster(cluster)`](#fn-withcluster)
 * [`fn withDeploymentConfiguration(deploymentConfiguration)`](#fn-withdeploymentconfiguration)
+* [`fn withDeploymentConfigurationMixin(deploymentConfiguration)`](#fn-withdeploymentconfigurationmixin)
 * [`fn withDeploymentController(deploymentController)`](#fn-withdeploymentcontroller)
+* [`fn withDeploymentControllerMixin(deploymentController)`](#fn-withdeploymentcontrollermixin)
 * [`fn withDesiredCount(desiredCount)`](#fn-withdesiredcount)
 * [`fn withEnableECSManagedTags(enableEcsmanagedTags)`](#fn-withenableecsmanagedtags)
 * [`fn withEnableExecuteCommand(enableExecuteCommand)`](#fn-withenableexecutecommand)
 * [`fn withHealthCheckGracePeriodSeconds(healthCheckGracePeriodSeconds)`](#fn-withhealthcheckgraceperiodseconds)
 * [`fn withLaunchType(launchType)`](#fn-withlaunchtype)
 * [`fn withLoadBalancers(loadBalancers)`](#fn-withloadbalancers)
+* [`fn withLoadBalancersMixin(loadBalancers)`](#fn-withloadbalancersmixin)
 * [`fn withNetworkConfiguration(networkConfiguration)`](#fn-withnetworkconfiguration)
+* [`fn withNetworkConfigurationMixin(networkConfiguration)`](#fn-withnetworkconfigurationmixin)
 * [`fn withPlacementConstraints(placementConstraints)`](#fn-withplacementconstraints)
+* [`fn withPlacementConstraintsMixin(placementConstraints)`](#fn-withplacementconstraintsmixin)
 * [`fn withPlacementStrategies(placementStrategies)`](#fn-withplacementstrategies)
+* [`fn withPlacementStrategiesMixin(placementStrategies)`](#fn-withplacementstrategiesmixin)
 * [`fn withPlatformVersion(platformVersion)`](#fn-withplatformversion)
 * [`fn withPropagateTags(propagateTags)`](#fn-withpropagatetags)
 * [`fn withRole(role)`](#fn-withrole)
 * [`fn withSchedulingStrategy(schedulingStrategy)`](#fn-withschedulingstrategy)
 * [`fn withServiceName(serviceName)`](#fn-withservicename)
 * [`fn withServiceRegistries(serviceRegistries)`](#fn-withserviceregistries)
+* [`fn withServiceRegistriesMixin(serviceRegistries)`](#fn-withserviceregistriesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTaskDefinition(taskDefinition)`](#fn-withtaskdefinition)
 
 ## Fields
@@ -157,6 +166,14 @@ withCapacityProviderStrategy(capacityProviderStrategy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-capacityproviderstrategy
 
+### fn withCapacityProviderStrategyMixin
+
+```ts
+withCapacityProviderStrategyMixin(capacityProviderStrategy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-capacityproviderstrategy
+
 ### fn withCluster
 
 ```ts
@@ -173,10 +190,26 @@ withDeploymentConfiguration(deploymentConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-deploymentconfiguration
 
+### fn withDeploymentConfigurationMixin
+
+```ts
+withDeploymentConfigurationMixin(deploymentConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-deploymentconfiguration
+
 ### fn withDeploymentController
 
 ```ts
 withDeploymentController(deploymentController)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-deploymentcontroller
+
+### fn withDeploymentControllerMixin
+
+```ts
+withDeploymentControllerMixin(deploymentController)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-deploymentcontroller
@@ -229,10 +262,26 @@ withLoadBalancers(loadBalancers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-loadbalancers
 
+### fn withLoadBalancersMixin
+
+```ts
+withLoadBalancersMixin(loadBalancers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-loadbalancers
+
 ### fn withNetworkConfiguration
 
 ```ts
 withNetworkConfiguration(networkConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-networkconfiguration
+
+### fn withNetworkConfigurationMixin
+
+```ts
+withNetworkConfigurationMixin(networkConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-networkconfiguration
@@ -245,10 +294,26 @@ withPlacementConstraints(placementConstraints)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-placementconstraints
 
+### fn withPlacementConstraintsMixin
+
+```ts
+withPlacementConstraintsMixin(placementConstraints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-placementconstraints
+
 ### fn withPlacementStrategies
 
 ```ts
 withPlacementStrategies(placementStrategies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-placementstrategies
+
+### fn withPlacementStrategiesMixin
+
+```ts
+withPlacementStrategiesMixin(placementStrategies)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-placementstrategies
@@ -301,10 +366,26 @@ withServiceRegistries(serviceRegistries)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-serviceregistries
 
+### fn withServiceRegistriesMixin
+
+```ts
+withServiceRegistriesMixin(serviceRegistries)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-serviceregistries
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-service.html#cfn-ecs-service-tags

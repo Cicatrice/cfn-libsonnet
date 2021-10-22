@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3ou
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBucket(bucket)`](#fn-withbucket)
 * [`fn withPolicyDocument(policyDocument)`](#fn-withpolicydocument)
+* [`fn withPolicyDocumentMixin(policyDocument)`](#fn-withpolicydocumentmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3ou
 
 ```ts
 withPolicyDocument(policyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucketpolicy.html#cfn-s3outposts-bucketpolicy-policydocument
+
+### fn withPolicyDocumentMixin
+
+```ts
+withPolicyDocumentMixin(policyDocument)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucketpolicy.html#cfn-s3outposts-bucketpolicy-policydocument

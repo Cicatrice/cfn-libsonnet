@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guar
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDetectorId(detectorId)`](#fn-withdetectorid)
 * [`fn withFindingCriteria(findingCriteria)`](#fn-withfindingcriteria)
+* [`fn withFindingCriteriaMixin(findingCriteria)`](#fn-withfindingcriteriamixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRank(rank)`](#fn-withrank)
 
@@ -162,6 +163,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guar
 
 ```ts
 withFindingCriteria(findingCriteria)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-filter.html#cfn-guardduty-filter-findingcriteria
+
+### fn withFindingCriteriaMixin
+
+```ts
+withFindingCriteriaMixin(findingCriteria)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-filter.html#cfn-guardduty-filter-findingcriteria

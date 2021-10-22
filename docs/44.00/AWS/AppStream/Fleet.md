@@ -22,10 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withComputeCapacity(computeCapacity)`](#fn-withcomputecapacity)
+* [`fn withComputeCapacityMixin(computeCapacity)`](#fn-withcomputecapacitymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDisconnectTimeoutInSeconds(disconnectTimeoutInSeconds)`](#fn-withdisconnecttimeoutinseconds)
 * [`fn withDisplayName(displayName)`](#fn-withdisplayname)
 * [`fn withDomainJoinInfo(domainJoinInfo)`](#fn-withdomainjoininfo)
+* [`fn withDomainJoinInfoMixin(domainJoinInfo)`](#fn-withdomainjoininfomixin)
 * [`fn withEnableDefaultInternetAccess(enableDefaultInternetAccess)`](#fn-withenabledefaultinternetaccess)
 * [`fn withFleetType(fleetType)`](#fn-withfleettype)
 * [`fn withIamRoleArn(iamRoleArn)`](#fn-withiamrolearn)
@@ -37,7 +39,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn withName(name)`](#fn-withname)
 * [`fn withStreamView(streamView)`](#fn-withstreamview)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcConfig(vpcConfig)`](#fn-withvpcconfig)
+* [`fn withVpcConfigMixin(vpcConfig)`](#fn-withvpcconfigmixin)
 
 ## Fields
 
@@ -153,6 +157,14 @@ withComputeCapacity(computeCapacity)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-computecapacity
 
+### fn withComputeCapacityMixin
+
+```ts
+withComputeCapacityMixin(computeCapacity)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-computecapacity
+
 ### fn withDescription
 
 ```ts
@@ -181,6 +193,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 
 ```ts
 withDomainJoinInfo(domainJoinInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-domainjoininfo
+
+### fn withDomainJoinInfoMixin
+
+```ts
+withDomainJoinInfoMixin(domainJoinInfo)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-domainjoininfo
@@ -273,10 +293,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-tags
+
 ### fn withVpcConfig
 
 ```ts
 withVpcConfig(vpcConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-vpcconfig
+
+### fn withVpcConfigMixin
+
+```ts
+withVpcConfigMixin(vpcConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-vpcconfig

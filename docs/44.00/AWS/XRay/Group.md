@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray
 * [`fn withFilterExpression(filterExpression)`](#fn-withfilterexpression)
 * [`fn withGroupName(groupName)`](#fn-withgroupname)
 * [`fn withInsightsConfiguration(insightsConfiguration)`](#fn-withinsightsconfiguration)
+* [`fn withInsightsConfigurationMixin(insightsConfiguration)`](#fn-withinsightsconfigurationmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -156,10 +158,26 @@ withInsightsConfiguration(insightsConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-insightsconfiguration
 
+### fn withInsightsConfigurationMixin
+
+```ts
+withInsightsConfigurationMixin(insightsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-insightsconfiguration
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-tags

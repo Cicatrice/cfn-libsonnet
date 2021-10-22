@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-even
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuthParameters(authParameters)`](#fn-withauthparameters)
+* [`fn withAuthParametersMixin(authParameters)`](#fn-withauthparametersmixin)
 * [`fn withAuthorizationType(authorizationType)`](#fn-withauthorizationtype)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
@@ -136,6 +137,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withAuthParameters(authParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-authparameters
+
+### fn withAuthParametersMixin
+
+```ts
+withAuthParametersMixin(authParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-authparameters

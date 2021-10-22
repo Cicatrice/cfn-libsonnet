@@ -22,12 +22,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmp
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCsrExtensions(csrExtensions)`](#fn-withcsrextensions)
+* [`fn withCsrExtensionsMixin(csrExtensions)`](#fn-withcsrextensionsmixin)
 * [`fn withKeyAlgorithm(keyAlgorithm)`](#fn-withkeyalgorithm)
 * [`fn withKeyStorageSecurityStandard(keyStorageSecurityStandard)`](#fn-withkeystoragesecuritystandard)
 * [`fn withRevocationConfiguration(revocationConfiguration)`](#fn-withrevocationconfiguration)
+* [`fn withRevocationConfigurationMixin(revocationConfiguration)`](#fn-withrevocationconfigurationmixin)
 * [`fn withSigningAlgorithm(signingAlgorithm)`](#fn-withsigningalgorithm)
 * [`fn withSubject(subject)`](#fn-withsubject)
+* [`fn withSubjectMixin(subject)`](#fn-withsubjectmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -144,6 +148,14 @@ withCsrExtensions(csrExtensions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-csrextensions
 
+### fn withCsrExtensionsMixin
+
+```ts
+withCsrExtensionsMixin(csrExtensions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-csrextensions
+
 ### fn withKeyAlgorithm
 
 ```ts
@@ -168,6 +180,14 @@ withRevocationConfiguration(revocationConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-revocationconfiguration
 
+### fn withRevocationConfigurationMixin
+
+```ts
+withRevocationConfigurationMixin(revocationConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-revocationconfiguration
+
 ### fn withSigningAlgorithm
 
 ```ts
@@ -184,10 +204,26 @@ withSubject(subject)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-subject
 
+### fn withSubjectMixin
+
+```ts
+withSubjectMixin(subject)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-subject
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthority.html#cfn-acmpca-certificateauthority-tags

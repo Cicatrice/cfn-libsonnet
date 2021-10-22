@@ -24,9 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-grou
 * [`fn withContactPostPassDurationSeconds(contactPostPassDurationSeconds)`](#fn-withcontactpostpassdurationseconds)
 * [`fn withContactPrePassDurationSeconds(contactPrePassDurationSeconds)`](#fn-withcontactprepassdurationseconds)
 * [`fn withDataflowEdges(dataflowEdges)`](#fn-withdataflowedges)
+* [`fn withDataflowEdgesMixin(dataflowEdges)`](#fn-withdataflowedgesmixin)
 * [`fn withMinimumViableContactDurationSeconds(minimumViableContactDurationSeconds)`](#fn-withminimumviablecontactdurationseconds)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTrackingConfigArn(trackingConfigArn)`](#fn-withtrackingconfigarn)
 
 ## Fields
@@ -159,6 +161,14 @@ withDataflowEdges(dataflowEdges)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-dataflowedges
 
+### fn withDataflowEdgesMixin
+
+```ts
+withDataflowEdgesMixin(dataflowEdges)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-dataflowedges
+
 ### fn withMinimumViableContactDurationSeconds
 
 ```ts
@@ -179,6 +189,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-grou
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-groundstation-missionprofile.html#cfn-groundstation-missionprofile-tags

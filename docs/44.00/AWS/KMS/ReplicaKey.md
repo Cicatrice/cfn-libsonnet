@@ -24,9 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEnabled(enabled)`](#fn-withenabled)
 * [`fn withKeyPolicy(keyPolicy)`](#fn-withkeypolicy)
+* [`fn withKeyPolicyMixin(keyPolicy)`](#fn-withkeypolicymixin)
 * [`fn withPendingWindowInDays(pendingWindowInDays)`](#fn-withpendingwindowindays)
 * [`fn withPrimaryKeyArn(primaryKeyArn)`](#fn-withprimarykeyarn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -158,6 +160,14 @@ withKeyPolicy(keyPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-keypolicy
 
+### fn withKeyPolicyMixin
+
+```ts
+withKeyPolicyMixin(keyPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-keypolicy
+
 ### fn withPendingWindowInDays
 
 ```ts
@@ -178,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-tags

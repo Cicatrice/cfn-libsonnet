@@ -25,11 +25,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 * [`fn withExternalId(externalId)`](#fn-withexternalid)
 * [`fn withLaunchType(launchType)`](#fn-withlaunchtype)
 * [`fn withLoadBalancers(loadBalancers)`](#fn-withloadbalancers)
+* [`fn withLoadBalancersMixin(loadBalancers)`](#fn-withloadbalancersmixin)
 * [`fn withNetworkConfiguration(networkConfiguration)`](#fn-withnetworkconfiguration)
+* [`fn withNetworkConfigurationMixin(networkConfiguration)`](#fn-withnetworkconfigurationmixin)
 * [`fn withPlatformVersion(platformVersion)`](#fn-withplatformversion)
 * [`fn withScale(scale)`](#fn-withscale)
+* [`fn withScaleMixin(scale)`](#fn-withscalemixin)
 * [`fn withService(service)`](#fn-withservice)
 * [`fn withServiceRegistries(serviceRegistries)`](#fn-withserviceregistries)
+* [`fn withServiceRegistriesMixin(serviceRegistries)`](#fn-withserviceregistriesmixin)
 * [`fn withTaskDefinition(taskDefinition)`](#fn-withtaskdefinition)
 
 ## Fields
@@ -170,10 +174,26 @@ withLoadBalancers(loadBalancers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-loadbalancers
 
+### fn withLoadBalancersMixin
+
+```ts
+withLoadBalancersMixin(loadBalancers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-loadbalancers
+
 ### fn withNetworkConfiguration
 
 ```ts
 withNetworkConfiguration(networkConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-networkconfiguration
+
+### fn withNetworkConfigurationMixin
+
+```ts
+withNetworkConfigurationMixin(networkConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-networkconfiguration
@@ -194,6 +214,14 @@ withScale(scale)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-scale
 
+### fn withScaleMixin
+
+```ts
+withScaleMixin(scale)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-scale
+
 ### fn withService
 
 ```ts
@@ -206,6 +234,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 
 ```ts
 withServiceRegistries(serviceRegistries)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-serviceregistries
+
+### fn withServiceRegistriesMixin
+
+```ts
+withServiceRegistriesMixin(serviceRegistries)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-serviceregistries

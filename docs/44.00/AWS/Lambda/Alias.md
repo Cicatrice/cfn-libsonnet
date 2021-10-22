@@ -26,7 +26,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 * [`fn withFunctionVersion(functionVersion)`](#fn-withfunctionversion)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withProvisionedConcurrencyConfig(provisionedConcurrencyConfig)`](#fn-withprovisionedconcurrencyconfig)
+* [`fn withProvisionedConcurrencyConfigMixin(provisionedConcurrencyConfig)`](#fn-withprovisionedconcurrencyconfigmixin)
 * [`fn withRoutingConfig(routingConfig)`](#fn-withroutingconfig)
+* [`fn withRoutingConfigMixin(routingConfig)`](#fn-withroutingconfigmixin)
 
 ## Fields
 
@@ -174,10 +176,26 @@ withProvisionedConcurrencyConfig(provisionedConcurrencyConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html#cfn-lambda-alias-provisionedconcurrencyconfig
 
+### fn withProvisionedConcurrencyConfigMixin
+
+```ts
+withProvisionedConcurrencyConfigMixin(provisionedConcurrencyConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html#cfn-lambda-alias-provisionedconcurrencyconfig
+
 ### fn withRoutingConfig
 
 ```ts
 withRoutingConfig(routingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html#cfn-lambda-alias-routingconfig
+
+### fn withRoutingConfigMixin
+
+```ts
+withRoutingConfigMixin(routingConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-alias.html#cfn-lambda-alias-routingconfig

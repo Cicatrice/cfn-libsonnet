@@ -24,8 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn withActivationKey(activationKey)`](#fn-withactivationkey)
 * [`fn withAgentName(agentName)`](#fn-withagentname)
 * [`fn withSecurityGroupArns(securityGroupArns)`](#fn-withsecuritygrouparns)
+* [`fn withSecurityGroupArnsMixin(securityGroupArns)`](#fn-withsecuritygrouparnsmixin)
 * [`fn withSubnetArns(subnetArns)`](#fn-withsubnetarns)
+* [`fn withSubnetArnsMixin(subnetArns)`](#fn-withsubnetarnsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcEndpointId(vpcEndpointId)`](#fn-withvpcendpointid)
 
 ## Fields
@@ -158,6 +161,14 @@ withSecurityGroupArns(securityGroupArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-agent.html#cfn-datasync-agent-securitygrouparns
 
+### fn withSecurityGroupArnsMixin
+
+```ts
+withSecurityGroupArnsMixin(securityGroupArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-agent.html#cfn-datasync-agent-securitygrouparns
+
 ### fn withSubnetArns
 
 ```ts
@@ -166,10 +177,26 @@ withSubnetArns(subnetArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-agent.html#cfn-datasync-agent-subnetarns
 
+### fn withSubnetArnsMixin
+
+```ts
+withSubnetArnsMixin(subnetArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-agent.html#cfn-datasync-agent-subnetarns
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-agent.html#cfn-datasync-agent-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-agent.html#cfn-datasync-agent-tags

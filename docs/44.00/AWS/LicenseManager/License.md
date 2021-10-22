@@ -23,15 +23,20 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lice
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBeneficiary(beneficiary)`](#fn-withbeneficiary)
 * [`fn withConsumptionConfiguration(consumptionConfiguration)`](#fn-withconsumptionconfiguration)
+* [`fn withConsumptionConfigurationMixin(consumptionConfiguration)`](#fn-withconsumptionconfigurationmixin)
 * [`fn withEntitlements(entitlements)`](#fn-withentitlements)
+* [`fn withEntitlementsMixin(entitlements)`](#fn-withentitlementsmixin)
 * [`fn withHomeRegion(homeRegion)`](#fn-withhomeregion)
 * [`fn withIssuer(issuer)`](#fn-withissuer)
+* [`fn withIssuerMixin(issuer)`](#fn-withissuermixin)
 * [`fn withLicenseMetadata(licenseMetadata)`](#fn-withlicensemetadata)
+* [`fn withLicenseMetadataMixin(licenseMetadata)`](#fn-withlicensemetadatamixin)
 * [`fn withLicenseName(licenseName)`](#fn-withlicensename)
 * [`fn withProductName(productName)`](#fn-withproductname)
 * [`fn withProductSKU(productSku)`](#fn-withproductsku)
 * [`fn withStatus(status)`](#fn-withstatus)
 * [`fn withValidity(validity)`](#fn-withvalidity)
+* [`fn withValidityMixin(validity)`](#fn-withvaliditymixin)
 
 ## Fields
 
@@ -155,10 +160,26 @@ withConsumptionConfiguration(consumptionConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-consumptionconfiguration
 
+### fn withConsumptionConfigurationMixin
+
+```ts
+withConsumptionConfigurationMixin(consumptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-consumptionconfiguration
+
 ### fn withEntitlements
 
 ```ts
 withEntitlements(entitlements)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-entitlements
+
+### fn withEntitlementsMixin
+
+```ts
+withEntitlementsMixin(entitlements)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-entitlements
@@ -179,10 +200,26 @@ withIssuer(issuer)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-issuer
 
+### fn withIssuerMixin
+
+```ts
+withIssuerMixin(issuer)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-issuer
+
 ### fn withLicenseMetadata
 
 ```ts
 withLicenseMetadata(licenseMetadata)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-licensemetadata
+
+### fn withLicenseMetadataMixin
+
+```ts
+withLicenseMetadataMixin(licenseMetadata)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-licensemetadata
@@ -223,6 +260,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lice
 
 ```ts
 withValidity(validity)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-validity
+
+### fn withValidityMixin
+
+```ts
+withValidityMixin(validity)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-license.html#cfn-licensemanager-license-validity

@@ -22,9 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withRepositoryCatalogData(repositoryCatalogData)`](#fn-withrepositorycatalogdata)
+* [`fn withRepositoryCatalogDataMixin(repositoryCatalogData)`](#fn-withrepositorycatalogdatamixin)
 * [`fn withRepositoryName(repositoryName)`](#fn-withrepositoryname)
 * [`fn withRepositoryPolicyText(repositoryPolicyText)`](#fn-withrepositorypolicytext)
+* [`fn withRepositoryPolicyTextMixin(repositoryPolicyText)`](#fn-withrepositorypolicytextmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -140,6 +143,14 @@ withRepositoryCatalogData(repositoryCatalogData)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html#cfn-ecr-publicrepository-repositorycatalogdata
 
+### fn withRepositoryCatalogDataMixin
+
+```ts
+withRepositoryCatalogDataMixin(repositoryCatalogData)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html#cfn-ecr-publicrepository-repositorycatalogdata
+
 ### fn withRepositoryName
 
 ```ts
@@ -156,10 +167,26 @@ withRepositoryPolicyText(repositoryPolicyText)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html#cfn-ecr-publicrepository-repositorypolicytext
 
+### fn withRepositoryPolicyTextMixin
+
+```ts
+withRepositoryPolicyTextMixin(repositoryPolicyText)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html#cfn-ecr-publicrepository-repositorypolicytext
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html#cfn-ecr-publicrepository-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-publicrepository.html#cfn-ecr-publicrepository-tags

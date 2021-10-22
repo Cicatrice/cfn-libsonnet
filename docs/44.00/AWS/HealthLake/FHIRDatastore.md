@@ -24,8 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-heal
 * [`fn withDatastoreName(datastoreName)`](#fn-withdatastorename)
 * [`fn withDatastoreTypeVersion(datastoreTypeVersion)`](#fn-withdatastoretypeversion)
 * [`fn withPreloadDataConfig(preloadDataConfig)`](#fn-withpreloaddataconfig)
+* [`fn withPreloadDataConfigMixin(preloadDataConfig)`](#fn-withpreloaddataconfigmixin)
 * [`fn withSseConfiguration(sseConfiguration)`](#fn-withsseconfiguration)
+* [`fn withSseConfigurationMixin(sseConfiguration)`](#fn-withsseconfigurationmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -157,6 +160,14 @@ withPreloadDataConfig(preloadDataConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthlake-fhirdatastore.html#cfn-healthlake-fhirdatastore-preloaddataconfig
 
+### fn withPreloadDataConfigMixin
+
+```ts
+withPreloadDataConfigMixin(preloadDataConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthlake-fhirdatastore.html#cfn-healthlake-fhirdatastore-preloaddataconfig
+
 ### fn withSseConfiguration
 
 ```ts
@@ -165,10 +176,26 @@ withSseConfiguration(sseConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthlake-fhirdatastore.html#cfn-healthlake-fhirdatastore-sseconfiguration
 
+### fn withSseConfigurationMixin
+
+```ts
+withSseConfigurationMixin(sseConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthlake-fhirdatastore.html#cfn-healthlake-fhirdatastore-sseconfiguration
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthlake-fhirdatastore.html#cfn-healthlake-fhirdatastore-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-healthlake-fhirdatastore.html#cfn-healthlake-fhirdatastore-tags

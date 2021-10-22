@@ -22,15 +22,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDestinations(destinations)`](#fn-withdestinations)
+* [`fn withDestinationsMixin(destinations)`](#fn-withdestinationsmixin)
 * [`fn withInputDevices(inputDevices)`](#fn-withinputdevices)
+* [`fn withInputDevicesMixin(inputDevices)`](#fn-withinputdevicesmixin)
 * [`fn withInputSecurityGroups(inputSecurityGroups)`](#fn-withinputsecuritygroups)
+* [`fn withInputSecurityGroupsMixin(inputSecurityGroups)`](#fn-withinputsecuritygroupsmixin)
 * [`fn withMediaConnectFlows(mediaConnectFlows)`](#fn-withmediaconnectflows)
+* [`fn withMediaConnectFlowsMixin(mediaConnectFlows)`](#fn-withmediaconnectflowsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withSources(sources)`](#fn-withsources)
+* [`fn withSourcesMixin(sources)`](#fn-withsourcesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 * [`fn withVpc(vpc)`](#fn-withvpc)
+* [`fn withVpcMixin(vpc)`](#fn-withvpcmixin)
 
 ## Fields
 
@@ -146,10 +153,26 @@ withDestinations(destinations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-destinations
 
+### fn withDestinationsMixin
+
+```ts
+withDestinationsMixin(destinations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-destinations
+
 ### fn withInputDevices
 
 ```ts
 withInputDevices(inputDevices)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-inputdevices
+
+### fn withInputDevicesMixin
+
+```ts
+withInputDevicesMixin(inputDevices)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-inputdevices
@@ -162,10 +185,26 @@ withInputSecurityGroups(inputSecurityGroups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-inputsecuritygroups
 
+### fn withInputSecurityGroupsMixin
+
+```ts
+withInputSecurityGroupsMixin(inputSecurityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-inputsecuritygroups
+
 ### fn withMediaConnectFlows
 
 ```ts
 withMediaConnectFlows(mediaConnectFlows)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-mediaconnectflows
+
+### fn withMediaConnectFlowsMixin
+
+```ts
+withMediaConnectFlowsMixin(mediaConnectFlows)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-mediaconnectflows
@@ -194,10 +233,26 @@ withSources(sources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-sources
 
+### fn withSourcesMixin
+
+```ts
+withSourcesMixin(sources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-sources
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-tags
@@ -214,6 +269,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withVpc(vpc)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-vpc
+
+### fn withVpcMixin
+
+```ts
+withVpcMixin(vpc)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-input.html#cfn-medialive-input-vpc

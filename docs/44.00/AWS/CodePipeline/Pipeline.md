@@ -22,13 +22,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withArtifactStore(artifactStore)`](#fn-withartifactstore)
+* [`fn withArtifactStoreMixin(artifactStore)`](#fn-withartifactstoremixin)
 * [`fn withArtifactStores(artifactStores)`](#fn-withartifactstores)
+* [`fn withArtifactStoresMixin(artifactStores)`](#fn-withartifactstoresmixin)
 * [`fn withDisableInboundStageTransitions(disableInboundStageTransitions)`](#fn-withdisableinboundstagetransitions)
+* [`fn withDisableInboundStageTransitionsMixin(disableInboundStageTransitions)`](#fn-withdisableinboundstagetransitionsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRestartExecutionOnUpdate(restartExecutionOnUpdate)`](#fn-withrestartexecutiononupdate)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withStages(stages)`](#fn-withstages)
+* [`fn withStagesMixin(stages)`](#fn-withstagesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -144,6 +149,14 @@ withArtifactStore(artifactStore)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-artifactstore
 
+### fn withArtifactStoreMixin
+
+```ts
+withArtifactStoreMixin(artifactStore)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-artifactstore
+
 ### fn withArtifactStores
 
 ```ts
@@ -152,10 +165,26 @@ withArtifactStores(artifactStores)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-artifactstores
 
+### fn withArtifactStoresMixin
+
+```ts
+withArtifactStoresMixin(artifactStores)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-artifactstores
+
 ### fn withDisableInboundStageTransitions
 
 ```ts
 withDisableInboundStageTransitions(disableInboundStageTransitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-disableinboundstagetransitions
+
+### fn withDisableInboundStageTransitionsMixin
+
+```ts
+withDisableInboundStageTransitionsMixin(disableInboundStageTransitions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-disableinboundstagetransitions
@@ -192,10 +221,26 @@ withStages(stages)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-stages
 
+### fn withStagesMixin
+
+```ts
+withStagesMixin(stages)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-stages
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-tags

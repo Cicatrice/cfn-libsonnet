@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessControlAttributes(accessControlAttributes)`](#fn-withaccesscontrolattributes)
+* [`fn withAccessControlAttributesMixin(accessControlAttributes)`](#fn-withaccesscontrolattributesmixin)
 * [`fn withInstanceArn(instanceArn)`](#fn-withinstancearn)
 
 ## Fields
@@ -134,6 +135,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withAccessControlAttributes(accessControlAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-instanceaccesscontrolattributeconfiguration.html#cfn-sso-instanceaccesscontrolattributeconfiguration-accesscontrolattributes
+
+### fn withAccessControlAttributesMixin
+
+```ts
+withAccessControlAttributesMixin(accessControlAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-instanceaccesscontrolattributeconfiguration.html#cfn-sso-instanceaccesscontrolattributeconfiguration-accesscontrolattributes

@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glob
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withEndpointConfigurations(endpointConfigurations)`](#fn-withendpointconfigurations)
+* [`fn withEndpointConfigurationsMixin(endpointConfigurations)`](#fn-withendpointconfigurationsmixin)
 * [`fn withEndpointGroupRegion(endpointGroupRegion)`](#fn-withendpointgroupregion)
 * [`fn withHealthCheckIntervalSeconds(healthCheckIntervalSeconds)`](#fn-withhealthcheckintervalseconds)
 * [`fn withHealthCheckPath(healthCheckPath)`](#fn-withhealthcheckpath)
@@ -29,6 +30,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glob
 * [`fn withHealthCheckProtocol(healthCheckProtocol)`](#fn-withhealthcheckprotocol)
 * [`fn withListenerArn(listenerArn)`](#fn-withlistenerarn)
 * [`fn withPortOverrides(portOverrides)`](#fn-withportoverrides)
+* [`fn withPortOverridesMixin(portOverrides)`](#fn-withportoverridesmixin)
 * [`fn withThresholdCount(thresholdCount)`](#fn-withthresholdcount)
 * [`fn withTrafficDialPercentage(trafficDialPercentage)`](#fn-withtrafficdialpercentage)
 
@@ -146,6 +148,14 @@ withEndpointConfigurations(endpointConfigurations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-endpointgroup.html#cfn-globalaccelerator-endpointgroup-endpointconfigurations
 
+### fn withEndpointConfigurationsMixin
+
+```ts
+withEndpointConfigurationsMixin(endpointConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-endpointgroup.html#cfn-globalaccelerator-endpointgroup-endpointconfigurations
+
 ### fn withEndpointGroupRegion
 
 ```ts
@@ -198,6 +208,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glob
 
 ```ts
 withPortOverrides(portOverrides)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-endpointgroup.html#cfn-globalaccelerator-endpointgroup-portoverrides
+
+### fn withPortOverridesMixin
+
+```ts
+withPortOverridesMixin(portOverrides)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-endpointgroup.html#cfn-globalaccelerator-endpointgroup-portoverrides

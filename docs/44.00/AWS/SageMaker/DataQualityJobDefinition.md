@@ -22,15 +22,23 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDataQualityAppSpecification(dataQualityAppSpecification)`](#fn-withdataqualityappspecification)
+* [`fn withDataQualityAppSpecificationMixin(dataQualityAppSpecification)`](#fn-withdataqualityappspecificationmixin)
 * [`fn withDataQualityBaselineConfig(dataQualityBaselineConfig)`](#fn-withdataqualitybaselineconfig)
+* [`fn withDataQualityBaselineConfigMixin(dataQualityBaselineConfig)`](#fn-withdataqualitybaselineconfigmixin)
 * [`fn withDataQualityJobInput(dataQualityJobInput)`](#fn-withdataqualityjobinput)
+* [`fn withDataQualityJobInputMixin(dataQualityJobInput)`](#fn-withdataqualityjobinputmixin)
 * [`fn withDataQualityJobOutputConfig(dataQualityJobOutputConfig)`](#fn-withdataqualityjoboutputconfig)
+* [`fn withDataQualityJobOutputConfigMixin(dataQualityJobOutputConfig)`](#fn-withdataqualityjoboutputconfigmixin)
 * [`fn withJobDefinitionName(jobDefinitionName)`](#fn-withjobdefinitionname)
 * [`fn withJobResources(jobResources)`](#fn-withjobresources)
+* [`fn withJobResourcesMixin(jobResources)`](#fn-withjobresourcesmixin)
 * [`fn withNetworkConfig(networkConfig)`](#fn-withnetworkconfig)
+* [`fn withNetworkConfigMixin(networkConfig)`](#fn-withnetworkconfigmixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withStoppingCondition(stoppingCondition)`](#fn-withstoppingcondition)
+* [`fn withStoppingConditionMixin(stoppingCondition)`](#fn-withstoppingconditionmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -146,10 +154,26 @@ withDataQualityAppSpecification(dataQualityAppSpecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualityappspecification
 
+### fn withDataQualityAppSpecificationMixin
+
+```ts
+withDataQualityAppSpecificationMixin(dataQualityAppSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualityappspecification
+
 ### fn withDataQualityBaselineConfig
 
 ```ts
 withDataQualityBaselineConfig(dataQualityBaselineConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualitybaselineconfig
+
+### fn withDataQualityBaselineConfigMixin
+
+```ts
+withDataQualityBaselineConfigMixin(dataQualityBaselineConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualitybaselineconfig
@@ -162,10 +186,26 @@ withDataQualityJobInput(dataQualityJobInput)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualityjobinput
 
+### fn withDataQualityJobInputMixin
+
+```ts
+withDataQualityJobInputMixin(dataQualityJobInput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualityjobinput
+
 ### fn withDataQualityJobOutputConfig
 
 ```ts
 withDataQualityJobOutputConfig(dataQualityJobOutputConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualityjoboutputconfig
+
+### fn withDataQualityJobOutputConfigMixin
+
+```ts
+withDataQualityJobOutputConfigMixin(dataQualityJobOutputConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-dataqualityjoboutputconfig
@@ -186,10 +226,26 @@ withJobResources(jobResources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-jobresources
 
+### fn withJobResourcesMixin
+
+```ts
+withJobResourcesMixin(jobResources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-jobresources
+
 ### fn withNetworkConfig
 
 ```ts
 withNetworkConfig(networkConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-networkconfig
+
+### fn withNetworkConfigMixin
+
+```ts
+withNetworkConfigMixin(networkConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-networkconfig
@@ -210,10 +266,26 @@ withStoppingCondition(stoppingCondition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-stoppingcondition
 
+### fn withStoppingConditionMixin
+
+```ts
+withStoppingConditionMixin(stoppingCondition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-stoppingcondition
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-dataqualityjobdefinition.html#cfn-sagemaker-dataqualityjobdefinition-tags

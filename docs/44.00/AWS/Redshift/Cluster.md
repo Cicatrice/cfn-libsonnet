@@ -31,6 +31,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-reds
 * [`fn withClusterIdentifier(clusterIdentifier)`](#fn-withclusteridentifier)
 * [`fn withClusterParameterGroupName(clusterParameterGroupName)`](#fn-withclusterparametergroupname)
 * [`fn withClusterSecurityGroups(clusterSecurityGroups)`](#fn-withclustersecuritygroups)
+* [`fn withClusterSecurityGroupsMixin(clusterSecurityGroups)`](#fn-withclustersecuritygroupsmixin)
 * [`fn withClusterSubnetGroupName(clusterSubnetGroupName)`](#fn-withclustersubnetgroupname)
 * [`fn withClusterType(clusterType)`](#fn-withclustertype)
 * [`fn withClusterVersion(clusterVersion)`](#fn-withclusterversion)
@@ -43,12 +44,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-reds
 * [`fn withElasticIp(elasticIp)`](#fn-withelasticip)
 * [`fn withEncrypted(encrypted)`](#fn-withencrypted)
 * [`fn withEndpoint(endpoint)`](#fn-withendpoint)
+* [`fn withEndpointMixin(endpoint)`](#fn-withendpointmixin)
 * [`fn withEnhancedVpcRouting(enhancedVpcRouting)`](#fn-withenhancedvpcrouting)
 * [`fn withHsmClientCertificateIdentifier(hsmClientCertificateIdentifier)`](#fn-withhsmclientcertificateidentifier)
 * [`fn withHsmConfigurationIdentifier(hsmConfigurationIdentifier)`](#fn-withhsmconfigurationidentifier)
 * [`fn withIamRoles(iamRoles)`](#fn-withiamroles)
+* [`fn withIamRolesMixin(iamRoles)`](#fn-withiamrolesmixin)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withLoggingProperties(loggingProperties)`](#fn-withloggingproperties)
+* [`fn withLoggingPropertiesMixin(loggingProperties)`](#fn-withloggingpropertiesmixin)
 * [`fn withMaintenanceTrackName(maintenanceTrackName)`](#fn-withmaintenancetrackname)
 * [`fn withManualSnapshotRetentionPeriod(manualSnapshotRetentionPeriod)`](#fn-withmanualsnapshotretentionperiod)
 * [`fn withMasterUserPassword(masterUserPassword)`](#fn-withmasteruserpassword)
@@ -68,7 +72,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-reds
 * [`fn withSnapshotCopyRetentionPeriod(snapshotCopyRetentionPeriod)`](#fn-withsnapshotcopyretentionperiod)
 * [`fn withSnapshotIdentifier(snapshotIdentifier)`](#fn-withsnapshotidentifier)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcSecurityGroupIds(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupids)
+* [`fn withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupidsmixin)
 
 ## Fields
 
@@ -256,6 +262,14 @@ withClusterSecurityGroups(clusterSecurityGroups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-clustersecuritygroups
 
+### fn withClusterSecurityGroupsMixin
+
+```ts
+withClusterSecurityGroupsMixin(clusterSecurityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-clustersecuritygroups
+
 ### fn withClusterSubnetGroupName
 
 ```ts
@@ -352,6 +366,14 @@ withEndpoint(endpoint)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-endpoint
 
+### fn withEndpointMixin
+
+```ts
+withEndpointMixin(endpoint)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-endpoint
+
 ### fn withEnhancedVpcRouting
 
 ```ts
@@ -384,6 +406,14 @@ withIamRoles(iamRoles)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-iamroles
 
+### fn withIamRolesMixin
+
+```ts
+withIamRolesMixin(iamRoles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-iamroles
+
 ### fn withKmsKeyId
 
 ```ts
@@ -396,6 +426,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-reds
 
 ```ts
 withLoggingProperties(loggingProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-loggingproperties
+
+### fn withLoggingPropertiesMixin
+
+```ts
+withLoggingPropertiesMixin(loggingProperties)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-loggingproperties
@@ -552,10 +590,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-tags
+
 ### fn withVpcSecurityGroupIds
 
 ```ts
 withVpcSecurityGroupIds(vpcSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-vpcsecuritygroupids
+
+### fn withVpcSecurityGroupIdsMixin
+
+```ts
+withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-cluster.html#cfn-redshift-cluster-vpcsecuritygroupids

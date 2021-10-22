@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withRouteTableIds(routeTableIds)`](#fn-withroutetableids)
+* [`fn withRouteTableIdsMixin(routeTableIds)`](#fn-withroutetableidsmixin)
 * [`fn withVpnGatewayId(vpnGatewayId)`](#fn-withvpngatewayid)
 
 ## Fields
@@ -134,6 +135,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withRouteTableIds(routeTableIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-gatewayrouteprop.html#cfn-ec2-vpngatewayrouteprop-routetableids
+
+### fn withRouteTableIdsMixin
+
+```ts
+withRouteTableIdsMixin(routeTableIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-gatewayrouteprop.html#cfn-ec2-vpngatewayrouteprop-routetableids

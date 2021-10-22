@@ -23,8 +23,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withFirewallPolicy(firewallPolicy)`](#fn-withfirewallpolicy)
+* [`fn withFirewallPolicyMixin(firewallPolicy)`](#fn-withfirewallpolicymixin)
 * [`fn withFirewallPolicyName(firewallPolicyName)`](#fn-withfirewallpolicyname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -148,6 +150,14 @@ withFirewallPolicy(firewallPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html#cfn-networkfirewall-firewallpolicy-firewallpolicy
 
+### fn withFirewallPolicyMixin
+
+```ts
+withFirewallPolicyMixin(firewallPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html#cfn-networkfirewall-firewallpolicy-firewallpolicy
+
 ### fn withFirewallPolicyName
 
 ```ts
@@ -160,6 +170,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html#cfn-networkfirewall-firewallpolicy-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html#cfn-networkfirewall-firewallpolicy-tags

@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAcceptanceRequired(acceptanceRequired)`](#fn-withacceptancerequired)
 * [`fn withGatewayLoadBalancerArns(gatewayLoadBalancerArns)`](#fn-withgatewayloadbalancerarns)
+* [`fn withGatewayLoadBalancerArnsMixin(gatewayLoadBalancerArns)`](#fn-withgatewayloadbalancerarnsmixin)
 * [`fn withNetworkLoadBalancerArns(networkLoadBalancerArns)`](#fn-withnetworkloadbalancerarns)
+* [`fn withNetworkLoadBalancerArnsMixin(networkLoadBalancerArns)`](#fn-withnetworkloadbalancerarnsmixin)
 
 ## Fields
 
@@ -147,10 +149,26 @@ withGatewayLoadBalancerArns(gatewayLoadBalancerArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-gatewayloadbalancerarns
 
+### fn withGatewayLoadBalancerArnsMixin
+
+```ts
+withGatewayLoadBalancerArnsMixin(gatewayLoadBalancerArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-gatewayloadbalancerarns
+
 ### fn withNetworkLoadBalancerArns
 
 ```ts
 withNetworkLoadBalancerArns(networkLoadBalancerArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-networkloadbalancerarns
+
+### fn withNetworkLoadBalancerArnsMixin
+
+```ts
+withNetworkLoadBalancerArnsMixin(networkLoadBalancerArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-networkloadbalancerarns

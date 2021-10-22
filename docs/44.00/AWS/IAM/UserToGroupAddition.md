@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ia
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withGroupName(groupName)`](#fn-withgroupname)
 * [`fn withUsers(users)`](#fn-withusers)
+* [`fn withUsersMixin(users)`](#fn-withusersmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ia
 
 ```ts
 withUsers(users)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-addusertogroup.html#cfn-iam-addusertogroup-users
+
+### fn withUsersMixin
+
+```ts
+withUsersMixin(users)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-addusertogroup.html#cfn-iam-addusertogroup-users

@@ -27,6 +27,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chat
 * [`fn withSlackChannelId(slackChannelId)`](#fn-withslackchannelid)
 * [`fn withSlackWorkspaceId(slackWorkspaceId)`](#fn-withslackworkspaceid)
 * [`fn withSnsTopicArns(snsTopicArns)`](#fn-withsnstopicarns)
+* [`fn withSnsTopicArnsMixin(snsTopicArns)`](#fn-withsnstopicarnsmixin)
 
 ## Fields
 
@@ -178,6 +179,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chat
 
 ```ts
 withSnsTopicArns(snsTopicArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chatbot-slackchannelconfiguration.html#cfn-chatbot-slackchannelconfiguration-snstopicarns
+
+### fn withSnsTopicArnsMixin
+
+```ts
+withSnsTopicArnsMixin(snsTopicArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-chatbot-slackchannelconfiguration.html#cfn-chatbot-slackchannelconfiguration-snstopicarns

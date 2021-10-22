@@ -29,8 +29,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withAuthorizerUri(authorizerUri)`](#fn-withauthorizeruri)
 * [`fn withEnableSimpleResponses(enableSimpleResponses)`](#fn-withenablesimpleresponses)
 * [`fn withIdentitySource(identitySource)`](#fn-withidentitysource)
+* [`fn withIdentitySourceMixin(identitySource)`](#fn-withidentitysourcemixin)
 * [`fn withIdentityValidationExpression(identityValidationExpression)`](#fn-withidentityvalidationexpression)
 * [`fn withJwtConfiguration(jwtConfiguration)`](#fn-withjwtconfiguration)
+* [`fn withJwtConfigurationMixin(jwtConfiguration)`](#fn-withjwtconfigurationmixin)
 * [`fn withName(name)`](#fn-withname)
 
 ## Fields
@@ -203,6 +205,14 @@ withIdentitySource(identitySource)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html#cfn-apigatewayv2-authorizer-identitysource
 
+### fn withIdentitySourceMixin
+
+```ts
+withIdentitySourceMixin(identitySource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html#cfn-apigatewayv2-authorizer-identitysource
+
 ### fn withIdentityValidationExpression
 
 ```ts
@@ -215,6 +225,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withJwtConfiguration(jwtConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html#cfn-apigatewayv2-authorizer-jwtconfiguration
+
+### fn withJwtConfigurationMixin
+
+```ts
+withJwtConfigurationMixin(jwtConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html#cfn-apigatewayv2-authorizer-jwtconfiguration

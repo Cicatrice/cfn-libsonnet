@@ -26,11 +26,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pano
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDeviceId(deviceId)`](#fn-withdeviceid)
 * [`fn withManifestOverridesPayload(manifestOverridesPayload)`](#fn-withmanifestoverridespayload)
+* [`fn withManifestOverridesPayloadMixin(manifestOverridesPayload)`](#fn-withmanifestoverridespayloadmixin)
 * [`fn withManifestPayload(manifestPayload)`](#fn-withmanifestpayload)
+* [`fn withManifestPayloadMixin(manifestPayload)`](#fn-withmanifestpayloadmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRuntimeRoleArn(runtimeRoleArn)`](#fn-withruntimerolearn)
 * [`fn withStatusFilter(statusFilter)`](#fn-withstatusfilter)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -178,10 +181,26 @@ withManifestOverridesPayload(manifestOverridesPayload)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-applicationinstance.html#cfn-panorama-applicationinstance-manifestoverridespayload
 
+### fn withManifestOverridesPayloadMixin
+
+```ts
+withManifestOverridesPayloadMixin(manifestOverridesPayload)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-applicationinstance.html#cfn-panorama-applicationinstance-manifestoverridespayload
+
 ### fn withManifestPayload
 
 ```ts
 withManifestPayload(manifestPayload)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-applicationinstance.html#cfn-panorama-applicationinstance-manifestpayload
+
+### fn withManifestPayloadMixin
+
+```ts
+withManifestPayloadMixin(manifestPayload)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-applicationinstance.html#cfn-panorama-applicationinstance-manifestpayload
@@ -214,6 +233,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pano
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-applicationinstance.html#cfn-panorama-applicationinstance-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-applicationinstance.html#cfn-panorama-applicationinstance-tags

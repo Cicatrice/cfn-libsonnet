@@ -24,9 +24,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-
 * [`fn withAllowExternalPrincipals(allowExternalPrincipals)`](#fn-withallowexternalprincipals)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPermissionArns(permissionArns)`](#fn-withpermissionarns)
+* [`fn withPermissionArnsMixin(permissionArns)`](#fn-withpermissionarnsmixin)
 * [`fn withPrincipals(principals)`](#fn-withprincipals)
+* [`fn withPrincipalsMixin(principals)`](#fn-withprincipalsmixin)
 * [`fn withResourceArns(resourceArns)`](#fn-withresourcearns)
+* [`fn withResourceArnsMixin(resourceArns)`](#fn-withresourcearnsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -158,10 +162,26 @@ withPermissionArns(permissionArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-permissionarns
 
+### fn withPermissionArnsMixin
+
+```ts
+withPermissionArnsMixin(permissionArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-permissionarns
+
 ### fn withPrincipals
 
 ```ts
 withPrincipals(principals)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-principals
+
+### fn withPrincipalsMixin
+
+```ts
+withPrincipalsMixin(principals)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-principals
@@ -174,10 +194,26 @@ withResourceArns(resourceArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-resourcearns
 
+### fn withResourceArnsMixin
+
+```ts
+withResourceArnsMixin(resourceArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-resourcearns
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ram-resourceshare.html#cfn-ram-resourceshare-tags

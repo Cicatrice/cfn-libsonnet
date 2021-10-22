@@ -23,10 +23,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frau
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEntityTypes(entityTypes)`](#fn-withentitytypes)
+* [`fn withEntityTypesMixin(entityTypes)`](#fn-withentitytypesmixin)
 * [`fn withEventVariables(eventVariables)`](#fn-witheventvariables)
+* [`fn withEventVariablesMixin(eventVariables)`](#fn-witheventvariablesmixin)
 * [`fn withLabels(labels)`](#fn-withlabels)
+* [`fn withLabelsMixin(labels)`](#fn-withlabelsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -150,6 +154,14 @@ withEntityTypes(entityTypes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-entitytypes
 
+### fn withEntityTypesMixin
+
+```ts
+withEntityTypesMixin(entityTypes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-entitytypes
+
 ### fn withEventVariables
 
 ```ts
@@ -158,10 +170,26 @@ withEventVariables(eventVariables)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-eventvariables
 
+### fn withEventVariablesMixin
+
+```ts
+withEventVariablesMixin(eventVariables)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-eventvariables
+
 ### fn withLabels
 
 ```ts
 withLabels(labels)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-labels
+
+### fn withLabelsMixin
+
+```ts
+withLabelsMixin(labels)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-labels
@@ -178,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frau
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-eventtype.html#cfn-frauddetector-eventtype-tags

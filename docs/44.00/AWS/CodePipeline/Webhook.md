@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuthentication(authentication)`](#fn-withauthentication)
 * [`fn withAuthenticationConfiguration(authenticationConfiguration)`](#fn-withauthenticationconfiguration)
+* [`fn withAuthenticationConfigurationMixin(authenticationConfiguration)`](#fn-withauthenticationconfigurationmixin)
 * [`fn withFilters(filters)`](#fn-withfilters)
+* [`fn withFiltersMixin(filters)`](#fn-withfiltersmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRegisterWithThirdParty(registerWithThirdParty)`](#fn-withregisterwiththirdparty)
 * [`fn withTargetAction(targetAction)`](#fn-withtargetaction)
@@ -152,10 +154,26 @@ withAuthenticationConfiguration(authenticationConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-authenticationconfiguration
 
+### fn withAuthenticationConfigurationMixin
+
+```ts
+withAuthenticationConfigurationMixin(authenticationConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-authenticationconfiguration
+
 ### fn withFilters
 
 ```ts
 withFilters(filters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-filters
+
+### fn withFiltersMixin
+
+```ts
+withFiltersMixin(filters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-webhook.html#cfn-codepipeline-webhook-filters

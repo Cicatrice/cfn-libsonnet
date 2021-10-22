@@ -22,11 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withPolicyDocument(policyDocument)`](#fn-withpolicydocument)
+* [`fn withPolicyDocumentMixin(policyDocument)`](#fn-withpolicydocumentmixin)
 * [`fn withPrivateDnsEnabled(privateDnsEnabled)`](#fn-withprivatednsenabled)
 * [`fn withRouteTableIds(routeTableIds)`](#fn-withroutetableids)
+* [`fn withRouteTableIdsMixin(routeTableIds)`](#fn-withroutetableidsmixin)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withServiceName(serviceName)`](#fn-withservicename)
 * [`fn withSubnetIds(subnetIds)`](#fn-withsubnetids)
+* [`fn withSubnetIdsMixin(subnetIds)`](#fn-withsubnetidsmixin)
 * [`fn withVpcEndpointType(vpcEndpointType)`](#fn-withvpcendpointtype)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
 
@@ -144,6 +148,14 @@ withPolicyDocument(policyDocument)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-policydocument
 
+### fn withPolicyDocumentMixin
+
+```ts
+withPolicyDocumentMixin(policyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-policydocument
+
 ### fn withPrivateDnsEnabled
 
 ```ts
@@ -160,10 +172,26 @@ withRouteTableIds(routeTableIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-routetableids
 
+### fn withRouteTableIdsMixin
+
+```ts
+withRouteTableIdsMixin(routeTableIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-routetableids
+
 ### fn withSecurityGroupIds
 
 ```ts
 withSecurityGroupIds(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-securitygroupids
+
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-securitygroupids
@@ -180,6 +208,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withSubnetIds(subnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-subnetids
+
+### fn withSubnetIdsMixin
+
+```ts
+withSubnetIdsMixin(subnetIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-subnetids

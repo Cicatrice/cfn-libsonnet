@@ -22,12 +22,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdditionalMetricsToRetainV2(additionalMetricsToRetainV2)`](#fn-withadditionalmetricstoretainv2)
+* [`fn withAdditionalMetricsToRetainV2Mixin(additionalMetricsToRetainV2)`](#fn-withadditionalmetricstoretainv2mixin)
 * [`fn withAlertTargets(alertTargets)`](#fn-withalerttargets)
+* [`fn withAlertTargetsMixin(alertTargets)`](#fn-withalerttargetsmixin)
 * [`fn withBehaviors(behaviors)`](#fn-withbehaviors)
+* [`fn withBehaviorsMixin(behaviors)`](#fn-withbehaviorsmixin)
 * [`fn withSecurityProfileDescription(securityProfileDescription)`](#fn-withsecurityprofiledescription)
 * [`fn withSecurityProfileName(securityProfileName)`](#fn-withsecurityprofilename)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetArns(targetArns)`](#fn-withtargetarns)
+* [`fn withTargetArnsMixin(targetArns)`](#fn-withtargetarnsmixin)
 
 ## Fields
 
@@ -143,6 +148,14 @@ withAdditionalMetricsToRetainV2(additionalMetricsToRetainV2)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-additionalmetricstoretainv2
 
+### fn withAdditionalMetricsToRetainV2Mixin
+
+```ts
+withAdditionalMetricsToRetainV2Mixin(additionalMetricsToRetainV2)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-additionalmetricstoretainv2
+
 ### fn withAlertTargets
 
 ```ts
@@ -151,10 +164,26 @@ withAlertTargets(alertTargets)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-alerttargets
 
+### fn withAlertTargetsMixin
+
+```ts
+withAlertTargetsMixin(alertTargets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-alerttargets
+
 ### fn withBehaviors
 
 ```ts
 withBehaviors(behaviors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-behaviors
+
+### fn withBehaviorsMixin
+
+```ts
+withBehaviorsMixin(behaviors)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-behaviors
@@ -183,10 +212,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-tags
+
 ### fn withTargetArns
 
 ```ts
 withTargetArns(targetArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-targetarns
+
+### fn withTargetArnsMixin
+
+```ts
+withTargetArnsMixin(targetArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-securityprofile.html#cfn-iot-securityprofile-targetarns

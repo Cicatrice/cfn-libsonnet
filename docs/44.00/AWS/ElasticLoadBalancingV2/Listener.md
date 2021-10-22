@@ -22,8 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAlpnPolicy(alpnPolicy)`](#fn-withalpnpolicy)
+* [`fn withAlpnPolicyMixin(alpnPolicy)`](#fn-withalpnpolicymixin)
 * [`fn withCertificates(certificates)`](#fn-withcertificates)
+* [`fn withCertificatesMixin(certificates)`](#fn-withcertificatesmixin)
 * [`fn withDefaultActions(defaultActions)`](#fn-withdefaultactions)
+* [`fn withDefaultActionsMixin(defaultActions)`](#fn-withdefaultactionsmixin)
 * [`fn withLoadBalancerArn(loadBalancerArn)`](#fn-withloadbalancerarn)
 * [`fn withPort(port)`](#fn-withport)
 * [`fn withProtocol(protocol)`](#fn-withprotocol)
@@ -143,6 +146,14 @@ withAlpnPolicy(alpnPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html#cfn-elasticloadbalancingv2-listener-alpnpolicy
 
+### fn withAlpnPolicyMixin
+
+```ts
+withAlpnPolicyMixin(alpnPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html#cfn-elasticloadbalancingv2-listener-alpnpolicy
+
 ### fn withCertificates
 
 ```ts
@@ -151,10 +162,26 @@ withCertificates(certificates)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html#cfn-elasticloadbalancingv2-listener-certificates
 
+### fn withCertificatesMixin
+
+```ts
+withCertificatesMixin(certificates)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html#cfn-elasticloadbalancingv2-listener-certificates
+
 ### fn withDefaultActions
 
 ```ts
 withDefaultActions(defaultActions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html#cfn-elasticloadbalancingv2-listener-defaultactions
+
+### fn withDefaultActionsMixin
+
+```ts
+withDefaultActionsMixin(defaultActions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html#cfn-elasticloadbalancingv2-listener-defaultactions

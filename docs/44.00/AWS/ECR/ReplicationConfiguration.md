@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withReplicationConfiguration(replicationConfiguration)`](#fn-withreplicationconfiguration)
+* [`fn withReplicationConfigurationMixin(replicationConfiguration)`](#fn-withreplicationconfigurationmixin)
 
 ## Fields
 
@@ -133,6 +134,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withReplicationConfiguration(replicationConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-replicationconfiguration.html#cfn-ecr-replicationconfiguration-replicationconfiguration
+
+### fn withReplicationConfigurationMixin
+
+```ts
+withReplicationConfigurationMixin(replicationConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-replicationconfiguration.html#cfn-ecr-replicationconfiguration-replicationconfiguration

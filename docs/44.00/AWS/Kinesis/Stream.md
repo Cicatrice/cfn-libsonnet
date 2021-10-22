@@ -25,7 +25,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 * [`fn withRetentionPeriodHours(retentionPeriodHours)`](#fn-withretentionperiodhours)
 * [`fn withShardCount(shardCount)`](#fn-withshardcount)
 * [`fn withStreamEncryption(streamEncryption)`](#fn-withstreamencryption)
+* [`fn withStreamEncryptionMixin(streamEncryption)`](#fn-withstreamencryptionmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -165,10 +167,26 @@ withStreamEncryption(streamEncryption)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-streamencryption
 
+### fn withStreamEncryptionMixin
+
+```ts
+withStreamEncryptionMixin(streamEncryption)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-streamencryption
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesis-stream.html#cfn-kinesis-stream-tags

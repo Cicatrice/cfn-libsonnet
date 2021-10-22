@@ -22,9 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCidrAllowList(cidrAllowList)`](#fn-withcidrallowlist)
+* [`fn withCidrAllowListMixin(cidrAllowList)`](#fn-withcidrallowlistmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDestination(destination)`](#fn-withdestination)
 * [`fn withEncryption(encryption)`](#fn-withencryption)
+* [`fn withEncryptionMixin(encryption)`](#fn-withencryptionmixin)
 * [`fn withFlowArn(flowArn)`](#fn-withflowarn)
 * [`fn withMaxLatency(maxLatency)`](#fn-withmaxlatency)
 * [`fn withMinLatency(minLatency)`](#fn-withminlatency)
@@ -35,6 +37,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn withSmoothingLatency(smoothingLatency)`](#fn-withsmoothinglatency)
 * [`fn withStreamId(streamId)`](#fn-withstreamid)
 * [`fn withVpcInterfaceAttachment(vpcInterfaceAttachment)`](#fn-withvpcinterfaceattachment)
+* [`fn withVpcInterfaceAttachmentMixin(vpcInterfaceAttachment)`](#fn-withvpcinterfaceattachmentmixin)
 
 ## Fields
 
@@ -150,6 +153,14 @@ withCidrAllowList(cidrAllowList)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html#cfn-mediaconnect-flowoutput-cidrallowlist
 
+### fn withCidrAllowListMixin
+
+```ts
+withCidrAllowListMixin(cidrAllowList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html#cfn-mediaconnect-flowoutput-cidrallowlist
+
 ### fn withDescription
 
 ```ts
@@ -170,6 +181,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withEncryption(encryption)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html#cfn-mediaconnect-flowoutput-encryption
+
+### fn withEncryptionMixin
+
+```ts
+withEncryptionMixin(encryption)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html#cfn-mediaconnect-flowoutput-encryption
@@ -250,6 +269,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withVpcInterfaceAttachment(vpcInterfaceAttachment)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html#cfn-mediaconnect-flowoutput-vpcinterfaceattachment
+
+### fn withVpcInterfaceAttachmentMixin
+
+```ts
+withVpcInterfaceAttachmentMixin(vpcInterfaceAttachment)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html#cfn-mediaconnect-flowoutput-vpcinterfaceattachment

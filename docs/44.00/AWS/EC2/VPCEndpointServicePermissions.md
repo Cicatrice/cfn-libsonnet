@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAllowedPrincipals(allowedPrincipals)`](#fn-withallowedprincipals)
+* [`fn withAllowedPrincipalsMixin(allowedPrincipals)`](#fn-withallowedprincipalsmixin)
 * [`fn withServiceId(serviceId)`](#fn-withserviceid)
 
 ## Fields
@@ -134,6 +135,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withAllowedPrincipals(allowedPrincipals)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservicepermissions.html#cfn-ec2-vpcendpointservicepermissions-allowedprincipals
+
+### fn withAllowedPrincipalsMixin
+
+```ts
+withAllowedPrincipalsMixin(allowedPrincipals)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservicepermissions.html#cfn-ec2-vpcendpointservicepermissions-allowedprincipals

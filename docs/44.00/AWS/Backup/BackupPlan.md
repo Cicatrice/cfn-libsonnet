@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBackupPlan(backupPlan)`](#fn-withbackupplan)
+* [`fn withBackupPlanMixin(backupPlan)`](#fn-withbackupplanmixin)
 * [`fn withBackupPlanTags(backupPlanTags)`](#fn-withbackupplantags)
+* [`fn withBackupPlanTagsMixin(backupPlanTags)`](#fn-withbackupplantagsmixin)
 
 ## Fields
 
@@ -138,10 +140,26 @@ withBackupPlan(backupPlan)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupplan.html#cfn-backup-backupplan-backupplan
 
+### fn withBackupPlanMixin
+
+```ts
+withBackupPlanMixin(backupPlan)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupplan.html#cfn-backup-backupplan-backupplan
+
 ### fn withBackupPlanTags
 
 ```ts
 withBackupPlanTags(backupPlanTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupplan.html#cfn-backup-backupplan-backupplantags
+
+### fn withBackupPlanTagsMixin
+
+```ts
+withBackupPlanTagsMixin(backupPlanTags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupplan.html#cfn-backup-backupplan-backupplantags

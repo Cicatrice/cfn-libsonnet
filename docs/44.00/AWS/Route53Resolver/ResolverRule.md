@@ -26,7 +26,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rout
 * [`fn withResolverEndpointId(resolverEndpointId)`](#fn-withresolverendpointid)
 * [`fn withRuleType(ruleType)`](#fn-withruletype)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetIps(targetIps)`](#fn-withtargetips)
+* [`fn withTargetIpsMixin(targetIps)`](#fn-withtargetipsmixin)
 
 ## Fields
 
@@ -174,10 +176,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html#cfn-route53resolver-resolverrule-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html#cfn-route53resolver-resolverrule-tags
+
 ### fn withTargetIps
 
 ```ts
 withTargetIps(targetIps)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html#cfn-route53resolver-resolverrule-targetips
+
+### fn withTargetIpsMixin
+
+```ts
+withTargetIpsMixin(targetIps)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html#cfn-route53resolver-resolverrule-targetips

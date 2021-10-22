@@ -24,15 +24,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withGlueVersion(glueVersion)`](#fn-withglueversion)
 * [`fn withInputRecordTables(inputRecordTables)`](#fn-withinputrecordtables)
+* [`fn withInputRecordTablesMixin(inputRecordTables)`](#fn-withinputrecordtablesmixin)
 * [`fn withMaxCapacity(maxCapacity)`](#fn-withmaxcapacity)
 * [`fn withMaxRetries(maxRetries)`](#fn-withmaxretries)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withNumberOfWorkers(numberOfWorkers)`](#fn-withnumberofworkers)
 * [`fn withRole(role)`](#fn-withrole)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeout(timeout)`](#fn-withtimeout)
 * [`fn withTransformEncryption(transformEncryption)`](#fn-withtransformencryption)
+* [`fn withTransformEncryptionMixin(transformEncryption)`](#fn-withtransformencryptionmixin)
 * [`fn withTransformParameters(transformParameters)`](#fn-withtransformparameters)
+* [`fn withTransformParametersMixin(transformParameters)`](#fn-withtransformparametersmixin)
 * [`fn withWorkerType(workerType)`](#fn-withworkertype)
 
 ## Fields
@@ -165,6 +169,14 @@ withInputRecordTables(inputRecordTables)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-inputrecordtables
 
+### fn withInputRecordTablesMixin
+
+```ts
+withInputRecordTablesMixin(inputRecordTables)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-inputrecordtables
+
 ### fn withMaxCapacity
 
 ```ts
@@ -213,6 +225,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-tags
+
 ### fn withTimeout
 
 ```ts
@@ -229,10 +249,26 @@ withTransformEncryption(transformEncryption)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-transformencryption
 
+### fn withTransformEncryptionMixin
+
+```ts
+withTransformEncryptionMixin(transformEncryption)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-transformencryption
+
 ### fn withTransformParameters
 
 ```ts
 withTransformParameters(transformParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-transformparameters
+
+### fn withTransformParametersMixin
+
+```ts
+withTransformParametersMixin(transformParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-transformparameters

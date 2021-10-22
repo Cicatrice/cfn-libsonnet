@@ -23,8 +23,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withEnabled(enabled)`](#fn-withenabled)
 * [`fn withEventCategories(eventCategories)`](#fn-witheventcategories)
+* [`fn withEventCategoriesMixin(eventCategories)`](#fn-witheventcategoriesmixin)
 * [`fn withSnsTopicArn(snsTopicArn)`](#fn-withsnstopicarn)
 * [`fn withSourceIds(sourceIds)`](#fn-withsourceids)
+* [`fn withSourceIdsMixin(sourceIds)`](#fn-withsourceidsmixin)
 * [`fn withSourceType(sourceType)`](#fn-withsourcetype)
 
 ## Fields
@@ -149,6 +151,14 @@ withEventCategories(eventCategories)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-eventsubscription.html#cfn-rds-eventsubscription-eventcategories
 
+### fn withEventCategoriesMixin
+
+```ts
+withEventCategoriesMixin(eventCategories)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-eventsubscription.html#cfn-rds-eventsubscription-eventcategories
+
 ### fn withSnsTopicArn
 
 ```ts
@@ -161,6 +171,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 
 ```ts
 withSourceIds(sourceIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-eventsubscription.html#cfn-rds-eventsubscription-sourceids
+
+### fn withSourceIdsMixin
+
+```ts
+withSourceIdsMixin(sourceIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-eventsubscription.html#cfn-rds-eventsubscription-sourceids

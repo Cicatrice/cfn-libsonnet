@@ -24,12 +24,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn withCloudWatchLogGroupArn(cloudWatchLogGroupArn)`](#fn-withcloudwatchloggrouparn)
 * [`fn withDestinationLocationArn(destinationLocationArn)`](#fn-withdestinationlocationarn)
 * [`fn withExcludes(excludes)`](#fn-withexcludes)
+* [`fn withExcludesMixin(excludes)`](#fn-withexcludesmixin)
 * [`fn withIncludes(includes)`](#fn-withincludes)
+* [`fn withIncludesMixin(includes)`](#fn-withincludesmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOptions(options)`](#fn-withoptions)
+* [`fn withOptionsMixin(options)`](#fn-withoptionsmixin)
 * [`fn withSchedule(schedule)`](#fn-withschedule)
+* [`fn withScheduleMixin(schedule)`](#fn-withschedulemixin)
 * [`fn withSourceLocationArn(sourceLocationArn)`](#fn-withsourcelocationarn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -161,10 +166,26 @@ withExcludes(excludes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-excludes
 
+### fn withExcludesMixin
+
+```ts
+withExcludesMixin(excludes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-excludes
+
 ### fn withIncludes
 
 ```ts
 withIncludes(includes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-includes
+
+### fn withIncludesMixin
+
+```ts
+withIncludesMixin(includes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-includes
@@ -185,10 +206,26 @@ withOptions(options)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-options
 
+### fn withOptionsMixin
+
+```ts
+withOptionsMixin(options)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-options
+
 ### fn withSchedule
 
 ```ts
 withSchedule(schedule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-schedule
+
+### fn withScheduleMixin
+
+```ts
+withScheduleMixin(schedule)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-schedule
@@ -205,6 +242,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-tags

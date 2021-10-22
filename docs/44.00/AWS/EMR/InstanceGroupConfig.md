@@ -22,9 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAutoScalingPolicy(autoScalingPolicy)`](#fn-withautoscalingpolicy)
+* [`fn withAutoScalingPolicyMixin(autoScalingPolicy)`](#fn-withautoscalingpolicymixin)
 * [`fn withBidPrice(bidPrice)`](#fn-withbidprice)
 * [`fn withConfigurations(configurations)`](#fn-withconfigurations)
+* [`fn withConfigurationsMixin(configurations)`](#fn-withconfigurationsmixin)
 * [`fn withEbsConfiguration(ebsConfiguration)`](#fn-withebsconfiguration)
+* [`fn withEbsConfigurationMixin(ebsConfiguration)`](#fn-withebsconfigurationmixin)
 * [`fn withInstanceCount(instanceCount)`](#fn-withinstancecount)
 * [`fn withInstanceRole(instanceRole)`](#fn-withinstancerole)
 * [`fn withInstanceType(instanceType)`](#fn-withinstancetype)
@@ -146,6 +149,14 @@ withAutoScalingPolicy(autoScalingPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-elasticmapreduce-instancegroupconfig-autoscalingpolicy
 
+### fn withAutoScalingPolicyMixin
+
+```ts
+withAutoScalingPolicyMixin(autoScalingPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-elasticmapreduce-instancegroupconfig-autoscalingpolicy
+
 ### fn withBidPrice
 
 ```ts
@@ -162,10 +173,26 @@ withConfigurations(configurations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-emr-instancegroupconfig-configurations
 
+### fn withConfigurationsMixin
+
+```ts
+withConfigurationsMixin(configurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-emr-instancegroupconfig-configurations
+
 ### fn withEbsConfiguration
 
 ```ts
 withEbsConfiguration(ebsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-emr-instancegroupconfig-ebsconfiguration
+
+### fn withEbsConfigurationMixin
+
+```ts
+withEbsConfigurationMixin(ebsConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-instancegroupconfig.html#cfn-emr-instancegroupconfig-ebsconfiguration

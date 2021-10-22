@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActionOnFailure(actionOnFailure)`](#fn-withactiononfailure)
 * [`fn withHadoopJarStep(hadoopJarStep)`](#fn-withhadoopjarstep)
+* [`fn withHadoopJarStepMixin(hadoopJarStep)`](#fn-withhadoopjarstepmixin)
 * [`fn withJobFlowId(jobFlowId)`](#fn-withjobflowid)
 * [`fn withName(name)`](#fn-withname)
 
@@ -144,6 +145,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-
 
 ```ts
 withHadoopJarStep(hadoopJarStep)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-hadoopjarstep
+
+### fn withHadoopJarStepMixin
+
+```ts
+withHadoopJarStepMixin(hadoopJarStep)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-hadoopjarstep

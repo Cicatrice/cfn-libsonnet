@@ -22,8 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-st
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withNotificationARNs(notificationArns)`](#fn-withnotificationarns)
+* [`fn withNotificationARNsMixin(notificationArns)`](#fn-withnotificationarnsmixin)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTemplateURL(templateUrl)`](#fn-withtemplateurl)
 * [`fn withTimeoutInMinutes(timeoutInMinutes)`](#fn-withtimeoutinminutes)
 
@@ -141,6 +144,14 @@ withNotificationARNs(notificationArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html#cfn-cloudformation-stack-notificationarns
 
+### fn withNotificationARNsMixin
+
+```ts
+withNotificationARNsMixin(notificationArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html#cfn-cloudformation-stack-notificationarns
+
 ### fn withParameters
 
 ```ts
@@ -149,10 +160,26 @@ withParameters(parameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html#cfn-cloudformation-stack-parameters
 
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html#cfn-cloudformation-stack-parameters
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html#cfn-cloudformation-stack-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-stack.html#cfn-cloudformation-stack-tags

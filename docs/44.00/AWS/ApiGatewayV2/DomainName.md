@@ -23,8 +23,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withDomainNameConfigurations(domainNameConfigurations)`](#fn-withdomainnameconfigurations)
+* [`fn withDomainNameConfigurationsMixin(domainNameConfigurations)`](#fn-withdomainnameconfigurationsmixin)
 * [`fn withMutualTlsAuthentication(mutualTlsAuthentication)`](#fn-withmutualtlsauthentication)
+* [`fn withMutualTlsAuthenticationMixin(mutualTlsAuthentication)`](#fn-withmutualtlsauthenticationmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -148,6 +151,14 @@ withDomainNameConfigurations(domainNameConfigurations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html#cfn-apigatewayv2-domainname-domainnameconfigurations
 
+### fn withDomainNameConfigurationsMixin
+
+```ts
+withDomainNameConfigurationsMixin(domainNameConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html#cfn-apigatewayv2-domainname-domainnameconfigurations
+
 ### fn withMutualTlsAuthentication
 
 ```ts
@@ -156,10 +167,26 @@ withMutualTlsAuthentication(mutualTlsAuthentication)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html#cfn-apigatewayv2-domainname-mutualtlsauthentication
 
+### fn withMutualTlsAuthenticationMixin
+
+```ts
+withMutualTlsAuthenticationMixin(mutualTlsAuthentication)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html#cfn-apigatewayv2-domainname-mutualtlsauthentication
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html#cfn-apigatewayv2-domainname-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-domainname.html#cfn-apigatewayv2-domainname-tags

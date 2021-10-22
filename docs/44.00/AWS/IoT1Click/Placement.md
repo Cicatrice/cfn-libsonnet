@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssociatedDevices(associatedDevices)`](#fn-withassociateddevices)
+* [`fn withAssociatedDevicesMixin(associatedDevices)`](#fn-withassociateddevicesmixin)
 * [`fn withAttributes(attributes)`](#fn-withattributes)
+* [`fn withAttributesMixin(attributes)`](#fn-withattributesmixin)
 * [`fn withPlacementName(placementName)`](#fn-withplacementname)
 * [`fn withProjectName(projectName)`](#fn-withprojectname)
 
@@ -140,10 +142,26 @@ withAssociatedDevices(associatedDevices)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html#cfn-iot1click-placement-associateddevices
 
+### fn withAssociatedDevicesMixin
+
+```ts
+withAssociatedDevicesMixin(associatedDevices)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html#cfn-iot1click-placement-associateddevices
+
 ### fn withAttributes
 
 ```ts
 withAttributes(attributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html#cfn-iot1click-placement-attributes
+
+### fn withAttributesMixin
+
+```ts
+withAttributesMixin(attributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-placement.html#cfn-iot1click-placement-attributes

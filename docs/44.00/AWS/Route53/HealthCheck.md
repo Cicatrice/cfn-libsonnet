@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rout
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withHealthCheckConfig(healthCheckConfig)`](#fn-withhealthcheckconfig)
+* [`fn withHealthCheckConfigMixin(healthCheckConfig)`](#fn-withhealthcheckconfigmixin)
 * [`fn withHealthCheckTags(healthCheckTags)`](#fn-withhealthchecktags)
+* [`fn withHealthCheckTagsMixin(healthCheckTags)`](#fn-withhealthchecktagsmixin)
 
 ## Fields
 
@@ -138,10 +140,26 @@ withHealthCheckConfig(healthCheckConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-healthcheck.html#cfn-route53-healthcheck-healthcheckconfig
 
+### fn withHealthCheckConfigMixin
+
+```ts
+withHealthCheckConfigMixin(healthCheckConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-healthcheck.html#cfn-route53-healthcheck-healthcheckconfig
+
 ### fn withHealthCheckTags
 
 ```ts
 withHealthCheckTags(healthCheckTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-healthcheck.html#cfn-route53-healthcheck-healthchecktags
+
+### fn withHealthCheckTagsMixin
+
+```ts
+withHealthCheckTagsMixin(healthCheckTags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-healthcheck.html#cfn-route53-healthcheck-healthchecktags

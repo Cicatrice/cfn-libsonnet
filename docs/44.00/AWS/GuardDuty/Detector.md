@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guar
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDataSources(dataSources)`](#fn-withdatasources)
+* [`fn withDataSourcesMixin(dataSources)`](#fn-withdatasourcesmixin)
 * [`fn withEnable(enable)`](#fn-withenable)
 * [`fn withFindingPublishingFrequency(findingPublishingFrequency)`](#fn-withfindingpublishingfrequency)
 
@@ -135,6 +136,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withDataSources(dataSources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-detector.html#cfn-guardduty-detector-datasources
+
+### fn withDataSourcesMixin
+
+```ts
+withDataSourcesMixin(dataSources)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-detector.html#cfn-guardduty-detector-datasources

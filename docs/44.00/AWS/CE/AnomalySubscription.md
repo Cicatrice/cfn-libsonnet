@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-a
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withFrequency(frequency)`](#fn-withfrequency)
 * [`fn withMonitorArnList(monitorArnList)`](#fn-withmonitorarnlist)
+* [`fn withMonitorArnListMixin(monitorArnList)`](#fn-withmonitorarnlistmixin)
 * [`fn withSubscribers(subscribers)`](#fn-withsubscribers)
+* [`fn withSubscribersMixin(subscribers)`](#fn-withsubscribersmixin)
 * [`fn withSubscriptionName(subscriptionName)`](#fn-withsubscriptionname)
 * [`fn withThreshold(threshold)`](#fn-withthreshold)
 
@@ -149,10 +151,26 @@ withMonitorArnList(monitorArnList)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-anomalysubscription.html#cfn-ce-anomalysubscription-monitorarnlist
 
+### fn withMonitorArnListMixin
+
+```ts
+withMonitorArnListMixin(monitorArnList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-anomalysubscription.html#cfn-ce-anomalysubscription-monitorarnlist
+
 ### fn withSubscribers
 
 ```ts
 withSubscribers(subscribers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-anomalysubscription.html#cfn-ce-anomalysubscription-subscribers
+
+### fn withSubscribersMixin
+
+```ts
+withSubscribersMixin(subscribers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-anomalysubscription.html#cfn-ce-anomalysubscription-subscribers

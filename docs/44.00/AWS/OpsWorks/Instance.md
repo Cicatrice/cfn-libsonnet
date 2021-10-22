@@ -27,12 +27,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 * [`fn withAutoScalingType(autoScalingType)`](#fn-withautoscalingtype)
 * [`fn withAvailabilityZone(availabilityZone)`](#fn-withavailabilityzone)
 * [`fn withBlockDeviceMappings(blockDeviceMappings)`](#fn-withblockdevicemappings)
+* [`fn withBlockDeviceMappingsMixin(blockDeviceMappings)`](#fn-withblockdevicemappingsmixin)
 * [`fn withEbsOptimized(ebsOptimized)`](#fn-withebsoptimized)
 * [`fn withElasticIps(elasticIps)`](#fn-withelasticips)
+* [`fn withElasticIpsMixin(elasticIps)`](#fn-withelasticipsmixin)
 * [`fn withHostname(hostname)`](#fn-withhostname)
 * [`fn withInstallUpdatesOnBoot(installUpdatesOnBoot)`](#fn-withinstallupdatesonboot)
 * [`fn withInstanceType(instanceType)`](#fn-withinstancetype)
 * [`fn withLayerIds(layerIds)`](#fn-withlayerids)
+* [`fn withLayerIdsMixin(layerIds)`](#fn-withlayeridsmixin)
 * [`fn withOs(os)`](#fn-withos)
 * [`fn withRootDeviceType(rootDeviceType)`](#fn-withrootdevicetype)
 * [`fn withSshKeyName(sshKeyName)`](#fn-withsshkeyname)
@@ -40,8 +43,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 * [`fn withSubnetId(subnetId)`](#fn-withsubnetid)
 * [`fn withTenancy(tenancy)`](#fn-withtenancy)
 * [`fn withTimeBasedAutoScaling(timeBasedAutoScaling)`](#fn-withtimebasedautoscaling)
+* [`fn withTimeBasedAutoScalingMixin(timeBasedAutoScaling)`](#fn-withtimebasedautoscalingmixin)
 * [`fn withVirtualizationType(virtualizationType)`](#fn-withvirtualizationtype)
 * [`fn withVolumes(volumes)`](#fn-withvolumes)
+* [`fn withVolumesMixin(volumes)`](#fn-withvolumesmixin)
 
 ## Fields
 
@@ -197,6 +202,14 @@ withBlockDeviceMappings(blockDeviceMappings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-blockdevicemappings
 
+### fn withBlockDeviceMappingsMixin
+
+```ts
+withBlockDeviceMappingsMixin(blockDeviceMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-blockdevicemappings
+
 ### fn withEbsOptimized
 
 ```ts
@@ -209,6 +222,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withElasticIps(elasticIps)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-elasticips
+
+### fn withElasticIpsMixin
+
+```ts
+withElasticIpsMixin(elasticIps)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-elasticips
@@ -241,6 +262,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withLayerIds(layerIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-layerids
+
+### fn withLayerIdsMixin
+
+```ts
+withLayerIdsMixin(layerIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-layerids
@@ -301,6 +330,14 @@ withTimeBasedAutoScaling(timeBasedAutoScaling)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-timebasedautoscaling
 
+### fn withTimeBasedAutoScalingMixin
+
+```ts
+withTimeBasedAutoScalingMixin(timeBasedAutoScaling)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-timebasedautoscaling
+
 ### fn withVirtualizationType
 
 ```ts
@@ -313,6 +350,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withVolumes(volumes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-volumes
+
+### fn withVolumesMixin
+
+```ts
+withVolumesMixin(volumes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-volumes

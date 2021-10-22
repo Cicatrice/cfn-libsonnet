@@ -28,33 +28,41 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withCacheNodeType(cacheNodeType)`](#fn-withcachenodetype)
 * [`fn withCacheParameterGroupName(cacheParameterGroupName)`](#fn-withcacheparametergroupname)
 * [`fn withCacheSecurityGroupNames(cacheSecurityGroupNames)`](#fn-withcachesecuritygroupnames)
+* [`fn withCacheSecurityGroupNamesMixin(cacheSecurityGroupNames)`](#fn-withcachesecuritygroupnamesmixin)
 * [`fn withCacheSubnetGroupName(cacheSubnetGroupName)`](#fn-withcachesubnetgroupname)
 * [`fn withEngine(engine)`](#fn-withengine)
 * [`fn withEngineVersion(engineVersion)`](#fn-withengineversion)
 * [`fn withGlobalReplicationGroupId(globalReplicationGroupId)`](#fn-withglobalreplicationgroupid)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withLogDeliveryConfigurations(logDeliveryConfigurations)`](#fn-withlogdeliveryconfigurations)
+* [`fn withLogDeliveryConfigurationsMixin(logDeliveryConfigurations)`](#fn-withlogdeliveryconfigurationsmixin)
 * [`fn withMultiAZEnabled(multiAzenabled)`](#fn-withmultiazenabled)
 * [`fn withNodeGroupConfiguration(nodeGroupConfiguration)`](#fn-withnodegroupconfiguration)
+* [`fn withNodeGroupConfigurationMixin(nodeGroupConfiguration)`](#fn-withnodegroupconfigurationmixin)
 * [`fn withNotificationTopicArn(notificationTopicArn)`](#fn-withnotificationtopicarn)
 * [`fn withNumCacheClusters(numCacheClusters)`](#fn-withnumcacheclusters)
 * [`fn withNumNodeGroups(numNodeGroups)`](#fn-withnumnodegroups)
 * [`fn withPort(port)`](#fn-withport)
 * [`fn withPreferredCacheClusterAZs(preferredCacheClusterAzs)`](#fn-withpreferredcacheclusterazs)
+* [`fn withPreferredCacheClusterAZsMixin(preferredCacheClusterAzs)`](#fn-withpreferredcacheclusterazsmixin)
 * [`fn withPreferredMaintenanceWindow(preferredMaintenanceWindow)`](#fn-withpreferredmaintenancewindow)
 * [`fn withPrimaryClusterId(primaryClusterId)`](#fn-withprimaryclusterid)
 * [`fn withReplicasPerNodeGroup(replicasPerNodeGroup)`](#fn-withreplicaspernodegroup)
 * [`fn withReplicationGroupDescription(replicationGroupDescription)`](#fn-withreplicationgroupdescription)
 * [`fn withReplicationGroupId(replicationGroupId)`](#fn-withreplicationgroupid)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSnapshotArns(snapshotArns)`](#fn-withsnapshotarns)
+* [`fn withSnapshotArnsMixin(snapshotArns)`](#fn-withsnapshotarnsmixin)
 * [`fn withSnapshotName(snapshotName)`](#fn-withsnapshotname)
 * [`fn withSnapshotRetentionLimit(snapshotRetentionLimit)`](#fn-withsnapshotretentionlimit)
 * [`fn withSnapshotWindow(snapshotWindow)`](#fn-withsnapshotwindow)
 * [`fn withSnapshottingClusterId(snapshottingClusterId)`](#fn-withsnapshottingclusterid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTransitEncryptionEnabled(transitEncryptionEnabled)`](#fn-withtransitencryptionenabled)
 * [`fn withUserGroupIds(userGroupIds)`](#fn-withusergroupids)
+* [`fn withUserGroupIdsMixin(userGroupIds)`](#fn-withusergroupidsmixin)
 
 ## Fields
 
@@ -218,6 +226,14 @@ withCacheSecurityGroupNames(cacheSecurityGroupNames)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-cachesecuritygroupnames
 
+### fn withCacheSecurityGroupNamesMixin
+
+```ts
+withCacheSecurityGroupNamesMixin(cacheSecurityGroupNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-cachesecuritygroupnames
+
 ### fn withCacheSubnetGroupName
 
 ```ts
@@ -266,6 +282,14 @@ withLogDeliveryConfigurations(logDeliveryConfigurations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-logdeliveryconfigurations
 
+### fn withLogDeliveryConfigurationsMixin
+
+```ts
+withLogDeliveryConfigurationsMixin(logDeliveryConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-logdeliveryconfigurations
+
 ### fn withMultiAZEnabled
 
 ```ts
@@ -278,6 +302,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withNodeGroupConfiguration(nodeGroupConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-nodegroupconfiguration
+
+### fn withNodeGroupConfigurationMixin
+
+```ts
+withNodeGroupConfigurationMixin(nodeGroupConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-nodegroupconfiguration
@@ -318,6 +350,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withPreferredCacheClusterAZs(preferredCacheClusterAzs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-preferredcacheclusterazs
+
+### fn withPreferredCacheClusterAZsMixin
+
+```ts
+withPreferredCacheClusterAZsMixin(preferredCacheClusterAzs)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-preferredcacheclusterazs
@@ -370,10 +410,26 @@ withSecurityGroupIds(securityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-securitygroupids
 
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-securitygroupids
+
 ### fn withSnapshotArns
 
 ```ts
 withSnapshotArns(snapshotArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-snapshotarns
+
+### fn withSnapshotArnsMixin
+
+```ts
+withSnapshotArnsMixin(snapshotArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-snapshotarns
@@ -418,6 +474,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-tags
+
 ### fn withTransitEncryptionEnabled
 
 ```ts
@@ -430,6 +494,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withUserGroupIds(userGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-usergroupids
+
+### fn withUserGroupIdsMixin
+
+```ts
+withUserGroupIdsMixin(userGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-replicationgroup.html#cfn-elasticache-replicationgroup-usergroupids

@@ -24,10 +24,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn withAccessLoggingEnabled(accessLoggingEnabled)`](#fn-withaccessloggingenabled)
 * [`fn withContainerName(containerName)`](#fn-withcontainername)
 * [`fn withCorsPolicy(corsPolicy)`](#fn-withcorspolicy)
+* [`fn withCorsPolicyMixin(corsPolicy)`](#fn-withcorspolicymixin)
 * [`fn withLifecyclePolicy(lifecyclePolicy)`](#fn-withlifecyclepolicy)
 * [`fn withMetricPolicy(metricPolicy)`](#fn-withmetricpolicy)
+* [`fn withMetricPolicyMixin(metricPolicy)`](#fn-withmetricpolicymixin)
 * [`fn withPolicy(policy)`](#fn-withpolicy)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -159,6 +162,14 @@ withCorsPolicy(corsPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-corspolicy
 
+### fn withCorsPolicyMixin
+
+```ts
+withCorsPolicyMixin(corsPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-corspolicy
+
 ### fn withLifecyclePolicy
 
 ```ts
@@ -175,6 +186,14 @@ withMetricPolicy(metricPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-metricpolicy
 
+### fn withMetricPolicyMixin
+
+```ts
+withMetricPolicyMixin(metricPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-metricpolicy
+
 ### fn withPolicy
 
 ```ts
@@ -187,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediastore-container.html#cfn-mediastore-container-tags

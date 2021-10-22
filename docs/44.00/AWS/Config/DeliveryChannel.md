@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConfigSnapshotDeliveryProperties(configSnapshotDeliveryProperties)`](#fn-withconfigsnapshotdeliveryproperties)
+* [`fn withConfigSnapshotDeliveryPropertiesMixin(configSnapshotDeliveryProperties)`](#fn-withconfigsnapshotdeliverypropertiesmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withS3BucketName(s3bucketName)`](#fn-withs3bucketname)
 * [`fn withS3KeyPrefix(s3keyPrefix)`](#fn-withs3keyprefix)
@@ -138,6 +139,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withConfigSnapshotDeliveryProperties(configSnapshotDeliveryProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-configsnapshotdeliveryproperties
+
+### fn withConfigSnapshotDeliveryPropertiesMixin
+
+```ts
+withConfigSnapshotDeliveryPropertiesMixin(configSnapshotDeliveryProperties)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-deliverychannel.html#cfn-config-deliverychannel-configsnapshotdeliveryproperties

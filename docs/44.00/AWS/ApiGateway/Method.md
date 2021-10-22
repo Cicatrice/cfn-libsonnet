@@ -23,14 +23,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApiKeyRequired(apiKeyRequired)`](#fn-withapikeyrequired)
 * [`fn withAuthorizationScopes(authorizationScopes)`](#fn-withauthorizationscopes)
+* [`fn withAuthorizationScopesMixin(authorizationScopes)`](#fn-withauthorizationscopesmixin)
 * [`fn withAuthorizationType(authorizationType)`](#fn-withauthorizationtype)
 * [`fn withAuthorizerId(authorizerId)`](#fn-withauthorizerid)
 * [`fn withHttpMethod(httpMethod)`](#fn-withhttpmethod)
 * [`fn withIntegration(integration)`](#fn-withintegration)
+* [`fn withIntegrationMixin(integration)`](#fn-withintegrationmixin)
 * [`fn withMethodResponses(methodResponses)`](#fn-withmethodresponses)
+* [`fn withMethodResponsesMixin(methodResponses)`](#fn-withmethodresponsesmixin)
 * [`fn withOperationName(operationName)`](#fn-withoperationname)
 * [`fn withRequestModels(requestModels)`](#fn-withrequestmodels)
+* [`fn withRequestModelsMixin(requestModels)`](#fn-withrequestmodelsmixin)
 * [`fn withRequestParameters(requestParameters)`](#fn-withrequestparameters)
+* [`fn withRequestParametersMixin(requestParameters)`](#fn-withrequestparametersmixin)
 * [`fn withRequestValidatorId(requestValidatorId)`](#fn-withrequestvalidatorid)
 * [`fn withResourceId(resourceId)`](#fn-withresourceid)
 * [`fn withRestApiId(restApiId)`](#fn-withrestapiid)
@@ -157,6 +162,14 @@ withAuthorizationScopes(authorizationScopes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-authorizationscopes
 
+### fn withAuthorizationScopesMixin
+
+```ts
+withAuthorizationScopesMixin(authorizationScopes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-authorizationscopes
+
 ### fn withAuthorizationType
 
 ```ts
@@ -189,10 +202,26 @@ withIntegration(integration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-integration
 
+### fn withIntegrationMixin
+
+```ts
+withIntegrationMixin(integration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-integration
+
 ### fn withMethodResponses
 
 ```ts
 withMethodResponses(methodResponses)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-methodresponses
+
+### fn withMethodResponsesMixin
+
+```ts
+withMethodResponsesMixin(methodResponses)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-methodresponses
@@ -213,10 +242,26 @@ withRequestModels(requestModels)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-requestmodels
 
+### fn withRequestModelsMixin
+
+```ts
+withRequestModelsMixin(requestModels)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-requestmodels
+
 ### fn withRequestParameters
 
 ```ts
 withRequestParameters(requestParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-requestparameters
+
+### fn withRequestParametersMixin
+
+```ts
+withRequestParametersMixin(requestParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-requestparameters

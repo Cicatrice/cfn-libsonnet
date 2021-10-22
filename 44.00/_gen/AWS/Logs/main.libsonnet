@@ -1,11 +1,11 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Logs', url='', help=''),
-  Destination: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Logs/Destination.libsonnet'),
-  LogGroup: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Logs/LogGroup.libsonnet'),
-  LogStream: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Logs/LogStream.libsonnet'),
-  MetricFilter: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Logs/MetricFilter.libsonnet'),
-  QueryDefinition: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Logs/QueryDefinition.libsonnet'),
-  ResourcePolicy: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Logs/ResourcePolicy.libsonnet'),
-  SubscriptionFilter: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Logs/SubscriptionFilter.libsonnet'),
+  Destination:: (import 'Destination.libsonnet'),
+  LogGroup:: (import 'LogGroup.libsonnet'),
+  LogStream:: (import 'LogStream.libsonnet'),
+  MetricFilter:: (import 'MetricFilter.libsonnet'),
+  QueryDefinition:: (import 'QueryDefinition.libsonnet'),
+  ResourcePolicy:: (import 'ResourcePolicy.libsonnet'),
+  SubscriptionFilter:: (import 'SubscriptionFilter.libsonnet'),
 }

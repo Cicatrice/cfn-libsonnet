@@ -28,7 +28,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appl
 * [`fn withScalingTargetId(scalingTargetId)`](#fn-withscalingtargetid)
 * [`fn withServiceNamespace(serviceNamespace)`](#fn-withservicenamespace)
 * [`fn withStepScalingPolicyConfiguration(stepScalingPolicyConfiguration)`](#fn-withstepscalingpolicyconfiguration)
+* [`fn withStepScalingPolicyConfigurationMixin(stepScalingPolicyConfiguration)`](#fn-withstepscalingpolicyconfigurationmixin)
 * [`fn withTargetTrackingScalingPolicyConfiguration(targetTrackingScalingPolicyConfiguration)`](#fn-withtargettrackingscalingpolicyconfiguration)
+* [`fn withTargetTrackingScalingPolicyConfigurationMixin(targetTrackingScalingPolicyConfiguration)`](#fn-withtargettrackingscalingpolicyconfigurationmixin)
 
 ## Fields
 
@@ -192,10 +194,26 @@ withStepScalingPolicyConfiguration(stepScalingPolicyConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html#cfn-applicationautoscaling-scalingpolicy-stepscalingpolicyconfiguration
 
+### fn withStepScalingPolicyConfigurationMixin
+
+```ts
+withStepScalingPolicyConfigurationMixin(stepScalingPolicyConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html#cfn-applicationautoscaling-scalingpolicy-stepscalingpolicyconfiguration
+
 ### fn withTargetTrackingScalingPolicyConfiguration
 
 ```ts
 withTargetTrackingScalingPolicyConfiguration(targetTrackingScalingPolicyConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html#cfn-applicationautoscaling-scalingpolicy-targettrackingscalingpolicyconfiguration
+
+### fn withTargetTrackingScalingPolicyConfigurationMixin
+
+```ts
+withTargetTrackingScalingPolicyConfigurationMixin(targetTrackingScalingPolicyConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html#cfn-applicationautoscaling-scalingpolicy-targettrackingscalingpolicyconfiguration

@@ -22,9 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCsvClassifier(csvClassifier)`](#fn-withcsvclassifier)
+* [`fn withCsvClassifierMixin(csvClassifier)`](#fn-withcsvclassifiermixin)
 * [`fn withGrokClassifier(grokClassifier)`](#fn-withgrokclassifier)
+* [`fn withGrokClassifierMixin(grokClassifier)`](#fn-withgrokclassifiermixin)
 * [`fn withJsonClassifier(jsonClassifier)`](#fn-withjsonclassifier)
+* [`fn withJsonClassifierMixin(jsonClassifier)`](#fn-withjsonclassifiermixin)
 * [`fn withXMLClassifier(xmlclassifier)`](#fn-withxmlclassifier)
+* [`fn withXMLClassifierMixin(xmlclassifier)`](#fn-withxmlclassifiermixin)
 
 ## Fields
 
@@ -140,10 +144,26 @@ withCsvClassifier(csvClassifier)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-csvclassifier
 
+### fn withCsvClassifierMixin
+
+```ts
+withCsvClassifierMixin(csvClassifier)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-csvclassifier
+
 ### fn withGrokClassifier
 
 ```ts
 withGrokClassifier(grokClassifier)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-grokclassifier
+
+### fn withGrokClassifierMixin
+
+```ts
+withGrokClassifierMixin(grokClassifier)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-grokclassifier
@@ -156,10 +176,26 @@ withJsonClassifier(jsonClassifier)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-jsonclassifier
 
+### fn withJsonClassifierMixin
+
+```ts
+withJsonClassifierMixin(jsonClassifier)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-jsonclassifier
+
 ### fn withXMLClassifier
 
 ```ts
 withXMLClassifier(xmlclassifier)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-xmlclassifier
+
+### fn withXMLClassifierMixin
+
+```ts
+withXMLClassifierMixin(xmlclassifier)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-classifier.html#cfn-glue-classifier-xmlclassifier

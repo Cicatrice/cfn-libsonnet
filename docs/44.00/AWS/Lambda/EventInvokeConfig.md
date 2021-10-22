@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDestinationConfig(destinationConfig)`](#fn-withdestinationconfig)
+* [`fn withDestinationConfigMixin(destinationConfig)`](#fn-withdestinationconfigmixin)
 * [`fn withFunctionName(functionName)`](#fn-withfunctionname)
 * [`fn withMaximumEventAgeInSeconds(maximumEventAgeInSeconds)`](#fn-withmaximumeventageinseconds)
 * [`fn withMaximumRetryAttempts(maximumRetryAttempts)`](#fn-withmaximumretryattempts)
@@ -137,6 +138,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withDestinationConfig(destinationConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventinvokeconfig.html#cfn-lambda-eventinvokeconfig-destinationconfig
+
+### fn withDestinationConfigMixin
+
+```ts
+withDestinationConfigMixin(destinationConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventinvokeconfig.html#cfn-lambda-eventinvokeconfig-destinationconfig

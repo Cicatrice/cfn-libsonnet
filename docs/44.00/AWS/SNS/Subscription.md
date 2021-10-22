@@ -22,11 +22,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDeliveryPolicy(deliveryPolicy)`](#fn-withdeliverypolicy)
+* [`fn withDeliveryPolicyMixin(deliveryPolicy)`](#fn-withdeliverypolicymixin)
 * [`fn withEndpoint(endpoint)`](#fn-withendpoint)
 * [`fn withFilterPolicy(filterPolicy)`](#fn-withfilterpolicy)
+* [`fn withFilterPolicyMixin(filterPolicy)`](#fn-withfilterpolicymixin)
 * [`fn withProtocol(protocol)`](#fn-withprotocol)
 * [`fn withRawMessageDelivery(rawMessageDelivery)`](#fn-withrawmessagedelivery)
 * [`fn withRedrivePolicy(redrivePolicy)`](#fn-withredrivepolicy)
+* [`fn withRedrivePolicyMixin(redrivePolicy)`](#fn-withredrivepolicymixin)
 * [`fn withRegion(region)`](#fn-withregion)
 * [`fn withSubscriptionRoleArn(subscriptionRoleArn)`](#fn-withsubscriptionrolearn)
 * [`fn withTopicArn(topicArn)`](#fn-withtopicarn)
@@ -145,6 +148,14 @@ withDeliveryPolicy(deliveryPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html#cfn-sns-subscription-deliverypolicy
 
+### fn withDeliveryPolicyMixin
+
+```ts
+withDeliveryPolicyMixin(deliveryPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html#cfn-sns-subscription-deliverypolicy
+
 ### fn withEndpoint
 
 ```ts
@@ -157,6 +168,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-
 
 ```ts
 withFilterPolicy(filterPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html#cfn-sns-subscription-filterpolicy
+
+### fn withFilterPolicyMixin
+
+```ts
+withFilterPolicyMixin(filterPolicy)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html#cfn-sns-subscription-filterpolicy
@@ -181,6 +200,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-
 
 ```ts
 withRedrivePolicy(redrivePolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html#cfn-sns-subscription-redrivepolicy
+
+### fn withRedrivePolicyMixin
+
+```ts
+withRedrivePolicyMixin(redrivePolicy)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html#cfn-sns-subscription-redrivepolicy

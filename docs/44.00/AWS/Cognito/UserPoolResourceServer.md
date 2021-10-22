@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn withIdentifier(identifier)`](#fn-withidentifier)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withScopes(scopes)`](#fn-withscopes)
+* [`fn withScopesMixin(scopes)`](#fn-withscopesmixin)
 * [`fn withUserPoolId(userPoolId)`](#fn-withuserpoolid)
 
 ## Fields
@@ -152,6 +153,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 
 ```ts
 withScopes(scopes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolresourceserver.html#cfn-cognito-userpoolresourceserver-scopes
+
+### fn withScopesMixin
+
+```ts
+withScopesMixin(scopes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolresourceserver.html#cfn-cognito-userpoolresourceserver-scopes

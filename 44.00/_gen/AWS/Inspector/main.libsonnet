@@ -1,7 +1,7 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Inspector', url='', help=''),
-  AssessmentTarget: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Inspector/AssessmentTarget.libsonnet'),
-  AssessmentTemplate: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Inspector/AssessmentTemplate.libsonnet'),
-  ResourceGroup: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Inspector/ResourceGroup.libsonnet'),
+  AssessmentTarget:: (import 'AssessmentTarget.libsonnet'),
+  AssessmentTemplate:: (import 'AssessmentTemplate.libsonnet'),
+  ResourceGroup:: (import 'ResourceGroup.libsonnet'),
 }

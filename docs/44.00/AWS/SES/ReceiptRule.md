@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAfter(after)`](#fn-withafter)
 * [`fn withRule(rule)`](#fn-withrule)
+* [`fn withRuleMixin(rule)`](#fn-withrulemixin)
 * [`fn withRuleSetName(ruleSetName)`](#fn-withrulesetname)
 
 ## Fields
@@ -143,6 +144,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-
 
 ```ts
 withRule(rule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-receiptrule.html#cfn-ses-receiptrule-rule
+
+### fn withRuleMixin
+
+```ts
+withRuleMixin(rule)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-receiptrule.html#cfn-ses-receiptrule-rule

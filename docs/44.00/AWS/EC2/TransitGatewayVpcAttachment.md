@@ -22,10 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAddSubnetIds(addSubnetIds)`](#fn-withaddsubnetids)
+* [`fn withAddSubnetIdsMixin(addSubnetIds)`](#fn-withaddsubnetidsmixin)
 * [`fn withOptions(options)`](#fn-withoptions)
+* [`fn withOptionsMixin(options)`](#fn-withoptionsmixin)
 * [`fn withRemoveSubnetIds(removeSubnetIds)`](#fn-withremovesubnetids)
+* [`fn withRemoveSubnetIdsMixin(removeSubnetIds)`](#fn-withremovesubnetidsmixin)
 * [`fn withSubnetIds(subnetIds)`](#fn-withsubnetids)
+* [`fn withSubnetIdsMixin(subnetIds)`](#fn-withsubnetidsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTransitGatewayId(transitGatewayId)`](#fn-withtransitgatewayid)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
 
@@ -143,10 +148,26 @@ withAddSubnetIds(addSubnetIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-addsubnetids
 
+### fn withAddSubnetIdsMixin
+
+```ts
+withAddSubnetIdsMixin(addSubnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-addsubnetids
+
 ### fn withOptions
 
 ```ts
 withOptions(options)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-options
+
+### fn withOptionsMixin
+
+```ts
+withOptionsMixin(options)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-options
@@ -159,6 +180,14 @@ withRemoveSubnetIds(removeSubnetIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-removesubnetids
 
+### fn withRemoveSubnetIdsMixin
+
+```ts
+withRemoveSubnetIdsMixin(removeSubnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-removesubnetids
+
 ### fn withSubnetIds
 
 ```ts
@@ -167,10 +196,26 @@ withSubnetIds(subnetIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-subnetids
 
+### fn withSubnetIdsMixin
+
+```ts
+withSubnetIdsMixin(subnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-subnetids
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayvpcattachment.html#cfn-ec2-transitgatewayvpcattachment-tags

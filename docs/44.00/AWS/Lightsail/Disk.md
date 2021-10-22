@@ -22,10 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ligh
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAddOns(addOns)`](#fn-withaddons)
+* [`fn withAddOnsMixin(addOns)`](#fn-withaddonsmixin)
 * [`fn withAvailabilityZone(availabilityZone)`](#fn-withavailabilityzone)
 * [`fn withDiskName(diskName)`](#fn-withdiskname)
 * [`fn withSizeInGb(sizeInGb)`](#fn-withsizeingb)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -141,6 +143,14 @@ withAddOns(addOns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-disk.html#cfn-lightsail-disk-addons
 
+### fn withAddOnsMixin
+
+```ts
+withAddOnsMixin(addOns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-disk.html#cfn-lightsail-disk-addons
+
 ### fn withAvailabilityZone
 
 ```ts
@@ -169,6 +179,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ligh
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-disk.html#cfn-lightsail-disk-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-disk.html#cfn-lightsail-disk-tags

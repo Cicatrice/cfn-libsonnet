@@ -25,8 +25,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotw
 * [`fn withDestinationName(destinationName)`](#fn-withdestinationname)
 * [`fn withLastUplinkReceivedAt(lastUplinkReceivedAt)`](#fn-withlastuplinkreceivedat)
 * [`fn withLoRaWAN(loRaWan)`](#fn-withlorawan)
+* [`fn withLoRaWANMixin(loRaWan)`](#fn-withlorawanmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withThingArn(thingArn)`](#fn-withthingarn)
 * [`fn withType(type)`](#fn-withtype)
 
@@ -168,6 +170,14 @@ withLoRaWAN(loRaWan)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessdevice.html#cfn-iotwireless-wirelessdevice-lorawan
 
+### fn withLoRaWANMixin
+
+```ts
+withLoRaWANMixin(loRaWan)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessdevice.html#cfn-iotwireless-wirelessdevice-lorawan
+
 ### fn withName
 
 ```ts
@@ -180,6 +190,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotw
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessdevice.html#cfn-iotwireless-wirelessdevice-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessdevice.html#cfn-iotwireless-wirelessdevice-tags

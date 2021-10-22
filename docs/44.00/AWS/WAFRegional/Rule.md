@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn withMetricName(metricName)`](#fn-withmetricname)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPredicates(predicates)`](#fn-withpredicates)
+* [`fn withPredicatesMixin(predicates)`](#fn-withpredicatesmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 
 ```ts
 withPredicates(predicates)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-rule.html#cfn-wafregional-rule-predicates
+
+### fn withPredicatesMixin
+
+```ts
+withPredicatesMixin(predicates)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-rule.html#cfn-wafregional-rule-predicates

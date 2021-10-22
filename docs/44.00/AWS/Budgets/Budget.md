@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budg
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBudget(budget)`](#fn-withbudget)
+* [`fn withBudgetMixin(budget)`](#fn-withbudgetmixin)
 * [`fn withNotificationsWithSubscribers(notificationsWithSubscribers)`](#fn-withnotificationswithsubscribers)
+* [`fn withNotificationsWithSubscribersMixin(notificationsWithSubscribers)`](#fn-withnotificationswithsubscribersmixin)
 
 ## Fields
 
@@ -138,10 +140,26 @@ withBudget(budget)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budget.html#cfn-budgets-budget-budget
 
+### fn withBudgetMixin
+
+```ts
+withBudgetMixin(budget)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budget.html#cfn-budgets-budget-budget
+
 ### fn withNotificationsWithSubscribers
 
 ```ts
 withNotificationsWithSubscribers(notificationsWithSubscribers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budget.html#cfn-budgets-budget-notificationswithsubscribers
+
+### fn withNotificationsWithSubscribersMixin
+
+```ts
+withNotificationsWithSubscribersMixin(notificationsWithSubscribers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budget.html#cfn-budgets-budget-notificationswithsubscribers

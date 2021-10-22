@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAlarms(alarms)`](#fn-withalarms)
+* [`fn withAlarmsMixin(alarms)`](#fn-withalarmsmixin)
 * [`fn withNotificationSenderEmail(notificationSenderEmail)`](#fn-withnotificationsenderemail)
 * [`fn withPortalAuthMode(portalAuthMode)`](#fn-withportalauthmode)
 * [`fn withPortalContactEmail(portalContactEmail)`](#fn-withportalcontactemail)
@@ -29,6 +30,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 * [`fn withPortalName(portalName)`](#fn-withportalname)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -144,6 +146,14 @@ withAlarms(alarms)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-portal.html#cfn-iotsitewise-portal-alarms
 
+### fn withAlarmsMixin
+
+```ts
+withAlarmsMixin(alarms)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-portal.html#cfn-iotsitewise-portal-alarms
+
 ### fn withNotificationSenderEmail
 
 ```ts
@@ -196,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-portal.html#cfn-iotsitewise-portal-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-portal.html#cfn-iotsitewise-portal-tags

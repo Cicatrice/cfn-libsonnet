@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConformancePackInputParameters(conformancePackInputParameters)`](#fn-withconformancepackinputparameters)
+* [`fn withConformancePackInputParametersMixin(conformancePackInputParameters)`](#fn-withconformancepackinputparametersmixin)
 * [`fn withConformancePackName(conformancePackName)`](#fn-withconformancepackname)
 * [`fn withDeliveryS3Bucket(deliveryS3bucket)`](#fn-withdeliverys3bucket)
 * [`fn withDeliveryS3KeyPrefix(deliveryS3keyPrefix)`](#fn-withdeliverys3keyprefix)
@@ -138,6 +139,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withConformancePackInputParameters(conformancePackInputParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-conformancepack.html#cfn-config-conformancepack-conformancepackinputparameters
+
+### fn withConformancePackInputParametersMixin
+
+```ts
+withConformancePackInputParametersMixin(conformancePackInputParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-conformancepack.html#cfn-config-conformancepack-conformancepackinputparameters

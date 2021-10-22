@@ -22,14 +22,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimb
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConfiguration(configuration)`](#fn-withconfiguration)
+* [`fn withConfigurationMixin(configuration)`](#fn-withconfigurationmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEc2SecurityGroupIds(ec2securityGroupIds)`](#fn-withec2securitygroupids)
+* [`fn withEc2SecurityGroupIdsMixin(ec2securityGroupIds)`](#fn-withec2securitygroupidsmixin)
 * [`fn withInitializationScripts(initializationScripts)`](#fn-withinitializationscripts)
+* [`fn withInitializationScriptsMixin(initializationScripts)`](#fn-withinitializationscriptsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withScriptParameters(scriptParameters)`](#fn-withscriptparameters)
+* [`fn withScriptParametersMixin(scriptParameters)`](#fn-withscriptparametersmixin)
 * [`fn withStudioId(studioId)`](#fn-withstudioid)
 * [`fn withSubtype(subtype)`](#fn-withsubtype)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -146,6 +151,14 @@ withConfiguration(configuration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-configuration
 
+### fn withConfigurationMixin
+
+```ts
+withConfigurationMixin(configuration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-configuration
+
 ### fn withDescription
 
 ```ts
@@ -162,10 +175,26 @@ withEc2SecurityGroupIds(ec2securityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-ec2securitygroupids
 
+### fn withEc2SecurityGroupIdsMixin
+
+```ts
+withEc2SecurityGroupIdsMixin(ec2securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-ec2securitygroupids
+
 ### fn withInitializationScripts
 
 ```ts
 withInitializationScripts(initializationScripts)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-initializationscripts
+
+### fn withInitializationScriptsMixin
+
+```ts
+withInitializationScriptsMixin(initializationScripts)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-initializationscripts
@@ -182,6 +211,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimb
 
 ```ts
 withScriptParameters(scriptParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-scriptparameters
+
+### fn withScriptParametersMixin
+
+```ts
+withScriptParametersMixin(scriptParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-scriptparameters
@@ -206,6 +243,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimb
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studiocomponent.html#cfn-nimblestudio-studiocomponent-tags

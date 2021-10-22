@@ -23,18 +23,23 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessToken(accessToken)`](#fn-withaccesstoken)
 * [`fn withAutoBranchCreationConfig(autoBranchCreationConfig)`](#fn-withautobranchcreationconfig)
+* [`fn withAutoBranchCreationConfigMixin(autoBranchCreationConfig)`](#fn-withautobranchcreationconfigmixin)
 * [`fn withBasicAuthConfig(basicAuthConfig)`](#fn-withbasicauthconfig)
+* [`fn withBasicAuthConfigMixin(basicAuthConfig)`](#fn-withbasicauthconfigmixin)
 * [`fn withBuildSpec(buildSpec)`](#fn-withbuildspec)
 * [`fn withCustomHeaders(customHeaders)`](#fn-withcustomheaders)
 * [`fn withCustomRules(customRules)`](#fn-withcustomrules)
+* [`fn withCustomRulesMixin(customRules)`](#fn-withcustomrulesmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEnableBranchAutoDeletion(enableBranchAutoDeletion)`](#fn-withenablebranchautodeletion)
 * [`fn withEnvironmentVariables(environmentVariables)`](#fn-withenvironmentvariables)
+* [`fn withEnvironmentVariablesMixin(environmentVariables)`](#fn-withenvironmentvariablesmixin)
 * [`fn withIAMServiceRole(iamserviceRole)`](#fn-withiamservicerole)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOauthToken(oauthToken)`](#fn-withoauthtoken)
 * [`fn withRepository(repository)`](#fn-withrepository)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -158,10 +163,26 @@ withAutoBranchCreationConfig(autoBranchCreationConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-autobranchcreationconfig
 
+### fn withAutoBranchCreationConfigMixin
+
+```ts
+withAutoBranchCreationConfigMixin(autoBranchCreationConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-autobranchcreationconfig
+
 ### fn withBasicAuthConfig
 
 ```ts
 withBasicAuthConfig(basicAuthConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-basicauthconfig
+
+### fn withBasicAuthConfigMixin
+
+```ts
+withBasicAuthConfigMixin(basicAuthConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-basicauthconfig
@@ -190,6 +211,14 @@ withCustomRules(customRules)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-customrules
 
+### fn withCustomRulesMixin
+
+```ts
+withCustomRulesMixin(customRules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-customrules
+
 ### fn withDescription
 
 ```ts
@@ -210,6 +239,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 
 ```ts
 withEnvironmentVariables(environmentVariables)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-environmentvariables
+
+### fn withEnvironmentVariablesMixin
+
+```ts
+withEnvironmentVariablesMixin(environmentVariables)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-environmentvariables
@@ -250,6 +287,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-app.html#cfn-amplify-app-tags

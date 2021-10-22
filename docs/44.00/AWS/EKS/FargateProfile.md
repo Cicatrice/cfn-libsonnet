@@ -25,8 +25,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-
 * [`fn withFargateProfileName(fargateProfileName)`](#fn-withfargateprofilename)
 * [`fn withPodExecutionRoleArn(podExecutionRoleArn)`](#fn-withpodexecutionrolearn)
 * [`fn withSelectors(selectors)`](#fn-withselectors)
+* [`fn withSelectorsMixin(selectors)`](#fn-withselectorsmixin)
 * [`fn withSubnets(subnets)`](#fn-withsubnets)
+* [`fn withSubnetsMixin(subnets)`](#fn-withsubnetsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -166,6 +169,14 @@ withSelectors(selectors)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html#cfn-eks-fargateprofile-selectors
 
+### fn withSelectorsMixin
+
+```ts
+withSelectorsMixin(selectors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html#cfn-eks-fargateprofile-selectors
+
 ### fn withSubnets
 
 ```ts
@@ -174,10 +185,26 @@ withSubnets(subnets)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html#cfn-eks-fargateprofile-subnets
 
+### fn withSubnetsMixin
+
+```ts
+withSubnetsMixin(subnets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html#cfn-eks-fargateprofile-subnets
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html#cfn-eks-fargateprofile-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html#cfn-eks-fargateprofile-tags

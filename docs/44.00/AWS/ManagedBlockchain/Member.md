@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mana
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withInvitationId(invitationId)`](#fn-withinvitationid)
 * [`fn withMemberConfiguration(memberConfiguration)`](#fn-withmemberconfiguration)
+* [`fn withMemberConfigurationMixin(memberConfiguration)`](#fn-withmemberconfigurationmixin)
 * [`fn withNetworkConfiguration(networkConfiguration)`](#fn-withnetworkconfiguration)
+* [`fn withNetworkConfigurationMixin(networkConfiguration)`](#fn-withnetworkconfigurationmixin)
 * [`fn withNetworkId(networkId)`](#fn-withnetworkid)
 
 ## Fields
@@ -148,10 +150,26 @@ withMemberConfiguration(memberConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-member.html#cfn-managedblockchain-member-memberconfiguration
 
+### fn withMemberConfigurationMixin
+
+```ts
+withMemberConfigurationMixin(memberConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-member.html#cfn-managedblockchain-member-memberconfiguration
+
 ### fn withNetworkConfiguration
 
 ```ts
 withNetworkConfiguration(networkConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-member.html#cfn-managedblockchain-member-networkconfiguration
+
+### fn withNetworkConfigurationMixin
+
+```ts
+withNetworkConfigurationMixin(networkConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-member.html#cfn-managedblockchain-member-networkconfiguration

@@ -22,10 +22,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rout
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withHostedZoneConfig(hostedZoneConfig)`](#fn-withhostedzoneconfig)
+* [`fn withHostedZoneConfigMixin(hostedZoneConfig)`](#fn-withhostedzoneconfigmixin)
 * [`fn withHostedZoneTags(hostedZoneTags)`](#fn-withhostedzonetags)
+* [`fn withHostedZoneTagsMixin(hostedZoneTags)`](#fn-withhostedzonetagsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withQueryLoggingConfig(queryLoggingConfig)`](#fn-withqueryloggingconfig)
+* [`fn withQueryLoggingConfigMixin(queryLoggingConfig)`](#fn-withqueryloggingconfigmixin)
 * [`fn withVPCs(vpcs)`](#fn-withvpcs)
+* [`fn withVPCsMixin(vpcs)`](#fn-withvpcsmixin)
 
 ## Fields
 
@@ -141,10 +145,26 @@ withHostedZoneConfig(hostedZoneConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-hostedzoneconfig
 
+### fn withHostedZoneConfigMixin
+
+```ts
+withHostedZoneConfigMixin(hostedZoneConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-hostedzoneconfig
+
 ### fn withHostedZoneTags
 
 ```ts
 withHostedZoneTags(hostedZoneTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-hostedzonetags
+
+### fn withHostedZoneTagsMixin
+
+```ts
+withHostedZoneTagsMixin(hostedZoneTags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-hostedzonetags
@@ -165,10 +185,26 @@ withQueryLoggingConfig(queryLoggingConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-queryloggingconfig
 
+### fn withQueryLoggingConfigMixin
+
+```ts
+withQueryLoggingConfigMixin(queryLoggingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-queryloggingconfig
+
 ### fn withVPCs
 
 ```ts
 withVPCs(vpcs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-vpcs
+
+### fn withVPCsMixin
+
+```ts
+withVPCsMixin(vpcs)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-hostedzone.html#cfn-route53-hostedzone-vpcs

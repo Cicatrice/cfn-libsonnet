@@ -23,24 +23,34 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessTokenValidity(accessTokenValidity)`](#fn-withaccesstokenvalidity)
 * [`fn withAllowedOAuthFlows(allowedOauthFlows)`](#fn-withallowedoauthflows)
+* [`fn withAllowedOAuthFlowsMixin(allowedOauthFlows)`](#fn-withallowedoauthflowsmixin)
 * [`fn withAllowedOAuthFlowsUserPoolClient(allowedOauthFlowsUserPoolClient)`](#fn-withallowedoauthflowsuserpoolclient)
 * [`fn withAllowedOAuthScopes(allowedOauthScopes)`](#fn-withallowedoauthscopes)
+* [`fn withAllowedOAuthScopesMixin(allowedOauthScopes)`](#fn-withallowedoauthscopesmixin)
 * [`fn withAnalyticsConfiguration(analyticsConfiguration)`](#fn-withanalyticsconfiguration)
+* [`fn withAnalyticsConfigurationMixin(analyticsConfiguration)`](#fn-withanalyticsconfigurationmixin)
 * [`fn withCallbackURLs(callbackUrls)`](#fn-withcallbackurls)
+* [`fn withCallbackURLsMixin(callbackUrls)`](#fn-withcallbackurlsmixin)
 * [`fn withClientName(clientName)`](#fn-withclientname)
 * [`fn withDefaultRedirectURI(defaultRedirectUri)`](#fn-withdefaultredirecturi)
 * [`fn withEnableTokenRevocation(enableTokenRevocation)`](#fn-withenabletokenrevocation)
 * [`fn withExplicitAuthFlows(explicitAuthFlows)`](#fn-withexplicitauthflows)
+* [`fn withExplicitAuthFlowsMixin(explicitAuthFlows)`](#fn-withexplicitauthflowsmixin)
 * [`fn withGenerateSecret(generateSecret)`](#fn-withgeneratesecret)
 * [`fn withIdTokenValidity(idTokenValidity)`](#fn-withidtokenvalidity)
 * [`fn withLogoutURLs(logoutUrls)`](#fn-withlogouturls)
+* [`fn withLogoutURLsMixin(logoutUrls)`](#fn-withlogouturlsmixin)
 * [`fn withPreventUserExistenceErrors(preventUserExistenceErrors)`](#fn-withpreventuserexistenceerrors)
 * [`fn withReadAttributes(readAttributes)`](#fn-withreadattributes)
+* [`fn withReadAttributesMixin(readAttributes)`](#fn-withreadattributesmixin)
 * [`fn withRefreshTokenValidity(refreshTokenValidity)`](#fn-withrefreshtokenvalidity)
 * [`fn withSupportedIdentityProviders(supportedIdentityProviders)`](#fn-withsupportedidentityproviders)
+* [`fn withSupportedIdentityProvidersMixin(supportedIdentityProviders)`](#fn-withsupportedidentityprovidersmixin)
 * [`fn withTokenValidityUnits(tokenValidityUnits)`](#fn-withtokenvalidityunits)
+* [`fn withTokenValidityUnitsMixin(tokenValidityUnits)`](#fn-withtokenvalidityunitsmixin)
 * [`fn withUserPoolId(userPoolId)`](#fn-withuserpoolid)
 * [`fn withWriteAttributes(writeAttributes)`](#fn-withwriteattributes)
+* [`fn withWriteAttributesMixin(writeAttributes)`](#fn-withwriteattributesmixin)
 
 ## Fields
 
@@ -164,6 +174,14 @@ withAllowedOAuthFlows(allowedOauthFlows)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-allowedoauthflows
 
+### fn withAllowedOAuthFlowsMixin
+
+```ts
+withAllowedOAuthFlowsMixin(allowedOauthFlows)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-allowedoauthflows
+
 ### fn withAllowedOAuthFlowsUserPoolClient
 
 ```ts
@@ -180,6 +198,14 @@ withAllowedOAuthScopes(allowedOauthScopes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-allowedoauthscopes
 
+### fn withAllowedOAuthScopesMixin
+
+```ts
+withAllowedOAuthScopesMixin(allowedOauthScopes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-allowedoauthscopes
+
 ### fn withAnalyticsConfiguration
 
 ```ts
@@ -188,10 +214,26 @@ withAnalyticsConfiguration(analyticsConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-analyticsconfiguration
 
+### fn withAnalyticsConfigurationMixin
+
+```ts
+withAnalyticsConfigurationMixin(analyticsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-analyticsconfiguration
+
 ### fn withCallbackURLs
 
 ```ts
 withCallbackURLs(callbackUrls)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-callbackurls
+
+### fn withCallbackURLsMixin
+
+```ts
+withCallbackURLsMixin(callbackUrls)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-callbackurls
@@ -228,6 +270,14 @@ withExplicitAuthFlows(explicitAuthFlows)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-explicitauthflows
 
+### fn withExplicitAuthFlowsMixin
+
+```ts
+withExplicitAuthFlowsMixin(explicitAuthFlows)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-explicitauthflows
+
 ### fn withGenerateSecret
 
 ```ts
@@ -252,6 +302,14 @@ withLogoutURLs(logoutUrls)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-logouturls
 
+### fn withLogoutURLsMixin
+
+```ts
+withLogoutURLsMixin(logoutUrls)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-logouturls
+
 ### fn withPreventUserExistenceErrors
 
 ```ts
@@ -264,6 +322,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 
 ```ts
 withReadAttributes(readAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-readattributes
+
+### fn withReadAttributesMixin
+
+```ts
+withReadAttributesMixin(readAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-readattributes
@@ -284,10 +350,26 @@ withSupportedIdentityProviders(supportedIdentityProviders)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-supportedidentityproviders
 
+### fn withSupportedIdentityProvidersMixin
+
+```ts
+withSupportedIdentityProvidersMixin(supportedIdentityProviders)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-supportedidentityproviders
+
 ### fn withTokenValidityUnits
 
 ```ts
 withTokenValidityUnits(tokenValidityUnits)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-tokenvalidityunits
+
+### fn withTokenValidityUnitsMixin
+
+```ts
+withTokenValidityUnitsMixin(tokenValidityUnits)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-tokenvalidityunits
@@ -304,6 +386,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 
 ```ts
 withWriteAttributes(writeAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-writeattributes
+
+### fn withWriteAttributesMixin
+
+```ts
+withWriteAttributesMixin(writeAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolclient.html#cfn-cognito-userpoolclient-writeattributes

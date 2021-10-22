@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secr
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBlockPublicPolicy(blockPublicPolicy)`](#fn-withblockpublicpolicy)
 * [`fn withResourcePolicy(resourcePolicy)`](#fn-withresourcepolicy)
+* [`fn withResourcePolicyMixin(resourcePolicy)`](#fn-withresourcepolicymixin)
 * [`fn withSecretId(secretId)`](#fn-withsecretid)
 
 ## Fields
@@ -143,6 +144,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secr
 
 ```ts
 withResourcePolicy(resourcePolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-resourcepolicy.html#cfn-secretsmanager-resourcepolicy-resourcepolicy
+
+### fn withResourcePolicyMixin
+
+```ts
+withResourcePolicyMixin(resourcePolicy)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-resourcepolicy.html#cfn-secretsmanager-resourcepolicy-resourcepolicy

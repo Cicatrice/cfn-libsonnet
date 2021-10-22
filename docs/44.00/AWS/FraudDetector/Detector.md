@@ -22,13 +22,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frau
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssociatedModels(associatedModels)`](#fn-withassociatedmodels)
+* [`fn withAssociatedModelsMixin(associatedModels)`](#fn-withassociatedmodelsmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDetectorId(detectorId)`](#fn-withdetectorid)
 * [`fn withDetectorVersionStatus(detectorVersionStatus)`](#fn-withdetectorversionstatus)
 * [`fn withEventType(eventType)`](#fn-witheventtype)
+* [`fn withEventTypeMixin(eventType)`](#fn-witheventtypemixin)
 * [`fn withRuleExecutionMode(ruleExecutionMode)`](#fn-withruleexecutionmode)
 * [`fn withRules(rules)`](#fn-withrules)
+* [`fn withRulesMixin(rules)`](#fn-withrulesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -144,6 +148,14 @@ withAssociatedModels(associatedModels)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-associatedmodels
 
+### fn withAssociatedModelsMixin
+
+```ts
+withAssociatedModelsMixin(associatedModels)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-associatedmodels
+
 ### fn withDescription
 
 ```ts
@@ -176,6 +188,14 @@ withEventType(eventType)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-eventtype
 
+### fn withEventTypeMixin
+
+```ts
+withEventTypeMixin(eventType)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-eventtype
+
 ### fn withRuleExecutionMode
 
 ```ts
@@ -192,10 +212,26 @@ withRules(rules)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-rules
 
+### fn withRulesMixin
+
+```ts
+withRulesMixin(rules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-rules
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-frauddetector-detector.html#cfn-frauddetector-detector-tags

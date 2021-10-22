@@ -23,11 +23,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withGroups(groups)`](#fn-withgroups)
+* [`fn withGroupsMixin(groups)`](#fn-withgroupsmixin)
 * [`fn withManagedPolicyName(managedPolicyName)`](#fn-withmanagedpolicyname)
 * [`fn withPath(path)`](#fn-withpath)
 * [`fn withPolicyDocument(policyDocument)`](#fn-withpolicydocument)
+* [`fn withPolicyDocumentMixin(policyDocument)`](#fn-withpolicydocumentmixin)
 * [`fn withRoles(roles)`](#fn-withroles)
+* [`fn withRolesMixin(roles)`](#fn-withrolesmixin)
 * [`fn withUsers(users)`](#fn-withusers)
+* [`fn withUsersMixin(users)`](#fn-withusersmixin)
 
 ## Fields
 
@@ -151,6 +155,14 @@ withGroups(groups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-groups
 
+### fn withGroupsMixin
+
+```ts
+withGroupsMixin(groups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-groups
+
 ### fn withManagedPolicyName
 
 ```ts
@@ -175,6 +187,14 @@ withPolicyDocument(policyDocument)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-policydocument
 
+### fn withPolicyDocumentMixin
+
+```ts
+withPolicyDocumentMixin(policyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-policydocument
+
 ### fn withRoles
 
 ```ts
@@ -183,10 +203,26 @@ withRoles(roles)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-roles
 
+### fn withRolesMixin
+
+```ts
+withRolesMixin(roles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-roles
+
 ### fn withUsers
 
 ```ts
 withUsers(users)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-users
+
+### fn withUsersMixin
+
+```ts
+withUsersMixin(users)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-managedpolicy.html#cfn-iam-managedpolicy-users

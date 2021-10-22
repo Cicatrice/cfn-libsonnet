@@ -22,10 +22,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApiStages(apiStages)`](#fn-withapistages)
+* [`fn withApiStagesMixin(apiStages)`](#fn-withapistagesmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withQuota(quota)`](#fn-withquota)
+* [`fn withQuotaMixin(quota)`](#fn-withquotamixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withThrottle(throttle)`](#fn-withthrottle)
+* [`fn withThrottleMixin(throttle)`](#fn-withthrottlemixin)
 * [`fn withUsagePlanName(usagePlanName)`](#fn-withusageplanname)
 
 ## Fields
@@ -142,6 +146,14 @@ withApiStages(apiStages)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-apistages
 
+### fn withApiStagesMixin
+
+```ts
+withApiStagesMixin(apiStages)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-apistages
+
 ### fn withDescription
 
 ```ts
@@ -158,6 +170,14 @@ withQuota(quota)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-quota
 
+### fn withQuotaMixin
+
+```ts
+withQuotaMixin(quota)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-quota
+
 ### fn withTags
 
 ```ts
@@ -166,10 +186,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-tags
+
 ### fn withThrottle
 
 ```ts
 withThrottle(throttle)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-throttle
+
+### fn withThrottleMixin
+
+```ts
+withThrottleMixin(throttle)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-usageplan.html#cfn-apigateway-usageplan-throttle

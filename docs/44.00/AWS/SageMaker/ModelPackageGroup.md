@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withModelPackageGroupDescription(modelPackageGroupDescription)`](#fn-withmodelpackagegroupdescription)
 * [`fn withModelPackageGroupName(modelPackageGroupName)`](#fn-withmodelpackagegroupname)
 * [`fn withModelPackageGroupPolicy(modelPackageGroupPolicy)`](#fn-withmodelpackagegrouppolicy)
+* [`fn withModelPackageGroupPolicyMixin(modelPackageGroupPolicy)`](#fn-withmodelpackagegrouppolicymixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -156,10 +158,26 @@ withModelPackageGroupPolicy(modelPackageGroupPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelpackagegroup.html#cfn-sagemaker-modelpackagegroup-modelpackagegrouppolicy
 
+### fn withModelPackageGroupPolicyMixin
+
+```ts
+withModelPackageGroupPolicyMixin(modelPackageGroupPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelpackagegroup.html#cfn-sagemaker-modelpackagegroup-modelpackagegrouppolicy
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelpackagegroup.html#cfn-sagemaker-modelpackagegroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-modelpackagegroup.html#cfn-sagemaker-modelpackagegroup-tags

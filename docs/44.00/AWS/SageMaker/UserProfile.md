@@ -25,8 +25,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withSingleSignOnUserIdentifier(singleSignOnUserIdentifier)`](#fn-withsinglesignonuseridentifier)
 * [`fn withSingleSignOnUserValue(singleSignOnUserValue)`](#fn-withsinglesignonuservalue)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserProfileName(userProfileName)`](#fn-withuserprofilename)
 * [`fn withUserSettings(userSettings)`](#fn-withusersettings)
+* [`fn withUserSettingsMixin(userSettings)`](#fn-withusersettingsmixin)
 
 ## Fields
 
@@ -166,6 +168,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-tags
+
 ### fn withUserProfileName
 
 ```ts
@@ -178,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 
 ```ts
 withUserSettings(userSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-usersettings
+
+### fn withUserSettingsMixin
+
+```ts
+withUserSettingsMixin(userSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-usersettings

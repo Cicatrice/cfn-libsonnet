@@ -22,16 +22,23 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCdiInputSpecification(cdiInputSpecification)`](#fn-withcdiinputspecification)
+* [`fn withCdiInputSpecificationMixin(cdiInputSpecification)`](#fn-withcdiinputspecificationmixin)
 * [`fn withChannelClass(channelClass)`](#fn-withchannelclass)
 * [`fn withDestinations(destinations)`](#fn-withdestinations)
+* [`fn withDestinationsMixin(destinations)`](#fn-withdestinationsmixin)
 * [`fn withEncoderSettings(encoderSettings)`](#fn-withencodersettings)
+* [`fn withEncoderSettingsMixin(encoderSettings)`](#fn-withencodersettingsmixin)
 * [`fn withInputAttachments(inputAttachments)`](#fn-withinputattachments)
+* [`fn withInputAttachmentsMixin(inputAttachments)`](#fn-withinputattachmentsmixin)
 * [`fn withInputSpecification(inputSpecification)`](#fn-withinputspecification)
+* [`fn withInputSpecificationMixin(inputSpecification)`](#fn-withinputspecificationmixin)
 * [`fn withLogLevel(logLevel)`](#fn-withloglevel)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpc(vpc)`](#fn-withvpc)
+* [`fn withVpcMixin(vpc)`](#fn-withvpcmixin)
 
 ## Fields
 
@@ -147,6 +154,14 @@ withCdiInputSpecification(cdiInputSpecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-cdiinputspecification
 
+### fn withCdiInputSpecificationMixin
+
+```ts
+withCdiInputSpecificationMixin(cdiInputSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-cdiinputspecification
+
 ### fn withChannelClass
 
 ```ts
@@ -163,10 +178,26 @@ withDestinations(destinations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-destinations
 
+### fn withDestinationsMixin
+
+```ts
+withDestinationsMixin(destinations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-destinations
+
 ### fn withEncoderSettings
 
 ```ts
 withEncoderSettings(encoderSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-encodersettings
+
+### fn withEncoderSettingsMixin
+
+```ts
+withEncoderSettingsMixin(encoderSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-encodersettings
@@ -179,10 +210,26 @@ withInputAttachments(inputAttachments)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-inputattachments
 
+### fn withInputAttachmentsMixin
+
+```ts
+withInputAttachmentsMixin(inputAttachments)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-inputattachments
+
 ### fn withInputSpecification
 
 ```ts
 withInputSpecification(inputSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-inputspecification
+
+### fn withInputSpecificationMixin
+
+```ts
+withInputSpecificationMixin(inputSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-inputspecification
@@ -219,10 +266,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-tags
+
 ### fn withVpc
 
 ```ts
 withVpc(vpc)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-vpc
+
+### fn withVpcMixin
+
+```ts
+withVpcMixin(vpc)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medialive-channel.html#cfn-medialive-channel-vpc

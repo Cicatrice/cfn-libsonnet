@@ -22,10 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssetHierarchies(assetHierarchies)`](#fn-withassethierarchies)
+* [`fn withAssetHierarchiesMixin(assetHierarchies)`](#fn-withassethierarchiesmixin)
 * [`fn withAssetModelId(assetModelId)`](#fn-withassetmodelid)
 * [`fn withAssetName(assetName)`](#fn-withassetname)
 * [`fn withAssetProperties(assetProperties)`](#fn-withassetproperties)
+* [`fn withAssetPropertiesMixin(assetProperties)`](#fn-withassetpropertiesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -141,6 +144,14 @@ withAssetHierarchies(assetHierarchies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html#cfn-iotsitewise-asset-assethierarchies
 
+### fn withAssetHierarchiesMixin
+
+```ts
+withAssetHierarchiesMixin(assetHierarchies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html#cfn-iotsitewise-asset-assethierarchies
+
 ### fn withAssetModelId
 
 ```ts
@@ -165,10 +176,26 @@ withAssetProperties(assetProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html#cfn-iotsitewise-asset-assetproperties
 
+### fn withAssetPropertiesMixin
+
+```ts
+withAssetPropertiesMixin(assetProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html#cfn-iotsitewise-asset-assetproperties
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html#cfn-iotsitewise-asset-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html#cfn-iotsitewise-asset-tags

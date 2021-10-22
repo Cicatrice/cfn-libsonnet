@@ -22,15 +22,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batc
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withContainerProperties(containerProperties)`](#fn-withcontainerproperties)
+* [`fn withContainerPropertiesMixin(containerProperties)`](#fn-withcontainerpropertiesmixin)
 * [`fn withJobDefinitionName(jobDefinitionName)`](#fn-withjobdefinitionname)
 * [`fn withNodeProperties(nodeProperties)`](#fn-withnodeproperties)
+* [`fn withNodePropertiesMixin(nodeProperties)`](#fn-withnodepropertiesmixin)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withPlatformCapabilities(platformCapabilities)`](#fn-withplatformcapabilities)
+* [`fn withPlatformCapabilitiesMixin(platformCapabilities)`](#fn-withplatformcapabilitiesmixin)
 * [`fn withPropagateTags(propagateTags)`](#fn-withpropagatetags)
 * [`fn withRetryStrategy(retryStrategy)`](#fn-withretrystrategy)
+* [`fn withRetryStrategyMixin(retryStrategy)`](#fn-withretrystrategymixin)
 * [`fn withSchedulingPriority(schedulingPriority)`](#fn-withschedulingpriority)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeout(timeout)`](#fn-withtimeout)
+* [`fn withTimeoutMixin(timeout)`](#fn-withtimeoutmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -147,6 +154,14 @@ withContainerProperties(containerProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-containerproperties
 
+### fn withContainerPropertiesMixin
+
+```ts
+withContainerPropertiesMixin(containerProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-containerproperties
+
 ### fn withJobDefinitionName
 
 ```ts
@@ -163,6 +178,14 @@ withNodeProperties(nodeProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-nodeproperties
 
+### fn withNodePropertiesMixin
+
+```ts
+withNodePropertiesMixin(nodeProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-nodeproperties
+
 ### fn withParameters
 
 ```ts
@@ -171,10 +194,26 @@ withParameters(parameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-parameters
 
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-parameters
+
 ### fn withPlatformCapabilities
 
 ```ts
 withPlatformCapabilities(platformCapabilities)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-platformcapabilities
+
+### fn withPlatformCapabilitiesMixin
+
+```ts
+withPlatformCapabilitiesMixin(platformCapabilities)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-platformcapabilities
@@ -195,6 +234,14 @@ withRetryStrategy(retryStrategy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-retrystrategy
 
+### fn withRetryStrategyMixin
+
+```ts
+withRetryStrategyMixin(retryStrategy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-retrystrategy
+
 ### fn withSchedulingPriority
 
 ```ts
@@ -211,10 +258,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-tags
+
 ### fn withTimeout
 
 ```ts
 withTimeout(timeout)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-timeout
+
+### fn withTimeoutMixin
+
+```ts
+withTimeoutMixin(timeout)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobdefinition.html#cfn-batch-jobdefinition-timeout

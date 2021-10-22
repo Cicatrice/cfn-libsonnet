@@ -22,9 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuthorization(authorization)`](#fn-withauthorization)
+* [`fn withAuthorizationMixin(authorization)`](#fn-withauthorizationmixin)
 * [`fn withEgressAccessLogs(egressAccessLogs)`](#fn-withegressaccesslogs)
+* [`fn withEgressAccessLogsMixin(egressAccessLogs)`](#fn-withegressaccesslogsmixin)
 * [`fn withId(id)`](#fn-withid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -140,10 +143,26 @@ withAuthorization(authorization)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html#cfn-mediapackage-packaginggroup-authorization
 
+### fn withAuthorizationMixin
+
+```ts
+withAuthorizationMixin(authorization)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html#cfn-mediapackage-packaginggroup-authorization
+
 ### fn withEgressAccessLogs
 
 ```ts
 withEgressAccessLogs(egressAccessLogs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html#cfn-mediapackage-packaginggroup-egressaccesslogs
+
+### fn withEgressAccessLogsMixin
+
+```ts
+withEgressAccessLogsMixin(egressAccessLogs)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html#cfn-mediapackage-packaginggroup-egressaccesslogs
@@ -160,6 +179,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html#cfn-mediapackage-packaginggroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packaginggroup.html#cfn-mediapackage-packaginggroup-tags

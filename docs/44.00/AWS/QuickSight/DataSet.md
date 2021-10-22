@@ -23,17 +23,26 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quic
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAwsAccountId(awsAccountId)`](#fn-withawsaccountid)
 * [`fn withColumnGroups(columnGroups)`](#fn-withcolumngroups)
+* [`fn withColumnGroupsMixin(columnGroups)`](#fn-withcolumngroupsmixin)
 * [`fn withColumnLevelPermissionRules(columnLevelPermissionRules)`](#fn-withcolumnlevelpermissionrules)
+* [`fn withColumnLevelPermissionRulesMixin(columnLevelPermissionRules)`](#fn-withcolumnlevelpermissionrulesmixin)
 * [`fn withDataSetId(dataSetId)`](#fn-withdatasetid)
 * [`fn withFieldFolders(fieldFolders)`](#fn-withfieldfolders)
+* [`fn withFieldFoldersMixin(fieldFolders)`](#fn-withfieldfoldersmixin)
 * [`fn withImportMode(importMode)`](#fn-withimportmode)
 * [`fn withIngestionWaitPolicy(ingestionWaitPolicy)`](#fn-withingestionwaitpolicy)
+* [`fn withIngestionWaitPolicyMixin(ingestionWaitPolicy)`](#fn-withingestionwaitpolicymixin)
 * [`fn withLogicalTableMap(logicalTableMap)`](#fn-withlogicaltablemap)
+* [`fn withLogicalTableMapMixin(logicalTableMap)`](#fn-withlogicaltablemapmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPermissions(permissions)`](#fn-withpermissions)
+* [`fn withPermissionsMixin(permissions)`](#fn-withpermissionsmixin)
 * [`fn withPhysicalTableMap(physicalTableMap)`](#fn-withphysicaltablemap)
+* [`fn withPhysicalTableMapMixin(physicalTableMap)`](#fn-withphysicaltablemapmixin)
 * [`fn withRowLevelPermissionDataSet(rowLevelPermissionDataSet)`](#fn-withrowlevelpermissiondataset)
+* [`fn withRowLevelPermissionDataSetMixin(rowLevelPermissionDataSet)`](#fn-withrowlevelpermissiondatasetmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -157,10 +166,26 @@ withColumnGroups(columnGroups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-columngroups
 
+### fn withColumnGroupsMixin
+
+```ts
+withColumnGroupsMixin(columnGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-columngroups
+
 ### fn withColumnLevelPermissionRules
 
 ```ts
 withColumnLevelPermissionRules(columnLevelPermissionRules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-columnlevelpermissionrules
+
+### fn withColumnLevelPermissionRulesMixin
+
+```ts
+withColumnLevelPermissionRulesMixin(columnLevelPermissionRules)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-columnlevelpermissionrules
@@ -181,6 +206,14 @@ withFieldFolders(fieldFolders)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-fieldfolders
 
+### fn withFieldFoldersMixin
+
+```ts
+withFieldFoldersMixin(fieldFolders)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-fieldfolders
+
 ### fn withImportMode
 
 ```ts
@@ -197,10 +230,26 @@ withIngestionWaitPolicy(ingestionWaitPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-ingestionwaitpolicy
 
+### fn withIngestionWaitPolicyMixin
+
+```ts
+withIngestionWaitPolicyMixin(ingestionWaitPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-ingestionwaitpolicy
+
 ### fn withLogicalTableMap
 
 ```ts
 withLogicalTableMap(logicalTableMap)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-logicaltablemap
+
+### fn withLogicalTableMapMixin
+
+```ts
+withLogicalTableMapMixin(logicalTableMap)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-logicaltablemap
@@ -221,10 +270,26 @@ withPermissions(permissions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-permissions
 
+### fn withPermissionsMixin
+
+```ts
+withPermissionsMixin(permissions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-permissions
+
 ### fn withPhysicalTableMap
 
 ```ts
 withPhysicalTableMap(physicalTableMap)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-physicaltablemap
+
+### fn withPhysicalTableMapMixin
+
+```ts
+withPhysicalTableMapMixin(physicalTableMap)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-physicaltablemap
@@ -237,10 +302,26 @@ withRowLevelPermissionDataSet(rowLevelPermissionDataSet)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-rowlevelpermissiondataset
 
+### fn withRowLevelPermissionDataSetMixin
+
+```ts
+withRowLevelPermissionDataSetMixin(rowLevelPermissionDataSet)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-rowlevelpermissiondataset
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dataset.html#cfn-quicksight-dataset-tags

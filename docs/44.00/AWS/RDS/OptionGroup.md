@@ -24,8 +24,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn withEngineName(engineName)`](#fn-withenginename)
 * [`fn withMajorEngineVersion(majorEngineVersion)`](#fn-withmajorengineversion)
 * [`fn withOptionConfigurations(optionConfigurations)`](#fn-withoptionconfigurations)
+* [`fn withOptionConfigurationsMixin(optionConfigurations)`](#fn-withoptionconfigurationsmixin)
 * [`fn withOptionGroupDescription(optionGroupDescription)`](#fn-withoptiongroupdescription)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -157,6 +159,14 @@ withOptionConfigurations(optionConfigurations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-optiongroup.html#cfn-rds-optiongroup-optionconfigurations
 
+### fn withOptionConfigurationsMixin
+
+```ts
+withOptionConfigurationsMixin(optionConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-optiongroup.html#cfn-rds-optiongroup-optionconfigurations
+
 ### fn withOptionGroupDescription
 
 ```ts
@@ -169,6 +179,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-optiongroup.html#cfn-rds-optiongroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-optiongroup.html#cfn-rds-optiongroup-tags

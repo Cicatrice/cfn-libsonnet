@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withArguments(arguments)`](#fn-witharguments)
+* [`fn withArgumentsMixin(arguments)`](#fn-withargumentsmixin)
 * [`fn withEndpointName(endpointName)`](#fn-withendpointname)
 * [`fn withExtraJarsS3Path(extraJarsS3path)`](#fn-withextrajarss3path)
 * [`fn withExtraPythonLibsS3Path(extraPythonLibsS3path)`](#fn-withextrapythonlibss3path)
@@ -30,11 +31,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn withNumberOfWorkers(numberOfWorkers)`](#fn-withnumberofworkers)
 * [`fn withPublicKey(publicKey)`](#fn-withpublickey)
 * [`fn withPublicKeys(publicKeys)`](#fn-withpublickeys)
+* [`fn withPublicKeysMixin(publicKeys)`](#fn-withpublickeysmixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withSecurityConfiguration(securityConfiguration)`](#fn-withsecurityconfiguration)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSubnetId(subnetId)`](#fn-withsubnetid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withWorkerType(workerType)`](#fn-withworkertype)
 
 ## Fields
@@ -151,6 +155,14 @@ withArguments(arguments)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-arguments
 
+### fn withArgumentsMixin
+
+```ts
+withArgumentsMixin(arguments)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-arguments
+
 ### fn withEndpointName
 
 ```ts
@@ -215,6 +227,14 @@ withPublicKeys(publicKeys)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-publickeys
 
+### fn withPublicKeysMixin
+
+```ts
+withPublicKeysMixin(publicKeys)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-publickeys
+
 ### fn withRoleArn
 
 ```ts
@@ -239,6 +259,14 @@ withSecurityGroupIds(securityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-securitygroupids
 
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-securitygroupids
+
 ### fn withSubnetId
 
 ```ts
@@ -251,6 +279,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-devendpoint.html#cfn-glue-devendpoint-tags

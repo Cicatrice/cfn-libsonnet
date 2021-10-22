@@ -23,16 +23,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDeleteAllPolicyResources(deleteAllPolicyResources)`](#fn-withdeleteallpolicyresources)
 * [`fn withExcludeMap(excludeMap)`](#fn-withexcludemap)
+* [`fn withExcludeMapMixin(excludeMap)`](#fn-withexcludemapmixin)
 * [`fn withExcludeResourceTags(excludeResourceTags)`](#fn-withexcluderesourcetags)
 * [`fn withIncludeMap(includeMap)`](#fn-withincludemap)
+* [`fn withIncludeMapMixin(includeMap)`](#fn-withincludemapmixin)
 * [`fn withPolicyName(policyName)`](#fn-withpolicyname)
 * [`fn withRemediationEnabled(remediationEnabled)`](#fn-withremediationenabled)
 * [`fn withResourceTags(resourceTags)`](#fn-withresourcetags)
+* [`fn withResourceTagsMixin(resourceTags)`](#fn-withresourcetagsmixin)
 * [`fn withResourceType(resourceType)`](#fn-withresourcetype)
 * [`fn withResourceTypeList(resourceTypeList)`](#fn-withresourcetypelist)
+* [`fn withResourceTypeListMixin(resourceTypeList)`](#fn-withresourcetypelistmixin)
 * [`fn withResourcesCleanUp(resourcesCleanUp)`](#fn-withresourcescleanup)
 * [`fn withSecurityServicePolicyData(securityServicePolicyData)`](#fn-withsecurityservicepolicydata)
+* [`fn withSecurityServicePolicyDataMixin(securityServicePolicyData)`](#fn-withsecurityservicepolicydatamixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -156,6 +162,14 @@ withExcludeMap(excludeMap)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-excludemap
 
+### fn withExcludeMapMixin
+
+```ts
+withExcludeMapMixin(excludeMap)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-excludemap
+
 ### fn withExcludeResourceTags
 
 ```ts
@@ -168,6 +182,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-
 
 ```ts
 withIncludeMap(includeMap)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-includemap
+
+### fn withIncludeMapMixin
+
+```ts
+withIncludeMapMixin(includeMap)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-includemap
@@ -196,6 +218,14 @@ withResourceTags(resourceTags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-resourcetags
 
+### fn withResourceTagsMixin
+
+```ts
+withResourceTagsMixin(resourceTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-resourcetags
+
 ### fn withResourceType
 
 ```ts
@@ -208,6 +238,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-
 
 ```ts
 withResourceTypeList(resourceTypeList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-resourcetypelist
+
+### fn withResourceTypeListMixin
+
+```ts
+withResourceTypeListMixin(resourceTypeList)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-resourcetypelist
@@ -228,10 +266,26 @@ withSecurityServicePolicyData(securityServicePolicyData)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-securityservicepolicydata
 
+### fn withSecurityServicePolicyDataMixin
+
+```ts
+withSecurityServicePolicyDataMixin(securityServicePolicyData)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-securityservicepolicydata
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fms-policy.html#cfn-fms-policy-tags

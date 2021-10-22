@@ -23,13 +23,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-tran
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withHomeDirectory(homeDirectory)`](#fn-withhomedirectory)
 * [`fn withHomeDirectoryMappings(homeDirectoryMappings)`](#fn-withhomedirectorymappings)
+* [`fn withHomeDirectoryMappingsMixin(homeDirectoryMappings)`](#fn-withhomedirectorymappingsmixin)
 * [`fn withHomeDirectoryType(homeDirectoryType)`](#fn-withhomedirectorytype)
 * [`fn withPolicy(policy)`](#fn-withpolicy)
 * [`fn withPosixProfile(posixProfile)`](#fn-withposixprofile)
+* [`fn withPosixProfileMixin(posixProfile)`](#fn-withposixprofilemixin)
 * [`fn withRole(role)`](#fn-withrole)
 * [`fn withServerId(serverId)`](#fn-withserverid)
 * [`fn withSshPublicKeys(sshPublicKeys)`](#fn-withsshpublickeys)
+* [`fn withSshPublicKeysMixin(sshPublicKeys)`](#fn-withsshpublickeysmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserName(userName)`](#fn-withusername)
 
 ## Fields
@@ -154,6 +158,14 @@ withHomeDirectoryMappings(homeDirectoryMappings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-homedirectorymappings
 
+### fn withHomeDirectoryMappingsMixin
+
+```ts
+withHomeDirectoryMappingsMixin(homeDirectoryMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-homedirectorymappings
+
 ### fn withHomeDirectoryType
 
 ```ts
@@ -174,6 +186,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-tran
 
 ```ts
 withPosixProfile(posixProfile)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-posixprofile
+
+### fn withPosixProfileMixin
+
+```ts
+withPosixProfileMixin(posixProfile)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-posixprofile
@@ -202,10 +222,26 @@ withSshPublicKeys(sshPublicKeys)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-sshpublickeys
 
+### fn withSshPublicKeysMixin
+
+```ts
+withSshPublicKeysMixin(sshPublicKeys)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-sshpublickeys
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-tags

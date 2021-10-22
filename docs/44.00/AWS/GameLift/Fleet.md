@@ -23,22 +23,28 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBuildId(buildId)`](#fn-withbuildid)
 * [`fn withCertificateConfiguration(certificateConfiguration)`](#fn-withcertificateconfiguration)
+* [`fn withCertificateConfigurationMixin(certificateConfiguration)`](#fn-withcertificateconfigurationmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDesiredEC2Instances(desiredEc2instances)`](#fn-withdesiredec2instances)
 * [`fn withEC2InboundPermissions(ec2inboundPermissions)`](#fn-withec2inboundpermissions)
+* [`fn withEC2InboundPermissionsMixin(ec2inboundPermissions)`](#fn-withec2inboundpermissionsmixin)
 * [`fn withEC2InstanceType(ec2instanceType)`](#fn-withec2instancetype)
 * [`fn withFleetType(fleetType)`](#fn-withfleettype)
 * [`fn withInstanceRoleARN(instanceRoleArn)`](#fn-withinstancerolearn)
 * [`fn withLocations(locations)`](#fn-withlocations)
+* [`fn withLocationsMixin(locations)`](#fn-withlocationsmixin)
 * [`fn withMaxSize(maxSize)`](#fn-withmaxsize)
 * [`fn withMetricGroups(metricGroups)`](#fn-withmetricgroups)
+* [`fn withMetricGroupsMixin(metricGroups)`](#fn-withmetricgroupsmixin)
 * [`fn withMinSize(minSize)`](#fn-withminsize)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withNewGameSessionProtectionPolicy(newGameSessionProtectionPolicy)`](#fn-withnewgamesessionprotectionpolicy)
 * [`fn withPeerVpcAwsAccountId(peerVpcAwsAccountId)`](#fn-withpeervpcawsaccountid)
 * [`fn withPeerVpcId(peerVpcId)`](#fn-withpeervpcid)
 * [`fn withResourceCreationLimitPolicy(resourceCreationLimitPolicy)`](#fn-withresourcecreationlimitpolicy)
+* [`fn withResourceCreationLimitPolicyMixin(resourceCreationLimitPolicy)`](#fn-withresourcecreationlimitpolicymixin)
 * [`fn withRuntimeConfiguration(runtimeConfiguration)`](#fn-withruntimeconfiguration)
+* [`fn withRuntimeConfigurationMixin(runtimeConfiguration)`](#fn-withruntimeconfigurationmixin)
 * [`fn withScriptId(scriptId)`](#fn-withscriptid)
 
 ## Fields
@@ -163,6 +169,14 @@ withCertificateConfiguration(certificateConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-certificateconfiguration
 
+### fn withCertificateConfigurationMixin
+
+```ts
+withCertificateConfigurationMixin(certificateConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-certificateconfiguration
+
 ### fn withDescription
 
 ```ts
@@ -183,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 
 ```ts
 withEC2InboundPermissions(ec2inboundPermissions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-ec2inboundpermissions
+
+### fn withEC2InboundPermissionsMixin
+
+```ts
+withEC2InboundPermissionsMixin(ec2inboundPermissions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-ec2inboundpermissions
@@ -219,6 +241,14 @@ withLocations(locations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-locations
 
+### fn withLocationsMixin
+
+```ts
+withLocationsMixin(locations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-locations
+
 ### fn withMaxSize
 
 ```ts
@@ -231,6 +261,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 
 ```ts
 withMetricGroups(metricGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-metricgroups
+
+### fn withMetricGroupsMixin
+
+```ts
+withMetricGroupsMixin(metricGroups)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-metricgroups
@@ -283,10 +321,26 @@ withResourceCreationLimitPolicy(resourceCreationLimitPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-resourcecreationlimitpolicy
 
+### fn withResourceCreationLimitPolicyMixin
+
+```ts
+withResourceCreationLimitPolicyMixin(resourceCreationLimitPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-resourcecreationlimitpolicy
+
 ### fn withRuntimeConfiguration
 
 ```ts
 withRuntimeConfiguration(runtimeConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-runtimeconfiguration
+
+### fn withRuntimeConfigurationMixin
+
+```ts
+withRuntimeConfigurationMixin(runtimeConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-runtimeconfiguration

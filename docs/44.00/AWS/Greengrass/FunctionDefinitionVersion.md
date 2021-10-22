@@ -22,8 +22,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDefaultConfig(defaultConfig)`](#fn-withdefaultconfig)
+* [`fn withDefaultConfigMixin(defaultConfig)`](#fn-withdefaultconfigmixin)
 * [`fn withFunctionDefinitionId(functionDefinitionId)`](#fn-withfunctiondefinitionid)
 * [`fn withFunctions(functions)`](#fn-withfunctions)
+* [`fn withFunctionsMixin(functions)`](#fn-withfunctionsmixin)
 
 ## Fields
 
@@ -139,6 +141,14 @@ withDefaultConfig(defaultConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-functiondefinitionversion.html#cfn-greengrass-functiondefinitionversion-defaultconfig
 
+### fn withDefaultConfigMixin
+
+```ts
+withDefaultConfigMixin(defaultConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-functiondefinitionversion.html#cfn-greengrass-functiondefinitionversion-defaultconfig
+
 ### fn withFunctionDefinitionId
 
 ```ts
@@ -151,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 
 ```ts
 withFunctions(functions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-functiondefinitionversion.html#cfn-greengrass-functiondefinitionversion-functions
+
+### fn withFunctionsMixin
+
+```ts
+withFunctionsMixin(functions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-functiondefinitionversion.html#cfn-greengrass-functiondefinitionversion-functions

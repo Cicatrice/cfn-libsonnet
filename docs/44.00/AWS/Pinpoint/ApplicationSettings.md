@@ -23,9 +23,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApplicationId(applicationId)`](#fn-withapplicationid)
 * [`fn withCampaignHook(campaignHook)`](#fn-withcampaignhook)
+* [`fn withCampaignHookMixin(campaignHook)`](#fn-withcampaignhookmixin)
 * [`fn withCloudWatchMetricsEnabled(cloudWatchMetricsEnabled)`](#fn-withcloudwatchmetricsenabled)
 * [`fn withLimits(limits)`](#fn-withlimits)
+* [`fn withLimitsMixin(limits)`](#fn-withlimitsmixin)
 * [`fn withQuietTime(quietTime)`](#fn-withquiettime)
+* [`fn withQuietTimeMixin(quietTime)`](#fn-withquiettimemixin)
 
 ## Fields
 
@@ -149,6 +152,14 @@ withCampaignHook(campaignHook)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html#cfn-pinpoint-applicationsettings-campaignhook
 
+### fn withCampaignHookMixin
+
+```ts
+withCampaignHookMixin(campaignHook)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html#cfn-pinpoint-applicationsettings-campaignhook
+
 ### fn withCloudWatchMetricsEnabled
 
 ```ts
@@ -165,10 +176,26 @@ withLimits(limits)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html#cfn-pinpoint-applicationsettings-limits
 
+### fn withLimitsMixin
+
+```ts
+withLimitsMixin(limits)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html#cfn-pinpoint-applicationsettings-limits
+
 ### fn withQuietTime
 
 ```ts
 withQuietTime(quietTime)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html#cfn-pinpoint-applicationsettings-quiettime
+
+### fn withQuietTimeMixin
+
+```ts
+withQuietTimeMixin(quietTime)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-applicationsettings.html#cfn-pinpoint-applicationsettings-quiettime

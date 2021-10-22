@@ -23,19 +23,26 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApiKeySourceType(apiKeySourceType)`](#fn-withapikeysourcetype)
 * [`fn withBinaryMediaTypes(binaryMediaTypes)`](#fn-withbinarymediatypes)
+* [`fn withBinaryMediaTypesMixin(binaryMediaTypes)`](#fn-withbinarymediatypesmixin)
 * [`fn withBody(body)`](#fn-withbody)
+* [`fn withBodyMixin(body)`](#fn-withbodymixin)
 * [`fn withBodyS3Location(bodyS3location)`](#fn-withbodys3location)
+* [`fn withBodyS3LocationMixin(bodyS3location)`](#fn-withbodys3locationmixin)
 * [`fn withCloneFrom(cloneFrom)`](#fn-withclonefrom)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDisableExecuteApiEndpoint(disableExecuteApiEndpoint)`](#fn-withdisableexecuteapiendpoint)
 * [`fn withEndpointConfiguration(endpointConfiguration)`](#fn-withendpointconfiguration)
+* [`fn withEndpointConfigurationMixin(endpointConfiguration)`](#fn-withendpointconfigurationmixin)
 * [`fn withFailOnWarnings(failOnWarnings)`](#fn-withfailonwarnings)
 * [`fn withMinimumCompressionSize(minimumCompressionSize)`](#fn-withminimumcompressionsize)
 * [`fn withMode(mode)`](#fn-withmode)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withPolicy(policy)`](#fn-withpolicy)
+* [`fn withPolicyMixin(policy)`](#fn-withpolicymixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -159,6 +166,14 @@ withBinaryMediaTypes(binaryMediaTypes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-binarymediatypes
 
+### fn withBinaryMediaTypesMixin
+
+```ts
+withBinaryMediaTypesMixin(binaryMediaTypes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-binarymediatypes
+
 ### fn withBody
 
 ```ts
@@ -167,10 +182,26 @@ withBody(body)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-body
 
+### fn withBodyMixin
+
+```ts
+withBodyMixin(body)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-body
+
 ### fn withBodyS3Location
 
 ```ts
 withBodyS3Location(bodyS3location)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-bodys3location
+
+### fn withBodyS3LocationMixin
+
+```ts
+withBodyS3LocationMixin(bodyS3location)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-bodys3location
@@ -203,6 +234,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withEndpointConfiguration(endpointConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-endpointconfiguration
+
+### fn withEndpointConfigurationMixin
+
+```ts
+withEndpointConfigurationMixin(endpointConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-endpointconfiguration
@@ -247,6 +286,14 @@ withParameters(parameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-parameters
 
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-parameters
+
 ### fn withPolicy
 
 ```ts
@@ -255,10 +302,26 @@ withPolicy(policy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-policy
 
+### fn withPolicyMixin
+
+```ts
+withPolicyMixin(policy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-policy
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-restapi.html#cfn-apigateway-restapi-tags

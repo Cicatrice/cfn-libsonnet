@@ -22,13 +22,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withClientMetadata(clientMetadata)`](#fn-withclientmetadata)
+* [`fn withClientMetadataMixin(clientMetadata)`](#fn-withclientmetadatamixin)
 * [`fn withDesiredDeliveryMediums(desiredDeliveryMediums)`](#fn-withdesireddeliverymediums)
+* [`fn withDesiredDeliveryMediumsMixin(desiredDeliveryMediums)`](#fn-withdesireddeliverymediumsmixin)
 * [`fn withForceAliasCreation(forceAliasCreation)`](#fn-withforcealiascreation)
 * [`fn withMessageAction(messageAction)`](#fn-withmessageaction)
 * [`fn withUserAttributes(userAttributes)`](#fn-withuserattributes)
+* [`fn withUserAttributesMixin(userAttributes)`](#fn-withuserattributesmixin)
 * [`fn withUserPoolId(userPoolId)`](#fn-withuserpoolid)
 * [`fn withUsername(username)`](#fn-withusername)
 * [`fn withValidationData(validationData)`](#fn-withvalidationdata)
+* [`fn withValidationDataMixin(validationData)`](#fn-withvalidationdatamixin)
 
 ## Fields
 
@@ -144,10 +148,26 @@ withClientMetadata(clientMetadata)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-clientmetadata
 
+### fn withClientMetadataMixin
+
+```ts
+withClientMetadataMixin(clientMetadata)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-clientmetadata
+
 ### fn withDesiredDeliveryMediums
 
 ```ts
 withDesiredDeliveryMediums(desiredDeliveryMediums)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-desireddeliverymediums
+
+### fn withDesiredDeliveryMediumsMixin
+
+```ts
+withDesiredDeliveryMediumsMixin(desiredDeliveryMediums)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-desireddeliverymediums
@@ -176,6 +196,14 @@ withUserAttributes(userAttributes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-userattributes
 
+### fn withUserAttributesMixin
+
+```ts
+withUserAttributesMixin(userAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-userattributes
+
 ### fn withUserPoolId
 
 ```ts
@@ -196,6 +224,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 
 ```ts
 withValidationData(validationData)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-validationdata
+
+### fn withValidationDataMixin
+
+```ts
+withValidationDataMixin(validationData)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooluser.html#cfn-cognito-userpooluser-validationdata

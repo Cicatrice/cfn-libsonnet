@@ -22,17 +22,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAutoScalingPolicy(autoScalingPolicy)`](#fn-withautoscalingpolicy)
+* [`fn withAutoScalingPolicyMixin(autoScalingPolicy)`](#fn-withautoscalingpolicymixin)
 * [`fn withBalancingStrategy(balancingStrategy)`](#fn-withbalancingstrategy)
 * [`fn withDeleteOption(deleteOption)`](#fn-withdeleteoption)
 * [`fn withGameServerGroupName(gameServerGroupName)`](#fn-withgameservergroupname)
 * [`fn withGameServerProtectionPolicy(gameServerProtectionPolicy)`](#fn-withgameserverprotectionpolicy)
 * [`fn withInstanceDefinitions(instanceDefinitions)`](#fn-withinstancedefinitions)
+* [`fn withInstanceDefinitionsMixin(instanceDefinitions)`](#fn-withinstancedefinitionsmixin)
 * [`fn withLaunchTemplate(launchTemplate)`](#fn-withlaunchtemplate)
+* [`fn withLaunchTemplateMixin(launchTemplate)`](#fn-withlaunchtemplatemixin)
 * [`fn withMaxSize(maxSize)`](#fn-withmaxsize)
 * [`fn withMinSize(minSize)`](#fn-withminsize)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcSubnets(vpcSubnets)`](#fn-withvpcsubnets)
+* [`fn withVpcSubnetsMixin(vpcSubnets)`](#fn-withvpcsubnetsmixin)
 
 ## Fields
 
@@ -148,6 +153,14 @@ withAutoScalingPolicy(autoScalingPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-autoscalingpolicy
 
+### fn withAutoScalingPolicyMixin
+
+```ts
+withAutoScalingPolicyMixin(autoScalingPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-autoscalingpolicy
+
 ### fn withBalancingStrategy
 
 ```ts
@@ -188,10 +201,26 @@ withInstanceDefinitions(instanceDefinitions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-instancedefinitions
 
+### fn withInstanceDefinitionsMixin
+
+```ts
+withInstanceDefinitionsMixin(instanceDefinitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-instancedefinitions
+
 ### fn withLaunchTemplate
 
 ```ts
 withLaunchTemplate(launchTemplate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-launchtemplate
+
+### fn withLaunchTemplateMixin
+
+```ts
+withLaunchTemplateMixin(launchTemplate)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-launchtemplate
@@ -228,10 +257,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-tags
+
 ### fn withVpcSubnets
 
 ```ts
 withVpcSubnets(vpcSubnets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-vpcsubnets
+
+### fn withVpcSubnetsMixin
+
+```ts
+withVpcSubnetsMixin(vpcSubnets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gameservergroup.html#cfn-gamelift-gameservergroup-vpcsubnets

@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glob
 * [`fn withAcceleratorArn(acceleratorArn)`](#fn-withacceleratorarn)
 * [`fn withClientAffinity(clientAffinity)`](#fn-withclientaffinity)
 * [`fn withPortRanges(portRanges)`](#fn-withportranges)
+* [`fn withPortRangesMixin(portRanges)`](#fn-withportrangesmixin)
 * [`fn withProtocol(protocol)`](#fn-withprotocol)
 
 ## Fields
@@ -152,6 +153,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glob
 
 ```ts
 withPortRanges(portRanges)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html#cfn-globalaccelerator-listener-portranges
+
+### fn withPortRangesMixin
+
+```ts
+withPortRangesMixin(portRanges)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html#cfn-globalaccelerator-listener-portranges

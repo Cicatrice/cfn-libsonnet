@@ -1,11 +1,11 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ImageBuilder', url='', help=''),
-  Component: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ImageBuilder/Component.libsonnet'),
-  ContainerRecipe: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ImageBuilder/ContainerRecipe.libsonnet'),
-  DistributionConfiguration: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ImageBuilder/DistributionConfiguration.libsonnet'),
-  Image: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ImageBuilder/Image.libsonnet'),
-  ImagePipeline: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ImageBuilder/ImagePipeline.libsonnet'),
-  ImageRecipe: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ImageBuilder/ImageRecipe.libsonnet'),
-  InfrastructureConfiguration: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ImageBuilder/InfrastructureConfiguration.libsonnet'),
+  Component:: (import 'Component.libsonnet'),
+  ContainerRecipe:: (import 'ContainerRecipe.libsonnet'),
+  DistributionConfiguration:: (import 'DistributionConfiguration.libsonnet'),
+  Image:: (import 'Image.libsonnet'),
+  ImagePipeline:: (import 'ImagePipeline.libsonnet'),
+  ImageRecipe:: (import 'ImageRecipe.libsonnet'),
+  InfrastructureConfiguration:: (import 'InfrastructureConfiguration.libsonnet'),
 }

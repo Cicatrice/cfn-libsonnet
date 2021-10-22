@@ -26,23 +26,29 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-el
 * [`fn withCacheNodeType(cacheNodeType)`](#fn-withcachenodetype)
 * [`fn withCacheParameterGroupName(cacheParameterGroupName)`](#fn-withcacheparametergroupname)
 * [`fn withCacheSecurityGroupNames(cacheSecurityGroupNames)`](#fn-withcachesecuritygroupnames)
+* [`fn withCacheSecurityGroupNamesMixin(cacheSecurityGroupNames)`](#fn-withcachesecuritygroupnamesmixin)
 * [`fn withCacheSubnetGroupName(cacheSubnetGroupName)`](#fn-withcachesubnetgroupname)
 * [`fn withClusterName(clusterName)`](#fn-withclustername)
 * [`fn withEngine(engine)`](#fn-withengine)
 * [`fn withEngineVersion(engineVersion)`](#fn-withengineversion)
 * [`fn withLogDeliveryConfigurations(logDeliveryConfigurations)`](#fn-withlogdeliveryconfigurations)
+* [`fn withLogDeliveryConfigurationsMixin(logDeliveryConfigurations)`](#fn-withlogdeliveryconfigurationsmixin)
 * [`fn withNotificationTopicArn(notificationTopicArn)`](#fn-withnotificationtopicarn)
 * [`fn withNumCacheNodes(numCacheNodes)`](#fn-withnumcachenodes)
 * [`fn withPort(port)`](#fn-withport)
 * [`fn withPreferredAvailabilityZone(preferredAvailabilityZone)`](#fn-withpreferredavailabilityzone)
 * [`fn withPreferredAvailabilityZones(preferredAvailabilityZones)`](#fn-withpreferredavailabilityzones)
+* [`fn withPreferredAvailabilityZonesMixin(preferredAvailabilityZones)`](#fn-withpreferredavailabilityzonesmixin)
 * [`fn withPreferredMaintenanceWindow(preferredMaintenanceWindow)`](#fn-withpreferredmaintenancewindow)
 * [`fn withSnapshotArns(snapshotArns)`](#fn-withsnapshotarns)
+* [`fn withSnapshotArnsMixin(snapshotArns)`](#fn-withsnapshotarnsmixin)
 * [`fn withSnapshotName(snapshotName)`](#fn-withsnapshotname)
 * [`fn withSnapshotRetentionLimit(snapshotRetentionLimit)`](#fn-withsnapshotretentionlimit)
 * [`fn withSnapshotWindow(snapshotWindow)`](#fn-withsnapshotwindow)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcSecurityGroupIds(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupids)
+* [`fn withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupidsmixin)
 
 ## Fields
 
@@ -190,6 +196,14 @@ withCacheSecurityGroupNames(cacheSecurityGroupNames)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-cachesecuritygroupnames
 
+### fn withCacheSecurityGroupNamesMixin
+
+```ts
+withCacheSecurityGroupNamesMixin(cacheSecurityGroupNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-cachesecuritygroupnames
+
 ### fn withCacheSubnetGroupName
 
 ```ts
@@ -226,6 +240,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-el
 
 ```ts
 withLogDeliveryConfigurations(logDeliveryConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-logdeliveryconfigurations
+
+### fn withLogDeliveryConfigurationsMixin
+
+```ts
+withLogDeliveryConfigurationsMixin(logDeliveryConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-logdeliveryconfigurations
@@ -270,6 +292,14 @@ withPreferredAvailabilityZones(preferredAvailabilityZones)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-preferredavailabilityzones
 
+### fn withPreferredAvailabilityZonesMixin
+
+```ts
+withPreferredAvailabilityZonesMixin(preferredAvailabilityZones)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-preferredavailabilityzones
+
 ### fn withPreferredMaintenanceWindow
 
 ```ts
@@ -282,6 +312,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-el
 
 ```ts
 withSnapshotArns(snapshotArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-snapshotarns
+
+### fn withSnapshotArnsMixin
+
+```ts
+withSnapshotArnsMixin(snapshotArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-snapshotarns
@@ -318,10 +356,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-tags
+
 ### fn withVpcSecurityGroupIds
 
 ```ts
 withVpcSecurityGroupIds(vpcSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-vpcsecuritygroupids
+
+### fn withVpcSecurityGroupIdsMixin
+
+```ts
+withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-cache-cluster.html#cfn-elasticache-cachecluster-vpcsecuritygroupids

@@ -22,15 +22,20 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kend
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCapacityUnits(capacityUnits)`](#fn-withcapacityunits)
+* [`fn withCapacityUnitsMixin(capacityUnits)`](#fn-withcapacityunitsmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDocumentMetadataConfigurations(documentMetadataConfigurations)`](#fn-withdocumentmetadataconfigurations)
+* [`fn withDocumentMetadataConfigurationsMixin(documentMetadataConfigurations)`](#fn-withdocumentmetadataconfigurationsmixin)
 * [`fn withEdition(edition)`](#fn-withedition)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withServerSideEncryptionConfiguration(serverSideEncryptionConfiguration)`](#fn-withserversideencryptionconfiguration)
+* [`fn withServerSideEncryptionConfigurationMixin(serverSideEncryptionConfiguration)`](#fn-withserversideencryptionconfigurationmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserContextPolicy(userContextPolicy)`](#fn-withusercontextpolicy)
 * [`fn withUserTokenConfigurations(userTokenConfigurations)`](#fn-withusertokenconfigurations)
+* [`fn withUserTokenConfigurationsMixin(userTokenConfigurations)`](#fn-withusertokenconfigurationsmixin)
 
 ## Fields
 
@@ -146,6 +151,14 @@ withCapacityUnits(capacityUnits)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-capacityunits
 
+### fn withCapacityUnitsMixin
+
+```ts
+withCapacityUnitsMixin(capacityUnits)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-capacityunits
+
 ### fn withDescription
 
 ```ts
@@ -158,6 +171,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kend
 
 ```ts
 withDocumentMetadataConfigurations(documentMetadataConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-documentmetadataconfigurations
+
+### fn withDocumentMetadataConfigurationsMixin
+
+```ts
+withDocumentMetadataConfigurationsMixin(documentMetadataConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-documentmetadataconfigurations
@@ -194,10 +215,26 @@ withServerSideEncryptionConfiguration(serverSideEncryptionConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-serversideencryptionconfiguration
 
+### fn withServerSideEncryptionConfigurationMixin
+
+```ts
+withServerSideEncryptionConfigurationMixin(serverSideEncryptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-serversideencryptionconfiguration
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-tags
@@ -214,6 +251,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kend
 
 ```ts
 withUserTokenConfigurations(userTokenConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-usertokenconfigurations
+
+### fn withUserTokenConfigurationsMixin
+
+```ts
+withUserTokenConfigurationsMixin(userTokenConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-usertokenconfigurations

@@ -24,8 +24,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimb
 * [`fn withAdminRoleArn(adminRoleArn)`](#fn-withadminrolearn)
 * [`fn withDisplayName(displayName)`](#fn-withdisplayname)
 * [`fn withStudioEncryptionConfiguration(studioEncryptionConfiguration)`](#fn-withstudioencryptionconfiguration)
+* [`fn withStudioEncryptionConfigurationMixin(studioEncryptionConfiguration)`](#fn-withstudioencryptionconfigurationmixin)
 * [`fn withStudioName(studioName)`](#fn-withstudioname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserRoleArn(userRoleArn)`](#fn-withuserrolearn)
 
 ## Fields
@@ -158,6 +160,14 @@ withStudioEncryptionConfiguration(studioEncryptionConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-studioencryptionconfiguration
 
+### fn withStudioEncryptionConfigurationMixin
+
+```ts
+withStudioEncryptionConfigurationMixin(studioEncryptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-studioencryptionconfiguration
+
 ### fn withStudioName
 
 ```ts
@@ -170,6 +180,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimb
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-studio.html#cfn-nimblestudio-studio-tags

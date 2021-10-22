@@ -24,20 +24,26 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 * [`fn withBatchSize(batchSize)`](#fn-withbatchsize)
 * [`fn withBisectBatchOnFunctionError(bisectBatchOnFunctionError)`](#fn-withbisectbatchonfunctionerror)
 * [`fn withDestinationConfig(destinationConfig)`](#fn-withdestinationconfig)
+* [`fn withDestinationConfigMixin(destinationConfig)`](#fn-withdestinationconfigmixin)
 * [`fn withEnabled(enabled)`](#fn-withenabled)
 * [`fn withEventSourceArn(eventSourceArn)`](#fn-witheventsourcearn)
 * [`fn withFunctionName(functionName)`](#fn-withfunctionname)
 * [`fn withFunctionResponseTypes(functionResponseTypes)`](#fn-withfunctionresponsetypes)
+* [`fn withFunctionResponseTypesMixin(functionResponseTypes)`](#fn-withfunctionresponsetypesmixin)
 * [`fn withMaximumBatchingWindowInSeconds(maximumBatchingWindowInSeconds)`](#fn-withmaximumbatchingwindowinseconds)
 * [`fn withMaximumRecordAgeInSeconds(maximumRecordAgeInSeconds)`](#fn-withmaximumrecordageinseconds)
 * [`fn withMaximumRetryAttempts(maximumRetryAttempts)`](#fn-withmaximumretryattempts)
 * [`fn withParallelizationFactor(parallelizationFactor)`](#fn-withparallelizationfactor)
 * [`fn withQueues(queues)`](#fn-withqueues)
+* [`fn withQueuesMixin(queues)`](#fn-withqueuesmixin)
 * [`fn withSelfManagedEventSource(selfManagedEventSource)`](#fn-withselfmanagedeventsource)
+* [`fn withSelfManagedEventSourceMixin(selfManagedEventSource)`](#fn-withselfmanagedeventsourcemixin)
 * [`fn withSourceAccessConfigurations(sourceAccessConfigurations)`](#fn-withsourceaccessconfigurations)
+* [`fn withSourceAccessConfigurationsMixin(sourceAccessConfigurations)`](#fn-withsourceaccessconfigurationsmixin)
 * [`fn withStartingPosition(startingPosition)`](#fn-withstartingposition)
 * [`fn withStartingPositionTimestamp(startingPositionTimestamp)`](#fn-withstartingpositiontimestamp)
 * [`fn withTopics(topics)`](#fn-withtopics)
+* [`fn withTopicsMixin(topics)`](#fn-withtopicsmixin)
 * [`fn withTumblingWindowInSeconds(tumblingWindowInSeconds)`](#fn-withtumblingwindowinseconds)
 
 ## Fields
@@ -170,6 +176,14 @@ withDestinationConfig(destinationConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-destinationconfig
 
+### fn withDestinationConfigMixin
+
+```ts
+withDestinationConfigMixin(destinationConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-destinationconfig
+
 ### fn withEnabled
 
 ```ts
@@ -198,6 +212,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 
 ```ts
 withFunctionResponseTypes(functionResponseTypes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-functionresponsetypes
+
+### fn withFunctionResponseTypesMixin
+
+```ts
+withFunctionResponseTypesMixin(functionResponseTypes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-functionresponsetypes
@@ -242,6 +264,14 @@ withQueues(queues)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-queues
 
+### fn withQueuesMixin
+
+```ts
+withQueuesMixin(queues)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-queues
+
 ### fn withSelfManagedEventSource
 
 ```ts
@@ -250,10 +280,26 @@ withSelfManagedEventSource(selfManagedEventSource)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-selfmanagedeventsource
 
+### fn withSelfManagedEventSourceMixin
+
+```ts
+withSelfManagedEventSourceMixin(selfManagedEventSource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-selfmanagedeventsource
+
 ### fn withSourceAccessConfigurations
 
 ```ts
 withSourceAccessConfigurations(sourceAccessConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-sourceaccessconfigurations
+
+### fn withSourceAccessConfigurationsMixin
+
+```ts
+withSourceAccessConfigurationsMixin(sourceAccessConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-sourceaccessconfigurations
@@ -278,6 +324,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 
 ```ts
 withTopics(topics)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-topics
+
+### fn withTopicsMixin
+
+```ts
+withTopicsMixin(topics)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventsourcemapping.html#cfn-lambda-eventsourcemapping-topics

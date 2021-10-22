@@ -23,12 +23,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAcceptLanguage(acceptLanguage)`](#fn-withacceptlanguage)
 * [`fn withAccountList(accountList)`](#fn-withaccountlist)
+* [`fn withAccountListMixin(accountList)`](#fn-withaccountlistmixin)
 * [`fn withAdminRole(adminRole)`](#fn-withadminrole)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withExecutionRole(executionRole)`](#fn-withexecutionrole)
 * [`fn withPortfolioId(portfolioId)`](#fn-withportfolioid)
 * [`fn withProductId(productId)`](#fn-withproductid)
 * [`fn withRegionList(regionList)`](#fn-withregionlist)
+* [`fn withRegionListMixin(regionList)`](#fn-withregionlistmixin)
 * [`fn withStackInstanceControl(stackInstanceControl)`](#fn-withstackinstancecontrol)
 
 ## Fields
@@ -153,6 +155,14 @@ withAccountList(accountList)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-stacksetconstraint.html#cfn-servicecatalog-stacksetconstraint-accountlist
 
+### fn withAccountListMixin
+
+```ts
+withAccountListMixin(accountList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-stacksetconstraint.html#cfn-servicecatalog-stacksetconstraint-accountlist
+
 ### fn withAdminRole
 
 ```ts
@@ -197,6 +207,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 
 ```ts
 withRegionList(regionList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-stacksetconstraint.html#cfn-servicecatalog-stacksetconstraint-regionlist
+
+### fn withRegionListMixin
+
+```ts
+withRegionListMixin(regionList)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-stacksetconstraint.html#cfn-servicecatalog-stacksetconstraint-regionlist

@@ -22,16 +22,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuthenticationOptions(authenticationOptions)`](#fn-withauthenticationoptions)
+* [`fn withAuthenticationOptionsMixin(authenticationOptions)`](#fn-withauthenticationoptionsmixin)
 * [`fn withClientCidrBlock(clientCidrBlock)`](#fn-withclientcidrblock)
 * [`fn withClientConnectOptions(clientConnectOptions)`](#fn-withclientconnectoptions)
+* [`fn withClientConnectOptionsMixin(clientConnectOptions)`](#fn-withclientconnectoptionsmixin)
 * [`fn withConnectionLogOptions(connectionLogOptions)`](#fn-withconnectionlogoptions)
+* [`fn withConnectionLogOptionsMixin(connectionLogOptions)`](#fn-withconnectionlogoptionsmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDnsServers(dnsServers)`](#fn-withdnsservers)
+* [`fn withDnsServersMixin(dnsServers)`](#fn-withdnsserversmixin)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSelfServicePortal(selfServicePortal)`](#fn-withselfserviceportal)
 * [`fn withServerCertificateArn(serverCertificateArn)`](#fn-withservercertificatearn)
 * [`fn withSplitTunnel(splitTunnel)`](#fn-withsplittunnel)
 * [`fn withTagSpecifications(tagSpecifications)`](#fn-withtagspecifications)
+* [`fn withTagSpecificationsMixin(tagSpecifications)`](#fn-withtagspecificationsmixin)
 * [`fn withTransportProtocol(transportProtocol)`](#fn-withtransportprotocol)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
 * [`fn withVpnPort(vpnPort)`](#fn-withvpnport)
@@ -150,6 +156,14 @@ withAuthenticationOptions(authenticationOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-authenticationoptions
 
+### fn withAuthenticationOptionsMixin
+
+```ts
+withAuthenticationOptionsMixin(authenticationOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-authenticationoptions
+
 ### fn withClientCidrBlock
 
 ```ts
@@ -166,10 +180,26 @@ withClientConnectOptions(clientConnectOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-clientconnectoptions
 
+### fn withClientConnectOptionsMixin
+
+```ts
+withClientConnectOptionsMixin(clientConnectOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-clientconnectoptions
+
 ### fn withConnectionLogOptions
 
 ```ts
 withConnectionLogOptions(connectionLogOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-connectionlogoptions
+
+### fn withConnectionLogOptionsMixin
+
+```ts
+withConnectionLogOptionsMixin(connectionLogOptions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-connectionlogoptions
@@ -190,10 +220,26 @@ withDnsServers(dnsServers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-dnsservers
 
+### fn withDnsServersMixin
+
+```ts
+withDnsServersMixin(dnsServers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-dnsservers
+
 ### fn withSecurityGroupIds
 
 ```ts
 withSecurityGroupIds(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-securitygroupids
+
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-securitygroupids
@@ -226,6 +272,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withTagSpecifications(tagSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-tagspecifications
+
+### fn withTagSpecificationsMixin
+
+```ts
+withTagSpecificationsMixin(tagSpecifications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnendpoint.html#cfn-ec2-clientvpnendpoint-tagspecifications

@@ -22,13 +22,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withContainers(containers)`](#fn-withcontainers)
+* [`fn withContainersMixin(containers)`](#fn-withcontainersmixin)
 * [`fn withEnableNetworkIsolation(enableNetworkIsolation)`](#fn-withenablenetworkisolation)
 * [`fn withExecutionRoleArn(executionRoleArn)`](#fn-withexecutionrolearn)
 * [`fn withInferenceExecutionConfig(inferenceExecutionConfig)`](#fn-withinferenceexecutionconfig)
+* [`fn withInferenceExecutionConfigMixin(inferenceExecutionConfig)`](#fn-withinferenceexecutionconfigmixin)
 * [`fn withModelName(modelName)`](#fn-withmodelname)
 * [`fn withPrimaryContainer(primaryContainer)`](#fn-withprimarycontainer)
+* [`fn withPrimaryContainerMixin(primaryContainer)`](#fn-withprimarycontainermixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcConfig(vpcConfig)`](#fn-withvpcconfig)
+* [`fn withVpcConfigMixin(vpcConfig)`](#fn-withvpcconfigmixin)
 
 ## Fields
 
@@ -144,6 +149,14 @@ withContainers(containers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-containers
 
+### fn withContainersMixin
+
+```ts
+withContainersMixin(containers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-containers
+
 ### fn withEnableNetworkIsolation
 
 ```ts
@@ -168,6 +181,14 @@ withInferenceExecutionConfig(inferenceExecutionConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-inferenceexecutionconfig
 
+### fn withInferenceExecutionConfigMixin
+
+```ts
+withInferenceExecutionConfigMixin(inferenceExecutionConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-inferenceexecutionconfig
+
 ### fn withModelName
 
 ```ts
@@ -184,6 +205,14 @@ withPrimaryContainer(primaryContainer)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-primarycontainer
 
+### fn withPrimaryContainerMixin
+
+```ts
+withPrimaryContainerMixin(primaryContainer)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-primarycontainer
+
 ### fn withTags
 
 ```ts
@@ -192,10 +221,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-tags
+
 ### fn withVpcConfig
 
 ```ts
 withVpcConfig(vpcConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-vpcconfig
+
+### fn withVpcConfigMixin
+
+```ts
+withVpcConfigMixin(vpcConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html#cfn-sagemaker-model-vpcconfig

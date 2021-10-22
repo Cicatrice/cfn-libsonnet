@@ -22,12 +22,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withADM(adm)`](#fn-withadm)
+* [`fn withADMMixin(adm)`](#fn-withadmmixin)
 * [`fn withAPNS(apns)`](#fn-withapns)
+* [`fn withAPNSMixin(apns)`](#fn-withapnsmixin)
 * [`fn withBaidu(baidu)`](#fn-withbaidu)
+* [`fn withBaiduMixin(baidu)`](#fn-withbaidumixin)
 * [`fn withDefault(default)`](#fn-withdefault)
+* [`fn withDefaultMixin(default)`](#fn-withdefaultmixin)
 * [`fn withDefaultSubstitutions(defaultSubstitutions)`](#fn-withdefaultsubstitutions)
 * [`fn withGCM(gcm)`](#fn-withgcm)
+* [`fn withGCMMixin(gcm)`](#fn-withgcmmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTemplateDescription(templateDescription)`](#fn-withtemplatedescription)
 * [`fn withTemplateName(templateName)`](#fn-withtemplatename)
 
@@ -145,10 +151,26 @@ withADM(adm)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-adm
 
+### fn withADMMixin
+
+```ts
+withADMMixin(adm)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-adm
+
 ### fn withAPNS
 
 ```ts
 withAPNS(apns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-apns
+
+### fn withAPNSMixin
+
+```ts
+withAPNSMixin(apns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-apns
@@ -161,10 +183,26 @@ withBaidu(baidu)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-baidu
 
+### fn withBaiduMixin
+
+```ts
+withBaiduMixin(baidu)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-baidu
+
 ### fn withDefault
 
 ```ts
 withDefault(default)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-default
+
+### fn withDefaultMixin
+
+```ts
+withDefaultMixin(default)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-default
@@ -185,10 +223,26 @@ withGCM(gcm)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-gcm
 
+### fn withGCMMixin
+
+```ts
+withGCMMixin(gcm)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-gcm
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-pushtemplate.html#cfn-pinpoint-pushtemplate-tags

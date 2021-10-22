@@ -24,11 +24,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quic
 * [`fn withAwsAccountId(awsAccountId)`](#fn-withawsaccountid)
 * [`fn withDashboardId(dashboardId)`](#fn-withdashboardid)
 * [`fn withDashboardPublishOptions(dashboardPublishOptions)`](#fn-withdashboardpublishoptions)
+* [`fn withDashboardPublishOptionsMixin(dashboardPublishOptions)`](#fn-withdashboardpublishoptionsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withPermissions(permissions)`](#fn-withpermissions)
+* [`fn withPermissionsMixin(permissions)`](#fn-withpermissionsmixin)
 * [`fn withSourceEntity(sourceEntity)`](#fn-withsourceentity)
+* [`fn withSourceEntityMixin(sourceEntity)`](#fn-withsourceentitymixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withThemeArn(themeArn)`](#fn-withthemearn)
 * [`fn withVersionDescription(versionDescription)`](#fn-withversiondescription)
 
@@ -162,6 +167,14 @@ withDashboardPublishOptions(dashboardPublishOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-dashboardpublishoptions
 
+### fn withDashboardPublishOptionsMixin
+
+```ts
+withDashboardPublishOptionsMixin(dashboardPublishOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-dashboardpublishoptions
+
 ### fn withName
 
 ```ts
@@ -178,10 +191,26 @@ withParameters(parameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-parameters
 
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-parameters
+
 ### fn withPermissions
 
 ```ts
 withPermissions(permissions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-permissions
+
+### fn withPermissionsMixin
+
+```ts
+withPermissionsMixin(permissions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-permissions
@@ -194,10 +223,26 @@ withSourceEntity(sourceEntity)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-sourceentity
 
+### fn withSourceEntityMixin
+
+```ts
+withSourceEntityMixin(sourceEntity)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-sourceentity
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-tags

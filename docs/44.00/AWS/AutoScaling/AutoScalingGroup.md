@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAutoScalingGroupName(autoScalingGroupName)`](#fn-withautoscalinggroupname)
 * [`fn withAvailabilityZones(availabilityZones)`](#fn-withavailabilityzones)
+* [`fn withAvailabilityZonesMixin(availabilityZones)`](#fn-withavailabilityzonesmixin)
 * [`fn withCapacityRebalance(capacityRebalance)`](#fn-withcapacityrebalance)
 * [`fn withContext(context)`](#fn-withcontext)
 * [`fn withCooldown(cooldown)`](#fn-withcooldown)
@@ -32,21 +33,31 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 * [`fn withInstanceId(instanceId)`](#fn-withinstanceid)
 * [`fn withLaunchConfigurationName(launchConfigurationName)`](#fn-withlaunchconfigurationname)
 * [`fn withLaunchTemplate(launchTemplate)`](#fn-withlaunchtemplate)
+* [`fn withLaunchTemplateMixin(launchTemplate)`](#fn-withlaunchtemplatemixin)
 * [`fn withLifecycleHookSpecificationList(lifecycleHookSpecificationList)`](#fn-withlifecyclehookspecificationlist)
+* [`fn withLifecycleHookSpecificationListMixin(lifecycleHookSpecificationList)`](#fn-withlifecyclehookspecificationlistmixin)
 * [`fn withLoadBalancerNames(loadBalancerNames)`](#fn-withloadbalancernames)
+* [`fn withLoadBalancerNamesMixin(loadBalancerNames)`](#fn-withloadbalancernamesmixin)
 * [`fn withMaxInstanceLifetime(maxInstanceLifetime)`](#fn-withmaxinstancelifetime)
 * [`fn withMaxSize(maxSize)`](#fn-withmaxsize)
 * [`fn withMetricsCollection(metricsCollection)`](#fn-withmetricscollection)
+* [`fn withMetricsCollectionMixin(metricsCollection)`](#fn-withmetricscollectionmixin)
 * [`fn withMinSize(minSize)`](#fn-withminsize)
 * [`fn withMixedInstancesPolicy(mixedInstancesPolicy)`](#fn-withmixedinstancespolicy)
+* [`fn withMixedInstancesPolicyMixin(mixedInstancesPolicy)`](#fn-withmixedinstancespolicymixin)
 * [`fn withNewInstancesProtectedFromScaleIn(newInstancesProtectedFromScaleIn)`](#fn-withnewinstancesprotectedfromscalein)
 * [`fn withNotificationConfigurations(notificationConfigurations)`](#fn-withnotificationconfigurations)
+* [`fn withNotificationConfigurationsMixin(notificationConfigurations)`](#fn-withnotificationconfigurationsmixin)
 * [`fn withPlacementGroup(placementGroup)`](#fn-withplacementgroup)
 * [`fn withServiceLinkedRoleARN(serviceLinkedRoleArn)`](#fn-withservicelinkedrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetGroupARNs(targetGroupArns)`](#fn-withtargetgrouparns)
+* [`fn withTargetGroupARNsMixin(targetGroupArns)`](#fn-withtargetgrouparnsmixin)
 * [`fn withTerminationPolicies(terminationPolicies)`](#fn-withterminationpolicies)
+* [`fn withTerminationPoliciesMixin(terminationPolicies)`](#fn-withterminationpoliciesmixin)
 * [`fn withVPCZoneIdentifier(vpczoneIdentifier)`](#fn-withvpczoneidentifier)
+* [`fn withVPCZoneIdentifierMixin(vpczoneIdentifier)`](#fn-withvpczoneidentifiermixin)
 
 ## Fields
 
@@ -170,6 +181,14 @@ withAvailabilityZones(availabilityZones)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-availabilityzones
 
+### fn withAvailabilityZonesMixin
+
+```ts
+withAvailabilityZonesMixin(availabilityZones)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-availabilityzones
+
 ### fn withCapacityRebalance
 
 ```ts
@@ -242,6 +261,14 @@ withLaunchTemplate(launchTemplate)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-launchtemplate
 
+### fn withLaunchTemplateMixin
+
+```ts
+withLaunchTemplateMixin(launchTemplate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-launchtemplate
+
 ### fn withLifecycleHookSpecificationList
 
 ```ts
@@ -250,10 +277,26 @@ withLifecycleHookSpecificationList(lifecycleHookSpecificationList)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-autoscaling-autoscalinggroup-lifecyclehookspecificationlist
 
+### fn withLifecycleHookSpecificationListMixin
+
+```ts
+withLifecycleHookSpecificationListMixin(lifecycleHookSpecificationList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-autoscaling-autoscalinggroup-lifecyclehookspecificationlist
+
 ### fn withLoadBalancerNames
 
 ```ts
 withLoadBalancerNames(loadBalancerNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-loadbalancernames
+
+### fn withLoadBalancerNamesMixin
+
+```ts
+withLoadBalancerNamesMixin(loadBalancerNames)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-loadbalancernames
@@ -282,6 +325,14 @@ withMetricsCollection(metricsCollection)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-metricscollection
 
+### fn withMetricsCollectionMixin
+
+```ts
+withMetricsCollectionMixin(metricsCollection)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-metricscollection
+
 ### fn withMinSize
 
 ```ts
@@ -298,6 +349,14 @@ withMixedInstancesPolicy(mixedInstancesPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-mixedinstancespolicy
 
+### fn withMixedInstancesPolicyMixin
+
+```ts
+withMixedInstancesPolicyMixin(mixedInstancesPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-mixedinstancespolicy
+
 ### fn withNewInstancesProtectedFromScaleIn
 
 ```ts
@@ -310,6 +369,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 
 ```ts
 withNotificationConfigurations(notificationConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-notificationconfigurations
+
+### fn withNotificationConfigurationsMixin
+
+```ts
+withNotificationConfigurationsMixin(notificationConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-notificationconfigurations
@@ -338,10 +405,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-tags
+
 ### fn withTargetGroupARNs
 
 ```ts
 withTargetGroupARNs(targetGroupArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-targetgrouparns
+
+### fn withTargetGroupARNsMixin
+
+```ts
+withTargetGroupARNsMixin(targetGroupArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-targetgrouparns
@@ -354,10 +437,26 @@ withTerminationPolicies(terminationPolicies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-termpolicy
 
+### fn withTerminationPoliciesMixin
+
+```ts
+withTerminationPoliciesMixin(terminationPolicies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-termpolicy
+
 ### fn withVPCZoneIdentifier
 
 ```ts
 withVPCZoneIdentifier(vpczoneIdentifier)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-vpczoneidentifier
+
+### fn withVPCZoneIdentifierMixin
+
+```ts
+withVPCZoneIdentifierMixin(vpczoneIdentifier)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-as-group-vpczoneidentifier

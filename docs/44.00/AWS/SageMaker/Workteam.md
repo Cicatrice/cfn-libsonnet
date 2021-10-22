@@ -23,8 +23,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withMemberDefinitions(memberDefinitions)`](#fn-withmemberdefinitions)
+* [`fn withMemberDefinitionsMixin(memberDefinitions)`](#fn-withmemberdefinitionsmixin)
 * [`fn withNotificationConfiguration(notificationConfiguration)`](#fn-withnotificationconfiguration)
+* [`fn withNotificationConfigurationMixin(notificationConfiguration)`](#fn-withnotificationconfigurationmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withWorkteamName(workteamName)`](#fn-withworkteamname)
 
 ## Fields
@@ -149,6 +152,14 @@ withMemberDefinitions(memberDefinitions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html#cfn-sagemaker-workteam-memberdefinitions
 
+### fn withMemberDefinitionsMixin
+
+```ts
+withMemberDefinitionsMixin(memberDefinitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html#cfn-sagemaker-workteam-memberdefinitions
+
 ### fn withNotificationConfiguration
 
 ```ts
@@ -157,10 +168,26 @@ withNotificationConfiguration(notificationConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html#cfn-sagemaker-workteam-notificationconfiguration
 
+### fn withNotificationConfigurationMixin
+
+```ts
+withNotificationConfigurationMixin(notificationConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html#cfn-sagemaker-workteam-notificationconfiguration
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html#cfn-sagemaker-workteam-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-workteam.html#cfn-sagemaker-workteam-tags

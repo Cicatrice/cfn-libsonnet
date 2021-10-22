@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBackupPlanId(backupPlanId)`](#fn-withbackupplanid)
 * [`fn withBackupSelection(backupSelection)`](#fn-withbackupselection)
+* [`fn withBackupSelectionMixin(backupSelection)`](#fn-withbackupselectionmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 
 ```ts
 withBackupSelection(backupSelection)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupselection.html#cfn-backup-backupselection-backupselection
+
+### fn withBackupSelectionMixin
+
+```ts
+withBackupSelectionMixin(backupSelection)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupselection.html#cfn-backup-backupselection-backupselection

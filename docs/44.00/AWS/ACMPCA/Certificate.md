@@ -22,12 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmp
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApiPassthrough(apiPassthrough)`](#fn-withapipassthrough)
+* [`fn withApiPassthroughMixin(apiPassthrough)`](#fn-withapipassthroughmixin)
 * [`fn withCertificateAuthorityArn(certificateAuthorityArn)`](#fn-withcertificateauthorityarn)
 * [`fn withCertificateSigningRequest(certificateSigningRequest)`](#fn-withcertificatesigningrequest)
 * [`fn withSigningAlgorithm(signingAlgorithm)`](#fn-withsigningalgorithm)
 * [`fn withTemplateArn(templateArn)`](#fn-withtemplatearn)
 * [`fn withValidity(validity)`](#fn-withvalidity)
+* [`fn withValidityMixin(validity)`](#fn-withvaliditymixin)
 * [`fn withValidityNotBefore(validityNotBefore)`](#fn-withvaliditynotbefore)
+* [`fn withValidityNotBeforeMixin(validityNotBefore)`](#fn-withvaliditynotbeforemixin)
 
 ## Fields
 
@@ -143,6 +146,14 @@ withApiPassthrough(apiPassthrough)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-apipassthrough
 
+### fn withApiPassthroughMixin
+
+```ts
+withApiPassthroughMixin(apiPassthrough)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-apipassthrough
+
 ### fn withCertificateAuthorityArn
 
 ```ts
@@ -183,10 +194,26 @@ withValidity(validity)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-validity
 
+### fn withValidityMixin
+
+```ts
+withValidityMixin(validity)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-validity
+
 ### fn withValidityNotBefore
 
 ```ts
 withValidityNotBefore(validityNotBefore)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-validitynotbefore
+
+### fn withValidityNotBeforeMixin
+
+```ts
+withValidityNotBeforeMixin(validityNotBefore)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificate.html#cfn-acmpca-certificate-validitynotbefore

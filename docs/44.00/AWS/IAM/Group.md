@@ -23,8 +23,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ia
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withGroupName(groupName)`](#fn-withgroupname)
 * [`fn withManagedPolicyArns(managedPolicyArns)`](#fn-withmanagedpolicyarns)
+* [`fn withManagedPolicyArnsMixin(managedPolicyArns)`](#fn-withmanagedpolicyarnsmixin)
 * [`fn withPath(path)`](#fn-withpath)
 * [`fn withPolicies(policies)`](#fn-withpolicies)
+* [`fn withPoliciesMixin(policies)`](#fn-withpoliciesmixin)
 
 ## Fields
 
@@ -148,6 +150,14 @@ withManagedPolicyArns(managedPolicyArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-managepolicyarns
 
+### fn withManagedPolicyArnsMixin
+
+```ts
+withManagedPolicyArnsMixin(managedPolicyArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-managepolicyarns
+
 ### fn withPath
 
 ```ts
@@ -160,6 +170,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ia
 
 ```ts
 withPolicies(policies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-policies
+
+### fn withPoliciesMixin
+
+```ts
+withPoliciesMixin(policies)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-policies

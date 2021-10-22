@@ -29,8 +29,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withFlexMatchMode(flexMatchMode)`](#fn-withflexmatchmode)
 * [`fn withGameProperties(gameProperties)`](#fn-withgameproperties)
+* [`fn withGamePropertiesMixin(gameProperties)`](#fn-withgamepropertiesmixin)
 * [`fn withGameSessionData(gameSessionData)`](#fn-withgamesessiondata)
 * [`fn withGameSessionQueueArns(gameSessionQueueArns)`](#fn-withgamesessionqueuearns)
+* [`fn withGameSessionQueueArnsMixin(gameSessionQueueArns)`](#fn-withgamesessionqueuearnsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withNotificationTarget(notificationTarget)`](#fn-withnotificationtarget)
 * [`fn withRequestTimeoutSeconds(requestTimeoutSeconds)`](#fn-withrequesttimeoutseconds)
@@ -206,6 +208,14 @@ withGameProperties(gameProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingconfiguration.html#cfn-gamelift-matchmakingconfiguration-gameproperties
 
+### fn withGamePropertiesMixin
+
+```ts
+withGamePropertiesMixin(gameProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingconfiguration.html#cfn-gamelift-matchmakingconfiguration-gameproperties
+
 ### fn withGameSessionData
 
 ```ts
@@ -218,6 +228,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 
 ```ts
 withGameSessionQueueArns(gameSessionQueueArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingconfiguration.html#cfn-gamelift-matchmakingconfiguration-gamesessionqueuearns
+
+### fn withGameSessionQueueArnsMixin
+
+```ts
+withGameSessionQueueArnsMixin(gameSessionQueueArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingconfiguration.html#cfn-gamelift-matchmakingconfiguration-gamesessionqueuearns

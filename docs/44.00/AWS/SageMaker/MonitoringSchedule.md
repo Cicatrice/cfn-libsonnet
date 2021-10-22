@@ -24,10 +24,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withEndpointName(endpointName)`](#fn-withendpointname)
 * [`fn withFailureReason(failureReason)`](#fn-withfailurereason)
 * [`fn withLastMonitoringExecutionSummary(lastMonitoringExecutionSummary)`](#fn-withlastmonitoringexecutionsummary)
+* [`fn withLastMonitoringExecutionSummaryMixin(lastMonitoringExecutionSummary)`](#fn-withlastmonitoringexecutionsummarymixin)
 * [`fn withMonitoringScheduleConfig(monitoringScheduleConfig)`](#fn-withmonitoringscheduleconfig)
+* [`fn withMonitoringScheduleConfigMixin(monitoringScheduleConfig)`](#fn-withmonitoringscheduleconfigmixin)
 * [`fn withMonitoringScheduleName(monitoringScheduleName)`](#fn-withmonitoringschedulename)
 * [`fn withMonitoringScheduleStatus(monitoringScheduleStatus)`](#fn-withmonitoringschedulestatus)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -159,10 +162,26 @@ withLastMonitoringExecutionSummary(lastMonitoringExecutionSummary)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-lastmonitoringexecutionsummary
 
+### fn withLastMonitoringExecutionSummaryMixin
+
+```ts
+withLastMonitoringExecutionSummaryMixin(lastMonitoringExecutionSummary)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-lastmonitoringexecutionsummary
+
 ### fn withMonitoringScheduleConfig
 
 ```ts
 withMonitoringScheduleConfig(monitoringScheduleConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-monitoringscheduleconfig
+
+### fn withMonitoringScheduleConfigMixin
+
+```ts
+withMonitoringScheduleConfigMixin(monitoringScheduleConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-monitoringscheduleconfig
@@ -187,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-tags

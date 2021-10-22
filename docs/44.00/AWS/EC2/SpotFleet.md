@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withSpotFleetRequestConfigData(spotFleetRequestConfigData)`](#fn-withspotfleetrequestconfigdata)
+* [`fn withSpotFleetRequestConfigDataMixin(spotFleetRequestConfigData)`](#fn-withspotfleetrequestconfigdatamixin)
 
 ## Fields
 
@@ -133,6 +134,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withSpotFleetRequestConfigData(spotFleetRequestConfigData)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-spotfleet.html#cfn-ec2-spotfleet-spotfleetrequestconfigdata
+
+### fn withSpotFleetRequestConfigDataMixin
+
+```ts
+withSpotFleetRequestConfigDataMixin(spotFleetRequestConfigData)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-spotfleet.html#cfn-ec2-spotfleet-spotfleetrequestconfigdata

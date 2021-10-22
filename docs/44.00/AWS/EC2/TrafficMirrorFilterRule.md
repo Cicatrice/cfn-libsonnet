@@ -24,11 +24,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDestinationCidrBlock(destinationCidrBlock)`](#fn-withdestinationcidrblock)
 * [`fn withDestinationPortRange(destinationPortRange)`](#fn-withdestinationportrange)
+* [`fn withDestinationPortRangeMixin(destinationPortRange)`](#fn-withdestinationportrangemixin)
 * [`fn withProtocol(protocol)`](#fn-withprotocol)
 * [`fn withRuleAction(ruleAction)`](#fn-withruleaction)
 * [`fn withRuleNumber(ruleNumber)`](#fn-withrulenumber)
 * [`fn withSourceCidrBlock(sourceCidrBlock)`](#fn-withsourcecidrblock)
 * [`fn withSourcePortRange(sourcePortRange)`](#fn-withsourceportrange)
+* [`fn withSourcePortRangeMixin(sourcePortRange)`](#fn-withsourceportrangemixin)
 * [`fn withTrafficDirection(trafficDirection)`](#fn-withtrafficdirection)
 * [`fn withTrafficMirrorFilterId(trafficMirrorFilterId)`](#fn-withtrafficmirrorfilterid)
 
@@ -162,6 +164,14 @@ withDestinationPortRange(destinationPortRange)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilterrule.html#cfn-ec2-trafficmirrorfilterrule-destinationportrange
 
+### fn withDestinationPortRangeMixin
+
+```ts
+withDestinationPortRangeMixin(destinationPortRange)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilterrule.html#cfn-ec2-trafficmirrorfilterrule-destinationportrange
+
 ### fn withProtocol
 
 ```ts
@@ -198,6 +208,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withSourcePortRange(sourcePortRange)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilterrule.html#cfn-ec2-trafficmirrorfilterrule-sourceportrange
+
+### fn withSourcePortRangeMixin
+
+```ts
+withSourcePortRangeMixin(sourcePortRange)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorfilterrule.html#cfn-ec2-trafficmirrorfilterrule-sourceportrange

@@ -22,9 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ro
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAliasTarget(aliasTarget)`](#fn-withaliastarget)
+* [`fn withAliasTargetMixin(aliasTarget)`](#fn-withaliastargetmixin)
 * [`fn withComment(comment)`](#fn-withcomment)
 * [`fn withFailover(failover)`](#fn-withfailover)
 * [`fn withGeoLocation(geoLocation)`](#fn-withgeolocation)
+* [`fn withGeoLocationMixin(geoLocation)`](#fn-withgeolocationmixin)
 * [`fn withHealthCheckId(healthCheckId)`](#fn-withhealthcheckid)
 * [`fn withHostedZoneId(hostedZoneId)`](#fn-withhostedzoneid)
 * [`fn withHostedZoneName(hostedZoneName)`](#fn-withhostedzonename)
@@ -32,6 +34,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ro
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRegion(region)`](#fn-withregion)
 * [`fn withResourceRecords(resourceRecords)`](#fn-withresourcerecords)
+* [`fn withResourceRecordsMixin(resourceRecords)`](#fn-withresourcerecordsmixin)
 * [`fn withSetIdentifier(setIdentifier)`](#fn-withsetidentifier)
 * [`fn withTTL(ttl)`](#fn-withttl)
 * [`fn withType(type)`](#fn-withtype)
@@ -151,6 +154,14 @@ withAliasTarget(aliasTarget)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-aliastarget
 
+### fn withAliasTargetMixin
+
+```ts
+withAliasTargetMixin(aliasTarget)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-aliastarget
+
 ### fn withComment
 
 ```ts
@@ -171,6 +182,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ro
 
 ```ts
 withGeoLocation(geoLocation)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-geolocation
+
+### fn withGeoLocationMixin
+
+```ts
+withGeoLocationMixin(geoLocation)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-geolocation
@@ -227,6 +246,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ro
 
 ```ts
 withResourceRecords(resourceRecords)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-resourcerecords
+
+### fn withResourceRecordsMixin
+
+```ts
+withResourceRecordsMixin(resourceRecords)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-resourcerecords

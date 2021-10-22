@@ -22,16 +22,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAirflowConfigurationOptions(airflowConfigurationOptions)`](#fn-withairflowconfigurationoptions)
+* [`fn withAirflowConfigurationOptionsMixin(airflowConfigurationOptions)`](#fn-withairflowconfigurationoptionsmixin)
 * [`fn withAirflowVersion(airflowVersion)`](#fn-withairflowversion)
 * [`fn withDagS3Path(dagS3path)`](#fn-withdags3path)
 * [`fn withEnvironmentClass(environmentClass)`](#fn-withenvironmentclass)
 * [`fn withExecutionRoleArn(executionRoleArn)`](#fn-withexecutionrolearn)
 * [`fn withKmsKey(kmsKey)`](#fn-withkmskey)
 * [`fn withLoggingConfiguration(loggingConfiguration)`](#fn-withloggingconfiguration)
+* [`fn withLoggingConfigurationMixin(loggingConfiguration)`](#fn-withloggingconfigurationmixin)
 * [`fn withMaxWorkers(maxWorkers)`](#fn-withmaxworkers)
 * [`fn withMinWorkers(minWorkers)`](#fn-withminworkers)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withNetworkConfiguration(networkConfiguration)`](#fn-withnetworkconfiguration)
+* [`fn withNetworkConfigurationMixin(networkConfiguration)`](#fn-withnetworkconfigurationmixin)
 * [`fn withPluginsS3ObjectVersion(pluginsS3objectVersion)`](#fn-withpluginss3objectversion)
 * [`fn withPluginsS3Path(pluginsS3path)`](#fn-withpluginss3path)
 * [`fn withRequirementsS3ObjectVersion(requirementsS3objectVersion)`](#fn-withrequirementss3objectversion)
@@ -39,6 +42,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa
 * [`fn withSchedulers(schedulers)`](#fn-withschedulers)
 * [`fn withSourceBucketArn(sourceBucketArn)`](#fn-withsourcebucketarn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withWebserverAccessMode(webserverAccessMode)`](#fn-withwebserveraccessmode)
 * [`fn withWeeklyMaintenanceWindowStart(weeklyMaintenanceWindowStart)`](#fn-withweeklymaintenancewindowstart)
 
@@ -156,6 +160,14 @@ withAirflowConfigurationOptions(airflowConfigurationOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-airflowconfigurationoptions
 
+### fn withAirflowConfigurationOptionsMixin
+
+```ts
+withAirflowConfigurationOptionsMixin(airflowConfigurationOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-airflowconfigurationoptions
+
 ### fn withAirflowVersion
 
 ```ts
@@ -204,6 +216,14 @@ withLoggingConfiguration(loggingConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-loggingconfiguration
 
+### fn withLoggingConfigurationMixin
+
+```ts
+withLoggingConfigurationMixin(loggingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-loggingconfiguration
+
 ### fn withMaxWorkers
 
 ```ts
@@ -232,6 +252,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa
 
 ```ts
 withNetworkConfiguration(networkConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-networkconfiguration
+
+### fn withNetworkConfigurationMixin
+
+```ts
+withNetworkConfigurationMixin(networkConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-networkconfiguration
@@ -288,6 +316,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mwaa-environment.html#cfn-mwaa-environment-tags

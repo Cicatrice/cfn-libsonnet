@@ -26,6 +26,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 * [`fn withOwnerInformation(ownerInformation)`](#fn-withownerinformation)
 * [`fn withResourceType(resourceType)`](#fn-withresourcetype)
 * [`fn withTargets(targets)`](#fn-withtargets)
+* [`fn withTargetsMixin(targets)`](#fn-withtargetsmixin)
 * [`fn withWindowId(windowId)`](#fn-withwindowid)
 
 ## Fields
@@ -170,6 +171,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 
 ```ts
 withTargets(targets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-maintenancewindowtarget.html#cfn-ssm-maintenancewindowtarget-targets
+
+### fn withTargetsMixin
+
+```ts
+withTargetsMixin(targets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-maintenancewindowtarget.html#cfn-ssm-maintenancewindowtarget-targets

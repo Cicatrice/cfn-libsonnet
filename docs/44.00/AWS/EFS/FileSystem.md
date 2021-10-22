@@ -23,12 +23,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAvailabilityZoneName(availabilityZoneName)`](#fn-withavailabilityzonename)
 * [`fn withBackupPolicy(backupPolicy)`](#fn-withbackuppolicy)
+* [`fn withBackupPolicyMixin(backupPolicy)`](#fn-withbackuppolicymixin)
 * [`fn withBypassPolicyLockoutSafetyCheck(bypassPolicyLockoutSafetyCheck)`](#fn-withbypasspolicylockoutsafetycheck)
 * [`fn withEncrypted(encrypted)`](#fn-withencrypted)
 * [`fn withFileSystemPolicy(fileSystemPolicy)`](#fn-withfilesystempolicy)
+* [`fn withFileSystemPolicyMixin(fileSystemPolicy)`](#fn-withfilesystempolicymixin)
 * [`fn withFileSystemTags(fileSystemTags)`](#fn-withfilesystemtags)
+* [`fn withFileSystemTagsMixin(fileSystemTags)`](#fn-withfilesystemtagsmixin)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withLifecyclePolicies(lifecyclePolicies)`](#fn-withlifecyclepolicies)
+* [`fn withLifecyclePoliciesMixin(lifecyclePolicies)`](#fn-withlifecyclepoliciesmixin)
 * [`fn withPerformanceMode(performanceMode)`](#fn-withperformancemode)
 * [`fn withProvisionedThroughputInMibps(provisionedThroughputInMibps)`](#fn-withprovisionedthroughputinmibps)
 * [`fn withThroughputMode(throughputMode)`](#fn-withthroughputmode)
@@ -155,6 +159,14 @@ withBackupPolicy(backupPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-backuppolicy
 
+### fn withBackupPolicyMixin
+
+```ts
+withBackupPolicyMixin(backupPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-backuppolicy
+
 ### fn withBypassPolicyLockoutSafetyCheck
 
 ```ts
@@ -179,10 +191,26 @@ withFileSystemPolicy(fileSystemPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-filesystempolicy
 
+### fn withFileSystemPolicyMixin
+
+```ts
+withFileSystemPolicyMixin(fileSystemPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-filesystempolicy
+
 ### fn withFileSystemTags
 
 ```ts
 withFileSystemTags(fileSystemTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-filesystemtags
+
+### fn withFileSystemTagsMixin
+
+```ts
+withFileSystemTagsMixin(fileSystemTags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-filesystemtags
@@ -199,6 +227,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-
 
 ```ts
 withLifecyclePolicies(lifecyclePolicies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-lifecyclepolicies
+
+### fn withLifecyclePoliciesMixin
+
+```ts
+withLifecyclePoliciesMixin(lifecyclePolicies)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-filesystem.html#cfn-efs-filesystem-lifecyclepolicies

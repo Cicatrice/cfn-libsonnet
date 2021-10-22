@@ -22,12 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAgentArns(agentArns)`](#fn-withagentarns)
+* [`fn withAgentArnsMixin(agentArns)`](#fn-withagentarnsmixin)
 * [`fn withDomain(domain)`](#fn-withdomain)
 * [`fn withMountOptions(mountOptions)`](#fn-withmountoptions)
+* [`fn withMountOptionsMixin(mountOptions)`](#fn-withmountoptionsmixin)
 * [`fn withPassword(password)`](#fn-withpassword)
 * [`fn withServerHostname(serverHostname)`](#fn-withserverhostname)
 * [`fn withSubdirectory(subdirectory)`](#fn-withsubdirectory)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUser(user)`](#fn-withuser)
 
 ## Fields
@@ -144,6 +147,14 @@ withAgentArns(agentArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationsmb.html#cfn-datasync-locationsmb-agentarns
 
+### fn withAgentArnsMixin
+
+```ts
+withAgentArnsMixin(agentArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationsmb.html#cfn-datasync-locationsmb-agentarns
+
 ### fn withDomain
 
 ```ts
@@ -156,6 +167,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withMountOptions(mountOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationsmb.html#cfn-datasync-locationsmb-mountoptions
+
+### fn withMountOptionsMixin
+
+```ts
+withMountOptionsMixin(mountOptions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationsmb.html#cfn-datasync-locationsmb-mountoptions
@@ -188,6 +207,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationsmb.html#cfn-datasync-locationsmb-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationsmb.html#cfn-datasync-locationsmb-tags

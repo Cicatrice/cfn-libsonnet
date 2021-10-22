@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConfigurationSetName(configurationSetName)`](#fn-withconfigurationsetname)
 * [`fn withEventDestination(eventDestination)`](#fn-witheventdestination)
+* [`fn withEventDestinationMixin(eventDestination)`](#fn-witheventdestinationmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-
 
 ```ts
 withEventDestination(eventDestination)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-configurationseteventdestination.html#cfn-ses-configurationseteventdestination-eventdestination
+
+### fn withEventDestinationMixin
+
+```ts
+withEventDestinationMixin(eventDestination)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ses-configurationseteventdestination.html#cfn-ses-configurationseteventdestination-eventdestination

@@ -22,14 +22,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssumeRolePolicyDocument(assumeRolePolicyDocument)`](#fn-withassumerolepolicydocument)
+* [`fn withAssumeRolePolicyDocumentMixin(assumeRolePolicyDocument)`](#fn-withassumerolepolicydocumentmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withManagedPolicyArns(managedPolicyArns)`](#fn-withmanagedpolicyarns)
+* [`fn withManagedPolicyArnsMixin(managedPolicyArns)`](#fn-withmanagedpolicyarnsmixin)
 * [`fn withMaxSessionDuration(maxSessionDuration)`](#fn-withmaxsessionduration)
 * [`fn withPath(path)`](#fn-withpath)
 * [`fn withPermissionsBoundary(permissionsBoundary)`](#fn-withpermissionsboundary)
 * [`fn withPolicies(policies)`](#fn-withpolicies)
+* [`fn withPoliciesMixin(policies)`](#fn-withpoliciesmixin)
 * [`fn withRoleName(roleName)`](#fn-withrolename)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -145,6 +149,14 @@ withAssumeRolePolicyDocument(assumeRolePolicyDocument)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-assumerolepolicydocument
 
+### fn withAssumeRolePolicyDocumentMixin
+
+```ts
+withAssumeRolePolicyDocumentMixin(assumeRolePolicyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-assumerolepolicydocument
+
 ### fn withDescription
 
 ```ts
@@ -157,6 +169,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 
 ```ts
 withManagedPolicyArns(managedPolicyArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-managepolicyarns
+
+### fn withManagedPolicyArnsMixin
+
+```ts
+withManagedPolicyArnsMixin(managedPolicyArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-managepolicyarns
@@ -193,6 +213,14 @@ withPolicies(policies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-policies
 
+### fn withPoliciesMixin
+
+```ts
+withPoliciesMixin(policies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-policies
+
 ### fn withRoleName
 
 ```ts
@@ -205,6 +233,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-role.html#cfn-iam-role-tags

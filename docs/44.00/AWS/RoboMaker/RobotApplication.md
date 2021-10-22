@@ -24,8 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robo
 * [`fn withCurrentRevisionId(currentRevisionId)`](#fn-withcurrentrevisionid)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRobotSoftwareSuite(robotSoftwareSuite)`](#fn-withrobotsoftwaresuite)
+* [`fn withRobotSoftwareSuiteMixin(robotSoftwareSuite)`](#fn-withrobotsoftwaresuitemixin)
 * [`fn withSources(sources)`](#fn-withsources)
+* [`fn withSourcesMixin(sources)`](#fn-withsourcesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -157,6 +160,14 @@ withRobotSoftwareSuite(robotSoftwareSuite)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html#cfn-robomaker-robotapplication-robotsoftwaresuite
 
+### fn withRobotSoftwareSuiteMixin
+
+```ts
+withRobotSoftwareSuiteMixin(robotSoftwareSuite)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html#cfn-robomaker-robotapplication-robotsoftwaresuite
+
 ### fn withSources
 
 ```ts
@@ -165,10 +176,26 @@ withSources(sources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html#cfn-robomaker-robotapplication-sources
 
+### fn withSourcesMixin
+
+```ts
+withSourcesMixin(sources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html#cfn-robomaker-robotapplication-sources
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html#cfn-robomaker-robotapplication-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html#cfn-robomaker-robotapplication-tags

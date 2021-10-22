@@ -22,24 +22,33 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAttributes(attributes)`](#fn-withattributes)
+* [`fn withAttributesMixin(attributes)`](#fn-withattributesmixin)
 * [`fn withAutoAssignElasticIps(autoAssignElasticIps)`](#fn-withautoassignelasticips)
 * [`fn withAutoAssignPublicIps(autoAssignPublicIps)`](#fn-withautoassignpublicips)
 * [`fn withCustomInstanceProfileArn(customInstanceProfileArn)`](#fn-withcustominstanceprofilearn)
 * [`fn withCustomJson(customJson)`](#fn-withcustomjson)
+* [`fn withCustomJsonMixin(customJson)`](#fn-withcustomjsonmixin)
 * [`fn withCustomRecipes(customRecipes)`](#fn-withcustomrecipes)
+* [`fn withCustomRecipesMixin(customRecipes)`](#fn-withcustomrecipesmixin)
 * [`fn withCustomSecurityGroupIds(customSecurityGroupIds)`](#fn-withcustomsecuritygroupids)
+* [`fn withCustomSecurityGroupIdsMixin(customSecurityGroupIds)`](#fn-withcustomsecuritygroupidsmixin)
 * [`fn withEnableAutoHealing(enableAutoHealing)`](#fn-withenableautohealing)
 * [`fn withInstallUpdatesOnBoot(installUpdatesOnBoot)`](#fn-withinstallupdatesonboot)
 * [`fn withLifecycleEventConfiguration(lifecycleEventConfiguration)`](#fn-withlifecycleeventconfiguration)
+* [`fn withLifecycleEventConfigurationMixin(lifecycleEventConfiguration)`](#fn-withlifecycleeventconfigurationmixin)
 * [`fn withLoadBasedAutoScaling(loadBasedAutoScaling)`](#fn-withloadbasedautoscaling)
+* [`fn withLoadBasedAutoScalingMixin(loadBasedAutoScaling)`](#fn-withloadbasedautoscalingmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPackages(packages)`](#fn-withpackages)
+* [`fn withPackagesMixin(packages)`](#fn-withpackagesmixin)
 * [`fn withShortname(shortname)`](#fn-withshortname)
 * [`fn withStackId(stackId)`](#fn-withstackid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 * [`fn withUseEbsOptimizedInstances(useEbsOptimizedInstances)`](#fn-withuseebsoptimizedinstances)
 * [`fn withVolumeConfigurations(volumeConfigurations)`](#fn-withvolumeconfigurations)
+* [`fn withVolumeConfigurationsMixin(volumeConfigurations)`](#fn-withvolumeconfigurationsmixin)
 
 ## Fields
 
@@ -155,6 +164,14 @@ withAttributes(attributes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-attributes
 
+### fn withAttributesMixin
+
+```ts
+withAttributesMixin(attributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-attributes
+
 ### fn withAutoAssignElasticIps
 
 ```ts
@@ -187,6 +204,14 @@ withCustomJson(customJson)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-customjson
 
+### fn withCustomJsonMixin
+
+```ts
+withCustomJsonMixin(customJson)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-customjson
+
 ### fn withCustomRecipes
 
 ```ts
@@ -195,10 +220,26 @@ withCustomRecipes(customRecipes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-customrecipes
 
+### fn withCustomRecipesMixin
+
+```ts
+withCustomRecipesMixin(customRecipes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-customrecipes
+
 ### fn withCustomSecurityGroupIds
 
 ```ts
 withCustomSecurityGroupIds(customSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-customsecuritygroupids
+
+### fn withCustomSecurityGroupIdsMixin
+
+```ts
+withCustomSecurityGroupIdsMixin(customSecurityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-customsecuritygroupids
@@ -227,10 +268,26 @@ withLifecycleEventConfiguration(lifecycleEventConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-lifecycleeventconfiguration
 
+### fn withLifecycleEventConfigurationMixin
+
+```ts
+withLifecycleEventConfigurationMixin(lifecycleEventConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-lifecycleeventconfiguration
+
 ### fn withLoadBasedAutoScaling
 
 ```ts
 withLoadBasedAutoScaling(loadBasedAutoScaling)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-loadbasedautoscaling
+
+### fn withLoadBasedAutoScalingMixin
+
+```ts
+withLoadBasedAutoScalingMixin(loadBasedAutoScaling)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-loadbasedautoscaling
@@ -247,6 +304,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withPackages(packages)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-packages
+
+### fn withPackagesMixin
+
+```ts
+withPackagesMixin(packages)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-packages
@@ -275,6 +340,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-tags
+
 ### fn withType
 
 ```ts
@@ -295,6 +368,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withVolumeConfigurations(volumeConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-volumeconfigurations
+
+### fn withVolumeConfigurationsMixin
+
+```ts
+withVolumeConfigurationsMixin(volumeConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-layer.html#cfn-opsworks-layer-volumeconfigurations

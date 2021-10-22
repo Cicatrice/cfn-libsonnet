@@ -23,12 +23,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withInlinePolicy(inlinePolicy)`](#fn-withinlinepolicy)
+* [`fn withInlinePolicyMixin(inlinePolicy)`](#fn-withinlinepolicymixin)
 * [`fn withInstanceArn(instanceArn)`](#fn-withinstancearn)
 * [`fn withManagedPolicies(managedPolicies)`](#fn-withmanagedpolicies)
+* [`fn withManagedPoliciesMixin(managedPolicies)`](#fn-withmanagedpoliciesmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRelayStateType(relayStateType)`](#fn-withrelaystatetype)
 * [`fn withSessionDuration(sessionDuration)`](#fn-withsessionduration)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -152,6 +155,14 @@ withInlinePolicy(inlinePolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html#cfn-sso-permissionset-inlinepolicy
 
+### fn withInlinePolicyMixin
+
+```ts
+withInlinePolicyMixin(inlinePolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html#cfn-sso-permissionset-inlinepolicy
+
 ### fn withInstanceArn
 
 ```ts
@@ -164,6 +175,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-
 
 ```ts
 withManagedPolicies(managedPolicies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html#cfn-sso-permissionset-managedpolicies
+
+### fn withManagedPoliciesMixin
+
+```ts
+withManagedPoliciesMixin(managedPolicies)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html#cfn-sso-permissionset-managedpolicies
@@ -196,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html#cfn-sso-permissionset-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html#cfn-sso-permissionset-tags

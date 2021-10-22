@@ -22,11 +22,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDeliveryOptions(deliveryOptions)`](#fn-withdeliveryoptions)
+* [`fn withDeliveryOptionsMixin(deliveryOptions)`](#fn-withdeliveryoptionsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withReputationOptions(reputationOptions)`](#fn-withreputationoptions)
+* [`fn withReputationOptionsMixin(reputationOptions)`](#fn-withreputationoptionsmixin)
 * [`fn withSendingOptions(sendingOptions)`](#fn-withsendingoptions)
+* [`fn withSendingOptionsMixin(sendingOptions)`](#fn-withsendingoptionsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTrackingOptions(trackingOptions)`](#fn-withtrackingoptions)
+* [`fn withTrackingOptionsMixin(trackingOptions)`](#fn-withtrackingoptionsmixin)
 
 ## Fields
 
@@ -142,6 +147,14 @@ withDeliveryOptions(deliveryOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-deliveryoptions
 
+### fn withDeliveryOptionsMixin
+
+```ts
+withDeliveryOptionsMixin(deliveryOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-deliveryoptions
+
 ### fn withName
 
 ```ts
@@ -158,10 +171,26 @@ withReputationOptions(reputationOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-reputationoptions
 
+### fn withReputationOptionsMixin
+
+```ts
+withReputationOptionsMixin(reputationOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-reputationoptions
+
 ### fn withSendingOptions
 
 ```ts
 withSendingOptions(sendingOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-sendingoptions
+
+### fn withSendingOptionsMixin
+
+```ts
+withSendingOptionsMixin(sendingOptions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-sendingoptions
@@ -174,10 +203,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-tags
+
 ### fn withTrackingOptions
 
 ```ts
 withTrackingOptions(trackingOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-trackingoptions
+
+### fn withTrackingOptionsMixin
+
+```ts
+withTrackingOptionsMixin(trackingOptions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationset.html#cfn-pinpointemail-configurationset-trackingoptions

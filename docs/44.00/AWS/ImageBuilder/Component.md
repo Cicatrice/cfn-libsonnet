@@ -28,7 +28,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPlatform(platform)`](#fn-withplatform)
 * [`fn withSupportedOsVersions(supportedOsVersions)`](#fn-withsupportedosversions)
+* [`fn withSupportedOsVersionsMixin(supportedOsVersions)`](#fn-withsupportedosversionsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUri(uri)`](#fn-withuri)
 * [`fn withVersion(version)`](#fn-withversion)
 
@@ -194,10 +196,26 @@ withSupportedOsVersions(supportedOsVersions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html#cfn-imagebuilder-component-supportedosversions
 
+### fn withSupportedOsVersionsMixin
+
+```ts
+withSupportedOsVersionsMixin(supportedOsVersions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html#cfn-imagebuilder-component-supportedosversions
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html#cfn-imagebuilder-component-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html#cfn-imagebuilder-component-tags

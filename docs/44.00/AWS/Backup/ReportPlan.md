@@ -22,10 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withReportDeliveryChannel(reportDeliveryChannel)`](#fn-withreportdeliverychannel)
+* [`fn withReportDeliveryChannelMixin(reportDeliveryChannel)`](#fn-withreportdeliverychannelmixin)
 * [`fn withReportPlanDescription(reportPlanDescription)`](#fn-withreportplandescription)
 * [`fn withReportPlanName(reportPlanName)`](#fn-withreportplanname)
 * [`fn withReportPlanTags(reportPlanTags)`](#fn-withreportplantags)
+* [`fn withReportPlanTagsMixin(reportPlanTags)`](#fn-withreportplantagsmixin)
 * [`fn withReportSetting(reportSetting)`](#fn-withreportsetting)
+* [`fn withReportSettingMixin(reportSetting)`](#fn-withreportsettingmixin)
 
 ## Fields
 
@@ -141,6 +144,14 @@ withReportDeliveryChannel(reportDeliveryChannel)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html#cfn-backup-reportplan-reportdeliverychannel
 
+### fn withReportDeliveryChannelMixin
+
+```ts
+withReportDeliveryChannelMixin(reportDeliveryChannel)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html#cfn-backup-reportplan-reportdeliverychannel
+
 ### fn withReportPlanDescription
 
 ```ts
@@ -165,10 +176,26 @@ withReportPlanTags(reportPlanTags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html#cfn-backup-reportplan-reportplantags
 
+### fn withReportPlanTagsMixin
+
+```ts
+withReportPlanTagsMixin(reportPlanTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html#cfn-backup-reportplan-reportplantags
+
 ### fn withReportSetting
 
 ```ts
 withReportSetting(reportSetting)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html#cfn-backup-reportplan-reportsetting
+
+### fn withReportSettingMixin
+
+```ts
+withReportSettingMixin(reportSetting)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html#cfn-backup-reportplan-reportsetting

@@ -27,17 +27,26 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-
 * [`fn withDiskSize(diskSize)`](#fn-withdisksize)
 * [`fn withForceUpdateEnabled(forceUpdateEnabled)`](#fn-withforceupdateenabled)
 * [`fn withInstanceTypes(instanceTypes)`](#fn-withinstancetypes)
+* [`fn withInstanceTypesMixin(instanceTypes)`](#fn-withinstancetypesmixin)
 * [`fn withLabels(labels)`](#fn-withlabels)
+* [`fn withLabelsMixin(labels)`](#fn-withlabelsmixin)
 * [`fn withLaunchTemplate(launchTemplate)`](#fn-withlaunchtemplate)
+* [`fn withLaunchTemplateMixin(launchTemplate)`](#fn-withlaunchtemplatemixin)
 * [`fn withNodeRole(nodeRole)`](#fn-withnoderole)
 * [`fn withNodegroupName(nodegroupName)`](#fn-withnodegroupname)
 * [`fn withReleaseVersion(releaseVersion)`](#fn-withreleaseversion)
 * [`fn withRemoteAccess(remoteAccess)`](#fn-withremoteaccess)
+* [`fn withRemoteAccessMixin(remoteAccess)`](#fn-withremoteaccessmixin)
 * [`fn withScalingConfig(scalingConfig)`](#fn-withscalingconfig)
+* [`fn withScalingConfigMixin(scalingConfig)`](#fn-withscalingconfigmixin)
 * [`fn withSubnets(subnets)`](#fn-withsubnets)
+* [`fn withSubnetsMixin(subnets)`](#fn-withsubnetsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTaints(taints)`](#fn-withtaints)
+* [`fn withTaintsMixin(taints)`](#fn-withtaintsmixin)
 * [`fn withUpdateConfig(updateConfig)`](#fn-withupdateconfig)
+* [`fn withUpdateConfigMixin(updateConfig)`](#fn-withupdateconfigmixin)
 * [`fn withVersion(version)`](#fn-withversion)
 
 ## Fields
@@ -194,6 +203,14 @@ withInstanceTypes(instanceTypes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-instancetypes
 
+### fn withInstanceTypesMixin
+
+```ts
+withInstanceTypesMixin(instanceTypes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-instancetypes
+
 ### fn withLabels
 
 ```ts
@@ -202,10 +219,26 @@ withLabels(labels)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-labels
 
+### fn withLabelsMixin
+
+```ts
+withLabelsMixin(labels)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-labels
+
 ### fn withLaunchTemplate
 
 ```ts
 withLaunchTemplate(launchTemplate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-launchtemplate
+
+### fn withLaunchTemplateMixin
+
+```ts
+withLaunchTemplateMixin(launchTemplate)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-launchtemplate
@@ -242,10 +275,26 @@ withRemoteAccess(remoteAccess)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-remoteaccess
 
+### fn withRemoteAccessMixin
+
+```ts
+withRemoteAccessMixin(remoteAccess)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-remoteaccess
+
 ### fn withScalingConfig
 
 ```ts
 withScalingConfig(scalingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-scalingconfig
+
+### fn withScalingConfigMixin
+
+```ts
+withScalingConfigMixin(scalingConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-scalingconfig
@@ -258,10 +307,26 @@ withSubnets(subnets)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-subnets
 
+### fn withSubnetsMixin
+
+```ts
+withSubnetsMixin(subnets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-subnets
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-tags
@@ -274,10 +339,26 @@ withTaints(taints)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-taints
 
+### fn withTaintsMixin
+
+```ts
+withTaintsMixin(taints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-taints
+
 ### fn withUpdateConfig
 
 ```ts
 withUpdateConfig(updateConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-updateconfig
+
+### fn withUpdateConfigMixin
+
+```ts
+withUpdateConfigMixin(updateConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-updateconfig

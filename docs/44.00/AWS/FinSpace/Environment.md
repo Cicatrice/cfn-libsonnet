@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fins
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withFederationMode(federationMode)`](#fn-withfederationmode)
 * [`fn withFederationParameters(federationParameters)`](#fn-withfederationparameters)
+* [`fn withFederationParametersMixin(federationParameters)`](#fn-withfederationparametersmixin)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withName(name)`](#fn-withname)
 
@@ -153,6 +154,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fins
 
 ```ts
 withFederationParameters(federationParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-finspace-environment.html#cfn-finspace-environment-federationparameters
+
+### fn withFederationParametersMixin
+
+```ts
+withFederationParametersMixin(federationParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-finspace-environment.html#cfn-finspace-environment-federationparameters

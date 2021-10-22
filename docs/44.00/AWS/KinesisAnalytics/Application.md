@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 * [`fn withApplicationDescription(applicationDescription)`](#fn-withapplicationdescription)
 * [`fn withApplicationName(applicationName)`](#fn-withapplicationname)
 * [`fn withInputs(inputs)`](#fn-withinputs)
+* [`fn withInputsMixin(inputs)`](#fn-withinputsmixin)
 
 ## Fields
 
@@ -160,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 
 ```ts
 withInputs(inputs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalytics-application.html#cfn-kinesisanalytics-application-inputs
+
+### fn withInputsMixin
+
+```ts
+withInputsMixin(inputs)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalytics-application.html#cfn-kinesisanalytics-application-inputs

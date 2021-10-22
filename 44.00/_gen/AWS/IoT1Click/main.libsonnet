@@ -1,7 +1,7 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='IoT1Click', url='', help=''),
-  Device: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoT1Click/Device.libsonnet'),
-  Placement: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoT1Click/Placement.libsonnet'),
-  Project: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoT1Click/Project.libsonnet'),
+  Device:: (import 'Device.libsonnet'),
+  Placement:: (import 'Placement.libsonnet'),
+  Project:: (import 'Project.libsonnet'),
 }

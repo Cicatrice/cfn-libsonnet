@@ -24,11 +24,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-even
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEventBusName(eventBusName)`](#fn-witheventbusname)
 * [`fn withEventPattern(eventPattern)`](#fn-witheventpattern)
+* [`fn withEventPatternMixin(eventPattern)`](#fn-witheventpatternmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withScheduleExpression(scheduleExpression)`](#fn-withscheduleexpression)
 * [`fn withState(state)`](#fn-withstate)
 * [`fn withTargets(targets)`](#fn-withtargets)
+* [`fn withTargetsMixin(targets)`](#fn-withtargetsmixin)
 
 ## Fields
 
@@ -160,6 +162,14 @@ withEventPattern(eventPattern)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html#cfn-events-rule-eventpattern
 
+### fn withEventPatternMixin
+
+```ts
+withEventPatternMixin(eventPattern)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html#cfn-events-rule-eventpattern
+
 ### fn withName
 
 ```ts
@@ -196,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-even
 
 ```ts
 withTargets(targets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html#cfn-events-rule-targets
+
+### fn withTargetsMixin
+
+```ts
+withTargetsMixin(targets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-rule.html#cfn-events-rule-targets

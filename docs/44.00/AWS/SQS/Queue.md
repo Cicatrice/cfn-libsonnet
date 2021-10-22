@@ -33,8 +33,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sq
 * [`fn withQueueName(queueName)`](#fn-withqueuename)
 * [`fn withReceiveMessageWaitTimeSeconds(receiveMessageWaitTimeSeconds)`](#fn-withreceivemessagewaittimeseconds)
 * [`fn withRedriveAllowPolicy(redriveAllowPolicy)`](#fn-withredriveallowpolicy)
+* [`fn withRedriveAllowPolicyMixin(redriveAllowPolicy)`](#fn-withredriveallowpolicymixin)
 * [`fn withRedrivePolicy(redrivePolicy)`](#fn-withredrivepolicy)
+* [`fn withRedrivePolicyMixin(redrivePolicy)`](#fn-withredrivepolicymixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVisibilityTimeout(visibilityTimeout)`](#fn-withvisibilitytimeout)
 
 ## Fields
@@ -239,6 +242,14 @@ withRedriveAllowPolicy(redriveAllowPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html#aws-sqs-queue-redriveallowpolicy
 
+### fn withRedriveAllowPolicyMixin
+
+```ts
+withRedriveAllowPolicyMixin(redriveAllowPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html#aws-sqs-queue-redriveallowpolicy
+
 ### fn withRedrivePolicy
 
 ```ts
@@ -247,10 +258,26 @@ withRedrivePolicy(redrivePolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html#aws-sqs-queue-redrive
 
+### fn withRedrivePolicyMixin
+
+```ts
+withRedrivePolicyMixin(redrivePolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html#aws-sqs-queue-redrive
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html#cfn-sqs-queue-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sqs-queues.html#cfn-sqs-queue-tags

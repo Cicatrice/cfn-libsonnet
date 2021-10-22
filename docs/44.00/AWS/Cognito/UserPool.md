@@ -22,27 +22,43 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccountRecoverySetting(accountRecoverySetting)`](#fn-withaccountrecoverysetting)
+* [`fn withAccountRecoverySettingMixin(accountRecoverySetting)`](#fn-withaccountrecoverysettingmixin)
 * [`fn withAdminCreateUserConfig(adminCreateUserConfig)`](#fn-withadmincreateuserconfig)
+* [`fn withAdminCreateUserConfigMixin(adminCreateUserConfig)`](#fn-withadmincreateuserconfigmixin)
 * [`fn withAliasAttributes(aliasAttributes)`](#fn-withaliasattributes)
+* [`fn withAliasAttributesMixin(aliasAttributes)`](#fn-withaliasattributesmixin)
 * [`fn withAutoVerifiedAttributes(autoVerifiedAttributes)`](#fn-withautoverifiedattributes)
+* [`fn withAutoVerifiedAttributesMixin(autoVerifiedAttributes)`](#fn-withautoverifiedattributesmixin)
 * [`fn withDeviceConfiguration(deviceConfiguration)`](#fn-withdeviceconfiguration)
+* [`fn withDeviceConfigurationMixin(deviceConfiguration)`](#fn-withdeviceconfigurationmixin)
 * [`fn withEmailConfiguration(emailConfiguration)`](#fn-withemailconfiguration)
+* [`fn withEmailConfigurationMixin(emailConfiguration)`](#fn-withemailconfigurationmixin)
 * [`fn withEmailVerificationMessage(emailVerificationMessage)`](#fn-withemailverificationmessage)
 * [`fn withEmailVerificationSubject(emailVerificationSubject)`](#fn-withemailverificationsubject)
 * [`fn withEnabledMfas(enabledMfas)`](#fn-withenabledmfas)
+* [`fn withEnabledMfasMixin(enabledMfas)`](#fn-withenabledmfasmixin)
 * [`fn withLambdaConfig(lambdaConfig)`](#fn-withlambdaconfig)
+* [`fn withLambdaConfigMixin(lambdaConfig)`](#fn-withlambdaconfigmixin)
 * [`fn withMfaConfiguration(mfaConfiguration)`](#fn-withmfaconfiguration)
 * [`fn withPolicies(policies)`](#fn-withpolicies)
+* [`fn withPoliciesMixin(policies)`](#fn-withpoliciesmixin)
 * [`fn withSchema(schema)`](#fn-withschema)
+* [`fn withSchemaMixin(schema)`](#fn-withschemamixin)
 * [`fn withSmsAuthenticationMessage(smsAuthenticationMessage)`](#fn-withsmsauthenticationmessage)
 * [`fn withSmsConfiguration(smsConfiguration)`](#fn-withsmsconfiguration)
+* [`fn withSmsConfigurationMixin(smsConfiguration)`](#fn-withsmsconfigurationmixin)
 * [`fn withSmsVerificationMessage(smsVerificationMessage)`](#fn-withsmsverificationmessage)
 * [`fn withUserPoolAddOns(userPoolAddOns)`](#fn-withuserpooladdons)
+* [`fn withUserPoolAddOnsMixin(userPoolAddOns)`](#fn-withuserpooladdonsmixin)
 * [`fn withUserPoolName(userPoolName)`](#fn-withuserpoolname)
 * [`fn withUserPoolTags(userPoolTags)`](#fn-withuserpooltags)
+* [`fn withUserPoolTagsMixin(userPoolTags)`](#fn-withuserpooltagsmixin)
 * [`fn withUsernameAttributes(usernameAttributes)`](#fn-withusernameattributes)
+* [`fn withUsernameAttributesMixin(usernameAttributes)`](#fn-withusernameattributesmixin)
 * [`fn withUsernameConfiguration(usernameConfiguration)`](#fn-withusernameconfiguration)
+* [`fn withUsernameConfigurationMixin(usernameConfiguration)`](#fn-withusernameconfigurationmixin)
 * [`fn withVerificationMessageTemplate(verificationMessageTemplate)`](#fn-withverificationmessagetemplate)
+* [`fn withVerificationMessageTemplateMixin(verificationMessageTemplate)`](#fn-withverificationmessagetemplatemixin)
 
 ## Fields
 
@@ -158,10 +174,26 @@ withAccountRecoverySetting(accountRecoverySetting)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-accountrecoverysetting
 
+### fn withAccountRecoverySettingMixin
+
+```ts
+withAccountRecoverySettingMixin(accountRecoverySetting)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-accountrecoverysetting
+
 ### fn withAdminCreateUserConfig
 
 ```ts
 withAdminCreateUserConfig(adminCreateUserConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-admincreateuserconfig
+
+### fn withAdminCreateUserConfigMixin
+
+```ts
+withAdminCreateUserConfigMixin(adminCreateUserConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-admincreateuserconfig
@@ -174,10 +206,26 @@ withAliasAttributes(aliasAttributes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-aliasattributes
 
+### fn withAliasAttributesMixin
+
+```ts
+withAliasAttributesMixin(aliasAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-aliasattributes
+
 ### fn withAutoVerifiedAttributes
 
 ```ts
 withAutoVerifiedAttributes(autoVerifiedAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-autoverifiedattributes
+
+### fn withAutoVerifiedAttributesMixin
+
+```ts
+withAutoVerifiedAttributesMixin(autoVerifiedAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-autoverifiedattributes
@@ -190,10 +238,26 @@ withDeviceConfiguration(deviceConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-deviceconfiguration
 
+### fn withDeviceConfigurationMixin
+
+```ts
+withDeviceConfigurationMixin(deviceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-deviceconfiguration
+
 ### fn withEmailConfiguration
 
 ```ts
 withEmailConfiguration(emailConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-emailconfiguration
+
+### fn withEmailConfigurationMixin
+
+```ts
+withEmailConfigurationMixin(emailConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-emailconfiguration
@@ -222,10 +286,26 @@ withEnabledMfas(enabledMfas)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-enabledmfas
 
+### fn withEnabledMfasMixin
+
+```ts
+withEnabledMfasMixin(enabledMfas)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-enabledmfas
+
 ### fn withLambdaConfig
 
 ```ts
 withLambdaConfig(lambdaConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-lambdaconfig
+
+### fn withLambdaConfigMixin
+
+```ts
+withLambdaConfigMixin(lambdaConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-lambdaconfig
@@ -246,10 +326,26 @@ withPolicies(policies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-policies
 
+### fn withPoliciesMixin
+
+```ts
+withPoliciesMixin(policies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-policies
+
 ### fn withSchema
 
 ```ts
 withSchema(schema)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-schema
+
+### fn withSchemaMixin
+
+```ts
+withSchemaMixin(schema)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-schema
@@ -270,6 +366,14 @@ withSmsConfiguration(smsConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-smsconfiguration
 
+### fn withSmsConfigurationMixin
+
+```ts
+withSmsConfigurationMixin(smsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-smsconfiguration
+
 ### fn withSmsVerificationMessage
 
 ```ts
@@ -282,6 +386,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 
 ```ts
 withUserPoolAddOns(userPoolAddOns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-userpooladdons
+
+### fn withUserPoolAddOnsMixin
+
+```ts
+withUserPoolAddOnsMixin(userPoolAddOns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-userpooladdons
@@ -302,10 +414,26 @@ withUserPoolTags(userPoolTags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-userpooltags
 
+### fn withUserPoolTagsMixin
+
+```ts
+withUserPoolTagsMixin(userPoolTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-userpooltags
+
 ### fn withUsernameAttributes
 
 ```ts
 withUsernameAttributes(usernameAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-usernameattributes
+
+### fn withUsernameAttributesMixin
+
+```ts
+withUsernameAttributesMixin(usernameAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-usernameattributes
@@ -318,10 +446,26 @@ withUsernameConfiguration(usernameConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-usernameconfiguration
 
+### fn withUsernameConfigurationMixin
+
+```ts
+withUsernameConfigurationMixin(usernameConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-usernameconfiguration
+
 ### fn withVerificationMessageTemplate
 
 ```ts
 withVerificationMessageTemplate(verificationMessageTemplate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-verificationmessagetemplate
+
+### fn withVerificationMessageTemplateMixin
+
+```ts
+withVerificationMessageTemplateMixin(verificationMessageTemplate)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpool.html#cfn-cognito-userpool-verificationmessagetemplate

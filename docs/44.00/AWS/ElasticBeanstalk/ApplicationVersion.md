@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-be
 * [`fn withApplicationName(applicationName)`](#fn-withapplicationname)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withSourceBundle(sourceBundle)`](#fn-withsourcebundle)
+* [`fn withSourceBundleMixin(sourceBundle)`](#fn-withsourcebundlemixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-be
 
 ```ts
 withSourceBundle(sourceBundle)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-version.html#cfn-elasticbeanstalk-applicationversion-sourcebundle
+
+### fn withSourceBundleMixin
+
+```ts
+withSourceBundleMixin(sourceBundle)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-version.html#cfn-elasticbeanstalk-applicationversion-sourcebundle

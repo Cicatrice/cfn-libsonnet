@@ -22,10 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-look
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAnomalyDetectorConfig(anomalyDetectorConfig)`](#fn-withanomalydetectorconfig)
+* [`fn withAnomalyDetectorConfigMixin(anomalyDetectorConfig)`](#fn-withanomalydetectorconfigmixin)
 * [`fn withAnomalyDetectorDescription(anomalyDetectorDescription)`](#fn-withanomalydetectordescription)
 * [`fn withAnomalyDetectorName(anomalyDetectorName)`](#fn-withanomalydetectorname)
 * [`fn withKmsKeyArn(kmsKeyArn)`](#fn-withkmskeyarn)
 * [`fn withMetricSetList(metricSetList)`](#fn-withmetricsetlist)
+* [`fn withMetricSetListMixin(metricSetList)`](#fn-withmetricsetlistmixin)
 
 ## Fields
 
@@ -141,6 +143,14 @@ withAnomalyDetectorConfig(anomalyDetectorConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html#cfn-lookoutmetrics-anomalydetector-anomalydetectorconfig
 
+### fn withAnomalyDetectorConfigMixin
+
+```ts
+withAnomalyDetectorConfigMixin(anomalyDetectorConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html#cfn-lookoutmetrics-anomalydetector-anomalydetectorconfig
+
 ### fn withAnomalyDetectorDescription
 
 ```ts
@@ -169,6 +179,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-look
 
 ```ts
 withMetricSetList(metricSetList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html#cfn-lookoutmetrics-anomalydetector-metricsetlist
+
+### fn withMetricSetListMixin
+
+```ts
+withMetricSetListMixin(metricSetList)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html#cfn-lookoutmetrics-anomalydetector-metricsetlist

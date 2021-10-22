@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-maci
 * [`fn withAction(action)`](#fn-withaction)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withFindingCriteria(findingCriteria)`](#fn-withfindingcriteria)
+* [`fn withFindingCriteriaMixin(findingCriteria)`](#fn-withfindingcriteriamixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPosition(position)`](#fn-withposition)
 
@@ -153,6 +154,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-maci
 
 ```ts
 withFindingCriteria(findingCriteria)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-findingcriteria
+
+### fn withFindingCriteriaMixin
+
+```ts
+withFindingCriteriaMixin(findingCriteria)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-findingcriteria

@@ -28,6 +28,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dire
 * [`fn withPassword(password)`](#fn-withpassword)
 * [`fn withShortName(shortName)`](#fn-withshortname)
 * [`fn withVpcSettings(vpcSettings)`](#fn-withvpcsettings)
+* [`fn withVpcSettingsMixin(vpcSettings)`](#fn-withvpcsettingsmixin)
 
 ## Fields
 
@@ -187,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dire
 
 ```ts
 withVpcSettings(vpcSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-microsoftad.html#cfn-directoryservice-microsoftad-vpcsettings
+
+### fn withVpcSettingsMixin
+
+```ts
+withVpcSettingsMixin(vpcSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-directoryservice-microsoftad.html#cfn-directoryservice-microsoftad-vpcsettings

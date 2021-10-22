@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rout
 * [`fn withHostedZoneId(hostedZoneId)`](#fn-withhostedzoneid)
 * [`fn withHostedZoneName(hostedZoneName)`](#fn-withhostedzonename)
 * [`fn withRecordSets(recordSets)`](#fn-withrecordsets)
+* [`fn withRecordSetsMixin(recordSets)`](#fn-withrecordsetsmixin)
 
 ## Fields
 
@@ -160,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rout
 
 ```ts
 withRecordSets(recordSets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-recordsetgroup.html#cfn-route53-recordsetgroup-recordsets
+
+### fn withRecordSetsMixin
+
+```ts
+withRecordSetsMixin(recordSets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53-recordsetgroup.html#cfn-route53-recordsetgroup-recordsets

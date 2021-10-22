@@ -22,18 +22,24 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withClassifiers(classifiers)`](#fn-withclassifiers)
+* [`fn withClassifiersMixin(classifiers)`](#fn-withclassifiersmixin)
 * [`fn withConfiguration(configuration)`](#fn-withconfiguration)
 * [`fn withCrawlerSecurityConfiguration(crawlerSecurityConfiguration)`](#fn-withcrawlersecurityconfiguration)
 * [`fn withDatabaseName(databaseName)`](#fn-withdatabasename)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRecrawlPolicy(recrawlPolicy)`](#fn-withrecrawlpolicy)
+* [`fn withRecrawlPolicyMixin(recrawlPolicy)`](#fn-withrecrawlpolicymixin)
 * [`fn withRole(role)`](#fn-withrole)
 * [`fn withSchedule(schedule)`](#fn-withschedule)
+* [`fn withScheduleMixin(schedule)`](#fn-withschedulemixin)
 * [`fn withSchemaChangePolicy(schemaChangePolicy)`](#fn-withschemachangepolicy)
+* [`fn withSchemaChangePolicyMixin(schemaChangePolicy)`](#fn-withschemachangepolicymixin)
 * [`fn withTablePrefix(tablePrefix)`](#fn-withtableprefix)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargets(targets)`](#fn-withtargets)
+* [`fn withTargetsMixin(targets)`](#fn-withtargetsmixin)
 
 ## Fields
 
@@ -149,6 +155,14 @@ withClassifiers(classifiers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-classifiers
 
+### fn withClassifiersMixin
+
+```ts
+withClassifiersMixin(classifiers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-classifiers
+
 ### fn withConfiguration
 
 ```ts
@@ -197,6 +211,14 @@ withRecrawlPolicy(recrawlPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-recrawlpolicy
 
+### fn withRecrawlPolicyMixin
+
+```ts
+withRecrawlPolicyMixin(recrawlPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-recrawlpolicy
+
 ### fn withRole
 
 ```ts
@@ -213,10 +235,26 @@ withSchedule(schedule)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-schedule
 
+### fn withScheduleMixin
+
+```ts
+withScheduleMixin(schedule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-schedule
+
 ### fn withSchemaChangePolicy
 
 ```ts
 withSchemaChangePolicy(schemaChangePolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-schemachangepolicy
+
+### fn withSchemaChangePolicyMixin
+
+```ts
+withSchemaChangePolicyMixin(schemaChangePolicy)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-schemachangepolicy
@@ -237,10 +275,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-tags
+
 ### fn withTargets
 
 ```ts
 withTargets(targets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-targets
+
+### fn withTargetsMixin
+
+```ts
+withTargetsMixin(targets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-targets

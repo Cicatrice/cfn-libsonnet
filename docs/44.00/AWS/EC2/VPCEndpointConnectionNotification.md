@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConnectionEvents(connectionEvents)`](#fn-withconnectionevents)
+* [`fn withConnectionEventsMixin(connectionEvents)`](#fn-withconnectioneventsmixin)
 * [`fn withConnectionNotificationArn(connectionNotificationArn)`](#fn-withconnectionnotificationarn)
 * [`fn withServiceId(serviceId)`](#fn-withserviceid)
 * [`fn withVPCEndpointId(vpcendpointId)`](#fn-withvpcendpointid)
@@ -136,6 +137,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withConnectionEvents(connectionEvents)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-connectionevents
+
+### fn withConnectionEventsMixin
+
+```ts
+withConnectionEventsMixin(connectionEvents)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-connectionevents

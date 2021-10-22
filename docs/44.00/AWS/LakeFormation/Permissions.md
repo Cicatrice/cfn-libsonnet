@@ -22,9 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lake
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDataLakePrincipal(dataLakePrincipal)`](#fn-withdatalakeprincipal)
+* [`fn withDataLakePrincipalMixin(dataLakePrincipal)`](#fn-withdatalakeprincipalmixin)
 * [`fn withPermissions(permissions)`](#fn-withpermissions)
+* [`fn withPermissionsMixin(permissions)`](#fn-withpermissionsmixin)
 * [`fn withPermissionsWithGrantOption(permissionsWithGrantOption)`](#fn-withpermissionswithgrantoption)
+* [`fn withPermissionsWithGrantOptionMixin(permissionsWithGrantOption)`](#fn-withpermissionswithgrantoptionmixin)
 * [`fn withResource(resource)`](#fn-withresource)
+* [`fn withResourceMixin(resource)`](#fn-withresourcemixin)
 
 ## Fields
 
@@ -140,10 +144,26 @@ withDataLakePrincipal(dataLakePrincipal)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-datalakeprincipal
 
+### fn withDataLakePrincipalMixin
+
+```ts
+withDataLakePrincipalMixin(dataLakePrincipal)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-datalakeprincipal
+
 ### fn withPermissions
 
 ```ts
 withPermissions(permissions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-permissions
+
+### fn withPermissionsMixin
+
+```ts
+withPermissionsMixin(permissions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-permissions
@@ -156,10 +176,26 @@ withPermissionsWithGrantOption(permissionsWithGrantOption)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-permissionswithgrantoption
 
+### fn withPermissionsWithGrantOptionMixin
+
+```ts
+withPermissionsWithGrantOptionMixin(permissionsWithGrantOption)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-permissionswithgrantoption
+
 ### fn withResource
 
 ```ts
 withResource(resource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-resource
+
+### fn withResourceMixin
+
+```ts
+withResourceMixin(resource)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-resource

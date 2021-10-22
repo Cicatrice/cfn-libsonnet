@@ -22,12 +22,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iote
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDetectorModelDefinition(detectorModelDefinition)`](#fn-withdetectormodeldefinition)
+* [`fn withDetectorModelDefinitionMixin(detectorModelDefinition)`](#fn-withdetectormodeldefinitionmixin)
 * [`fn withDetectorModelDescription(detectorModelDescription)`](#fn-withdetectormodeldescription)
 * [`fn withDetectorModelName(detectorModelName)`](#fn-withdetectormodelname)
 * [`fn withEvaluationMethod(evaluationMethod)`](#fn-withevaluationmethod)
 * [`fn withKey(key)`](#fn-withkey)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -143,6 +145,14 @@ withDetectorModelDefinition(detectorModelDefinition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html#cfn-iotevents-detectormodel-detectormodeldefinition
 
+### fn withDetectorModelDefinitionMixin
+
+```ts
+withDetectorModelDefinitionMixin(detectorModelDefinition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html#cfn-iotevents-detectormodel-detectormodeldefinition
+
 ### fn withDetectorModelDescription
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iote
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html#cfn-iotevents-detectormodel-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html#cfn-iotevents-detectormodel-tags

@@ -28,7 +28,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 * [`fn withFirewallPolicyChangeProtection(firewallPolicyChangeProtection)`](#fn-withfirewallpolicychangeprotection)
 * [`fn withSubnetChangeProtection(subnetChangeProtection)`](#fn-withsubnetchangeprotection)
 * [`fn withSubnetMappings(subnetMappings)`](#fn-withsubnetmappings)
+* [`fn withSubnetMappingsMixin(subnetMappings)`](#fn-withsubnetmappingsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
 
 ## Fields
@@ -193,10 +195,26 @@ withSubnetMappings(subnetMappings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewall.html#cfn-networkfirewall-firewall-subnetmappings
 
+### fn withSubnetMappingsMixin
+
+```ts
+withSubnetMappingsMixin(subnetMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewall.html#cfn-networkfirewall-firewall-subnetmappings
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewall.html#cfn-networkfirewall-firewall-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewall.html#cfn-networkfirewall-firewall-tags

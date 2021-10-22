@@ -24,12 +24,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEventTimeFeatureName(eventTimeFeatureName)`](#fn-witheventtimefeaturename)
 * [`fn withFeatureDefinitions(featureDefinitions)`](#fn-withfeaturedefinitions)
+* [`fn withFeatureDefinitionsMixin(featureDefinitions)`](#fn-withfeaturedefinitionsmixin)
 * [`fn withFeatureGroupName(featureGroupName)`](#fn-withfeaturegroupname)
 * [`fn withOfflineStoreConfig(offlineStoreConfig)`](#fn-withofflinestoreconfig)
+* [`fn withOfflineStoreConfigMixin(offlineStoreConfig)`](#fn-withofflinestoreconfigmixin)
 * [`fn withOnlineStoreConfig(onlineStoreConfig)`](#fn-withonlinestoreconfig)
+* [`fn withOnlineStoreConfigMixin(onlineStoreConfig)`](#fn-withonlinestoreconfigmixin)
 * [`fn withRecordIdentifierFeatureName(recordIdentifierFeatureName)`](#fn-withrecordidentifierfeaturename)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -161,6 +165,14 @@ withFeatureDefinitions(featureDefinitions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-featuredefinitions
 
+### fn withFeatureDefinitionsMixin
+
+```ts
+withFeatureDefinitionsMixin(featureDefinitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-featuredefinitions
+
 ### fn withFeatureGroupName
 
 ```ts
@@ -177,10 +189,26 @@ withOfflineStoreConfig(offlineStoreConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-offlinestoreconfig
 
+### fn withOfflineStoreConfigMixin
+
+```ts
+withOfflineStoreConfigMixin(offlineStoreConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-offlinestoreconfig
+
 ### fn withOnlineStoreConfig
 
 ```ts
 withOnlineStoreConfig(onlineStoreConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-onlinestoreconfig
+
+### fn withOnlineStoreConfigMixin
+
+```ts
+withOnlineStoreConfigMixin(onlineStoreConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-onlinestoreconfig
@@ -205,6 +233,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-featuregroup.html#cfn-sagemaker-featuregroup-tags

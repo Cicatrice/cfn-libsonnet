@@ -23,12 +23,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appf
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDestinationFlowConfigList(destinationFlowConfigList)`](#fn-withdestinationflowconfiglist)
+* [`fn withDestinationFlowConfigListMixin(destinationFlowConfigList)`](#fn-withdestinationflowconfiglistmixin)
 * [`fn withFlowName(flowName)`](#fn-withflowname)
 * [`fn withKMSArn(kmsarn)`](#fn-withkmsarn)
 * [`fn withSourceFlowConfig(sourceFlowConfig)`](#fn-withsourceflowconfig)
+* [`fn withSourceFlowConfigMixin(sourceFlowConfig)`](#fn-withsourceflowconfigmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTasks(tasks)`](#fn-withtasks)
+* [`fn withTasksMixin(tasks)`](#fn-withtasksmixin)
 * [`fn withTriggerConfig(triggerConfig)`](#fn-withtriggerconfig)
+* [`fn withTriggerConfigMixin(triggerConfig)`](#fn-withtriggerconfigmixin)
 
 ## Fields
 
@@ -152,6 +157,14 @@ withDestinationFlowConfigList(destinationFlowConfigList)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-destinationflowconfiglist
 
+### fn withDestinationFlowConfigListMixin
+
+```ts
+withDestinationFlowConfigListMixin(destinationFlowConfigList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-destinationflowconfiglist
+
 ### fn withFlowName
 
 ```ts
@@ -176,10 +189,26 @@ withSourceFlowConfig(sourceFlowConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-sourceflowconfig
 
+### fn withSourceFlowConfigMixin
+
+```ts
+withSourceFlowConfigMixin(sourceFlowConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-sourceflowconfig
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-tags
@@ -192,10 +221,26 @@ withTasks(tasks)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-tasks
 
+### fn withTasksMixin
+
+```ts
+withTasksMixin(tasks)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-tasks
+
 ### fn withTriggerConfig
 
 ```ts
 withTriggerConfig(triggerConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-triggerconfig
+
+### fn withTriggerConfigMixin
+
+```ts
+withTriggerConfigMixin(triggerConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-flow.html#cfn-appflow-flow-triggerconfig

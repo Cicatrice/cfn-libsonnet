@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-look
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAction(action)`](#fn-withaction)
+* [`fn withActionMixin(action)`](#fn-withactionmixin)
 * [`fn withAlertDescription(alertDescription)`](#fn-withalertdescription)
 * [`fn withAlertName(alertName)`](#fn-withalertname)
 * [`fn withAlertSensitivityThreshold(alertSensitivityThreshold)`](#fn-withalertsensitivitythreshold)
@@ -137,6 +138,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withAction(action)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-alert.html#cfn-lookoutmetrics-alert-action
+
+### fn withActionMixin
+
+```ts
+withActionMixin(action)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-alert.html#cfn-lookoutmetrics-alert-action

@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCustomDomainConfig(customDomainConfig)`](#fn-withcustomdomainconfig)
+* [`fn withCustomDomainConfigMixin(customDomainConfig)`](#fn-withcustomdomainconfigmixin)
 * [`fn withDomain(domain)`](#fn-withdomain)
 * [`fn withUserPoolId(userPoolId)`](#fn-withuserpoolid)
 
@@ -135,6 +136,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withCustomDomainConfig(customDomainConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooldomain.html#cfn-cognito-userpooldomain-customdomainconfig
+
+### fn withCustomDomainConfigMixin
+
+```ts
+withCustomDomainConfigMixin(customDomainConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpooldomain.html#cfn-cognito-userpooldomain-customdomainconfig

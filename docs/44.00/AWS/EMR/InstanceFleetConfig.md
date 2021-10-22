@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withClusterId(clusterId)`](#fn-withclusterid)
 * [`fn withInstanceFleetType(instanceFleetType)`](#fn-withinstancefleettype)
 * [`fn withInstanceTypeConfigs(instanceTypeConfigs)`](#fn-withinstancetypeconfigs)
+* [`fn withInstanceTypeConfigsMixin(instanceTypeConfigs)`](#fn-withinstancetypeconfigsmixin)
 * [`fn withLaunchSpecifications(launchSpecifications)`](#fn-withlaunchspecifications)
+* [`fn withLaunchSpecificationsMixin(launchSpecifications)`](#fn-withlaunchspecificationsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTargetOnDemandCapacity(targetOnDemandCapacity)`](#fn-withtargetondemandcapacity)
 * [`fn withTargetSpotCapacity(targetSpotCapacity)`](#fn-withtargetspotcapacity)
@@ -159,10 +161,26 @@ withInstanceTypeConfigs(instanceTypeConfigs)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html#cfn-elasticmapreduce-instancefleetconfig-instancetypeconfigs
 
+### fn withInstanceTypeConfigsMixin
+
+```ts
+withInstanceTypeConfigsMixin(instanceTypeConfigs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html#cfn-elasticmapreduce-instancefleetconfig-instancetypeconfigs
+
 ### fn withLaunchSpecifications
 
 ```ts
 withLaunchSpecifications(launchSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html#cfn-elasticmapreduce-instancefleetconfig-launchspecifications
+
+### fn withLaunchSpecificationsMixin
+
+```ts
+withLaunchSpecificationsMixin(launchSpecifications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html#cfn-elasticmapreduce-instancefleetconfig-launchspecifications

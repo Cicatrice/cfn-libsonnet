@@ -25,6 +25,8 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSource(source)`](#fn-withsource)
 * [`fn withSourceFailoverConfig(sourceFailoverConfig)`](#fn-withsourcefailoverconfig)
+* [`fn withSourceFailoverConfigMixin(sourceFailoverConfig)`](#fn-withsourcefailoverconfigmixin)
+* [`fn withSourceMixin(source)`](#fn-withsourcemixin)
 
 ## Fields
 
@@ -163,3 +165,19 @@ withSourceFailoverConfig(sourceFailoverConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-sourcefailoverconfig
+
+### fn withSourceFailoverConfigMixin
+
+```ts
+withSourceFailoverConfigMixin(sourceFailoverConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-sourcefailoverconfig
+
+### fn withSourceMixin
+
+```ts
+withSourceMixin(source)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-source

@@ -23,11 +23,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCustomEventData(customEventData)`](#fn-withcustomeventdata)
 * [`fn withDestinations(destinations)`](#fn-withdestinations)
+* [`fn withDestinationsMixin(destinations)`](#fn-withdestinationsmixin)
 * [`fn withFilterConfiguration(filterConfiguration)`](#fn-withfilterconfiguration)
+* [`fn withFilterConfigurationMixin(filterConfiguration)`](#fn-withfilterconfigurationmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withNotificationTarget(notificationTarget)`](#fn-withnotificationtarget)
 * [`fn withPlayerLatencyPolicies(playerLatencyPolicies)`](#fn-withplayerlatencypolicies)
+* [`fn withPlayerLatencyPoliciesMixin(playerLatencyPolicies)`](#fn-withplayerlatencypoliciesmixin)
 * [`fn withPriorityConfiguration(priorityConfiguration)`](#fn-withpriorityconfiguration)
+* [`fn withPriorityConfigurationMixin(priorityConfiguration)`](#fn-withpriorityconfigurationmixin)
 * [`fn withTimeoutInSeconds(timeoutInSeconds)`](#fn-withtimeoutinseconds)
 
 ## Fields
@@ -152,10 +156,26 @@ withDestinations(destinations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-destinations
 
+### fn withDestinationsMixin
+
+```ts
+withDestinationsMixin(destinations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-destinations
+
 ### fn withFilterConfiguration
 
 ```ts
 withFilterConfiguration(filterConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-filterconfiguration
+
+### fn withFilterConfigurationMixin
+
+```ts
+withFilterConfigurationMixin(filterConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-filterconfiguration
@@ -184,10 +204,26 @@ withPlayerLatencyPolicies(playerLatencyPolicies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-playerlatencypolicies
 
+### fn withPlayerLatencyPoliciesMixin
+
+```ts
+withPlayerLatencyPoliciesMixin(playerLatencyPolicies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-playerlatencypolicies
+
 ### fn withPriorityConfiguration
 
 ```ts
 withPriorityConfiguration(priorityConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-priorityconfiguration
+
+### fn withPriorityConfigurationMixin
+
+```ts
+withPriorityConfigurationMixin(priorityConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-gamesessionqueue.html#cfn-gamelift-gamesessionqueue-priorityconfiguration

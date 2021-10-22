@@ -22,12 +22,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withEncryptionConfiguration(encryptionConfiguration)`](#fn-withencryptionconfiguration)
+* [`fn withEncryptionConfigurationMixin(encryptionConfiguration)`](#fn-withencryptionconfigurationmixin)
 * [`fn withImageScanningConfiguration(imageScanningConfiguration)`](#fn-withimagescanningconfiguration)
+* [`fn withImageScanningConfigurationMixin(imageScanningConfiguration)`](#fn-withimagescanningconfigurationmixin)
 * [`fn withImageTagMutability(imageTagMutability)`](#fn-withimagetagmutability)
 * [`fn withLifecyclePolicy(lifecyclePolicy)`](#fn-withlifecyclepolicy)
+* [`fn withLifecyclePolicyMixin(lifecyclePolicy)`](#fn-withlifecyclepolicymixin)
 * [`fn withRepositoryName(repositoryName)`](#fn-withrepositoryname)
 * [`fn withRepositoryPolicyText(repositoryPolicyText)`](#fn-withrepositorypolicytext)
+* [`fn withRepositoryPolicyTextMixin(repositoryPolicyText)`](#fn-withrepositorypolicytextmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -143,10 +148,26 @@ withEncryptionConfiguration(encryptionConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-encryptionconfiguration
 
+### fn withEncryptionConfigurationMixin
+
+```ts
+withEncryptionConfigurationMixin(encryptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-encryptionconfiguration
+
 ### fn withImageScanningConfiguration
 
 ```ts
 withImageScanningConfiguration(imageScanningConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-imagescanningconfiguration
+
+### fn withImageScanningConfigurationMixin
+
+```ts
+withImageScanningConfigurationMixin(imageScanningConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-imagescanningconfiguration
@@ -167,6 +188,14 @@ withLifecyclePolicy(lifecyclePolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-lifecyclepolicy
 
+### fn withLifecyclePolicyMixin
+
+```ts
+withLifecyclePolicyMixin(lifecyclePolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-lifecyclepolicy
+
 ### fn withRepositoryName
 
 ```ts
@@ -183,10 +212,26 @@ withRepositoryPolicyText(repositoryPolicyText)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-repositorypolicytext
 
+### fn withRepositoryPolicyTextMixin
+
+```ts
+withRepositoryPolicyTextMixin(repositoryPolicyText)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-repositorypolicytext
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecr-repository.html#cfn-ecr-repository-tags

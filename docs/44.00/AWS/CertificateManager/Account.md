@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cert
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withExpiryEventsConfiguration(expiryEventsConfiguration)`](#fn-withexpiryeventsconfiguration)
+* [`fn withExpiryEventsConfigurationMixin(expiryEventsConfiguration)`](#fn-withexpiryeventsconfigurationmixin)
 
 ## Fields
 
@@ -133,6 +134,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withExpiryEventsConfiguration(expiryEventsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-account.html#cfn-certificatemanager-account-expiryeventsconfiguration
+
+### fn withExpiryEventsConfigurationMixin
+
+```ts
+withExpiryEventsConfigurationMixin(expiryEventsConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-account.html#cfn-certificatemanager-account-expiryeventsconfiguration

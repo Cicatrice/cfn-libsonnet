@@ -23,12 +23,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAgentVersion(agentVersion)`](#fn-withagentversion)
 * [`fn withAttributes(attributes)`](#fn-withattributes)
+* [`fn withAttributesMixin(attributes)`](#fn-withattributesmixin)
 * [`fn withChefConfiguration(chefConfiguration)`](#fn-withchefconfiguration)
+* [`fn withChefConfigurationMixin(chefConfiguration)`](#fn-withchefconfigurationmixin)
 * [`fn withCloneAppIds(cloneAppIds)`](#fn-withcloneappids)
+* [`fn withCloneAppIdsMixin(cloneAppIds)`](#fn-withcloneappidsmixin)
 * [`fn withClonePermissions(clonePermissions)`](#fn-withclonepermissions)
 * [`fn withConfigurationManager(configurationManager)`](#fn-withconfigurationmanager)
+* [`fn withConfigurationManagerMixin(configurationManager)`](#fn-withconfigurationmanagermixin)
 * [`fn withCustomCookbooksSource(customCookbooksSource)`](#fn-withcustomcookbookssource)
+* [`fn withCustomCookbooksSourceMixin(customCookbooksSource)`](#fn-withcustomcookbookssourcemixin)
 * [`fn withCustomJson(customJson)`](#fn-withcustomjson)
+* [`fn withCustomJsonMixin(customJson)`](#fn-withcustomjsonmixin)
 * [`fn withDefaultAvailabilityZone(defaultAvailabilityZone)`](#fn-withdefaultavailabilityzone)
 * [`fn withDefaultInstanceProfileArn(defaultInstanceProfileArn)`](#fn-withdefaultinstanceprofilearn)
 * [`fn withDefaultOs(defaultOs)`](#fn-withdefaultos)
@@ -37,12 +43,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 * [`fn withDefaultSubnetId(defaultSubnetId)`](#fn-withdefaultsubnetid)
 * [`fn withEcsClusterArn(ecsClusterArn)`](#fn-withecsclusterarn)
 * [`fn withElasticIps(elasticIps)`](#fn-withelasticips)
+* [`fn withElasticIpsMixin(elasticIps)`](#fn-withelasticipsmixin)
 * [`fn withHostnameTheme(hostnameTheme)`](#fn-withhostnametheme)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRdsDbInstances(rdsDbInstances)`](#fn-withrdsdbinstances)
+* [`fn withRdsDbInstancesMixin(rdsDbInstances)`](#fn-withrdsdbinstancesmixin)
 * [`fn withServiceRoleArn(serviceRoleArn)`](#fn-withservicerolearn)
 * [`fn withSourceStackId(sourceStackId)`](#fn-withsourcestackid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUseCustomCookbooks(useCustomCookbooks)`](#fn-withusecustomcookbooks)
 * [`fn withUseOpsworksSecurityGroups(useOpsworksSecurityGroups)`](#fn-withuseopsworkssecuritygroups)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
@@ -169,6 +178,14 @@ withAttributes(attributes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-attributes
 
+### fn withAttributesMixin
+
+```ts
+withAttributesMixin(attributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-attributes
+
 ### fn withChefConfiguration
 
 ```ts
@@ -177,10 +194,26 @@ withChefConfiguration(chefConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-chefconfiguration
 
+### fn withChefConfigurationMixin
+
+```ts
+withChefConfigurationMixin(chefConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-chefconfiguration
+
 ### fn withCloneAppIds
 
 ```ts
 withCloneAppIds(cloneAppIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-cloneappids
+
+### fn withCloneAppIdsMixin
+
+```ts
+withCloneAppIdsMixin(cloneAppIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-cloneappids
@@ -201,6 +234,14 @@ withConfigurationManager(configurationManager)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-configmanager
 
+### fn withConfigurationManagerMixin
+
+```ts
+withConfigurationManagerMixin(configurationManager)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-configmanager
+
 ### fn withCustomCookbooksSource
 
 ```ts
@@ -209,10 +250,26 @@ withCustomCookbooksSource(customCookbooksSource)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-custcookbooksource
 
+### fn withCustomCookbooksSourceMixin
+
+```ts
+withCustomCookbooksSourceMixin(customCookbooksSource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-custcookbooksource
+
 ### fn withCustomJson
 
 ```ts
 withCustomJson(customJson)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-custjson
+
+### fn withCustomJsonMixin
+
+```ts
+withCustomJsonMixin(customJson)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-custjson
@@ -281,6 +338,14 @@ withElasticIps(elasticIps)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-elasticips
 
+### fn withElasticIpsMixin
+
+```ts
+withElasticIpsMixin(elasticIps)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-elasticips
+
 ### fn withHostnameTheme
 
 ```ts
@@ -305,6 +370,14 @@ withRdsDbInstances(rdsDbInstances)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-rdsdbinstances
 
+### fn withRdsDbInstancesMixin
+
+```ts
+withRdsDbInstancesMixin(rdsDbInstances)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-rdsdbinstances
+
 ### fn withServiceRoleArn
 
 ```ts
@@ -325,6 +398,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-tags

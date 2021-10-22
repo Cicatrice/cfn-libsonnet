@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActions(actions)`](#fn-withactions)
+* [`fn withActionsMixin(actions)`](#fn-withactionsmixin)
 * [`fn withConditions(conditions)`](#fn-withconditions)
+* [`fn withConditionsMixin(conditions)`](#fn-withconditionsmixin)
 * [`fn withListenerArn(listenerArn)`](#fn-withlistenerarn)
 * [`fn withPriority(priority)`](#fn-withpriority)
 
@@ -140,10 +142,26 @@ withActions(actions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html#cfn-elasticloadbalancingv2-listenerrule-actions
 
+### fn withActionsMixin
+
+```ts
+withActionsMixin(actions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html#cfn-elasticloadbalancingv2-listenerrule-actions
+
 ### fn withConditions
 
 ```ts
 withConditions(conditions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html#cfn-elasticloadbalancingv2-listenerrule-conditions
+
+### fn withConditionsMixin
+
+```ts
+withConditionsMixin(conditions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listenerrule.html#cfn-elasticloadbalancingv2-listenerrule-conditions

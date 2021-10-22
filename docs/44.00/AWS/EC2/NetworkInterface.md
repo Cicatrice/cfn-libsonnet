@@ -23,15 +23,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withGroupSet(groupSet)`](#fn-withgroupset)
+* [`fn withGroupSetMixin(groupSet)`](#fn-withgroupsetmixin)
 * [`fn withInterfaceType(interfaceType)`](#fn-withinterfacetype)
 * [`fn withIpv6AddressCount(ipv6addressCount)`](#fn-withipv6addresscount)
 * [`fn withIpv6Addresses(ipv6addresses)`](#fn-withipv6addresses)
+* [`fn withIpv6AddressesMixin(ipv6addresses)`](#fn-withipv6addressesmixin)
 * [`fn withPrivateIpAddress(privateIpAddress)`](#fn-withprivateipaddress)
 * [`fn withPrivateIpAddresses(privateIpAddresses)`](#fn-withprivateipaddresses)
+* [`fn withPrivateIpAddressesMixin(privateIpAddresses)`](#fn-withprivateipaddressesmixin)
 * [`fn withSecondaryPrivateIpAddressCount(secondaryPrivateIpAddressCount)`](#fn-withsecondaryprivateipaddresscount)
 * [`fn withSourceDestCheck(sourceDestCheck)`](#fn-withsourcedestcheck)
 * [`fn withSubnetId(subnetId)`](#fn-withsubnetid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -155,6 +159,14 @@ withGroupSet(groupSet)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-awsec2networkinterface-groupset
 
+### fn withGroupSetMixin
+
+```ts
+withGroupSetMixin(groupSet)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-awsec2networkinterface-groupset
+
 ### fn withInterfaceType
 
 ```ts
@@ -179,6 +191,14 @@ withIpv6Addresses(ipv6addresses)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-ec2-networkinterface-ipv6addresses
 
+### fn withIpv6AddressesMixin
+
+```ts
+withIpv6AddressesMixin(ipv6addresses)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-ec2-networkinterface-ipv6addresses
+
 ### fn withPrivateIpAddress
 
 ```ts
@@ -191,6 +211,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withPrivateIpAddresses(privateIpAddresses)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-awsec2networkinterface-privateipaddresses
+
+### fn withPrivateIpAddressesMixin
+
+```ts
+withPrivateIpAddressesMixin(privateIpAddresses)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-awsec2networkinterface-privateipaddresses
@@ -223,6 +251,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-awsec2networkinterface-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-network-interface.html#cfn-awsec2networkinterface-tags

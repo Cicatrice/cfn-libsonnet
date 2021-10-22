@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withLoggerDefinitionId(loggerDefinitionId)`](#fn-withloggerdefinitionid)
 * [`fn withLoggers(loggers)`](#fn-withloggers)
+* [`fn withLoggersMixin(loggers)`](#fn-withloggersmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 
 ```ts
 withLoggers(loggers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-loggerdefinitionversion.html#cfn-greengrass-loggerdefinitionversion-loggers
+
+### fn withLoggersMixin
+
+```ts
+withLoggersMixin(loggers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-loggerdefinitionversion.html#cfn-greengrass-loggerdefinitionversion-loggers

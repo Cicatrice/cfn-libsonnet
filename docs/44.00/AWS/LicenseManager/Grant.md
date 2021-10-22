@@ -22,10 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lice
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAllowedOperations(allowedOperations)`](#fn-withallowedoperations)
+* [`fn withAllowedOperationsMixin(allowedOperations)`](#fn-withallowedoperationsmixin)
 * [`fn withGrantName(grantName)`](#fn-withgrantname)
 * [`fn withHomeRegion(homeRegion)`](#fn-withhomeregion)
 * [`fn withLicenseArn(licenseArn)`](#fn-withlicensearn)
 * [`fn withPrincipals(principals)`](#fn-withprincipals)
+* [`fn withPrincipalsMixin(principals)`](#fn-withprincipalsmixin)
 * [`fn withStatus(status)`](#fn-withstatus)
 
 ## Fields
@@ -142,6 +144,14 @@ withAllowedOperations(allowedOperations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-grant.html#cfn-licensemanager-grant-allowedoperations
 
+### fn withAllowedOperationsMixin
+
+```ts
+withAllowedOperationsMixin(allowedOperations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-grant.html#cfn-licensemanager-grant-allowedoperations
+
 ### fn withGrantName
 
 ```ts
@@ -170,6 +180,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lice
 
 ```ts
 withPrincipals(principals)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-grant.html#cfn-licensemanager-grant-principals
+
+### fn withPrincipalsMixin
+
+```ts
+withPrincipalsMixin(principals)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-licensemanager-grant.html#cfn-licensemanager-grant-principals

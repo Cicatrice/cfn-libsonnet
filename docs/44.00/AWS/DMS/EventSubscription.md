@@ -23,11 +23,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withEnabled(enabled)`](#fn-withenabled)
 * [`fn withEventCategories(eventCategories)`](#fn-witheventcategories)
+* [`fn withEventCategoriesMixin(eventCategories)`](#fn-witheventcategoriesmixin)
 * [`fn withSnsTopicArn(snsTopicArn)`](#fn-withsnstopicarn)
 * [`fn withSourceIds(sourceIds)`](#fn-withsourceids)
+* [`fn withSourceIdsMixin(sourceIds)`](#fn-withsourceidsmixin)
 * [`fn withSourceType(sourceType)`](#fn-withsourcetype)
 * [`fn withSubscriptionName(subscriptionName)`](#fn-withsubscriptionname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -151,6 +154,14 @@ withEventCategories(eventCategories)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-eventcategories
 
+### fn withEventCategoriesMixin
+
+```ts
+withEventCategoriesMixin(eventCategories)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-eventcategories
+
 ### fn withSnsTopicArn
 
 ```ts
@@ -163,6 +174,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 
 ```ts
 withSourceIds(sourceIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-sourceids
+
+### fn withSourceIdsMixin
+
+```ts
+withSourceIdsMixin(sourceIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-sourceids
@@ -187,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-eventsubscription.html#cfn-dms-eventsubscription-tags

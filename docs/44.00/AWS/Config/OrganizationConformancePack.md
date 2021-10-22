@@ -22,9 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConformancePackInputParameters(conformancePackInputParameters)`](#fn-withconformancepackinputparameters)
+* [`fn withConformancePackInputParametersMixin(conformancePackInputParameters)`](#fn-withconformancepackinputparametersmixin)
 * [`fn withDeliveryS3Bucket(deliveryS3bucket)`](#fn-withdeliverys3bucket)
 * [`fn withDeliveryS3KeyPrefix(deliveryS3keyPrefix)`](#fn-withdeliverys3keyprefix)
 * [`fn withExcludedAccounts(excludedAccounts)`](#fn-withexcludedaccounts)
+* [`fn withExcludedAccountsMixin(excludedAccounts)`](#fn-withexcludedaccountsmixin)
 * [`fn withOrganizationConformancePackName(organizationConformancePackName)`](#fn-withorganizationconformancepackname)
 * [`fn withTemplateBody(templateBody)`](#fn-withtemplatebody)
 * [`fn withTemplateS3Uri(templateS3uri)`](#fn-withtemplates3uri)
@@ -143,6 +145,14 @@ withConformancePackInputParameters(conformancePackInputParameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-conformancepackinputparameters
 
+### fn withConformancePackInputParametersMixin
+
+```ts
+withConformancePackInputParametersMixin(conformancePackInputParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-conformancepackinputparameters
+
 ### fn withDeliveryS3Bucket
 
 ```ts
@@ -163,6 +173,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 
 ```ts
 withExcludedAccounts(excludedAccounts)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-excludedaccounts
+
+### fn withExcludedAccountsMixin
+
+```ts
+withExcludedAccountsMixin(excludedAccounts)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconformancepack.html#cfn-config-organizationconformancepack-excludedaccounts

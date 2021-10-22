@@ -23,10 +23,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotw
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAutoCreateTasks(autoCreateTasks)`](#fn-withautocreatetasks)
 * [`fn withLoRaWANUpdateGatewayTaskEntry(loRaWanupdateGatewayTaskEntry)`](#fn-withlorawanupdategatewaytaskentry)
+* [`fn withLoRaWANUpdateGatewayTaskEntryMixin(loRaWanupdateGatewayTaskEntry)`](#fn-withlorawanupdategatewaytaskentrymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTaskDefinitionType(taskDefinitionType)`](#fn-withtaskdefinitiontype)
 * [`fn withUpdate(update)`](#fn-withupdate)
+* [`fn withUpdateMixin(update)`](#fn-withupdatemixin)
 
 ## Fields
 
@@ -150,6 +153,14 @@ withLoRaWANUpdateGatewayTaskEntry(loRaWanupdateGatewayTaskEntry)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-lorawanupdategatewaytaskentry
 
+### fn withLoRaWANUpdateGatewayTaskEntryMixin
+
+```ts
+withLoRaWANUpdateGatewayTaskEntryMixin(loRaWanupdateGatewayTaskEntry)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-lorawanupdategatewaytaskentry
+
 ### fn withName
 
 ```ts
@@ -166,6 +177,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-tags
+
 ### fn withTaskDefinitionType
 
 ```ts
@@ -178,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotw
 
 ```ts
 withUpdate(update)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-update
+
+### fn withUpdateMixin
+
+```ts
+withUpdateMixin(update)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-taskdefinition.html#cfn-iotwireless-taskdefinition-update

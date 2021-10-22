@@ -22,9 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDeploymentCanarySettings(deploymentCanarySettings)`](#fn-withdeploymentcanarysettings)
+* [`fn withDeploymentCanarySettingsMixin(deploymentCanarySettings)`](#fn-withdeploymentcanarysettingsmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withRestApiId(restApiId)`](#fn-withrestapiid)
 * [`fn withStageDescription(stageDescription)`](#fn-withstagedescription)
+* [`fn withStageDescriptionMixin(stageDescription)`](#fn-withstagedescriptionmixin)
 * [`fn withStageName(stageName)`](#fn-withstagename)
 
 ## Fields
@@ -141,6 +143,14 @@ withDeploymentCanarySettings(deploymentCanarySettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html#cfn-apigateway-deployment-deploymentcanarysettings
 
+### fn withDeploymentCanarySettingsMixin
+
+```ts
+withDeploymentCanarySettingsMixin(deploymentCanarySettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html#cfn-apigateway-deployment-deploymentcanarysettings
+
 ### fn withDescription
 
 ```ts
@@ -161,6 +171,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withStageDescription(stageDescription)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html#cfn-apigateway-deployment-stagedescription
+
+### fn withStageDescriptionMixin
+
+```ts
+withStageDescriptionMixin(stageDescription)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-deployment.html#cfn-apigateway-deployment-stagedescription

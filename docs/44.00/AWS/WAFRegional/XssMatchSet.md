@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withXssMatchTuples(xssMatchTuples)`](#fn-withxssmatchtuples)
+* [`fn withXssMatchTuplesMixin(xssMatchTuples)`](#fn-withxssmatchtuplesmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 
 ```ts
 withXssMatchTuples(xssMatchTuples)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-xssmatchset.html#cfn-wafregional-xssmatchset-xssmatchtuples
+
+### fn withXssMatchTuplesMixin
+
+```ts
+withXssMatchTuplesMixin(xssMatchTuples)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-xssmatchset.html#cfn-wafregional-xssmatchset-xssmatchtuples

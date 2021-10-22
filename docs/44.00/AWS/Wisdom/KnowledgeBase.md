@@ -25,9 +25,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisd
 * [`fn withKnowledgeBaseType(knowledgeBaseType)`](#fn-withknowledgebasetype)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRenderingConfiguration(renderingConfiguration)`](#fn-withrenderingconfiguration)
+* [`fn withRenderingConfigurationMixin(renderingConfiguration)`](#fn-withrenderingconfigurationmixin)
 * [`fn withServerSideEncryptionConfiguration(serverSideEncryptionConfiguration)`](#fn-withserversideencryptionconfiguration)
+* [`fn withServerSideEncryptionConfigurationMixin(serverSideEncryptionConfiguration)`](#fn-withserversideencryptionconfigurationmixin)
 * [`fn withSourceConfiguration(sourceConfiguration)`](#fn-withsourceconfiguration)
+* [`fn withSourceConfigurationMixin(sourceConfiguration)`](#fn-withsourceconfigurationmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -167,10 +171,26 @@ withRenderingConfiguration(renderingConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-renderingconfiguration
 
+### fn withRenderingConfigurationMixin
+
+```ts
+withRenderingConfigurationMixin(renderingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-renderingconfiguration
+
 ### fn withServerSideEncryptionConfiguration
 
 ```ts
 withServerSideEncryptionConfiguration(serverSideEncryptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-serversideencryptionconfiguration
+
+### fn withServerSideEncryptionConfigurationMixin
+
+```ts
+withServerSideEncryptionConfigurationMixin(serverSideEncryptionConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-serversideencryptionconfiguration
@@ -183,10 +203,26 @@ withSourceConfiguration(sourceConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-sourceconfiguration
 
+### fn withSourceConfigurationMixin
+
+```ts
+withSourceConfigurationMixin(sourceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-sourceconfiguration
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wisdom-knowledgebase.html#cfn-wisdom-knowledgebase-tags

@@ -1,5 +1,5 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='AccessAnalyzer', url='', help=''),
-  Analyzer: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/AccessAnalyzer/Analyzer.libsonnet'),
+  Analyzer:: (import 'Analyzer.libsonnet'),
 }

@@ -23,11 +23,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secr
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withGenerateSecretString(generateSecretString)`](#fn-withgeneratesecretstring)
+* [`fn withGenerateSecretStringMixin(generateSecretString)`](#fn-withgeneratesecretstringmixin)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withReplicaRegions(replicaRegions)`](#fn-withreplicaregions)
+* [`fn withReplicaRegionsMixin(replicaRegions)`](#fn-withreplicaregionsmixin)
 * [`fn withSecretString(secretString)`](#fn-withsecretstring)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -151,6 +154,14 @@ withGenerateSecretString(generateSecretString)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secret.html#cfn-secretsmanager-secret-generatesecretstring
 
+### fn withGenerateSecretStringMixin
+
+```ts
+withGenerateSecretStringMixin(generateSecretString)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secret.html#cfn-secretsmanager-secret-generatesecretstring
+
 ### fn withKmsKeyId
 
 ```ts
@@ -175,6 +186,14 @@ withReplicaRegions(replicaRegions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secret.html#cfn-secretsmanager-secret-replicaregions
 
+### fn withReplicaRegionsMixin
+
+```ts
+withReplicaRegionsMixin(replicaRegions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secret.html#cfn-secretsmanager-secret-replicaregions
+
 ### fn withSecretString
 
 ```ts
@@ -187,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secr
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secret.html#cfn-secretsmanager-secret-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-secret.html#cfn-secretsmanager-secret-tags

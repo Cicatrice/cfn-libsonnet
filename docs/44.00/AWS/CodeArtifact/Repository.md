@@ -25,10 +25,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withDomainOwner(domainOwner)`](#fn-withdomainowner)
 * [`fn withExternalConnections(externalConnections)`](#fn-withexternalconnections)
+* [`fn withExternalConnectionsMixin(externalConnections)`](#fn-withexternalconnectionsmixin)
 * [`fn withPermissionsPolicyDocument(permissionsPolicyDocument)`](#fn-withpermissionspolicydocument)
+* [`fn withPermissionsPolicyDocumentMixin(permissionsPolicyDocument)`](#fn-withpermissionspolicydocumentmixin)
 * [`fn withRepositoryName(repositoryName)`](#fn-withrepositoryname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUpstreams(upstreams)`](#fn-withupstreams)
+* [`fn withUpstreamsMixin(upstreams)`](#fn-withupstreamsmixin)
 
 ## Fields
 
@@ -168,10 +172,26 @@ withExternalConnections(externalConnections)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-externalconnections
 
+### fn withExternalConnectionsMixin
+
+```ts
+withExternalConnectionsMixin(externalConnections)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-externalconnections
+
 ### fn withPermissionsPolicyDocument
 
 ```ts
 withPermissionsPolicyDocument(permissionsPolicyDocument)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-permissionspolicydocument
+
+### fn withPermissionsPolicyDocumentMixin
+
+```ts
+withPermissionsPolicyDocumentMixin(permissionsPolicyDocument)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-permissionspolicydocument
@@ -192,10 +212,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-tags
+
 ### fn withUpstreams
 
 ```ts
 withUpstreams(upstreams)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-upstreams
+
+### fn withUpstreamsMixin
+
+```ts
+withUpstreamsMixin(upstreams)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-upstreams

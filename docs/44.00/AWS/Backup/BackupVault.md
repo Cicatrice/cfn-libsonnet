@@ -22,11 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessPolicy(accessPolicy)`](#fn-withaccesspolicy)
+* [`fn withAccessPolicyMixin(accessPolicy)`](#fn-withaccesspolicymixin)
 * [`fn withBackupVaultName(backupVaultName)`](#fn-withbackupvaultname)
 * [`fn withBackupVaultTags(backupVaultTags)`](#fn-withbackupvaulttags)
+* [`fn withBackupVaultTagsMixin(backupVaultTags)`](#fn-withbackupvaulttagsmixin)
 * [`fn withEncryptionKeyArn(encryptionKeyArn)`](#fn-withencryptionkeyarn)
 * [`fn withLockConfiguration(lockConfiguration)`](#fn-withlockconfiguration)
+* [`fn withLockConfigurationMixin(lockConfiguration)`](#fn-withlockconfigurationmixin)
 * [`fn withNotifications(notifications)`](#fn-withnotifications)
+* [`fn withNotificationsMixin(notifications)`](#fn-withnotificationsmixin)
 
 ## Fields
 
@@ -142,6 +146,14 @@ withAccessPolicy(accessPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-accesspolicy
 
+### fn withAccessPolicyMixin
+
+```ts
+withAccessPolicyMixin(accessPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-accesspolicy
+
 ### fn withBackupVaultName
 
 ```ts
@@ -154,6 +166,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 
 ```ts
 withBackupVaultTags(backupVaultTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-backupvaulttags
+
+### fn withBackupVaultTagsMixin
+
+```ts
+withBackupVaultTagsMixin(backupVaultTags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-backupvaulttags
@@ -174,10 +194,26 @@ withLockConfiguration(lockConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-lockconfiguration
 
+### fn withLockConfigurationMixin
+
+```ts
+withLockConfigurationMixin(lockConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-lockconfiguration
+
 ### fn withNotifications
 
 ```ts
 withNotifications(notifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-notifications
+
+### fn withNotificationsMixin
+
+```ts
+withNotificationsMixin(notifications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-backupvault.html#cfn-backup-backupvault-notifications

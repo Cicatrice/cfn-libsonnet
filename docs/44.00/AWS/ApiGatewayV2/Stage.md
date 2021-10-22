@@ -22,17 +22,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessLogSettings(accessLogSettings)`](#fn-withaccesslogsettings)
+* [`fn withAccessLogSettingsMixin(accessLogSettings)`](#fn-withaccesslogsettingsmixin)
 * [`fn withAccessPolicyId(accessPolicyId)`](#fn-withaccesspolicyid)
 * [`fn withApiId(apiId)`](#fn-withapiid)
 * [`fn withAutoDeploy(autoDeploy)`](#fn-withautodeploy)
 * [`fn withClientCertificateId(clientCertificateId)`](#fn-withclientcertificateid)
 * [`fn withDefaultRouteSettings(defaultRouteSettings)`](#fn-withdefaultroutesettings)
+* [`fn withDefaultRouteSettingsMixin(defaultRouteSettings)`](#fn-withdefaultroutesettingsmixin)
 * [`fn withDeploymentId(deploymentId)`](#fn-withdeploymentid)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withRouteSettings(routeSettings)`](#fn-withroutesettings)
+* [`fn withRouteSettingsMixin(routeSettings)`](#fn-withroutesettingsmixin)
 * [`fn withStageName(stageName)`](#fn-withstagename)
 * [`fn withStageVariables(stageVariables)`](#fn-withstagevariables)
+* [`fn withStageVariablesMixin(stageVariables)`](#fn-withstagevariablesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -148,6 +153,14 @@ withAccessLogSettings(accessLogSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-accesslogsettings
 
+### fn withAccessLogSettingsMixin
+
+```ts
+withAccessLogSettingsMixin(accessLogSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-accesslogsettings
+
 ### fn withAccessPolicyId
 
 ```ts
@@ -188,6 +201,14 @@ withDefaultRouteSettings(defaultRouteSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-defaultroutesettings
 
+### fn withDefaultRouteSettingsMixin
+
+```ts
+withDefaultRouteSettingsMixin(defaultRouteSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-defaultroutesettings
+
 ### fn withDeploymentId
 
 ```ts
@@ -212,6 +233,14 @@ withRouteSettings(routeSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-routesettings
 
+### fn withRouteSettingsMixin
+
+```ts
+withRouteSettingsMixin(routeSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-routesettings
+
 ### fn withStageName
 
 ```ts
@@ -228,10 +257,26 @@ withStageVariables(stageVariables)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-stagevariables
 
+### fn withStageVariablesMixin
+
+```ts
+withStageVariablesMixin(stageVariables)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-stagevariables
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-tags

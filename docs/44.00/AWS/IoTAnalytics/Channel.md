@@ -23,8 +23,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iota
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withChannelName(channelName)`](#fn-withchannelname)
 * [`fn withChannelStorage(channelStorage)`](#fn-withchannelstorage)
+* [`fn withChannelStorageMixin(channelStorage)`](#fn-withchannelstoragemixin)
 * [`fn withRetentionPeriod(retentionPeriod)`](#fn-withretentionperiod)
+* [`fn withRetentionPeriodMixin(retentionPeriod)`](#fn-withretentionperiodmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -148,6 +151,14 @@ withChannelStorage(channelStorage)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html#cfn-iotanalytics-channel-channelstorage
 
+### fn withChannelStorageMixin
+
+```ts
+withChannelStorageMixin(channelStorage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html#cfn-iotanalytics-channel-channelstorage
+
 ### fn withRetentionPeriod
 
 ```ts
@@ -156,10 +167,26 @@ withRetentionPeriod(retentionPeriod)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html#cfn-iotanalytics-channel-retentionperiod
 
+### fn withRetentionPeriodMixin
+
+```ts
+withRetentionPeriodMixin(retentionPeriod)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html#cfn-iotanalytics-channel-retentionperiod
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html#cfn-iotanalytics-channel-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-channel.html#cfn-iotanalytics-channel-tags

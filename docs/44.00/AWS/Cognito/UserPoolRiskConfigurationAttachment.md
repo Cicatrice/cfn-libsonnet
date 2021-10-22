@@ -22,9 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccountTakeoverRiskConfiguration(accountTakeoverRiskConfiguration)`](#fn-withaccounttakeoverriskconfiguration)
+* [`fn withAccountTakeoverRiskConfigurationMixin(accountTakeoverRiskConfiguration)`](#fn-withaccounttakeoverriskconfigurationmixin)
 * [`fn withClientId(clientId)`](#fn-withclientid)
 * [`fn withCompromisedCredentialsRiskConfiguration(compromisedCredentialsRiskConfiguration)`](#fn-withcompromisedcredentialsriskconfiguration)
+* [`fn withCompromisedCredentialsRiskConfigurationMixin(compromisedCredentialsRiskConfiguration)`](#fn-withcompromisedcredentialsriskconfigurationmixin)
 * [`fn withRiskExceptionConfiguration(riskExceptionConfiguration)`](#fn-withriskexceptionconfiguration)
+* [`fn withRiskExceptionConfigurationMixin(riskExceptionConfiguration)`](#fn-withriskexceptionconfigurationmixin)
 * [`fn withUserPoolId(userPoolId)`](#fn-withuserpoolid)
 
 ## Fields
@@ -141,6 +144,14 @@ withAccountTakeoverRiskConfiguration(accountTakeoverRiskConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html#cfn-cognito-userpoolriskconfigurationattachment-accounttakeoverriskconfiguration
 
+### fn withAccountTakeoverRiskConfigurationMixin
+
+```ts
+withAccountTakeoverRiskConfigurationMixin(accountTakeoverRiskConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html#cfn-cognito-userpoolriskconfigurationattachment-accounttakeoverriskconfiguration
+
 ### fn withClientId
 
 ```ts
@@ -157,10 +168,26 @@ withCompromisedCredentialsRiskConfiguration(compromisedCredentialsRiskConfigurat
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html#cfn-cognito-userpoolriskconfigurationattachment-compromisedcredentialsriskconfiguration
 
+### fn withCompromisedCredentialsRiskConfigurationMixin
+
+```ts
+withCompromisedCredentialsRiskConfigurationMixin(compromisedCredentialsRiskConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html#cfn-cognito-userpoolriskconfigurationattachment-compromisedcredentialsriskconfiguration
+
 ### fn withRiskExceptionConfiguration
 
 ```ts
 withRiskExceptionConfiguration(riskExceptionConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html#cfn-cognito-userpoolriskconfigurationattachment-riskexceptionconfiguration
+
+### fn withRiskExceptionConfigurationMixin
+
+```ts
+withRiskExceptionConfigurationMixin(riskExceptionConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolriskconfigurationattachment.html#cfn-cognito-userpoolriskconfigurationattachment-riskexceptionconfiguration

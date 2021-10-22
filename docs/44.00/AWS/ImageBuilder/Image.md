@@ -26,8 +26,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 * [`fn withEnhancedImageMetadataEnabled(enhancedImageMetadataEnabled)`](#fn-withenhancedimagemetadataenabled)
 * [`fn withImageRecipeArn(imageRecipeArn)`](#fn-withimagerecipearn)
 * [`fn withImageTestsConfiguration(imageTestsConfiguration)`](#fn-withimagetestsconfiguration)
+* [`fn withImageTestsConfigurationMixin(imageTestsConfiguration)`](#fn-withimagetestsconfigurationmixin)
 * [`fn withInfrastructureConfigurationArn(infrastructureConfigurationArn)`](#fn-withinfrastructureconfigurationarn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -175,6 +177,14 @@ withImageTestsConfiguration(imageTestsConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-imagetestsconfiguration
 
+### fn withImageTestsConfigurationMixin
+
+```ts
+withImageTestsConfigurationMixin(imageTestsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-imagetestsconfiguration
+
 ### fn withInfrastructureConfigurationArn
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-image.html#cfn-imagebuilder-image-tags

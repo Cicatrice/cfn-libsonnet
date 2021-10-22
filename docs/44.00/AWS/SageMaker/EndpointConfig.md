@@ -22,11 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAsyncInferenceConfig(asyncInferenceConfig)`](#fn-withasyncinferenceconfig)
+* [`fn withAsyncInferenceConfigMixin(asyncInferenceConfig)`](#fn-withasyncinferenceconfigmixin)
 * [`fn withDataCaptureConfig(dataCaptureConfig)`](#fn-withdatacaptureconfig)
+* [`fn withDataCaptureConfigMixin(dataCaptureConfig)`](#fn-withdatacaptureconfigmixin)
 * [`fn withEndpointConfigName(endpointConfigName)`](#fn-withendpointconfigname)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withProductionVariants(productionVariants)`](#fn-withproductionvariants)
+* [`fn withProductionVariantsMixin(productionVariants)`](#fn-withproductionvariantsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -142,10 +146,26 @@ withAsyncInferenceConfig(asyncInferenceConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-asyncinferenceconfig
 
+### fn withAsyncInferenceConfigMixin
+
+```ts
+withAsyncInferenceConfigMixin(asyncInferenceConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-asyncinferenceconfig
+
 ### fn withDataCaptureConfig
 
 ```ts
 withDataCaptureConfig(dataCaptureConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-datacaptureconfig
+
+### fn withDataCaptureConfigMixin
+
+```ts
+withDataCaptureConfigMixin(dataCaptureConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-datacaptureconfig
@@ -174,10 +194,26 @@ withProductionVariants(productionVariants)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-productionvariants
 
+### fn withProductionVariantsMixin
+
+```ts
+withProductionVariantsMixin(productionVariants)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-productionvariants
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpointconfig.html#cfn-sagemaker-endpointconfig-tags

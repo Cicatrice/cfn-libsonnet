@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-loca
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDataSource(dataSource)`](#fn-withdatasource)
 * [`fn withDataSourceConfiguration(dataSourceConfiguration)`](#fn-withdatasourceconfiguration)
+* [`fn withDataSourceConfigurationMixin(dataSourceConfiguration)`](#fn-withdatasourceconfigurationmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withIndexName(indexName)`](#fn-withindexname)
 * [`fn withPricingPlan(pricingPlan)`](#fn-withpricingplan)
@@ -145,6 +146,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-loca
 
 ```ts
 withDataSourceConfiguration(dataSourceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-datasourceconfiguration
+
+### fn withDataSourceConfigurationMixin
+
+```ts
+withDataSourceConfigurationMixin(dataSourceConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-datasourceconfiguration

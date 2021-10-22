@@ -22,12 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuthorizerConfig(authorizerConfig)`](#fn-withauthorizerconfig)
+* [`fn withAuthorizerConfigMixin(authorizerConfig)`](#fn-withauthorizerconfigmixin)
 * [`fn withDomainConfigurationName(domainConfigurationName)`](#fn-withdomainconfigurationname)
 * [`fn withDomainConfigurationStatus(domainConfigurationStatus)`](#fn-withdomainconfigurationstatus)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withServerCertificateArns(serverCertificateArns)`](#fn-withservercertificatearns)
+* [`fn withServerCertificateArnsMixin(serverCertificateArns)`](#fn-withservercertificatearnsmixin)
 * [`fn withServiceType(serviceType)`](#fn-withservicetype)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withValidationCertificateArn(validationCertificateArn)`](#fn-withvalidationcertificatearn)
 
 ## Fields
@@ -144,6 +147,14 @@ withAuthorizerConfig(authorizerConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-domainconfiguration.html#cfn-iot-domainconfiguration-authorizerconfig
 
+### fn withAuthorizerConfigMixin
+
+```ts
+withAuthorizerConfigMixin(authorizerConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-domainconfiguration.html#cfn-iot-domainconfiguration-authorizerconfig
+
 ### fn withDomainConfigurationName
 
 ```ts
@@ -176,6 +187,14 @@ withServerCertificateArns(serverCertificateArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-domainconfiguration.html#cfn-iot-domainconfiguration-servercertificatearns
 
+### fn withServerCertificateArnsMixin
+
+```ts
+withServerCertificateArnsMixin(serverCertificateArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-domainconfiguration.html#cfn-iot-domainconfiguration-servercertificatearns
+
 ### fn withServiceType
 
 ```ts
@@ -188,6 +207,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-domainconfiguration.html#cfn-iot-domainconfiguration-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-domainconfiguration.html#cfn-iot-domainconfiguration-tags

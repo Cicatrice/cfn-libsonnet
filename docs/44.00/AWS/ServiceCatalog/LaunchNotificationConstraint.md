@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn withAcceptLanguage(acceptLanguage)`](#fn-withacceptlanguage)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withNotificationArns(notificationArns)`](#fn-withnotificationarns)
+* [`fn withNotificationArnsMixin(notificationArns)`](#fn-withnotificationarnsmixin)
 * [`fn withPortfolioId(portfolioId)`](#fn-withportfolioid)
 * [`fn withProductId(productId)`](#fn-withproductid)
 
@@ -153,6 +154,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 
 ```ts
 withNotificationArns(notificationArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-notificationarns
+
+### fn withNotificationArnsMixin
+
+```ts
+withNotificationArnsMixin(notificationArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-notificationarns

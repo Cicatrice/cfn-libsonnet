@@ -26,8 +26,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athe
 * [`fn withRecursiveDeleteOption(recursiveDeleteOption)`](#fn-withrecursivedeleteoption)
 * [`fn withState(state)`](#fn-withstate)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withWorkGroupConfiguration(workGroupConfiguration)`](#fn-withworkgroupconfiguration)
+* [`fn withWorkGroupConfigurationMixin(workGroupConfiguration)`](#fn-withworkgroupconfigurationmixin)
 * [`fn withWorkGroupConfigurationUpdates(workGroupConfigurationUpdates)`](#fn-withworkgroupconfigurationupdates)
+* [`fn withWorkGroupConfigurationUpdatesMixin(workGroupConfigurationUpdates)`](#fn-withworkgroupconfigurationupdatesmixin)
 
 ## Fields
 
@@ -175,6 +178,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-workgroup.html#cfn-athena-workgroup-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-workgroup.html#cfn-athena-workgroup-tags
+
 ### fn withWorkGroupConfiguration
 
 ```ts
@@ -183,10 +194,26 @@ withWorkGroupConfiguration(workGroupConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-workgroup.html#cfn-athena-workgroup-workgroupconfiguration
 
+### fn withWorkGroupConfigurationMixin
+
+```ts
+withWorkGroupConfigurationMixin(workGroupConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-workgroup.html#cfn-athena-workgroup-workgroupconfiguration
+
 ### fn withWorkGroupConfigurationUpdates
 
 ```ts
 withWorkGroupConfigurationUpdates(workGroupConfigurationUpdates)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-workgroup.html#cfn-athena-workgroup-workgroupconfigurationupdates
+
+### fn withWorkGroupConfigurationUpdatesMixin
+
+```ts
+withWorkGroupConfigurationUpdatesMixin(workGroupConfigurationUpdates)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-workgroup.html#cfn-athena-workgroup-workgroupconfigurationupdates

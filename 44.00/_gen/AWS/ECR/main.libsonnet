@@ -1,8 +1,8 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ECR', url='', help=''),
-  PublicRepository: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ECR/PublicRepository.libsonnet'),
-  RegistryPolicy: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ECR/RegistryPolicy.libsonnet'),
-  ReplicationConfiguration: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ECR/ReplicationConfiguration.libsonnet'),
-  Repository: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/ECR/Repository.libsonnet'),
+  PublicRepository:: (import 'PublicRepository.libsonnet'),
+  RegistryPolicy:: (import 'RegistryPolicy.libsonnet'),
+  ReplicationConfiguration:: (import 'ReplicationConfiguration.libsonnet'),
+  Repository:: (import 'Repository.libsonnet'),
 }

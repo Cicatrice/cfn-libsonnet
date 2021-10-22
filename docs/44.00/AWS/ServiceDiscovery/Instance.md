@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withInstanceAttributes(instanceAttributes)`](#fn-withinstanceattributes)
+* [`fn withInstanceAttributesMixin(instanceAttributes)`](#fn-withinstanceattributesmixin)
 * [`fn withInstanceId(instanceId)`](#fn-withinstanceid)
 * [`fn withServiceId(serviceId)`](#fn-withserviceid)
 
@@ -135,6 +136,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withInstanceAttributes(instanceAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-instance.html#cfn-servicediscovery-instance-instanceattributes
+
+### fn withInstanceAttributesMixin
+
+```ts
+withInstanceAttributesMixin(instanceAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-instance.html#cfn-servicediscovery-instance-instanceattributes

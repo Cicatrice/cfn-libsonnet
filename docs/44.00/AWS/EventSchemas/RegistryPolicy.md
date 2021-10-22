@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-even
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withPolicy(policy)`](#fn-withpolicy)
+* [`fn withPolicyMixin(policy)`](#fn-withpolicymixin)
 * [`fn withRegistryName(registryName)`](#fn-withregistryname)
 * [`fn withRevisionId(revisionId)`](#fn-withrevisionid)
 
@@ -135,6 +136,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withPolicy(policy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-registrypolicy.html#cfn-eventschemas-registrypolicy-policy
+
+### fn withPolicyMixin
+
+```ts
+withPolicyMixin(policy)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-registrypolicy.html#cfn-eventschemas-registrypolicy-policy

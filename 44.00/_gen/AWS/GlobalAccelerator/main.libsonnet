@@ -1,7 +1,7 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='GlobalAccelerator', url='', help=''),
-  Accelerator: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/GlobalAccelerator/Accelerator.libsonnet'),
-  EndpointGroup: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/GlobalAccelerator/EndpointGroup.libsonnet'),
-  Listener: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/GlobalAccelerator/Listener.libsonnet'),
+  Accelerator:: (import 'Accelerator.libsonnet'),
+  EndpointGroup:: (import 'EndpointGroup.libsonnet'),
+  Listener:: (import 'Listener.libsonnet'),
 }

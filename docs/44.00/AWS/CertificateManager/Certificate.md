@@ -25,8 +25,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cert
 * [`fn withCertificateTransparencyLoggingPreference(certificateTransparencyLoggingPreference)`](#fn-withcertificatetransparencyloggingpreference)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withDomainValidationOptions(domainValidationOptions)`](#fn-withdomainvalidationoptions)
+* [`fn withDomainValidationOptionsMixin(domainValidationOptions)`](#fn-withdomainvalidationoptionsmixin)
 * [`fn withSubjectAlternativeNames(subjectAlternativeNames)`](#fn-withsubjectalternativenames)
+* [`fn withSubjectAlternativeNamesMixin(subjectAlternativeNames)`](#fn-withsubjectalternativenamesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withValidationMethod(validationMethod)`](#fn-withvalidationmethod)
 
 ## Fields
@@ -167,6 +170,14 @@ withDomainValidationOptions(domainValidationOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html#cfn-certificatemanager-certificate-domainvalidationoptions
 
+### fn withDomainValidationOptionsMixin
+
+```ts
+withDomainValidationOptionsMixin(domainValidationOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html#cfn-certificatemanager-certificate-domainvalidationoptions
+
 ### fn withSubjectAlternativeNames
 
 ```ts
@@ -175,10 +186,26 @@ withSubjectAlternativeNames(subjectAlternativeNames)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html#cfn-certificatemanager-certificate-subjectalternativenames
 
+### fn withSubjectAlternativeNamesMixin
+
+```ts
+withSubjectAlternativeNamesMixin(subjectAlternativeNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html#cfn-certificatemanager-certificate-subjectalternativenames
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html#cfn-certificatemanager-certificate-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-certificatemanager-certificate.html#cfn-certificatemanager-certificate-tags

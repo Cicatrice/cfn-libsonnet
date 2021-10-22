@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withParameterGroupName(parameterGroupName)`](#fn-withparametergroupname)
 * [`fn withParameterNameValues(parameterNameValues)`](#fn-withparameternamevalues)
+* [`fn withParameterNameValuesMixin(parameterNameValues)`](#fn-withparameternamevaluesmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-
 
 ```ts
 withParameterNameValues(parameterNameValues)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-parametergroup.html#cfn-dax-parametergroup-parameternamevalues
+
+### fn withParameterNameValuesMixin
+
+```ts
+withParameterNameValuesMixin(parameterNameValues)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-parametergroup.html#cfn-dax-parametergroup-parameternamevalues

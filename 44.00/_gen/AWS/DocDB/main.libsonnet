@@ -1,8 +1,8 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DocDB', url='', help=''),
-  DBCluster: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/DocDB/DBCluster.libsonnet'),
-  DBClusterParameterGroup: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/DocDB/DBClusterParameterGroup.libsonnet'),
-  DBInstance: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/DocDB/DBInstance.libsonnet'),
-  DBSubnetGroup: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/DocDB/DBSubnetGroup.libsonnet'),
+  DBCluster:: (import 'DBCluster.libsonnet'),
+  DBClusterParameterGroup:: (import 'DBClusterParameterGroup.libsonnet'),
+  DBInstance:: (import 'DBInstance.libsonnet'),
+  DBSubnetGroup:: (import 'DBSubnetGroup.libsonnet'),
 }

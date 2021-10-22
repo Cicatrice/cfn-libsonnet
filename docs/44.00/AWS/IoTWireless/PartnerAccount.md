@@ -26,8 +26,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotw
 * [`fn withPartnerAccountId(partnerAccountId)`](#fn-withpartneraccountid)
 * [`fn withPartnerType(partnerType)`](#fn-withpartnertype)
 * [`fn withSidewalk(sidewalk)`](#fn-withsidewalk)
+* [`fn withSidewalkMixin(sidewalk)`](#fn-withsidewalkmixin)
 * [`fn withSidewalkUpdate(sidewalkUpdate)`](#fn-withsidewalkupdate)
+* [`fn withSidewalkUpdateMixin(sidewalkUpdate)`](#fn-withsidewalkupdatemixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -175,6 +178,14 @@ withSidewalk(sidewalk)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-sidewalk
 
+### fn withSidewalkMixin
+
+```ts
+withSidewalkMixin(sidewalk)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-sidewalk
+
 ### fn withSidewalkUpdate
 
 ```ts
@@ -183,10 +194,26 @@ withSidewalkUpdate(sidewalkUpdate)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-sidewalkupdate
 
+### fn withSidewalkUpdateMixin
+
+```ts
+withSidewalkUpdateMixin(sidewalkUpdate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-sidewalkupdate
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-partneraccount.html#cfn-iotwireless-partneraccount-tags

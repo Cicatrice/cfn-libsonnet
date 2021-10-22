@@ -23,10 +23,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withFormat(format)`](#fn-withformat)
 * [`fn withFormatOptions(formatOptions)`](#fn-withformatoptions)
+* [`fn withFormatOptionsMixin(formatOptions)`](#fn-withformatoptionsmixin)
 * [`fn withInput(input)`](#fn-withinput)
+* [`fn withInputMixin(input)`](#fn-withinputmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPathOptions(pathOptions)`](#fn-withpathoptions)
+* [`fn withPathOptionsMixin(pathOptions)`](#fn-withpathoptionsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -150,10 +154,26 @@ withFormatOptions(formatOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-formatoptions
 
+### fn withFormatOptionsMixin
+
+```ts
+withFormatOptionsMixin(formatOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-formatoptions
+
 ### fn withInput
 
 ```ts
 withInput(input)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-input
+
+### fn withInputMixin
+
+```ts
+withInputMixin(input)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-input
@@ -174,10 +194,26 @@ withPathOptions(pathOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-pathoptions
 
+### fn withPathOptionsMixin
+
+```ts
+withPathOptionsMixin(pathOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-pathoptions
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-tags

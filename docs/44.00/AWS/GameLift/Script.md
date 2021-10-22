@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withStorageLocation(storageLocation)`](#fn-withstoragelocation)
+* [`fn withStorageLocationMixin(storageLocation)`](#fn-withstoragelocationmixin)
 * [`fn withVersion(version)`](#fn-withversion)
 
 ## Fields
@@ -143,6 +144,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-game
 
 ```ts
 withStorageLocation(storageLocation)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-script.html#cfn-gamelift-script-storagelocation
+
+### fn withStorageLocationMixin
+
+```ts
+withStorageLocationMixin(storageLocation)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-script.html#cfn-gamelift-script-storagelocation

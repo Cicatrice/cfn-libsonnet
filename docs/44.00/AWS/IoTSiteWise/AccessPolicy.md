@@ -22,8 +22,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessPolicyIdentity(accessPolicyIdentity)`](#fn-withaccesspolicyidentity)
+* [`fn withAccessPolicyIdentityMixin(accessPolicyIdentity)`](#fn-withaccesspolicyidentitymixin)
 * [`fn withAccessPolicyPermission(accessPolicyPermission)`](#fn-withaccesspolicypermission)
 * [`fn withAccessPolicyResource(accessPolicyResource)`](#fn-withaccesspolicyresource)
+* [`fn withAccessPolicyResourceMixin(accessPolicyResource)`](#fn-withaccesspolicyresourcemixin)
 
 ## Fields
 
@@ -139,6 +141,14 @@ withAccessPolicyIdentity(accessPolicyIdentity)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-accesspolicy.html#cfn-iotsitewise-accesspolicy-accesspolicyidentity
 
+### fn withAccessPolicyIdentityMixin
+
+```ts
+withAccessPolicyIdentityMixin(accessPolicyIdentity)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-accesspolicy.html#cfn-iotsitewise-accesspolicy-accesspolicyidentity
+
 ### fn withAccessPolicyPermission
 
 ```ts
@@ -151,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 
 ```ts
 withAccessPolicyResource(accessPolicyResource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-accesspolicy.html#cfn-iotsitewise-accesspolicy-accesspolicyresource
+
+### fn withAccessPolicyResourceMixin
+
+```ts
+withAccessPolicyResourceMixin(accessPolicyResource)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-accesspolicy.html#cfn-iotsitewise-accesspolicy-accesspolicyresource

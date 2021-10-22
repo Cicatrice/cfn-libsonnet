@@ -24,14 +24,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn withAllowClassicFlow(allowClassicFlow)`](#fn-withallowclassicflow)
 * [`fn withAllowUnauthenticatedIdentities(allowUnauthenticatedIdentities)`](#fn-withallowunauthenticatedidentities)
 * [`fn withCognitoEvents(cognitoEvents)`](#fn-withcognitoevents)
+* [`fn withCognitoEventsMixin(cognitoEvents)`](#fn-withcognitoeventsmixin)
 * [`fn withCognitoIdentityProviders(cognitoIdentityProviders)`](#fn-withcognitoidentityproviders)
+* [`fn withCognitoIdentityProvidersMixin(cognitoIdentityProviders)`](#fn-withcognitoidentityprovidersmixin)
 * [`fn withCognitoStreams(cognitoStreams)`](#fn-withcognitostreams)
+* [`fn withCognitoStreamsMixin(cognitoStreams)`](#fn-withcognitostreamsmixin)
 * [`fn withDeveloperProviderName(developerProviderName)`](#fn-withdeveloperprovidername)
 * [`fn withIdentityPoolName(identityPoolName)`](#fn-withidentitypoolname)
 * [`fn withOpenIdConnectProviderARNs(openIdConnectProviderArns)`](#fn-withopenidconnectproviderarns)
+* [`fn withOpenIdConnectProviderARNsMixin(openIdConnectProviderArns)`](#fn-withopenidconnectproviderarnsmixin)
 * [`fn withPushSync(pushSync)`](#fn-withpushsync)
+* [`fn withPushSyncMixin(pushSync)`](#fn-withpushsyncmixin)
 * [`fn withSamlProviderARNs(samlProviderArns)`](#fn-withsamlproviderarns)
+* [`fn withSamlProviderARNsMixin(samlProviderArns)`](#fn-withsamlproviderarnsmixin)
 * [`fn withSupportedLoginProviders(supportedLoginProviders)`](#fn-withsupportedloginproviders)
+* [`fn withSupportedLoginProvidersMixin(supportedLoginProviders)`](#fn-withsupportedloginprovidersmixin)
 
 ## Fields
 
@@ -163,6 +170,14 @@ withCognitoEvents(cognitoEvents)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-cognitoevents
 
+### fn withCognitoEventsMixin
+
+```ts
+withCognitoEventsMixin(cognitoEvents)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-cognitoevents
+
 ### fn withCognitoIdentityProviders
 
 ```ts
@@ -171,10 +186,26 @@ withCognitoIdentityProviders(cognitoIdentityProviders)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-cognitoidentityproviders
 
+### fn withCognitoIdentityProvidersMixin
+
+```ts
+withCognitoIdentityProvidersMixin(cognitoIdentityProviders)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-cognitoidentityproviders
+
 ### fn withCognitoStreams
 
 ```ts
 withCognitoStreams(cognitoStreams)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-cognitostreams
+
+### fn withCognitoStreamsMixin
+
+```ts
+withCognitoStreamsMixin(cognitoStreams)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-cognitostreams
@@ -203,10 +234,26 @@ withOpenIdConnectProviderARNs(openIdConnectProviderArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-openidconnectproviderarns
 
+### fn withOpenIdConnectProviderARNsMixin
+
+```ts
+withOpenIdConnectProviderARNsMixin(openIdConnectProviderArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-openidconnectproviderarns
+
 ### fn withPushSync
 
 ```ts
 withPushSync(pushSync)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-pushsync
+
+### fn withPushSyncMixin
+
+```ts
+withPushSyncMixin(pushSync)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-pushsync
@@ -219,10 +266,26 @@ withSamlProviderARNs(samlProviderArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-samlproviderarns
 
+### fn withSamlProviderARNsMixin
+
+```ts
+withSamlProviderARNsMixin(samlProviderArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-samlproviderarns
+
 ### fn withSupportedLoginProviders
 
 ```ts
 withSupportedLoginProviders(supportedLoginProviders)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-supportedloginproviders
+
+### fn withSupportedLoginProvidersMixin
+
+```ts
+withSupportedLoginProvidersMixin(supportedLoginProviders)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-identitypool.html#cfn-cognito-identitypool-supportedloginproviders

@@ -22,9 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDBSecurityGroupIngress(dbsecurityGroupIngress)`](#fn-withdbsecuritygroupingress)
+* [`fn withDBSecurityGroupIngressMixin(dbsecurityGroupIngress)`](#fn-withdbsecuritygroupingressmixin)
 * [`fn withEC2VpcId(ec2vpcId)`](#fn-withec2vpcid)
 * [`fn withGroupDescription(groupDescription)`](#fn-withgroupdescription)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -140,6 +142,14 @@ withDBSecurityGroupIngress(dbsecurityGroupIngress)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-dbsecuritygroupingress
 
+### fn withDBSecurityGroupIngressMixin
+
+```ts
+withDBSecurityGroupIngressMixin(dbsecurityGroupIngress)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-dbsecuritygroupingress
+
 ### fn withEC2VpcId
 
 ```ts
@@ -160,6 +170,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-tags

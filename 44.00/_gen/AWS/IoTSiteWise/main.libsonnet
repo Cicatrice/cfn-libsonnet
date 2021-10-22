@@ -1,11 +1,11 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='IoTSiteWise', url='', help=''),
-  AccessPolicy: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoTSiteWise/AccessPolicy.libsonnet'),
-  Asset: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoTSiteWise/Asset.libsonnet'),
-  AssetModel: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoTSiteWise/AssetModel.libsonnet'),
-  Dashboard: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoTSiteWise/Dashboard.libsonnet'),
-  Gateway: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoTSiteWise/Gateway.libsonnet'),
-  Portal: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoTSiteWise/Portal.libsonnet'),
-  Project: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/IoTSiteWise/Project.libsonnet'),
+  AccessPolicy:: (import 'AccessPolicy.libsonnet'),
+  Asset:: (import 'Asset.libsonnet'),
+  AssetModel:: (import 'AssetModel.libsonnet'),
+  Dashboard:: (import 'Dashboard.libsonnet'),
+  Gateway:: (import 'Gateway.libsonnet'),
+  Portal:: (import 'Portal.libsonnet'),
+  Project:: (import 'Project.libsonnet'),
 }

@@ -22,12 +22,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdditionalInstanceConfiguration(additionalInstanceConfiguration)`](#fn-withadditionalinstanceconfiguration)
+* [`fn withAdditionalInstanceConfigurationMixin(additionalInstanceConfiguration)`](#fn-withadditionalinstanceconfigurationmixin)
 * [`fn withBlockDeviceMappings(blockDeviceMappings)`](#fn-withblockdevicemappings)
+* [`fn withBlockDeviceMappingsMixin(blockDeviceMappings)`](#fn-withblockdevicemappingsmixin)
 * [`fn withComponents(components)`](#fn-withcomponents)
+* [`fn withComponentsMixin(components)`](#fn-withcomponentsmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withParentImage(parentImage)`](#fn-withparentimage)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVersion(version)`](#fn-withversion)
 * [`fn withWorkingDirectory(workingDirectory)`](#fn-withworkingdirectory)
 
@@ -145,6 +149,14 @@ withAdditionalInstanceConfiguration(additionalInstanceConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-additionalinstanceconfiguration
 
+### fn withAdditionalInstanceConfigurationMixin
+
+```ts
+withAdditionalInstanceConfigurationMixin(additionalInstanceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-additionalinstanceconfiguration
+
 ### fn withBlockDeviceMappings
 
 ```ts
@@ -153,10 +165,26 @@ withBlockDeviceMappings(blockDeviceMappings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-blockdevicemappings
 
+### fn withBlockDeviceMappingsMixin
+
+```ts
+withBlockDeviceMappingsMixin(blockDeviceMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-blockdevicemappings
+
 ### fn withComponents
 
 ```ts
 withComponents(components)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-components
+
+### fn withComponentsMixin
+
+```ts
+withComponentsMixin(components)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-components
@@ -189,6 +217,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagerecipe.html#cfn-imagebuilder-imagerecipe-tags

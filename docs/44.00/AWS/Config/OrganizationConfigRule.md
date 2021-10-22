@@ -22,9 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withExcludedAccounts(excludedAccounts)`](#fn-withexcludedaccounts)
+* [`fn withExcludedAccountsMixin(excludedAccounts)`](#fn-withexcludedaccountsmixin)
 * [`fn withOrganizationConfigRuleName(organizationConfigRuleName)`](#fn-withorganizationconfigrulename)
 * [`fn withOrganizationCustomRuleMetadata(organizationCustomRuleMetadata)`](#fn-withorganizationcustomrulemetadata)
+* [`fn withOrganizationCustomRuleMetadataMixin(organizationCustomRuleMetadata)`](#fn-withorganizationcustomrulemetadatamixin)
 * [`fn withOrganizationManagedRuleMetadata(organizationManagedRuleMetadata)`](#fn-withorganizationmanagedrulemetadata)
+* [`fn withOrganizationManagedRuleMetadataMixin(organizationManagedRuleMetadata)`](#fn-withorganizationmanagedrulemetadatamixin)
 
 ## Fields
 
@@ -140,6 +143,14 @@ withExcludedAccounts(excludedAccounts)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconfigrule.html#cfn-config-organizationconfigrule-excludedaccounts
 
+### fn withExcludedAccountsMixin
+
+```ts
+withExcludedAccountsMixin(excludedAccounts)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconfigrule.html#cfn-config-organizationconfigrule-excludedaccounts
+
 ### fn withOrganizationConfigRuleName
 
 ```ts
@@ -156,10 +167,26 @@ withOrganizationCustomRuleMetadata(organizationCustomRuleMetadata)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconfigrule.html#cfn-config-organizationconfigrule-organizationcustomrulemetadata
 
+### fn withOrganizationCustomRuleMetadataMixin
+
+```ts
+withOrganizationCustomRuleMetadataMixin(organizationCustomRuleMetadata)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconfigrule.html#cfn-config-organizationconfigrule-organizationcustomrulemetadata
+
 ### fn withOrganizationManagedRuleMetadata
 
 ```ts
 withOrganizationManagedRuleMetadata(organizationManagedRuleMetadata)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconfigrule.html#cfn-config-organizationconfigrule-organizationmanagedrulemetadata
+
+### fn withOrganizationManagedRuleMetadataMixin
+
+```ts
+withOrganizationManagedRuleMetadataMixin(organizationManagedRuleMetadata)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-organizationconfigrule.html#cfn-config-organizationconfigrule-organizationmanagedrulemetadata

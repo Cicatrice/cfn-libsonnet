@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn withAutoPublish(autoPublish)`](#fn-withautopublish)
 * [`fn withFunctionCode(functionCode)`](#fn-withfunctioncode)
 * [`fn withFunctionConfig(functionConfig)`](#fn-withfunctionconfig)
+* [`fn withFunctionConfigMixin(functionConfig)`](#fn-withfunctionconfigmixin)
 * [`fn withFunctionMetadata(functionMetadata)`](#fn-withfunctionmetadata)
+* [`fn withFunctionMetadataMixin(functionMetadata)`](#fn-withfunctionmetadatamixin)
 * [`fn withName(name)`](#fn-withname)
 
 ## Fields
@@ -157,10 +159,26 @@ withFunctionConfig(functionConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-functionconfig
 
+### fn withFunctionConfigMixin
+
+```ts
+withFunctionConfigMixin(functionConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-functionconfig
+
 ### fn withFunctionMetadata
 
 ```ts
 withFunctionMetadata(functionMetadata)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-functionmetadata
+
+### fn withFunctionMetadataMixin
+
+```ts
+withFunctionMetadataMixin(functionMetadata)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-functionmetadata

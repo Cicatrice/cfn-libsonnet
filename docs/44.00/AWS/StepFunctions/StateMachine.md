@@ -22,15 +22,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-step
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDefinition(definition)`](#fn-withdefinition)
+* [`fn withDefinitionMixin(definition)`](#fn-withdefinitionmixin)
 * [`fn withDefinitionS3Location(definitionS3location)`](#fn-withdefinitions3location)
+* [`fn withDefinitionS3LocationMixin(definitionS3location)`](#fn-withdefinitions3locationmixin)
 * [`fn withDefinitionString(definitionString)`](#fn-withdefinitionstring)
 * [`fn withDefinitionSubstitutions(definitionSubstitutions)`](#fn-withdefinitionsubstitutions)
+* [`fn withDefinitionSubstitutionsMixin(definitionSubstitutions)`](#fn-withdefinitionsubstitutionsmixin)
 * [`fn withLoggingConfiguration(loggingConfiguration)`](#fn-withloggingconfiguration)
+* [`fn withLoggingConfigurationMixin(loggingConfiguration)`](#fn-withloggingconfigurationmixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withStateMachineName(stateMachineName)`](#fn-withstatemachinename)
 * [`fn withStateMachineType(stateMachineType)`](#fn-withstatemachinetype)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTracingConfiguration(tracingConfiguration)`](#fn-withtracingconfiguration)
+* [`fn withTracingConfigurationMixin(tracingConfiguration)`](#fn-withtracingconfigurationmixin)
 
 ## Fields
 
@@ -146,10 +152,26 @@ withDefinition(definition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-definition
 
+### fn withDefinitionMixin
+
+```ts
+withDefinitionMixin(definition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-definition
+
 ### fn withDefinitionS3Location
 
 ```ts
 withDefinitionS3Location(definitionS3location)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-definitions3location
+
+### fn withDefinitionS3LocationMixin
+
+```ts
+withDefinitionS3LocationMixin(definitionS3location)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-definitions3location
@@ -170,10 +192,26 @@ withDefinitionSubstitutions(definitionSubstitutions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-definitionsubstitutions
 
+### fn withDefinitionSubstitutionsMixin
+
+```ts
+withDefinitionSubstitutionsMixin(definitionSubstitutions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-definitionsubstitutions
+
 ### fn withLoggingConfiguration
 
 ```ts
 withLoggingConfiguration(loggingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-loggingconfiguration
+
+### fn withLoggingConfigurationMixin
+
+```ts
+withLoggingConfigurationMixin(loggingConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-loggingconfiguration
@@ -210,10 +248,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-tags
+
 ### fn withTracingConfiguration
 
 ```ts
 withTracingConfiguration(tracingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-tracingconfiguration
+
+### fn withTracingConfigurationMixin
+
+```ts
+withTracingConfigurationMixin(tracingConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-stepfunctions-statemachine.html#cfn-stepfunctions-statemachine-tracingconfiguration

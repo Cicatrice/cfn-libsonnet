@@ -23,20 +23,26 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAllocatedCapacity(allocatedCapacity)`](#fn-withallocatedcapacity)
 * [`fn withCommand(command)`](#fn-withcommand)
+* [`fn withCommandMixin(command)`](#fn-withcommandmixin)
 * [`fn withConnections(connections)`](#fn-withconnections)
+* [`fn withConnectionsMixin(connections)`](#fn-withconnectionsmixin)
 * [`fn withDefaultArguments(defaultArguments)`](#fn-withdefaultarguments)
+* [`fn withDefaultArgumentsMixin(defaultArguments)`](#fn-withdefaultargumentsmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withExecutionProperty(executionProperty)`](#fn-withexecutionproperty)
+* [`fn withExecutionPropertyMixin(executionProperty)`](#fn-withexecutionpropertymixin)
 * [`fn withGlueVersion(glueVersion)`](#fn-withglueversion)
 * [`fn withLogUri(logUri)`](#fn-withloguri)
 * [`fn withMaxCapacity(maxCapacity)`](#fn-withmaxcapacity)
 * [`fn withMaxRetries(maxRetries)`](#fn-withmaxretries)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withNotificationProperty(notificationProperty)`](#fn-withnotificationproperty)
+* [`fn withNotificationPropertyMixin(notificationProperty)`](#fn-withnotificationpropertymixin)
 * [`fn withNumberOfWorkers(numberOfWorkers)`](#fn-withnumberofworkers)
 * [`fn withRole(role)`](#fn-withrole)
 * [`fn withSecurityConfiguration(securityConfiguration)`](#fn-withsecurityconfiguration)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeout(timeout)`](#fn-withtimeout)
 * [`fn withWorkerType(workerType)`](#fn-withworkertype)
 
@@ -162,6 +168,14 @@ withCommand(command)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-command
 
+### fn withCommandMixin
+
+```ts
+withCommandMixin(command)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-command
+
 ### fn withConnections
 
 ```ts
@@ -170,10 +184,26 @@ withConnections(connections)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-connections
 
+### fn withConnectionsMixin
+
+```ts
+withConnectionsMixin(connections)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-connections
+
 ### fn withDefaultArguments
 
 ```ts
 withDefaultArguments(defaultArguments)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-defaultarguments
+
+### fn withDefaultArgumentsMixin
+
+```ts
+withDefaultArgumentsMixin(defaultArguments)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-defaultarguments
@@ -190,6 +220,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withExecutionProperty(executionProperty)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-executionproperty
+
+### fn withExecutionPropertyMixin
+
+```ts
+withExecutionPropertyMixin(executionProperty)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-executionproperty
@@ -242,6 +280,14 @@ withNotificationProperty(notificationProperty)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-notificationproperty
 
+### fn withNotificationPropertyMixin
+
+```ts
+withNotificationPropertyMixin(notificationProperty)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-notificationproperty
+
 ### fn withNumberOfWorkers
 
 ```ts
@@ -270,6 +316,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-tags

@@ -1,9 +1,9 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='MediaPackage', url='', help=''),
-  Asset: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/MediaPackage/Asset.libsonnet'),
-  Channel: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/MediaPackage/Channel.libsonnet'),
-  OriginEndpoint: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/MediaPackage/OriginEndpoint.libsonnet'),
-  PackagingConfiguration: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/MediaPackage/PackagingConfiguration.libsonnet'),
-  PackagingGroup: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/MediaPackage/PackagingGroup.libsonnet'),
+  Asset:: (import 'Asset.libsonnet'),
+  Channel:: (import 'Channel.libsonnet'),
+  OriginEndpoint:: (import 'OriginEndpoint.libsonnet'),
+  PackagingConfiguration:: (import 'PackagingConfiguration.libsonnet'),
+  PackagingGroup:: (import 'PackagingGroup.libsonnet'),
 }

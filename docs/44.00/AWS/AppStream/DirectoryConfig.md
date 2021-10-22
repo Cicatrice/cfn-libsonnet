@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDirectoryName(directoryName)`](#fn-withdirectoryname)
 * [`fn withOrganizationalUnitDistinguishedNames(organizationalUnitDistinguishedNames)`](#fn-withorganizationalunitdistinguishednames)
+* [`fn withOrganizationalUnitDistinguishedNamesMixin(organizationalUnitDistinguishedNames)`](#fn-withorganizationalunitdistinguishednamesmixin)
 * [`fn withServiceAccountCredentials(serviceAccountCredentials)`](#fn-withserviceaccountcredentials)
+* [`fn withServiceAccountCredentialsMixin(serviceAccountCredentials)`](#fn-withserviceaccountcredentialsmixin)
 
 ## Fields
 
@@ -147,10 +149,26 @@ withOrganizationalUnitDistinguishedNames(organizationalUnitDistinguishedNames)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-organizationalunitdistinguishednames
 
+### fn withOrganizationalUnitDistinguishedNamesMixin
+
+```ts
+withOrganizationalUnitDistinguishedNamesMixin(organizationalUnitDistinguishedNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-organizationalunitdistinguishednames
+
 ### fn withServiceAccountCredentials
 
 ```ts
 withServiceAccountCredentials(serviceAccountCredentials)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-serviceaccountcredentials
+
+### fn withServiceAccountCredentialsMixin
+
+```ts
+withServiceAccountCredentialsMixin(serviceAccountCredentials)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-serviceaccountcredentials

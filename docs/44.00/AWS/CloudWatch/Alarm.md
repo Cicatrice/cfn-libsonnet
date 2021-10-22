@@ -23,19 +23,24 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActionsEnabled(actionsEnabled)`](#fn-withactionsenabled)
 * [`fn withAlarmActions(alarmActions)`](#fn-withalarmactions)
+* [`fn withAlarmActionsMixin(alarmActions)`](#fn-withalarmactionsmixin)
 * [`fn withAlarmDescription(alarmDescription)`](#fn-withalarmdescription)
 * [`fn withAlarmName(alarmName)`](#fn-withalarmname)
 * [`fn withComparisonOperator(comparisonOperator)`](#fn-withcomparisonoperator)
 * [`fn withDatapointsToAlarm(datapointsToAlarm)`](#fn-withdatapointstoalarm)
 * [`fn withDimensions(dimensions)`](#fn-withdimensions)
+* [`fn withDimensionsMixin(dimensions)`](#fn-withdimensionsmixin)
 * [`fn withEvaluateLowSampleCountPercentile(evaluateLowSampleCountPercentile)`](#fn-withevaluatelowsamplecountpercentile)
 * [`fn withEvaluationPeriods(evaluationPeriods)`](#fn-withevaluationperiods)
 * [`fn withExtendedStatistic(extendedStatistic)`](#fn-withextendedstatistic)
 * [`fn withInsufficientDataActions(insufficientDataActions)`](#fn-withinsufficientdataactions)
+* [`fn withInsufficientDataActionsMixin(insufficientDataActions)`](#fn-withinsufficientdataactionsmixin)
 * [`fn withMetricName(metricName)`](#fn-withmetricname)
 * [`fn withMetrics(metrics)`](#fn-withmetrics)
+* [`fn withMetricsMixin(metrics)`](#fn-withmetricsmixin)
 * [`fn withNamespace(namespace)`](#fn-withnamespace)
 * [`fn withOKActions(okactions)`](#fn-withokactions)
+* [`fn withOKActionsMixin(okactions)`](#fn-withokactionsmixin)
 * [`fn withPeriod(period)`](#fn-withperiod)
 * [`fn withStatistic(statistic)`](#fn-withstatistic)
 * [`fn withThreshold(threshold)`](#fn-withthreshold)
@@ -165,6 +170,14 @@ withAlarmActions(alarmActions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-alarmactions
 
+### fn withAlarmActionsMixin
+
+```ts
+withAlarmActionsMixin(alarmActions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-alarmactions
+
 ### fn withAlarmDescription
 
 ```ts
@@ -205,6 +218,14 @@ withDimensions(dimensions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-dimension
 
+### fn withDimensionsMixin
+
+```ts
+withDimensionsMixin(dimensions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-dimension
+
 ### fn withEvaluateLowSampleCountPercentile
 
 ```ts
@@ -237,6 +258,14 @@ withInsufficientDataActions(insufficientDataActions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-insufficientdataactions
 
+### fn withInsufficientDataActionsMixin
+
+```ts
+withInsufficientDataActionsMixin(insufficientDataActions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-insufficientdataactions
+
 ### fn withMetricName
 
 ```ts
@@ -253,6 +282,14 @@ withMetrics(metrics)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarm-metrics
 
+### fn withMetricsMixin
+
+```ts
+withMetricsMixin(metrics)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarm-metrics
+
 ### fn withNamespace
 
 ```ts
@@ -265,6 +302,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw
 
 ```ts
 withOKActions(okactions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-okactions
+
+### fn withOKActionsMixin
+
+```ts
+withOKActionsMixin(okactions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-okactions

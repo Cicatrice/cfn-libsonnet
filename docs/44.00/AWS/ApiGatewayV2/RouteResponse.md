@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withApiId(apiId)`](#fn-withapiid)
 * [`fn withModelSelectionExpression(modelSelectionExpression)`](#fn-withmodelselectionexpression)
 * [`fn withResponseModels(responseModels)`](#fn-withresponsemodels)
+* [`fn withResponseModelsMixin(responseModels)`](#fn-withresponsemodelsmixin)
 * [`fn withResponseParameters(responseParameters)`](#fn-withresponseparameters)
+* [`fn withResponseParametersMixin(responseParameters)`](#fn-withresponseparametersmixin)
 * [`fn withRouteId(routeId)`](#fn-withrouteid)
 * [`fn withRouteResponseKey(routeResponseKey)`](#fn-withrouteresponsekey)
 
@@ -158,10 +160,26 @@ withResponseModels(responseModels)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html#cfn-apigatewayv2-routeresponse-responsemodels
 
+### fn withResponseModelsMixin
+
+```ts
+withResponseModelsMixin(responseModels)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html#cfn-apigatewayv2-routeresponse-responsemodels
+
 ### fn withResponseParameters
 
 ```ts
 withResponseParameters(responseParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html#cfn-apigatewayv2-routeresponse-responseparameters
+
+### fn withResponseParametersMixin
+
+```ts
+withResponseParametersMixin(responseParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html#cfn-apigatewayv2-routeresponse-responseparameters

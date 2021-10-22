@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 * [`fn withInstanceProfileName(instanceProfileName)`](#fn-withinstanceprofilename)
 * [`fn withPath(path)`](#fn-withpath)
 * [`fn withRoles(roles)`](#fn-withroles)
+* [`fn withRolesMixin(roles)`](#fn-withrolesmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 
 ```ts
 withRoles(roles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-instanceprofile.html#cfn-iam-instanceprofile-roles
+
+### fn withRolesMixin
+
+```ts
+withRolesMixin(roles)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-instanceprofile.html#cfn-iam-instanceprofile-roles

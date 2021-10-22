@@ -22,8 +22,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withHttpUrlProperties(httpUrlProperties)`](#fn-withhttpurlproperties)
+* [`fn withHttpUrlPropertiesMixin(httpUrlProperties)`](#fn-withhttpurlpropertiesmixin)
 * [`fn withStatus(status)`](#fn-withstatus)
 * [`fn withVpcProperties(vpcProperties)`](#fn-withvpcproperties)
+* [`fn withVpcPropertiesMixin(vpcProperties)`](#fn-withvpcpropertiesmixin)
 
 ## Fields
 
@@ -139,6 +141,14 @@ withHttpUrlProperties(httpUrlProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-httpurlproperties
 
+### fn withHttpUrlPropertiesMixin
+
+```ts
+withHttpUrlPropertiesMixin(httpUrlProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-httpurlproperties
+
 ### fn withStatus
 
 ```ts
@@ -151,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 
 ```ts
 withVpcProperties(vpcProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-vpcproperties
+
+### fn withVpcPropertiesMixin
+
+```ts
+withVpcPropertiesMixin(vpcProperties)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-vpcproperties

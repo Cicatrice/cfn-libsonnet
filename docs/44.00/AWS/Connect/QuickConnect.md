@@ -25,7 +25,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conn
 * [`fn withInstanceArn(instanceArn)`](#fn-withinstancearn)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withQuickConnectConfig(quickConnectConfig)`](#fn-withquickconnectconfig)
+* [`fn withQuickConnectConfigMixin(quickConnectConfig)`](#fn-withquickconnectconfigmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -165,10 +167,26 @@ withQuickConnectConfig(quickConnectConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html#cfn-connect-quickconnect-quickconnectconfig
 
+### fn withQuickConnectConfigMixin
+
+```ts
+withQuickConnectConfigMixin(quickConnectConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html#cfn-connect-quickconnect-quickconnectconfig
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html#cfn-connect-quickconnect-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html#cfn-connect-quickconnect-tags

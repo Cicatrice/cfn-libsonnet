@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAllowedPublishers(allowedPublishers)`](#fn-withallowedpublishers)
+* [`fn withAllowedPublishersMixin(allowedPublishers)`](#fn-withallowedpublishersmixin)
 * [`fn withCodeSigningPolicies(codeSigningPolicies)`](#fn-withcodesigningpolicies)
+* [`fn withCodeSigningPoliciesMixin(codeSigningPolicies)`](#fn-withcodesigningpoliciesmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 
 ## Fields
@@ -139,10 +141,26 @@ withAllowedPublishers(allowedPublishers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-allowedpublishers
 
+### fn withAllowedPublishersMixin
+
+```ts
+withAllowedPublishersMixin(allowedPublishers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-allowedpublishers
+
 ### fn withCodeSigningPolicies
 
 ```ts
 withCodeSigningPolicies(codeSigningPolicies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-codesigningpolicies
+
+### fn withCodeSigningPoliciesMixin
+
+```ts
+withCodeSigningPoliciesMixin(codeSigningPolicies)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-codesigningpolicies

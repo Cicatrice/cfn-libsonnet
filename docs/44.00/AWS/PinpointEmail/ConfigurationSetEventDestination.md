@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConfigurationSetName(configurationSetName)`](#fn-withconfigurationsetname)
 * [`fn withEventDestination(eventDestination)`](#fn-witheventdestination)
+* [`fn withEventDestinationMixin(eventDestination)`](#fn-witheventdestinationmixin)
 * [`fn withEventDestinationName(eventDestinationName)`](#fn-witheventdestinationname)
 
 ## Fields
@@ -143,6 +144,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 
 ```ts
 withEventDestination(eventDestination)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationseteventdestination.html#cfn-pinpointemail-configurationseteventdestination-eventdestination
+
+### fn withEventDestinationMixin
+
+```ts
+withEventDestinationMixin(eventDestination)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpointemail-configurationseteventdestination.html#cfn-pinpointemail-configurationseteventdestination-eventdestination

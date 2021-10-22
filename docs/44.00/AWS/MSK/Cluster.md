@@ -22,16 +22,23 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBrokerNodeGroupInfo(brokerNodeGroupInfo)`](#fn-withbrokernodegroupinfo)
+* [`fn withBrokerNodeGroupInfoMixin(brokerNodeGroupInfo)`](#fn-withbrokernodegroupinfomixin)
 * [`fn withClientAuthentication(clientAuthentication)`](#fn-withclientauthentication)
+* [`fn withClientAuthenticationMixin(clientAuthentication)`](#fn-withclientauthenticationmixin)
 * [`fn withClusterName(clusterName)`](#fn-withclustername)
 * [`fn withConfigurationInfo(configurationInfo)`](#fn-withconfigurationinfo)
+* [`fn withConfigurationInfoMixin(configurationInfo)`](#fn-withconfigurationinfomixin)
 * [`fn withEncryptionInfo(encryptionInfo)`](#fn-withencryptioninfo)
+* [`fn withEncryptionInfoMixin(encryptionInfo)`](#fn-withencryptioninfomixin)
 * [`fn withEnhancedMonitoring(enhancedMonitoring)`](#fn-withenhancedmonitoring)
 * [`fn withKafkaVersion(kafkaVersion)`](#fn-withkafkaversion)
 * [`fn withLoggingInfo(loggingInfo)`](#fn-withlogginginfo)
+* [`fn withLoggingInfoMixin(loggingInfo)`](#fn-withlogginginfomixin)
 * [`fn withNumberOfBrokerNodes(numberOfBrokerNodes)`](#fn-withnumberofbrokernodes)
 * [`fn withOpenMonitoring(openMonitoring)`](#fn-withopenmonitoring)
+* [`fn withOpenMonitoringMixin(openMonitoring)`](#fn-withopenmonitoringmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -147,10 +154,26 @@ withBrokerNodeGroupInfo(brokerNodeGroupInfo)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-brokernodegroupinfo
 
+### fn withBrokerNodeGroupInfoMixin
+
+```ts
+withBrokerNodeGroupInfoMixin(brokerNodeGroupInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-brokernodegroupinfo
+
 ### fn withClientAuthentication
 
 ```ts
 withClientAuthentication(clientAuthentication)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-clientauthentication
+
+### fn withClientAuthenticationMixin
+
+```ts
+withClientAuthenticationMixin(clientAuthentication)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-clientauthentication
@@ -171,10 +194,26 @@ withConfigurationInfo(configurationInfo)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-configurationinfo
 
+### fn withConfigurationInfoMixin
+
+```ts
+withConfigurationInfoMixin(configurationInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-configurationinfo
+
 ### fn withEncryptionInfo
 
 ```ts
 withEncryptionInfo(encryptionInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-encryptioninfo
+
+### fn withEncryptionInfoMixin
+
+```ts
+withEncryptionInfoMixin(encryptionInfo)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-encryptioninfo
@@ -203,6 +242,14 @@ withLoggingInfo(loggingInfo)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-logginginfo
 
+### fn withLoggingInfoMixin
+
+```ts
+withLoggingInfoMixin(loggingInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-logginginfo
+
 ### fn withNumberOfBrokerNodes
 
 ```ts
@@ -219,10 +266,26 @@ withOpenMonitoring(openMonitoring)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-openmonitoring
 
+### fn withOpenMonitoringMixin
+
+```ts
+withOpenMonitoringMixin(openMonitoring)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-openmonitoring
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-cluster.html#cfn-msk-cluster-tags

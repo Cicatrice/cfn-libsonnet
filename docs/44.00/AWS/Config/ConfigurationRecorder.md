@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRecordingGroup(recordingGroup)`](#fn-withrecordinggroup)
+* [`fn withRecordingGroupMixin(recordingGroup)`](#fn-withrecordinggroupmixin)
 * [`fn withRoleARN(roleArn)`](#fn-withrolearn)
 
 ## Fields
@@ -143,6 +144,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 
 ```ts
 withRecordingGroup(recordingGroup)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationrecorder.html#cfn-config-configurationrecorder-recordinggroup
+
+### fn withRecordingGroupMixin
+
+```ts
+withRecordingGroupMixin(recordingGroup)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationrecorder.html#cfn-config-configurationrecorder-recordinggroup

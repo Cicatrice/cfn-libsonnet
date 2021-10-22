@@ -22,16 +22,25 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dyna
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAttributeDefinitions(attributeDefinitions)`](#fn-withattributedefinitions)
+* [`fn withAttributeDefinitionsMixin(attributeDefinitions)`](#fn-withattributedefinitionsmixin)
 * [`fn withBillingMode(billingMode)`](#fn-withbillingmode)
 * [`fn withGlobalSecondaryIndexes(globalSecondaryIndexes)`](#fn-withglobalsecondaryindexes)
+* [`fn withGlobalSecondaryIndexesMixin(globalSecondaryIndexes)`](#fn-withglobalsecondaryindexesmixin)
 * [`fn withKeySchema(keySchema)`](#fn-withkeyschema)
+* [`fn withKeySchemaMixin(keySchema)`](#fn-withkeyschemamixin)
 * [`fn withLocalSecondaryIndexes(localSecondaryIndexes)`](#fn-withlocalsecondaryindexes)
+* [`fn withLocalSecondaryIndexesMixin(localSecondaryIndexes)`](#fn-withlocalsecondaryindexesmixin)
 * [`fn withReplicas(replicas)`](#fn-withreplicas)
+* [`fn withReplicasMixin(replicas)`](#fn-withreplicasmixin)
 * [`fn withSSESpecification(ssespecification)`](#fn-withssespecification)
+* [`fn withSSESpecificationMixin(ssespecification)`](#fn-withssespecificationmixin)
 * [`fn withStreamSpecification(streamSpecification)`](#fn-withstreamspecification)
+* [`fn withStreamSpecificationMixin(streamSpecification)`](#fn-withstreamspecificationmixin)
 * [`fn withTableName(tableName)`](#fn-withtablename)
 * [`fn withTimeToLiveSpecification(timeToLiveSpecification)`](#fn-withtimetolivespecification)
+* [`fn withTimeToLiveSpecificationMixin(timeToLiveSpecification)`](#fn-withtimetolivespecificationmixin)
 * [`fn withWriteProvisionedThroughputSettings(writeProvisionedThroughputSettings)`](#fn-withwriteprovisionedthroughputsettings)
+* [`fn withWriteProvisionedThroughputSettingsMixin(writeProvisionedThroughputSettings)`](#fn-withwriteprovisionedthroughputsettingsmixin)
 
 ## Fields
 
@@ -147,6 +156,14 @@ withAttributeDefinitions(attributeDefinitions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-attributedefinitions
 
+### fn withAttributeDefinitionsMixin
+
+```ts
+withAttributeDefinitionsMixin(attributeDefinitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-attributedefinitions
+
 ### fn withBillingMode
 
 ```ts
@@ -163,10 +180,26 @@ withGlobalSecondaryIndexes(globalSecondaryIndexes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-globalsecondaryindexes
 
+### fn withGlobalSecondaryIndexesMixin
+
+```ts
+withGlobalSecondaryIndexesMixin(globalSecondaryIndexes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-globalsecondaryindexes
+
 ### fn withKeySchema
 
 ```ts
 withKeySchema(keySchema)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-keyschema
+
+### fn withKeySchemaMixin
+
+```ts
+withKeySchemaMixin(keySchema)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-keyschema
@@ -179,10 +212,26 @@ withLocalSecondaryIndexes(localSecondaryIndexes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-localsecondaryindexes
 
+### fn withLocalSecondaryIndexesMixin
+
+```ts
+withLocalSecondaryIndexesMixin(localSecondaryIndexes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-localsecondaryindexes
+
 ### fn withReplicas
 
 ```ts
 withReplicas(replicas)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-replicas
+
+### fn withReplicasMixin
+
+```ts
+withReplicasMixin(replicas)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-replicas
@@ -195,10 +244,26 @@ withSSESpecification(ssespecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-ssespecification
 
+### fn withSSESpecificationMixin
+
+```ts
+withSSESpecificationMixin(ssespecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-ssespecification
+
 ### fn withStreamSpecification
 
 ```ts
 withStreamSpecification(streamSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-streamspecification
+
+### fn withStreamSpecificationMixin
+
+```ts
+withStreamSpecificationMixin(streamSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-streamspecification
@@ -219,10 +284,26 @@ withTimeToLiveSpecification(timeToLiveSpecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-timetolivespecification
 
+### fn withTimeToLiveSpecificationMixin
+
+```ts
+withTimeToLiveSpecificationMixin(timeToLiveSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-timetolivespecification
+
 ### fn withWriteProvisionedThroughputSettings
 
 ```ts
 withWriteProvisionedThroughputSettings(writeProvisionedThroughputSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-writeprovisionedthroughputsettings
+
+### fn withWriteProvisionedThroughputSettingsMixin
+
+```ts
+withWriteProvisionedThroughputSettingsMixin(writeProvisionedThroughputSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-globaltable.html#cfn-dynamodb-globaltable-writeprovisionedthroughputsettings

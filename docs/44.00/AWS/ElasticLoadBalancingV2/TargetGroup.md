@@ -30,14 +30,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withHealthyThresholdCount(healthyThresholdCount)`](#fn-withhealthythresholdcount)
 * [`fn withIpAddressType(ipAddressType)`](#fn-withipaddresstype)
 * [`fn withMatcher(matcher)`](#fn-withmatcher)
+* [`fn withMatcherMixin(matcher)`](#fn-withmatchermixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPort(port)`](#fn-withport)
 * [`fn withProtocol(protocol)`](#fn-withprotocol)
 * [`fn withProtocolVersion(protocolVersion)`](#fn-withprotocolversion)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetGroupAttributes(targetGroupAttributes)`](#fn-withtargetgroupattributes)
+* [`fn withTargetGroupAttributesMixin(targetGroupAttributes)`](#fn-withtargetgroupattributesmixin)
 * [`fn withTargetType(targetType)`](#fn-withtargettype)
 * [`fn withTargets(targets)`](#fn-withtargets)
+* [`fn withTargetsMixin(targets)`](#fn-withtargetsmixin)
 * [`fn withUnhealthyThresholdCount(unhealthyThresholdCount)`](#fn-withunhealthythresholdcount)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
 
@@ -219,6 +223,14 @@ withMatcher(matcher)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-matcher
 
+### fn withMatcherMixin
+
+```ts
+withMatcherMixin(matcher)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-matcher
+
 ### fn withName
 
 ```ts
@@ -259,10 +271,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-tags
+
 ### fn withTargetGroupAttributes
 
 ```ts
 withTargetGroupAttributes(targetGroupAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-targetgroupattributes
+
+### fn withTargetGroupAttributesMixin
+
+```ts
+withTargetGroupAttributesMixin(targetGroupAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-targetgroupattributes
@@ -279,6 +307,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withTargets(targets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-targets
+
+### fn withTargetsMixin
+
+```ts
+withTargetsMixin(targets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-targetgroup.html#cfn-elasticloadbalancingv2-targetgroup-targets

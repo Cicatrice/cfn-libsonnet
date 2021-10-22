@@ -22,9 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDefaultAction(defaultAction)`](#fn-withdefaultaction)
+* [`fn withDefaultActionMixin(defaultAction)`](#fn-withdefaultactionmixin)
 * [`fn withMetricName(metricName)`](#fn-withmetricname)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRules(rules)`](#fn-withrules)
+* [`fn withRulesMixin(rules)`](#fn-withrulesmixin)
 
 ## Fields
 
@@ -140,6 +142,14 @@ withDefaultAction(defaultAction)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-defaultaction
 
+### fn withDefaultActionMixin
+
+```ts
+withDefaultActionMixin(defaultAction)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-defaultaction
+
 ### fn withMetricName
 
 ```ts
@@ -160,6 +170,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-
 
 ```ts
 withRules(rules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-rules
+
+### fn withRulesMixin
+
+```ts
+withRulesMixin(rules)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-rules

@@ -22,22 +22,31 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withContainerDefinitions(containerDefinitions)`](#fn-withcontainerdefinitions)
+* [`fn withContainerDefinitionsMixin(containerDefinitions)`](#fn-withcontainerdefinitionsmixin)
 * [`fn withCpu(cpu)`](#fn-withcpu)
 * [`fn withEphemeralStorage(ephemeralStorage)`](#fn-withephemeralstorage)
+* [`fn withEphemeralStorageMixin(ephemeralStorage)`](#fn-withephemeralstoragemixin)
 * [`fn withExecutionRoleArn(executionRoleArn)`](#fn-withexecutionrolearn)
 * [`fn withFamily(family)`](#fn-withfamily)
 * [`fn withInferenceAccelerators(inferenceAccelerators)`](#fn-withinferenceaccelerators)
+* [`fn withInferenceAcceleratorsMixin(inferenceAccelerators)`](#fn-withinferenceacceleratorsmixin)
 * [`fn withIpcMode(ipcMode)`](#fn-withipcmode)
 * [`fn withMemory(memory)`](#fn-withmemory)
 * [`fn withNetworkMode(networkMode)`](#fn-withnetworkmode)
 * [`fn withPidMode(pidMode)`](#fn-withpidmode)
 * [`fn withPlacementConstraints(placementConstraints)`](#fn-withplacementconstraints)
+* [`fn withPlacementConstraintsMixin(placementConstraints)`](#fn-withplacementconstraintsmixin)
 * [`fn withProxyConfiguration(proxyConfiguration)`](#fn-withproxyconfiguration)
+* [`fn withProxyConfigurationMixin(proxyConfiguration)`](#fn-withproxyconfigurationmixin)
 * [`fn withRequiresCompatibilities(requiresCompatibilities)`](#fn-withrequirescompatibilities)
+* [`fn withRequiresCompatibilitiesMixin(requiresCompatibilities)`](#fn-withrequirescompatibilitiesmixin)
 * [`fn withRuntimePlatform(runtimePlatform)`](#fn-withruntimeplatform)
+* [`fn withRuntimePlatformMixin(runtimePlatform)`](#fn-withruntimeplatformmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTaskRoleArn(taskRoleArn)`](#fn-withtaskrolearn)
 * [`fn withVolumes(volumes)`](#fn-withvolumes)
+* [`fn withVolumesMixin(volumes)`](#fn-withvolumesmixin)
 
 ## Fields
 
@@ -153,6 +162,14 @@ withContainerDefinitions(containerDefinitions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-containerdefinitions
 
+### fn withContainerDefinitionsMixin
+
+```ts
+withContainerDefinitionsMixin(containerDefinitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-containerdefinitions
+
 ### fn withCpu
 
 ```ts
@@ -165,6 +182,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 
 ```ts
 withEphemeralStorage(ephemeralStorage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-ephemeralstorage
+
+### fn withEphemeralStorageMixin
+
+```ts
+withEphemeralStorageMixin(ephemeralStorage)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-ephemeralstorage
@@ -189,6 +214,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 
 ```ts
 withInferenceAccelerators(inferenceAccelerators)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-inferenceaccelerators
+
+### fn withInferenceAcceleratorsMixin
+
+```ts
+withInferenceAcceleratorsMixin(inferenceAccelerators)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-inferenceaccelerators
@@ -233,10 +266,26 @@ withPlacementConstraints(placementConstraints)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-placementconstraints
 
+### fn withPlacementConstraintsMixin
+
+```ts
+withPlacementConstraintsMixin(placementConstraints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-placementconstraints
+
 ### fn withProxyConfiguration
 
 ```ts
 withProxyConfiguration(proxyConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-proxyconfiguration
+
+### fn withProxyConfigurationMixin
+
+```ts
+withProxyConfigurationMixin(proxyConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-proxyconfiguration
@@ -249,6 +298,14 @@ withRequiresCompatibilities(requiresCompatibilities)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-requirescompatibilities
 
+### fn withRequiresCompatibilitiesMixin
+
+```ts
+withRequiresCompatibilitiesMixin(requiresCompatibilities)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-requirescompatibilities
+
 ### fn withRuntimePlatform
 
 ```ts
@@ -257,10 +314,26 @@ withRuntimePlatform(runtimePlatform)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-runtimeplatform
 
+### fn withRuntimePlatformMixin
+
+```ts
+withRuntimePlatformMixin(runtimePlatform)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-runtimeplatform
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-tags
@@ -277,6 +350,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 
 ```ts
 withVolumes(volumes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-volumes
+
+### fn withVolumesMixin
+
+```ts
+withVolumesMixin(volumes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskdefinition.html#cfn-ecs-taskdefinition-volumes

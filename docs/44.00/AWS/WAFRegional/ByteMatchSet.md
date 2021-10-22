@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withByteMatchTuples(byteMatchTuples)`](#fn-withbytematchtuples)
+* [`fn withByteMatchTuplesMixin(byteMatchTuples)`](#fn-withbytematchtuplesmixin)
 * [`fn withName(name)`](#fn-withname)
 
 ## Fields
@@ -134,6 +135,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withByteMatchTuples(byteMatchTuples)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-bytematchset.html#cfn-wafregional-bytematchset-bytematchtuples
+
+### fn withByteMatchTuplesMixin
+
+```ts
+withByteMatchTuplesMixin(byteMatchTuples)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-bytematchset.html#cfn-wafregional-bytematchset-bytematchtuples

@@ -31,6 +31,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn withInstancePlatform(instancePlatform)`](#fn-withinstanceplatform)
 * [`fn withInstanceType(instanceType)`](#fn-withinstancetype)
 * [`fn withTagSpecifications(tagSpecifications)`](#fn-withtagspecifications)
+* [`fn withTagSpecificationsMixin(tagSpecifications)`](#fn-withtagspecificationsmixin)
 * [`fn withTenancy(tenancy)`](#fn-withtenancy)
 
 ## Fields
@@ -215,6 +216,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withTagSpecifications(tagSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-capacityreservation.html#cfn-ec2-capacityreservation-tagspecifications
+
+### fn withTagSpecificationsMixin
+
+```ts
+withTagSpecificationsMixin(tagSpecifications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-capacityreservation.html#cfn-ec2-capacityreservation-tagspecifications

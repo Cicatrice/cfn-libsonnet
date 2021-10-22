@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 * [`fn withFirewallArn(firewallArn)`](#fn-withfirewallarn)
 * [`fn withFirewallName(firewallName)`](#fn-withfirewallname)
 * [`fn withLoggingConfiguration(loggingConfiguration)`](#fn-withloggingconfiguration)
+* [`fn withLoggingConfigurationMixin(loggingConfiguration)`](#fn-withloggingconfigurationmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 
 ```ts
 withLoggingConfiguration(loggingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-loggingconfiguration.html#cfn-networkfirewall-loggingconfiguration-loggingconfiguration
+
+### fn withLoggingConfigurationMixin
+
+```ts
+withLoggingConfigurationMixin(loggingConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-loggingconfiguration.html#cfn-networkfirewall-loggingconfiguration-loggingconfiguration

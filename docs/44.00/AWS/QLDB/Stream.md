@@ -24,10 +24,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb
 * [`fn withExclusiveEndTime(exclusiveEndTime)`](#fn-withexclusiveendtime)
 * [`fn withInclusiveStartTime(inclusiveStartTime)`](#fn-withinclusivestarttime)
 * [`fn withKinesisConfiguration(kinesisConfiguration)`](#fn-withkinesisconfiguration)
+* [`fn withKinesisConfigurationMixin(kinesisConfiguration)`](#fn-withkinesisconfigurationmixin)
 * [`fn withLedgerName(ledgerName)`](#fn-withledgername)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withStreamName(streamName)`](#fn-withstreamname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -159,6 +161,14 @@ withKinesisConfiguration(kinesisConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb-stream.html#cfn-qldb-stream-kinesisconfiguration
 
+### fn withKinesisConfigurationMixin
+
+```ts
+withKinesisConfigurationMixin(kinesisConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb-stream.html#cfn-qldb-stream-kinesisconfiguration
+
 ### fn withLedgerName
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb-stream.html#cfn-qldb-stream-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-qldb-stream.html#cfn-qldb-stream-tags

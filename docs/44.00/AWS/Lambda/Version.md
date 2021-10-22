@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withFunctionName(functionName)`](#fn-withfunctionname)
 * [`fn withProvisionedConcurrencyConfig(provisionedConcurrencyConfig)`](#fn-withprovisionedconcurrencyconfig)
+* [`fn withProvisionedConcurrencyConfigMixin(provisionedConcurrencyConfig)`](#fn-withprovisionedconcurrencyconfigmixin)
 
 ## Fields
 
@@ -160,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 
 ```ts
 withProvisionedConcurrencyConfig(provisionedConcurrencyConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html#cfn-lambda-version-provisionedconcurrencyconfig
+
+### fn withProvisionedConcurrencyConfigMixin
+
+```ts
+withProvisionedConcurrencyConfigMixin(provisionedConcurrencyConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-version.html#cfn-lambda-version-provisionedconcurrencyconfig

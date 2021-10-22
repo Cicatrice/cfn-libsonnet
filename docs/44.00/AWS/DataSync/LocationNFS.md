@@ -22,10 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withMountOptions(mountOptions)`](#fn-withmountoptions)
+* [`fn withMountOptionsMixin(mountOptions)`](#fn-withmountoptionsmixin)
 * [`fn withOnPremConfig(onPremConfig)`](#fn-withonpremconfig)
+* [`fn withOnPremConfigMixin(onPremConfig)`](#fn-withonpremconfigmixin)
 * [`fn withServerHostname(serverHostname)`](#fn-withserverhostname)
 * [`fn withSubdirectory(subdirectory)`](#fn-withsubdirectory)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -141,10 +144,26 @@ withMountOptions(mountOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationnfs.html#cfn-datasync-locationnfs-mountoptions
 
+### fn withMountOptionsMixin
+
+```ts
+withMountOptionsMixin(mountOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationnfs.html#cfn-datasync-locationnfs-mountoptions
+
 ### fn withOnPremConfig
 
 ```ts
 withOnPremConfig(onPremConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationnfs.html#cfn-datasync-locationnfs-onpremconfig
+
+### fn withOnPremConfigMixin
+
+```ts
+withOnPremConfigMixin(onPremConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationnfs.html#cfn-datasync-locationnfs-onpremconfig
@@ -169,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationnfs.html#cfn-datasync-locationnfs-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationnfs.html#cfn-datasync-locationnfs-tags

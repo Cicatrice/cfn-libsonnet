@@ -24,8 +24,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotw
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withLastUplinkReceivedAt(lastUplinkReceivedAt)`](#fn-withlastuplinkreceivedat)
 * [`fn withLoRaWAN(loRaWan)`](#fn-withlorawan)
+* [`fn withLoRaWANMixin(loRaWan)`](#fn-withlorawanmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withThingArn(thingArn)`](#fn-withthingarn)
 
 ## Fields
@@ -158,6 +160,14 @@ withLoRaWAN(loRaWan)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessgateway.html#cfn-iotwireless-wirelessgateway-lorawan
 
+### fn withLoRaWANMixin
+
+```ts
+withLoRaWANMixin(loRaWan)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessgateway.html#cfn-iotwireless-wirelessgateway-lorawan
+
 ### fn withName
 
 ```ts
@@ -170,6 +180,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotw
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessgateway.html#cfn-iotwireless-wirelessgateway-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotwireless-wirelessgateway.html#cfn-iotwireless-wirelessgateway-tags

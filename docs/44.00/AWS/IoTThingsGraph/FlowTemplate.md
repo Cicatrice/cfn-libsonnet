@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iott
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCompatibleNamespaceVersion(compatibleNamespaceVersion)`](#fn-withcompatiblenamespaceversion)
 * [`fn withDefinition(definition)`](#fn-withdefinition)
+* [`fn withDefinitionMixin(definition)`](#fn-withdefinitionmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iott
 
 ```ts
 withDefinition(definition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotthingsgraph-flowtemplate.html#cfn-iotthingsgraph-flowtemplate-definition
+
+### fn withDefinitionMixin
+
+```ts
+withDefinitionMixin(definition)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotthingsgraph-flowtemplate.html#cfn-iotthingsgraph-flowtemplate-definition

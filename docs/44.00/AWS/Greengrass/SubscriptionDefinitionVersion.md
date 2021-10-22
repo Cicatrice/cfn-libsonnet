@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withSubscriptionDefinitionId(subscriptionDefinitionId)`](#fn-withsubscriptiondefinitionid)
 * [`fn withSubscriptions(subscriptions)`](#fn-withsubscriptions)
+* [`fn withSubscriptionsMixin(subscriptions)`](#fn-withsubscriptionsmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gree
 
 ```ts
 withSubscriptions(subscriptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-subscriptiondefinitionversion.html#cfn-greengrass-subscriptiondefinitionversion-subscriptions
+
+### fn withSubscriptionsMixin
+
+```ts
+withSubscriptionsMixin(subscriptions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-subscriptiondefinitionversion.html#cfn-greengrass-subscriptiondefinitionversion-subscriptions

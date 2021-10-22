@@ -22,19 +22,24 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessLogSetting(accessLogSetting)`](#fn-withaccesslogsetting)
+* [`fn withAccessLogSettingMixin(accessLogSetting)`](#fn-withaccesslogsettingmixin)
 * [`fn withCacheClusterEnabled(cacheClusterEnabled)`](#fn-withcacheclusterenabled)
 * [`fn withCacheClusterSize(cacheClusterSize)`](#fn-withcacheclustersize)
 * [`fn withCanarySetting(canarySetting)`](#fn-withcanarysetting)
+* [`fn withCanarySettingMixin(canarySetting)`](#fn-withcanarysettingmixin)
 * [`fn withClientCertificateId(clientCertificateId)`](#fn-withclientcertificateid)
 * [`fn withDeploymentId(deploymentId)`](#fn-withdeploymentid)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDocumentationVersion(documentationVersion)`](#fn-withdocumentationversion)
 * [`fn withMethodSettings(methodSettings)`](#fn-withmethodsettings)
+* [`fn withMethodSettingsMixin(methodSettings)`](#fn-withmethodsettingsmixin)
 * [`fn withRestApiId(restApiId)`](#fn-withrestapiid)
 * [`fn withStageName(stageName)`](#fn-withstagename)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTracingEnabled(tracingEnabled)`](#fn-withtracingenabled)
 * [`fn withVariables(variables)`](#fn-withvariables)
+* [`fn withVariablesMixin(variables)`](#fn-withvariablesmixin)
 
 ## Fields
 
@@ -150,6 +155,14 @@ withAccessLogSetting(accessLogSetting)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-accesslogsetting
 
+### fn withAccessLogSettingMixin
+
+```ts
+withAccessLogSettingMixin(accessLogSetting)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-accesslogsetting
+
 ### fn withCacheClusterEnabled
 
 ```ts
@@ -170,6 +183,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withCanarySetting(canarySetting)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-canarysetting
+
+### fn withCanarySettingMixin
+
+```ts
+withCanarySettingMixin(canarySetting)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-canarysetting
@@ -214,6 +235,14 @@ withMethodSettings(methodSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-methodsettings
 
+### fn withMethodSettingsMixin
+
+```ts
+withMethodSettingsMixin(methodSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-methodsettings
+
 ### fn withRestApiId
 
 ```ts
@@ -238,6 +267,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-tags
+
 ### fn withTracingEnabled
 
 ```ts
@@ -250,6 +287,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withVariables(variables)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-variables
+
+### fn withVariablesMixin
+
+```ts
+withVariablesMixin(variables)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-stage.html#cfn-apigateway-stage-variables

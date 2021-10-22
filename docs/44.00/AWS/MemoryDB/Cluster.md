@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memo
 * [`fn withACLName(aclname)`](#fn-withaclname)
 * [`fn withAutoMinorVersionUpgrade(autoMinorVersionUpgrade)`](#fn-withautominorversionupgrade)
 * [`fn withClusterEndpoint(clusterEndpoint)`](#fn-withclusterendpoint)
+* [`fn withClusterEndpointMixin(clusterEndpoint)`](#fn-withclusterendpointmixin)
 * [`fn withClusterName(clusterName)`](#fn-withclustername)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEngineVersion(engineVersion)`](#fn-withengineversion)
@@ -36,7 +37,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memo
 * [`fn withParameterGroupName(parameterGroupName)`](#fn-withparametergroupname)
 * [`fn withPort(port)`](#fn-withport)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSnapshotArns(snapshotArns)`](#fn-withsnapshotarns)
+* [`fn withSnapshotArnsMixin(snapshotArns)`](#fn-withsnapshotarnsmixin)
 * [`fn withSnapshotName(snapshotName)`](#fn-withsnapshotname)
 * [`fn withSnapshotRetentionLimit(snapshotRetentionLimit)`](#fn-withsnapshotretentionlimit)
 * [`fn withSnapshotWindow(snapshotWindow)`](#fn-withsnapshotwindow)
@@ -45,6 +48,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memo
 * [`fn withSubnetGroupName(subnetGroupName)`](#fn-withsubnetgroupname)
 * [`fn withTLSEnabled(tlsenabled)`](#fn-withtlsenabled)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -176,6 +180,14 @@ withClusterEndpoint(clusterEndpoint)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-clusterendpoint
 
+### fn withClusterEndpointMixin
+
+```ts
+withClusterEndpointMixin(clusterEndpoint)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-clusterendpoint
+
 ### fn withClusterName
 
 ```ts
@@ -272,10 +284,26 @@ withSecurityGroupIds(securityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-securitygroupids
 
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-securitygroupids
+
 ### fn withSnapshotArns
 
 ```ts
 withSnapshotArns(snapshotArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-snapshotarns
+
+### fn withSnapshotArnsMixin
+
+```ts
+withSnapshotArnsMixin(snapshotArns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-snapshotarns
@@ -340,6 +368,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memo
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-cluster.html#cfn-memorydb-cluster-tags

@@ -22,18 +22,25 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessEndpoints(accessEndpoints)`](#fn-withaccessendpoints)
+* [`fn withAccessEndpointsMixin(accessEndpoints)`](#fn-withaccessendpointsmixin)
 * [`fn withApplicationSettings(applicationSettings)`](#fn-withapplicationsettings)
+* [`fn withApplicationSettingsMixin(applicationSettings)`](#fn-withapplicationsettingsmixin)
 * [`fn withAttributesToDelete(attributesToDelete)`](#fn-withattributestodelete)
+* [`fn withAttributesToDeleteMixin(attributesToDelete)`](#fn-withattributestodeletemixin)
 * [`fn withDeleteStorageConnectors(deleteStorageConnectors)`](#fn-withdeletestorageconnectors)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDisplayName(displayName)`](#fn-withdisplayname)
 * [`fn withEmbedHostDomains(embedHostDomains)`](#fn-withembedhostdomains)
+* [`fn withEmbedHostDomainsMixin(embedHostDomains)`](#fn-withembedhostdomainsmixin)
 * [`fn withFeedbackURL(feedbackUrl)`](#fn-withfeedbackurl)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRedirectURL(redirectUrl)`](#fn-withredirecturl)
 * [`fn withStorageConnectors(storageConnectors)`](#fn-withstorageconnectors)
+* [`fn withStorageConnectorsMixin(storageConnectors)`](#fn-withstorageconnectorsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserSettings(userSettings)`](#fn-withusersettings)
+* [`fn withUserSettingsMixin(userSettings)`](#fn-withusersettingsmixin)
 
 ## Fields
 
@@ -149,6 +156,14 @@ withAccessEndpoints(accessEndpoints)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-accessendpoints
 
+### fn withAccessEndpointsMixin
+
+```ts
+withAccessEndpointsMixin(accessEndpoints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-accessendpoints
+
 ### fn withApplicationSettings
 
 ```ts
@@ -157,10 +172,26 @@ withApplicationSettings(applicationSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-applicationsettings
 
+### fn withApplicationSettingsMixin
+
+```ts
+withApplicationSettingsMixin(applicationSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-applicationsettings
+
 ### fn withAttributesToDelete
 
 ```ts
 withAttributesToDelete(attributesToDelete)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-attributestodelete
+
+### fn withAttributesToDeleteMixin
+
+```ts
+withAttributesToDeleteMixin(attributesToDelete)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-attributestodelete
@@ -197,6 +228,14 @@ withEmbedHostDomains(embedHostDomains)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-embedhostdomains
 
+### fn withEmbedHostDomainsMixin
+
+```ts
+withEmbedHostDomainsMixin(embedHostDomains)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-embedhostdomains
+
 ### fn withFeedbackURL
 
 ```ts
@@ -229,6 +268,14 @@ withStorageConnectors(storageConnectors)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-storageconnectors
 
+### fn withStorageConnectorsMixin
+
+```ts
+withStorageConnectorsMixin(storageConnectors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-storageconnectors
+
 ### fn withTags
 
 ```ts
@@ -237,10 +284,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-tags
+
 ### fn withUserSettings
 
 ```ts
 withUserSettings(userSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-usersettings
+
+### fn withUserSettingsMixin
+
+```ts
+withUserSettingsMixin(userSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-stack.html#cfn-appstream-stack-usersettings

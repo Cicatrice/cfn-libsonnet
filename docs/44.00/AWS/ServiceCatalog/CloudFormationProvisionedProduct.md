@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAcceptLanguage(acceptLanguage)`](#fn-withacceptlanguage)
 * [`fn withNotificationArns(notificationArns)`](#fn-withnotificationarns)
+* [`fn withNotificationArnsMixin(notificationArns)`](#fn-withnotificationarnsmixin)
 * [`fn withPathId(pathId)`](#fn-withpathid)
 * [`fn withPathName(pathName)`](#fn-withpathname)
 * [`fn withProductId(productId)`](#fn-withproductid)
@@ -31,8 +32,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn withProvisioningArtifactId(provisioningArtifactId)`](#fn-withprovisioningartifactid)
 * [`fn withProvisioningArtifactName(provisioningArtifactName)`](#fn-withprovisioningartifactname)
 * [`fn withProvisioningParameters(provisioningParameters)`](#fn-withprovisioningparameters)
+* [`fn withProvisioningParametersMixin(provisioningParameters)`](#fn-withprovisioningparametersmixin)
 * [`fn withProvisioningPreferences(provisioningPreferences)`](#fn-withprovisioningpreferences)
+* [`fn withProvisioningPreferencesMixin(provisioningPreferences)`](#fn-withprovisioningpreferencesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -156,6 +160,14 @@ withNotificationArns(notificationArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-notificationarns
 
+### fn withNotificationArnsMixin
+
+```ts
+withNotificationArnsMixin(notificationArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-notificationarns
+
 ### fn withPathId
 
 ```ts
@@ -220,6 +232,14 @@ withProvisioningParameters(provisioningParameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-provisioningparameters
 
+### fn withProvisioningParametersMixin
+
+```ts
+withProvisioningParametersMixin(provisioningParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-provisioningparameters
+
 ### fn withProvisioningPreferences
 
 ```ts
@@ -228,10 +248,26 @@ withProvisioningPreferences(provisioningPreferences)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-provisioningpreferences
 
+### fn withProvisioningPreferencesMixin
+
+```ts
+withProvisioningPreferencesMixin(provisioningPreferences)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-provisioningpreferences
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-cloudformationprovisionedproduct.html#cfn-servicecatalog-cloudformationprovisionedproduct-tags

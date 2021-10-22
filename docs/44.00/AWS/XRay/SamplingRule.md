@@ -23,9 +23,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withRuleName(ruleName)`](#fn-withrulename)
 * [`fn withSamplingRule(samplingRule)`](#fn-withsamplingrule)
+* [`fn withSamplingRuleMixin(samplingRule)`](#fn-withsamplingrulemixin)
 * [`fn withSamplingRuleRecord(samplingRuleRecord)`](#fn-withsamplingrulerecord)
+* [`fn withSamplingRuleRecordMixin(samplingRuleRecord)`](#fn-withsamplingrulerecordmixin)
 * [`fn withSamplingRuleUpdate(samplingRuleUpdate)`](#fn-withsamplingruleupdate)
+* [`fn withSamplingRuleUpdateMixin(samplingRuleUpdate)`](#fn-withsamplingruleupdatemixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -149,10 +153,26 @@ withSamplingRule(samplingRule)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-samplingrule
 
+### fn withSamplingRuleMixin
+
+```ts
+withSamplingRuleMixin(samplingRule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-samplingrule
+
 ### fn withSamplingRuleRecord
 
 ```ts
 withSamplingRuleRecord(samplingRuleRecord)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-samplingrulerecord
+
+### fn withSamplingRuleRecordMixin
+
+```ts
+withSamplingRuleRecordMixin(samplingRuleRecord)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-samplingrulerecord
@@ -165,10 +185,26 @@ withSamplingRuleUpdate(samplingRuleUpdate)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-samplingruleupdate
 
+### fn withSamplingRuleUpdateMixin
+
+```ts
+withSamplingRuleUpdateMixin(samplingRuleUpdate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-samplingruleupdate
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-samplingrule.html#cfn-xray-samplingrule-tags

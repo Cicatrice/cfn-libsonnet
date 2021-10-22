@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCloudFrontOriginAccessIdentityConfig(cloudFrontOriginAccessIdentityConfig)`](#fn-withcloudfrontoriginaccessidentityconfig)
+* [`fn withCloudFrontOriginAccessIdentityConfigMixin(cloudFrontOriginAccessIdentityConfig)`](#fn-withcloudfrontoriginaccessidentityconfigmixin)
 
 ## Fields
 
@@ -133,6 +134,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withCloudFrontOriginAccessIdentityConfig(cloudFrontOriginAccessIdentityConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-cloudfrontoriginaccessidentity.html#cfn-cloudfront-cloudfrontoriginaccessidentity-cloudfrontoriginaccessidentityconfig
+
+### fn withCloudFrontOriginAccessIdentityConfigMixin
+
+```ts
+withCloudFrontOriginAccessIdentityConfigMixin(cloudFrontOriginAccessIdentityConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-cloudfrontoriginaccessidentity.html#cfn-cloudfront-cloudfrontoriginaccessidentity-cloudfrontoriginaccessidentityconfig

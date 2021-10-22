@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withExecutionRoleArn(executionRoleArn)`](#fn-withexecutionrolearn)
 * [`fn withLoggingConfig(loggingConfig)`](#fn-withloggingconfig)
+* [`fn withLoggingConfigMixin(loggingConfig)`](#fn-withloggingconfigmixin)
 * [`fn withSchemaHandlerPackage(schemaHandlerPackage)`](#fn-withschemahandlerpackage)
 * [`fn withTypeName(typeName)`](#fn-withtypename)
 
@@ -144,6 +145,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withLoggingConfig(loggingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-loggingconfig
+
+### fn withLoggingConfigMixin
+
+```ts
+withLoggingConfigMixin(loggingConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-loggingconfig

@@ -32,6 +32,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 * [`fn withSourceEndpointArn(sourceEndpointArn)`](#fn-withsourceendpointarn)
 * [`fn withTableMappings(tableMappings)`](#fn-withtablemappings)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetEndpointArn(targetEndpointArn)`](#fn-withtargetendpointarn)
 * [`fn withTaskData(taskData)`](#fn-withtaskdata)
 
@@ -225,6 +226,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationtask.html#cfn-dms-replicationtask-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-replicationtask.html#cfn-dms-replicationtask-tags

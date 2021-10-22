@@ -22,9 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withFrameworkControls(frameworkControls)`](#fn-withframeworkcontrols)
+* [`fn withFrameworkControlsMixin(frameworkControls)`](#fn-withframeworkcontrolsmixin)
 * [`fn withFrameworkDescription(frameworkDescription)`](#fn-withframeworkdescription)
 * [`fn withFrameworkName(frameworkName)`](#fn-withframeworkname)
 * [`fn withFrameworkTags(frameworkTags)`](#fn-withframeworktags)
+* [`fn withFrameworkTagsMixin(frameworkTags)`](#fn-withframeworktagsmixin)
 
 ## Fields
 
@@ -140,6 +142,14 @@ withFrameworkControls(frameworkControls)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworkcontrols
 
+### fn withFrameworkControlsMixin
+
+```ts
+withFrameworkControlsMixin(frameworkControls)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworkcontrols
+
 ### fn withFrameworkDescription
 
 ```ts
@@ -160,6 +170,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-back
 
 ```ts
 withFrameworkTags(frameworkTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworktags
+
+### fn withFrameworkTagsMixin
+
+```ts
+withFrameworkTagsMixin(frameworkTags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworktags

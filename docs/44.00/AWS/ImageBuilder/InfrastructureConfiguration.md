@@ -23,16 +23,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withInstanceMetadataOptions(instanceMetadataOptions)`](#fn-withinstancemetadataoptions)
+* [`fn withInstanceMetadataOptionsMixin(instanceMetadataOptions)`](#fn-withinstancemetadataoptionsmixin)
 * [`fn withInstanceProfileName(instanceProfileName)`](#fn-withinstanceprofilename)
 * [`fn withInstanceTypes(instanceTypes)`](#fn-withinstancetypes)
+* [`fn withInstanceTypesMixin(instanceTypes)`](#fn-withinstancetypesmixin)
 * [`fn withKeyPair(keyPair)`](#fn-withkeypair)
 * [`fn withLogging(logging)`](#fn-withlogging)
+* [`fn withLoggingMixin(logging)`](#fn-withloggingmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withResourceTags(resourceTags)`](#fn-withresourcetags)
+* [`fn withResourceTagsMixin(resourceTags)`](#fn-withresourcetagsmixin)
 * [`fn withSecurityGroupIds(securityGroupIds)`](#fn-withsecuritygroupids)
+* [`fn withSecurityGroupIdsMixin(securityGroupIds)`](#fn-withsecuritygroupidsmixin)
 * [`fn withSnsTopicArn(snsTopicArn)`](#fn-withsnstopicarn)
 * [`fn withSubnetId(subnetId)`](#fn-withsubnetid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTerminateInstanceOnFailure(terminateInstanceOnFailure)`](#fn-withterminateinstanceonfailure)
 
 ## Fields
@@ -157,6 +163,14 @@ withInstanceMetadataOptions(instanceMetadataOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-instancemetadataoptions
 
+### fn withInstanceMetadataOptionsMixin
+
+```ts
+withInstanceMetadataOptionsMixin(instanceMetadataOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-instancemetadataoptions
+
 ### fn withInstanceProfileName
 
 ```ts
@@ -169,6 +183,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 
 ```ts
 withInstanceTypes(instanceTypes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-instancetypes
+
+### fn withInstanceTypesMixin
+
+```ts
+withInstanceTypesMixin(instanceTypes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-instancetypes
@@ -189,6 +211,14 @@ withLogging(logging)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-logging
 
+### fn withLoggingMixin
+
+```ts
+withLoggingMixin(logging)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-logging
+
 ### fn withName
 
 ```ts
@@ -205,10 +235,26 @@ withResourceTags(resourceTags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-resourcetags
 
+### fn withResourceTagsMixin
+
+```ts
+withResourceTagsMixin(resourceTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-resourcetags
+
 ### fn withSecurityGroupIds
 
 ```ts
 withSecurityGroupIds(securityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-securitygroupids
+
+### fn withSecurityGroupIdsMixin
+
+```ts
+withSecurityGroupIdsMixin(securityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-securitygroupids
@@ -233,6 +279,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imag
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-tags

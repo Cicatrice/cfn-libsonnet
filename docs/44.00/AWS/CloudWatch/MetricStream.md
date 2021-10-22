@@ -22,12 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withExcludeFilters(excludeFilters)`](#fn-withexcludefilters)
+* [`fn withExcludeFiltersMixin(excludeFilters)`](#fn-withexcludefiltersmixin)
 * [`fn withFirehoseArn(firehoseArn)`](#fn-withfirehosearn)
 * [`fn withIncludeFilters(includeFilters)`](#fn-withincludefilters)
+* [`fn withIncludeFiltersMixin(includeFilters)`](#fn-withincludefiltersmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOutputFormat(outputFormat)`](#fn-withoutputformat)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -143,6 +146,14 @@ withExcludeFilters(excludeFilters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-metricstream.html#cfn-cloudwatch-metricstream-excludefilters
 
+### fn withExcludeFiltersMixin
+
+```ts
+withExcludeFiltersMixin(excludeFilters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-metricstream.html#cfn-cloudwatch-metricstream-excludefilters
+
 ### fn withFirehoseArn
 
 ```ts
@@ -155,6 +166,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withIncludeFilters(includeFilters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-metricstream.html#cfn-cloudwatch-metricstream-includefilters
+
+### fn withIncludeFiltersMixin
+
+```ts
+withIncludeFiltersMixin(includeFilters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-metricstream.html#cfn-cloudwatch-metricstream-includefilters
@@ -187,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-metricstream.html#cfn-cloudwatch-metricstream-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-metricstream.html#cfn-cloudwatch-metricstream-tags

@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withPlacementTemplate(placementTemplate)`](#fn-withplacementtemplate)
+* [`fn withPlacementTemplateMixin(placementTemplate)`](#fn-withplacementtemplatemixin)
 * [`fn withProjectName(projectName)`](#fn-withprojectname)
 
 ## Fields
@@ -143,6 +144,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1
 
 ```ts
 withPlacementTemplate(placementTemplate)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-project.html#cfn-iot1click-project-placementtemplate
+
+### fn withPlacementTemplateMixin
+
+```ts
+withPlacementTemplateMixin(placementTemplate)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot1click-project.html#cfn-iot1click-project-placementtemplate

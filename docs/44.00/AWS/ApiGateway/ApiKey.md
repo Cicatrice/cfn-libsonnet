@@ -27,7 +27,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withGenerateDistinctId(generateDistinctId)`](#fn-withgeneratedistinctid)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withStageKeys(stageKeys)`](#fn-withstagekeys)
+* [`fn withStageKeysMixin(stageKeys)`](#fn-withstagekeysmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withValue(value)`](#fn-withvalue)
 
 ## Fields
@@ -184,10 +186,26 @@ withStageKeys(stageKeys)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-apikey.html#cfn-apigateway-apikey-stagekeys
 
+### fn withStageKeysMixin
+
+```ts
+withStageKeysMixin(stageKeys)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-apikey.html#cfn-apigateway-apikey-stagekeys
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-apikey.html#cfn-apigateway-apikey-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-apikey.html#cfn-apigateway-apikey-tags

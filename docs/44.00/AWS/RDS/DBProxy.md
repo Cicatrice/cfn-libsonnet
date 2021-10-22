@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuth(auth)`](#fn-withauth)
+* [`fn withAuthMixin(auth)`](#fn-withauthmixin)
 * [`fn withDBProxyName(dbproxyName)`](#fn-withdbproxyname)
 * [`fn withDebugLogging(debugLogging)`](#fn-withdebuglogging)
 * [`fn withEngineFamily(engineFamily)`](#fn-withenginefamily)
@@ -29,8 +30,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn withRequireTLS(requireTls)`](#fn-withrequiretls)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcSecurityGroupIds(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupids)
+* [`fn withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupidsmixin)
 * [`fn withVpcSubnetIds(vpcSubnetIds)`](#fn-withvpcsubnetids)
+* [`fn withVpcSubnetIdsMixin(vpcSubnetIds)`](#fn-withvpcsubnetidsmixin)
 
 ## Fields
 
@@ -146,6 +150,14 @@ withAuth(auth)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-auth
 
+### fn withAuthMixin
+
+```ts
+withAuthMixin(auth)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-auth
+
 ### fn withDBProxyName
 
 ```ts
@@ -202,6 +214,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-tags
+
 ### fn withVpcSecurityGroupIds
 
 ```ts
@@ -210,10 +230,26 @@ withVpcSecurityGroupIds(vpcSecurityGroupIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-vpcsecuritygroupids
 
+### fn withVpcSecurityGroupIdsMixin
+
+```ts
+withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-vpcsecuritygroupids
+
 ### fn withVpcSubnetIds
 
 ```ts
 withVpcSubnetIds(vpcSubnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-vpcsubnetids
+
+### fn withVpcSubnetIdsMixin
+
+```ts
+withVpcSubnetIdsMixin(vpcSubnetIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxy.html#cfn-rds-dbproxy-vpcsubnetids

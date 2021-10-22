@@ -23,8 +23,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApiId(apiId)`](#fn-withapiid)
 * [`fn withIntegration(integration)`](#fn-withintegration)
+* [`fn withIntegrationMixin(integration)`](#fn-withintegrationmixin)
 * [`fn withRoute(route)`](#fn-withroute)
+* [`fn withRouteMixin(route)`](#fn-withroutemixin)
 * [`fn withStage(stage)`](#fn-withstage)
+* [`fn withStageMixin(stage)`](#fn-withstagemixin)
 
 ## Fields
 
@@ -148,6 +151,14 @@ withIntegration(integration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apigatewaymanagedoverrides.html#cfn-apigatewayv2-apigatewaymanagedoverrides-integration
 
+### fn withIntegrationMixin
+
+```ts
+withIntegrationMixin(integration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apigatewaymanagedoverrides.html#cfn-apigatewayv2-apigatewaymanagedoverrides-integration
+
 ### fn withRoute
 
 ```ts
@@ -156,10 +167,26 @@ withRoute(route)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apigatewaymanagedoverrides.html#cfn-apigatewayv2-apigatewaymanagedoverrides-route
 
+### fn withRouteMixin
+
+```ts
+withRouteMixin(route)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apigatewaymanagedoverrides.html#cfn-apigatewayv2-apigatewaymanagedoverrides-route
+
 ### fn withStage
 
 ```ts
 withStage(stage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apigatewaymanagedoverrides.html#cfn-apigatewayv2-apigatewaymanagedoverrides-stage
+
+### fn withStageMixin
+
+```ts
+withStageMixin(stage)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-apigatewaymanagedoverrides.html#cfn-apigatewayv2-apigatewaymanagedoverrides-stage

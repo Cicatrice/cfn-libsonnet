@@ -22,15 +22,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ligh
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAddOns(addOns)`](#fn-withaddons)
+* [`fn withAddOnsMixin(addOns)`](#fn-withaddonsmixin)
 * [`fn withAvailabilityZone(availabilityZone)`](#fn-withavailabilityzone)
 * [`fn withBlueprintId(blueprintId)`](#fn-withblueprintid)
 * [`fn withBundleId(bundleId)`](#fn-withbundleid)
 * [`fn withHardware(hardware)`](#fn-withhardware)
+* [`fn withHardwareMixin(hardware)`](#fn-withhardwaremixin)
 * [`fn withInstanceName(instanceName)`](#fn-withinstancename)
 * [`fn withLocation(location)`](#fn-withlocation)
+* [`fn withLocationMixin(location)`](#fn-withlocationmixin)
 * [`fn withNetworking(networking)`](#fn-withnetworking)
+* [`fn withNetworkingMixin(networking)`](#fn-withnetworkingmixin)
 * [`fn withState(state)`](#fn-withstate)
+* [`fn withStateMixin(state)`](#fn-withstatemixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -146,6 +152,14 @@ withAddOns(addOns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-addons
 
+### fn withAddOnsMixin
+
+```ts
+withAddOnsMixin(addOns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-addons
+
 ### fn withAvailabilityZone
 
 ```ts
@@ -178,6 +192,14 @@ withHardware(hardware)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-hardware
 
+### fn withHardwareMixin
+
+```ts
+withHardwareMixin(hardware)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-hardware
+
 ### fn withInstanceName
 
 ```ts
@@ -194,10 +216,26 @@ withLocation(location)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-location
 
+### fn withLocationMixin
+
+```ts
+withLocationMixin(location)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-location
+
 ### fn withNetworking
 
 ```ts
 withNetworking(networking)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-networking
+
+### fn withNetworkingMixin
+
+```ts
+withNetworkingMixin(networking)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-networking
@@ -210,10 +248,26 @@ withState(state)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-state
 
+### fn withStateMixin
+
+```ts
+withStateMixin(state)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-state
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-tags

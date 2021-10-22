@@ -1,7 +1,7 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='AmazonMQ', url='', help=''),
-  Broker: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/AmazonMQ/Broker.libsonnet'),
-  Configuration: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/AmazonMQ/Configuration.libsonnet'),
-  ConfigurationAssociation: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/AmazonMQ/ConfigurationAssociation.libsonnet'),
+  Broker:: (import 'Broker.libsonnet'),
+  Configuration:: (import 'Configuration.libsonnet'),
+  ConfigurationAssociation:: (import 'ConfigurationAssociation.libsonnet'),
 }

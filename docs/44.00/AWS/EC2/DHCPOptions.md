@@ -23,10 +23,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withDomainNameServers(domainNameServers)`](#fn-withdomainnameservers)
+* [`fn withDomainNameServersMixin(domainNameServers)`](#fn-withdomainnameserversmixin)
 * [`fn withNetbiosNameServers(netbiosNameServers)`](#fn-withnetbiosnameservers)
+* [`fn withNetbiosNameServersMixin(netbiosNameServers)`](#fn-withnetbiosnameserversmixin)
 * [`fn withNetbiosNodeType(netbiosNodeType)`](#fn-withnetbiosnodetype)
 * [`fn withNtpServers(ntpServers)`](#fn-withntpservers)
+* [`fn withNtpServersMixin(ntpServers)`](#fn-withntpserversmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -150,10 +154,26 @@ withDomainNameServers(domainNameServers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-domainnameservers
 
+### fn withDomainNameServersMixin
+
+```ts
+withDomainNameServersMixin(domainNameServers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-domainnameservers
+
 ### fn withNetbiosNameServers
 
 ```ts
 withNetbiosNameServers(netbiosNameServers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-netbiosnameservers
+
+### fn withNetbiosNameServersMixin
+
+```ts
+withNetbiosNameServersMixin(netbiosNameServers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-netbiosnameservers
@@ -174,10 +194,26 @@ withNtpServers(ntpServers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-ntpservers
 
+### fn withNtpServersMixin
+
+```ts
+withNtpServersMixin(ntpServers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-ntpservers
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-dhcpoptions.html#cfn-ec2-dhcpoptions-tags

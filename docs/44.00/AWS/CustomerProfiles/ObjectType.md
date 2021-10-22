@@ -27,9 +27,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cust
 * [`fn withEncryptionKey(encryptionKey)`](#fn-withencryptionkey)
 * [`fn withExpirationDays(expirationDays)`](#fn-withexpirationdays)
 * [`fn withFields(fields)`](#fn-withfields)
+* [`fn withFieldsMixin(fields)`](#fn-withfieldsmixin)
 * [`fn withKeys(keys)`](#fn-withkeys)
+* [`fn withKeysMixin(keys)`](#fn-withkeysmixin)
 * [`fn withObjectTypeName(objectTypeName)`](#fn-withobjecttypename)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTemplateId(templateId)`](#fn-withtemplateid)
 
 ## Fields
@@ -186,10 +189,26 @@ withFields(fields)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-objecttype.html#cfn-customerprofiles-objecttype-fields
 
+### fn withFieldsMixin
+
+```ts
+withFieldsMixin(fields)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-objecttype.html#cfn-customerprofiles-objecttype-fields
+
 ### fn withKeys
 
 ```ts
 withKeys(keys)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-objecttype.html#cfn-customerprofiles-objecttype-keys
+
+### fn withKeysMixin
+
+```ts
+withKeysMixin(keys)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-objecttype.html#cfn-customerprofiles-objecttype-keys
@@ -206,6 +225,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cust
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-objecttype.html#cfn-customerprofiles-objecttype-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-objecttype.html#cfn-customerprofiles-objecttype-tags

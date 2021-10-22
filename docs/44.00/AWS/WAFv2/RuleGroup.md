@@ -23,12 +23,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCapacity(capacity)`](#fn-withcapacity)
 * [`fn withCustomResponseBodies(customResponseBodies)`](#fn-withcustomresponsebodies)
+* [`fn withCustomResponseBodiesMixin(customResponseBodies)`](#fn-withcustomresponsebodiesmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRules(rules)`](#fn-withrules)
+* [`fn withRulesMixin(rules)`](#fn-withrulesmixin)
 * [`fn withScope(scope)`](#fn-withscope)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVisibilityConfig(visibilityConfig)`](#fn-withvisibilityconfig)
+* [`fn withVisibilityConfigMixin(visibilityConfig)`](#fn-withvisibilityconfigmixin)
 
 ## Fields
 
@@ -152,6 +156,14 @@ withCustomResponseBodies(customResponseBodies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-customresponsebodies
 
+### fn withCustomResponseBodiesMixin
+
+```ts
+withCustomResponseBodiesMixin(customResponseBodies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-customresponsebodies
+
 ### fn withDescription
 
 ```ts
@@ -176,6 +188,14 @@ withRules(rules)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-rules
 
+### fn withRulesMixin
+
+```ts
+withRulesMixin(rules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-rules
+
 ### fn withScope
 
 ```ts
@@ -192,10 +212,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-tags
+
 ### fn withVisibilityConfig
 
 ```ts
 withVisibilityConfig(visibilityConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-visibilityconfig
+
+### fn withVisibilityConfigMixin
+
+```ts
+withVisibilityConfigMixin(visibilityConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-rulegroup.html#cfn-wafv2-rulegroup-visibilityconfig

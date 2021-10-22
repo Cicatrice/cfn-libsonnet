@@ -23,15 +23,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApiId(apiId)`](#fn-withapiid)
 * [`fn withCachingConfig(cachingConfig)`](#fn-withcachingconfig)
+* [`fn withCachingConfigMixin(cachingConfig)`](#fn-withcachingconfigmixin)
 * [`fn withDataSourceName(dataSourceName)`](#fn-withdatasourcename)
 * [`fn withFieldName(fieldName)`](#fn-withfieldname)
 * [`fn withKind(kind)`](#fn-withkind)
 * [`fn withPipelineConfig(pipelineConfig)`](#fn-withpipelineconfig)
+* [`fn withPipelineConfigMixin(pipelineConfig)`](#fn-withpipelineconfigmixin)
 * [`fn withRequestMappingTemplate(requestMappingTemplate)`](#fn-withrequestmappingtemplate)
 * [`fn withRequestMappingTemplateS3Location(requestMappingTemplateS3location)`](#fn-withrequestmappingtemplates3location)
 * [`fn withResponseMappingTemplate(responseMappingTemplate)`](#fn-withresponsemappingtemplate)
 * [`fn withResponseMappingTemplateS3Location(responseMappingTemplateS3location)`](#fn-withresponsemappingtemplates3location)
 * [`fn withSyncConfig(syncConfig)`](#fn-withsyncconfig)
+* [`fn withSyncConfigMixin(syncConfig)`](#fn-withsyncconfigmixin)
 * [`fn withTypeName(typeName)`](#fn-withtypename)
 
 ## Fields
@@ -156,6 +159,14 @@ withCachingConfig(cachingConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html#cfn-appsync-resolver-cachingconfig
 
+### fn withCachingConfigMixin
+
+```ts
+withCachingConfigMixin(cachingConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html#cfn-appsync-resolver-cachingconfig
+
 ### fn withDataSourceName
 
 ```ts
@@ -184,6 +195,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 
 ```ts
 withPipelineConfig(pipelineConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html#cfn-appsync-resolver-pipelineconfig
+
+### fn withPipelineConfigMixin
+
+```ts
+withPipelineConfigMixin(pipelineConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html#cfn-appsync-resolver-pipelineconfig
@@ -224,6 +243,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 
 ```ts
 withSyncConfig(syncConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html#cfn-appsync-resolver-syncconfig
+
+### fn withSyncConfigMixin
+
+```ts
+withSyncConfigMixin(syncConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html#cfn-appsync-resolver-syncconfig

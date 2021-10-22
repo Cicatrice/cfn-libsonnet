@@ -23,9 +23,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batc
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withComputeEnvironmentName(computeEnvironmentName)`](#fn-withcomputeenvironmentname)
 * [`fn withComputeResources(computeResources)`](#fn-withcomputeresources)
+* [`fn withComputeResourcesMixin(computeResources)`](#fn-withcomputeresourcesmixin)
 * [`fn withServiceRole(serviceRole)`](#fn-withservicerole)
 * [`fn withState(state)`](#fn-withstate)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 * [`fn withUnmanagedvCpus(unmanagedvCpus)`](#fn-withunmanagedvcpus)
 
@@ -151,6 +153,14 @@ withComputeResources(computeResources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-computeenvironment.html#cfn-batch-computeenvironment-computeresources
 
+### fn withComputeResourcesMixin
+
+```ts
+withComputeResourcesMixin(computeResources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-computeenvironment.html#cfn-batch-computeenvironment-computeresources
+
 ### fn withServiceRole
 
 ```ts
@@ -171,6 +181,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batc
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-computeenvironment.html#cfn-batch-computeenvironment-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-computeenvironment.html#cfn-batch-computeenvironment-tags

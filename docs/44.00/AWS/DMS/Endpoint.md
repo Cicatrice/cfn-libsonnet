@@ -24,31 +24,47 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 * [`fn withCertificateArn(certificateArn)`](#fn-withcertificatearn)
 * [`fn withDatabaseName(databaseName)`](#fn-withdatabasename)
 * [`fn withDocDbSettings(docDbSettings)`](#fn-withdocdbsettings)
+* [`fn withDocDbSettingsMixin(docDbSettings)`](#fn-withdocdbsettingsmixin)
 * [`fn withDynamoDbSettings(dynamoDbSettings)`](#fn-withdynamodbsettings)
+* [`fn withDynamoDbSettingsMixin(dynamoDbSettings)`](#fn-withdynamodbsettingsmixin)
 * [`fn withElasticsearchSettings(elasticsearchSettings)`](#fn-withelasticsearchsettings)
+* [`fn withElasticsearchSettingsMixin(elasticsearchSettings)`](#fn-withelasticsearchsettingsmixin)
 * [`fn withEndpointIdentifier(endpointIdentifier)`](#fn-withendpointidentifier)
 * [`fn withEndpointType(endpointType)`](#fn-withendpointtype)
 * [`fn withEngineName(engineName)`](#fn-withenginename)
 * [`fn withExtraConnectionAttributes(extraConnectionAttributes)`](#fn-withextraconnectionattributes)
 * [`fn withIbmDb2Settings(ibmDb2settings)`](#fn-withibmdb2settings)
+* [`fn withIbmDb2SettingsMixin(ibmDb2settings)`](#fn-withibmdb2settingsmixin)
 * [`fn withKafkaSettings(kafkaSettings)`](#fn-withkafkasettings)
+* [`fn withKafkaSettingsMixin(kafkaSettings)`](#fn-withkafkasettingsmixin)
 * [`fn withKinesisSettings(kinesisSettings)`](#fn-withkinesissettings)
+* [`fn withKinesisSettingsMixin(kinesisSettings)`](#fn-withkinesissettingsmixin)
 * [`fn withKmsKeyId(kmsKeyId)`](#fn-withkmskeyid)
 * [`fn withMicrosoftSqlServerSettings(microsoftSqlServerSettings)`](#fn-withmicrosoftsqlserversettings)
+* [`fn withMicrosoftSqlServerSettingsMixin(microsoftSqlServerSettings)`](#fn-withmicrosoftsqlserversettingsmixin)
 * [`fn withMongoDbSettings(mongoDbSettings)`](#fn-withmongodbsettings)
+* [`fn withMongoDbSettingsMixin(mongoDbSettings)`](#fn-withmongodbsettingsmixin)
 * [`fn withMySqlSettings(mySqlSettings)`](#fn-withmysqlsettings)
+* [`fn withMySqlSettingsMixin(mySqlSettings)`](#fn-withmysqlsettingsmixin)
 * [`fn withNeptuneSettings(neptuneSettings)`](#fn-withneptunesettings)
+* [`fn withNeptuneSettingsMixin(neptuneSettings)`](#fn-withneptunesettingsmixin)
 * [`fn withOracleSettings(oracleSettings)`](#fn-withoraclesettings)
+* [`fn withOracleSettingsMixin(oracleSettings)`](#fn-withoraclesettingsmixin)
 * [`fn withPassword(password)`](#fn-withpassword)
 * [`fn withPort(port)`](#fn-withport)
 * [`fn withPostgreSqlSettings(postgreSqlSettings)`](#fn-withpostgresqlsettings)
+* [`fn withPostgreSqlSettingsMixin(postgreSqlSettings)`](#fn-withpostgresqlsettingsmixin)
 * [`fn withRedshiftSettings(redshiftSettings)`](#fn-withredshiftsettings)
+* [`fn withRedshiftSettingsMixin(redshiftSettings)`](#fn-withredshiftsettingsmixin)
 * [`fn withResourceIdentifier(resourceIdentifier)`](#fn-withresourceidentifier)
 * [`fn withS3Settings(s3settings)`](#fn-withs3settings)
+* [`fn withS3SettingsMixin(s3settings)`](#fn-withs3settingsmixin)
 * [`fn withServerName(serverName)`](#fn-withservername)
 * [`fn withSslMode(sslMode)`](#fn-withsslmode)
 * [`fn withSybaseSettings(sybaseSettings)`](#fn-withsybasesettings)
+* [`fn withSybaseSettingsMixin(sybaseSettings)`](#fn-withsybasesettingsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUsername(username)`](#fn-withusername)
 
 ## Fields
@@ -181,6 +197,14 @@ withDocDbSettings(docDbSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-docdbsettings
 
+### fn withDocDbSettingsMixin
+
+```ts
+withDocDbSettingsMixin(docDbSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-docdbsettings
+
 ### fn withDynamoDbSettings
 
 ```ts
@@ -189,10 +213,26 @@ withDynamoDbSettings(dynamoDbSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-dynamodbsettings
 
+### fn withDynamoDbSettingsMixin
+
+```ts
+withDynamoDbSettingsMixin(dynamoDbSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-dynamodbsettings
+
 ### fn withElasticsearchSettings
 
 ```ts
 withElasticsearchSettings(elasticsearchSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-elasticsearchsettings
+
+### fn withElasticsearchSettingsMixin
+
+```ts
+withElasticsearchSettingsMixin(elasticsearchSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-elasticsearchsettings
@@ -237,6 +277,14 @@ withIbmDb2Settings(ibmDb2settings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-ibmdb2settings
 
+### fn withIbmDb2SettingsMixin
+
+```ts
+withIbmDb2SettingsMixin(ibmDb2settings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-ibmdb2settings
+
 ### fn withKafkaSettings
 
 ```ts
@@ -245,10 +293,26 @@ withKafkaSettings(kafkaSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-kafkasettings
 
+### fn withKafkaSettingsMixin
+
+```ts
+withKafkaSettingsMixin(kafkaSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-kafkasettings
+
 ### fn withKinesisSettings
 
 ```ts
 withKinesisSettings(kinesisSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-kinesissettings
+
+### fn withKinesisSettingsMixin
+
+```ts
+withKinesisSettingsMixin(kinesisSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-kinesissettings
@@ -269,10 +333,26 @@ withMicrosoftSqlServerSettings(microsoftSqlServerSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-microsoftsqlserversettings
 
+### fn withMicrosoftSqlServerSettingsMixin
+
+```ts
+withMicrosoftSqlServerSettingsMixin(microsoftSqlServerSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-microsoftsqlserversettings
+
 ### fn withMongoDbSettings
 
 ```ts
 withMongoDbSettings(mongoDbSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-mongodbsettings
+
+### fn withMongoDbSettingsMixin
+
+```ts
+withMongoDbSettingsMixin(mongoDbSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-mongodbsettings
@@ -285,6 +365,14 @@ withMySqlSettings(mySqlSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-mysqlsettings
 
+### fn withMySqlSettingsMixin
+
+```ts
+withMySqlSettingsMixin(mySqlSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-mysqlsettings
+
 ### fn withNeptuneSettings
 
 ```ts
@@ -293,10 +381,26 @@ withNeptuneSettings(neptuneSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-neptunesettings
 
+### fn withNeptuneSettingsMixin
+
+```ts
+withNeptuneSettingsMixin(neptuneSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-neptunesettings
+
 ### fn withOracleSettings
 
 ```ts
 withOracleSettings(oracleSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-oraclesettings
+
+### fn withOracleSettingsMixin
+
+```ts
+withOracleSettingsMixin(oracleSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-oraclesettings
@@ -325,10 +429,26 @@ withPostgreSqlSettings(postgreSqlSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-postgresqlsettings
 
+### fn withPostgreSqlSettingsMixin
+
+```ts
+withPostgreSqlSettingsMixin(postgreSqlSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-postgresqlsettings
+
 ### fn withRedshiftSettings
 
 ```ts
 withRedshiftSettings(redshiftSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-redshiftsettings
+
+### fn withRedshiftSettingsMixin
+
+```ts
+withRedshiftSettingsMixin(redshiftSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-redshiftsettings
@@ -345,6 +465,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-
 
 ```ts
 withS3Settings(s3settings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-s3settings
+
+### fn withS3SettingsMixin
+
+```ts
+withS3SettingsMixin(s3settings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-s3settings
@@ -373,10 +501,26 @@ withSybaseSettings(sybaseSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-sybasesettings
 
+### fn withSybaseSettingsMixin
+
+```ts
+withSybaseSettingsMixin(sybaseSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-sybasesettings
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-tags

@@ -26,9 +26,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 * [`fn withBucketRegion(bucketRegion)`](#fn-withbucketregion)
 * [`fn withKMSKeyArn(kmskeyArn)`](#fn-withkmskeyarn)
 * [`fn withS3Destination(s3destination)`](#fn-withs3destination)
+* [`fn withS3DestinationMixin(s3destination)`](#fn-withs3destinationmixin)
 * [`fn withSyncFormat(syncFormat)`](#fn-withsyncformat)
 * [`fn withSyncName(syncName)`](#fn-withsyncname)
 * [`fn withSyncSource(syncSource)`](#fn-withsyncsource)
+* [`fn withSyncSourceMixin(syncSource)`](#fn-withsyncsourcemixin)
 * [`fn withSyncType(syncType)`](#fn-withsynctype)
 
 ## Fields
@@ -177,6 +179,14 @@ withS3Destination(s3destination)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-s3destination
 
+### fn withS3DestinationMixin
+
+```ts
+withS3DestinationMixin(s3destination)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-s3destination
+
 ### fn withSyncFormat
 
 ```ts
@@ -197,6 +207,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 
 ```ts
 withSyncSource(syncSource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-syncsource
+
+### fn withSyncSourceMixin
+
+```ts
+withSyncSourceMixin(syncSource)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-resourcedatasync.html#cfn-ssm-resourcedatasync-syncsource

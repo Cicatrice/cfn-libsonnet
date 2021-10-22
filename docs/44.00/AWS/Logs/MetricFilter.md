@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs
 * [`fn withFilterPattern(filterPattern)`](#fn-withfilterpattern)
 * [`fn withLogGroupName(logGroupName)`](#fn-withloggroupname)
 * [`fn withMetricTransformations(metricTransformations)`](#fn-withmetrictransformations)
+* [`fn withMetricTransformationsMixin(metricTransformations)`](#fn-withmetrictransformationsmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs
 
 ```ts
 withMetricTransformations(metricTransformations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-metricfilter.html#cfn-cwl-metricfilter-metrictransformations
+
+### fn withMetricTransformationsMixin
+
+```ts
+withMetricTransformationsMixin(metricTransformations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-metricfilter.html#cfn-cwl-metricfilter-metrictransformations

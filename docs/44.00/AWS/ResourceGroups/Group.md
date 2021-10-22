@@ -22,11 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-reso
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConfiguration(configuration)`](#fn-withconfiguration)
+* [`fn withConfigurationMixin(configuration)`](#fn-withconfigurationmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withResourceQuery(resourceQuery)`](#fn-withresourcequery)
+* [`fn withResourceQueryMixin(resourceQuery)`](#fn-withresourcequerymixin)
 * [`fn withResources(resources)`](#fn-withresources)
+* [`fn withResourcesMixin(resources)`](#fn-withresourcesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -142,6 +146,14 @@ withConfiguration(configuration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-configuration
 
+### fn withConfigurationMixin
+
+```ts
+withConfigurationMixin(configuration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-configuration
+
 ### fn withDescription
 
 ```ts
@@ -166,6 +178,14 @@ withResourceQuery(resourceQuery)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-resourcequery
 
+### fn withResourceQueryMixin
+
+```ts
+withResourceQueryMixin(resourceQuery)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-resourcequery
+
 ### fn withResources
 
 ```ts
@@ -174,10 +194,26 @@ withResources(resources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-resources
 
+### fn withResourcesMixin
+
+```ts
+withResourcesMixin(resources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-resources
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-resourcegroups-group.html#cfn-resourcegroups-group-tags

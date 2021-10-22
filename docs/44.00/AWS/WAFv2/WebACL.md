@@ -22,13 +22,18 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCustomResponseBodies(customResponseBodies)`](#fn-withcustomresponsebodies)
+* [`fn withCustomResponseBodiesMixin(customResponseBodies)`](#fn-withcustomresponsebodiesmixin)
 * [`fn withDefaultAction(defaultAction)`](#fn-withdefaultaction)
+* [`fn withDefaultActionMixin(defaultAction)`](#fn-withdefaultactionmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRules(rules)`](#fn-withrules)
+* [`fn withRulesMixin(rules)`](#fn-withrulesmixin)
 * [`fn withScope(scope)`](#fn-withscope)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVisibilityConfig(visibilityConfig)`](#fn-withvisibilityconfig)
+* [`fn withVisibilityConfigMixin(visibilityConfig)`](#fn-withvisibilityconfigmixin)
 
 ## Fields
 
@@ -144,10 +149,26 @@ withCustomResponseBodies(customResponseBodies)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-customresponsebodies
 
+### fn withCustomResponseBodiesMixin
+
+```ts
+withCustomResponseBodiesMixin(customResponseBodies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-customresponsebodies
+
 ### fn withDefaultAction
 
 ```ts
 withDefaultAction(defaultAction)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-defaultaction
+
+### fn withDefaultActionMixin
+
+```ts
+withDefaultActionMixin(defaultAction)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-defaultaction
@@ -176,6 +197,14 @@ withRules(rules)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-rules
 
+### fn withRulesMixin
+
+```ts
+withRulesMixin(rules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-rules
+
 ### fn withScope
 
 ```ts
@@ -192,10 +221,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-tags
+
 ### fn withVisibilityConfig
 
 ```ts
 withVisibilityConfig(visibilityConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-visibilityconfig
+
+### fn withVisibilityConfigMixin
+
+```ts
+withVisibilityConfigMixin(visibilityConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-visibilityconfig

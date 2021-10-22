@@ -23,9 +23,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEgressAccessLogs(egressAccessLogs)`](#fn-withegressaccesslogs)
+* [`fn withEgressAccessLogsMixin(egressAccessLogs)`](#fn-withegressaccesslogsmixin)
 * [`fn withId(id)`](#fn-withid)
 * [`fn withIngressAccessLogs(ingressAccessLogs)`](#fn-withingressaccesslogs)
+* [`fn withIngressAccessLogsMixin(ingressAccessLogs)`](#fn-withingressaccesslogsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -149,6 +152,14 @@ withEgressAccessLogs(egressAccessLogs)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-channel.html#cfn-mediapackage-channel-egressaccesslogs
 
+### fn withEgressAccessLogsMixin
+
+```ts
+withEgressAccessLogsMixin(egressAccessLogs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-channel.html#cfn-mediapackage-channel-egressaccesslogs
+
 ### fn withId
 
 ```ts
@@ -165,10 +176,26 @@ withIngressAccessLogs(ingressAccessLogs)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-channel.html#cfn-mediapackage-channel-ingressaccesslogs
 
+### fn withIngressAccessLogsMixin
+
+```ts
+withIngressAccessLogsMixin(ingressAccessLogs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-channel.html#cfn-mediapackage-channel-ingressaccesslogs
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-channel.html#cfn-mediapackage-channel-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-channel.html#cfn-mediapackage-channel-tags

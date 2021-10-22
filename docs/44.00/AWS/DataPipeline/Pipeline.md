@@ -25,9 +25,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withParameterObjects(parameterObjects)`](#fn-withparameterobjects)
+* [`fn withParameterObjectsMixin(parameterObjects)`](#fn-withparameterobjectsmixin)
 * [`fn withParameterValues(parameterValues)`](#fn-withparametervalues)
+* [`fn withParameterValuesMixin(parameterValues)`](#fn-withparametervaluesmixin)
 * [`fn withPipelineObjects(pipelineObjects)`](#fn-withpipelineobjects)
+* [`fn withPipelineObjectsMixin(pipelineObjects)`](#fn-withpipelineobjectsmixin)
 * [`fn withPipelineTags(pipelineTags)`](#fn-withpipelinetags)
+* [`fn withPipelineTagsMixin(pipelineTags)`](#fn-withpipelinetagsmixin)
 
 ## Fields
 
@@ -167,10 +171,26 @@ withParameterObjects(parameterObjects)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-parameterobjects
 
+### fn withParameterObjectsMixin
+
+```ts
+withParameterObjectsMixin(parameterObjects)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-parameterobjects
+
 ### fn withParameterValues
 
 ```ts
 withParameterValues(parameterValues)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-parametervalues
+
+### fn withParameterValuesMixin
+
+```ts
+withParameterValuesMixin(parameterValues)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-parametervalues
@@ -183,10 +203,26 @@ withPipelineObjects(pipelineObjects)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-pipelineobjects
 
+### fn withPipelineObjectsMixin
+
+```ts
+withPipelineObjectsMixin(pipelineObjects)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-pipelineobjects
+
 ### fn withPipelineTags
 
 ```ts
 withPipelineTags(pipelineTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-pipelinetags
+
+### fn withPipelineTagsMixin
+
+```ts
+withPipelineTagsMixin(pipelineTags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-pipelinetags

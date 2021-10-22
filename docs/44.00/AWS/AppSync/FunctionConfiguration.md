@@ -31,6 +31,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn withResponseMappingTemplate(responseMappingTemplate)`](#fn-withresponsemappingtemplate)
 * [`fn withResponseMappingTemplateS3Location(responseMappingTemplateS3location)`](#fn-withresponsemappingtemplates3location)
 * [`fn withSyncConfig(syncConfig)`](#fn-withsyncconfig)
+* [`fn withSyncConfigMixin(syncConfig)`](#fn-withsyncconfigmixin)
 
 ## Fields
 
@@ -214,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 
 ```ts
 withSyncConfig(syncConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-functionconfiguration.html#cfn-appsync-functionconfiguration-syncconfig
+
+### fn withSyncConfigMixin
+
+```ts
+withSyncConfigMixin(syncConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-functionconfiguration.html#cfn-appsync-functionconfiguration-syncconfig

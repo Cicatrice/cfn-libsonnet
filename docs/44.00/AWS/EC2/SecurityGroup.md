@@ -24,8 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec
 * [`fn withGroupDescription(groupDescription)`](#fn-withgroupdescription)
 * [`fn withGroupName(groupName)`](#fn-withgroupname)
 * [`fn withSecurityGroupEgress(securityGroupEgress)`](#fn-withsecuritygroupegress)
+* [`fn withSecurityGroupEgressMixin(securityGroupEgress)`](#fn-withsecuritygroupegressmixin)
 * [`fn withSecurityGroupIngress(securityGroupIngress)`](#fn-withsecuritygroupingress)
+* [`fn withSecurityGroupIngressMixin(securityGroupIngress)`](#fn-withsecuritygroupingressmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcId(vpcId)`](#fn-withvpcid)
 
 ## Fields
@@ -158,6 +161,14 @@ withSecurityGroupEgress(securityGroupEgress)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html#cfn-ec2-securitygroup-securitygroupegress
 
+### fn withSecurityGroupEgressMixin
+
+```ts
+withSecurityGroupEgressMixin(securityGroupEgress)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html#cfn-ec2-securitygroup-securitygroupegress
+
 ### fn withSecurityGroupIngress
 
 ```ts
@@ -166,10 +177,26 @@ withSecurityGroupIngress(securityGroupIngress)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html#cfn-ec2-securitygroup-securitygroupingress
 
+### fn withSecurityGroupIngressMixin
+
+```ts
+withSecurityGroupIngressMixin(securityGroupIngress)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html#cfn-ec2-securitygroup-securitygroupingress
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html#cfn-ec2-securitygroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-security-group.html#cfn-ec2-securitygroup-tags

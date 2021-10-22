@@ -22,11 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withPipelineDefinition(pipelineDefinition)`](#fn-withpipelinedefinition)
+* [`fn withPipelineDefinitionMixin(pipelineDefinition)`](#fn-withpipelinedefinitionmixin)
 * [`fn withPipelineDescription(pipelineDescription)`](#fn-withpipelinedescription)
 * [`fn withPipelineDisplayName(pipelineDisplayName)`](#fn-withpipelinedisplayname)
 * [`fn withPipelineName(pipelineName)`](#fn-withpipelinename)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -142,6 +144,14 @@ withPipelineDefinition(pipelineDefinition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-pipelinedefinition
 
+### fn withPipelineDefinitionMixin
+
+```ts
+withPipelineDefinitionMixin(pipelineDefinition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-pipelinedefinition
+
 ### fn withPipelineDescription
 
 ```ts
@@ -178,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-pipeline.html#cfn-sagemaker-pipeline-tags

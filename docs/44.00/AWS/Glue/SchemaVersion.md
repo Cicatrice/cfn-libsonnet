@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withSchema(schema)`](#fn-withschema)
 * [`fn withSchemaDefinition(schemaDefinition)`](#fn-withschemadefinition)
+* [`fn withSchemaMixin(schema)`](#fn-withschemamixin)
 
 ## Fields
 
@@ -145,3 +146,11 @@ withSchemaDefinition(schemaDefinition)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schemaversion.html#cfn-glue-schemaversion-schemadefinition
+
+### fn withSchemaMixin
+
+```ts
+withSchemaMixin(schema)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-schemaversion.html#cfn-glue-schemaversion-schema

@@ -24,8 +24,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withApiKeySelectionExpression(apiKeySelectionExpression)`](#fn-withapikeyselectionexpression)
 * [`fn withBasePath(basePath)`](#fn-withbasepath)
 * [`fn withBody(body)`](#fn-withbody)
+* [`fn withBodyMixin(body)`](#fn-withbodymixin)
 * [`fn withBodyS3Location(bodyS3location)`](#fn-withbodys3location)
+* [`fn withBodyS3LocationMixin(bodyS3location)`](#fn-withbodys3locationmixin)
 * [`fn withCorsConfiguration(corsConfiguration)`](#fn-withcorsconfiguration)
+* [`fn withCorsConfigurationMixin(corsConfiguration)`](#fn-withcorsconfigurationmixin)
 * [`fn withCredentialsArn(credentialsArn)`](#fn-withcredentialsarn)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDisableExecuteApiEndpoint(disableExecuteApiEndpoint)`](#fn-withdisableexecuteapiendpoint)
@@ -36,6 +39,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withRouteKey(routeKey)`](#fn-withroutekey)
 * [`fn withRouteSelectionExpression(routeSelectionExpression)`](#fn-withrouteselectionexpression)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTarget(target)`](#fn-withtarget)
 * [`fn withVersion(version)`](#fn-withversion)
 
@@ -169,6 +173,14 @@ withBody(body)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-body
 
+### fn withBodyMixin
+
+```ts
+withBodyMixin(body)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-body
+
 ### fn withBodyS3Location
 
 ```ts
@@ -177,10 +189,26 @@ withBodyS3Location(bodyS3location)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-bodys3location
 
+### fn withBodyS3LocationMixin
+
+```ts
+withBodyS3LocationMixin(bodyS3location)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-bodys3location
+
 ### fn withCorsConfiguration
 
 ```ts
 withCorsConfiguration(corsConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-corsconfiguration
+
+### fn withCorsConfigurationMixin
+
+```ts
+withCorsConfigurationMixin(corsConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-corsconfiguration
@@ -261,6 +289,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-api.html#cfn-apigatewayv2-api-tags

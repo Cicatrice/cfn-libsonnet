@@ -25,7 +25,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-insp
 * [`fn withAssessmentTemplateName(assessmentTemplateName)`](#fn-withassessmenttemplatename)
 * [`fn withDurationInSeconds(durationInSeconds)`](#fn-withdurationinseconds)
 * [`fn withRulesPackageArns(rulesPackageArns)`](#fn-withrulespackagearns)
+* [`fn withRulesPackageArnsMixin(rulesPackageArns)`](#fn-withrulespackagearnsmixin)
 * [`fn withUserAttributesForFindings(userAttributesForFindings)`](#fn-withuserattributesforfindings)
+* [`fn withUserAttributesForFindingsMixin(userAttributesForFindings)`](#fn-withuserattributesforfindingsmixin)
 
 ## Fields
 
@@ -165,10 +167,26 @@ withRulesPackageArns(rulesPackageArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html#cfn-inspector-assessmenttemplate-rulespackagearns
 
+### fn withRulesPackageArnsMixin
+
+```ts
+withRulesPackageArnsMixin(rulesPackageArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html#cfn-inspector-assessmenttemplate-rulespackagearns
+
 ### fn withUserAttributesForFindings
 
 ```ts
 withUserAttributesForFindings(userAttributesForFindings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html#cfn-inspector-assessmenttemplate-userattributesforfindings
+
+### fn withUserAttributesForFindingsMixin
+
+```ts
+withUserAttributesForFindingsMixin(userAttributesForFindings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspector-assessmenttemplate.html#cfn-inspector-assessmenttemplate-userattributesforfindings

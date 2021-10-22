@@ -23,8 +23,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssociatePublicIpAddress(associatePublicIpAddress)`](#fn-withassociatepublicipaddress)
 * [`fn withBlockDeviceMappings(blockDeviceMappings)`](#fn-withblockdevicemappings)
+* [`fn withBlockDeviceMappingsMixin(blockDeviceMappings)`](#fn-withblockdevicemappingsmixin)
 * [`fn withClassicLinkVPCId(classicLinkVpcid)`](#fn-withclassiclinkvpcid)
 * [`fn withClassicLinkVPCSecurityGroups(classicLinkVpcsecurityGroups)`](#fn-withclassiclinkvpcsecuritygroups)
+* [`fn withClassicLinkVPCSecurityGroupsMixin(classicLinkVpcsecurityGroups)`](#fn-withclassiclinkvpcsecuritygroupsmixin)
 * [`fn withEbsOptimized(ebsOptimized)`](#fn-withebsoptimized)
 * [`fn withIamInstanceProfile(iamInstanceProfile)`](#fn-withiaminstanceprofile)
 * [`fn withImageId(imageId)`](#fn-withimageid)
@@ -35,9 +37,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 * [`fn withKeyName(keyName)`](#fn-withkeyname)
 * [`fn withLaunchConfigurationName(launchConfigurationName)`](#fn-withlaunchconfigurationname)
 * [`fn withMetadataOptions(metadataOptions)`](#fn-withmetadataoptions)
+* [`fn withMetadataOptionsMixin(metadataOptions)`](#fn-withmetadataoptionsmixin)
 * [`fn withPlacementTenancy(placementTenancy)`](#fn-withplacementtenancy)
 * [`fn withRamDiskId(ramDiskId)`](#fn-withramdiskid)
 * [`fn withSecurityGroups(securityGroups)`](#fn-withsecuritygroups)
+* [`fn withSecurityGroupsMixin(securityGroups)`](#fn-withsecuritygroupsmixin)
 * [`fn withSpotPrice(spotPrice)`](#fn-withspotprice)
 * [`fn withUserData(userData)`](#fn-withuserdata)
 
@@ -163,6 +167,14 @@ withBlockDeviceMappings(blockDeviceMappings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-blockdevicemappings
 
+### fn withBlockDeviceMappingsMixin
+
+```ts
+withBlockDeviceMappingsMixin(blockDeviceMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-blockdevicemappings
+
 ### fn withClassicLinkVPCId
 
 ```ts
@@ -175,6 +187,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 
 ```ts
 withClassicLinkVPCSecurityGroups(classicLinkVpcsecurityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-classiclinkvpcsecuritygroups
+
+### fn withClassicLinkVPCSecurityGroupsMixin
+
+```ts
+withClassicLinkVPCSecurityGroupsMixin(classicLinkVpcsecurityGroups)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-classiclinkvpcsecuritygroups
@@ -259,6 +279,14 @@ withMetadataOptions(metadataOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-autoscaling-launchconfig-metadataoptions
 
+### fn withMetadataOptionsMixin
+
+```ts
+withMetadataOptionsMixin(metadataOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-autoscaling-launchconfig-metadataoptions
+
 ### fn withPlacementTenancy
 
 ```ts
@@ -279,6 +307,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 
 ```ts
 withSecurityGroups(securityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-securitygroups
+
+### fn withSecurityGroupsMixin
+
+```ts
+withSecurityGroupsMixin(securityGroups)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cfn-as-launchconfig-securitygroups

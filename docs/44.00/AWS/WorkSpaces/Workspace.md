@@ -25,10 +25,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-work
 * [`fn withDirectoryId(directoryId)`](#fn-withdirectoryid)
 * [`fn withRootVolumeEncryptionEnabled(rootVolumeEncryptionEnabled)`](#fn-withrootvolumeencryptionenabled)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserName(userName)`](#fn-withusername)
 * [`fn withUserVolumeEncryptionEnabled(userVolumeEncryptionEnabled)`](#fn-withuservolumeencryptionenabled)
 * [`fn withVolumeEncryptionKey(volumeEncryptionKey)`](#fn-withvolumeencryptionkey)
 * [`fn withWorkspaceProperties(workspaceProperties)`](#fn-withworkspaceproperties)
+* [`fn withWorkspacePropertiesMixin(workspaceProperties)`](#fn-withworkspacepropertiesmixin)
 
 ## Fields
 
@@ -168,6 +170,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-tags
+
 ### fn withUserName
 
 ```ts
@@ -196,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-work
 
 ```ts
 withWorkspaceProperties(workspaceProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-workspaceproperties
+
+### fn withWorkspacePropertiesMixin
+
+```ts
+withWorkspacePropertiesMixin(workspaceProperties)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-workspaceproperties

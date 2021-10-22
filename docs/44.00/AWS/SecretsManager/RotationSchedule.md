@@ -22,8 +22,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secr
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withHostedRotationLambda(hostedRotationLambda)`](#fn-withhostedrotationlambda)
+* [`fn withHostedRotationLambdaMixin(hostedRotationLambda)`](#fn-withhostedrotationlambdamixin)
 * [`fn withRotationLambdaARN(rotationLambdaArn)`](#fn-withrotationlambdaarn)
 * [`fn withRotationRules(rotationRules)`](#fn-withrotationrules)
+* [`fn withRotationRulesMixin(rotationRules)`](#fn-withrotationrulesmixin)
 * [`fn withSecretId(secretId)`](#fn-withsecretid)
 
 ## Fields
@@ -140,6 +142,14 @@ withHostedRotationLambda(hostedRotationLambda)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-rotationschedule.html#cfn-secretsmanager-rotationschedule-hostedrotationlambda
 
+### fn withHostedRotationLambdaMixin
+
+```ts
+withHostedRotationLambdaMixin(hostedRotationLambda)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-rotationschedule.html#cfn-secretsmanager-rotationschedule-hostedrotationlambda
+
 ### fn withRotationLambdaARN
 
 ```ts
@@ -152,6 +162,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secr
 
 ```ts
 withRotationRules(rotationRules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-rotationschedule.html#cfn-secretsmanager-rotationschedule-rotationrules
+
+### fn withRotationRulesMixin
+
+```ts
+withRotationRulesMixin(rotationRules)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-secretsmanager-rotationschedule.html#cfn-secretsmanager-rotationschedule-rotationrules

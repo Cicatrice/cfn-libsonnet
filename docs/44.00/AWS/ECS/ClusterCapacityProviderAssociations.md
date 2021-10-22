@@ -22,8 +22,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCapacityProviders(capacityProviders)`](#fn-withcapacityproviders)
+* [`fn withCapacityProvidersMixin(capacityProviders)`](#fn-withcapacityprovidersmixin)
 * [`fn withCluster(cluster)`](#fn-withcluster)
 * [`fn withDefaultCapacityProviderStrategy(defaultCapacityProviderStrategy)`](#fn-withdefaultcapacityproviderstrategy)
+* [`fn withDefaultCapacityProviderStrategyMixin(defaultCapacityProviderStrategy)`](#fn-withdefaultcapacityproviderstrategymixin)
 
 ## Fields
 
@@ -139,6 +141,14 @@ withCapacityProviders(capacityProviders)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-capacityproviders
 
+### fn withCapacityProvidersMixin
+
+```ts
+withCapacityProvidersMixin(capacityProviders)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-capacityproviders
+
 ### fn withCluster
 
 ```ts
@@ -151,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-
 
 ```ts
 withDefaultCapacityProviderStrategy(defaultCapacityProviderStrategy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-defaultcapacityproviderstrategy
+
+### fn withDefaultCapacityProviderStrategyMixin
+
+```ts
+withDefaultCapacityProviderStrategyMixin(defaultCapacityProviderStrategy)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-defaultcapacityproviderstrategy

@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessKey(accessKey)`](#fn-withaccesskey)
 * [`fn withAgentArns(agentArns)`](#fn-withagentarns)
+* [`fn withAgentArnsMixin(agentArns)`](#fn-withagentarnsmixin)
 * [`fn withBucketName(bucketName)`](#fn-withbucketname)
 * [`fn withSecretKey(secretKey)`](#fn-withsecretkey)
 * [`fn withServerHostname(serverHostname)`](#fn-withserverhostname)
@@ -30,6 +31,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn withServerProtocol(serverProtocol)`](#fn-withserverprotocol)
 * [`fn withSubdirectory(subdirectory)`](#fn-withsubdirectory)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -153,6 +155,14 @@ withAgentArns(agentArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationobjectstorage.html#cfn-datasync-locationobjectstorage-agentarns
 
+### fn withAgentArnsMixin
+
+```ts
+withAgentArnsMixin(agentArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationobjectstorage.html#cfn-datasync-locationobjectstorage-agentarns
+
 ### fn withBucketName
 
 ```ts
@@ -205,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationobjectstorage.html#cfn-datasync-locationobjectstorage-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationobjectstorage.html#cfn-datasync-locationobjectstorage-tags

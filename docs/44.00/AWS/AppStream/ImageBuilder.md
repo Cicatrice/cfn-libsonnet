@@ -22,10 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessEndpoints(accessEndpoints)`](#fn-withaccessendpoints)
+* [`fn withAccessEndpointsMixin(accessEndpoints)`](#fn-withaccessendpointsmixin)
 * [`fn withAppstreamAgentVersion(appstreamAgentVersion)`](#fn-withappstreamagentversion)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDisplayName(displayName)`](#fn-withdisplayname)
 * [`fn withDomainJoinInfo(domainJoinInfo)`](#fn-withdomainjoininfo)
+* [`fn withDomainJoinInfoMixin(domainJoinInfo)`](#fn-withdomainjoininfomixin)
 * [`fn withEnableDefaultInternetAccess(enableDefaultInternetAccess)`](#fn-withenabledefaultinternetaccess)
 * [`fn withIamRoleArn(iamRoleArn)`](#fn-withiamrolearn)
 * [`fn withImageArn(imageArn)`](#fn-withimagearn)
@@ -33,7 +35,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn withInstanceType(instanceType)`](#fn-withinstancetype)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVpcConfig(vpcConfig)`](#fn-withvpcconfig)
+* [`fn withVpcConfigMixin(vpcConfig)`](#fn-withvpcconfigmixin)
 
 ## Fields
 
@@ -149,6 +153,14 @@ withAccessEndpoints(accessEndpoints)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-accessendpoints
 
+### fn withAccessEndpointsMixin
+
+```ts
+withAccessEndpointsMixin(accessEndpoints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-accessendpoints
+
 ### fn withAppstreamAgentVersion
 
 ```ts
@@ -177,6 +189,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 
 ```ts
 withDomainJoinInfo(domainJoinInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-domainjoininfo
+
+### fn withDomainJoinInfoMixin
+
+```ts
+withDomainJoinInfoMixin(domainJoinInfo)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-domainjoininfo
@@ -237,10 +257,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-tags
+
 ### fn withVpcConfig
 
 ```ts
 withVpcConfig(vpcConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-vpcconfig
+
+### fn withVpcConfigMixin
+
+```ts
+withVpcConfigMixin(vpcConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-vpcconfig

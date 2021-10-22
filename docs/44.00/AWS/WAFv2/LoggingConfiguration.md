@@ -22,8 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withLogDestinationConfigs(logDestinationConfigs)`](#fn-withlogdestinationconfigs)
+* [`fn withLogDestinationConfigsMixin(logDestinationConfigs)`](#fn-withlogdestinationconfigsmixin)
 * [`fn withLoggingFilter(loggingFilter)`](#fn-withloggingfilter)
+* [`fn withLoggingFilterMixin(loggingFilter)`](#fn-withloggingfiltermixin)
 * [`fn withRedactedFields(redactedFields)`](#fn-withredactedfields)
+* [`fn withRedactedFieldsMixin(redactedFields)`](#fn-withredactedfieldsmixin)
 * [`fn withResourceArn(resourceArn)`](#fn-withresourcearn)
 
 ## Fields
@@ -140,6 +143,14 @@ withLogDestinationConfigs(logDestinationConfigs)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html#cfn-wafv2-loggingconfiguration-logdestinationconfigs
 
+### fn withLogDestinationConfigsMixin
+
+```ts
+withLogDestinationConfigsMixin(logDestinationConfigs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html#cfn-wafv2-loggingconfiguration-logdestinationconfigs
+
 ### fn withLoggingFilter
 
 ```ts
@@ -148,10 +159,26 @@ withLoggingFilter(loggingFilter)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html#cfn-wafv2-loggingconfiguration-loggingfilter
 
+### fn withLoggingFilterMixin
+
+```ts
+withLoggingFilterMixin(loggingFilter)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html#cfn-wafv2-loggingconfiguration-loggingfilter
+
 ### fn withRedactedFields
 
 ```ts
 withRedactedFields(redactedFields)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html#cfn-wafv2-loggingconfiguration-redactedfields
+
+### fn withRedactedFieldsMixin
+
+```ts
+withRedactedFieldsMixin(redactedFields)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html#cfn-wafv2-loggingconfiguration-redactedfields

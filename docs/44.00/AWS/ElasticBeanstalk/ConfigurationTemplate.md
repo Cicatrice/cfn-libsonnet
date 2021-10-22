@@ -25,9 +25,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEnvironmentId(environmentId)`](#fn-withenvironmentid)
 * [`fn withOptionSettings(optionSettings)`](#fn-withoptionsettings)
+* [`fn withOptionSettingsMixin(optionSettings)`](#fn-withoptionsettingsmixin)
 * [`fn withPlatformArn(platformArn)`](#fn-withplatformarn)
 * [`fn withSolutionStackName(solutionStackName)`](#fn-withsolutionstackname)
 * [`fn withSourceConfiguration(sourceConfiguration)`](#fn-withsourceconfiguration)
+* [`fn withSourceConfigurationMixin(sourceConfiguration)`](#fn-withsourceconfigurationmixin)
 
 ## Fields
 
@@ -167,6 +169,14 @@ withOptionSettings(optionSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticbeanstalk-configurationtemplate.html#cfn-elasticbeanstalk-configurationtemplate-optionsettings
 
+### fn withOptionSettingsMixin
+
+```ts
+withOptionSettingsMixin(optionSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticbeanstalk-configurationtemplate.html#cfn-elasticbeanstalk-configurationtemplate-optionsettings
+
 ### fn withPlatformArn
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withSourceConfiguration(sourceConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticbeanstalk-configurationtemplate.html#cfn-elasticbeanstalk-configurationtemplate-sourceconfiguration
+
+### fn withSourceConfigurationMixin
+
+```ts
+withSourceConfigurationMixin(sourceConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticbeanstalk-configurationtemplate.html#cfn-elasticbeanstalk-configurationtemplate-sourceconfiguration

@@ -22,29 +22,42 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withArtifacts(artifacts)`](#fn-withartifacts)
+* [`fn withArtifactsMixin(artifacts)`](#fn-withartifactsmixin)
 * [`fn withBadgeEnabled(badgeEnabled)`](#fn-withbadgeenabled)
 * [`fn withBuildBatchConfig(buildBatchConfig)`](#fn-withbuildbatchconfig)
+* [`fn withBuildBatchConfigMixin(buildBatchConfig)`](#fn-withbuildbatchconfigmixin)
 * [`fn withCache(cache)`](#fn-withcache)
+* [`fn withCacheMixin(cache)`](#fn-withcachemixin)
 * [`fn withConcurrentBuildLimit(concurrentBuildLimit)`](#fn-withconcurrentbuildlimit)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEncryptionKey(encryptionKey)`](#fn-withencryptionkey)
 * [`fn withEnvironment(environment)`](#fn-withenvironment)
+* [`fn withEnvironmentMixin(environment)`](#fn-withenvironmentmixin)
 * [`fn withFileSystemLocations(fileSystemLocations)`](#fn-withfilesystemlocations)
+* [`fn withFileSystemLocationsMixin(fileSystemLocations)`](#fn-withfilesystemlocationsmixin)
 * [`fn withLogsConfig(logsConfig)`](#fn-withlogsconfig)
+* [`fn withLogsConfigMixin(logsConfig)`](#fn-withlogsconfigmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withQueuedTimeoutInMinutes(queuedTimeoutInMinutes)`](#fn-withqueuedtimeoutinminutes)
 * [`fn withResourceAccessRole(resourceAccessRole)`](#fn-withresourceaccessrole)
 * [`fn withSecondaryArtifacts(secondaryArtifacts)`](#fn-withsecondaryartifacts)
+* [`fn withSecondaryArtifactsMixin(secondaryArtifacts)`](#fn-withsecondaryartifactsmixin)
 * [`fn withSecondarySourceVersions(secondarySourceVersions)`](#fn-withsecondarysourceversions)
+* [`fn withSecondarySourceVersionsMixin(secondarySourceVersions)`](#fn-withsecondarysourceversionsmixin)
 * [`fn withSecondarySources(secondarySources)`](#fn-withsecondarysources)
+* [`fn withSecondarySourcesMixin(secondarySources)`](#fn-withsecondarysourcesmixin)
 * [`fn withServiceRole(serviceRole)`](#fn-withservicerole)
 * [`fn withSource(source)`](#fn-withsource)
+* [`fn withSourceMixin(source)`](#fn-withsourcemixin)
 * [`fn withSourceVersion(sourceVersion)`](#fn-withsourceversion)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeoutInMinutes(timeoutInMinutes)`](#fn-withtimeoutinminutes)
 * [`fn withTriggers(triggers)`](#fn-withtriggers)
+* [`fn withTriggersMixin(triggers)`](#fn-withtriggersmixin)
 * [`fn withVisibility(visibility)`](#fn-withvisibility)
 * [`fn withVpcConfig(vpcConfig)`](#fn-withvpcconfig)
+* [`fn withVpcConfigMixin(vpcConfig)`](#fn-withvpcconfigmixin)
 
 ## Fields
 
@@ -160,6 +173,14 @@ withArtifacts(artifacts)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-artifacts
 
+### fn withArtifactsMixin
+
+```ts
+withArtifactsMixin(artifacts)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-artifacts
+
 ### fn withBadgeEnabled
 
 ```ts
@@ -176,10 +197,26 @@ withBuildBatchConfig(buildBatchConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-buildbatchconfig
 
+### fn withBuildBatchConfigMixin
+
+```ts
+withBuildBatchConfigMixin(buildBatchConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-buildbatchconfig
+
 ### fn withCache
 
 ```ts
 withCache(cache)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-cache
+
+### fn withCacheMixin
+
+```ts
+withCacheMixin(cache)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-cache
@@ -216,6 +253,14 @@ withEnvironment(environment)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-environment
 
+### fn withEnvironmentMixin
+
+```ts
+withEnvironmentMixin(environment)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-environment
+
 ### fn withFileSystemLocations
 
 ```ts
@@ -224,10 +269,26 @@ withFileSystemLocations(fileSystemLocations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-filesystemlocations
 
+### fn withFileSystemLocationsMixin
+
+```ts
+withFileSystemLocationsMixin(fileSystemLocations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-filesystemlocations
+
 ### fn withLogsConfig
 
 ```ts
 withLogsConfig(logsConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-logsconfig
+
+### fn withLogsConfigMixin
+
+```ts
+withLogsConfigMixin(logsConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-logsconfig
@@ -264,6 +325,14 @@ withSecondaryArtifacts(secondaryArtifacts)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-secondaryartifacts
 
+### fn withSecondaryArtifactsMixin
+
+```ts
+withSecondaryArtifactsMixin(secondaryArtifacts)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-secondaryartifacts
+
 ### fn withSecondarySourceVersions
 
 ```ts
@@ -272,10 +341,26 @@ withSecondarySourceVersions(secondarySourceVersions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-secondarysourceversions
 
+### fn withSecondarySourceVersionsMixin
+
+```ts
+withSecondarySourceVersionsMixin(secondarySourceVersions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-secondarysourceversions
+
 ### fn withSecondarySources
 
 ```ts
 withSecondarySources(secondarySources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-secondarysources
+
+### fn withSecondarySourcesMixin
+
+```ts
+withSecondarySourcesMixin(secondarySources)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-secondarysources
@@ -296,6 +381,14 @@ withSource(source)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-source
 
+### fn withSourceMixin
+
+```ts
+withSourceMixin(source)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-source
+
 ### fn withSourceVersion
 
 ```ts
@@ -308,6 +401,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-tags
@@ -328,6 +429,14 @@ withTriggers(triggers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-triggers
 
+### fn withTriggersMixin
+
+```ts
+withTriggersMixin(triggers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-triggers
+
 ### fn withVisibility
 
 ```ts
@@ -340,6 +449,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 
 ```ts
 withVpcConfig(vpcConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-vpcconfig
+
+### fn withVpcConfigMixin
+
+```ts
+withVpcConfigMixin(vpcConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-project.html#cfn-codebuild-project-vpcconfig

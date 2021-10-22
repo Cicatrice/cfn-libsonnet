@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 * [`fn withAssociationName(associationName)`](#fn-withassociationname)
 * [`fn withAutomationTargetParameterName(automationTargetParameterName)`](#fn-withautomationtargetparametername)
 * [`fn withCalendarNames(calendarNames)`](#fn-withcalendarnames)
+* [`fn withCalendarNamesMixin(calendarNames)`](#fn-withcalendarnamesmixin)
 * [`fn withComplianceSeverity(complianceSeverity)`](#fn-withcomplianceseverity)
 * [`fn withDocumentVersion(documentVersion)`](#fn-withdocumentversion)
 * [`fn withInstanceId(instanceId)`](#fn-withinstanceid)
@@ -32,10 +33,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 * [`fn withMaxErrors(maxErrors)`](#fn-withmaxerrors)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOutputLocation(outputLocation)`](#fn-withoutputlocation)
+* [`fn withOutputLocationMixin(outputLocation)`](#fn-withoutputlocationmixin)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withScheduleExpression(scheduleExpression)`](#fn-withscheduleexpression)
 * [`fn withSyncCompliance(syncCompliance)`](#fn-withsynccompliance)
 * [`fn withTargets(targets)`](#fn-withtargets)
+* [`fn withTargetsMixin(targets)`](#fn-withtargetsmixin)
 * [`fn withWaitForSuccessTimeoutSeconds(waitForSuccessTimeoutSeconds)`](#fn-withwaitforsuccesstimeoutseconds)
 
 ## Fields
@@ -176,6 +180,14 @@ withCalendarNames(calendarNames)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-calendarnames
 
+### fn withCalendarNamesMixin
+
+```ts
+withCalendarNamesMixin(calendarNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-calendarnames
+
 ### fn withComplianceSeverity
 
 ```ts
@@ -232,10 +244,26 @@ withOutputLocation(outputLocation)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-outputlocation
 
+### fn withOutputLocationMixin
+
+```ts
+withOutputLocationMixin(outputLocation)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-outputlocation
+
 ### fn withParameters
 
 ```ts
 withParameters(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-parameters
+
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-parameters
@@ -260,6 +288,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 
 ```ts
 withTargets(targets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-targets
+
+### fn withTargetsMixin
+
+```ts
+withTargetsMixin(targets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-association.html#cfn-ssm-association-targets

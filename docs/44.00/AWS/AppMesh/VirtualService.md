@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appm
 * [`fn withMeshName(meshName)`](#fn-withmeshname)
 * [`fn withMeshOwner(meshOwner)`](#fn-withmeshowner)
 * [`fn withSpec(spec)`](#fn-withspec)
+* [`fn withSpecMixin(spec)`](#fn-withspecmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVirtualServiceName(virtualServiceName)`](#fn-withvirtualservicename)
 
 ## Fields
@@ -157,10 +159,26 @@ withSpec(spec)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualservice.html#cfn-appmesh-virtualservice-spec
 
+### fn withSpecMixin
+
+```ts
+withSpecMixin(spec)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualservice.html#cfn-appmesh-virtualservice-spec
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualservice.html#cfn-appmesh-virtualservice-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-virtualservice.html#cfn-appmesh-virtualservice-tags

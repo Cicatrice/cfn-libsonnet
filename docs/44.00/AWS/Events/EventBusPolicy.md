@@ -23,10 +23,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-even
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAction(action)`](#fn-withaction)
 * [`fn withCondition(condition)`](#fn-withcondition)
+* [`fn withConditionMixin(condition)`](#fn-withconditionmixin)
 * [`fn withEventBusName(eventBusName)`](#fn-witheventbusname)
 * [`fn withPrincipal(principal)`](#fn-withprincipal)
 * [`fn withStatement(statement)`](#fn-withstatement)
 * [`fn withStatementId(statementId)`](#fn-withstatementid)
+* [`fn withStatementMixin(statement)`](#fn-withstatementmixin)
 
 ## Fields
 
@@ -150,6 +152,14 @@ withCondition(condition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbuspolicy.html#cfn-events-eventbuspolicy-condition
 
+### fn withConditionMixin
+
+```ts
+withConditionMixin(condition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbuspolicy.html#cfn-events-eventbuspolicy-condition
+
 ### fn withEventBusName
 
 ```ts
@@ -181,3 +191,11 @@ withStatementId(statementId)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbuspolicy.html#cfn-events-eventbuspolicy-statementid
+
+### fn withStatementMixin
+
+```ts
+withStatementMixin(statement)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-eventbuspolicy.html#cfn-events-eventbuspolicy-statement

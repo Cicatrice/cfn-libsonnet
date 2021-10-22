@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withProjectDescription(projectDescription)`](#fn-withprojectdescription)
 * [`fn withProjectName(projectName)`](#fn-withprojectname)
 * [`fn withServiceCatalogProvisioningDetails(serviceCatalogProvisioningDetails)`](#fn-withservicecatalogprovisioningdetails)
+* [`fn withServiceCatalogProvisioningDetailsMixin(serviceCatalogProvisioningDetails)`](#fn-withservicecatalogprovisioningdetailsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -156,10 +158,26 @@ withServiceCatalogProvisioningDetails(serviceCatalogProvisioningDetails)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-servicecatalogprovisioningdetails
 
+### fn withServiceCatalogProvisioningDetailsMixin
+
+```ts
+withServiceCatalogProvisioningDetailsMixin(serviceCatalogProvisioningDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-servicecatalogprovisioningdetails
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-tags

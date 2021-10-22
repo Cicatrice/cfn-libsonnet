@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmc
 * [`fn withAlias(alias)`](#fn-withalias)
 * [`fn withDisplayName(displayName)`](#fn-withdisplayname)
 * [`fn withPlan(plan)`](#fn-withplan)
+* [`fn withPlanMixin(plan)`](#fn-withplanmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -152,6 +153,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmc
 
 ```ts
 withPlan(plan)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmcontacts-contact.html#cfn-ssmcontacts-contact-plan
+
+### fn withPlanMixin
+
+```ts
+withPlanMixin(plan)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmcontacts-contact.html#cfn-ssmcontacts-contact-plan

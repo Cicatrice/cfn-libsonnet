@@ -22,19 +22,26 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAuthorization(authorization)`](#fn-withauthorization)
+* [`fn withAuthorizationMixin(authorization)`](#fn-withauthorizationmixin)
 * [`fn withChannelId(channelId)`](#fn-withchannelid)
 * [`fn withCmafPackage(cmafPackage)`](#fn-withcmafpackage)
+* [`fn withCmafPackageMixin(cmafPackage)`](#fn-withcmafpackagemixin)
 * [`fn withDashPackage(dashPackage)`](#fn-withdashpackage)
+* [`fn withDashPackageMixin(dashPackage)`](#fn-withdashpackagemixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withHlsPackage(hlsPackage)`](#fn-withhlspackage)
+* [`fn withHlsPackageMixin(hlsPackage)`](#fn-withhlspackagemixin)
 * [`fn withId(id)`](#fn-withid)
 * [`fn withManifestName(manifestName)`](#fn-withmanifestname)
 * [`fn withMssPackage(mssPackage)`](#fn-withmsspackage)
+* [`fn withMssPackageMixin(mssPackage)`](#fn-withmsspackagemixin)
 * [`fn withOrigination(origination)`](#fn-withorigination)
 * [`fn withStartoverWindowSeconds(startoverWindowSeconds)`](#fn-withstartoverwindowseconds)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeDelaySeconds(timeDelaySeconds)`](#fn-withtimedelayseconds)
 * [`fn withWhitelist(whitelist)`](#fn-withwhitelist)
+* [`fn withWhitelistMixin(whitelist)`](#fn-withwhitelistmixin)
 
 ## Fields
 
@@ -150,6 +157,14 @@ withAuthorization(authorization)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-authorization
 
+### fn withAuthorizationMixin
+
+```ts
+withAuthorizationMixin(authorization)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-authorization
+
 ### fn withChannelId
 
 ```ts
@@ -166,10 +181,26 @@ withCmafPackage(cmafPackage)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-cmafpackage
 
+### fn withCmafPackageMixin
+
+```ts
+withCmafPackageMixin(cmafPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-cmafpackage
+
 ### fn withDashPackage
 
 ```ts
 withDashPackage(dashPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-dashpackage
+
+### fn withDashPackageMixin
+
+```ts
+withDashPackageMixin(dashPackage)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-dashpackage
@@ -186,6 +217,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withHlsPackage(hlsPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-hlspackage
+
+### fn withHlsPackageMixin
+
+```ts
+withHlsPackageMixin(hlsPackage)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-hlspackage
@@ -214,6 +253,14 @@ withMssPackage(mssPackage)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-msspackage
 
+### fn withMssPackageMixin
+
+```ts
+withMssPackageMixin(mssPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-msspackage
+
 ### fn withOrigination
 
 ```ts
@@ -238,6 +285,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-tags
+
 ### fn withTimeDelaySeconds
 
 ```ts
@@ -250,6 +305,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withWhitelist(whitelist)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-whitelist
+
+### fn withWhitelistMixin
+
+```ts
+withWhitelistMixin(whitelist)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-whitelist

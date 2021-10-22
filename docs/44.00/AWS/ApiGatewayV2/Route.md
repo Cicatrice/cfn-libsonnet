@@ -24,12 +24,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withApiId(apiId)`](#fn-withapiid)
 * [`fn withApiKeyRequired(apiKeyRequired)`](#fn-withapikeyrequired)
 * [`fn withAuthorizationScopes(authorizationScopes)`](#fn-withauthorizationscopes)
+* [`fn withAuthorizationScopesMixin(authorizationScopes)`](#fn-withauthorizationscopesmixin)
 * [`fn withAuthorizationType(authorizationType)`](#fn-withauthorizationtype)
 * [`fn withAuthorizerId(authorizerId)`](#fn-withauthorizerid)
 * [`fn withModelSelectionExpression(modelSelectionExpression)`](#fn-withmodelselectionexpression)
 * [`fn withOperationName(operationName)`](#fn-withoperationname)
 * [`fn withRequestModels(requestModels)`](#fn-withrequestmodels)
+* [`fn withRequestModelsMixin(requestModels)`](#fn-withrequestmodelsmixin)
 * [`fn withRequestParameters(requestParameters)`](#fn-withrequestparameters)
+* [`fn withRequestParametersMixin(requestParameters)`](#fn-withrequestparametersmixin)
 * [`fn withRouteKey(routeKey)`](#fn-withroutekey)
 * [`fn withRouteResponseSelectionExpression(routeResponseSelectionExpression)`](#fn-withrouteresponseselectionexpression)
 * [`fn withTarget(target)`](#fn-withtarget)
@@ -164,6 +167,14 @@ withAuthorizationScopes(authorizationScopes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html#cfn-apigatewayv2-route-authorizationscopes
 
+### fn withAuthorizationScopesMixin
+
+```ts
+withAuthorizationScopesMixin(authorizationScopes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html#cfn-apigatewayv2-route-authorizationscopes
+
 ### fn withAuthorizationType
 
 ```ts
@@ -204,10 +215,26 @@ withRequestModels(requestModels)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html#cfn-apigatewayv2-route-requestmodels
 
+### fn withRequestModelsMixin
+
+```ts
+withRequestModelsMixin(requestModels)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html#cfn-apigatewayv2-route-requestmodels
+
 ### fn withRequestParameters
 
 ```ts
 withRequestParameters(requestParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html#cfn-apigatewayv2-route-requestparameters
+
+### fn withRequestParametersMixin
+
+```ts
+withRequestParametersMixin(requestParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-route.html#cfn-apigatewayv2-route-requestparameters

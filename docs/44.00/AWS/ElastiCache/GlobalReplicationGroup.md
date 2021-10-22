@@ -29,7 +29,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withGlobalReplicationGroupDescription(globalReplicationGroupDescription)`](#fn-withglobalreplicationgroupdescription)
 * [`fn withGlobalReplicationGroupIdSuffix(globalReplicationGroupIdSuffix)`](#fn-withglobalreplicationgroupidsuffix)
 * [`fn withMembers(members)`](#fn-withmembers)
+* [`fn withMembersMixin(members)`](#fn-withmembersmixin)
 * [`fn withRegionalConfigurations(regionalConfigurations)`](#fn-withregionalconfigurations)
+* [`fn withRegionalConfigurationsMixin(regionalConfigurations)`](#fn-withregionalconfigurationsmixin)
 
 ## Fields
 
@@ -201,10 +203,26 @@ withMembers(members)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-globalreplicationgroup.html#cfn-elasticache-globalreplicationgroup-members
 
+### fn withMembersMixin
+
+```ts
+withMembersMixin(members)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-globalreplicationgroup.html#cfn-elasticache-globalreplicationgroup-members
+
 ### fn withRegionalConfigurations
 
 ```ts
 withRegionalConfigurations(regionalConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-globalreplicationgroup.html#cfn-elasticache-globalreplicationgroup-regionalconfigurations
+
+### fn withRegionalConfigurationsMixin
+
+```ts
+withRegionalConfigurationsMixin(regionalConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-globalreplicationgroup.html#cfn-elasticache-globalreplicationgroup-regionalconfigurations

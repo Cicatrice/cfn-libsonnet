@@ -22,9 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withEncryptionConfig(encryptionConfig)`](#fn-withencryptionconfig)
+* [`fn withEncryptionConfigMixin(encryptionConfig)`](#fn-withencryptionconfigmixin)
 * [`fn withKubernetesNetworkConfig(kubernetesNetworkConfig)`](#fn-withkubernetesnetworkconfig)
+* [`fn withKubernetesNetworkConfigMixin(kubernetesNetworkConfig)`](#fn-withkubernetesnetworkconfigmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withResourcesVpcConfig(resourcesVpcConfig)`](#fn-withresourcesvpcconfig)
+* [`fn withResourcesVpcConfigMixin(resourcesVpcConfig)`](#fn-withresourcesvpcconfigmixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 * [`fn withVersion(version)`](#fn-withversion)
 
@@ -142,10 +145,26 @@ withEncryptionConfig(encryptionConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-encryptionconfig
 
+### fn withEncryptionConfigMixin
+
+```ts
+withEncryptionConfigMixin(encryptionConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-encryptionconfig
+
 ### fn withKubernetesNetworkConfig
 
 ```ts
 withKubernetesNetworkConfig(kubernetesNetworkConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-kubernetesnetworkconfig
+
+### fn withKubernetesNetworkConfigMixin
+
+```ts
+withKubernetesNetworkConfigMixin(kubernetesNetworkConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-kubernetesnetworkconfig
@@ -162,6 +181,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-
 
 ```ts
 withResourcesVpcConfig(resourcesVpcConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-resourcesvpcconfig
+
+### fn withResourcesVpcConfigMixin
+
+```ts
+withResourcesVpcConfigMixin(resourcesVpcConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-resourcesvpcconfig

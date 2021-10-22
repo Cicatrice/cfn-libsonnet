@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCode(code)`](#fn-withcode)
+* [`fn withCodeMixin(code)`](#fn-withcodemixin)
 * [`fn withConnectionArn(connectionArn)`](#fn-withconnectionarn)
 * [`fn withEnableIssues(enableIssues)`](#fn-withenableissues)
 * [`fn withIsPrivate(isPrivate)`](#fn-withisprivate)
@@ -140,6 +141,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withCode(code)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestar-githubrepository.html#cfn-codestar-githubrepository-code
+
+### fn withCodeMixin
+
+```ts
+withCodeMixin(code)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestar-githubrepository.html#cfn-codestar-githubrepository-code

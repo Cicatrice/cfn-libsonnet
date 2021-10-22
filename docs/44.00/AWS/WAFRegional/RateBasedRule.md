@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withMatchPredicates(matchPredicates)`](#fn-withmatchpredicates)
+* [`fn withMatchPredicatesMixin(matchPredicates)`](#fn-withmatchpredicatesmixin)
 * [`fn withMetricName(metricName)`](#fn-withmetricname)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRateKey(rateKey)`](#fn-withratekey)
@@ -137,6 +138,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withMatchPredicates(matchPredicates)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ratebasedrule.html#cfn-wafregional-ratebasedrule-matchpredicates
+
+### fn withMatchPredicatesMixin
+
+```ts
+withMatchPredicatesMixin(matchPredicates)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-ratebasedrule.html#cfn-wafregional-ratebasedrule-matchpredicates

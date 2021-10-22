@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCatalogId(catalogId)`](#fn-withcatalogid)
 * [`fn withDataCatalogEncryptionSettings(dataCatalogEncryptionSettings)`](#fn-withdatacatalogencryptionsettings)
+* [`fn withDataCatalogEncryptionSettingsMixin(dataCatalogEncryptionSettings)`](#fn-withdatacatalogencryptionsettingsmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withDataCatalogEncryptionSettings(dataCatalogEncryptionSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-datacatalogencryptionsettings.html#cfn-glue-datacatalogencryptionsettings-datacatalogencryptionsettings
+
+### fn withDataCatalogEncryptionSettingsMixin
+
+```ts
+withDataCatalogEncryptionSettingsMixin(dataCatalogEncryptionSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-datacatalogencryptionsettings.html#cfn-glue-datacatalogencryptionsettings-datacatalogencryptionsettings

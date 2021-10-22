@@ -25,8 +25,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 * [`fn withFsxFilesystemArn(fsxFilesystemArn)`](#fn-withfsxfilesystemarn)
 * [`fn withPassword(password)`](#fn-withpassword)
 * [`fn withSecurityGroupArns(securityGroupArns)`](#fn-withsecuritygrouparns)
+* [`fn withSecurityGroupArnsMixin(securityGroupArns)`](#fn-withsecuritygrouparnsmixin)
 * [`fn withSubdirectory(subdirectory)`](#fn-withsubdirectory)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUser(user)`](#fn-withuser)
 
 ## Fields
@@ -167,6 +169,14 @@ withSecurityGroupArns(securityGroupArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationfsxwindows.html#cfn-datasync-locationfsxwindows-securitygrouparns
 
+### fn withSecurityGroupArnsMixin
+
+```ts
+withSecurityGroupArnsMixin(securityGroupArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationfsxwindows.html#cfn-datasync-locationfsxwindows-securitygrouparns
+
 ### fn withSubdirectory
 
 ```ts
@@ -179,6 +189,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-data
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationfsxwindows.html#cfn-datasync-locationfsxwindows-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationfsxwindows.html#cfn-datasync-locationfsxwindows-tags

@@ -22,12 +22,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCmafPackage(cmafPackage)`](#fn-withcmafpackage)
+* [`fn withCmafPackageMixin(cmafPackage)`](#fn-withcmafpackagemixin)
 * [`fn withDashPackage(dashPackage)`](#fn-withdashpackage)
+* [`fn withDashPackageMixin(dashPackage)`](#fn-withdashpackagemixin)
 * [`fn withHlsPackage(hlsPackage)`](#fn-withhlspackage)
+* [`fn withHlsPackageMixin(hlsPackage)`](#fn-withhlspackagemixin)
 * [`fn withId(id)`](#fn-withid)
 * [`fn withMssPackage(mssPackage)`](#fn-withmsspackage)
+* [`fn withMssPackageMixin(mssPackage)`](#fn-withmsspackagemixin)
 * [`fn withPackagingGroupId(packagingGroupId)`](#fn-withpackaginggroupid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -143,6 +148,14 @@ withCmafPackage(cmafPackage)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-cmafpackage
 
+### fn withCmafPackageMixin
+
+```ts
+withCmafPackageMixin(cmafPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-cmafpackage
+
 ### fn withDashPackage
 
 ```ts
@@ -151,10 +164,26 @@ withDashPackage(dashPackage)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-dashpackage
 
+### fn withDashPackageMixin
+
+```ts
+withDashPackageMixin(dashPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-dashpackage
+
 ### fn withHlsPackage
 
 ```ts
 withHlsPackage(hlsPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-hlspackage
+
+### fn withHlsPackageMixin
+
+```ts
+withHlsPackageMixin(hlsPackage)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-hlspackage
@@ -175,6 +204,14 @@ withMssPackage(mssPackage)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-msspackage
 
+### fn withMssPackageMixin
+
+```ts
+withMssPackageMixin(mssPackage)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-msspackage
+
 ### fn withPackagingGroupId
 
 ```ts
@@ -187,6 +224,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-tags

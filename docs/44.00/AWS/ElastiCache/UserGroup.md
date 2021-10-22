@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withEngine(engine)`](#fn-withengine)
 * [`fn withUserGroupId(userGroupId)`](#fn-withusergroupid)
 * [`fn withUserIds(userIds)`](#fn-withuserids)
+* [`fn withUserIdsMixin(userIds)`](#fn-withuseridsmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withUserIds(userIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-usergroup.html#cfn-elasticache-usergroup-userids
+
+### fn withUserIdsMixin
+
+```ts
+withUserIdsMixin(userIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-usergroup.html#cfn-elasticache-usergroup-userids

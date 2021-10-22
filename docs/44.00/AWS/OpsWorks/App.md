@@ -22,15 +22,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAppSource(appSource)`](#fn-withappsource)
+* [`fn withAppSourceMixin(appSource)`](#fn-withappsourcemixin)
 * [`fn withAttributes(attributes)`](#fn-withattributes)
+* [`fn withAttributesMixin(attributes)`](#fn-withattributesmixin)
 * [`fn withDataSources(dataSources)`](#fn-withdatasources)
+* [`fn withDataSourcesMixin(dataSources)`](#fn-withdatasourcesmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDomains(domains)`](#fn-withdomains)
+* [`fn withDomainsMixin(domains)`](#fn-withdomainsmixin)
 * [`fn withEnableSsl(enableSsl)`](#fn-withenablessl)
 * [`fn withEnvironment(environment)`](#fn-withenvironment)
+* [`fn withEnvironmentMixin(environment)`](#fn-withenvironmentmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withShortname(shortname)`](#fn-withshortname)
 * [`fn withSslConfiguration(sslConfiguration)`](#fn-withsslconfiguration)
+* [`fn withSslConfigurationMixin(sslConfiguration)`](#fn-withsslconfigurationmixin)
 * [`fn withStackId(stackId)`](#fn-withstackid)
 * [`fn withType(type)`](#fn-withtype)
 
@@ -148,6 +154,14 @@ withAppSource(appSource)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-appsource
 
+### fn withAppSourceMixin
+
+```ts
+withAppSourceMixin(appSource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-appsource
+
 ### fn withAttributes
 
 ```ts
@@ -156,10 +170,26 @@ withAttributes(attributes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-attributes
 
+### fn withAttributesMixin
+
+```ts
+withAttributesMixin(attributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-attributes
+
 ### fn withDataSources
 
 ```ts
 withDataSources(dataSources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-datasources
+
+### fn withDataSourcesMixin
+
+```ts
+withDataSourcesMixin(dataSources)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-datasources
@@ -180,6 +210,14 @@ withDomains(domains)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-domains
 
+### fn withDomainsMixin
+
+```ts
+withDomainsMixin(domains)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-domains
+
 ### fn withEnableSsl
 
 ```ts
@@ -192,6 +230,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withEnvironment(environment)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-environment
+
+### fn withEnvironmentMixin
+
+```ts
+withEnvironmentMixin(environment)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-environment
@@ -216,6 +262,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsw
 
 ```ts
 withSslConfiguration(sslConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-sslconfiguration
+
+### fn withSslConfigurationMixin
+
+```ts
+withSslConfigurationMixin(sslConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-sslconfiguration

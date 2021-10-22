@@ -22,13 +22,20 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iota
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActions(actions)`](#fn-withactions)
+* [`fn withActionsMixin(actions)`](#fn-withactionsmixin)
 * [`fn withContentDeliveryRules(contentDeliveryRules)`](#fn-withcontentdeliveryrules)
+* [`fn withContentDeliveryRulesMixin(contentDeliveryRules)`](#fn-withcontentdeliveryrulesmixin)
 * [`fn withDatasetName(datasetName)`](#fn-withdatasetname)
 * [`fn withLateDataRules(lateDataRules)`](#fn-withlatedatarules)
+* [`fn withLateDataRulesMixin(lateDataRules)`](#fn-withlatedatarulesmixin)
 * [`fn withRetentionPeriod(retentionPeriod)`](#fn-withretentionperiod)
+* [`fn withRetentionPeriodMixin(retentionPeriod)`](#fn-withretentionperiodmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTriggers(triggers)`](#fn-withtriggers)
+* [`fn withTriggersMixin(triggers)`](#fn-withtriggersmixin)
 * [`fn withVersioningConfiguration(versioningConfiguration)`](#fn-withversioningconfiguration)
+* [`fn withVersioningConfigurationMixin(versioningConfiguration)`](#fn-withversioningconfigurationmixin)
 
 ## Fields
 
@@ -144,10 +151,26 @@ withActions(actions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-actions
 
+### fn withActionsMixin
+
+```ts
+withActionsMixin(actions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-actions
+
 ### fn withContentDeliveryRules
 
 ```ts
 withContentDeliveryRules(contentDeliveryRules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-contentdeliveryrules
+
+### fn withContentDeliveryRulesMixin
+
+```ts
+withContentDeliveryRulesMixin(contentDeliveryRules)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-contentdeliveryrules
@@ -168,10 +191,26 @@ withLateDataRules(lateDataRules)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-latedatarules
 
+### fn withLateDataRulesMixin
+
+```ts
+withLateDataRulesMixin(lateDataRules)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-latedatarules
+
 ### fn withRetentionPeriod
 
 ```ts
 withRetentionPeriod(retentionPeriod)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-retentionperiod
+
+### fn withRetentionPeriodMixin
+
+```ts
+withRetentionPeriodMixin(retentionPeriod)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-retentionperiod
@@ -184,6 +223,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-tags
+
 ### fn withTriggers
 
 ```ts
@@ -192,10 +239,26 @@ withTriggers(triggers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-triggers
 
+### fn withTriggersMixin
+
+```ts
+withTriggersMixin(triggers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-triggers
+
 ### fn withVersioningConfiguration
 
 ```ts
 withVersioningConfiguration(versioningConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-versioningconfiguration
+
+### fn withVersioningConfigurationMixin
+
+```ts
+withVersioningConfigurationMixin(versioningConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-dataset.html#cfn-iotanalytics-dataset-versioningconfiguration

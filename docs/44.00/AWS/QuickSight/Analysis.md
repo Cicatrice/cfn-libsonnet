@@ -24,11 +24,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quic
 * [`fn withAnalysisId(analysisId)`](#fn-withanalysisid)
 * [`fn withAwsAccountId(awsAccountId)`](#fn-withawsaccountid)
 * [`fn withErrors(errors)`](#fn-witherrors)
+* [`fn withErrorsMixin(errors)`](#fn-witherrorsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withPermissions(permissions)`](#fn-withpermissions)
+* [`fn withPermissionsMixin(permissions)`](#fn-withpermissionsmixin)
 * [`fn withSourceEntity(sourceEntity)`](#fn-withsourceentity)
+* [`fn withSourceEntityMixin(sourceEntity)`](#fn-withsourceentitymixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withThemeArn(themeArn)`](#fn-withthemearn)
 
 ## Fields
@@ -161,6 +166,14 @@ withErrors(errors)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-errors
 
+### fn withErrorsMixin
+
+```ts
+withErrorsMixin(errors)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-errors
+
 ### fn withName
 
 ```ts
@@ -177,10 +190,26 @@ withParameters(parameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-parameters
 
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-parameters
+
 ### fn withPermissions
 
 ```ts
 withPermissions(permissions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-permissions
+
+### fn withPermissionsMixin
+
+```ts
+withPermissionsMixin(permissions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-permissions
@@ -193,10 +222,26 @@ withSourceEntity(sourceEntity)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-sourceentity
 
+### fn withSourceEntityMixin
+
+```ts
+withSourceEntityMixin(sourceEntity)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-sourceentity
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-tags

@@ -22,11 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rout
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssertionRule(assertionRule)`](#fn-withassertionrule)
+* [`fn withAssertionRuleMixin(assertionRule)`](#fn-withassertionrulemixin)
 * [`fn withControlPanelArn(controlPanelArn)`](#fn-withcontrolpanelarn)
 * [`fn withGatingRule(gatingRule)`](#fn-withgatingrule)
+* [`fn withGatingRuleMixin(gatingRule)`](#fn-withgatingrulemixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRuleConfig(ruleConfig)`](#fn-withruleconfig)
+* [`fn withRuleConfigMixin(ruleConfig)`](#fn-withruleconfigmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -142,6 +146,14 @@ withAssertionRule(assertionRule)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-assertionrule
 
+### fn withAssertionRuleMixin
+
+```ts
+withAssertionRuleMixin(assertionRule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-assertionrule
+
 ### fn withControlPanelArn
 
 ```ts
@@ -154,6 +166,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rout
 
 ```ts
 withGatingRule(gatingRule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-gatingrule
+
+### fn withGatingRuleMixin
+
+```ts
+withGatingRuleMixin(gatingRule)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-gatingrule
@@ -174,10 +194,26 @@ withRuleConfig(ruleConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-ruleconfig
 
+### fn withRuleConfigMixin
+
+```ts
+withRuleConfigMixin(ruleConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-ruleconfig
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53recoverycontrol-safetyrule.html#cfn-route53recoverycontrol-safetyrule-tags

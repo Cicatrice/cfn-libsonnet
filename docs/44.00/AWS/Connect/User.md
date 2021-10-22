@@ -24,12 +24,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conn
 * [`fn withDirectoryUserId(directoryUserId)`](#fn-withdirectoryuserid)
 * [`fn withHierarchyGroupArn(hierarchyGroupArn)`](#fn-withhierarchygrouparn)
 * [`fn withIdentityInfo(identityInfo)`](#fn-withidentityinfo)
+* [`fn withIdentityInfoMixin(identityInfo)`](#fn-withidentityinfomixin)
 * [`fn withInstanceArn(instanceArn)`](#fn-withinstancearn)
 * [`fn withPassword(password)`](#fn-withpassword)
 * [`fn withPhoneConfig(phoneConfig)`](#fn-withphoneconfig)
+* [`fn withPhoneConfigMixin(phoneConfig)`](#fn-withphoneconfigmixin)
 * [`fn withRoutingProfileArn(routingProfileArn)`](#fn-withroutingprofilearn)
 * [`fn withSecurityProfileArns(securityProfileArns)`](#fn-withsecurityprofilearns)
+* [`fn withSecurityProfileArnsMixin(securityProfileArns)`](#fn-withsecurityprofilearnsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUsername(username)`](#fn-withusername)
 
 ## Fields
@@ -162,6 +166,14 @@ withIdentityInfo(identityInfo)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-identityinfo
 
+### fn withIdentityInfoMixin
+
+```ts
+withIdentityInfoMixin(identityInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-identityinfo
+
 ### fn withInstanceArn
 
 ```ts
@@ -186,6 +198,14 @@ withPhoneConfig(phoneConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-phoneconfig
 
+### fn withPhoneConfigMixin
+
+```ts
+withPhoneConfigMixin(phoneConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-phoneconfig
+
 ### fn withRoutingProfileArn
 
 ```ts
@@ -202,10 +222,26 @@ withSecurityProfileArns(securityProfileArns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-securityprofilearns
 
+### fn withSecurityProfileArnsMixin
+
+```ts
+withSecurityProfileArnsMixin(securityProfileArns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-securityprofilearns
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-user.html#cfn-connect-user-tags

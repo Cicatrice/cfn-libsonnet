@@ -23,16 +23,22 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdministrationRoleARN(administrationRoleArn)`](#fn-withadministrationrolearn)
 * [`fn withAutoDeployment(autoDeployment)`](#fn-withautodeployment)
+* [`fn withAutoDeploymentMixin(autoDeployment)`](#fn-withautodeploymentmixin)
 * [`fn withCallAs(callAs)`](#fn-withcallas)
 * [`fn withCapabilities(capabilities)`](#fn-withcapabilities)
+* [`fn withCapabilitiesMixin(capabilities)`](#fn-withcapabilitiesmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withExecutionRoleName(executionRoleName)`](#fn-withexecutionrolename)
 * [`fn withOperationPreferences(operationPreferences)`](#fn-withoperationpreferences)
+* [`fn withOperationPreferencesMixin(operationPreferences)`](#fn-withoperationpreferencesmixin)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withPermissionModel(permissionModel)`](#fn-withpermissionmodel)
 * [`fn withStackInstancesGroup(stackInstancesGroup)`](#fn-withstackinstancesgroup)
+* [`fn withStackInstancesGroupMixin(stackInstancesGroup)`](#fn-withstackinstancesgroupmixin)
 * [`fn withStackSetName(stackSetName)`](#fn-withstacksetname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTemplateBody(templateBody)`](#fn-withtemplatebody)
 * [`fn withTemplateURL(templateUrl)`](#fn-withtemplateurl)
 
@@ -158,6 +164,14 @@ withAutoDeployment(autoDeployment)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-autodeployment
 
+### fn withAutoDeploymentMixin
+
+```ts
+withAutoDeploymentMixin(autoDeployment)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-autodeployment
+
 ### fn withCallAs
 
 ```ts
@@ -170,6 +184,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withCapabilities(capabilities)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-capabilities
+
+### fn withCapabilitiesMixin
+
+```ts
+withCapabilitiesMixin(capabilities)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-capabilities
@@ -198,10 +220,26 @@ withOperationPreferences(operationPreferences)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-operationpreferences
 
+### fn withOperationPreferencesMixin
+
+```ts
+withOperationPreferencesMixin(operationPreferences)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-operationpreferences
+
 ### fn withParameters
 
 ```ts
 withParameters(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-parameters
+
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-parameters
@@ -222,6 +260,14 @@ withStackInstancesGroup(stackInstancesGroup)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-stackinstancesgroup
 
+### fn withStackInstancesGroupMixin
+
+```ts
+withStackInstancesGroupMixin(stackInstancesGroup)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-stackinstancesgroup
+
 ### fn withStackSetName
 
 ```ts
@@ -234,6 +280,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-tags

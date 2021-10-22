@@ -24,11 +24,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn withContext(context)`](#fn-withcontext)
 * [`fn withExcessCapacityTerminationPolicy(excessCapacityTerminationPolicy)`](#fn-withexcesscapacityterminationpolicy)
 * [`fn withLaunchTemplateConfigs(launchTemplateConfigs)`](#fn-withlaunchtemplateconfigs)
+* [`fn withLaunchTemplateConfigsMixin(launchTemplateConfigs)`](#fn-withlaunchtemplateconfigsmixin)
 * [`fn withOnDemandOptions(onDemandOptions)`](#fn-withondemandoptions)
+* [`fn withOnDemandOptionsMixin(onDemandOptions)`](#fn-withondemandoptionsmixin)
 * [`fn withReplaceUnhealthyInstances(replaceUnhealthyInstances)`](#fn-withreplaceunhealthyinstances)
 * [`fn withSpotOptions(spotOptions)`](#fn-withspotoptions)
+* [`fn withSpotOptionsMixin(spotOptions)`](#fn-withspotoptionsmixin)
 * [`fn withTagSpecifications(tagSpecifications)`](#fn-withtagspecifications)
+* [`fn withTagSpecificationsMixin(tagSpecifications)`](#fn-withtagspecificationsmixin)
 * [`fn withTargetCapacitySpecification(targetCapacitySpecification)`](#fn-withtargetcapacityspecification)
+* [`fn withTargetCapacitySpecificationMixin(targetCapacitySpecification)`](#fn-withtargetcapacityspecificationmixin)
 * [`fn withTerminateInstancesWithExpiration(terminateInstancesWithExpiration)`](#fn-withterminateinstanceswithexpiration)
 * [`fn withType(type)`](#fn-withtype)
 * [`fn withValidFrom(validFrom)`](#fn-withvalidfrom)
@@ -164,10 +169,26 @@ withLaunchTemplateConfigs(launchTemplateConfigs)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-launchtemplateconfigs
 
+### fn withLaunchTemplateConfigsMixin
+
+```ts
+withLaunchTemplateConfigsMixin(launchTemplateConfigs)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-launchtemplateconfigs
+
 ### fn withOnDemandOptions
 
 ```ts
 withOnDemandOptions(onDemandOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-ondemandoptions
+
+### fn withOnDemandOptionsMixin
+
+```ts
+withOnDemandOptionsMixin(onDemandOptions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-ondemandoptions
@@ -188,6 +209,14 @@ withSpotOptions(spotOptions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-spotoptions
 
+### fn withSpotOptionsMixin
+
+```ts
+withSpotOptionsMixin(spotOptions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-spotoptions
+
 ### fn withTagSpecifications
 
 ```ts
@@ -196,10 +225,26 @@ withTagSpecifications(tagSpecifications)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-tagspecifications
 
+### fn withTagSpecificationsMixin
+
+```ts
+withTagSpecificationsMixin(tagSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-tagspecifications
+
 ### fn withTargetCapacitySpecification
 
 ```ts
 withTargetCapacitySpecification(targetCapacitySpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-targetcapacityspecification
+
+### fn withTargetCapacitySpecificationMixin
+
+```ts
+withTargetCapacitySpecificationMixin(targetCapacitySpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-targetcapacityspecification

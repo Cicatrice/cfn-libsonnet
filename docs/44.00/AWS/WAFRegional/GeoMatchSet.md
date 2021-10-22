@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withGeoMatchConstraints(geoMatchConstraints)`](#fn-withgeomatchconstraints)
+* [`fn withGeoMatchConstraintsMixin(geoMatchConstraints)`](#fn-withgeomatchconstraintsmixin)
 * [`fn withName(name)`](#fn-withname)
 
 ## Fields
@@ -134,6 +135,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withGeoMatchConstraints(geoMatchConstraints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-geomatchset.html#cfn-wafregional-geomatchset-geomatchconstraints
+
+### fn withGeoMatchConstraintsMixin
+
+```ts
+withGeoMatchConstraintsMixin(geoMatchConstraints)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-geomatchset.html#cfn-wafregional-geomatchset-geomatchconstraints

@@ -25,10 +25,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robo
 * [`fn withEnvironment(environment)`](#fn-withenvironment)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRenderingEngine(renderingEngine)`](#fn-withrenderingengine)
+* [`fn withRenderingEngineMixin(renderingEngine)`](#fn-withrenderingenginemixin)
 * [`fn withRobotSoftwareSuite(robotSoftwareSuite)`](#fn-withrobotsoftwaresuite)
+* [`fn withRobotSoftwareSuiteMixin(robotSoftwareSuite)`](#fn-withrobotsoftwaresuitemixin)
 * [`fn withSimulationSoftwareSuite(simulationSoftwareSuite)`](#fn-withsimulationsoftwaresuite)
+* [`fn withSimulationSoftwareSuiteMixin(simulationSoftwareSuite)`](#fn-withsimulationsoftwaresuitemixin)
 * [`fn withSources(sources)`](#fn-withsources)
+* [`fn withSourcesMixin(sources)`](#fn-withsourcesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -168,10 +173,26 @@ withRenderingEngine(renderingEngine)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-renderingengine
 
+### fn withRenderingEngineMixin
+
+```ts
+withRenderingEngineMixin(renderingEngine)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-renderingengine
+
 ### fn withRobotSoftwareSuite
 
 ```ts
 withRobotSoftwareSuite(robotSoftwareSuite)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-robotsoftwaresuite
+
+### fn withRobotSoftwareSuiteMixin
+
+```ts
+withRobotSoftwareSuiteMixin(robotSoftwareSuite)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-robotsoftwaresuite
@@ -184,6 +205,14 @@ withSimulationSoftwareSuite(simulationSoftwareSuite)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-simulationsoftwaresuite
 
+### fn withSimulationSoftwareSuiteMixin
+
+```ts
+withSimulationSoftwareSuiteMixin(simulationSoftwareSuite)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-simulationsoftwaresuite
+
 ### fn withSources
 
 ```ts
@@ -192,10 +221,26 @@ withSources(sources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-sources
 
+### fn withSourcesMixin
+
+```ts
+withSourcesMixin(sources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-sources
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-simulationapplication.html#cfn-robomaker-simulationapplication-tags

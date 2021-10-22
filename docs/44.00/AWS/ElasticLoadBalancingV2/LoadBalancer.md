@@ -23,12 +23,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withIpAddressType(ipAddressType)`](#fn-withipaddresstype)
 * [`fn withLoadBalancerAttributes(loadBalancerAttributes)`](#fn-withloadbalancerattributes)
+* [`fn withLoadBalancerAttributesMixin(loadBalancerAttributes)`](#fn-withloadbalancerattributesmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withScheme(scheme)`](#fn-withscheme)
 * [`fn withSecurityGroups(securityGroups)`](#fn-withsecuritygroups)
+* [`fn withSecurityGroupsMixin(securityGroups)`](#fn-withsecuritygroupsmixin)
 * [`fn withSubnetMappings(subnetMappings)`](#fn-withsubnetmappings)
+* [`fn withSubnetMappingsMixin(subnetMappings)`](#fn-withsubnetmappingsmixin)
 * [`fn withSubnets(subnets)`](#fn-withsubnets)
+* [`fn withSubnetsMixin(subnets)`](#fn-withsubnetsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -153,6 +158,14 @@ withLoadBalancerAttributes(loadBalancerAttributes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-loadbalancerattributes
 
+### fn withLoadBalancerAttributesMixin
+
+```ts
+withLoadBalancerAttributesMixin(loadBalancerAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-loadbalancerattributes
+
 ### fn withName
 
 ```ts
@@ -177,10 +190,26 @@ withSecurityGroups(securityGroups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-securitygroups
 
+### fn withSecurityGroupsMixin
+
+```ts
+withSecurityGroupsMixin(securityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-securitygroups
+
 ### fn withSubnetMappings
 
 ```ts
 withSubnetMappings(subnetMappings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-subnetmappings
+
+### fn withSubnetMappingsMixin
+
+```ts
+withSubnetMappingsMixin(subnetMappings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-subnetmappings
@@ -193,10 +222,26 @@ withSubnets(subnets)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-subnets
 
+### fn withSubnetsMixin
+
+```ts
+withSubnetsMixin(subnets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-subnets
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-loadbalancer.html#cfn-elasticloadbalancingv2-loadbalancer-tags

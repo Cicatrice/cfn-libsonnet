@@ -25,7 +25,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn withAppType(appType)`](#fn-withapptype)
 * [`fn withDomainId(domainId)`](#fn-withdomainid)
 * [`fn withResourceSpec(resourceSpec)`](#fn-withresourcespec)
+* [`fn withResourceSpecMixin(resourceSpec)`](#fn-withresourcespecmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserProfileName(userProfileName)`](#fn-withuserprofilename)
 
 ## Fields
@@ -166,10 +168,26 @@ withResourceSpec(resourceSpec)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-resourcespec
 
+### fn withResourceSpecMixin
+
+```ts
+withResourceSpecMixin(resourceSpec)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-resourcespec
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-app.html#cfn-sagemaker-app-tags

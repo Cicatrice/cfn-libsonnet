@@ -23,11 +23,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withDnsConfig(dnsConfig)`](#fn-withdnsconfig)
+* [`fn withDnsConfigMixin(dnsConfig)`](#fn-withdnsconfigmixin)
 * [`fn withHealthCheckConfig(healthCheckConfig)`](#fn-withhealthcheckconfig)
+* [`fn withHealthCheckConfigMixin(healthCheckConfig)`](#fn-withhealthcheckconfigmixin)
 * [`fn withHealthCheckCustomConfig(healthCheckCustomConfig)`](#fn-withhealthcheckcustomconfig)
+* [`fn withHealthCheckCustomConfigMixin(healthCheckCustomConfig)`](#fn-withhealthcheckcustomconfigmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withNamespaceId(namespaceId)`](#fn-withnamespaceid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -152,6 +156,14 @@ withDnsConfig(dnsConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-dnsconfig
 
+### fn withDnsConfigMixin
+
+```ts
+withDnsConfigMixin(dnsConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-dnsconfig
+
 ### fn withHealthCheckConfig
 
 ```ts
@@ -160,10 +172,26 @@ withHealthCheckConfig(healthCheckConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-healthcheckconfig
 
+### fn withHealthCheckConfigMixin
+
+```ts
+withHealthCheckConfigMixin(healthCheckConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-healthcheckconfig
+
 ### fn withHealthCheckCustomConfig
 
 ```ts
 withHealthCheckCustomConfig(healthCheckCustomConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-healthcheckcustomconfig
+
+### fn withHealthCheckCustomConfigMixin
+
+```ts
+withHealthCheckCustomConfigMixin(healthCheckCustomConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-healthcheckcustomconfig
@@ -188,6 +216,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-service.html#cfn-servicediscovery-service-tags

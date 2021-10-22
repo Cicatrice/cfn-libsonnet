@@ -24,8 +24,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 * [`fn withCapacity(capacity)`](#fn-withcapacity)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withRuleGroup(ruleGroup)`](#fn-withrulegroup)
+* [`fn withRuleGroupMixin(ruleGroup)`](#fn-withrulegroupmixin)
 * [`fn withRuleGroupName(ruleGroupName)`](#fn-withrulegroupname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withType(type)`](#fn-withtype)
 
 ## Fields
@@ -158,6 +160,14 @@ withRuleGroup(ruleGroup)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html#cfn-networkfirewall-rulegroup-rulegroup
 
+### fn withRuleGroupMixin
+
+```ts
+withRuleGroupMixin(ruleGroup)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html#cfn-networkfirewall-rulegroup-rulegroup
+
 ### fn withRuleGroupName
 
 ```ts
@@ -170,6 +180,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-netw
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html#cfn-networkfirewall-rulegroup-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html#cfn-networkfirewall-rulegroup-tags

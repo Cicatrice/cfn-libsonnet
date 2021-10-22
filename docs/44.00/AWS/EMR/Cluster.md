@@ -22,18 +22,25 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdditionalInfo(additionalInfo)`](#fn-withadditionalinfo)
+* [`fn withAdditionalInfoMixin(additionalInfo)`](#fn-withadditionalinfomixin)
 * [`fn withApplications(applications)`](#fn-withapplications)
+* [`fn withApplicationsMixin(applications)`](#fn-withapplicationsmixin)
 * [`fn withAutoScalingRole(autoScalingRole)`](#fn-withautoscalingrole)
 * [`fn withBootstrapActions(bootstrapActions)`](#fn-withbootstrapactions)
+* [`fn withBootstrapActionsMixin(bootstrapActions)`](#fn-withbootstrapactionsmixin)
 * [`fn withConfigurations(configurations)`](#fn-withconfigurations)
+* [`fn withConfigurationsMixin(configurations)`](#fn-withconfigurationsmixin)
 * [`fn withCustomAmiId(customAmiId)`](#fn-withcustomamiid)
 * [`fn withEbsRootVolumeSize(ebsRootVolumeSize)`](#fn-withebsrootvolumesize)
 * [`fn withInstances(instances)`](#fn-withinstances)
+* [`fn withInstancesMixin(instances)`](#fn-withinstancesmixin)
 * [`fn withJobFlowRole(jobFlowRole)`](#fn-withjobflowrole)
 * [`fn withKerberosAttributes(kerberosAttributes)`](#fn-withkerberosattributes)
+* [`fn withKerberosAttributesMixin(kerberosAttributes)`](#fn-withkerberosattributesmixin)
 * [`fn withLogEncryptionKmsKeyId(logEncryptionKmsKeyId)`](#fn-withlogencryptionkmskeyid)
 * [`fn withLogUri(logUri)`](#fn-withloguri)
 * [`fn withManagedScalingPolicy(managedScalingPolicy)`](#fn-withmanagedscalingpolicy)
+* [`fn withManagedScalingPolicyMixin(managedScalingPolicy)`](#fn-withmanagedscalingpolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withReleaseLabel(releaseLabel)`](#fn-withreleaselabel)
 * [`fn withScaleDownBehavior(scaleDownBehavior)`](#fn-withscaledownbehavior)
@@ -41,7 +48,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withServiceRole(serviceRole)`](#fn-withservicerole)
 * [`fn withStepConcurrencyLevel(stepConcurrencyLevel)`](#fn-withstepconcurrencylevel)
 * [`fn withSteps(steps)`](#fn-withsteps)
+* [`fn withStepsMixin(steps)`](#fn-withstepsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVisibleToAllUsers(visibleToAllUsers)`](#fn-withvisibletoallusers)
 
 ## Fields
@@ -158,10 +167,26 @@ withAdditionalInfo(additionalInfo)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-additionalinfo
 
+### fn withAdditionalInfoMixin
+
+```ts
+withAdditionalInfoMixin(additionalInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-additionalinfo
+
 ### fn withApplications
 
 ```ts
 withApplications(applications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-applications
+
+### fn withApplicationsMixin
+
+```ts
+withApplicationsMixin(applications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-applications
@@ -182,10 +207,26 @@ withBootstrapActions(bootstrapActions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-bootstrapactions
 
+### fn withBootstrapActionsMixin
+
+```ts
+withBootstrapActionsMixin(bootstrapActions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-bootstrapactions
+
 ### fn withConfigurations
 
 ```ts
 withConfigurations(configurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-configurations
+
+### fn withConfigurationsMixin
+
+```ts
+withConfigurationsMixin(configurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-configurations
@@ -214,6 +255,14 @@ withInstances(instances)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-instances
 
+### fn withInstancesMixin
+
+```ts
+withInstancesMixin(instances)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-instances
+
 ### fn withJobFlowRole
 
 ```ts
@@ -226,6 +275,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withKerberosAttributes(kerberosAttributes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-kerberosattributes
+
+### fn withKerberosAttributesMixin
+
+```ts
+withKerberosAttributesMixin(kerberosAttributes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-kerberosattributes
@@ -250,6 +307,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withManagedScalingPolicy(managedScalingPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-managedscalingpolicy
+
+### fn withManagedScalingPolicyMixin
+
+```ts
+withManagedScalingPolicyMixin(managedScalingPolicy)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-managedscalingpolicy
@@ -310,10 +375,26 @@ withSteps(steps)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-steps
 
+### fn withStepsMixin
+
+```ts
+withStepsMixin(steps)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-steps
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-cluster.html#cfn-elasticmapreduce-cluster-tags

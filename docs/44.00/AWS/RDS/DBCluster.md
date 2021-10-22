@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssociatedRoles(associatedRoles)`](#fn-withassociatedroles)
+* [`fn withAssociatedRolesMixin(associatedRoles)`](#fn-withassociatedrolesmixin)
 * [`fn withAvailabilityZones(availabilityZones)`](#fn-withavailabilityzones)
+* [`fn withAvailabilityZonesMixin(availabilityZones)`](#fn-withavailabilityzonesmixin)
 * [`fn withBacktrackWindow(backtrackWindow)`](#fn-withbacktrackwindow)
 * [`fn withBackupRetentionPeriod(backupRetentionPeriod)`](#fn-withbackupretentionperiod)
 * [`fn withCopyTagsToSnapshot(copyTagsToSnapshot)`](#fn-withcopytagstosnapshot)
@@ -32,6 +34,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn withDatabaseName(databaseName)`](#fn-withdatabasename)
 * [`fn withDeletionProtection(deletionProtection)`](#fn-withdeletionprotection)
 * [`fn withEnableCloudwatchLogsExports(enableCloudwatchLogsExports)`](#fn-withenablecloudwatchlogsexports)
+* [`fn withEnableCloudwatchLogsExportsMixin(enableCloudwatchLogsExports)`](#fn-withenablecloudwatchlogsexportsmixin)
 * [`fn withEnableHttpEndpoint(enableHttpEndpoint)`](#fn-withenablehttpendpoint)
 * [`fn withEnableIAMDatabaseAuthentication(enableIamdatabaseAuthentication)`](#fn-withenableiamdatabaseauthentication)
 * [`fn withEngine(engine)`](#fn-withengine)
@@ -47,13 +50,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn withReplicationSourceIdentifier(replicationSourceIdentifier)`](#fn-withreplicationsourceidentifier)
 * [`fn withRestoreType(restoreType)`](#fn-withrestoretype)
 * [`fn withScalingConfiguration(scalingConfiguration)`](#fn-withscalingconfiguration)
+* [`fn withScalingConfigurationMixin(scalingConfiguration)`](#fn-withscalingconfigurationmixin)
 * [`fn withSnapshotIdentifier(snapshotIdentifier)`](#fn-withsnapshotidentifier)
 * [`fn withSourceDBClusterIdentifier(sourceDbclusterIdentifier)`](#fn-withsourcedbclusteridentifier)
 * [`fn withSourceRegion(sourceRegion)`](#fn-withsourceregion)
 * [`fn withStorageEncrypted(storageEncrypted)`](#fn-withstorageencrypted)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUseLatestRestorableTime(useLatestRestorableTime)`](#fn-withuselatestrestorabletime)
 * [`fn withVpcSecurityGroupIds(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupids)
+* [`fn withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)`](#fn-withvpcsecuritygroupidsmixin)
 
 ## Fields
 
@@ -169,10 +175,26 @@ withAssociatedRoles(associatedRoles)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-associatedroles
 
+### fn withAssociatedRolesMixin
+
+```ts
+withAssociatedRolesMixin(associatedRoles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-associatedroles
+
 ### fn withAvailabilityZones
 
 ```ts
 withAvailabilityZones(availabilityZones)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-availabilityzones
+
+### fn withAvailabilityZonesMixin
+
+```ts
+withAvailabilityZonesMixin(availabilityZones)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-availabilityzones
@@ -245,6 +267,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 
 ```ts
 withEnableCloudwatchLogsExports(enableCloudwatchLogsExports)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-enablecloudwatchlogsexports
+
+### fn withEnableCloudwatchLogsExportsMixin
+
+```ts
+withEnableCloudwatchLogsExportsMixin(enableCloudwatchLogsExports)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-enablecloudwatchlogsexports
@@ -369,6 +399,14 @@ withScalingConfiguration(scalingConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-scalingconfiguration
 
+### fn withScalingConfigurationMixin
+
+```ts
+withScalingConfigurationMixin(scalingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-scalingconfiguration
+
 ### fn withSnapshotIdentifier
 
 ```ts
@@ -409,6 +447,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-tags
+
 ### fn withUseLatestRestorableTime
 
 ```ts
@@ -421,6 +467,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 
 ```ts
 withVpcSecurityGroupIds(vpcSecurityGroupIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-vpcsecuritygroupids
+
+### fn withVpcSecurityGroupIdsMixin
+
+```ts
+withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbcluster.html#cfn-rds-dbcluster-vpcsecuritygroupids

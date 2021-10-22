@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSqlInjectionMatchTuples(sqlInjectionMatchTuples)`](#fn-withsqlinjectionmatchtuples)
+* [`fn withSqlInjectionMatchTuplesMixin(sqlInjectionMatchTuples)`](#fn-withsqlinjectionmatchtuplesmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafr
 
 ```ts
 withSqlInjectionMatchTuples(sqlInjectionMatchTuples)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-sqlinjectionmatchset.html#cfn-wafregional-sqlinjectionmatchset-sqlinjectionmatchtuples
+
+### fn withSqlInjectionMatchTuplesMixin
+
+```ts
+withSqlInjectionMatchTuplesMixin(sqlInjectionMatchTuples)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafregional-sqlinjectionmatchset.html#cfn-wafregional-sqlinjectionmatchset-sqlinjectionmatchtuples

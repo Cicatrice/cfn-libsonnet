@@ -24,8 +24,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn withAutomatic(automatic)`](#fn-withautomatic)
 * [`fn withConfigRuleName(configRuleName)`](#fn-withconfigrulename)
 * [`fn withExecutionControls(executionControls)`](#fn-withexecutioncontrols)
+* [`fn withExecutionControlsMixin(executionControls)`](#fn-withexecutioncontrolsmixin)
 * [`fn withMaximumAutomaticAttempts(maximumAutomaticAttempts)`](#fn-withmaximumautomaticattempts)
 * [`fn withParameters(parameters)`](#fn-withparameters)
+* [`fn withParametersMixin(parameters)`](#fn-withparametersmixin)
 * [`fn withResourceType(resourceType)`](#fn-withresourcetype)
 * [`fn withRetryAttemptSeconds(retryAttemptSeconds)`](#fn-withretryattemptseconds)
 * [`fn withTargetId(targetId)`](#fn-withtargetid)
@@ -162,6 +164,14 @@ withExecutionControls(executionControls)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-remediationconfiguration.html#cfn-config-remediationconfiguration-executioncontrols
 
+### fn withExecutionControlsMixin
+
+```ts
+withExecutionControlsMixin(executionControls)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-remediationconfiguration.html#cfn-config-remediationconfiguration-executioncontrols
+
 ### fn withMaximumAutomaticAttempts
 
 ```ts
@@ -174,6 +184,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 
 ```ts
 withParameters(parameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-remediationconfiguration.html#cfn-config-remediationconfiguration-parameters
+
+### fn withParametersMixin
+
+```ts
+withParametersMixin(parameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-remediationconfiguration.html#cfn-config-remediationconfiguration-parameters

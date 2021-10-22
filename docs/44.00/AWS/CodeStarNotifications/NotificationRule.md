@@ -25,12 +25,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn withDetailType(detailType)`](#fn-withdetailtype)
 * [`fn withEventTypeId(eventTypeId)`](#fn-witheventtypeid)
 * [`fn withEventTypeIds(eventTypeIds)`](#fn-witheventtypeids)
+* [`fn withEventTypeIdsMixin(eventTypeIds)`](#fn-witheventtypeidsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withResource(resource)`](#fn-withresource)
 * [`fn withStatus(status)`](#fn-withstatus)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetAddress(targetAddress)`](#fn-withtargetaddress)
 * [`fn withTargets(targets)`](#fn-withtargets)
+* [`fn withTargetsMixin(targets)`](#fn-withtargetsmixin)
 
 ## Fields
 
@@ -170,6 +173,14 @@ withEventTypeIds(eventTypeIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html#cfn-codestarnotifications-notificationrule-eventtypeids
 
+### fn withEventTypeIdsMixin
+
+```ts
+withEventTypeIdsMixin(eventTypeIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html#cfn-codestarnotifications-notificationrule-eventtypeids
+
 ### fn withName
 
 ```ts
@@ -202,6 +213,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html#cfn-codestarnotifications-notificationrule-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html#cfn-codestarnotifications-notificationrule-tags
+
 ### fn withTargetAddress
 
 ```ts
@@ -214,6 +233,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 
 ```ts
 withTargets(targets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html#cfn-codestarnotifications-notificationrule-targets
+
+### fn withTargetsMixin
+
+```ts
+withTargetsMixin(targets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarnotifications-notificationrule.html#cfn-codestarnotifications-notificationrule-targets

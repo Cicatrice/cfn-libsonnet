@@ -24,7 +24,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3ou
 * [`fn withBucket(bucket)`](#fn-withbucket)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPolicy(policy)`](#fn-withpolicy)
+* [`fn withPolicyMixin(policy)`](#fn-withpolicymixin)
 * [`fn withVpcConfiguration(vpcConfiguration)`](#fn-withvpcconfiguration)
+* [`fn withVpcConfigurationMixin(vpcConfiguration)`](#fn-withvpcconfigurationmixin)
 
 ## Fields
 
@@ -156,10 +158,26 @@ withPolicy(policy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html#cfn-s3outposts-accesspoint-policy
 
+### fn withPolicyMixin
+
+```ts
+withPolicyMixin(policy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html#cfn-s3outposts-accesspoint-policy
+
 ### fn withVpcConfiguration
 
 ```ts
 withVpcConfiguration(vpcConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html#cfn-s3outposts-accesspoint-vpcconfiguration
+
+### fn withVpcConfigurationMixin
+
+```ts
+withVpcConfigurationMixin(vpcConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html#cfn-s3outposts-accesspoint-vpcconfiguration

@@ -22,8 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConnectionPoolConfigurationInfo(connectionPoolConfigurationInfo)`](#fn-withconnectionpoolconfigurationinfo)
+* [`fn withConnectionPoolConfigurationInfoMixin(connectionPoolConfigurationInfo)`](#fn-withconnectionpoolconfigurationinfomixin)
 * [`fn withDBClusterIdentifiers(dbclusterIdentifiers)`](#fn-withdbclusteridentifiers)
+* [`fn withDBClusterIdentifiersMixin(dbclusterIdentifiers)`](#fn-withdbclusteridentifiersmixin)
 * [`fn withDBInstanceIdentifiers(dbinstanceIdentifiers)`](#fn-withdbinstanceidentifiers)
+* [`fn withDBInstanceIdentifiersMixin(dbinstanceIdentifiers)`](#fn-withdbinstanceidentifiersmixin)
 * [`fn withDBProxyName(dbproxyName)`](#fn-withdbproxyname)
 * [`fn withTargetGroupName(targetGroupName)`](#fn-withtargetgroupname)
 
@@ -141,6 +144,14 @@ withConnectionPoolConfigurationInfo(connectionPoolConfigurationInfo)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html#cfn-rds-dbproxytargetgroup-connectionpoolconfigurationinfo
 
+### fn withConnectionPoolConfigurationInfoMixin
+
+```ts
+withConnectionPoolConfigurationInfoMixin(connectionPoolConfigurationInfo)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html#cfn-rds-dbproxytargetgroup-connectionpoolconfigurationinfo
+
 ### fn withDBClusterIdentifiers
 
 ```ts
@@ -149,10 +160,26 @@ withDBClusterIdentifiers(dbclusterIdentifiers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html#cfn-rds-dbproxytargetgroup-dbclusteridentifiers
 
+### fn withDBClusterIdentifiersMixin
+
+```ts
+withDBClusterIdentifiersMixin(dbclusterIdentifiers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html#cfn-rds-dbproxytargetgroup-dbclusteridentifiers
+
 ### fn withDBInstanceIdentifiers
 
 ```ts
 withDBInstanceIdentifiers(dbinstanceIdentifiers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html#cfn-rds-dbproxytargetgroup-dbinstanceidentifiers
+
+### fn withDBInstanceIdentifiersMixin
+
+```ts
+withDBInstanceIdentifiersMixin(dbinstanceIdentifiers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html#cfn-rds-dbproxytargetgroup-dbinstanceidentifiers

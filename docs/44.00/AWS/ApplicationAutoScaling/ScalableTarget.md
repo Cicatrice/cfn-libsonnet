@@ -27,8 +27,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appl
 * [`fn withRoleARN(roleArn)`](#fn-withrolearn)
 * [`fn withScalableDimension(scalableDimension)`](#fn-withscalabledimension)
 * [`fn withScheduledActions(scheduledActions)`](#fn-withscheduledactions)
+* [`fn withScheduledActionsMixin(scheduledActions)`](#fn-withscheduledactionsmixin)
 * [`fn withServiceNamespace(serviceNamespace)`](#fn-withservicenamespace)
 * [`fn withSuspendedState(suspendedState)`](#fn-withsuspendedstate)
+* [`fn withSuspendedStateMixin(suspendedState)`](#fn-withsuspendedstatemixin)
 
 ## Fields
 
@@ -184,6 +186,14 @@ withScheduledActions(scheduledActions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalabletarget.html#cfn-applicationautoscaling-scalabletarget-scheduledactions
 
+### fn withScheduledActionsMixin
+
+```ts
+withScheduledActionsMixin(scheduledActions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalabletarget.html#cfn-applicationautoscaling-scalabletarget-scheduledactions
+
 ### fn withServiceNamespace
 
 ```ts
@@ -196,6 +206,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appl
 
 ```ts
 withSuspendedState(suspendedState)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalabletarget.html#cfn-applicationautoscaling-scalabletarget-suspendedstate
+
+### fn withSuspendedStateMixin
+
+```ts
+withSuspendedStateMixin(suspendedState)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalabletarget.html#cfn-applicationautoscaling-scalabletarget-suspendedstate

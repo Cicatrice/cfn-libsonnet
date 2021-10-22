@@ -23,8 +23,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cust
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withFlowDefinition(flowDefinition)`](#fn-withflowdefinition)
+* [`fn withFlowDefinitionMixin(flowDefinition)`](#fn-withflowdefinitionmixin)
 * [`fn withObjectTypeName(objectTypeName)`](#fn-withobjecttypename)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUri(uri)`](#fn-withuri)
 
 ## Fields
@@ -149,6 +151,14 @@ withFlowDefinition(flowDefinition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-integration.html#cfn-customerprofiles-integration-flowdefinition
 
+### fn withFlowDefinitionMixin
+
+```ts
+withFlowDefinitionMixin(flowDefinition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-integration.html#cfn-customerprofiles-integration-flowdefinition
+
 ### fn withObjectTypeName
 
 ```ts
@@ -161,6 +171,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cust
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-integration.html#cfn-customerprofiles-integration-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-integration.html#cfn-customerprofiles-integration-tags

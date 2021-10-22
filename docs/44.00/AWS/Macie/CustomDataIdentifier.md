@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-maci
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withIgnoreWords(ignoreWords)`](#fn-withignorewords)
+* [`fn withIgnoreWordsMixin(ignoreWords)`](#fn-withignorewordsmixin)
 * [`fn withKeywords(keywords)`](#fn-withkeywords)
+* [`fn withKeywordsMixin(keywords)`](#fn-withkeywordsmixin)
 * [`fn withMaximumMatchDistance(maximumMatchDistance)`](#fn-withmaximummatchdistance)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRegex(regex)`](#fn-withregex)
@@ -150,10 +152,26 @@ withIgnoreWords(ignoreWords)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-ignorewords
 
+### fn withIgnoreWordsMixin
+
+```ts
+withIgnoreWordsMixin(ignoreWords)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-ignorewords
+
 ### fn withKeywords
 
 ```ts
 withKeywords(keywords)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-keywords
+
+### fn withKeywordsMixin
+
+```ts
+withKeywordsMixin(keywords)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-customdataidentifier.html#cfn-macie-customdataidentifier-keywords

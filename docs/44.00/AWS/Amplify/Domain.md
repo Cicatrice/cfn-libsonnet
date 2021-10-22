@@ -23,10 +23,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAppId(appId)`](#fn-withappid)
 * [`fn withAutoSubDomainCreationPatterns(autoSubDomainCreationPatterns)`](#fn-withautosubdomaincreationpatterns)
+* [`fn withAutoSubDomainCreationPatternsMixin(autoSubDomainCreationPatterns)`](#fn-withautosubdomaincreationpatternsmixin)
 * [`fn withAutoSubDomainIAMRole(autoSubDomainIamrole)`](#fn-withautosubdomainiamrole)
 * [`fn withDomainName(domainName)`](#fn-withdomainname)
 * [`fn withEnableAutoSubDomain(enableAutoSubDomain)`](#fn-withenableautosubdomain)
 * [`fn withSubDomainSettings(subDomainSettings)`](#fn-withsubdomainsettings)
+* [`fn withSubDomainSettingsMixin(subDomainSettings)`](#fn-withsubdomainsettingsmixin)
 
 ## Fields
 
@@ -150,6 +152,14 @@ withAutoSubDomainCreationPatterns(autoSubDomainCreationPatterns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html#cfn-amplify-domain-autosubdomaincreationpatterns
 
+### fn withAutoSubDomainCreationPatternsMixin
+
+```ts
+withAutoSubDomainCreationPatternsMixin(autoSubDomainCreationPatterns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html#cfn-amplify-domain-autosubdomaincreationpatterns
+
 ### fn withAutoSubDomainIAMRole
 
 ```ts
@@ -178,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ampl
 
 ```ts
 withSubDomainSettings(subDomainSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html#cfn-amplify-domain-subdomainsettings
+
+### fn withSubDomainSettingsMixin
+
+```ts
+withSubDomainSettingsMixin(subDomainSettings)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html#cfn-amplify-domain-subdomainsettings

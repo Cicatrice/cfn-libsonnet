@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAggregationField(aggregationField)`](#fn-withaggregationfield)
 * [`fn withAggregationType(aggregationType)`](#fn-withaggregationtype)
+* [`fn withAggregationTypeMixin(aggregationType)`](#fn-withaggregationtypemixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withIndexName(indexName)`](#fn-withindexname)
 * [`fn withMetricName(metricName)`](#fn-withmetricname)
@@ -30,6 +31,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn withQueryString(queryString)`](#fn-withquerystring)
 * [`fn withQueryVersion(queryVersion)`](#fn-withqueryversion)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUnit(unit)`](#fn-withunit)
 
 ## Fields
@@ -154,6 +156,14 @@ withAggregationType(aggregationType)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-fleetmetric.html#cfn-iot-fleetmetric-aggregationtype
 
+### fn withAggregationTypeMixin
+
+```ts
+withAggregationTypeMixin(aggregationType)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-fleetmetric.html#cfn-iot-fleetmetric-aggregationtype
+
 ### fn withDescription
 
 ```ts
@@ -206,6 +216,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-fleetmetric.html#cfn-iot-fleetmetric-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-fleetmetric.html#cfn-iot-fleetmetric-tags

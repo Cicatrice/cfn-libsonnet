@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withConfiguration(configuration)`](#fn-withconfiguration)
+* [`fn withConfigurationMixin(configuration)`](#fn-withconfigurationmixin)
 * [`fn withDimensions(dimensions)`](#fn-withdimensions)
+* [`fn withDimensionsMixin(dimensions)`](#fn-withdimensionsmixin)
 * [`fn withMetricName(metricName)`](#fn-withmetricname)
 * [`fn withNamespace(namespace)`](#fn-withnamespace)
 * [`fn withStat(stat)`](#fn-withstat)
@@ -141,10 +143,26 @@ withConfiguration(configuration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-anomalydetector.html#cfn-cloudwatch-anomalydetector-configuration
 
+### fn withConfigurationMixin
+
+```ts
+withConfigurationMixin(configuration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-anomalydetector.html#cfn-cloudwatch-anomalydetector-configuration
+
 ### fn withDimensions
 
 ```ts
 withDimensions(dimensions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-anomalydetector.html#cfn-cloudwatch-anomalydetector-dimensions
+
+### fn withDimensionsMixin
+
+```ts
+withDimensionsMixin(dimensions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-anomalydetector.html#cfn-cloudwatch-anomalydetector-dimensions

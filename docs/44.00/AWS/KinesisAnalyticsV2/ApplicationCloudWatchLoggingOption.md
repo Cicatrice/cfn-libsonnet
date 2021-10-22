@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApplicationName(applicationName)`](#fn-withapplicationname)
 * [`fn withCloudWatchLoggingOption(cloudWatchLoggingOption)`](#fn-withcloudwatchloggingoption)
+* [`fn withCloudWatchLoggingOptionMixin(cloudWatchLoggingOption)`](#fn-withcloudwatchloggingoptionmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 
 ```ts
 withCloudWatchLoggingOption(cloudWatchLoggingOption)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationcloudwatchloggingoption.html#cfn-kinesisanalyticsv2-applicationcloudwatchloggingoption-cloudwatchloggingoption
+
+### fn withCloudWatchLoggingOptionMixin
+
+```ts
+withCloudWatchLoggingOptionMixin(cloudWatchLoggingOption)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationcloudwatchloggingoption.html#cfn-kinesisanalyticsv2-applicationcloudwatchloggingoption-cloudwatchloggingoption

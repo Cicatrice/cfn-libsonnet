@@ -22,15 +22,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cass
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withBillingMode(billingMode)`](#fn-withbillingmode)
+* [`fn withBillingModeMixin(billingMode)`](#fn-withbillingmodemixin)
 * [`fn withClusteringKeyColumns(clusteringKeyColumns)`](#fn-withclusteringkeycolumns)
+* [`fn withClusteringKeyColumnsMixin(clusteringKeyColumns)`](#fn-withclusteringkeycolumnsmixin)
 * [`fn withDefaultTimeToLive(defaultTimeToLive)`](#fn-withdefaulttimetolive)
 * [`fn withEncryptionSpecification(encryptionSpecification)`](#fn-withencryptionspecification)
+* [`fn withEncryptionSpecificationMixin(encryptionSpecification)`](#fn-withencryptionspecificationmixin)
 * [`fn withKeyspaceName(keyspaceName)`](#fn-withkeyspacename)
 * [`fn withPartitionKeyColumns(partitionKeyColumns)`](#fn-withpartitionkeycolumns)
+* [`fn withPartitionKeyColumnsMixin(partitionKeyColumns)`](#fn-withpartitionkeycolumnsmixin)
 * [`fn withPointInTimeRecoveryEnabled(pointInTimeRecoveryEnabled)`](#fn-withpointintimerecoveryenabled)
 * [`fn withRegularColumns(regularColumns)`](#fn-withregularcolumns)
+* [`fn withRegularColumnsMixin(regularColumns)`](#fn-withregularcolumnsmixin)
 * [`fn withTableName(tableName)`](#fn-withtablename)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -146,10 +152,26 @@ withBillingMode(billingMode)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-billingmode
 
+### fn withBillingModeMixin
+
+```ts
+withBillingModeMixin(billingMode)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-billingmode
+
 ### fn withClusteringKeyColumns
 
 ```ts
 withClusteringKeyColumns(clusteringKeyColumns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-clusteringkeycolumns
+
+### fn withClusteringKeyColumnsMixin
+
+```ts
+withClusteringKeyColumnsMixin(clusteringKeyColumns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-clusteringkeycolumns
@@ -170,6 +192,14 @@ withEncryptionSpecification(encryptionSpecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-encryptionspecification
 
+### fn withEncryptionSpecificationMixin
+
+```ts
+withEncryptionSpecificationMixin(encryptionSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-encryptionspecification
+
 ### fn withKeyspaceName
 
 ```ts
@@ -182,6 +212,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cass
 
 ```ts
 withPartitionKeyColumns(partitionKeyColumns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-partitionkeycolumns
+
+### fn withPartitionKeyColumnsMixin
+
+```ts
+withPartitionKeyColumnsMixin(partitionKeyColumns)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-partitionkeycolumns
@@ -202,6 +240,14 @@ withRegularColumns(regularColumns)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-regularcolumns
 
+### fn withRegularColumnsMixin
+
+```ts
+withRegularColumnsMixin(regularColumns)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-regularcolumns
+
 ### fn withTableName
 
 ```ts
@@ -214,6 +260,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cass
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-tags

@@ -22,13 +22,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budg
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActionThreshold(actionThreshold)`](#fn-withactionthreshold)
+* [`fn withActionThresholdMixin(actionThreshold)`](#fn-withactionthresholdmixin)
 * [`fn withActionType(actionType)`](#fn-withactiontype)
 * [`fn withApprovalModel(approvalModel)`](#fn-withapprovalmodel)
 * [`fn withBudgetName(budgetName)`](#fn-withbudgetname)
 * [`fn withDefinition(definition)`](#fn-withdefinition)
+* [`fn withDefinitionMixin(definition)`](#fn-withdefinitionmixin)
 * [`fn withExecutionRoleArn(executionRoleArn)`](#fn-withexecutionrolearn)
 * [`fn withNotificationType(notificationType)`](#fn-withnotificationtype)
 * [`fn withSubscribers(subscribers)`](#fn-withsubscribers)
+* [`fn withSubscribersMixin(subscribers)`](#fn-withsubscribersmixin)
 
 ## Fields
 
@@ -144,6 +147,14 @@ withActionThreshold(actionThreshold)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html#cfn-budgets-budgetsaction-actionthreshold
 
+### fn withActionThresholdMixin
+
+```ts
+withActionThresholdMixin(actionThreshold)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html#cfn-budgets-budgetsaction-actionthreshold
+
 ### fn withActionType
 
 ```ts
@@ -176,6 +187,14 @@ withDefinition(definition)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html#cfn-budgets-budgetsaction-definition
 
+### fn withDefinitionMixin
+
+```ts
+withDefinitionMixin(definition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html#cfn-budgets-budgetsaction-definition
+
 ### fn withExecutionRoleArn
 
 ```ts
@@ -196,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budg
 
 ```ts
 withSubscribers(subscribers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html#cfn-budgets-budgetsaction-subscribers
+
+### fn withSubscribersMixin
+
+```ts
+withSubscribersMixin(subscribers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html#cfn-budgets-budgetsaction-subscribers

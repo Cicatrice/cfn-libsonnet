@@ -22,8 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withClientIdList(clientIdList)`](#fn-withclientidlist)
+* [`fn withClientIdListMixin(clientIdList)`](#fn-withclientidlistmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withThumbprintList(thumbprintList)`](#fn-withthumbprintlist)
+* [`fn withThumbprintListMixin(thumbprintList)`](#fn-withthumbprintlistmixin)
 * [`fn withUrl(url)`](#fn-withurl)
 
 ## Fields
@@ -140,6 +143,14 @@ withClientIdList(clientIdList)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html#cfn-iam-oidcprovider-clientidlist
 
+### fn withClientIdListMixin
+
+```ts
+withClientIdListMixin(clientIdList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html#cfn-iam-oidcprovider-clientidlist
+
 ### fn withTags
 
 ```ts
@@ -148,10 +159,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html#cfn-iam-oidcprovider-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html#cfn-iam-oidcprovider-tags
+
 ### fn withThumbprintList
 
 ```ts
 withThumbprintList(thumbprintList)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html#cfn-iam-oidcprovider-thumbprintlist
+
+### fn withThumbprintListMixin
+
+```ts
+withThumbprintListMixin(thumbprintList)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iam-oidcprovider.html#cfn-iam-oidcprovider-thumbprintlist

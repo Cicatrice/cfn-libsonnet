@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3ob
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withObjectLambdaConfiguration(objectLambdaConfiguration)`](#fn-withobjectlambdaconfiguration)
+* [`fn withObjectLambdaConfigurationMixin(objectLambdaConfiguration)`](#fn-withobjectlambdaconfigurationmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3ob
 
 ```ts
 withObjectLambdaConfiguration(objectLambdaConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3objectlambda-accesspoint.html#cfn-s3objectlambda-accesspoint-objectlambdaconfiguration
+
+### fn withObjectLambdaConfigurationMixin
+
+```ts
+withObjectLambdaConfigurationMixin(objectLambdaConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3objectlambda-accesspoint.html#cfn-s3objectlambda-accesspoint-objectlambdaconfiguration

@@ -22,18 +22,24 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdditionalTreatments(additionalTreatments)`](#fn-withadditionaltreatments)
+* [`fn withAdditionalTreatmentsMixin(additionalTreatments)`](#fn-withadditionaltreatmentsmixin)
 * [`fn withApplicationId(applicationId)`](#fn-withapplicationid)
 * [`fn withCampaignHook(campaignHook)`](#fn-withcampaignhook)
+* [`fn withCampaignHookMixin(campaignHook)`](#fn-withcampaignhookmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withHoldoutPercent(holdoutPercent)`](#fn-withholdoutpercent)
 * [`fn withIsPaused(isPaused)`](#fn-withispaused)
 * [`fn withLimits(limits)`](#fn-withlimits)
+* [`fn withLimitsMixin(limits)`](#fn-withlimitsmixin)
 * [`fn withMessageConfiguration(messageConfiguration)`](#fn-withmessageconfiguration)
+* [`fn withMessageConfigurationMixin(messageConfiguration)`](#fn-withmessageconfigurationmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSchedule(schedule)`](#fn-withschedule)
+* [`fn withScheduleMixin(schedule)`](#fn-withschedulemixin)
 * [`fn withSegmentId(segmentId)`](#fn-withsegmentid)
 * [`fn withSegmentVersion(segmentVersion)`](#fn-withsegmentversion)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTreatmentDescription(treatmentDescription)`](#fn-withtreatmentdescription)
 * [`fn withTreatmentName(treatmentName)`](#fn-withtreatmentname)
 
@@ -151,6 +157,14 @@ withAdditionalTreatments(additionalTreatments)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-additionaltreatments
 
+### fn withAdditionalTreatmentsMixin
+
+```ts
+withAdditionalTreatmentsMixin(additionalTreatments)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-additionaltreatments
+
 ### fn withApplicationId
 
 ```ts
@@ -163,6 +177,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 
 ```ts
 withCampaignHook(campaignHook)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-campaignhook
+
+### fn withCampaignHookMixin
+
+```ts
+withCampaignHookMixin(campaignHook)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-campaignhook
@@ -199,10 +221,26 @@ withLimits(limits)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-limits
 
+### fn withLimitsMixin
+
+```ts
+withLimitsMixin(limits)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-limits
+
 ### fn withMessageConfiguration
 
 ```ts
 withMessageConfiguration(messageConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-messageconfiguration
+
+### fn withMessageConfigurationMixin
+
+```ts
+withMessageConfigurationMixin(messageConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-messageconfiguration
@@ -219,6 +257,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 
 ```ts
 withSchedule(schedule)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-schedule
+
+### fn withScheduleMixin
+
+```ts
+withScheduleMixin(schedule)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-schedule
@@ -243,6 +289,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-campaign.html#cfn-pinpoint-campaign-tags

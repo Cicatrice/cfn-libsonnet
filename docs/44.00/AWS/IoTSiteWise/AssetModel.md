@@ -22,11 +22,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAssetModelCompositeModels(assetModelCompositeModels)`](#fn-withassetmodelcompositemodels)
+* [`fn withAssetModelCompositeModelsMixin(assetModelCompositeModels)`](#fn-withassetmodelcompositemodelsmixin)
 * [`fn withAssetModelDescription(assetModelDescription)`](#fn-withassetmodeldescription)
 * [`fn withAssetModelHierarchies(assetModelHierarchies)`](#fn-withassetmodelhierarchies)
+* [`fn withAssetModelHierarchiesMixin(assetModelHierarchies)`](#fn-withassetmodelhierarchiesmixin)
 * [`fn withAssetModelName(assetModelName)`](#fn-withassetmodelname)
 * [`fn withAssetModelProperties(assetModelProperties)`](#fn-withassetmodelproperties)
+* [`fn withAssetModelPropertiesMixin(assetModelProperties)`](#fn-withassetmodelpropertiesmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -142,6 +146,14 @@ withAssetModelCompositeModels(assetModelCompositeModels)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelcompositemodels
 
+### fn withAssetModelCompositeModelsMixin
+
+```ts
+withAssetModelCompositeModelsMixin(assetModelCompositeModels)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelcompositemodels
+
 ### fn withAssetModelDescription
 
 ```ts
@@ -154,6 +166,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iots
 
 ```ts
 withAssetModelHierarchies(assetModelHierarchies)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelhierarchies
+
+### fn withAssetModelHierarchiesMixin
+
+```ts
+withAssetModelHierarchiesMixin(assetModelHierarchies)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelhierarchies
@@ -174,10 +194,26 @@ withAssetModelProperties(assetModelProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelproperties
 
+### fn withAssetModelPropertiesMixin
+
+```ts
+withAssetModelPropertiesMixin(assetModelProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-assetmodelproperties
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-assetmodel.html#cfn-iotsitewise-assetmodel-tags

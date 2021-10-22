@@ -31,7 +31,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn withMulticastSupport(multicastSupport)`](#fn-withmulticastsupport)
 * [`fn withPropagationDefaultRouteTableId(propagationDefaultRouteTableId)`](#fn-withpropagationdefaultroutetableid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTransitGatewayCidrBlocks(transitGatewayCidrBlocks)`](#fn-withtransitgatewaycidrblocks)
+* [`fn withTransitGatewayCidrBlocksMixin(transitGatewayCidrBlocks)`](#fn-withtransitgatewaycidrblocksmixin)
 * [`fn withVpnEcmpSupport(vpnEcmpSupport)`](#fn-withvpnecmpsupport)
 
 ## Fields
@@ -220,10 +222,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgateway.html#cfn-ec2-transitgateway-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgateway.html#cfn-ec2-transitgateway-tags
+
 ### fn withTransitGatewayCidrBlocks
 
 ```ts
 withTransitGatewayCidrBlocks(transitGatewayCidrBlocks)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgateway.html#cfn-ec2-transitgateway-transitgatewaycidrblocks
+
+### fn withTransitGatewayCidrBlocksMixin
+
+```ts
+withTransitGatewayCidrBlocksMixin(transitGatewayCidrBlocks)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgateway.html#cfn-ec2-transitgateway-transitgatewaycidrblocks

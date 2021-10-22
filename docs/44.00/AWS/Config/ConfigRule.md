@@ -24,9 +24,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn withConfigRuleName(configRuleName)`](#fn-withconfigrulename)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withInputParameters(inputParameters)`](#fn-withinputparameters)
+* [`fn withInputParametersMixin(inputParameters)`](#fn-withinputparametersmixin)
 * [`fn withMaximumExecutionFrequency(maximumExecutionFrequency)`](#fn-withmaximumexecutionfrequency)
 * [`fn withScope(scope)`](#fn-withscope)
+* [`fn withScopeMixin(scope)`](#fn-withscopemixin)
 * [`fn withSource(source)`](#fn-withsource)
+* [`fn withSourceMixin(source)`](#fn-withsourcemixin)
 
 ## Fields
 
@@ -158,6 +161,14 @@ withInputParameters(inputParameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html#cfn-config-configrule-inputparameters
 
+### fn withInputParametersMixin
+
+```ts
+withInputParametersMixin(inputParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html#cfn-config-configrule-inputparameters
+
 ### fn withMaximumExecutionFrequency
 
 ```ts
@@ -174,10 +185,26 @@ withScope(scope)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html#cfn-config-configrule-scope
 
+### fn withScopeMixin
+
+```ts
+withScopeMixin(scope)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html#cfn-config-configrule-scope
+
 ### fn withSource
 
 ```ts
 withSource(source)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html#cfn-config-configrule-source
+
+### fn withSourceMixin
+
+```ts
+withSourceMixin(source)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configrule.html#cfn-config-configrule-source

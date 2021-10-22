@@ -23,11 +23,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withActionsEnabled(actionsEnabled)`](#fn-withactionsenabled)
 * [`fn withAlarmActions(alarmActions)`](#fn-withalarmactions)
+* [`fn withAlarmActionsMixin(alarmActions)`](#fn-withalarmactionsmixin)
 * [`fn withAlarmDescription(alarmDescription)`](#fn-withalarmdescription)
 * [`fn withAlarmName(alarmName)`](#fn-withalarmname)
 * [`fn withAlarmRule(alarmRule)`](#fn-withalarmrule)
 * [`fn withInsufficientDataActions(insufficientDataActions)`](#fn-withinsufficientdataactions)
+* [`fn withInsufficientDataActionsMixin(insufficientDataActions)`](#fn-withinsufficientdataactionsmixin)
 * [`fn withOKActions(okactions)`](#fn-withokactions)
+* [`fn withOKActionsMixin(okactions)`](#fn-withokactionsmixin)
 
 ## Fields
 
@@ -151,6 +154,14 @@ withAlarmActions(alarmActions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html#cfn-cloudwatch-compositealarm-alarmactions
 
+### fn withAlarmActionsMixin
+
+```ts
+withAlarmActionsMixin(alarmActions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html#cfn-cloudwatch-compositealarm-alarmactions
+
 ### fn withAlarmDescription
 
 ```ts
@@ -183,10 +194,26 @@ withInsufficientDataActions(insufficientDataActions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html#cfn-cloudwatch-compositealarm-insufficientdataactions
 
+### fn withInsufficientDataActionsMixin
+
+```ts
+withInsufficientDataActionsMixin(insufficientDataActions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html#cfn-cloudwatch-compositealarm-insufficientdataactions
+
 ### fn withOKActions
 
 ```ts
 withOKActions(okactions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html#cfn-cloudwatch-compositealarm-okactions
+
+### fn withOKActionsMixin
+
+```ts
+withOKActionsMixin(okactions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html#cfn-cloudwatch-compositealarm-okactions

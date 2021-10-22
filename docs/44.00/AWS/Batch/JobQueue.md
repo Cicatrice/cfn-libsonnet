@@ -22,11 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batc
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withComputeEnvironmentOrder(computeEnvironmentOrder)`](#fn-withcomputeenvironmentorder)
+* [`fn withComputeEnvironmentOrderMixin(computeEnvironmentOrder)`](#fn-withcomputeenvironmentordermixin)
 * [`fn withJobQueueName(jobQueueName)`](#fn-withjobqueuename)
 * [`fn withPriority(priority)`](#fn-withpriority)
 * [`fn withSchedulingPolicyArn(schedulingPolicyArn)`](#fn-withschedulingpolicyarn)
 * [`fn withState(state)`](#fn-withstate)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -142,6 +144,14 @@ withComputeEnvironmentOrder(computeEnvironmentOrder)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html#cfn-batch-jobqueue-computeenvironmentorder
 
+### fn withComputeEnvironmentOrderMixin
+
+```ts
+withComputeEnvironmentOrderMixin(computeEnvironmentOrder)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html#cfn-batch-jobqueue-computeenvironmentorder
+
 ### fn withJobQueueName
 
 ```ts
@@ -178,6 +188,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batc
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html#cfn-batch-jobqueue-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html#cfn-batch-jobqueue-tags

@@ -22,13 +22,19 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apps
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdditionalAuthenticationProviders(additionalAuthenticationProviders)`](#fn-withadditionalauthenticationproviders)
+* [`fn withAdditionalAuthenticationProvidersMixin(additionalAuthenticationProviders)`](#fn-withadditionalauthenticationprovidersmixin)
 * [`fn withAuthenticationType(authenticationType)`](#fn-withauthenticationtype)
 * [`fn withLambdaAuthorizerConfig(lambdaAuthorizerConfig)`](#fn-withlambdaauthorizerconfig)
+* [`fn withLambdaAuthorizerConfigMixin(lambdaAuthorizerConfig)`](#fn-withlambdaauthorizerconfigmixin)
 * [`fn withLogConfig(logConfig)`](#fn-withlogconfig)
+* [`fn withLogConfigMixin(logConfig)`](#fn-withlogconfigmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withOpenIDConnectConfig(openIdconnectConfig)`](#fn-withopenidconnectconfig)
+* [`fn withOpenIDConnectConfigMixin(openIdconnectConfig)`](#fn-withopenidconnectconfigmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withUserPoolConfig(userPoolConfig)`](#fn-withuserpoolconfig)
+* [`fn withUserPoolConfigMixin(userPoolConfig)`](#fn-withuserpoolconfigmixin)
 * [`fn withXrayEnabled(xrayEnabled)`](#fn-withxrayenabled)
 
 ## Fields
@@ -145,6 +151,14 @@ withAdditionalAuthenticationProviders(additionalAuthenticationProviders)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-additionalauthenticationproviders
 
+### fn withAdditionalAuthenticationProvidersMixin
+
+```ts
+withAdditionalAuthenticationProvidersMixin(additionalAuthenticationProviders)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-additionalauthenticationproviders
+
 ### fn withAuthenticationType
 
 ```ts
@@ -161,10 +175,26 @@ withLambdaAuthorizerConfig(lambdaAuthorizerConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-lambdaauthorizerconfig
 
+### fn withLambdaAuthorizerConfigMixin
+
+```ts
+withLambdaAuthorizerConfigMixin(lambdaAuthorizerConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-lambdaauthorizerconfig
+
 ### fn withLogConfig
 
 ```ts
 withLogConfig(logConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-logconfig
+
+### fn withLogConfigMixin
+
+```ts
+withLogConfigMixin(logConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-logconfig
@@ -185,6 +215,14 @@ withOpenIDConnectConfig(openIdconnectConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-openidconnectconfig
 
+### fn withOpenIDConnectConfigMixin
+
+```ts
+withOpenIDConnectConfigMixin(openIdconnectConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-openidconnectconfig
+
 ### fn withTags
 
 ```ts
@@ -193,10 +231,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-tags
+
 ### fn withUserPoolConfig
 
 ```ts
 withUserPoolConfig(userPoolConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-userpoolconfig
+
+### fn withUserPoolConfigMixin
+
+```ts
+withUserPoolConfigMixin(userPoolConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-userpoolconfig

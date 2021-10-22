@@ -22,9 +22,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-conf
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccountAggregationSources(accountAggregationSources)`](#fn-withaccountaggregationsources)
+* [`fn withAccountAggregationSourcesMixin(accountAggregationSources)`](#fn-withaccountaggregationsourcesmixin)
 * [`fn withConfigurationAggregatorName(configurationAggregatorName)`](#fn-withconfigurationaggregatorname)
 * [`fn withOrganizationAggregationSource(organizationAggregationSource)`](#fn-withorganizationaggregationsource)
+* [`fn withOrganizationAggregationSourceMixin(organizationAggregationSource)`](#fn-withorganizationaggregationsourcemixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -140,6 +143,14 @@ withAccountAggregationSources(accountAggregationSources)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html#cfn-config-configurationaggregator-accountaggregationsources
 
+### fn withAccountAggregationSourcesMixin
+
+```ts
+withAccountAggregationSourcesMixin(accountAggregationSources)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html#cfn-config-configurationaggregator-accountaggregationsources
+
 ### fn withConfigurationAggregatorName
 
 ```ts
@@ -156,10 +167,26 @@ withOrganizationAggregationSource(organizationAggregationSource)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html#cfn-config-configurationaggregator-organizationaggregationsource
 
+### fn withOrganizationAggregationSourceMixin
+
+```ts
+withOrganizationAggregationSourceMixin(organizationAggregationSource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html#cfn-config-configurationaggregator-organizationaggregationsource
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html#cfn-config-configurationaggregator-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-config-configurationaggregator.html#cfn-config-configurationaggregator-tags

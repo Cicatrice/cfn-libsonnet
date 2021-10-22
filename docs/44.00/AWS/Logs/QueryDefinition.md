@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withLogGroupNames(logGroupNames)`](#fn-withloggroupnames)
+* [`fn withLogGroupNamesMixin(logGroupNames)`](#fn-withloggroupnamesmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withQueryString(queryString)`](#fn-withquerystring)
 
@@ -135,6 +136,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withLogGroupNames(logGroupNames)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-querydefinition.html#cfn-logs-querydefinition-loggroupnames
+
+### fn withLogGroupNamesMixin
+
+```ts
+withLogGroupNamesMixin(logGroupNames)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-querydefinition.html#cfn-logs-querydefinition-loggroupnames

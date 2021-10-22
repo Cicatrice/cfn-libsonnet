@@ -26,7 +26,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sn
 * [`fn withFifoTopic(fifoTopic)`](#fn-withfifotopic)
 * [`fn withKmsMasterKeyId(kmsMasterKeyId)`](#fn-withkmsmasterkeyid)
 * [`fn withSubscription(subscription)`](#fn-withsubscription)
+* [`fn withSubscriptionMixin(subscription)`](#fn-withsubscriptionmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTopicName(topicName)`](#fn-withtopicname)
 
 ## Fields
@@ -175,10 +177,26 @@ withSubscription(subscription)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html#cfn-sns-topic-subscription
 
+### fn withSubscriptionMixin
+
+```ts
+withSubscriptionMixin(subscription)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html#cfn-sns-topic-subscription
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html#cfn-sns-topic-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-sns-topic.html#cfn-sns-topic-tags

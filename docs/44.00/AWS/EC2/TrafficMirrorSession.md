@@ -26,6 +26,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn withPacketLength(packetLength)`](#fn-withpacketlength)
 * [`fn withSessionNumber(sessionNumber)`](#fn-withsessionnumber)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTrafficMirrorFilterId(trafficMirrorFilterId)`](#fn-withtrafficmirrorfilterid)
 * [`fn withTrafficMirrorTargetId(trafficMirrorTargetId)`](#fn-withtrafficmirrortargetid)
 * [`fn withVirtualNetworkId(virtualNetworkId)`](#fn-withvirtualnetworkid)
@@ -172,6 +173,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorsession.html#cfn-ec2-trafficmirrorsession-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-trafficmirrorsession.html#cfn-ec2-trafficmirrorsession-tags

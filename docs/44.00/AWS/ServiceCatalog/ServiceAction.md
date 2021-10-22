@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAcceptLanguage(acceptLanguage)`](#fn-withacceptlanguage)
 * [`fn withDefinition(definition)`](#fn-withdefinition)
+* [`fn withDefinitionMixin(definition)`](#fn-withdefinitionmixin)
 * [`fn withDefinitionType(definitionType)`](#fn-withdefinitiontype)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withName(name)`](#fn-withname)
@@ -145,6 +146,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-serv
 
 ```ts
 withDefinition(definition)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-serviceaction.html#cfn-servicecatalog-serviceaction-definition
+
+### fn withDefinitionMixin
+
+```ts
+withDefinitionMixin(definition)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-serviceaction.html#cfn-servicecatalog-serviceaction-definition

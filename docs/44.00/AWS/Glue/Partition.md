@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn withCatalogId(catalogId)`](#fn-withcatalogid)
 * [`fn withDatabaseName(databaseName)`](#fn-withdatabasename)
 * [`fn withPartitionInput(partitionInput)`](#fn-withpartitioninput)
+* [`fn withPartitionInputMixin(partitionInput)`](#fn-withpartitioninputmixin)
 * [`fn withTableName(tableName)`](#fn-withtablename)
 
 ## Fields
@@ -152,6 +153,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withPartitionInput(partitionInput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html#cfn-glue-partition-partitioninput
+
+### fn withPartitionInputMixin
+
+```ts
+withPartitionInputMixin(partitionInput)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html#cfn-glue-partition-partitioninput

@@ -24,15 +24,21 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-tran
 * [`fn withCertificate(certificate)`](#fn-withcertificate)
 * [`fn withDomain(domain)`](#fn-withdomain)
 * [`fn withEndpointDetails(endpointDetails)`](#fn-withendpointdetails)
+* [`fn withEndpointDetailsMixin(endpointDetails)`](#fn-withendpointdetailsmixin)
 * [`fn withEndpointType(endpointType)`](#fn-withendpointtype)
 * [`fn withIdentityProviderDetails(identityProviderDetails)`](#fn-withidentityproviderdetails)
+* [`fn withIdentityProviderDetailsMixin(identityProviderDetails)`](#fn-withidentityproviderdetailsmixin)
 * [`fn withIdentityProviderType(identityProviderType)`](#fn-withidentityprovidertype)
 * [`fn withLoggingRole(loggingRole)`](#fn-withloggingrole)
 * [`fn withProtocolDetails(protocolDetails)`](#fn-withprotocoldetails)
+* [`fn withProtocolDetailsMixin(protocolDetails)`](#fn-withprotocoldetailsmixin)
 * [`fn withProtocols(protocols)`](#fn-withprotocols)
+* [`fn withProtocolsMixin(protocols)`](#fn-withprotocolsmixin)
 * [`fn withSecurityPolicyName(securityPolicyName)`](#fn-withsecuritypolicyname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withWorkflowDetails(workflowDetails)`](#fn-withworkflowdetails)
+* [`fn withWorkflowDetailsMixin(workflowDetails)`](#fn-withworkflowdetailsmixin)
 
 ## Fields
 
@@ -164,6 +170,14 @@ withEndpointDetails(endpointDetails)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-endpointdetails
 
+### fn withEndpointDetailsMixin
+
+```ts
+withEndpointDetailsMixin(endpointDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-endpointdetails
+
 ### fn withEndpointType
 
 ```ts
@@ -176,6 +190,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-tran
 
 ```ts
 withIdentityProviderDetails(identityProviderDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-identityproviderdetails
+
+### fn withIdentityProviderDetailsMixin
+
+```ts
+withIdentityProviderDetailsMixin(identityProviderDetails)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-identityproviderdetails
@@ -204,10 +226,26 @@ withProtocolDetails(protocolDetails)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-protocoldetails
 
+### fn withProtocolDetailsMixin
+
+```ts
+withProtocolDetailsMixin(protocolDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-protocoldetails
+
 ### fn withProtocols
 
 ```ts
 withProtocols(protocols)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-protocols
+
+### fn withProtocolsMixin
+
+```ts
+withProtocolsMixin(protocols)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-protocols
@@ -228,10 +266,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-tags
+
 ### fn withWorkflowDetails
 
 ```ts
 withWorkflowDetails(workflowDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-workflowdetails
+
+### fn withWorkflowDetailsMixin
+
+```ts
+withWorkflowDetailsMixin(workflowDetails)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-server.html#cfn-transfer-server-workflowdetails

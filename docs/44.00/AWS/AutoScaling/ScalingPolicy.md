@@ -29,9 +29,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as
 * [`fn withMinAdjustmentMagnitude(minAdjustmentMagnitude)`](#fn-withminadjustmentmagnitude)
 * [`fn withPolicyType(policyType)`](#fn-withpolicytype)
 * [`fn withPredictiveScalingConfiguration(predictiveScalingConfiguration)`](#fn-withpredictivescalingconfiguration)
+* [`fn withPredictiveScalingConfigurationMixin(predictiveScalingConfiguration)`](#fn-withpredictivescalingconfigurationmixin)
 * [`fn withScalingAdjustment(scalingAdjustment)`](#fn-withscalingadjustment)
 * [`fn withStepAdjustments(stepAdjustments)`](#fn-withstepadjustments)
+* [`fn withStepAdjustmentsMixin(stepAdjustments)`](#fn-withstepadjustmentsmixin)
 * [`fn withTargetTrackingConfiguration(targetTrackingConfiguration)`](#fn-withtargettrackingconfiguration)
+* [`fn withTargetTrackingConfigurationMixin(targetTrackingConfiguration)`](#fn-withtargettrackingconfigurationmixin)
 
 ## Fields
 
@@ -203,6 +206,14 @@ withPredictiveScalingConfiguration(predictiveScalingConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-autoscaling-scalingpolicy-predictivescalingconfiguration
 
+### fn withPredictiveScalingConfigurationMixin
+
+```ts
+withPredictiveScalingConfigurationMixin(predictiveScalingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-autoscaling-scalingpolicy-predictivescalingconfiguration
+
 ### fn withScalingAdjustment
 
 ```ts
@@ -219,10 +230,26 @@ withStepAdjustments(stepAdjustments)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-as-scalingpolicy-stepadjustments
 
+### fn withStepAdjustmentsMixin
+
+```ts
+withStepAdjustmentsMixin(stepAdjustments)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-as-scalingpolicy-stepadjustments
+
 ### fn withTargetTrackingConfiguration
 
 ```ts
 withTargetTrackingConfiguration(targetTrackingConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-autoscaling-scalingpolicy-targettrackingconfiguration
+
+### fn withTargetTrackingConfigurationMixin
+
+```ts
+withTargetTrackingConfigurationMixin(targetTrackingConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-policy.html#cfn-autoscaling-scalingpolicy-targettrackingconfiguration

@@ -22,19 +22,31 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dyna
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAttributeDefinitions(attributeDefinitions)`](#fn-withattributedefinitions)
+* [`fn withAttributeDefinitionsMixin(attributeDefinitions)`](#fn-withattributedefinitionsmixin)
 * [`fn withBillingMode(billingMode)`](#fn-withbillingmode)
 * [`fn withContributorInsightsSpecification(contributorInsightsSpecification)`](#fn-withcontributorinsightsspecification)
+* [`fn withContributorInsightsSpecificationMixin(contributorInsightsSpecification)`](#fn-withcontributorinsightsspecificationmixin)
 * [`fn withGlobalSecondaryIndexes(globalSecondaryIndexes)`](#fn-withglobalsecondaryindexes)
+* [`fn withGlobalSecondaryIndexesMixin(globalSecondaryIndexes)`](#fn-withglobalsecondaryindexesmixin)
 * [`fn withKeySchema(keySchema)`](#fn-withkeyschema)
+* [`fn withKeySchemaMixin(keySchema)`](#fn-withkeyschemamixin)
 * [`fn withKinesisStreamSpecification(kinesisStreamSpecification)`](#fn-withkinesisstreamspecification)
+* [`fn withKinesisStreamSpecificationMixin(kinesisStreamSpecification)`](#fn-withkinesisstreamspecificationmixin)
 * [`fn withLocalSecondaryIndexes(localSecondaryIndexes)`](#fn-withlocalsecondaryindexes)
+* [`fn withLocalSecondaryIndexesMixin(localSecondaryIndexes)`](#fn-withlocalsecondaryindexesmixin)
 * [`fn withPointInTimeRecoverySpecification(pointInTimeRecoverySpecification)`](#fn-withpointintimerecoveryspecification)
+* [`fn withPointInTimeRecoverySpecificationMixin(pointInTimeRecoverySpecification)`](#fn-withpointintimerecoveryspecificationmixin)
 * [`fn withProvisionedThroughput(provisionedThroughput)`](#fn-withprovisionedthroughput)
+* [`fn withProvisionedThroughputMixin(provisionedThroughput)`](#fn-withprovisionedthroughputmixin)
 * [`fn withSSESpecification(ssespecification)`](#fn-withssespecification)
+* [`fn withSSESpecificationMixin(ssespecification)`](#fn-withssespecificationmixin)
 * [`fn withStreamSpecification(streamSpecification)`](#fn-withstreamspecification)
+* [`fn withStreamSpecificationMixin(streamSpecification)`](#fn-withstreamspecificationmixin)
 * [`fn withTableName(tableName)`](#fn-withtablename)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimeToLiveSpecification(timeToLiveSpecification)`](#fn-withtimetolivespecification)
+* [`fn withTimeToLiveSpecificationMixin(timeToLiveSpecification)`](#fn-withtimetolivespecificationmixin)
 
 ## Fields
 
@@ -150,6 +162,14 @@ withAttributeDefinitions(attributeDefinitions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-attributedef
 
+### fn withAttributeDefinitionsMixin
+
+```ts
+withAttributeDefinitionsMixin(attributeDefinitions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-attributedef
+
 ### fn withBillingMode
 
 ```ts
@@ -166,10 +186,26 @@ withContributorInsightsSpecification(contributorInsightsSpecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-contributorinsightsspecification-enabled
 
+### fn withContributorInsightsSpecificationMixin
+
+```ts
+withContributorInsightsSpecificationMixin(contributorInsightsSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-contributorinsightsspecification-enabled
+
 ### fn withGlobalSecondaryIndexes
 
 ```ts
 withGlobalSecondaryIndexes(globalSecondaryIndexes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-gsi
+
+### fn withGlobalSecondaryIndexesMixin
+
+```ts
+withGlobalSecondaryIndexesMixin(globalSecondaryIndexes)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-gsi
@@ -182,10 +218,26 @@ withKeySchema(keySchema)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-keyschema
 
+### fn withKeySchemaMixin
+
+```ts
+withKeySchemaMixin(keySchema)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-keyschema
+
 ### fn withKinesisStreamSpecification
 
 ```ts
 withKinesisStreamSpecification(kinesisStreamSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-kinesisstreamspecification
+
+### fn withKinesisStreamSpecificationMixin
+
+```ts
+withKinesisStreamSpecificationMixin(kinesisStreamSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-kinesisstreamspecification
@@ -198,10 +250,26 @@ withLocalSecondaryIndexes(localSecondaryIndexes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-lsi
 
+### fn withLocalSecondaryIndexesMixin
+
+```ts
+withLocalSecondaryIndexesMixin(localSecondaryIndexes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-lsi
+
 ### fn withPointInTimeRecoverySpecification
 
 ```ts
 withPointInTimeRecoverySpecification(pointInTimeRecoverySpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-pointintimerecoveryspecification
+
+### fn withPointInTimeRecoverySpecificationMixin
+
+```ts
+withPointInTimeRecoverySpecificationMixin(pointInTimeRecoverySpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-pointintimerecoveryspecification
@@ -214,6 +282,14 @@ withProvisionedThroughput(provisionedThroughput)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-provisionedthroughput
 
+### fn withProvisionedThroughputMixin
+
+```ts
+withProvisionedThroughputMixin(provisionedThroughput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-provisionedthroughput
+
 ### fn withSSESpecification
 
 ```ts
@@ -222,10 +298,26 @@ withSSESpecification(ssespecification)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-ssespecification
 
+### fn withSSESpecificationMixin
+
+```ts
+withSSESpecificationMixin(ssespecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-ssespecification
+
 ### fn withStreamSpecification
 
 ```ts
 withStreamSpecification(streamSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-streamspecification
+
+### fn withStreamSpecificationMixin
+
+```ts
+withStreamSpecificationMixin(streamSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-streamspecification
@@ -246,10 +338,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-tags
+
 ### fn withTimeToLiveSpecification
 
 ```ts
 withTimeToLiveSpecification(timeToLiveSpecification)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-timetolivespecification
+
+### fn withTimeToLiveSpecificationMixin
+
+```ts
+withTimeToLiveSpecificationMixin(timeToLiveSpecification)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dynamodb-table.html#cfn-dynamodb-table-timetolivespecification

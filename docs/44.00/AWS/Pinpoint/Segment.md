@@ -23,9 +23,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinp
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApplicationId(applicationId)`](#fn-withapplicationid)
 * [`fn withDimensions(dimensions)`](#fn-withdimensions)
+* [`fn withDimensionsMixin(dimensions)`](#fn-withdimensionsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSegmentGroups(segmentGroups)`](#fn-withsegmentgroups)
+* [`fn withSegmentGroupsMixin(segmentGroups)`](#fn-withsegmentgroupsmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -149,6 +152,14 @@ withDimensions(dimensions)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html#cfn-pinpoint-segment-dimensions
 
+### fn withDimensionsMixin
+
+```ts
+withDimensionsMixin(dimensions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html#cfn-pinpoint-segment-dimensions
+
 ### fn withName
 
 ```ts
@@ -165,10 +176,26 @@ withSegmentGroups(segmentGroups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html#cfn-pinpoint-segment-segmentgroups
 
+### fn withSegmentGroupsMixin
+
+```ts
+withSegmentGroupsMixin(segmentGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html#cfn-pinpoint-segment-segmentgroups
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html#cfn-pinpoint-segment-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-segment.html#cfn-pinpoint-segment-tags

@@ -24,10 +24,12 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn withCustomerGatewayId(customerGatewayId)`](#fn-withcustomergatewayid)
 * [`fn withStaticRoutesOnly(staticRoutesOnly)`](#fn-withstaticroutesonly)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTransitGatewayId(transitGatewayId)`](#fn-withtransitgatewayid)
 * [`fn withType(type)`](#fn-withtype)
 * [`fn withVpnGatewayId(vpnGatewayId)`](#fn-withvpngatewayid)
 * [`fn withVpnTunnelOptionsSpecifications(vpnTunnelOptionsSpecifications)`](#fn-withvpntunneloptionsspecifications)
+* [`fn withVpnTunnelOptionsSpecificationsMixin(vpnTunnelOptionsSpecifications)`](#fn-withvpntunneloptionsspecificationsmixin)
 
 ## Fields
 
@@ -159,6 +161,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-tags
+
 ### fn withTransitGatewayId
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withVpnTunnelOptionsSpecifications(vpnTunnelOptionsSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-vpntunneloptionsspecifications
+
+### fn withVpnTunnelOptionsSpecificationsMixin
+
+```ts
+withVpnTunnelOptionsSpecificationsMixin(vpnTunnelOptionsSpecifications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-vpntunneloptionsspecifications

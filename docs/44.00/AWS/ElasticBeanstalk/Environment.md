@@ -27,11 +27,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-be
 * [`fn withEnvironmentName(environmentName)`](#fn-withenvironmentname)
 * [`fn withOperationsRole(operationsRole)`](#fn-withoperationsrole)
 * [`fn withOptionSettings(optionSettings)`](#fn-withoptionsettings)
+* [`fn withOptionSettingsMixin(optionSettings)`](#fn-withoptionsettingsmixin)
 * [`fn withPlatformArn(platformArn)`](#fn-withplatformarn)
 * [`fn withSolutionStackName(solutionStackName)`](#fn-withsolutionstackname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTemplateName(templateName)`](#fn-withtemplatename)
 * [`fn withTier(tier)`](#fn-withtier)
+* [`fn withTierMixin(tier)`](#fn-withtiermixin)
 * [`fn withVersionLabel(versionLabel)`](#fn-withversionlabel)
 
 ## Fields
@@ -188,6 +191,14 @@ withOptionSettings(optionSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html#cfn-beanstalk-environment-optionsettings
 
+### fn withOptionSettingsMixin
+
+```ts
+withOptionSettingsMixin(optionSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html#cfn-beanstalk-environment-optionsettings
+
 ### fn withPlatformArn
 
 ```ts
@@ -212,6 +223,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html#cfn-elasticbeanstalk-environment-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html#cfn-elasticbeanstalk-environment-tags
+
 ### fn withTemplateName
 
 ```ts
@@ -224,6 +243,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-be
 
 ```ts
 withTier(tier)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html#cfn-beanstalk-environment-tier
+
+### fn withTierMixin
+
+```ts
+withTierMixin(tier)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-beanstalk-environment.html#cfn-beanstalk-environment-tier

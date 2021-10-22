@@ -22,11 +22,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDeploymentConfig(deploymentConfig)`](#fn-withdeploymentconfig)
+* [`fn withDeploymentConfigMixin(deploymentConfig)`](#fn-withdeploymentconfigmixin)
 * [`fn withEndpointConfigName(endpointConfigName)`](#fn-withendpointconfigname)
 * [`fn withEndpointName(endpointName)`](#fn-withendpointname)
 * [`fn withExcludeRetainedVariantProperties(excludeRetainedVariantProperties)`](#fn-withexcluderetainedvariantproperties)
+* [`fn withExcludeRetainedVariantPropertiesMixin(excludeRetainedVariantProperties)`](#fn-withexcluderetainedvariantpropertiesmixin)
 * [`fn withRetainAllVariantProperties(retainAllVariantProperties)`](#fn-withretainallvariantproperties)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -142,6 +145,14 @@ withDeploymentConfig(deploymentConfig)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html#cfn-sagemaker-endpoint-deploymentconfig
 
+### fn withDeploymentConfigMixin
+
+```ts
+withDeploymentConfigMixin(deploymentConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html#cfn-sagemaker-endpoint-deploymentconfig
+
 ### fn withEndpointConfigName
 
 ```ts
@@ -166,6 +177,14 @@ withExcludeRetainedVariantProperties(excludeRetainedVariantProperties)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html#cfn-sagemaker-endpoint-excluderetainedvariantproperties
 
+### fn withExcludeRetainedVariantPropertiesMixin
+
+```ts
+withExcludeRetainedVariantPropertiesMixin(excludeRetainedVariantProperties)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html#cfn-sagemaker-endpoint-excluderetainedvariantproperties
+
 ### fn withRetainAllVariantProperties
 
 ```ts
@@ -178,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html#cfn-sagemaker-endpoint-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-endpoint.html#cfn-sagemaker-endpoint-tags

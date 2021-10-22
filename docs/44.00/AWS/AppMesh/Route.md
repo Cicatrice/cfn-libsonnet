@@ -25,7 +25,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appm
 * [`fn withMeshOwner(meshOwner)`](#fn-withmeshowner)
 * [`fn withRouteName(routeName)`](#fn-withroutename)
 * [`fn withSpec(spec)`](#fn-withspec)
+* [`fn withSpecMixin(spec)`](#fn-withspecmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withVirtualRouterName(virtualRouterName)`](#fn-withvirtualroutername)
 
 ## Fields
@@ -166,10 +168,26 @@ withSpec(spec)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html#cfn-appmesh-route-spec
 
+### fn withSpecMixin
+
+```ts
+withSpecMixin(spec)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html#cfn-appmesh-route-spec
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html#cfn-appmesh-route-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html#cfn-appmesh-route-tags

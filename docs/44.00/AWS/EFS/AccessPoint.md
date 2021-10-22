@@ -22,10 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccessPointTags(accessPointTags)`](#fn-withaccesspointtags)
+* [`fn withAccessPointTagsMixin(accessPointTags)`](#fn-withaccesspointtagsmixin)
 * [`fn withClientToken(clientToken)`](#fn-withclienttoken)
 * [`fn withFileSystemId(fileSystemId)`](#fn-withfilesystemid)
 * [`fn withPosixUser(posixUser)`](#fn-withposixuser)
+* [`fn withPosixUserMixin(posixUser)`](#fn-withposixusermixin)
 * [`fn withRootDirectory(rootDirectory)`](#fn-withrootdirectory)
+* [`fn withRootDirectoryMixin(rootDirectory)`](#fn-withrootdirectorymixin)
 
 ## Fields
 
@@ -141,6 +144,14 @@ withAccessPointTags(accessPointTags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-accesspoint.html#cfn-efs-accesspoint-accesspointtags
 
+### fn withAccessPointTagsMixin
+
+```ts
+withAccessPointTagsMixin(accessPointTags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-accesspoint.html#cfn-efs-accesspoint-accesspointtags
+
 ### fn withClientToken
 
 ```ts
@@ -165,10 +176,26 @@ withPosixUser(posixUser)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-accesspoint.html#cfn-efs-accesspoint-posixuser
 
+### fn withPosixUserMixin
+
+```ts
+withPosixUserMixin(posixUser)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-accesspoint.html#cfn-efs-accesspoint-posixuser
+
 ### fn withRootDirectory
 
 ```ts
 withRootDirectory(rootDirectory)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-accesspoint.html#cfn-efs-accesspoint-rootdirectory
+
+### fn withRootDirectoryMixin
+
+```ts
+withRootDirectoryMixin(rootDirectory)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-accesspoint.html#cfn-efs-accesspoint-rootdirectory

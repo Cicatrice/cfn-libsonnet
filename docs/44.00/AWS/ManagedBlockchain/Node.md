@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mana
 * [`fn withMemberId(memberId)`](#fn-withmemberid)
 * [`fn withNetworkId(networkId)`](#fn-withnetworkid)
 * [`fn withNodeConfiguration(nodeConfiguration)`](#fn-withnodeconfiguration)
+* [`fn withNodeConfigurationMixin(nodeConfiguration)`](#fn-withnodeconfigurationmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mana
 
 ```ts
 withNodeConfiguration(nodeConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-node.html#cfn-managedblockchain-node-nodeconfiguration
+
+### fn withNodeConfigurationMixin
+
+```ts
+withNodeConfigurationMixin(nodeConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-managedblockchain-node.html#cfn-managedblockchain-node-nodeconfiguration

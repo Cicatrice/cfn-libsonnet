@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 * [`fn withAllocatedStorage(allocatedStorage)`](#fn-withallocatedstorage)
 * [`fn withAllowMajorVersionUpgrade(allowMajorVersionUpgrade)`](#fn-withallowmajorversionupgrade)
 * [`fn withAssociatedRoles(associatedRoles)`](#fn-withassociatedroles)
+* [`fn withAssociatedRolesMixin(associatedRoles)`](#fn-withassociatedrolesmixin)
 * [`fn withAutoMinorVersionUpgrade(autoMinorVersionUpgrade)`](#fn-withautominorversionupgrade)
 * [`fn withAvailabilityZone(availabilityZone)`](#fn-withavailabilityzone)
 * [`fn withBackupRetentionPeriod(backupRetentionPeriod)`](#fn-withbackupretentionperiod)
@@ -36,6 +37,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 * [`fn withDBName(dbname)`](#fn-withdbname)
 * [`fn withDBParameterGroupName(dbparameterGroupName)`](#fn-withdbparametergroupname)
 * [`fn withDBSecurityGroups(dbsecurityGroups)`](#fn-withdbsecuritygroups)
+* [`fn withDBSecurityGroupsMixin(dbsecurityGroups)`](#fn-withdbsecuritygroupsmixin)
 * [`fn withDBSnapshotIdentifier(dbsnapshotIdentifier)`](#fn-withdbsnapshotidentifier)
 * [`fn withDBSubnetGroupName(dbsubnetGroupName)`](#fn-withdbsubnetgroupname)
 * [`fn withDeleteAutomatedBackups(deleteAutomatedBackups)`](#fn-withdeleteautomatedbackups)
@@ -43,6 +45,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 * [`fn withDomain(domain)`](#fn-withdomain)
 * [`fn withDomainIAMRoleName(domainIamroleName)`](#fn-withdomainiamrolename)
 * [`fn withEnableCloudwatchLogsExports(enableCloudwatchLogsExports)`](#fn-withenablecloudwatchlogsexports)
+* [`fn withEnableCloudwatchLogsExportsMixin(enableCloudwatchLogsExports)`](#fn-withenablecloudwatchlogsexportsmixin)
 * [`fn withEnableIAMDatabaseAuthentication(enableIamdatabaseAuthentication)`](#fn-withenableiamdatabaseauthentication)
 * [`fn withEnablePerformanceInsights(enablePerformanceInsights)`](#fn-withenableperformanceinsights)
 * [`fn withEngine(engine)`](#fn-withengine)
@@ -63,6 +66,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 * [`fn withPreferredBackupWindow(preferredBackupWindow)`](#fn-withpreferredbackupwindow)
 * [`fn withPreferredMaintenanceWindow(preferredMaintenanceWindow)`](#fn-withpreferredmaintenancewindow)
 * [`fn withProcessorFeatures(processorFeatures)`](#fn-withprocessorfeatures)
+* [`fn withProcessorFeaturesMixin(processorFeatures)`](#fn-withprocessorfeaturesmixin)
 * [`fn withPromotionTier(promotionTier)`](#fn-withpromotiontier)
 * [`fn withPubliclyAccessible(publiclyAccessible)`](#fn-withpubliclyaccessible)
 * [`fn withSourceDBInstanceIdentifier(sourceDbinstanceIdentifier)`](#fn-withsourcedbinstanceidentifier)
@@ -70,9 +74,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 * [`fn withStorageEncrypted(storageEncrypted)`](#fn-withstorageencrypted)
 * [`fn withStorageType(storageType)`](#fn-withstoragetype)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTimezone(timezone)`](#fn-withtimezone)
 * [`fn withUseDefaultProcessorFeatures(useDefaultProcessorFeatures)`](#fn-withusedefaultprocessorfeatures)
 * [`fn withVPCSecurityGroups(vpcsecurityGroups)`](#fn-withvpcsecuritygroups)
+* [`fn withVPCSecurityGroupsMixin(vpcsecurityGroups)`](#fn-withvpcsecuritygroupsmixin)
 
 ## Fields
 
@@ -204,6 +210,14 @@ withAssociatedRoles(associatedRoles)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-associatedroles
 
+### fn withAssociatedRolesMixin
+
+```ts
+withAssociatedRolesMixin(associatedRoles)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-associatedroles
+
 ### fn withAutoMinorVersionUpgrade
 
 ```ts
@@ -300,6 +314,14 @@ withDBSecurityGroups(dbsecurityGroups)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-dbsecuritygroups
 
+### fn withDBSecurityGroupsMixin
+
+```ts
+withDBSecurityGroupsMixin(dbsecurityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-dbsecuritygroups
+
 ### fn withDBSnapshotIdentifier
 
 ```ts
@@ -352,6 +374,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 
 ```ts
 withEnableCloudwatchLogsExports(enableCloudwatchLogsExports)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-enablecloudwatchlogsexports
+
+### fn withEnableCloudwatchLogsExportsMixin
+
+```ts
+withEnableCloudwatchLogsExportsMixin(enableCloudwatchLogsExports)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-enablecloudwatchlogsexports
@@ -516,6 +546,14 @@ withProcessorFeatures(processorFeatures)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-processorfeatures
 
+### fn withProcessorFeaturesMixin
+
+```ts
+withProcessorFeaturesMixin(processorFeatures)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-processorfeatures
+
 ### fn withPromotionTier
 
 ```ts
@@ -572,6 +610,14 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-tags
+
 ### fn withTimezone
 
 ```ts
@@ -592,6 +638,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rd
 
 ```ts
 withVPCSecurityGroups(vpcsecurityGroups)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-vpcsecuritygroups
+
+### fn withVPCSecurityGroupsMixin
+
+```ts
+withVPCSecurityGroupsMixin(vpcsecurityGroups)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-database-instance.html#cfn-rds-dbinstance-vpcsecuritygroups

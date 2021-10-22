@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCatalogId(catalogId)`](#fn-withcatalogid)
 * [`fn withDatabaseInput(databaseInput)`](#fn-withdatabaseinput)
+* [`fn withDatabaseInputMixin(databaseInput)`](#fn-withdatabaseinputmixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withDatabaseInput(databaseInput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-database.html#cfn-glue-database-databaseinput
+
+### fn withDatabaseInputMixin
+
+```ts
+withDatabaseInputMixin(databaseInput)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-database.html#cfn-glue-database-databaseinput

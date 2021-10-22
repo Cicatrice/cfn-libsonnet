@@ -24,9 +24,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-a
 * [`fn withBucket(bucket)`](#fn-withbucket)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPolicy(policy)`](#fn-withpolicy)
+* [`fn withPolicyMixin(policy)`](#fn-withpolicymixin)
 * [`fn withPolicyStatus(policyStatus)`](#fn-withpolicystatus)
+* [`fn withPolicyStatusMixin(policyStatus)`](#fn-withpolicystatusmixin)
 * [`fn withPublicAccessBlockConfiguration(publicAccessBlockConfiguration)`](#fn-withpublicaccessblockconfiguration)
+* [`fn withPublicAccessBlockConfigurationMixin(publicAccessBlockConfiguration)`](#fn-withpublicaccessblockconfigurationmixin)
 * [`fn withVpcConfiguration(vpcConfiguration)`](#fn-withvpcconfiguration)
+* [`fn withVpcConfigurationMixin(vpcConfiguration)`](#fn-withvpcconfigurationmixin)
 
 ## Fields
 
@@ -158,10 +162,26 @@ withPolicy(policy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-policy
 
+### fn withPolicyMixin
+
+```ts
+withPolicyMixin(policy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-policy
+
 ### fn withPolicyStatus
 
 ```ts
 withPolicyStatus(policyStatus)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-policystatus
+
+### fn withPolicyStatusMixin
+
+```ts
+withPolicyStatusMixin(policyStatus)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-policystatus
@@ -174,10 +194,26 @@ withPublicAccessBlockConfiguration(publicAccessBlockConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-publicaccessblockconfiguration
 
+### fn withPublicAccessBlockConfigurationMixin
+
+```ts
+withPublicAccessBlockConfigurationMixin(publicAccessBlockConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-publicaccessblockconfiguration
+
 ### fn withVpcConfiguration
 
 ```ts
 withVpcConfiguration(vpcConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-vpcconfiguration
+
+### fn withVpcConfigurationMixin
+
+```ts
+withVpcConfigurationMixin(vpcConfiguration)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-accesspoint.html#cfn-s3-accesspoint-vpcconfiguration

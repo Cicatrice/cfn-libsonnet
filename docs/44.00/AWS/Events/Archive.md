@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-even
 * [`fn withArchiveName(archiveName)`](#fn-witharchivename)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEventPattern(eventPattern)`](#fn-witheventpattern)
+* [`fn withEventPatternMixin(eventPattern)`](#fn-witheventpatternmixin)
 * [`fn withRetentionDays(retentionDays)`](#fn-withretentiondays)
 * [`fn withSourceArn(sourceArn)`](#fn-withsourcearn)
 
@@ -153,6 +154,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-even
 
 ```ts
 withEventPattern(eventPattern)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-eventpattern
+
+### fn withEventPatternMixin
+
+```ts
+withEventPatternMixin(eventPattern)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-eventpattern

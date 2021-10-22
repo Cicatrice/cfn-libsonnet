@@ -1,8 +1,8 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Route53RecoveryReadiness', url='', help=''),
-  Cell: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Route53RecoveryReadiness/Cell.libsonnet'),
-  ReadinessCheck: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Route53RecoveryReadiness/ReadinessCheck.libsonnet'),
-  RecoveryGroup: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Route53RecoveryReadiness/RecoveryGroup.libsonnet'),
-  ResourceSet: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/Route53RecoveryReadiness/ResourceSet.libsonnet'),
+  Cell:: (import 'Cell.libsonnet'),
+  ReadinessCheck:: (import 'ReadinessCheck.libsonnet'),
+  RecoveryGroup:: (import 'RecoveryGroup.libsonnet'),
+  ResourceSet:: (import 'ResourceSet.libsonnet'),
 }

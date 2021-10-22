@@ -22,8 +22,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withLaunchTemplateData(launchTemplateData)`](#fn-withlaunchtemplatedata)
+* [`fn withLaunchTemplateDataMixin(launchTemplateData)`](#fn-withlaunchtemplatedatamixin)
 * [`fn withLaunchTemplateName(launchTemplateName)`](#fn-withlaunchtemplatename)
 * [`fn withTagSpecifications(tagSpecifications)`](#fn-withtagspecifications)
+* [`fn withTagSpecificationsMixin(tagSpecifications)`](#fn-withtagspecificationsmixin)
 
 ## Fields
 
@@ -139,6 +141,14 @@ withLaunchTemplateData(launchTemplateData)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-launchtemplate.html#cfn-ec2-launchtemplate-launchtemplatedata
 
+### fn withLaunchTemplateDataMixin
+
+```ts
+withLaunchTemplateDataMixin(launchTemplateData)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-launchtemplate.html#cfn-ec2-launchtemplate-launchtemplatedata
+
 ### fn withLaunchTemplateName
 
 ```ts
@@ -151,6 +161,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-
 
 ```ts
 withTagSpecifications(tagSpecifications)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-launchtemplate.html#cfn-ec2-launchtemplate-tagspecifications
+
+### fn withTagSpecificationsMixin
+
+```ts
+withTagSpecificationsMixin(tagSpecifications)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-launchtemplate.html#cfn-ec2-launchtemplate-tagspecifications

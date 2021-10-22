@@ -25,6 +25,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 * [`fn withEngine(engine)`](#fn-withengine)
 * [`fn withNoPasswordRequired(noPasswordRequired)`](#fn-withnopasswordrequired)
 * [`fn withPasswords(passwords)`](#fn-withpasswords)
+* [`fn withPasswordsMixin(passwords)`](#fn-withpasswordsmixin)
 * [`fn withUserId(userId)`](#fn-withuserid)
 * [`fn withUserName(userName)`](#fn-withusername)
 
@@ -162,6 +163,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elas
 
 ```ts
 withPasswords(passwords)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-passwords
+
+### fn withPasswordsMixin
+
+```ts
+withPasswordsMixin(passwords)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-passwords

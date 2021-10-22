@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAccountId(accountId)`](#fn-withaccountid)
 * [`fn withAuditCheckConfigurations(auditCheckConfigurations)`](#fn-withauditcheckconfigurations)
+* [`fn withAuditCheckConfigurationsMixin(auditCheckConfigurations)`](#fn-withauditcheckconfigurationsmixin)
 * [`fn withAuditNotificationTargetConfigurations(auditNotificationTargetConfigurations)`](#fn-withauditnotificationtargetconfigurations)
+* [`fn withAuditNotificationTargetConfigurationsMixin(auditNotificationTargetConfigurations)`](#fn-withauditnotificationtargetconfigurationsmixin)
 * [`fn withRoleArn(roleArn)`](#fn-withrolearn)
 
 ## Fields
@@ -148,10 +150,26 @@ withAuditCheckConfigurations(auditCheckConfigurations)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-accountauditconfiguration.html#cfn-iot-accountauditconfiguration-auditcheckconfigurations
 
+### fn withAuditCheckConfigurationsMixin
+
+```ts
+withAuditCheckConfigurationsMixin(auditCheckConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-accountauditconfiguration.html#cfn-iot-accountauditconfiguration-auditcheckconfigurations
+
 ### fn withAuditNotificationTargetConfigurations
 
 ```ts
 withAuditNotificationTargetConfigurations(auditNotificationTargetConfigurations)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-accountauditconfiguration.html#cfn-iot-accountauditconfiguration-auditnotificationtargetconfigurations
+
+### fn withAuditNotificationTargetConfigurationsMixin
+
+```ts
+withAuditNotificationTargetConfigurationsMixin(auditNotificationTargetConfigurations)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-accountauditconfiguration.html#cfn-iot-accountauditconfiguration-auditnotificationtargetconfigurations

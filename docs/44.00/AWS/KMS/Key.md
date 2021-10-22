@@ -25,11 +25,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-
 * [`fn withEnableKeyRotation(enableKeyRotation)`](#fn-withenablekeyrotation)
 * [`fn withEnabled(enabled)`](#fn-withenabled)
 * [`fn withKeyPolicy(keyPolicy)`](#fn-withkeypolicy)
+* [`fn withKeyPolicyMixin(keyPolicy)`](#fn-withkeypolicymixin)
 * [`fn withKeySpec(keySpec)`](#fn-withkeyspec)
 * [`fn withKeyUsage(keyUsage)`](#fn-withkeyusage)
 * [`fn withMultiRegion(multiRegion)`](#fn-withmultiregion)
 * [`fn withPendingWindowInDays(pendingWindowInDays)`](#fn-withpendingwindowindays)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -169,6 +171,14 @@ withKeyPolicy(keyPolicy)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html#cfn-kms-key-keypolicy
 
+### fn withKeyPolicyMixin
+
+```ts
+withKeyPolicyMixin(keyPolicy)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html#cfn-kms-key-keypolicy
+
 ### fn withKeySpec
 
 ```ts
@@ -205,6 +215,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html#cfn-kms-key-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-key.html#cfn-kms-key-tags

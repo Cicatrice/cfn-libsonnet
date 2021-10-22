@@ -22,10 +22,13 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-code
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCode(code)`](#fn-withcode)
+* [`fn withCodeMixin(code)`](#fn-withcodemixin)
 * [`fn withRepositoryDescription(repositoryDescription)`](#fn-withrepositorydescription)
 * [`fn withRepositoryName(repositoryName)`](#fn-withrepositoryname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTriggers(triggers)`](#fn-withtriggers)
+* [`fn withTriggersMixin(triggers)`](#fn-withtriggersmixin)
 
 ## Fields
 
@@ -141,6 +144,14 @@ withCode(code)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html#cfn-codecommit-repository-code
 
+### fn withCodeMixin
+
+```ts
+withCodeMixin(code)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html#cfn-codecommit-repository-code
+
 ### fn withRepositoryDescription
 
 ```ts
@@ -165,10 +176,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html#cfn-codecommit-repository-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html#cfn-codecommit-repository-tags
+
 ### fn withTriggers
 
 ```ts
 withTriggers(triggers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html#cfn-codecommit-repository-triggers
+
+### fn withTriggersMixin
+
+```ts
+withTriggersMixin(triggers)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codecommit-repository.html#cfn-codecommit-repository-triggers

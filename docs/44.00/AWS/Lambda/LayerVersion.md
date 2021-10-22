@@ -22,8 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lamb
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withCompatibleArchitectures(compatibleArchitectures)`](#fn-withcompatiblearchitectures)
+* [`fn withCompatibleArchitecturesMixin(compatibleArchitectures)`](#fn-withcompatiblearchitecturesmixin)
 * [`fn withCompatibleRuntimes(compatibleRuntimes)`](#fn-withcompatibleruntimes)
+* [`fn withCompatibleRuntimesMixin(compatibleRuntimes)`](#fn-withcompatibleruntimesmixin)
 * [`fn withContent(content)`](#fn-withcontent)
+* [`fn withContentMixin(content)`](#fn-withcontentmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withLayerName(layerName)`](#fn-withlayername)
 * [`fn withLicenseInfo(licenseInfo)`](#fn-withlicenseinfo)
@@ -142,6 +145,14 @@ withCompatibleArchitectures(compatibleArchitectures)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-compatiblearchitectures
 
+### fn withCompatibleArchitecturesMixin
+
+```ts
+withCompatibleArchitecturesMixin(compatibleArchitectures)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-compatiblearchitectures
+
 ### fn withCompatibleRuntimes
 
 ```ts
@@ -150,10 +161,26 @@ withCompatibleRuntimes(compatibleRuntimes)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-compatibleruntimes
 
+### fn withCompatibleRuntimesMixin
+
+```ts
+withCompatibleRuntimesMixin(compatibleRuntimes)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-compatibleruntimes
+
 ### fn withContent
 
 ```ts
 withContent(content)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-content
+
+### fn withContentMixin
+
+```ts
+withContentMixin(content)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-layerversion.html#cfn-lambda-layerversion-content

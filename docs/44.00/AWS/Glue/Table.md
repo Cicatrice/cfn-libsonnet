@@ -24,6 +24,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 * [`fn withCatalogId(catalogId)`](#fn-withcatalogid)
 * [`fn withDatabaseName(databaseName)`](#fn-withdatabasename)
 * [`fn withTableInput(tableInput)`](#fn-withtableinput)
+* [`fn withTableInputMixin(tableInput)`](#fn-withtableinputmixin)
 
 ## Fields
 
@@ -151,6 +152,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue
 
 ```ts
 withTableInput(tableInput)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-table.html#cfn-glue-table-tableinput
+
+### fn withTableInputMixin
+
+```ts
+withTableInputMixin(tableInput)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-table.html#cfn-glue-table-tableinput

@@ -1,8 +1,8 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='SecretsManager', url='', help=''),
-  ResourcePolicy: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/SecretsManager/ResourcePolicy.libsonnet'),
-  RotationSchedule: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/SecretsManager/RotationSchedule.libsonnet'),
-  Secret: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/SecretsManager/Secret.libsonnet'),
-  SecretTargetAttachment: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/SecretsManager/SecretTargetAttachment.libsonnet'),
+  ResourcePolicy:: (import 'ResourcePolicy.libsonnet'),
+  RotationSchedule:: (import 'RotationSchedule.libsonnet'),
+  Secret:: (import 'Secret.libsonnet'),
+  SecretTargetAttachment:: (import 'SecretTargetAttachment.libsonnet'),
 }

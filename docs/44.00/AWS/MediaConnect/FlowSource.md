@@ -22,6 +22,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-medi
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDecryption(decryption)`](#fn-withdecryption)
+* [`fn withDecryptionMixin(decryption)`](#fn-withdecryptionmixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEntitlementArn(entitlementArn)`](#fn-withentitlementarn)
 * [`fn withFlowArn(flowArn)`](#fn-withflowarn)
@@ -144,6 +145,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 
 ```ts
 withDecryption(decryption)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowsource.html#cfn-mediaconnect-flowsource-decryption
+
+### fn withDecryptionMixin
+
+```ts
+withDecryptionMixin(decryption)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowsource.html#cfn-mediaconnect-flowsource-decryption

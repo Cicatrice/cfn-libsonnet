@@ -22,12 +22,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApplicationConfiguration(applicationConfiguration)`](#fn-withapplicationconfiguration)
+* [`fn withApplicationConfigurationMixin(applicationConfiguration)`](#fn-withapplicationconfigurationmixin)
 * [`fn withApplicationDescription(applicationDescription)`](#fn-withapplicationdescription)
 * [`fn withApplicationMode(applicationMode)`](#fn-withapplicationmode)
 * [`fn withApplicationName(applicationName)`](#fn-withapplicationname)
 * [`fn withRuntimeEnvironment(runtimeEnvironment)`](#fn-withruntimeenvironment)
 * [`fn withServiceExecutionRole(serviceExecutionRole)`](#fn-withserviceexecutionrole)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -143,6 +145,14 @@ withApplicationConfiguration(applicationConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html#cfn-kinesisanalyticsv2-application-applicationconfiguration
 
+### fn withApplicationConfigurationMixin
+
+```ts
+withApplicationConfigurationMixin(applicationConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html#cfn-kinesisanalyticsv2-application-applicationconfiguration
+
 ### fn withApplicationDescription
 
 ```ts
@@ -187,6 +197,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html#cfn-kinesisanalyticsv2-application-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html#cfn-kinesisanalyticsv2-application-tags

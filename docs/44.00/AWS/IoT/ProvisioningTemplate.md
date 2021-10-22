@@ -24,8 +24,10 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEnabled(enabled)`](#fn-withenabled)
 * [`fn withPreProvisioningHook(preProvisioningHook)`](#fn-withpreprovisioninghook)
+* [`fn withPreProvisioningHookMixin(preProvisioningHook)`](#fn-withpreprovisioninghookmixin)
 * [`fn withProvisioningRoleArn(provisioningRoleArn)`](#fn-withprovisioningrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTemplateBody(templateBody)`](#fn-withtemplatebody)
 * [`fn withTemplateName(templateName)`](#fn-withtemplatename)
 
@@ -159,6 +161,14 @@ withPreProvisioningHook(preProvisioningHook)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-preprovisioninghook
 
+### fn withPreProvisioningHookMixin
+
+```ts
+withPreProvisioningHookMixin(preProvisioningHook)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-preprovisioninghook
+
 ### fn withProvisioningRoleArn
 
 ```ts
@@ -171,6 +181,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-tags

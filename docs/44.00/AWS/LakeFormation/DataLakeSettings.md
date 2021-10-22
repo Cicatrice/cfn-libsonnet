@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lake
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdmins(admins)`](#fn-withadmins)
+* [`fn withAdminsMixin(admins)`](#fn-withadminsmixin)
 * [`fn withTrustedResourceOwners(trustedResourceOwners)`](#fn-withtrustedresourceowners)
+* [`fn withTrustedResourceOwnersMixin(trustedResourceOwners)`](#fn-withtrustedresourceownersmixin)
 
 ## Fields
 
@@ -138,10 +140,26 @@ withAdmins(admins)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-datalakesettings.html#cfn-lakeformation-datalakesettings-admins
 
+### fn withAdminsMixin
+
+```ts
+withAdminsMixin(admins)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-datalakesettings.html#cfn-lakeformation-datalakesettings-admins
+
 ### fn withTrustedResourceOwners
 
 ```ts
 withTrustedResourceOwners(trustedResourceOwners)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-datalakesettings.html#cfn-lakeformation-datalakesettings-trustedresourceowners
+
+### fn withTrustedResourceOwnersMixin
+
+```ts
+withTrustedResourceOwnersMixin(trustedResourceOwners)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-datalakesettings.html#cfn-lakeformation-datalakesettings-trustedresourceowners

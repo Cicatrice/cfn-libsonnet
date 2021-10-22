@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-clou
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withEndPoints(endPoints)`](#fn-withendpoints)
+* [`fn withEndPointsMixin(endPoints)`](#fn-withendpointsmixin)
 * [`fn withFields(fields)`](#fn-withfields)
+* [`fn withFieldsMixin(fields)`](#fn-withfieldsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withSamplingRate(samplingRate)`](#fn-withsamplingrate)
 
@@ -140,10 +142,26 @@ withEndPoints(endPoints)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-realtimelogconfig.html#cfn-cloudfront-realtimelogconfig-endpoints
 
+### fn withEndPointsMixin
+
+```ts
+withEndPointsMixin(endPoints)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-realtimelogconfig.html#cfn-cloudfront-realtimelogconfig-endpoints
+
 ### fn withFields
 
 ```ts
 withFields(fields)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-realtimelogconfig.html#cfn-cloudfront-realtimelogconfig-fields
+
+### fn withFieldsMixin
+
+```ts
+withFieldsMixin(fields)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-realtimelogconfig.html#cfn-cloudfront-realtimelogconfig-fields

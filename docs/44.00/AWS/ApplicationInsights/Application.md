@@ -24,12 +24,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appl
 * [`fn withAutoConfigurationEnabled(autoConfigurationEnabled)`](#fn-withautoconfigurationenabled)
 * [`fn withCWEMonitorEnabled(cwemonitorEnabled)`](#fn-withcwemonitorenabled)
 * [`fn withComponentMonitoringSettings(componentMonitoringSettings)`](#fn-withcomponentmonitoringsettings)
+* [`fn withComponentMonitoringSettingsMixin(componentMonitoringSettings)`](#fn-withcomponentmonitoringsettingsmixin)
 * [`fn withCustomComponents(customComponents)`](#fn-withcustomcomponents)
+* [`fn withCustomComponentsMixin(customComponents)`](#fn-withcustomcomponentsmixin)
 * [`fn withLogPatternSets(logPatternSets)`](#fn-withlogpatternsets)
+* [`fn withLogPatternSetsMixin(logPatternSets)`](#fn-withlogpatternsetsmixin)
 * [`fn withOpsCenterEnabled(opsCenterEnabled)`](#fn-withopscenterenabled)
 * [`fn withOpsItemSNSTopicArn(opsItemSnstopicArn)`](#fn-withopsitemsnstopicarn)
 * [`fn withResourceGroupName(resourceGroupName)`](#fn-withresourcegroupname)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -161,6 +165,14 @@ withComponentMonitoringSettings(componentMonitoringSettings)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-componentmonitoringsettings
 
+### fn withComponentMonitoringSettingsMixin
+
+```ts
+withComponentMonitoringSettingsMixin(componentMonitoringSettings)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-componentmonitoringsettings
+
 ### fn withCustomComponents
 
 ```ts
@@ -169,10 +181,26 @@ withCustomComponents(customComponents)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-customcomponents
 
+### fn withCustomComponentsMixin
+
+```ts
+withCustomComponentsMixin(customComponents)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-customcomponents
+
 ### fn withLogPatternSets
 
 ```ts
 withLogPatternSets(logPatternSets)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-logpatternsets
+
+### fn withLogPatternSetsMixin
+
+```ts
+withLogPatternSetsMixin(logPatternSets)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-logpatternsets
@@ -205,6 +233,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appl
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationinsights-application.html#cfn-applicationinsights-application-tags

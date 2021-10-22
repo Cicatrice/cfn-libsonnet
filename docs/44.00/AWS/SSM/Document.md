@@ -22,12 +22,16 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAttachments(attachments)`](#fn-withattachments)
+* [`fn withAttachmentsMixin(attachments)`](#fn-withattachmentsmixin)
 * [`fn withContent(content)`](#fn-withcontent)
+* [`fn withContentMixin(content)`](#fn-withcontentmixin)
 * [`fn withDocumentFormat(documentFormat)`](#fn-withdocumentformat)
 * [`fn withDocumentType(documentType)`](#fn-withdocumenttype)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRequires(requires)`](#fn-withrequires)
+* [`fn withRequiresMixin(requires)`](#fn-withrequiresmixin)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withTargetType(targetType)`](#fn-withtargettype)
 * [`fn withVersionName(versionName)`](#fn-withversionname)
 
@@ -145,10 +149,26 @@ withAttachments(attachments)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-attachments
 
+### fn withAttachmentsMixin
+
+```ts
+withAttachmentsMixin(attachments)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-attachments
+
 ### fn withContent
 
 ```ts
 withContent(content)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-content
+
+### fn withContentMixin
+
+```ts
+withContentMixin(content)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-content
@@ -185,10 +205,26 @@ withRequires(requires)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-requires
 
+### fn withRequiresMixin
+
+```ts
+withRequiresMixin(requires)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-requires
+
 ### fn withTags
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssm-document.html#cfn-ssm-document-tags

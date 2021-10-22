@@ -23,12 +23,17 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimb
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withDescription(description)`](#fn-withdescription)
 * [`fn withEc2SubnetIds(ec2subnetIds)`](#fn-withec2subnetids)
+* [`fn withEc2SubnetIdsMixin(ec2subnetIds)`](#fn-withec2subnetidsmixin)
 * [`fn withLaunchProfileProtocolVersions(launchProfileProtocolVersions)`](#fn-withlaunchprofileprotocolversions)
+* [`fn withLaunchProfileProtocolVersionsMixin(launchProfileProtocolVersions)`](#fn-withlaunchprofileprotocolversionsmixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withStreamConfiguration(streamConfiguration)`](#fn-withstreamconfiguration)
+* [`fn withStreamConfigurationMixin(streamConfiguration)`](#fn-withstreamconfigurationmixin)
 * [`fn withStudioComponentIds(studioComponentIds)`](#fn-withstudiocomponentids)
+* [`fn withStudioComponentIdsMixin(studioComponentIds)`](#fn-withstudiocomponentidsmixin)
 * [`fn withStudioId(studioId)`](#fn-withstudioid)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 
 ## Fields
 
@@ -152,10 +157,26 @@ withEc2SubnetIds(ec2subnetIds)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-ec2subnetids
 
+### fn withEc2SubnetIdsMixin
+
+```ts
+withEc2SubnetIdsMixin(ec2subnetIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-ec2subnetids
+
 ### fn withLaunchProfileProtocolVersions
 
 ```ts
 withLaunchProfileProtocolVersions(launchProfileProtocolVersions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-launchprofileprotocolversions
+
+### fn withLaunchProfileProtocolVersionsMixin
+
+```ts
+withLaunchProfileProtocolVersionsMixin(launchProfileProtocolVersions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-launchprofileprotocolversions
@@ -176,10 +197,26 @@ withStreamConfiguration(streamConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-streamconfiguration
 
+### fn withStreamConfigurationMixin
+
+```ts
+withStreamConfigurationMixin(streamConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-streamconfiguration
+
 ### fn withStudioComponentIds
 
 ```ts
 withStudioComponentIds(studioComponentIds)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-studiocomponentids
+
+### fn withStudioComponentIdsMixin
+
+```ts
+withStudioComponentIdsMixin(studioComponentIds)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-studiocomponentids
@@ -196,6 +233,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimb
 
 ```ts
 withTags(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-tags
+
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-nimblestudio-launchprofile.html#cfn-nimblestudio-launchprofile-tags

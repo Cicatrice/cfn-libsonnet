@@ -23,7 +23,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-m
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withName(name)`](#fn-withname)
 * [`fn withPublicAccessBlockConfiguration(publicAccessBlockConfiguration)`](#fn-withpublicaccessblockconfiguration)
+* [`fn withPublicAccessBlockConfigurationMixin(publicAccessBlockConfiguration)`](#fn-withpublicaccessblockconfigurationmixin)
 * [`fn withRegions(regions)`](#fn-withregions)
+* [`fn withRegionsMixin(regions)`](#fn-withregionsmixin)
 
 ## Fields
 
@@ -147,10 +149,26 @@ withPublicAccessBlockConfiguration(publicAccessBlockConfiguration)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-multiregionaccesspoint.html#cfn-s3-multiregionaccesspoint-publicaccessblockconfiguration
 
+### fn withPublicAccessBlockConfigurationMixin
+
+```ts
+withPublicAccessBlockConfigurationMixin(publicAccessBlockConfiguration)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-multiregionaccesspoint.html#cfn-s3-multiregionaccesspoint-publicaccessblockconfiguration
+
 ### fn withRegions
 
 ```ts
 withRegions(regions)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-multiregionaccesspoint.html#cfn-s3-multiregionaccesspoint-regions
+
+### fn withRegionsMixin
+
+```ts
+withRegionsMixin(regions)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3-multiregionaccesspoint.html#cfn-s3-multiregionaccesspoint-regions

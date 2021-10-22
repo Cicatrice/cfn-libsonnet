@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cur-
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAdditionalArtifacts(additionalArtifacts)`](#fn-withadditionalartifacts)
+* [`fn withAdditionalArtifactsMixin(additionalArtifacts)`](#fn-withadditionalartifactsmixin)
 * [`fn withAdditionalSchemaElements(additionalSchemaElements)`](#fn-withadditionalschemaelements)
+* [`fn withAdditionalSchemaElementsMixin(additionalSchemaElements)`](#fn-withadditionalschemaelementsmixin)
 * [`fn withBillingViewArn(billingViewArn)`](#fn-withbillingviewarn)
 * [`fn withCompression(compression)`](#fn-withcompression)
 * [`fn withFormat(format)`](#fn-withformat)
@@ -148,10 +150,26 @@ withAdditionalArtifacts(additionalArtifacts)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cur-reportdefinition.html#cfn-cur-reportdefinition-additionalartifacts
 
+### fn withAdditionalArtifactsMixin
+
+```ts
+withAdditionalArtifactsMixin(additionalArtifacts)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cur-reportdefinition.html#cfn-cur-reportdefinition-additionalartifacts
+
 ### fn withAdditionalSchemaElements
 
 ```ts
 withAdditionalSchemaElements(additionalSchemaElements)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cur-reportdefinition.html#cfn-cur-reportdefinition-additionalschemaelements
+
+### fn withAdditionalSchemaElementsMixin
+
+```ts
+withAdditionalSchemaElementsMixin(additionalSchemaElements)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cur-reportdefinition.html#cfn-cur-reportdefinition-additionalschemaelements

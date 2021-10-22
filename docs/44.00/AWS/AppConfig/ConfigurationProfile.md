@@ -27,7 +27,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appc
 * [`fn withName(name)`](#fn-withname)
 * [`fn withRetrievalRoleArn(retrievalRoleArn)`](#fn-withretrievalrolearn)
 * [`fn withTags(tags)`](#fn-withtags)
+* [`fn withTagsMixin(tags)`](#fn-withtagsmixin)
 * [`fn withValidators(validators)`](#fn-withvalidators)
+* [`fn withValidatorsMixin(validators)`](#fn-withvalidatorsmixin)
 
 ## Fields
 
@@ -183,10 +185,26 @@ withTags(tags)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-configurationprofile.html#cfn-appconfig-configurationprofile-tags
 
+### fn withTagsMixin
+
+```ts
+withTagsMixin(tags)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-configurationprofile.html#cfn-appconfig-configurationprofile-tags
+
 ### fn withValidators
 
 ```ts
 withValidators(validators)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-configurationprofile.html#cfn-appconfig-configurationprofile-validators
+
+### fn withValidatorsMixin
+
+```ts
+withValidatorsMixin(validators)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-configurationprofile.html#cfn-appconfig-configurationprofile-validators

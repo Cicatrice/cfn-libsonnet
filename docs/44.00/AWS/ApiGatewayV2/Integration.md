@@ -34,11 +34,15 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn withPassthroughBehavior(passthroughBehavior)`](#fn-withpassthroughbehavior)
 * [`fn withPayloadFormatVersion(payloadFormatVersion)`](#fn-withpayloadformatversion)
 * [`fn withRequestParameters(requestParameters)`](#fn-withrequestparameters)
+* [`fn withRequestParametersMixin(requestParameters)`](#fn-withrequestparametersmixin)
 * [`fn withRequestTemplates(requestTemplates)`](#fn-withrequesttemplates)
+* [`fn withRequestTemplatesMixin(requestTemplates)`](#fn-withrequesttemplatesmixin)
 * [`fn withResponseParameters(responseParameters)`](#fn-withresponseparameters)
+* [`fn withResponseParametersMixin(responseParameters)`](#fn-withresponseparametersmixin)
 * [`fn withTemplateSelectionExpression(templateSelectionExpression)`](#fn-withtemplateselectionexpression)
 * [`fn withTimeoutInMillis(timeoutInMillis)`](#fn-withtimeoutinmillis)
 * [`fn withTlsConfig(tlsConfig)`](#fn-withtlsconfig)
+* [`fn withTlsConfigMixin(tlsConfig)`](#fn-withtlsconfigmixin)
 
 ## Fields
 
@@ -250,6 +254,14 @@ withRequestParameters(requestParameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-requestparameters
 
+### fn withRequestParametersMixin
+
+```ts
+withRequestParametersMixin(requestParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-requestparameters
+
 ### fn withRequestTemplates
 
 ```ts
@@ -258,10 +270,26 @@ withRequestTemplates(requestTemplates)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-requesttemplates
 
+### fn withRequestTemplatesMixin
+
+```ts
+withRequestTemplatesMixin(requestTemplates)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-requesttemplates
+
 ### fn withResponseParameters
 
 ```ts
 withResponseParameters(responseParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-responseparameters
+
+### fn withResponseParametersMixin
+
+```ts
+withResponseParametersMixin(responseParameters)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-responseparameters
@@ -286,6 +314,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 
 ```ts
 withTlsConfig(tlsConfig)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-tlsconfig
+
+### fn withTlsConfigMixin
+
+```ts
+withTlsConfigMixin(tlsConfig)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-tlsconfig

@@ -22,8 +22,11 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cogn
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withAttributeMapping(attributeMapping)`](#fn-withattributemapping)
+* [`fn withAttributeMappingMixin(attributeMapping)`](#fn-withattributemappingmixin)
 * [`fn withIdpIdentifiers(idpIdentifiers)`](#fn-withidpidentifiers)
+* [`fn withIdpIdentifiersMixin(idpIdentifiers)`](#fn-withidpidentifiersmixin)
 * [`fn withProviderDetails(providerDetails)`](#fn-withproviderdetails)
+* [`fn withProviderDetailsMixin(providerDetails)`](#fn-withproviderdetailsmixin)
 * [`fn withProviderName(providerName)`](#fn-withprovidername)
 * [`fn withProviderType(providerType)`](#fn-withprovidertype)
 * [`fn withUserPoolId(userPoolId)`](#fn-withuserpoolid)
@@ -142,6 +145,14 @@ withAttributeMapping(attributeMapping)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-attributemapping
 
+### fn withAttributeMappingMixin
+
+```ts
+withAttributeMappingMixin(attributeMapping)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-attributemapping
+
 ### fn withIdpIdentifiers
 
 ```ts
@@ -150,10 +161,26 @@ withIdpIdentifiers(idpIdentifiers)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-idpidentifiers
 
+### fn withIdpIdentifiersMixin
+
+```ts
+withIdpIdentifiersMixin(idpIdentifiers)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-idpidentifiers
+
 ### fn withProviderDetails
 
 ```ts
 withProviderDetails(providerDetails)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-providerdetails
+
+### fn withProviderDetailsMixin
+
+```ts
+withProviderDetailsMixin(providerDetails)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cognito-userpoolidentityprovider.html#cfn-cognito-userpoolidentityprovider-providerdetails

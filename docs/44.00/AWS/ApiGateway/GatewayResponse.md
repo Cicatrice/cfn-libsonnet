@@ -22,7 +22,9 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apig
 * [`fn updateReplacePolicy(policy)`](#fn-updatereplacepolicy)
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withResponseParameters(responseParameters)`](#fn-withresponseparameters)
+* [`fn withResponseParametersMixin(responseParameters)`](#fn-withresponseparametersmixin)
 * [`fn withResponseTemplates(responseTemplates)`](#fn-withresponsetemplates)
+* [`fn withResponseTemplatesMixin(responseTemplates)`](#fn-withresponsetemplatesmixin)
 * [`fn withResponseType(responseType)`](#fn-withresponsetype)
 * [`fn withRestApiId(restApiId)`](#fn-withrestapiid)
 * [`fn withStatusCode(statusCode)`](#fn-withstatuscode)
@@ -141,10 +143,26 @@ withResponseParameters(responseParameters)
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html#cfn-apigateway-gatewayresponse-responseparameters
 
+### fn withResponseParametersMixin
+
+```ts
+withResponseParametersMixin(responseParameters)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html#cfn-apigateway-gatewayresponse-responseparameters
+
 ### fn withResponseTemplates
 
 ```ts
 withResponseTemplates(responseTemplates)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html#cfn-apigateway-gatewayresponse-responsetemplates
+
+### fn withResponseTemplatesMixin
+
+```ts
+withResponseTemplatesMixin(responseTemplates)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html#cfn-apigateway-gatewayresponse-responsetemplates

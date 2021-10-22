@@ -23,6 +23,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 * [`fn updateReplacePolicyMixin(policy)`](#fn-updatereplacepolicymixin)
 * [`fn withApplicationName(applicationName)`](#fn-withapplicationname)
 * [`fn withReferenceDataSource(referenceDataSource)`](#fn-withreferencedatasource)
+* [`fn withReferenceDataSourceMixin(referenceDataSource)`](#fn-withreferencedatasourcemixin)
 
 ## Fields
 
@@ -142,6 +143,14 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kine
 
 ```ts
 withReferenceDataSource(referenceDataSource)
+```
+
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationreferencedatasource.html#cfn-kinesisanalyticsv2-applicationreferencedatasource-referencedatasource
+
+### fn withReferenceDataSourceMixin
+
+```ts
+withReferenceDataSourceMixin(referenceDataSource)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-applicationreferencedatasource.html#cfn-kinesisanalyticsv2-applicationreferencedatasource-referencedatasource
