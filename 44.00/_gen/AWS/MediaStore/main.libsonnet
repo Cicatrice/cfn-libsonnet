@@ -1,5 +1,5 @@
 {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='MediaStore', url='', help=''),
-  Container: (import '/output/github.com/jsonnet-libs/cloudformation-libsonnet/44.00/_gen/AWS/MediaStore/Container.libsonnet'),
+  Container: (import '/output/github.com/Cicatrice/cfn-libsonnet/44.00/_gen/AWS/MediaStore/Container.libsonnet'),
 }
