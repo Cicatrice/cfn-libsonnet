@@ -8,7 +8,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 
 ## Index
 
-* [`fn new()`](#fn-new)
+* [`fn new(errorOnEmptyProp)`](#fn-new)
 * [`fn creationPolicy(policy)`](#fn-creationpolicy)
 * [`fn creationPolicyMixin(policy)`](#fn-creationpolicymixin)
 * [`fn deletionPolicy(policy)`](#fn-deletionpolicy)
@@ -40,7 +40,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 ### fn new
 
 ```ts
-new()
+new(errorOnEmptyProp)
 ```
 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-model.html
@@ -51,6 +51,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sage
 creationPolicy(policy)
 ```
 
+Associate the CreationPolicy attribute with a resource to prevent its status from reaching create complete until AWS CloudFormation receives a specified number of success signals or the timeout period is exceeded. To signal a resource, you can use the cfn-signal helper script or SignalResource API. CloudFormation publishes valid signals to the stack events so that you track the number of signals sent. 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html
 
 ### fn creationPolicyMixin
@@ -59,7 +60,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-cre
 creationPolicyMixin(policy)
 ```
 
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-creationpolicy.html
+cf `creationPolicy()`, but return a merged object
 
 ### fn deletionPolicy
 
@@ -67,6 +68,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-cre
 deletionPolicy(policy)
 ```
 
+With the DeletionPolicy attribute you can preserve, and in some cases, backup a resource when its stack is deleted. You specify a DeletionPolicy attribute for each resource that you want to control. If a resource has no DeletionPolicy attribute, AWS CloudFormation deletes the resource by default. 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-deletionpolicy.html
 
 ### fn deletionPolicyMixin
@@ -75,7 +77,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-del
 deletionPolicyMixin(policy)
 ```
 
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-deletionpolicy.html
+cf `deletionPolicy()`, but return a merged object
 
 ### fn dependsOn
 
@@ -83,6 +85,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-del
 dependsOn(dependencies)
 ```
 
+With the DependsOn attribute you can specify that the creation of a specific resource follows another. When you add a DependsOn attribute to a resource, that resource is created only after the creation of the resource specified in the DependsOn attribute. 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-dependson.html
 
 ### fn dependsOnMixin
@@ -91,7 +94,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-dep
 dependsOnMixin(dependencies)
 ```
 
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-dependson.html
+cf `dependsOn()`, but return a merged array
 
 ### fn metadata
 
@@ -99,6 +102,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-dep
 metadata(metadatas)
 ```
 
+The metadata attribute enables you to associate structured data with a resource. By adding a metadata attribute to a resource, you can add data in JSON or YAML to the resource declaration. In addition, you can use intrinsic functions (such as GetAtt and Ref), parameters, and pseudo parameters within the metadata attribute to add those interpreted values. 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-metadata.html
 
 ### fn metadataMixin
@@ -107,7 +111,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-met
 metadataMixin(metadatas)
 ```
 
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-metadata.html
+cf `metadata()`, but return a merged object
 
 ### fn updatePolicy
 
@@ -115,6 +119,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-met
 updatePolicy(policy)
 ```
 
+Use the UpdatePolicy attribute to specify how AWS CloudFormation handles updates to the AWS::AppStream::Fleet, AWS::AutoScaling::AutoScalingGroup, AWS::ElastiCache::ReplicationGroup, AWS::OpenSearchService::Domain, AWS::Elasticsearch::Domain, or AWS::Lambda::Alias resources. 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html
 
 ### fn updatePolicyMixin
@@ -123,7 +128,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 updatePolicyMixin(policy)
 ```
 
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html
+cf `updatePolicy(), but return a merged object
 
 ### fn updateReplacePolicy
 
@@ -131,6 +136,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 updateReplacePolicy(policy)
 ```
 
+Use the UpdateReplacePolicy attribute to retain or, in some cases, backup the existing physical instance of a resource when it's replaced during a stack update operation. 
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatereplacepolicy.html
 
 ### fn updateReplacePolicyMixin
@@ -139,7 +145,7 @@ https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-upd
 updateReplacePolicyMixin(policy)
 ```
 
-https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatereplacepolicy.html
+cf `updateReplacePolicy`, but return a merged object
 
 ### fn withContainers
 
