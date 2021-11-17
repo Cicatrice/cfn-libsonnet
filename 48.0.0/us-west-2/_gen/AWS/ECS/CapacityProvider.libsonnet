@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='CapacityProvider', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-capacityprovider.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::ECS::CapacityProvider', Properties: { AutoScalingGroupProvider: if errorOnEmptyProp then (error 'You need to define AutoScalingGroupProvider properties for AWS::ECS::CapacityProvider resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-capacityprovider.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAutoScalingGroupProvider':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-capacityprovider.html#cfn-ecs-capacityprovider-autoscalinggroupprovider', args=[d.arg(name='autoScalingGroupProvider', type=d.T.object)]),
+  withAutoScalingGroupProvider(autoScalingGroupProvider): { Properties+: { AutoScalingGroupProvider: autoScalingGroupProvider } },
+  '#withAutoScalingGroupProviderMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-capacityprovider.html#cfn-ecs-capacityprovider-autoscalinggroupprovider', args=[d.arg(name='autoScalingGroupProvider', type=d.T.object)]),
+  withAutoScalingGroupProviderMixin(autoScalingGroupProvider): { Properties+: { AutoScalingGroupProvider+: autoScalingGroupProvider } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-capacityprovider.html#cfn-ecs-capacityprovider-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-capacityprovider.html#cfn-ecs-capacityprovider-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-capacityprovider.html#cfn-ecs-capacityprovider-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

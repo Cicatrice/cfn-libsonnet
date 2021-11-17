@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Input', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTEvents::Input', Properties: { InputDefinition: if errorOnEmptyProp then (error 'You need to define InputDefinition properties for AWS::IoTEvents::Input resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withInputDefinition':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html#cfn-iotevents-input-inputdefinition', args=[d.arg(name='inputDefinition', type=d.T.object)]),
+  withInputDefinition(inputDefinition): { Properties+: { InputDefinition: inputDefinition } },
+  '#withInputDefinitionMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html#cfn-iotevents-input-inputdefinition', args=[d.arg(name='inputDefinition', type=d.T.object)]),
+  withInputDefinitionMixin(inputDefinition): { Properties+: { InputDefinition+: inputDefinition } },
+  '#withInputDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html#cfn-iotevents-input-inputdescription', args=[d.arg(name='inputDescription', type=d.T.string)]),
+  withInputDescription(inputDescription): { Properties+: { InputDescription: inputDescription } },
+  '#withInputName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html#cfn-iotevents-input-inputname', args=[d.arg(name='inputName', type=d.T.string)]),
+  withInputName(inputName): { Properties+: { InputName: inputName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html#cfn-iotevents-input-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-input.html#cfn-iotevents-input-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

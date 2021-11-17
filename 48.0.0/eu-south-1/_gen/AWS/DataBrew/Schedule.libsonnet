@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Schedule', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::DataBrew::Schedule', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::DataBrew::Schedule resource') else null, CronExpression: if errorOnEmptyProp then (error 'You need to define CronExpression properties for AWS::DataBrew::Schedule resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCronExpression':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html#cfn-databrew-schedule-cronexpression', args=[d.arg(name='cronExpression', type=d.T.string)]),
+  withCronExpression(cronExpression): { Properties+: { CronExpression: cronExpression } },
+  '#withJobNames':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html#cfn-databrew-schedule-jobnames', args=[d.arg(name='jobNames', type=d.T.array)]),
+  withJobNames(jobNames): { Properties+: { JobNames: jobNames } },
+  '#withJobNamesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html#cfn-databrew-schedule-jobnames', args=[d.arg(name='jobNames', type=d.T.array)]),
+  withJobNamesMixin(jobNames): { Properties+: { JobNames+: jobNames } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html#cfn-databrew-schedule-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html#cfn-databrew-schedule-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html#cfn-databrew-schedule-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

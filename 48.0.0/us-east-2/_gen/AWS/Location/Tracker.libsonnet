@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Tracker', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Location::Tracker', Properties: { TrackerName: if errorOnEmptyProp then (error 'You need to define TrackerName properties for AWS::Location::Tracker resource') else null, PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::Tracker resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html#cfn-location-tracker-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withKmsKeyId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html#cfn-location-tracker-kmskeyid', args=[d.arg(name='kmsKeyId', type=d.T.string)]),
+  withKmsKeyId(kmsKeyId): { Properties+: { KmsKeyId: kmsKeyId } },
+  '#withPositionFiltering':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html#cfn-location-tracker-positionfiltering', args=[d.arg(name='positionFiltering', type=d.T.string)]),
+  withPositionFiltering(positionFiltering): { Properties+: { PositionFiltering: positionFiltering } },
+  '#withPricingPlan':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html#cfn-location-tracker-pricingplan', args=[d.arg(name='pricingPlan', type=d.T.string)]),
+  withPricingPlan(pricingPlan): { Properties+: { PricingPlan: pricingPlan } },
+  '#withPricingPlanDataSource':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html#cfn-location-tracker-pricingplandatasource', args=[d.arg(name='pricingPlanDataSource', type=d.T.string)]),
+  withPricingPlanDataSource(pricingPlanDataSource): { Properties+: { PricingPlanDataSource: pricingPlanDataSource } },
+  '#withTrackerName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html#cfn-location-tracker-trackername', args=[d.arg(name='trackerName', type=d.T.string)]),
+  withTrackerName(trackerName): { Properties+: { TrackerName: trackerName } },
+}

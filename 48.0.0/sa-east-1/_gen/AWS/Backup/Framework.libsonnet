@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Framework', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Backup::Framework', Properties: { FrameworkControls: if errorOnEmptyProp then (error 'You need to define FrameworkControls properties for AWS::Backup::Framework resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withFrameworkControls':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworkcontrols', args=[d.arg(name='frameworkControls', type=d.T.array)]),
+  withFrameworkControls(frameworkControls): { Properties+: { FrameworkControls: frameworkControls } },
+  '#withFrameworkControlsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworkcontrols', args=[d.arg(name='frameworkControls', type=d.T.array)]),
+  withFrameworkControlsMixin(frameworkControls): { Properties+: { FrameworkControls+: frameworkControls } },
+  '#withFrameworkDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworkdescription', args=[d.arg(name='frameworkDescription', type=d.T.string)]),
+  withFrameworkDescription(frameworkDescription): { Properties+: { FrameworkDescription: frameworkDescription } },
+  '#withFrameworkName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworkname', args=[d.arg(name='frameworkName', type=d.T.string)]),
+  withFrameworkName(frameworkName): { Properties+: { FrameworkName: frameworkName } },
+  '#withFrameworkTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworktags', args=[d.arg(name='frameworkTags', type=d.T.array)]),
+  withFrameworkTags(frameworkTags): { Properties+: { FrameworkTags: frameworkTags } },
+  '#withFrameworkTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-framework.html#cfn-backup-framework-frameworktags', args=[d.arg(name='frameworkTags', type=d.T.array)]),
+  withFrameworkTagsMixin(frameworkTags): { Properties+: { FrameworkTags+: frameworkTags } },
+}
