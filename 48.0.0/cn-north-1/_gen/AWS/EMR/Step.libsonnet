@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Step', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::EMR::Step', Properties: { ActionOnFailure: if errorOnEmptyProp then (error 'You need to define ActionOnFailure properties for AWS::EMR::Step resource') else null, HadoopJarStep: if errorOnEmptyProp then (error 'You need to define HadoopJarStep properties for AWS::EMR::Step resource') else null, JobFlowId: if errorOnEmptyProp then (error 'You need to define JobFlowId properties for AWS::EMR::Step resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::EMR::Step resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withActionOnFailure':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-actiononfailure', args=[d.arg(name='actionOnFailure', type=d.T.string)]),
+  withActionOnFailure(actionOnFailure): { Properties+: { ActionOnFailure: actionOnFailure } },
+  '#withHadoopJarStep':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-hadoopjarstep', args=[d.arg(name='hadoopJarStep', type=d.T.object)]),
+  withHadoopJarStep(hadoopJarStep): { Properties+: { HadoopJarStep: hadoopJarStep } },
+  '#withHadoopJarStepMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-hadoopjarstep', args=[d.arg(name='hadoopJarStep', type=d.T.object)]),
+  withHadoopJarStepMixin(hadoopJarStep): { Properties+: { HadoopJarStep+: hadoopJarStep } },
+  '#withJobFlowId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-jobflowid', args=[d.arg(name='jobFlowId', type=d.T.string)]),
+  withJobFlowId(jobFlowId): { Properties+: { JobFlowId: jobFlowId } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emr-step.html#cfn-elasticmapreduce-step-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+}

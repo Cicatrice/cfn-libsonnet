@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='WebACL', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::WAF::WebACL', Properties: { MetricName: if errorOnEmptyProp then (error 'You need to define MetricName properties for AWS::WAF::WebACL resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::WAF::WebACL resource') else null, DefaultAction: if errorOnEmptyProp then (error 'You need to define DefaultAction properties for AWS::WAF::WebACL resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDefaultAction':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-defaultaction', args=[d.arg(name='defaultAction', type=d.T.object)]),
+  withDefaultAction(defaultAction): { Properties+: { DefaultAction: defaultAction } },
+  '#withDefaultActionMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-defaultaction', args=[d.arg(name='defaultAction', type=d.T.object)]),
+  withDefaultActionMixin(defaultAction): { Properties+: { DefaultAction+: defaultAction } },
+  '#withMetricName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-metricname', args=[d.arg(name='metricName', type=d.T.string)]),
+  withMetricName(metricName): { Properties+: { MetricName: metricName } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withRules':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-rules', args=[d.arg(name='rules', type=d.T.array)]),
+  withRules(rules): { Properties+: { Rules: rules } },
+  '#withRulesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-rules', args=[d.arg(name='rules', type=d.T.array)]),
+  withRulesMixin(rules): { Properties+: { Rules+: rules } },
+}

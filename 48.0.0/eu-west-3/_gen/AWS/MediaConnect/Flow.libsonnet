@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Flow', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::MediaConnect::Flow', Properties: { Source: if errorOnEmptyProp then (error 'You need to define Source properties for AWS::MediaConnect::Flow resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::MediaConnect::Flow resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAvailabilityZone':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-availabilityzone', args=[d.arg(name='availabilityZone', type=d.T.string)]),
+  withAvailabilityZone(availabilityZone): { Properties+: { AvailabilityZone: availabilityZone } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withSource':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-source', args=[d.arg(name='source', type=d.T.object)]),
+  withSource(source): { Properties+: { Source: source } },
+  '#withSourceFailoverConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-sourcefailoverconfig', args=[d.arg(name='sourceFailoverConfig', type=d.T.object)]),
+  withSourceFailoverConfig(sourceFailoverConfig): { Properties+: { SourceFailoverConfig: sourceFailoverConfig } },
+  '#withSourceFailoverConfigMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-sourcefailoverconfig', args=[d.arg(name='sourceFailoverConfig', type=d.T.object)]),
+  withSourceFailoverConfigMixin(sourceFailoverConfig): { Properties+: { SourceFailoverConfig+: sourceFailoverConfig } },
+  '#withSourceMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-source', args=[d.arg(name='source', type=d.T.object)]),
+  withSourceMixin(source): { Properties+: { Source+: source } },
+}
