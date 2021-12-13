@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='CustomMetric', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::CustomMetric', Properties: { MetricType: if errorOnEmptyProp then (error 'You need to define MetricType properties for AWS::IoT::CustomMetric resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDisplayName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html#cfn-iot-custommetric-displayname', args=[d.arg(name='displayName', type=d.T.string)]),
+  withDisplayName(displayName): { Properties+: { DisplayName: displayName } },
+  '#withMetricName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html#cfn-iot-custommetric-metricname', args=[d.arg(name='metricName', type=d.T.string)]),
+  withMetricName(metricName): { Properties+: { MetricName: metricName } },
+  '#withMetricType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html#cfn-iot-custommetric-metrictype', args=[d.arg(name='metricType', type=d.T.string)]),
+  withMetricType(metricType): { Properties+: { MetricType: metricType } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html#cfn-iot-custommetric-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-custommetric.html#cfn-iot-custommetric-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

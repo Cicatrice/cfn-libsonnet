@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='QuickConnect', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Connect::QuickConnect', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Connect::QuickConnect resource') else null, QuickConnectConfig: if errorOnEmptyProp then (error 'You need to define QuickConnectConfig properties for AWS::Connect::QuickConnect resource') else null, InstanceArn: if errorOnEmptyProp then (error 'You need to define InstanceArn properties for AWS::Connect::QuickConnect resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Connect::QuickConnect', Properties: { InstanceArn: if errorOnEmptyProp then (error 'You need to define InstanceArn properties for AWS::Connect::QuickConnect resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Connect::QuickConnect resource') else null, QuickConnectConfig: if errorOnEmptyProp then (error 'You need to define QuickConnectConfig properties for AWS::Connect::QuickConnect resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-quickconnect.html#cfn-connect-quickconnect-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

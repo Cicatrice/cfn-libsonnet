@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Connection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Events::Connection', Properties: { AuthorizationType: if errorOnEmptyProp then (error 'You need to define AuthorizationType properties for AWS::Events::Connection resource') else null, AuthParameters: if errorOnEmptyProp then (error 'You need to define AuthParameters properties for AWS::Events::Connection resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAuthParameters':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-authparameters', args=[d.arg(name='authParameters', type=d.T.object)]),
+  withAuthParameters(authParameters): { Properties+: { AuthParameters: authParameters } },
+  '#withAuthParametersMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-authparameters', args=[d.arg(name='authParameters', type=d.T.object)]),
+  withAuthParametersMixin(authParameters): { Properties+: { AuthParameters+: authParameters } },
+  '#withAuthorizationType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-authorizationtype', args=[d.arg(name='authorizationType', type=d.T.string)]),
+  withAuthorizationType(authorizationType): { Properties+: { AuthorizationType: authorizationType } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+}

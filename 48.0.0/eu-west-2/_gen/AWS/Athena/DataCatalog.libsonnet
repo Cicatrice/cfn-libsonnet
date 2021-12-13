@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DataCatalog', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-datacatalog.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Athena::DataCatalog', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Athena::DataCatalog resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Athena::DataCatalog resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Athena::DataCatalog', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Athena::DataCatalog resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Athena::DataCatalog resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-datacatalog.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-datacatalog.html#cfn-athena-datacatalog-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

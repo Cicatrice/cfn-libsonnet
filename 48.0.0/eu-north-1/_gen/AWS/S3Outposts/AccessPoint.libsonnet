@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='AccessPoint', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::S3Outposts::AccessPoint', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::S3Outposts::AccessPoint resource') else null, VpcConfiguration: if errorOnEmptyProp then (error 'You need to define VpcConfiguration properties for AWS::S3Outposts::AccessPoint resource') else null, Bucket: if errorOnEmptyProp then (error 'You need to define Bucket properties for AWS::S3Outposts::AccessPoint resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::S3Outposts::AccessPoint', Properties: { Bucket: if errorOnEmptyProp then (error 'You need to define Bucket properties for AWS::S3Outposts::AccessPoint resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::S3Outposts::AccessPoint resource') else null, VpcConfiguration: if errorOnEmptyProp then (error 'You need to define VpcConfiguration properties for AWS::S3Outposts::AccessPoint resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBucket':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-accesspoint.html#cfn-s3outposts-accesspoint-bucket', args=[d.arg(name='bucket', type=d.T.string)]),
   withBucket(bucket): { Properties+: { Bucket: bucket } },

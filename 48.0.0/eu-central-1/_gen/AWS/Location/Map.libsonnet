@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Map', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-map.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Location::Map', Properties: { PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::Map resource') else null, Configuration: if errorOnEmptyProp then (error 'You need to define Configuration properties for AWS::Location::Map resource') else null, MapName: if errorOnEmptyProp then (error 'You need to define MapName properties for AWS::Location::Map resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Location::Map', Properties: { MapName: if errorOnEmptyProp then (error 'You need to define MapName properties for AWS::Location::Map resource') else null, PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::Map resource') else null, Configuration: if errorOnEmptyProp then (error 'You need to define Configuration properties for AWS::Location::Map resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-map.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-map.html#cfn-location-map-configuration', args=[d.arg(name='configuration', type=d.T.object)]),
   withConfiguration(configuration): { Properties+: { Configuration: configuration } },

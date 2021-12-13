@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ReportGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-reportgroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CodeBuild::ReportGroup', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::CodeBuild::ReportGroup resource') else null, ExportConfig: if errorOnEmptyProp then (error 'You need to define ExportConfig properties for AWS::CodeBuild::ReportGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CodeBuild::ReportGroup', Properties: { ExportConfig: if errorOnEmptyProp then (error 'You need to define ExportConfig properties for AWS::CodeBuild::ReportGroup resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::CodeBuild::ReportGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-reportgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDeleteReports':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codebuild-reportgroup.html#cfn-codebuild-reportgroup-deletereports', args=[d.arg(name='deleteReports', type=d.T.bool)]),
   withDeleteReports(deleteReports): { Properties+: { DeleteReports: deleteReports } },

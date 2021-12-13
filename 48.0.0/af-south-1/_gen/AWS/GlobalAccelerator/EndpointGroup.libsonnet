@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='EndpointGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-endpointgroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::GlobalAccelerator::EndpointGroup', Properties: { EndpointGroupRegion: if errorOnEmptyProp then (error 'You need to define EndpointGroupRegion properties for AWS::GlobalAccelerator::EndpointGroup resource') else null, ListenerArn: if errorOnEmptyProp then (error 'You need to define ListenerArn properties for AWS::GlobalAccelerator::EndpointGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::GlobalAccelerator::EndpointGroup', Properties: { ListenerArn: if errorOnEmptyProp then (error 'You need to define ListenerArn properties for AWS::GlobalAccelerator::EndpointGroup resource') else null, EndpointGroupRegion: if errorOnEmptyProp then (error 'You need to define EndpointGroupRegion properties for AWS::GlobalAccelerator::EndpointGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-endpointgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withEndpointConfigurations':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-endpointgroup.html#cfn-globalaccelerator-endpointgroup-endpointconfigurations', args=[d.arg(name='endpointConfigurations', type=d.T.array)]),
   withEndpointConfigurations(endpointConfigurations): { Properties+: { EndpointConfigurations: endpointConfigurations } },

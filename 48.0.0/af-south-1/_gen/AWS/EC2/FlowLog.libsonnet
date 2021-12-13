@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='FlowLog', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-flowlog.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::FlowLog', Properties: { ResourceType: if errorOnEmptyProp then (error 'You need to define ResourceType properties for AWS::EC2::FlowLog resource') else null, ResourceId: if errorOnEmptyProp then (error 'You need to define ResourceId properties for AWS::EC2::FlowLog resource') else null, TrafficType: if errorOnEmptyProp then (error 'You need to define TrafficType properties for AWS::EC2::FlowLog resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::FlowLog', Properties: { TrafficType: if errorOnEmptyProp then (error 'You need to define TrafficType properties for AWS::EC2::FlowLog resource') else null, ResourceType: if errorOnEmptyProp then (error 'You need to define ResourceType properties for AWS::EC2::FlowLog resource') else null, ResourceId: if errorOnEmptyProp then (error 'You need to define ResourceId properties for AWS::EC2::FlowLog resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-flowlog.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDeliverLogsPermissionArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-flowlog.html#cfn-ec2-flowlog-deliverlogspermissionarn', args=[d.arg(name='deliverLogsPermissionArn', type=d.T.string)]),
   withDeliverLogsPermissionArn(deliverLogsPermissionArn): { Properties+: { DeliverLogsPermissionArn: deliverLogsPermissionArn } },

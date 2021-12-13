@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Bucket', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::S3Outposts::Bucket', Properties: { BucketName: if errorOnEmptyProp then (error 'You need to define BucketName properties for AWS::S3Outposts::Bucket resource') else null, OutpostId: if errorOnEmptyProp then (error 'You need to define OutpostId properties for AWS::S3Outposts::Bucket resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::S3Outposts::Bucket', Properties: { OutpostId: if errorOnEmptyProp then (error 'You need to define OutpostId properties for AWS::S3Outposts::Bucket resource') else null, BucketName: if errorOnEmptyProp then (error 'You need to define BucketName properties for AWS::S3Outposts::Bucket resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBucketName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html#cfn-s3outposts-bucket-bucketname', args=[d.arg(name='bucketName', type=d.T.string)]),
   withBucketName(bucketName): { Properties+: { BucketName: bucketName } },

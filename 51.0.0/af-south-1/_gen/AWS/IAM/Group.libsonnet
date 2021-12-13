@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Group', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::IAM::Group', Properties: {} },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withGroupName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-groupname', args=[d.arg(name='groupName', type=d.T.string)]),
+  withGroupName(groupName): { Properties+: { GroupName: groupName } },
+  '#withManagedPolicyArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-managepolicyarns', args=[d.arg(name='managedPolicyArns', type=d.T.array)]),
+  withManagedPolicyArns(managedPolicyArns): { Properties+: { ManagedPolicyArns: managedPolicyArns } },
+  '#withManagedPolicyArnsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-managepolicyarns', args=[d.arg(name='managedPolicyArns', type=d.T.array)]),
+  withManagedPolicyArnsMixin(managedPolicyArns): { Properties+: { ManagedPolicyArns+: managedPolicyArns } },
+  '#withPath':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-path', args=[d.arg(name='path', type=d.T.string)]),
+  withPath(path): { Properties+: { Path: path } },
+  '#withPolicies':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-policies', args=[d.arg(name='policies', type=d.T.array)]),
+  withPolicies(policies): { Properties+: { Policies: policies } },
+  '#withPoliciesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-iam-group.html#cfn-iam-group-policies', args=[d.arg(name='policies', type=d.T.array)]),
+  withPoliciesMixin(policies): { Properties+: { Policies+: policies } },
+}

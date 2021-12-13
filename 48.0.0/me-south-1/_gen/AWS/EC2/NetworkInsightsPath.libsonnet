@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='NetworkInsightsPath', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightspath.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::NetworkInsightsPath', Properties: { Protocol: if errorOnEmptyProp then (error 'You need to define Protocol properties for AWS::EC2::NetworkInsightsPath resource') else null, Source: if errorOnEmptyProp then (error 'You need to define Source properties for AWS::EC2::NetworkInsightsPath resource') else null, Destination: if errorOnEmptyProp then (error 'You need to define Destination properties for AWS::EC2::NetworkInsightsPath resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::NetworkInsightsPath', Properties: { Destination: if errorOnEmptyProp then (error 'You need to define Destination properties for AWS::EC2::NetworkInsightsPath resource') else null, Protocol: if errorOnEmptyProp then (error 'You need to define Protocol properties for AWS::EC2::NetworkInsightsPath resource') else null, Source: if errorOnEmptyProp then (error 'You need to define Source properties for AWS::EC2::NetworkInsightsPath resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightspath.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDestination':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-networkinsightspath.html#cfn-ec2-networkinsightspath-destination', args=[d.arg(name='destination', type=d.T.string)]),
   withDestination(destination): { Properties+: { Destination: destination } },

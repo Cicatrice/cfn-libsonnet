@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Pipeline', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTAnalytics::Pipeline', Properties: { PipelineName: if errorOnEmptyProp then (error 'You need to define PipelineName properties for AWS::IoTAnalytics::Pipeline resource') else null, PipelineActivities: if errorOnEmptyProp then (error 'You need to define PipelineActivities properties for AWS::IoTAnalytics::Pipeline resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withPipelineActivities':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html#cfn-iotanalytics-pipeline-pipelineactivities', args=[d.arg(name='pipelineActivities', type=d.T.array)]),
+  withPipelineActivities(pipelineActivities): { Properties+: { PipelineActivities: pipelineActivities } },
+  '#withPipelineActivitiesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html#cfn-iotanalytics-pipeline-pipelineactivities', args=[d.arg(name='pipelineActivities', type=d.T.array)]),
+  withPipelineActivitiesMixin(pipelineActivities): { Properties+: { PipelineActivities+: pipelineActivities } },
+  '#withPipelineName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html#cfn-iotanalytics-pipeline-pipelinename', args=[d.arg(name='pipelineName', type=d.T.string)]),
+  withPipelineName(pipelineName): { Properties+: { PipelineName: pipelineName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html#cfn-iotanalytics-pipeline-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotanalytics-pipeline.html#cfn-iotanalytics-pipeline-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

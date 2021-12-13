@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='VPCPeeringConnection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPCPeeringConnection', Properties: { VpcId: if errorOnEmptyProp then (error 'You need to define VpcId properties for AWS::EC2::VPCPeeringConnection resource') else null, PeerVpcId: if errorOnEmptyProp then (error 'You need to define PeerVpcId properties for AWS::EC2::VPCPeeringConnection resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPCPeeringConnection', Properties: { PeerVpcId: if errorOnEmptyProp then (error 'You need to define PeerVpcId properties for AWS::EC2::VPCPeeringConnection resource') else null, VpcId: if errorOnEmptyProp then (error 'You need to define VpcId properties for AWS::EC2::VPCPeeringConnection resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withPeerOwnerId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcpeeringconnection.html#cfn-ec2-vpcpeeringconnection-peerownerid', args=[d.arg(name='peerOwnerId', type=d.T.string)]),
   withPeerOwnerId(peerOwnerId): { Properties+: { PeerOwnerId: peerOwnerId } },

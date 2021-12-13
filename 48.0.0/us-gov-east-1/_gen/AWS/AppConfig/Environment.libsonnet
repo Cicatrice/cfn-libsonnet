@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Environment', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-environment.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppConfig::Environment', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppConfig::Environment resource') else null, ApplicationId: if errorOnEmptyProp then (error 'You need to define ApplicationId properties for AWS::AppConfig::Environment resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppConfig::Environment', Properties: { ApplicationId: if errorOnEmptyProp then (error 'You need to define ApplicationId properties for AWS::AppConfig::Environment resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppConfig::Environment resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-environment.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApplicationId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appconfig-environment.html#cfn-appconfig-environment-applicationid', args=[d.arg(name='applicationId', type=d.T.string)]),
   withApplicationId(applicationId): { Properties+: { ApplicationId: applicationId } },

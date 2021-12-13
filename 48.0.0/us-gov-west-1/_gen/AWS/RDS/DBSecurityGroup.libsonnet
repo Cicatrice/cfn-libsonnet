@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DBSecurityGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::DBSecurityGroup', Properties: { GroupDescription: if errorOnEmptyProp then (error 'You need to define GroupDescription properties for AWS::RDS::DBSecurityGroup resource') else null, DBSecurityGroupIngress: if errorOnEmptyProp then (error 'You need to define DBSecurityGroupIngress properties for AWS::RDS::DBSecurityGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::DBSecurityGroup', Properties: { DBSecurityGroupIngress: if errorOnEmptyProp then (error 'You need to define DBSecurityGroupIngress properties for AWS::RDS::DBSecurityGroup resource') else null, GroupDescription: if errorOnEmptyProp then (error 'You need to define GroupDescription properties for AWS::RDS::DBSecurityGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDBSecurityGroupIngress':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-dbsecuritygroupingress', args=[d.arg(name='dbsecurityGroupIngress', type=d.T.array)]),
   withDBSecurityGroupIngress(dbsecurityGroupIngress): { Properties+: { DBSecurityGroupIngress: dbsecurityGroupIngress } },

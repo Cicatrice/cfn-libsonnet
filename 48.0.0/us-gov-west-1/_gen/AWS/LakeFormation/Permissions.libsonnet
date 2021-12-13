@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Permissions', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::LakeFormation::Permissions', Properties: { DataLakePrincipal: if errorOnEmptyProp then (error 'You need to define DataLakePrincipal properties for AWS::LakeFormation::Permissions resource') else null, Resource: if errorOnEmptyProp then (error 'You need to define Resource properties for AWS::LakeFormation::Permissions resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::LakeFormation::Permissions', Properties: { Resource: if errorOnEmptyProp then (error 'You need to define Resource properties for AWS::LakeFormation::Permissions resource') else null, DataLakePrincipal: if errorOnEmptyProp then (error 'You need to define DataLakePrincipal properties for AWS::LakeFormation::Permissions resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDataLakePrincipal':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lakeformation-permissions.html#cfn-lakeformation-permissions-datalakeprincipal', args=[d.arg(name='dataLakePrincipal', type=d.T.object)]),
   withDataLakePrincipal(dataLakePrincipal): { Properties+: { DataLakePrincipal: dataLakePrincipal } },

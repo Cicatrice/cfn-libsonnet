@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Stage', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Stage', Properties: { ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Stage resource') else null, StageName: if errorOnEmptyProp then (error 'You need to define StageName properties for AWS::ApiGatewayV2::Stage resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Stage', Properties: { StageName: if errorOnEmptyProp then (error 'You need to define StageName properties for AWS::ApiGatewayV2::Stage resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Stage resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAccessLogSettings':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-stage.html#cfn-apigatewayv2-stage-accesslogsettings', args=[d.arg(name='accessLogSettings', type=d.T.object)]),
   withAccessLogSettings(accessLogSettings): { Properties+: { AccessLogSettings: accessLogSettings } },

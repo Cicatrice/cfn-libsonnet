@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Nodegroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::Nodegroup', Properties: { ClusterName: if errorOnEmptyProp then (error 'You need to define ClusterName properties for AWS::EKS::Nodegroup resource') else null, Subnets: if errorOnEmptyProp then (error 'You need to define Subnets properties for AWS::EKS::Nodegroup resource') else null, NodeRole: if errorOnEmptyProp then (error 'You need to define NodeRole properties for AWS::EKS::Nodegroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::Nodegroup', Properties: { NodeRole: if errorOnEmptyProp then (error 'You need to define NodeRole properties for AWS::EKS::Nodegroup resource') else null, ClusterName: if errorOnEmptyProp then (error 'You need to define ClusterName properties for AWS::EKS::Nodegroup resource') else null, Subnets: if errorOnEmptyProp then (error 'You need to define Subnets properties for AWS::EKS::Nodegroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAmiType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-nodegroup.html#cfn-eks-nodegroup-amitype', args=[d.arg(name='amiType', type=d.T.string)]),
   withAmiType(amiType): { Properties+: { AmiType: amiType } },

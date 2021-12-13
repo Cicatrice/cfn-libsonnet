@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='PlaceIndex', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Location::PlaceIndex', Properties: { IndexName: if errorOnEmptyProp then (error 'You need to define IndexName properties for AWS::Location::PlaceIndex resource') else null, PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::PlaceIndex resource') else null, DataSource: if errorOnEmptyProp then (error 'You need to define DataSource properties for AWS::Location::PlaceIndex resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Location::PlaceIndex', Properties: { PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::PlaceIndex resource') else null, DataSource: if errorOnEmptyProp then (error 'You need to define DataSource properties for AWS::Location::PlaceIndex resource') else null, IndexName: if errorOnEmptyProp then (error 'You need to define IndexName properties for AWS::Location::PlaceIndex resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDataSource':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-datasource', args=[d.arg(name='dataSource', type=d.T.string)]),
   withDataSource(dataSource): { Properties+: { DataSource: dataSource } },

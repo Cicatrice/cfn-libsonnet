@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Trigger', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-trigger.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Trigger', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Glue::Trigger resource') else null, Actions: if errorOnEmptyProp then (error 'You need to define Actions properties for AWS::Glue::Trigger resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Trigger', Properties: { Actions: if errorOnEmptyProp then (error 'You need to define Actions properties for AWS::Glue::Trigger resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Glue::Trigger resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-trigger.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withActions':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-trigger.html#cfn-glue-trigger-actions', args=[d.arg(name='actions', type=d.T.array)]),
   withActions(actions): { Properties+: { Actions: actions } },

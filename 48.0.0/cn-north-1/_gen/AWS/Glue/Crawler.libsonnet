@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Crawler', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Crawler', Properties: { Targets: if errorOnEmptyProp then (error 'You need to define Targets properties for AWS::Glue::Crawler resource') else null, Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Glue::Crawler resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Crawler', Properties: { Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Glue::Crawler resource') else null, Targets: if errorOnEmptyProp then (error 'You need to define Targets properties for AWS::Glue::Crawler resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withClassifiers':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-crawler.html#cfn-glue-crawler-classifiers', args=[d.arg(name='classifiers', type=d.T.array)]),
   withClassifiers(classifiers): { Properties+: { Classifiers: classifiers } },

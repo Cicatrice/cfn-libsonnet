@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Task', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DataSync::Task', Properties: { DestinationLocationArn: if errorOnEmptyProp then (error 'You need to define DestinationLocationArn properties for AWS::DataSync::Task resource') else null, SourceLocationArn: if errorOnEmptyProp then (error 'You need to define SourceLocationArn properties for AWS::DataSync::Task resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DataSync::Task', Properties: { SourceLocationArn: if errorOnEmptyProp then (error 'You need to define SourceLocationArn properties for AWS::DataSync::Task resource') else null, DestinationLocationArn: if errorOnEmptyProp then (error 'You need to define DestinationLocationArn properties for AWS::DataSync::Task resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCloudWatchLogGroupArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-task.html#cfn-datasync-task-cloudwatchloggrouparn', args=[d.arg(name='cloudWatchLogGroupArn', type=d.T.string)]),
   withCloudWatchLogGroupArn(cloudWatchLogGroupArn): { Properties+: { CloudWatchLogGroupArn: cloudWatchLogGroupArn } },

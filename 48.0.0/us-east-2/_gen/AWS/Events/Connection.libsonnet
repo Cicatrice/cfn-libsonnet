@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Connection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Events::Connection', Properties: { AuthorizationType: if errorOnEmptyProp then (error 'You need to define AuthorizationType properties for AWS::Events::Connection resource') else null, AuthParameters: if errorOnEmptyProp then (error 'You need to define AuthParameters properties for AWS::Events::Connection resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Events::Connection', Properties: { AuthParameters: if errorOnEmptyProp then (error 'You need to define AuthParameters properties for AWS::Events::Connection resource') else null, AuthorizationType: if errorOnEmptyProp then (error 'You need to define AuthorizationType properties for AWS::Events::Connection resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAuthParameters':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-connection.html#cfn-events-connection-authparameters', args=[d.arg(name='authParameters', type=d.T.object)]),
   withAuthParameters(authParameters): { Properties+: { AuthParameters: authParameters } },

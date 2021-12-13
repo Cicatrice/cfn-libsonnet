@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DBSubnetGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbsubnetgroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Neptune::DBSubnetGroup', Properties: { SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::Neptune::DBSubnetGroup resource') else null, DBSubnetGroupDescription: if errorOnEmptyProp then (error 'You need to define DBSubnetGroupDescription properties for AWS::Neptune::DBSubnetGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Neptune::DBSubnetGroup', Properties: { DBSubnetGroupDescription: if errorOnEmptyProp then (error 'You need to define DBSubnetGroupDescription properties for AWS::Neptune::DBSubnetGroup resource') else null, SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::Neptune::DBSubnetGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbsubnetgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDBSubnetGroupDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-neptune-dbsubnetgroup.html#cfn-neptune-dbsubnetgroup-dbsubnetgroupdescription', args=[d.arg(name='dbsubnetGroupDescription', type=d.T.string)]),
   withDBSubnetGroupDescription(dbsubnetGroupDescription): { Properties+: { DBSubnetGroupDescription: dbsubnetGroupDescription } },

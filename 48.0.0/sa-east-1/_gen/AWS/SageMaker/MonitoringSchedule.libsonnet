@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='MonitoringSchedule', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::MonitoringSchedule', Properties: { MonitoringScheduleName: if errorOnEmptyProp then (error 'You need to define MonitoringScheduleName properties for AWS::SageMaker::MonitoringSchedule resource') else null, MonitoringScheduleConfig: if errorOnEmptyProp then (error 'You need to define MonitoringScheduleConfig properties for AWS::SageMaker::MonitoringSchedule resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::MonitoringSchedule', Properties: { MonitoringScheduleConfig: if errorOnEmptyProp then (error 'You need to define MonitoringScheduleConfig properties for AWS::SageMaker::MonitoringSchedule resource') else null, MonitoringScheduleName: if errorOnEmptyProp then (error 'You need to define MonitoringScheduleName properties for AWS::SageMaker::MonitoringSchedule resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withEndpointName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-monitoringschedule.html#cfn-sagemaker-monitoringschedule-endpointname', args=[d.arg(name='endpointName', type=d.T.string)]),
   withEndpointName(endpointName): { Properties+: { EndpointName: endpointName } },

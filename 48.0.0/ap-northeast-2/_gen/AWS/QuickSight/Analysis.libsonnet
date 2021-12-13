@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Analysis', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Analysis', Properties: { AnalysisId: if errorOnEmptyProp then (error 'You need to define AnalysisId properties for AWS::QuickSight::Analysis resource') else null, SourceEntity: if errorOnEmptyProp then (error 'You need to define SourceEntity properties for AWS::QuickSight::Analysis resource') else null, AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Analysis resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Analysis', Properties: { AnalysisId: if errorOnEmptyProp then (error 'You need to define AnalysisId properties for AWS::QuickSight::Analysis resource') else null, AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Analysis resource') else null, SourceEntity: if errorOnEmptyProp then (error 'You need to define SourceEntity properties for AWS::QuickSight::Analysis resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAnalysisId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-analysis.html#cfn-quicksight-analysis-analysisid', args=[d.arg(name='analysisId', type=d.T.string)]),
   withAnalysisId(analysisId): { Properties+: { AnalysisId: analysisId } },

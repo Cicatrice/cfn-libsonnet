@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Bucket', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::S3Outposts::Bucket', Properties: { BucketName: if errorOnEmptyProp then (error 'You need to define BucketName properties for AWS::S3Outposts::Bucket resource') else null, OutpostId: if errorOnEmptyProp then (error 'You need to define OutpostId properties for AWS::S3Outposts::Bucket resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withBucketName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html#cfn-s3outposts-bucket-bucketname', args=[d.arg(name='bucketName', type=d.T.string)]),
+  withBucketName(bucketName): { Properties+: { BucketName: bucketName } },
+  '#withLifecycleConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html#cfn-s3outposts-bucket-lifecycleconfiguration', args=[d.arg(name='lifecycleConfiguration', type=d.T.object)]),
+  withLifecycleConfiguration(lifecycleConfiguration): { Properties+: { LifecycleConfiguration: lifecycleConfiguration } },
+  '#withLifecycleConfigurationMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html#cfn-s3outposts-bucket-lifecycleconfiguration', args=[d.arg(name='lifecycleConfiguration', type=d.T.object)]),
+  withLifecycleConfigurationMixin(lifecycleConfiguration): { Properties+: { LifecycleConfiguration+: lifecycleConfiguration } },
+  '#withOutpostId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html#cfn-s3outposts-bucket-outpostid', args=[d.arg(name='outpostId', type=d.T.string)]),
+  withOutpostId(outpostId): { Properties+: { OutpostId: outpostId } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html#cfn-s3outposts-bucket-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-bucket.html#cfn-s3outposts-bucket-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='AnomalyDetector', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::LookoutMetrics::AnomalyDetector', Properties: { AnomalyDetectorConfig: if errorOnEmptyProp then (error 'You need to define AnomalyDetectorConfig properties for AWS::LookoutMetrics::AnomalyDetector resource') else null, MetricSetList: if errorOnEmptyProp then (error 'You need to define MetricSetList properties for AWS::LookoutMetrics::AnomalyDetector resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::LookoutMetrics::AnomalyDetector', Properties: { MetricSetList: if errorOnEmptyProp then (error 'You need to define MetricSetList properties for AWS::LookoutMetrics::AnomalyDetector resource') else null, AnomalyDetectorConfig: if errorOnEmptyProp then (error 'You need to define AnomalyDetectorConfig properties for AWS::LookoutMetrics::AnomalyDetector resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAnomalyDetectorConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lookoutmetrics-anomalydetector.html#cfn-lookoutmetrics-anomalydetector-anomalydetectorconfig', args=[d.arg(name='anomalyDetectorConfig', type=d.T.object)]),
   withAnomalyDetectorConfig(anomalyDetectorConfig): { Properties+: { AnomalyDetectorConfig: anomalyDetectorConfig } },

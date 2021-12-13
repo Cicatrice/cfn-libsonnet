@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Host', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-host.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::Host', Properties: { AvailabilityZone: if errorOnEmptyProp then (error 'You need to define AvailabilityZone properties for AWS::EC2::Host resource') else null, InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::EC2::Host resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::Host', Properties: { InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::EC2::Host resource') else null, AvailabilityZone: if errorOnEmptyProp then (error 'You need to define AvailabilityZone properties for AWS::EC2::Host resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-host.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAutoPlacement':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-host.html#cfn-ec2-host-autoplacement', args=[d.arg(name='autoPlacement', type=d.T.string)]),
   withAutoPlacement(autoPlacement): { Properties+: { AutoPlacement: autoPlacement } },

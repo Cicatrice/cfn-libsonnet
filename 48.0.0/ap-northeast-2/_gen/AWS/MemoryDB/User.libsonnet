@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='User', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::MemoryDB::User', Properties: { UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::MemoryDB::User resource') else null, AccessString: if errorOnEmptyProp then (error 'You need to define AccessString properties for AWS::MemoryDB::User resource') else null, AuthenticationMode: if errorOnEmptyProp then (error 'You need to define AuthenticationMode properties for AWS::MemoryDB::User resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::MemoryDB::User', Properties: { AccessString: if errorOnEmptyProp then (error 'You need to define AccessString properties for AWS::MemoryDB::User resource') else null, AuthenticationMode: if errorOnEmptyProp then (error 'You need to define AuthenticationMode properties for AWS::MemoryDB::User resource') else null, UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::MemoryDB::User resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAccessString':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html#cfn-memorydb-user-accessstring', args=[d.arg(name='accessString', type=d.T.string)]),
   withAccessString(accessString): { Properties+: { AccessString: accessString } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ImagePipeline', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::ImagePipeline', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::ImagePipeline resource') else null, InfrastructureConfigurationArn: if errorOnEmptyProp then (error 'You need to define InfrastructureConfigurationArn properties for AWS::ImageBuilder::ImagePipeline resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::ImagePipeline', Properties: { InfrastructureConfigurationArn: if errorOnEmptyProp then (error 'You need to define InfrastructureConfigurationArn properties for AWS::ImageBuilder::ImagePipeline resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::ImagePipeline resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withContainerRecipeArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-imagepipeline.html#cfn-imagebuilder-imagepipeline-containerrecipearn', args=[d.arg(name='containerRecipeArn', type=d.T.string)]),
   withContainerRecipeArn(containerRecipeArn): { Properties+: { ContainerRecipeArn: containerRecipeArn } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DBProxyTargetGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::DBProxyTargetGroup', Properties: { TargetGroupName: if errorOnEmptyProp then (error 'You need to define TargetGroupName properties for AWS::RDS::DBProxyTargetGroup resource') else null, DBProxyName: if errorOnEmptyProp then (error 'You need to define DBProxyName properties for AWS::RDS::DBProxyTargetGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::DBProxyTargetGroup', Properties: { DBProxyName: if errorOnEmptyProp then (error 'You need to define DBProxyName properties for AWS::RDS::DBProxyTargetGroup resource') else null, TargetGroupName: if errorOnEmptyProp then (error 'You need to define TargetGroupName properties for AWS::RDS::DBProxyTargetGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withConnectionPoolConfigurationInfo':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-dbproxytargetgroup.html#cfn-rds-dbproxytargetgroup-connectionpoolconfigurationinfo', args=[d.arg(name='connectionPoolConfigurationInfo', type=d.T.object)]),
   withConnectionPoolConfigurationInfo(connectionPoolConfigurationInfo): { Properties+: { ConnectionPoolConfigurationInfo: connectionPoolConfigurationInfo } },

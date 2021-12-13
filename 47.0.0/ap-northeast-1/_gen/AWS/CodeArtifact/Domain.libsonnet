@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Domain', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::CodeArtifact::Domain', Properties: { DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::CodeArtifact::Domain resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDomainName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-domainname', args=[d.arg(name='domainName', type=d.T.string)]),
+  withDomainName(domainName): { Properties+: { DomainName: domainName } },
+  '#withEncryptionKey':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-encryptionkey', args=[d.arg(name='encryptionKey', type=d.T.string)]),
+  withEncryptionKey(encryptionKey): { Properties+: { EncryptionKey: encryptionKey } },
+  '#withPermissionsPolicyDocument':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-permissionspolicydocument', args=[d.arg(name='permissionsPolicyDocument', type=d.T.object)]),
+  withPermissionsPolicyDocument(permissionsPolicyDocument): { Properties+: { PermissionsPolicyDocument: permissionsPolicyDocument } },
+  '#withPermissionsPolicyDocumentMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-permissionspolicydocument', args=[d.arg(name='permissionsPolicyDocument', type=d.T.object)]),
+  withPermissionsPolicyDocumentMixin(permissionsPolicyDocument): { Properties+: { PermissionsPolicyDocument+: permissionsPolicyDocument } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-domain.html#cfn-codeartifact-domain-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

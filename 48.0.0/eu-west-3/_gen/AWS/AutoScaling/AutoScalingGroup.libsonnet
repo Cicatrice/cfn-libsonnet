@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='AutoScalingGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AutoScaling::AutoScalingGroup', Properties: { MinSize: if errorOnEmptyProp then (error 'You need to define MinSize properties for AWS::AutoScaling::AutoScalingGroup resource') else null, MaxSize: if errorOnEmptyProp then (error 'You need to define MaxSize properties for AWS::AutoScaling::AutoScalingGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AutoScaling::AutoScalingGroup', Properties: { MaxSize: if errorOnEmptyProp then (error 'You need to define MaxSize properties for AWS::AutoScaling::AutoScalingGroup resource') else null, MinSize: if errorOnEmptyProp then (error 'You need to define MinSize properties for AWS::AutoScaling::AutoScalingGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAutoScalingGroupName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-group.html#cfn-autoscaling-autoscalinggroup-autoscalinggroupname', args=[d.arg(name='autoScalingGroupName', type=d.T.string)]),
   withAutoScalingGroupName(autoScalingGroupName): { Properties+: { AutoScalingGroupName: autoScalingGroupName } },

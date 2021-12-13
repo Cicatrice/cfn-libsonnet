@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='EventInvokeConfig', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventinvokeconfig.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Lambda::EventInvokeConfig', Properties: { Qualifier: if errorOnEmptyProp then (error 'You need to define Qualifier properties for AWS::Lambda::EventInvokeConfig resource') else null, FunctionName: if errorOnEmptyProp then (error 'You need to define FunctionName properties for AWS::Lambda::EventInvokeConfig resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Lambda::EventInvokeConfig', Properties: { FunctionName: if errorOnEmptyProp then (error 'You need to define FunctionName properties for AWS::Lambda::EventInvokeConfig resource') else null, Qualifier: if errorOnEmptyProp then (error 'You need to define Qualifier properties for AWS::Lambda::EventInvokeConfig resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventinvokeconfig.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDestinationConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-eventinvokeconfig.html#cfn-lambda-eventinvokeconfig-destinationconfig', args=[d.arg(name='destinationConfig', type=d.T.object)]),
   withDestinationConfig(destinationConfig): { Properties+: { DestinationConfig: destinationConfig } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='CustomerGateway', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customer-gateway.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::CustomerGateway', Properties: { IpAddress: if errorOnEmptyProp then (error 'You need to define IpAddress properties for AWS::EC2::CustomerGateway resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::EC2::CustomerGateway resource') else null, BgpAsn: if errorOnEmptyProp then (error 'You need to define BgpAsn properties for AWS::EC2::CustomerGateway resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::CustomerGateway', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::EC2::CustomerGateway resource') else null, BgpAsn: if errorOnEmptyProp then (error 'You need to define BgpAsn properties for AWS::EC2::CustomerGateway resource') else null, IpAddress: if errorOnEmptyProp then (error 'You need to define IpAddress properties for AWS::EC2::CustomerGateway resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customer-gateway.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBgpAsn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customer-gateway.html#cfn-ec2-customergateway-bgpasn', args=[d.arg(name='bgpAsn', type=d.T.number)]),
   withBgpAsn(bgpAsn): { Properties+: { BgpAsn: bgpAsn } },

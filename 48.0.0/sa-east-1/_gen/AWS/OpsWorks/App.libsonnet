@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='App', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::OpsWorks::App', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::OpsWorks::App resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::OpsWorks::App resource') else null, StackId: if errorOnEmptyProp then (error 'You need to define StackId properties for AWS::OpsWorks::App resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::OpsWorks::App', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::OpsWorks::App resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::OpsWorks::App resource') else null, StackId: if errorOnEmptyProp then (error 'You need to define StackId properties for AWS::OpsWorks::App resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAppSource':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-app.html#cfn-opsworks-app-appsource', args=[d.arg(name='appSource', type=d.T.object)]),
   withAppSource(appSource): { Properties+: { AppSource: appSource } },

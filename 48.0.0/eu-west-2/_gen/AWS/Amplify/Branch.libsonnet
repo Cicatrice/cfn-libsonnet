@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Branch', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Amplify::Branch', Properties: { BranchName: if errorOnEmptyProp then (error 'You need to define BranchName properties for AWS::Amplify::Branch resource') else null, AppId: if errorOnEmptyProp then (error 'You need to define AppId properties for AWS::Amplify::Branch resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Amplify::Branch', Properties: { AppId: if errorOnEmptyProp then (error 'You need to define AppId properties for AWS::Amplify::Branch resource') else null, BranchName: if errorOnEmptyProp then (error 'You need to define BranchName properties for AWS::Amplify::Branch resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAppId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-branch.html#cfn-amplify-branch-appid', args=[d.arg(name='appId', type=d.T.string)]),
   withAppId(appId): { Properties+: { AppId: appId } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Method', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGateway::Method', Properties: { ResourceId: if errorOnEmptyProp then (error 'You need to define ResourceId properties for AWS::ApiGateway::Method resource') else null, HttpMethod: if errorOnEmptyProp then (error 'You need to define HttpMethod properties for AWS::ApiGateway::Method resource') else null, RestApiId: if errorOnEmptyProp then (error 'You need to define RestApiId properties for AWS::ApiGateway::Method resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGateway::Method', Properties: { ResourceId: if errorOnEmptyProp then (error 'You need to define ResourceId properties for AWS::ApiGateway::Method resource') else null, RestApiId: if errorOnEmptyProp then (error 'You need to define RestApiId properties for AWS::ApiGateway::Method resource') else null, HttpMethod: if errorOnEmptyProp then (error 'You need to define HttpMethod properties for AWS::ApiGateway::Method resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApiKeyRequired':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-method.html#cfn-apigateway-method-apikeyrequired', args=[d.arg(name='apiKeyRequired', type=d.T.bool)]),
   withApiKeyRequired(apiKeyRequired): { Properties+: { ApiKeyRequired: apiKeyRequired } },

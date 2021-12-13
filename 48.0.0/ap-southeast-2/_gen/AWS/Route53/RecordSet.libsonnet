@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='RecordSet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Route53::RecordSet', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Route53::RecordSet resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Route53::RecordSet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Route53::RecordSet', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Route53::RecordSet resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Route53::RecordSet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAliasTarget':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-route53-recordset.html#cfn-route53-recordset-aliastarget', args=[d.arg(name='aliasTarget', type=d.T.object)]),
   withAliasTarget(aliasTarget): { Properties+: { AliasTarget: aliasTarget } },

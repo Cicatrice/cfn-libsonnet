@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='WebACL', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::WAFv2::WebACL', Properties: { Scope: if errorOnEmptyProp then (error 'You need to define Scope properties for AWS::WAFv2::WebACL resource') else null, VisibilityConfig: if errorOnEmptyProp then (error 'You need to define VisibilityConfig properties for AWS::WAFv2::WebACL resource') else null, DefaultAction: if errorOnEmptyProp then (error 'You need to define DefaultAction properties for AWS::WAFv2::WebACL resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::WAFv2::WebACL', Properties: { VisibilityConfig: if errorOnEmptyProp then (error 'You need to define VisibilityConfig properties for AWS::WAFv2::WebACL resource') else null, DefaultAction: if errorOnEmptyProp then (error 'You need to define DefaultAction properties for AWS::WAFv2::WebACL resource') else null, Scope: if errorOnEmptyProp then (error 'You need to define Scope properties for AWS::WAFv2::WebACL resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCustomResponseBodies':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-webacl.html#cfn-wafv2-webacl-customresponsebodies', args=[d.arg(name='customResponseBodies', type=d.T.object)]),
   withCustomResponseBodies(customResponseBodies): { Properties+: { CustomResponseBodies: customResponseBodies } },

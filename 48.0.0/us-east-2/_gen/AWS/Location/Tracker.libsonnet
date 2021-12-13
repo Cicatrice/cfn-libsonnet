@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Tracker', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Location::Tracker', Properties: { TrackerName: if errorOnEmptyProp then (error 'You need to define TrackerName properties for AWS::Location::Tracker resource') else null, PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::Tracker resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Location::Tracker', Properties: { PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::Tracker resource') else null, TrackerName: if errorOnEmptyProp then (error 'You need to define TrackerName properties for AWS::Location::Tracker resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-tracker.html#cfn-location-tracker-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

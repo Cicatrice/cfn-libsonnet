@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ScheduledAudit', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::ScheduledAudit', Properties: { TargetCheckNames: if errorOnEmptyProp then (error 'You need to define TargetCheckNames properties for AWS::IoT::ScheduledAudit resource') else null, Frequency: if errorOnEmptyProp then (error 'You need to define Frequency properties for AWS::IoT::ScheduledAudit resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::ScheduledAudit', Properties: { Frequency: if errorOnEmptyProp then (error 'You need to define Frequency properties for AWS::IoT::ScheduledAudit resource') else null, TargetCheckNames: if errorOnEmptyProp then (error 'You need to define TargetCheckNames properties for AWS::IoT::ScheduledAudit resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDayOfMonth':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-scheduledaudit.html#cfn-iot-scheduledaudit-dayofmonth', args=[d.arg(name='dayOfMonth', type=d.T.string)]),
   withDayOfMonth(dayOfMonth): { Properties+: { DayOfMonth: dayOfMonth } },

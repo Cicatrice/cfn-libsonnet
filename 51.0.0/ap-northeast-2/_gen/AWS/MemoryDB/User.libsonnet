@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='User', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::MemoryDB::User', Properties: { UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::MemoryDB::User resource') else null, AccessString: if errorOnEmptyProp then (error 'You need to define AccessString properties for AWS::MemoryDB::User resource') else null, AuthenticationMode: if errorOnEmptyProp then (error 'You need to define AuthenticationMode properties for AWS::MemoryDB::User resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAccessString':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html#cfn-memorydb-user-accessstring', args=[d.arg(name='accessString', type=d.T.string)]),
+  withAccessString(accessString): { Properties+: { AccessString: accessString } },
+  '#withAuthenticationMode':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html#cfn-memorydb-user-authenticationmode', args=[d.arg(name='authenticationMode', type=d.T.object)]),
+  withAuthenticationMode(authenticationMode): { Properties+: { AuthenticationMode: authenticationMode } },
+  '#withAuthenticationModeMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html#cfn-memorydb-user-authenticationmode', args=[d.arg(name='authenticationMode', type=d.T.object)]),
+  withAuthenticationModeMixin(authenticationMode): { Properties+: { AuthenticationMode+: authenticationMode } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html#cfn-memorydb-user-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html#cfn-memorydb-user-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+  '#withUserName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-user.html#cfn-memorydb-user-username', args=[d.arg(name='userName', type=d.T.string)]),
+  withUserName(userName): { Properties+: { UserName: userName } },
+}

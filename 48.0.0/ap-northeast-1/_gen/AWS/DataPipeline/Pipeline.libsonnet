@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Pipeline', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DataPipeline::Pipeline', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::DataPipeline::Pipeline resource') else null, ParameterObjects: if errorOnEmptyProp then (error 'You need to define ParameterObjects properties for AWS::DataPipeline::Pipeline resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DataPipeline::Pipeline', Properties: { ParameterObjects: if errorOnEmptyProp then (error 'You need to define ParameterObjects properties for AWS::DataPipeline::Pipeline resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::DataPipeline::Pipeline resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withActivate':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datapipeline-pipeline.html#cfn-datapipeline-pipeline-activate', args=[d.arg(name='activate', type=d.T.bool)]),
   withActivate(activate): { Properties+: { Activate: activate } },

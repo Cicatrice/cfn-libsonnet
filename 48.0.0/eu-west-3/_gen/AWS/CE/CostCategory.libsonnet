@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='CostCategory', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-costcategory.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CE::CostCategory', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::CE::CostCategory resource') else null, RuleVersion: if errorOnEmptyProp then (error 'You need to define RuleVersion properties for AWS::CE::CostCategory resource') else null, Rules: if errorOnEmptyProp then (error 'You need to define Rules properties for AWS::CE::CostCategory resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CE::CostCategory', Properties: { RuleVersion: if errorOnEmptyProp then (error 'You need to define RuleVersion properties for AWS::CE::CostCategory resource') else null, Rules: if errorOnEmptyProp then (error 'You need to define Rules properties for AWS::CE::CostCategory resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::CE::CostCategory resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-costcategory.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDefaultValue':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ce-costcategory.html#cfn-ce-costcategory-defaultvalue', args=[d.arg(name='defaultValue', type=d.T.string)]),
   withDefaultValue(defaultValue): { Properties+: { DefaultValue: defaultValue } },

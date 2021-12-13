@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ResourceVersion', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFormation::ResourceVersion', Properties: { SchemaHandlerPackage: if errorOnEmptyProp then (error 'You need to define SchemaHandlerPackage properties for AWS::CloudFormation::ResourceVersion resource') else null, TypeName: if errorOnEmptyProp then (error 'You need to define TypeName properties for AWS::CloudFormation::ResourceVersion resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withExecutionRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-executionrolearn', args=[d.arg(name='executionRoleArn', type=d.T.string)]),
+  withExecutionRoleArn(executionRoleArn): { Properties+: { ExecutionRoleArn: executionRoleArn } },
+  '#withLoggingConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-loggingconfig', args=[d.arg(name='loggingConfig', type=d.T.object)]),
+  withLoggingConfig(loggingConfig): { Properties+: { LoggingConfig: loggingConfig } },
+  '#withLoggingConfigMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-loggingconfig', args=[d.arg(name='loggingConfig', type=d.T.object)]),
+  withLoggingConfigMixin(loggingConfig): { Properties+: { LoggingConfig+: loggingConfig } },
+  '#withSchemaHandlerPackage':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-schemahandlerpackage', args=[d.arg(name='schemaHandlerPackage', type=d.T.string)]),
+  withSchemaHandlerPackage(schemaHandlerPackage): { Properties+: { SchemaHandlerPackage: schemaHandlerPackage } },
+  '#withTypeName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-typename', args=[d.arg(name='typeName', type=d.T.string)]),
+  withTypeName(typeName): { Properties+: { TypeName: typeName } },
+}

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='GraphQLApi', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppSync::GraphQLApi', Properties: { AuthenticationType: if errorOnEmptyProp then (error 'You need to define AuthenticationType properties for AWS::AppSync::GraphQLApi resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppSync::GraphQLApi resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppSync::GraphQLApi', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppSync::GraphQLApi resource') else null, AuthenticationType: if errorOnEmptyProp then (error 'You need to define AuthenticationType properties for AWS::AppSync::GraphQLApi resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAdditionalAuthenticationProviders':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-graphqlapi.html#cfn-appsync-graphqlapi-additionalauthenticationproviders', args=[d.arg(name='additionalAuthenticationProviders', type=d.T.object)]),
   withAdditionalAuthenticationProviders(additionalAuthenticationProviders): { Properties+: { AdditionalAuthenticationProviders: additionalAuthenticationProviders } },

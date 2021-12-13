@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Addon', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-addon.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::Addon', Properties: { ClusterName: if errorOnEmptyProp then (error 'You need to define ClusterName properties for AWS::EKS::Addon resource') else null, AddonName: if errorOnEmptyProp then (error 'You need to define AddonName properties for AWS::EKS::Addon resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::Addon', Properties: { AddonName: if errorOnEmptyProp then (error 'You need to define AddonName properties for AWS::EKS::Addon resource') else null, ClusterName: if errorOnEmptyProp then (error 'You need to define ClusterName properties for AWS::EKS::Addon resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-addon.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAddonName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-addon.html#cfn-eks-addon-addonname', args=[d.arg(name='addonName', type=d.T.string)]),
   withAddonName(addonName): { Properties+: { AddonName: addonName } },

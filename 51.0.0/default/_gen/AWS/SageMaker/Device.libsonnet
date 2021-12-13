@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Device', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::Device', Properties: { DeviceFleetName: if errorOnEmptyProp then (error 'You need to define DeviceFleetName properties for AWS::SageMaker::Device resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDevice':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html#cfn-sagemaker-device-device', args=[d.arg(name='device', type=d.T.object)]),
+  withDevice(device): { Properties+: { Device: device } },
+  '#withDeviceFleetName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html#cfn-sagemaker-device-devicefleetname', args=[d.arg(name='deviceFleetName', type=d.T.string)]),
+  withDeviceFleetName(deviceFleetName): { Properties+: { DeviceFleetName: deviceFleetName } },
+  '#withDeviceMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html#cfn-sagemaker-device-device', args=[d.arg(name='device', type=d.T.object)]),
+  withDeviceMixin(device): { Properties+: { Device+: device } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html#cfn-sagemaker-device-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-device.html#cfn-sagemaker-device-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

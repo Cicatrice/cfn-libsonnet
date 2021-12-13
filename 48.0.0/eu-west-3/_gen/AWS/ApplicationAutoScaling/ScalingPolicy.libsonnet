@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ScalingPolicy', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApplicationAutoScaling::ScalingPolicy', Properties: { PolicyType: if errorOnEmptyProp then (error 'You need to define PolicyType properties for AWS::ApplicationAutoScaling::ScalingPolicy resource') else null, PolicyName: if errorOnEmptyProp then (error 'You need to define PolicyName properties for AWS::ApplicationAutoScaling::ScalingPolicy resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApplicationAutoScaling::ScalingPolicy', Properties: { PolicyName: if errorOnEmptyProp then (error 'You need to define PolicyName properties for AWS::ApplicationAutoScaling::ScalingPolicy resource') else null, PolicyType: if errorOnEmptyProp then (error 'You need to define PolicyType properties for AWS::ApplicationAutoScaling::ScalingPolicy resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withPolicyName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-applicationautoscaling-scalingpolicy.html#cfn-applicationautoscaling-scalingpolicy-policyname', args=[d.arg(name='policyName', type=d.T.string)]),
   withPolicyName(policyName): { Properties+: { PolicyName: policyName } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='LaunchRoleConstraint', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchroleconstraint.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceCatalog::LaunchRoleConstraint', Properties: { PortfolioId: if errorOnEmptyProp then (error 'You need to define PortfolioId properties for AWS::ServiceCatalog::LaunchRoleConstraint resource') else null, ProductId: if errorOnEmptyProp then (error 'You need to define ProductId properties for AWS::ServiceCatalog::LaunchRoleConstraint resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceCatalog::LaunchRoleConstraint', Properties: { ProductId: if errorOnEmptyProp then (error 'You need to define ProductId properties for AWS::ServiceCatalog::LaunchRoleConstraint resource') else null, PortfolioId: if errorOnEmptyProp then (error 'You need to define PortfolioId properties for AWS::ServiceCatalog::LaunchRoleConstraint resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchroleconstraint.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAcceptLanguage':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchroleconstraint.html#cfn-servicecatalog-launchroleconstraint-acceptlanguage', args=[d.arg(name='acceptLanguage', type=d.T.string)]),
   withAcceptLanguage(acceptLanguage): { Properties+: { AcceptLanguage: acceptLanguage } },

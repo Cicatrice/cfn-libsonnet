@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Job', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Job', Properties: { Command: if errorOnEmptyProp then (error 'You need to define Command properties for AWS::Glue::Job resource') else null, Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Glue::Job resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Job', Properties: { Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Glue::Job resource') else null, Command: if errorOnEmptyProp then (error 'You need to define Command properties for AWS::Glue::Job resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAllocatedCapacity':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-job.html#cfn-glue-job-allocatedcapacity', args=[d.arg(name='allocatedCapacity', type=d.T.number)]),
   withAllocatedCapacity(allocatedCapacity): { Properties+: { AllocatedCapacity: allocatedCapacity } },

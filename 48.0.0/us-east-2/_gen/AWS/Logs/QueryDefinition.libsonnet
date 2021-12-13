@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='QueryDefinition', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-querydefinition.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Logs::QueryDefinition', Properties: { QueryString: if errorOnEmptyProp then (error 'You need to define QueryString properties for AWS::Logs::QueryDefinition resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Logs::QueryDefinition resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Logs::QueryDefinition', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Logs::QueryDefinition resource') else null, QueryString: if errorOnEmptyProp then (error 'You need to define QueryString properties for AWS::Logs::QueryDefinition resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-querydefinition.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withLogGroupNames':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-logs-querydefinition.html#cfn-logs-querydefinition-loggroupnames', args=[d.arg(name='logGroupNames', type=d.T.array)]),
   withLogGroupNames(logGroupNames): { Properties+: { LogGroupNames: logGroupNames } },

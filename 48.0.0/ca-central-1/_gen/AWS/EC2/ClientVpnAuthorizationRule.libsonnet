@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ClientVpnAuthorizationRule', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnauthorizationrule.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::ClientVpnAuthorizationRule', Properties: { ClientVpnEndpointId: if errorOnEmptyProp then (error 'You need to define ClientVpnEndpointId properties for AWS::EC2::ClientVpnAuthorizationRule resource') else null, TargetNetworkCidr: if errorOnEmptyProp then (error 'You need to define TargetNetworkCidr properties for AWS::EC2::ClientVpnAuthorizationRule resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::ClientVpnAuthorizationRule', Properties: { TargetNetworkCidr: if errorOnEmptyProp then (error 'You need to define TargetNetworkCidr properties for AWS::EC2::ClientVpnAuthorizationRule resource') else null, ClientVpnEndpointId: if errorOnEmptyProp then (error 'You need to define ClientVpnEndpointId properties for AWS::EC2::ClientVpnAuthorizationRule resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnauthorizationrule.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAccessGroupId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-clientvpnauthorizationrule.html#cfn-ec2-clientvpnauthorizationrule-accessgroupid', args=[d.arg(name='accessGroupId', type=d.T.string)]),
   withAccessGroupId(accessGroupId): { Properties+: { AccessGroupId: accessGroupId } },

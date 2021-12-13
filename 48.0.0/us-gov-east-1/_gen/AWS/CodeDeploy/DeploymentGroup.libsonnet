@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DeploymentGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CodeDeploy::DeploymentGroup', Properties: { ApplicationName: if errorOnEmptyProp then (error 'You need to define ApplicationName properties for AWS::CodeDeploy::DeploymentGroup resource') else null, ServiceRoleArn: if errorOnEmptyProp then (error 'You need to define ServiceRoleArn properties for AWS::CodeDeploy::DeploymentGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CodeDeploy::DeploymentGroup', Properties: { ServiceRoleArn: if errorOnEmptyProp then (error 'You need to define ServiceRoleArn properties for AWS::CodeDeploy::DeploymentGroup resource') else null, ApplicationName: if errorOnEmptyProp then (error 'You need to define ApplicationName properties for AWS::CodeDeploy::DeploymentGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAlarmConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codedeploy-deploymentgroup.html#cfn-codedeploy-deploymentgroup-alarmconfiguration', args=[d.arg(name='alarmConfiguration', type=d.T.object)]),
   withAlarmConfiguration(alarmConfiguration): { Properties+: { AlarmConfiguration: alarmConfiguration } },

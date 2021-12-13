@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='CodeRepository', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::CodeRepository', Properties: { GitConfig: if errorOnEmptyProp then (error 'You need to define GitConfig properties for AWS::SageMaker::CodeRepository resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCodeRepositoryName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html#cfn-sagemaker-coderepository-coderepositoryname', args=[d.arg(name='codeRepositoryName', type=d.T.string)]),
+  withCodeRepositoryName(codeRepositoryName): { Properties+: { CodeRepositoryName: codeRepositoryName } },
+  '#withGitConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html#cfn-sagemaker-coderepository-gitconfig', args=[d.arg(name='gitConfig', type=d.T.object)]),
+  withGitConfig(gitConfig): { Properties+: { GitConfig: gitConfig } },
+  '#withGitConfigMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html#cfn-sagemaker-coderepository-gitconfig', args=[d.arg(name='gitConfig', type=d.T.object)]),
+  withGitConfigMixin(gitConfig): { Properties+: { GitConfig+: gitConfig } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html#cfn-sagemaker-coderepository-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-coderepository.html#cfn-sagemaker-coderepository-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

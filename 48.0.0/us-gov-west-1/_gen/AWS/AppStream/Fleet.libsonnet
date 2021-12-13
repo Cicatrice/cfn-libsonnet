@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Fleet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::Fleet', Properties: { InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::AppStream::Fleet resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppStream::Fleet resource') else null, ComputeCapacity: if errorOnEmptyProp then (error 'You need to define ComputeCapacity properties for AWS::AppStream::Fleet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::Fleet', Properties: { InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::AppStream::Fleet resource') else null, ComputeCapacity: if errorOnEmptyProp then (error 'You need to define ComputeCapacity properties for AWS::AppStream::Fleet resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppStream::Fleet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withComputeCapacity':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-fleet.html#cfn-appstream-fleet-computecapacity', args=[d.arg(name='computeCapacity', type=d.T.object)]),
   withComputeCapacity(computeCapacity): { Properties+: { ComputeCapacity: computeCapacity } },

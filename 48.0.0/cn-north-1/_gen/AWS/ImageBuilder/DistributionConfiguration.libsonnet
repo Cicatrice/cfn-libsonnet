@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DistributionConfiguration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-distributionconfiguration.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::DistributionConfiguration', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::DistributionConfiguration resource') else null, Distributions: if errorOnEmptyProp then (error 'You need to define Distributions properties for AWS::ImageBuilder::DistributionConfiguration resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::DistributionConfiguration', Properties: { Distributions: if errorOnEmptyProp then (error 'You need to define Distributions properties for AWS::ImageBuilder::DistributionConfiguration resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::DistributionConfiguration resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-distributionconfiguration.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-distributionconfiguration.html#cfn-imagebuilder-distributionconfiguration-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

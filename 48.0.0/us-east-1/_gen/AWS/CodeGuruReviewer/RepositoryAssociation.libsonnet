@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='RepositoryAssociation', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codegurureviewer-repositoryassociation.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CodeGuruReviewer::RepositoryAssociation', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::CodeGuruReviewer::RepositoryAssociation resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::CodeGuruReviewer::RepositoryAssociation resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CodeGuruReviewer::RepositoryAssociation', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::CodeGuruReviewer::RepositoryAssociation resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::CodeGuruReviewer::RepositoryAssociation resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codegurureviewer-repositoryassociation.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBucketName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codegurureviewer-repositoryassociation.html#cfn-codegurureviewer-repositoryassociation-bucketname', args=[d.arg(name='bucketName', type=d.T.string)]),
   withBucketName(bucketName): { Properties+: { BucketName: bucketName } },

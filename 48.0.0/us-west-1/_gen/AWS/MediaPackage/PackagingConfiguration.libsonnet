@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='PackagingConfiguration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::MediaPackage::PackagingConfiguration', Properties: { PackagingGroupId: if errorOnEmptyProp then (error 'You need to define PackagingGroupId properties for AWS::MediaPackage::PackagingConfiguration resource') else null, Id: if errorOnEmptyProp then (error 'You need to define Id properties for AWS::MediaPackage::PackagingConfiguration resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::MediaPackage::PackagingConfiguration', Properties: { Id: if errorOnEmptyProp then (error 'You need to define Id properties for AWS::MediaPackage::PackagingConfiguration resource') else null, PackagingGroupId: if errorOnEmptyProp then (error 'You need to define PackagingGroupId properties for AWS::MediaPackage::PackagingConfiguration resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCmafPackage':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-packagingconfiguration.html#cfn-mediapackage-packagingconfiguration-cmafpackage', args=[d.arg(name='cmafPackage', type=d.T.object)]),
   withCmafPackage(cmafPackage): { Properties+: { CmafPackage: cmafPackage } },

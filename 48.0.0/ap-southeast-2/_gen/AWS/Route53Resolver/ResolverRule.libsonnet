@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ResolverRule', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Route53Resolver::ResolverRule', Properties: { DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::Route53Resolver::ResolverRule resource') else null, RuleType: if errorOnEmptyProp then (error 'You need to define RuleType properties for AWS::Route53Resolver::ResolverRule resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Route53Resolver::ResolverRule', Properties: { RuleType: if errorOnEmptyProp then (error 'You need to define RuleType properties for AWS::Route53Resolver::ResolverRule resource') else null, DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::Route53Resolver::ResolverRule resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDomainName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-route53resolver-resolverrule.html#cfn-route53resolver-resolverrule-domainname', args=[d.arg(name='domainName', type=d.T.string)]),
   withDomainName(domainName): { Properties+: { DomainName: domainName } },

@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='DBSecurityGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::DBSecurityGroup', Properties: { DBSecurityGroupIngress: if errorOnEmptyProp then (error 'You need to define DBSecurityGroupIngress properties for AWS::RDS::DBSecurityGroup resource') else null, GroupDescription: if errorOnEmptyProp then (error 'You need to define GroupDescription properties for AWS::RDS::DBSecurityGroup resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDBSecurityGroupIngress':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-dbsecuritygroupingress', args=[d.arg(name='dbsecurityGroupIngress', type=d.T.array)]),
+  withDBSecurityGroupIngress(dbsecurityGroupIngress): { Properties+: { DBSecurityGroupIngress: dbsecurityGroupIngress } },
+  '#withDBSecurityGroupIngressMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-dbsecuritygroupingress', args=[d.arg(name='dbsecurityGroupIngress', type=d.T.array)]),
+  withDBSecurityGroupIngressMixin(dbsecurityGroupIngress): { Properties+: { DBSecurityGroupIngress+: dbsecurityGroupIngress } },
+  '#withEC2VpcId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-ec2vpcid', args=[d.arg(name='ec2vpcId', type=d.T.string)]),
+  withEC2VpcId(ec2vpcId): { Properties+: { EC2VpcId: ec2vpcId } },
+  '#withGroupDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-groupdescription', args=[d.arg(name='groupDescription', type=d.T.string)]),
+  withGroupDescription(groupDescription): { Properties+: { GroupDescription: groupDescription } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-security-group.html#cfn-rds-dbsecuritygroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

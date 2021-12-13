@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='NamedQuery', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-namedquery.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Athena::NamedQuery', Properties: { QueryString: if errorOnEmptyProp then (error 'You need to define QueryString properties for AWS::Athena::NamedQuery resource') else null, Database: if errorOnEmptyProp then (error 'You need to define Database properties for AWS::Athena::NamedQuery resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Athena::NamedQuery', Properties: { Database: if errorOnEmptyProp then (error 'You need to define Database properties for AWS::Athena::NamedQuery resource') else null, QueryString: if errorOnEmptyProp then (error 'You need to define QueryString properties for AWS::Athena::NamedQuery resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-namedquery.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDatabase':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-athena-namedquery.html#cfn-athena-namedquery-database', args=[d.arg(name='database', type=d.T.string)]),
   withDatabase(database): { Properties+: { Database: database } },

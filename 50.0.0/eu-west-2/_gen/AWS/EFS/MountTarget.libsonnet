@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='MountTarget', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::EFS::MountTarget', Properties: { SecurityGroups: if errorOnEmptyProp then (error 'You need to define SecurityGroups properties for AWS::EFS::MountTarget resource') else null, SubnetId: if errorOnEmptyProp then (error 'You need to define SubnetId properties for AWS::EFS::MountTarget resource') else null, FileSystemId: if errorOnEmptyProp then (error 'You need to define FileSystemId properties for AWS::EFS::MountTarget resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withFileSystemId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-filesystemid', args=[d.arg(name='fileSystemId', type=d.T.string)]),
+  withFileSystemId(fileSystemId): { Properties+: { FileSystemId: fileSystemId } },
+  '#withIpAddress':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-ipaddress', args=[d.arg(name='ipAddress', type=d.T.string)]),
+  withIpAddress(ipAddress): { Properties+: { IpAddress: ipAddress } },
+  '#withSecurityGroups':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-securitygroups', args=[d.arg(name='securityGroups', type=d.T.array)]),
+  withSecurityGroups(securityGroups): { Properties+: { SecurityGroups: securityGroups } },
+  '#withSecurityGroupsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-securitygroups', args=[d.arg(name='securityGroups', type=d.T.array)]),
+  withSecurityGroupsMixin(securityGroups): { Properties+: { SecurityGroups+: securityGroups } },
+  '#withSubnetId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-subnetid', args=[d.arg(name='subnetId', type=d.T.string)]),
+  withSubnetId(subnetId): { Properties+: { SubnetId: subnetId } },
+}

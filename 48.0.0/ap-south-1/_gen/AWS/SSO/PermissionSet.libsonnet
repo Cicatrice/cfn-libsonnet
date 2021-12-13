@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='PermissionSet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SSO::PermissionSet', Properties: { InstanceArn: if errorOnEmptyProp then (error 'You need to define InstanceArn properties for AWS::SSO::PermissionSet resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::SSO::PermissionSet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SSO::PermissionSet', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::SSO::PermissionSet resource') else null, InstanceArn: if errorOnEmptyProp then (error 'You need to define InstanceArn properties for AWS::SSO::PermissionSet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sso-permissionset.html#cfn-sso-permissionset-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

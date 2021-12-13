@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Subnet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::Subnet', Properties: { CidrBlock: if errorOnEmptyProp then (error 'You need to define CidrBlock properties for AWS::EC2::Subnet resource') else null, VpcId: if errorOnEmptyProp then (error 'You need to define VpcId properties for AWS::EC2::Subnet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::Subnet', Properties: { VpcId: if errorOnEmptyProp then (error 'You need to define VpcId properties for AWS::EC2::Subnet resource') else null, CidrBlock: if errorOnEmptyProp then (error 'You need to define CidrBlock properties for AWS::EC2::Subnet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAssignIpv6AddressOnCreation':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-subnet.html#cfn-ec2-subnet-assignipv6addressoncreation', args=[d.arg(name='assignIpv6addressOnCreation', type=d.T.bool)]),
   withAssignIpv6AddressOnCreation(assignIpv6addressOnCreation): { Properties+: { AssignIpv6AddressOnCreation: assignIpv6addressOnCreation } },

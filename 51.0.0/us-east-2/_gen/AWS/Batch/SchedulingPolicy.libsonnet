@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='SchedulingPolicy', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Batch::SchedulingPolicy', Properties: {} },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withFairsharePolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html#cfn-batch-schedulingpolicy-fairsharepolicy', args=[d.arg(name='fairsharePolicy', type=d.T.object)]),
+  withFairsharePolicy(fairsharePolicy): { Properties+: { FairsharePolicy: fairsharePolicy } },
+  '#withFairsharePolicyMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html#cfn-batch-schedulingpolicy-fairsharepolicy', args=[d.arg(name='fairsharePolicy', type=d.T.object)]),
+  withFairsharePolicyMixin(fairsharePolicy): { Properties+: { FairsharePolicy+: fairsharePolicy } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html#cfn-batch-schedulingpolicy-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html#cfn-batch-schedulingpolicy-tags', args=[d.arg(name='tags', type=d.T.object)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-schedulingpolicy.html#cfn-batch-schedulingpolicy-tags', args=[d.arg(name='tags', type=d.T.object)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

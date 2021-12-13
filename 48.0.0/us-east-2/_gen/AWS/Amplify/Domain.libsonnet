@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Domain', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Amplify::Domain', Properties: { DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::Amplify::Domain resource') else null, SubDomainSettings: if errorOnEmptyProp then (error 'You need to define SubDomainSettings properties for AWS::Amplify::Domain resource') else null, AppId: if errorOnEmptyProp then (error 'You need to define AppId properties for AWS::Amplify::Domain resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Amplify::Domain', Properties: { AppId: if errorOnEmptyProp then (error 'You need to define AppId properties for AWS::Amplify::Domain resource') else null, DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::Amplify::Domain resource') else null, SubDomainSettings: if errorOnEmptyProp then (error 'You need to define SubDomainSettings properties for AWS::Amplify::Domain resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAppId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-amplify-domain.html#cfn-amplify-domain-appid', args=[d.arg(name='appId', type=d.T.string)]),
   withAppId(appId): { Properties+: { AppId: appId } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Component', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::Component', Properties: { Version: if errorOnEmptyProp then (error 'You need to define Version properties for AWS::ImageBuilder::Component resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::Component resource') else null, Platform: if errorOnEmptyProp then (error 'You need to define Platform properties for AWS::ImageBuilder::Component resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::Component', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::Component resource') else null, Platform: if errorOnEmptyProp then (error 'You need to define Platform properties for AWS::ImageBuilder::Component resource') else null, Version: if errorOnEmptyProp then (error 'You need to define Version properties for AWS::ImageBuilder::Component resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withChangeDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-component.html#cfn-imagebuilder-component-changedescription', args=[d.arg(name='changeDescription', type=d.T.string)]),
   withChangeDescription(changeDescription): { Properties+: { ChangeDescription: changeDescription } },

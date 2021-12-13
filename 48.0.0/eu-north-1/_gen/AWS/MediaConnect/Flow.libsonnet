@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Flow', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::MediaConnect::Flow', Properties: { Source: if errorOnEmptyProp then (error 'You need to define Source properties for AWS::MediaConnect::Flow resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::MediaConnect::Flow resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::MediaConnect::Flow', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::MediaConnect::Flow resource') else null, Source: if errorOnEmptyProp then (error 'You need to define Source properties for AWS::MediaConnect::Flow resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAvailabilityZone':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flow.html#cfn-mediaconnect-flow-availabilityzone', args=[d.arg(name='availabilityZone', type=d.T.string)]),
   withAvailabilityZone(availabilityZone): { Properties+: { AvailabilityZone: availabilityZone } },

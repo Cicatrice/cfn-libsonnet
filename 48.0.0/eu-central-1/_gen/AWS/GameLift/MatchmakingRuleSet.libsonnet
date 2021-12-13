@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='MatchmakingRuleSet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingruleset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::GameLift::MatchmakingRuleSet', Properties: { RuleSetBody: if errorOnEmptyProp then (error 'You need to define RuleSetBody properties for AWS::GameLift::MatchmakingRuleSet resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::GameLift::MatchmakingRuleSet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::GameLift::MatchmakingRuleSet', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::GameLift::MatchmakingRuleSet resource') else null, RuleSetBody: if errorOnEmptyProp then (error 'You need to define RuleSetBody properties for AWS::GameLift::MatchmakingRuleSet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingruleset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-matchmakingruleset.html#cfn-gamelift-matchmakingruleset-name', args=[d.arg(name='name', type=d.T.string)]),
   withName(name): { Properties+: { Name: name } },

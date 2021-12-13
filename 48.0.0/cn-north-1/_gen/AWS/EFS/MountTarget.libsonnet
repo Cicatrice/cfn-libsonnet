@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='MountTarget', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EFS::MountTarget', Properties: { SubnetId: if errorOnEmptyProp then (error 'You need to define SubnetId properties for AWS::EFS::MountTarget resource') else null, FileSystemId: if errorOnEmptyProp then (error 'You need to define FileSystemId properties for AWS::EFS::MountTarget resource') else null, SecurityGroups: if errorOnEmptyProp then (error 'You need to define SecurityGroups properties for AWS::EFS::MountTarget resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EFS::MountTarget', Properties: { FileSystemId: if errorOnEmptyProp then (error 'You need to define FileSystemId properties for AWS::EFS::MountTarget resource') else null, SecurityGroups: if errorOnEmptyProp then (error 'You need to define SecurityGroups properties for AWS::EFS::MountTarget resource') else null, SubnetId: if errorOnEmptyProp then (error 'You need to define SubnetId properties for AWS::EFS::MountTarget resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withFileSystemId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-efs-mounttarget.html#cfn-efs-mounttarget-filesystemid', args=[d.arg(name='fileSystemId', type=d.T.string)]),
   withFileSystemId(fileSystemId): { Properties+: { FileSystemId: fileSystemId } },

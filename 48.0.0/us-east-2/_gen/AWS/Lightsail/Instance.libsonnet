@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Instance', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Lightsail::Instance', Properties: { BlueprintId: if errorOnEmptyProp then (error 'You need to define BlueprintId properties for AWS::Lightsail::Instance resource') else null, BundleId: if errorOnEmptyProp then (error 'You need to define BundleId properties for AWS::Lightsail::Instance resource') else null, InstanceName: if errorOnEmptyProp then (error 'You need to define InstanceName properties for AWS::Lightsail::Instance resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Lightsail::Instance', Properties: { BundleId: if errorOnEmptyProp then (error 'You need to define BundleId properties for AWS::Lightsail::Instance resource') else null, InstanceName: if errorOnEmptyProp then (error 'You need to define InstanceName properties for AWS::Lightsail::Instance resource') else null, BlueprintId: if errorOnEmptyProp then (error 'You need to define BlueprintId properties for AWS::Lightsail::Instance resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAddOns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-instance.html#cfn-lightsail-instance-addons', args=[d.arg(name='addOns', type=d.T.array)]),
   withAddOns(addOns): { Properties+: { AddOns: addOns } },

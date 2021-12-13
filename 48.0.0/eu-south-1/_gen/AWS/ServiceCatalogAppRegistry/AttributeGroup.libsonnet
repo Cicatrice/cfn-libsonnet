@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='AttributeGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalogappregistry-attributegroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceCatalogAppRegistry::AttributeGroup', Properties: { Attributes: if errorOnEmptyProp then (error 'You need to define Attributes properties for AWS::ServiceCatalogAppRegistry::AttributeGroup resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ServiceCatalogAppRegistry::AttributeGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceCatalogAppRegistry::AttributeGroup', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ServiceCatalogAppRegistry::AttributeGroup resource') else null, Attributes: if errorOnEmptyProp then (error 'You need to define Attributes properties for AWS::ServiceCatalogAppRegistry::AttributeGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalogappregistry-attributegroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAttributes':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalogappregistry-attributegroup.html#cfn-servicecatalogappregistry-attributegroup-attributes', args=[d.arg(name='attributes', type=d.T.object)]),
   withAttributes(attributes): { Properties+: { Attributes: attributes } },

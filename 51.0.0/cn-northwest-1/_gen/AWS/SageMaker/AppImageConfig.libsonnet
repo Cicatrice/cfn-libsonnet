@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AppImageConfig', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::AppImageConfig', Properties: { AppImageConfigName: if errorOnEmptyProp then (error 'You need to define AppImageConfigName properties for AWS::SageMaker::AppImageConfig resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAppImageConfigName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html#cfn-sagemaker-appimageconfig-appimageconfigname', args=[d.arg(name='appImageConfigName', type=d.T.string)]),
+  withAppImageConfigName(appImageConfigName): { Properties+: { AppImageConfigName: appImageConfigName } },
+  '#withKernelGatewayImageConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html#cfn-sagemaker-appimageconfig-kernelgatewayimageconfig', args=[d.arg(name='kernelGatewayImageConfig', type=d.T.object)]),
+  withKernelGatewayImageConfig(kernelGatewayImageConfig): { Properties+: { KernelGatewayImageConfig: kernelGatewayImageConfig } },
+  '#withKernelGatewayImageConfigMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html#cfn-sagemaker-appimageconfig-kernelgatewayimageconfig', args=[d.arg(name='kernelGatewayImageConfig', type=d.T.object)]),
+  withKernelGatewayImageConfigMixin(kernelGatewayImageConfig): { Properties+: { KernelGatewayImageConfig+: kernelGatewayImageConfig } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html#cfn-sagemaker-appimageconfig-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-appimageconfig.html#cfn-sagemaker-appimageconfig-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

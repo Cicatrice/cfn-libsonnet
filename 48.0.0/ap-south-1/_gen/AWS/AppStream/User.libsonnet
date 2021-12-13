@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='User', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-user.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::User', Properties: { UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::AppStream::User resource') else null, AuthenticationType: if errorOnEmptyProp then (error 'You need to define AuthenticationType properties for AWS::AppStream::User resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::User', Properties: { AuthenticationType: if errorOnEmptyProp then (error 'You need to define AuthenticationType properties for AWS::AppStream::User resource') else null, UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::AppStream::User resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-user.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAuthenticationType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-user.html#cfn-appstream-user-authenticationtype', args=[d.arg(name='authenticationType', type=d.T.string)]),
   withAuthenticationType(authenticationType): { Properties+: { AuthenticationType: authenticationType } },

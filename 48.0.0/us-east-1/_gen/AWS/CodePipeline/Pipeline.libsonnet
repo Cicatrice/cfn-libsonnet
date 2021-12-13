@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Pipeline', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CodePipeline::Pipeline', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::CodePipeline::Pipeline resource') else null, Stages: if errorOnEmptyProp then (error 'You need to define Stages properties for AWS::CodePipeline::Pipeline resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CodePipeline::Pipeline', Properties: { Stages: if errorOnEmptyProp then (error 'You need to define Stages properties for AWS::CodePipeline::Pipeline resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::CodePipeline::Pipeline resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withArtifactStore':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codepipeline-pipeline.html#cfn-codepipeline-pipeline-artifactstore', args=[d.arg(name='artifactStore', type=d.T.object)]),
   withArtifactStore(artifactStore): { Properties+: { ArtifactStore: artifactStore } },

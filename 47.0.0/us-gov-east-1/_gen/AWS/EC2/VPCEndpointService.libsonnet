@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='VPCEndpointService', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPCEndpointService', Properties: {} },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAcceptanceRequired':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-acceptancerequired', args=[d.arg(name='acceptanceRequired', type=d.T.bool)]),
+  withAcceptanceRequired(acceptanceRequired): { Properties+: { AcceptanceRequired: acceptanceRequired } },
+  '#withGatewayLoadBalancerArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-gatewayloadbalancerarns', args=[d.arg(name='gatewayLoadBalancerArns', type=d.T.array)]),
+  withGatewayLoadBalancerArns(gatewayLoadBalancerArns): { Properties+: { GatewayLoadBalancerArns: gatewayLoadBalancerArns } },
+  '#withGatewayLoadBalancerArnsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-gatewayloadbalancerarns', args=[d.arg(name='gatewayLoadBalancerArns', type=d.T.array)]),
+  withGatewayLoadBalancerArnsMixin(gatewayLoadBalancerArns): { Properties+: { GatewayLoadBalancerArns+: gatewayLoadBalancerArns } },
+  '#withNetworkLoadBalancerArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-networkloadbalancerarns', args=[d.arg(name='networkLoadBalancerArns', type=d.T.array)]),
+  withNetworkLoadBalancerArns(networkLoadBalancerArns): { Properties+: { NetworkLoadBalancerArns: networkLoadBalancerArns } },
+  '#withNetworkLoadBalancerArnsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointservice.html#cfn-ec2-vpcendpointservice-networkloadbalancerarns', args=[d.arg(name='networkLoadBalancerArns', type=d.T.array)]),
+  withNetworkLoadBalancerArnsMixin(networkLoadBalancerArns): { Properties+: { NetworkLoadBalancerArns+: networkLoadBalancerArns } },
+}

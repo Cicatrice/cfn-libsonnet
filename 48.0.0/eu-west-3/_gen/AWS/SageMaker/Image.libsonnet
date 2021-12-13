@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Image', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::Image', Properties: { ImageRoleArn: if errorOnEmptyProp then (error 'You need to define ImageRoleArn properties for AWS::SageMaker::Image resource') else null, ImageName: if errorOnEmptyProp then (error 'You need to define ImageName properties for AWS::SageMaker::Image resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::Image', Properties: { ImageName: if errorOnEmptyProp then (error 'You need to define ImageName properties for AWS::SageMaker::Image resource') else null, ImageRoleArn: if errorOnEmptyProp then (error 'You need to define ImageRoleArn properties for AWS::SageMaker::Image resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withImageDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html#cfn-sagemaker-image-imagedescription', args=[d.arg(name='imageDescription', type=d.T.string)]),
   withImageDescription(imageDescription): { Properties+: { ImageDescription: imageDescription } },

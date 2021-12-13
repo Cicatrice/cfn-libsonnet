@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='JobQueue', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Batch::JobQueue', Properties: { Priority: if errorOnEmptyProp then (error 'You need to define Priority properties for AWS::Batch::JobQueue resource') else null, ComputeEnvironmentOrder: if errorOnEmptyProp then (error 'You need to define ComputeEnvironmentOrder properties for AWS::Batch::JobQueue resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Batch::JobQueue', Properties: { ComputeEnvironmentOrder: if errorOnEmptyProp then (error 'You need to define ComputeEnvironmentOrder properties for AWS::Batch::JobQueue resource') else null, Priority: if errorOnEmptyProp then (error 'You need to define Priority properties for AWS::Batch::JobQueue resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withComputeEnvironmentOrder':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-batch-jobqueue.html#cfn-batch-jobqueue-computeenvironmentorder', args=[d.arg(name='computeEnvironmentOrder', type=d.T.array)]),
   withComputeEnvironmentOrder(computeEnvironmentOrder): { Properties+: { ComputeEnvironmentOrder: computeEnvironmentOrder } },

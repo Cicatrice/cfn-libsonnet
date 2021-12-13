@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Endpoint', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-endpoint.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::S3Outposts::Endpoint', Properties: { SecurityGroupId: if errorOnEmptyProp then (error 'You need to define SecurityGroupId properties for AWS::S3Outposts::Endpoint resource') else null, SubnetId: if errorOnEmptyProp then (error 'You need to define SubnetId properties for AWS::S3Outposts::Endpoint resource') else null, OutpostId: if errorOnEmptyProp then (error 'You need to define OutpostId properties for AWS::S3Outposts::Endpoint resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::S3Outposts::Endpoint', Properties: { OutpostId: if errorOnEmptyProp then (error 'You need to define OutpostId properties for AWS::S3Outposts::Endpoint resource') else null, SecurityGroupId: if errorOnEmptyProp then (error 'You need to define SecurityGroupId properties for AWS::S3Outposts::Endpoint resource') else null, SubnetId: if errorOnEmptyProp then (error 'You need to define SubnetId properties for AWS::S3Outposts::Endpoint resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-endpoint.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAccessType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-s3outposts-endpoint.html#cfn-s3outposts-endpoint-accesstype', args=[d.arg(name='accessType', type=d.T.string)]),
   withAccessType(accessType): { Properties+: { AccessType: accessType } },

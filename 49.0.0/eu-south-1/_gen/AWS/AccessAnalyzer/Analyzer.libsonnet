@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Analyzer', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::AccessAnalyzer::Analyzer', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::AccessAnalyzer::Analyzer resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAnalyzerName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html#cfn-accessanalyzer-analyzer-analyzername', args=[d.arg(name='analyzerName', type=d.T.string)]),
+  withAnalyzerName(analyzerName): { Properties+: { AnalyzerName: analyzerName } },
+  '#withArchiveRules':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html#cfn-accessanalyzer-analyzer-archiverules', args=[d.arg(name='archiveRules', type=d.T.array)]),
+  withArchiveRules(archiveRules): { Properties+: { ArchiveRules: archiveRules } },
+  '#withArchiveRulesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html#cfn-accessanalyzer-analyzer-archiverules', args=[d.arg(name='archiveRules', type=d.T.array)]),
+  withArchiveRulesMixin(archiveRules): { Properties+: { ArchiveRules+: archiveRules } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html#cfn-accessanalyzer-analyzer-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html#cfn-accessanalyzer-analyzer-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+  '#withType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-accessanalyzer-analyzer.html#cfn-accessanalyzer-analyzer-type', args=[d.arg(name='type', type=d.T.string)]),
+  withType(type): { Properties+: { Type: type } },
+}

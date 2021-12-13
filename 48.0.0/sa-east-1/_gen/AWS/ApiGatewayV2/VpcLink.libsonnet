@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='VpcLink', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-vpclink.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::VpcLink', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ApiGatewayV2::VpcLink resource') else null, SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::ApiGatewayV2::VpcLink resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::VpcLink', Properties: { SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::ApiGatewayV2::VpcLink resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ApiGatewayV2::VpcLink resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-vpclink.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-vpclink.html#cfn-apigatewayv2-vpclink-name', args=[d.arg(name='name', type=d.T.string)]),
   withName(name): { Properties+: { Name: name } },

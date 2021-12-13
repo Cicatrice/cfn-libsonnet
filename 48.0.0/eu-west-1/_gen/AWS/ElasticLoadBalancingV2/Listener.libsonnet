@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Listener', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ElasticLoadBalancingV2::Listener', Properties: { DefaultActions: if errorOnEmptyProp then (error 'You need to define DefaultActions properties for AWS::ElasticLoadBalancingV2::Listener resource') else null, LoadBalancerArn: if errorOnEmptyProp then (error 'You need to define LoadBalancerArn properties for AWS::ElasticLoadBalancingV2::Listener resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ElasticLoadBalancingV2::Listener', Properties: { LoadBalancerArn: if errorOnEmptyProp then (error 'You need to define LoadBalancerArn properties for AWS::ElasticLoadBalancingV2::Listener resource') else null, DefaultActions: if errorOnEmptyProp then (error 'You need to define DefaultActions properties for AWS::ElasticLoadBalancingV2::Listener resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAlpnPolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticloadbalancingv2-listener.html#cfn-elasticloadbalancingv2-listener-alpnpolicy', args=[d.arg(name='alpnPolicy', type=d.T.array)]),
   withAlpnPolicy(alpnPolicy): { Properties+: { AlpnPolicy: alpnPolicy } },

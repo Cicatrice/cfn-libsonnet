@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Repository', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CodeArtifact::Repository', Properties: { RepositoryName: if errorOnEmptyProp then (error 'You need to define RepositoryName properties for AWS::CodeArtifact::Repository resource') else null, DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::CodeArtifact::Repository resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CodeArtifact::Repository', Properties: { DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::CodeArtifact::Repository resource') else null, RepositoryName: if errorOnEmptyProp then (error 'You need to define RepositoryName properties for AWS::CodeArtifact::Repository resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codeartifact-repository.html#cfn-codeartifact-repository-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='PackageVersion', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Panorama::PackageVersion', Properties: { PackageVersion: if errorOnEmptyProp then (error 'You need to define PackageVersion properties for AWS::Panorama::PackageVersion resource') else null, PatchVersion: if errorOnEmptyProp then (error 'You need to define PatchVersion properties for AWS::Panorama::PackageVersion resource') else null, PackageId: if errorOnEmptyProp then (error 'You need to define PackageId properties for AWS::Panorama::PackageVersion resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withMarkLatest':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html#cfn-panorama-packageversion-marklatest', args=[d.arg(name='markLatest', type=d.T.bool)]),
+  withMarkLatest(markLatest): { Properties+: { MarkLatest: markLatest } },
+  '#withOwnerAccount':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html#cfn-panorama-packageversion-owneraccount', args=[d.arg(name='ownerAccount', type=d.T.string)]),
+  withOwnerAccount(ownerAccount): { Properties+: { OwnerAccount: ownerAccount } },
+  '#withPackageId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html#cfn-panorama-packageversion-packageid', args=[d.arg(name='packageId', type=d.T.string)]),
+  withPackageId(packageId): { Properties+: { PackageId: packageId } },
+  '#withPackageVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html#cfn-panorama-packageversion-packageversion', args=[d.arg(name='packageVersion', type=d.T.string)]),
+  withPackageVersion(packageVersion): { Properties+: { PackageVersion: packageVersion } },
+  '#withPatchVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html#cfn-panorama-packageversion-patchversion', args=[d.arg(name='patchVersion', type=d.T.string)]),
+  withPatchVersion(patchVersion): { Properties+: { PatchVersion: patchVersion } },
+  '#withUpdatedLatestPatchVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-panorama-packageversion.html#cfn-panorama-packageversion-updatedlatestpatchversion', args=[d.arg(name='updatedLatestPatchVersion', type=d.T.string)]),
+  withUpdatedLatestPatchVersion(updatedLatestPatchVersion): { Properties+: { UpdatedLatestPatchVersion: updatedLatestPatchVersion } },
+}

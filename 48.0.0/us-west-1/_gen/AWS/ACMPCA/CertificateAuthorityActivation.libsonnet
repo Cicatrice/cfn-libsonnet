@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='CertificateAuthorityActivation', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthorityactivation.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ACMPCA::CertificateAuthorityActivation', Properties: { Certificate: if errorOnEmptyProp then (error 'You need to define Certificate properties for AWS::ACMPCA::CertificateAuthorityActivation resource') else null, CertificateAuthorityArn: if errorOnEmptyProp then (error 'You need to define CertificateAuthorityArn properties for AWS::ACMPCA::CertificateAuthorityActivation resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ACMPCA::CertificateAuthorityActivation', Properties: { CertificateAuthorityArn: if errorOnEmptyProp then (error 'You need to define CertificateAuthorityArn properties for AWS::ACMPCA::CertificateAuthorityActivation resource') else null, Certificate: if errorOnEmptyProp then (error 'You need to define Certificate properties for AWS::ACMPCA::CertificateAuthorityActivation resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthorityactivation.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCertificate':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-acmpca-certificateauthorityactivation.html#cfn-acmpca-certificateauthorityactivation-certificate', args=[d.arg(name='certificate', type=d.T.string)]),
   withCertificate(certificate): { Properties+: { Certificate: certificate } },

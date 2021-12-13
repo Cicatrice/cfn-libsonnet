@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DocumentationVersion', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationversion.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGateway::DocumentationVersion', Properties: { DocumentationVersion: if errorOnEmptyProp then (error 'You need to define DocumentationVersion properties for AWS::ApiGateway::DocumentationVersion resource') else null, RestApiId: if errorOnEmptyProp then (error 'You need to define RestApiId properties for AWS::ApiGateway::DocumentationVersion resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGateway::DocumentationVersion', Properties: { RestApiId: if errorOnEmptyProp then (error 'You need to define RestApiId properties for AWS::ApiGateway::DocumentationVersion resource') else null, DocumentationVersion: if errorOnEmptyProp then (error 'You need to define DocumentationVersion properties for AWS::ApiGateway::DocumentationVersion resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationversion.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-documentationversion.html#cfn-apigateway-documentationversion-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

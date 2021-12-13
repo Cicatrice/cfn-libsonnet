@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Portfolio', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolio.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceCatalog::Portfolio', Properties: { DisplayName: if errorOnEmptyProp then (error 'You need to define DisplayName properties for AWS::ServiceCatalog::Portfolio resource') else null, ProviderName: if errorOnEmptyProp then (error 'You need to define ProviderName properties for AWS::ServiceCatalog::Portfolio resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceCatalog::Portfolio', Properties: { ProviderName: if errorOnEmptyProp then (error 'You need to define ProviderName properties for AWS::ServiceCatalog::Portfolio resource') else null, DisplayName: if errorOnEmptyProp then (error 'You need to define DisplayName properties for AWS::ServiceCatalog::Portfolio resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolio.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAcceptLanguage':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-portfolio.html#cfn-servicecatalog-portfolio-acceptlanguage', args=[d.arg(name='acceptLanguage', type=d.T.string)]),
   withAcceptLanguage(acceptLanguage): { Properties+: { AcceptLanguage: acceptLanguage } },

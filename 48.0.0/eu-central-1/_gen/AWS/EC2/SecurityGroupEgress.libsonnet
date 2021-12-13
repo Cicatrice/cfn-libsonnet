@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='SecurityGroupEgress', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::SecurityGroupEgress', Properties: { GroupId: if errorOnEmptyProp then (error 'You need to define GroupId properties for AWS::EC2::SecurityGroupEgress resource') else null, IpProtocol: if errorOnEmptyProp then (error 'You need to define IpProtocol properties for AWS::EC2::SecurityGroupEgress resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::SecurityGroupEgress', Properties: { IpProtocol: if errorOnEmptyProp then (error 'You need to define IpProtocol properties for AWS::EC2::SecurityGroupEgress resource') else null, GroupId: if errorOnEmptyProp then (error 'You need to define GroupId properties for AWS::EC2::SecurityGroupEgress resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCidrIp':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-security-group-egress.html#cfn-ec2-securitygroupegress-cidrip', args=[d.arg(name='cidrIp', type=d.T.string)]),
   withCidrIp(cidrIp): { Properties+: { CidrIp: cidrIp } },

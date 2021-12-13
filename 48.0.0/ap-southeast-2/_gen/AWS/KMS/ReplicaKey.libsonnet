@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ReplicaKey', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::KMS::ReplicaKey', Properties: { KeyPolicy: if errorOnEmptyProp then (error 'You need to define KeyPolicy properties for AWS::KMS::ReplicaKey resource') else null, PrimaryKeyArn: if errorOnEmptyProp then (error 'You need to define PrimaryKeyArn properties for AWS::KMS::ReplicaKey resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::KMS::ReplicaKey', Properties: { PrimaryKeyArn: if errorOnEmptyProp then (error 'You need to define PrimaryKeyArn properties for AWS::KMS::ReplicaKey resource') else null, KeyPolicy: if errorOnEmptyProp then (error 'You need to define KeyPolicy properties for AWS::KMS::ReplicaKey resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kms-replicakey.html#cfn-kms-replicakey-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

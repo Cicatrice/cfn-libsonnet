@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='SmsTemplate', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-smstemplate.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Pinpoint::SmsTemplate', Properties: { TemplateName: if errorOnEmptyProp then (error 'You need to define TemplateName properties for AWS::Pinpoint::SmsTemplate resource') else null, Body: if errorOnEmptyProp then (error 'You need to define Body properties for AWS::Pinpoint::SmsTemplate resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Pinpoint::SmsTemplate', Properties: { Body: if errorOnEmptyProp then (error 'You need to define Body properties for AWS::Pinpoint::SmsTemplate resource') else null, TemplateName: if errorOnEmptyProp then (error 'You need to define TemplateName properties for AWS::Pinpoint::SmsTemplate resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-smstemplate.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBody':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-smstemplate.html#cfn-pinpoint-smstemplate-body', args=[d.arg(name='body', type=d.T.string)]),
   withBody(body): { Properties+: { Body: body } },

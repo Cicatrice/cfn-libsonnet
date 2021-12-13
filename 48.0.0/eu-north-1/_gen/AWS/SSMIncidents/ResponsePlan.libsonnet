@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ResponsePlan', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SSMIncidents::ResponsePlan', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::SSMIncidents::ResponsePlan resource') else null, IncidentTemplate: if errorOnEmptyProp then (error 'You need to define IncidentTemplate properties for AWS::SSMIncidents::ResponsePlan resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SSMIncidents::ResponsePlan', Properties: { IncidentTemplate: if errorOnEmptyProp then (error 'You need to define IncidentTemplate properties for AWS::SSMIncidents::ResponsePlan resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::SSMIncidents::ResponsePlan resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withActions':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ssmincidents-responseplan.html#cfn-ssmincidents-responseplan-actions', args=[d.arg(name='actions', type=d.T.array)]),
   withActions(actions): { Properties+: { Actions: actions } },

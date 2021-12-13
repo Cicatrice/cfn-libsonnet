@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ApiDestination', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Events::ApiDestination', Properties: { ConnectionArn: if errorOnEmptyProp then (error 'You need to define ConnectionArn properties for AWS::Events::ApiDestination resource') else null, HttpMethod: if errorOnEmptyProp then (error 'You need to define HttpMethod properties for AWS::Events::ApiDestination resource') else null, InvocationEndpoint: if errorOnEmptyProp then (error 'You need to define InvocationEndpoint properties for AWS::Events::ApiDestination resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withConnectionArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-connectionarn', args=[d.arg(name='connectionArn', type=d.T.string)]),
+  withConnectionArn(connectionArn): { Properties+: { ConnectionArn: connectionArn } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withHttpMethod':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-httpmethod', args=[d.arg(name='httpMethod', type=d.T.string)]),
+  withHttpMethod(httpMethod): { Properties+: { HttpMethod: httpMethod } },
+  '#withInvocationEndpoint':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-invocationendpoint', args=[d.arg(name='invocationEndpoint', type=d.T.string)]),
+  withInvocationEndpoint(invocationEndpoint): { Properties+: { InvocationEndpoint: invocationEndpoint } },
+  '#withInvocationRateLimitPerSecond':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-invocationratelimitpersecond', args=[d.arg(name='invocationRateLimitPerSecond', type=d.T.number)]),
+  withInvocationRateLimitPerSecond(invocationRateLimitPerSecond): { Properties+: { InvocationRateLimitPerSecond: invocationRateLimitPerSecond } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-apidestination.html#cfn-events-apidestination-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+}

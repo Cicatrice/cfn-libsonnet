@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='InfrastructureConfiguration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::InfrastructureConfiguration', Properties: { InstanceProfileName: if errorOnEmptyProp then (error 'You need to define InstanceProfileName properties for AWS::ImageBuilder::InfrastructureConfiguration resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::InfrastructureConfiguration resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ImageBuilder::InfrastructureConfiguration', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ImageBuilder::InfrastructureConfiguration resource') else null, InstanceProfileName: if errorOnEmptyProp then (error 'You need to define InstanceProfileName properties for AWS::ImageBuilder::InfrastructureConfiguration resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-imagebuilder-infrastructureconfiguration.html#cfn-imagebuilder-infrastructureconfiguration-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

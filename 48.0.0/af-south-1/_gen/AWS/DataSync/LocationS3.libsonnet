@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='LocationS3', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locations3.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DataSync::LocationS3', Properties: { S3Config: if errorOnEmptyProp then (error 'You need to define S3Config properties for AWS::DataSync::LocationS3 resource') else null, S3BucketArn: if errorOnEmptyProp then (error 'You need to define S3BucketArn properties for AWS::DataSync::LocationS3 resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DataSync::LocationS3', Properties: { S3BucketArn: if errorOnEmptyProp then (error 'You need to define S3BucketArn properties for AWS::DataSync::LocationS3 resource') else null, S3Config: if errorOnEmptyProp then (error 'You need to define S3Config properties for AWS::DataSync::LocationS3 resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locations3.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withS3BucketArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locations3.html#cfn-datasync-locations3-s3bucketarn', args=[d.arg(name='s3bucketArn', type=d.T.string)]),
   withS3BucketArn(s3bucketArn): { Properties+: { S3BucketArn: s3bucketArn } },

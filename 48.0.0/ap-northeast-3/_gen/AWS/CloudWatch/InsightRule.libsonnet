@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='InsightRule', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-insightrule.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CloudWatch::InsightRule', Properties: { RuleBody: if errorOnEmptyProp then (error 'You need to define RuleBody properties for AWS::CloudWatch::InsightRule resource') else null, RuleName: if errorOnEmptyProp then (error 'You need to define RuleName properties for AWS::CloudWatch::InsightRule resource') else null, RuleState: if errorOnEmptyProp then (error 'You need to define RuleState properties for AWS::CloudWatch::InsightRule resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudWatch::InsightRule', Properties: { RuleName: if errorOnEmptyProp then (error 'You need to define RuleName properties for AWS::CloudWatch::InsightRule resource') else null, RuleState: if errorOnEmptyProp then (error 'You need to define RuleState properties for AWS::CloudWatch::InsightRule resource') else null, RuleBody: if errorOnEmptyProp then (error 'You need to define RuleBody properties for AWS::CloudWatch::InsightRule resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-insightrule.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withRuleBody':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-insightrule.html#cfn-cloudwatch-insightrule-rulebody', args=[d.arg(name='ruleBody', type=d.T.string)]),
   withRuleBody(ruleBody): { Properties+: { RuleBody: ruleBody } },
