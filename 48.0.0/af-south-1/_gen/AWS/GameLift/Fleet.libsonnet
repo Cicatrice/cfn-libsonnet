@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Fleet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::GameLift::Fleet', Properties: { EC2InstanceType: if errorOnEmptyProp then (error 'You need to define EC2InstanceType properties for AWS::GameLift::Fleet resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::GameLift::Fleet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::GameLift::Fleet', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::GameLift::Fleet resource') else null, EC2InstanceType: if errorOnEmptyProp then (error 'You need to define EC2InstanceType properties for AWS::GameLift::Fleet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBuildId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-gamelift-fleet.html#cfn-gamelift-fleet-buildid', args=[d.arg(name='buildId', type=d.T.string)]),
   withBuildId(buildId): { Properties+: { BuildId: buildId } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='MLTransform', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::MLTransform', Properties: { InputRecordTables: if errorOnEmptyProp then (error 'You need to define InputRecordTables properties for AWS::Glue::MLTransform resource') else null, Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Glue::MLTransform resource') else null, TransformParameters: if errorOnEmptyProp then (error 'You need to define TransformParameters properties for AWS::Glue::MLTransform resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::MLTransform', Properties: { TransformParameters: if errorOnEmptyProp then (error 'You need to define TransformParameters properties for AWS::Glue::MLTransform resource') else null, InputRecordTables: if errorOnEmptyProp then (error 'You need to define InputRecordTables properties for AWS::Glue::MLTransform resource') else null, Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Glue::MLTransform resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-mltransform.html#cfn-glue-mltransform-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

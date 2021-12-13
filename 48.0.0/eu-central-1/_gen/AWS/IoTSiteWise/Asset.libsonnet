@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Asset', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoTSiteWise::Asset', Properties: { AssetName: if errorOnEmptyProp then (error 'You need to define AssetName properties for AWS::IoTSiteWise::Asset resource') else null, AssetModelId: if errorOnEmptyProp then (error 'You need to define AssetModelId properties for AWS::IoTSiteWise::Asset resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTSiteWise::Asset', Properties: { AssetModelId: if errorOnEmptyProp then (error 'You need to define AssetModelId properties for AWS::IoTSiteWise::Asset resource') else null, AssetName: if errorOnEmptyProp then (error 'You need to define AssetName properties for AWS::IoTSiteWise::Asset resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAssetHierarchies':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-asset.html#cfn-iotsitewise-asset-assethierarchies', args=[d.arg(name='assetHierarchies', type=d.T.array)]),
   withAssetHierarchies(assetHierarchies): { Properties+: { AssetHierarchies: assetHierarchies } },

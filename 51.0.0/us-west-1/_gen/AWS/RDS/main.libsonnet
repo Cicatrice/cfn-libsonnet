@@ -1,0 +1,17 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='RDS', url='', help=''),
+  DBCluster:: (import 'DBCluster.libsonnet'),
+  DBClusterParameterGroup:: (import 'DBClusterParameterGroup.libsonnet'),
+  DBInstance:: (import 'DBInstance.libsonnet'),
+  DBParameterGroup:: (import 'DBParameterGroup.libsonnet'),
+  DBProxy:: (import 'DBProxy.libsonnet'),
+  DBProxyEndpoint:: (import 'DBProxyEndpoint.libsonnet'),
+  DBProxyTargetGroup:: (import 'DBProxyTargetGroup.libsonnet'),
+  DBSecurityGroup:: (import 'DBSecurityGroup.libsonnet'),
+  DBSecurityGroupIngress:: (import 'DBSecurityGroupIngress.libsonnet'),
+  DBSubnetGroup:: (import 'DBSubnetGroup.libsonnet'),
+  EventSubscription:: (import 'EventSubscription.libsonnet'),
+  GlobalCluster:: (import 'GlobalCluster.libsonnet'),
+  OptionGroup:: (import 'OptionGroup.libsonnet'),
+}

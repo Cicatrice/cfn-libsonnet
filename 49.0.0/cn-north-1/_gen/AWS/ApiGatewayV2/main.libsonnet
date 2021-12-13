@@ -1,0 +1,17 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ApiGatewayV2', url='', help=''),
+  Api:: (import 'Api.libsonnet'),
+  ApiGatewayManagedOverrides:: (import 'ApiGatewayManagedOverrides.libsonnet'),
+  ApiMapping:: (import 'ApiMapping.libsonnet'),
+  Authorizer:: (import 'Authorizer.libsonnet'),
+  Deployment:: (import 'Deployment.libsonnet'),
+  DomainName:: (import 'DomainName.libsonnet'),
+  Integration:: (import 'Integration.libsonnet'),
+  IntegrationResponse:: (import 'IntegrationResponse.libsonnet'),
+  Model:: (import 'Model.libsonnet'),
+  Route:: (import 'Route.libsonnet'),
+  RouteResponse:: (import 'RouteResponse.libsonnet'),
+  Stage:: (import 'Stage.libsonnet'),
+  VpcLink:: (import 'VpcLink.libsonnet'),
+}

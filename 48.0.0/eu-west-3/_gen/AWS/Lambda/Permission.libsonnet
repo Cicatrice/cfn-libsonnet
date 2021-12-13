@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Permission', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Lambda::Permission', Properties: { Action: if errorOnEmptyProp then (error 'You need to define Action properties for AWS::Lambda::Permission resource') else null, FunctionName: if errorOnEmptyProp then (error 'You need to define FunctionName properties for AWS::Lambda::Permission resource') else null, Principal: if errorOnEmptyProp then (error 'You need to define Principal properties for AWS::Lambda::Permission resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Lambda::Permission', Properties: { FunctionName: if errorOnEmptyProp then (error 'You need to define FunctionName properties for AWS::Lambda::Permission resource') else null, Principal: if errorOnEmptyProp then (error 'You need to define Principal properties for AWS::Lambda::Permission resource') else null, Action: if errorOnEmptyProp then (error 'You need to define Action properties for AWS::Lambda::Permission resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAction':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-permission.html#cfn-lambda-permission-action', args=[d.arg(name='action', type=d.T.string)]),
   withAction(action): { Properties+: { Action: action } },

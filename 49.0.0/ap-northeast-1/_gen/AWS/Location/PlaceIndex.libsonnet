@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='PlaceIndex', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Location::PlaceIndex', Properties: { IndexName: if errorOnEmptyProp then (error 'You need to define IndexName properties for AWS::Location::PlaceIndex resource') else null, PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::PlaceIndex resource') else null, DataSource: if errorOnEmptyProp then (error 'You need to define DataSource properties for AWS::Location::PlaceIndex resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDataSource':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-datasource', args=[d.arg(name='dataSource', type=d.T.string)]),
+  withDataSource(dataSource): { Properties+: { DataSource: dataSource } },
+  '#withDataSourceConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-datasourceconfiguration', args=[d.arg(name='dataSourceConfiguration', type=d.T.object)]),
+  withDataSourceConfiguration(dataSourceConfiguration): { Properties+: { DataSourceConfiguration: dataSourceConfiguration } },
+  '#withDataSourceConfigurationMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-datasourceconfiguration', args=[d.arg(name='dataSourceConfiguration', type=d.T.object)]),
+  withDataSourceConfigurationMixin(dataSourceConfiguration): { Properties+: { DataSourceConfiguration+: dataSourceConfiguration } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withIndexName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-indexname', args=[d.arg(name='indexName', type=d.T.string)]),
+  withIndexName(indexName): { Properties+: { IndexName: indexName } },
+  '#withPricingPlan':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-placeindex.html#cfn-location-placeindex-pricingplan', args=[d.arg(name='pricingPlan', type=d.T.string)]),
+  withPricingPlan(pricingPlan): { Properties+: { PricingPlan: pricingPlan } },
+}

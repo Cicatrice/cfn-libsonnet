@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='WebACL', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::WAF::WebACL', Properties: { DefaultAction: if errorOnEmptyProp then (error 'You need to define DefaultAction properties for AWS::WAF::WebACL resource') else null, MetricName: if errorOnEmptyProp then (error 'You need to define MetricName properties for AWS::WAF::WebACL resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::WAF::WebACL resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::WAF::WebACL', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::WAF::WebACL resource') else null, DefaultAction: if errorOnEmptyProp then (error 'You need to define DefaultAction properties for AWS::WAF::WebACL resource') else null, MetricName: if errorOnEmptyProp then (error 'You need to define MetricName properties for AWS::WAF::WebACL resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDefaultAction':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-waf-webacl.html#cfn-waf-webacl-defaultaction', args=[d.arg(name='defaultAction', type=d.T.object)]),
   withDefaultAction(defaultAction): { Properties+: { DefaultAction: defaultAction } },

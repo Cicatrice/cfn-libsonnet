@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='GlobalCluster', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::GlobalCluster', Properties: {} },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDeletionProtection':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html#cfn-rds-globalcluster-deletionprotection', args=[d.arg(name='deletionProtection', type=d.T.bool)]),
+  withDeletionProtection(deletionProtection): { Properties+: { DeletionProtection: deletionProtection } },
+  '#withEngine':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html#cfn-rds-globalcluster-engine', args=[d.arg(name='engine', type=d.T.string)]),
+  withEngine(engine): { Properties+: { Engine: engine } },
+  '#withEngineVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html#cfn-rds-globalcluster-engineversion', args=[d.arg(name='engineVersion', type=d.T.string)]),
+  withEngineVersion(engineVersion): { Properties+: { EngineVersion: engineVersion } },
+  '#withGlobalClusterIdentifier':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html#cfn-rds-globalcluster-globalclusteridentifier', args=[d.arg(name='globalClusterIdentifier', type=d.T.string)]),
+  withGlobalClusterIdentifier(globalClusterIdentifier): { Properties+: { GlobalClusterIdentifier: globalClusterIdentifier } },
+  '#withSourceDBClusterIdentifier':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html#cfn-rds-globalcluster-sourcedbclusteridentifier', args=[d.arg(name='sourceDbclusterIdentifier', type=d.T.string)]),
+  withSourceDBClusterIdentifier(sourceDbclusterIdentifier): { Properties+: { SourceDBClusterIdentifier: sourceDbclusterIdentifier } },
+  '#withStorageEncrypted':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rds-globalcluster.html#cfn-rds-globalcluster-storageencrypted', args=[d.arg(name='storageEncrypted', type=d.T.bool)]),
+  withStorageEncrypted(storageEncrypted): { Properties+: { StorageEncrypted: storageEncrypted } },
+}

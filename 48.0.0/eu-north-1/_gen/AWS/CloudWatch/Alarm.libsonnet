@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Alarm', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CloudWatch::Alarm', Properties: { ComparisonOperator: if errorOnEmptyProp then (error 'You need to define ComparisonOperator properties for AWS::CloudWatch::Alarm resource') else null, EvaluationPeriods: if errorOnEmptyProp then (error 'You need to define EvaluationPeriods properties for AWS::CloudWatch::Alarm resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudWatch::Alarm', Properties: { EvaluationPeriods: if errorOnEmptyProp then (error 'You need to define EvaluationPeriods properties for AWS::CloudWatch::Alarm resource') else null, ComparisonOperator: if errorOnEmptyProp then (error 'You need to define ComparisonOperator properties for AWS::CloudWatch::Alarm resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withActionsEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-cw-alarm.html#cfn-cloudwatch-alarms-actionsenabled', args=[d.arg(name='actionsEnabled', type=d.T.bool)]),
   withActionsEnabled(actionsEnabled): { Properties+: { ActionsEnabled: actionsEnabled } },

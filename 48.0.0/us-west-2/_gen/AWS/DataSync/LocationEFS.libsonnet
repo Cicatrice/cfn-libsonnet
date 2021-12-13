@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='LocationEFS', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationefs.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DataSync::LocationEFS', Properties: { Ec2Config: if errorOnEmptyProp then (error 'You need to define Ec2Config properties for AWS::DataSync::LocationEFS resource') else null, EfsFilesystemArn: if errorOnEmptyProp then (error 'You need to define EfsFilesystemArn properties for AWS::DataSync::LocationEFS resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DataSync::LocationEFS', Properties: { EfsFilesystemArn: if errorOnEmptyProp then (error 'You need to define EfsFilesystemArn properties for AWS::DataSync::LocationEFS resource') else null, Ec2Config: if errorOnEmptyProp then (error 'You need to define Ec2Config properties for AWS::DataSync::LocationEFS resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationefs.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withEc2Config':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-datasync-locationefs.html#cfn-datasync-locationefs-ec2config', args=[d.arg(name='ec2config', type=d.T.object)]),
   withEc2Config(ec2config): { Properties+: { Ec2Config: ec2config } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Application', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::KinesisAnalyticsV2::Application', Properties: { ServiceExecutionRole: if errorOnEmptyProp then (error 'You need to define ServiceExecutionRole properties for AWS::KinesisAnalyticsV2::Application resource') else null, RuntimeEnvironment: if errorOnEmptyProp then (error 'You need to define RuntimeEnvironment properties for AWS::KinesisAnalyticsV2::Application resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::KinesisAnalyticsV2::Application', Properties: { RuntimeEnvironment: if errorOnEmptyProp then (error 'You need to define RuntimeEnvironment properties for AWS::KinesisAnalyticsV2::Application resource') else null, ServiceExecutionRole: if errorOnEmptyProp then (error 'You need to define ServiceExecutionRole properties for AWS::KinesisAnalyticsV2::Application resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApplicationConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kinesisanalyticsv2-application.html#cfn-kinesisanalyticsv2-application-applicationconfiguration', args=[d.arg(name='applicationConfiguration', type=d.T.object)]),
   withApplicationConfiguration(applicationConfiguration): { Properties+: { ApplicationConfiguration: applicationConfiguration } },

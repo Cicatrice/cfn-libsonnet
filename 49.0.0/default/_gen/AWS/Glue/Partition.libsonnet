@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Partition', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Partition', Properties: { CatalogId: if errorOnEmptyProp then (error 'You need to define CatalogId properties for AWS::Glue::Partition resource') else null, DatabaseName: if errorOnEmptyProp then (error 'You need to define DatabaseName properties for AWS::Glue::Partition resource') else null, PartitionInput: if errorOnEmptyProp then (error 'You need to define PartitionInput properties for AWS::Glue::Partition resource') else null, TableName: if errorOnEmptyProp then (error 'You need to define TableName properties for AWS::Glue::Partition resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCatalogId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html#cfn-glue-partition-catalogid', args=[d.arg(name='catalogId', type=d.T.string)]),
+  withCatalogId(catalogId): { Properties+: { CatalogId: catalogId } },
+  '#withDatabaseName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html#cfn-glue-partition-databasename', args=[d.arg(name='databaseName', type=d.T.string)]),
+  withDatabaseName(databaseName): { Properties+: { DatabaseName: databaseName } },
+  '#withPartitionInput':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html#cfn-glue-partition-partitioninput', args=[d.arg(name='partitionInput', type=d.T.object)]),
+  withPartitionInput(partitionInput): { Properties+: { PartitionInput: partitionInput } },
+  '#withPartitionInputMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html#cfn-glue-partition-partitioninput', args=[d.arg(name='partitionInput', type=d.T.object)]),
+  withPartitionInputMixin(partitionInput): { Properties+: { PartitionInput+: partitionInput } },
+  '#withTableName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-partition.html#cfn-glue-partition-tablename', args=[d.arg(name='tableName', type=d.T.string)]),
+  withTableName(tableName): { Properties+: { TableName: tableName } },
+}

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ImageBuilder', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::ImageBuilder', Properties: { InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::AppStream::ImageBuilder resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppStream::ImageBuilder resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::ImageBuilder', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppStream::ImageBuilder resource') else null, InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::AppStream::ImageBuilder resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAccessEndpoints':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-imagebuilder.html#cfn-appstream-imagebuilder-accessendpoints', args=[d.arg(name='accessEndpoints', type=d.T.array)]),
   withAccessEndpoints(accessEndpoints): { Properties+: { AccessEndpoints: accessEndpoints } },

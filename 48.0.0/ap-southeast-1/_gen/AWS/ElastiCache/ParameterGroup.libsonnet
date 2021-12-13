@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ParameterGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ElastiCache::ParameterGroup', Properties: { CacheParameterGroupFamily: if errorOnEmptyProp then (error 'You need to define CacheParameterGroupFamily properties for AWS::ElastiCache::ParameterGroup resource') else null, Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::ElastiCache::ParameterGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ElastiCache::ParameterGroup', Properties: { Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::ElastiCache::ParameterGroup resource') else null, CacheParameterGroupFamily: if errorOnEmptyProp then (error 'You need to define CacheParameterGroupFamily properties for AWS::ElastiCache::ParameterGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCacheParameterGroupFamily':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html#cfn-elasticache-parametergroup-cacheparametergroupfamily', args=[d.arg(name='cacheParameterGroupFamily', type=d.T.string)]),
   withCacheParameterGroupFamily(cacheParameterGroupFamily): { Properties+: { CacheParameterGroupFamily: cacheParameterGroupFamily } },

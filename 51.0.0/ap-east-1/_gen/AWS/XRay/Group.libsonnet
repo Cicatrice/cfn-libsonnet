@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Group', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::XRay::Group', Properties: {} },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withFilterExpression':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-filterexpression', args=[d.arg(name='filterExpression', type=d.T.string)]),
+  withFilterExpression(filterExpression): { Properties+: { FilterExpression: filterExpression } },
+  '#withGroupName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-groupname', args=[d.arg(name='groupName', type=d.T.string)]),
+  withGroupName(groupName): { Properties+: { GroupName: groupName } },
+  '#withInsightsConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-insightsconfiguration', args=[d.arg(name='insightsConfiguration', type=d.T.object)]),
+  withInsightsConfiguration(insightsConfiguration): { Properties+: { InsightsConfiguration: insightsConfiguration } },
+  '#withInsightsConfigurationMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-insightsconfiguration', args=[d.arg(name='insightsConfiguration', type=d.T.object)]),
+  withInsightsConfigurationMixin(insightsConfiguration): { Properties+: { InsightsConfiguration+: insightsConfiguration } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-xray-group.html#cfn-xray-group-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

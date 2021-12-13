@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Authorizer', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Authorizer', Properties: { ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Authorizer resource') else null, AuthorizerType: if errorOnEmptyProp then (error 'You need to define AuthorizerType properties for AWS::ApiGatewayV2::Authorizer resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ApiGatewayV2::Authorizer resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Authorizer', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ApiGatewayV2::Authorizer resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Authorizer resource') else null, AuthorizerType: if errorOnEmptyProp then (error 'You need to define AuthorizerType properties for AWS::ApiGatewayV2::Authorizer resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApiId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-authorizer.html#cfn-apigatewayv2-authorizer-apiid', args=[d.arg(name='apiId', type=d.T.string)]),
   withApiId(apiId): { Properties+: { ApiId: apiId } },

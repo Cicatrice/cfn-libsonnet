@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Application', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTFleetHub::Application', Properties: { ApplicationName: if errorOnEmptyProp then (error 'You need to define ApplicationName properties for AWS::IoTFleetHub::Application resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoTFleetHub::Application resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withApplicationDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-applicationdescription', args=[d.arg(name='applicationDescription', type=d.T.string)]),
+  withApplicationDescription(applicationDescription): { Properties+: { ApplicationDescription: applicationDescription } },
+  '#withApplicationName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-applicationname', args=[d.arg(name='applicationName', type=d.T.string)]),
+  withApplicationName(applicationName): { Properties+: { ApplicationName: applicationName } },
+  '#withRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-rolearn', args=[d.arg(name='roleArn', type=d.T.string)]),
+  withRoleArn(roleArn): { Properties+: { RoleArn: roleArn } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

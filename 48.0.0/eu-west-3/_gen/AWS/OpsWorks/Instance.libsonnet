@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Instance', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::OpsWorks::Instance', Properties: { StackId: if errorOnEmptyProp then (error 'You need to define StackId properties for AWS::OpsWorks::Instance resource') else null, LayerIds: if errorOnEmptyProp then (error 'You need to define LayerIds properties for AWS::OpsWorks::Instance resource') else null, InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::OpsWorks::Instance resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::OpsWorks::Instance', Properties: { InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::OpsWorks::Instance resource') else null, StackId: if errorOnEmptyProp then (error 'You need to define StackId properties for AWS::OpsWorks::Instance resource') else null, LayerIds: if errorOnEmptyProp then (error 'You need to define LayerIds properties for AWS::OpsWorks::Instance resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAgentVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-instance.html#cfn-opsworks-instance-agentversion', args=[d.arg(name='agentVersion', type=d.T.string)]),
   withAgentVersion(agentVersion): { Properties+: { AgentVersion: agentVersion } },

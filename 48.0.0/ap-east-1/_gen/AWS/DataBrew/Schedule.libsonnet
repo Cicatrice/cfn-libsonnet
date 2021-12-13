@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Schedule', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DataBrew::Schedule', Properties: { CronExpression: if errorOnEmptyProp then (error 'You need to define CronExpression properties for AWS::DataBrew::Schedule resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::DataBrew::Schedule resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DataBrew::Schedule', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::DataBrew::Schedule resource') else null, CronExpression: if errorOnEmptyProp then (error 'You need to define CronExpression properties for AWS::DataBrew::Schedule resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCronExpression':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-schedule.html#cfn-databrew-schedule-cronexpression', args=[d.arg(name='cronExpression', type=d.T.string)]),
   withCronExpression(cronExpression): { Properties+: { CronExpression: cronExpression } },

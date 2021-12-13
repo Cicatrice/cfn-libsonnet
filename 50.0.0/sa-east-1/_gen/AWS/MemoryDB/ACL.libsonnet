@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ACL', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::MemoryDB::ACL', Properties: { ACLName: if errorOnEmptyProp then (error 'You need to define ACLName properties for AWS::MemoryDB::ACL resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withACLName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html#cfn-memorydb-acl-aclname', args=[d.arg(name='aclname', type=d.T.string)]),
+  withACLName(aclname): { Properties+: { ACLName: aclname } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html#cfn-memorydb-acl-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html#cfn-memorydb-acl-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+  '#withUserNames':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html#cfn-memorydb-acl-usernames', args=[d.arg(name='userNames', type=d.T.array)]),
+  withUserNames(userNames): { Properties+: { UserNames: userNames } },
+  '#withUserNamesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-memorydb-acl.html#cfn-memorydb-acl-usernames', args=[d.arg(name='userNames', type=d.T.array)]),
+  withUserNamesMixin(userNames): { Properties+: { UserNames+: userNames } },
+}

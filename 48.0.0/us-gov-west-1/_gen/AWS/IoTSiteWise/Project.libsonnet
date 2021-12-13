@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Project', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-project.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoTSiteWise::Project', Properties: { ProjectName: if errorOnEmptyProp then (error 'You need to define ProjectName properties for AWS::IoTSiteWise::Project resource') else null, PortalId: if errorOnEmptyProp then (error 'You need to define PortalId properties for AWS::IoTSiteWise::Project resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTSiteWise::Project', Properties: { PortalId: if errorOnEmptyProp then (error 'You need to define PortalId properties for AWS::IoTSiteWise::Project resource') else null, ProjectName: if errorOnEmptyProp then (error 'You need to define ProjectName properties for AWS::IoTSiteWise::Project resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-project.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withPortalId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-project.html#cfn-iotsitewise-project-portalid', args=[d.arg(name='portalId', type=d.T.string)]),
   withPortalId(portalId): { Properties+: { PortalId: portalId } },

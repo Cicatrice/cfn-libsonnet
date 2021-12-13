@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='MitigationAction', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-mitigationaction.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::MitigationAction', Properties: { ActionParams: if errorOnEmptyProp then (error 'You need to define ActionParams properties for AWS::IoT::MitigationAction resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoT::MitigationAction resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::MitigationAction', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoT::MitigationAction resource') else null, ActionParams: if errorOnEmptyProp then (error 'You need to define ActionParams properties for AWS::IoT::MitigationAction resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-mitigationaction.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withActionName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-mitigationaction.html#cfn-iot-mitigationaction-actionname', args=[d.arg(name='actionName', type=d.T.string)]),
   withActionName(actionName): { Properties+: { ActionName: actionName } },

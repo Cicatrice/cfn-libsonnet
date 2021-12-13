@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Function', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Lambda::Function', Properties: { Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Lambda::Function resource') else null, Code: if errorOnEmptyProp then (error 'You need to define Code properties for AWS::Lambda::Function resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Lambda::Function', Properties: { Code: if errorOnEmptyProp then (error 'You need to define Code properties for AWS::Lambda::Function resource') else null, Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Lambda::Function resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withArchitectures':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-function.html#cfn-lambda-function-architectures', args=[d.arg(name='architectures', type=d.T.array)]),
   withArchitectures(architectures): { Properties+: { Architectures: architectures } },

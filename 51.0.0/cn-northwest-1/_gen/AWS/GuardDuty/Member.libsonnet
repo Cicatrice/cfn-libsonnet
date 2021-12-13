@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Member', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::GuardDuty::Member', Properties: { Email: if errorOnEmptyProp then (error 'You need to define Email properties for AWS::GuardDuty::Member resource') else null, MemberId: if errorOnEmptyProp then (error 'You need to define MemberId properties for AWS::GuardDuty::Member resource') else null, DetectorId: if errorOnEmptyProp then (error 'You need to define DetectorId properties for AWS::GuardDuty::Member resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDetectorId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html#cfn-guardduty-member-detectorid', args=[d.arg(name='detectorId', type=d.T.string)]),
+  withDetectorId(detectorId): { Properties+: { DetectorId: detectorId } },
+  '#withDisableEmailNotification':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html#cfn-guardduty-member-disableemailnotification', args=[d.arg(name='disableEmailNotification', type=d.T.bool)]),
+  withDisableEmailNotification(disableEmailNotification): { Properties+: { DisableEmailNotification: disableEmailNotification } },
+  '#withEmail':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html#cfn-guardduty-member-email', args=[d.arg(name='email', type=d.T.string)]),
+  withEmail(email): { Properties+: { Email: email } },
+  '#withMemberId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html#cfn-guardduty-member-memberid', args=[d.arg(name='memberId', type=d.T.string)]),
+  withMemberId(memberId): { Properties+: { MemberId: memberId } },
+  '#withMessage':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html#cfn-guardduty-member-message', args=[d.arg(name='message', type=d.T.string)]),
+  withMessage(message): { Properties+: { Message: message } },
+  '#withStatus':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html#cfn-guardduty-member-status', args=[d.arg(name='status', type=d.T.string)]),
+  withStatus(status): { Properties+: { Status: status } },
+}

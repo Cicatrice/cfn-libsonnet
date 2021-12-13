@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Archive', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Events::Archive', Properties: { SourceArn: if errorOnEmptyProp then (error 'You need to define SourceArn properties for AWS::Events::Archive resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withArchiveName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-archivename', args=[d.arg(name='archiveName', type=d.T.string)]),
+  withArchiveName(archiveName): { Properties+: { ArchiveName: archiveName } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withEventPattern':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-eventpattern', args=[d.arg(name='eventPattern', type=d.T.object)]),
+  withEventPattern(eventPattern): { Properties+: { EventPattern: eventPattern } },
+  '#withEventPatternMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-eventpattern', args=[d.arg(name='eventPattern', type=d.T.object)]),
+  withEventPatternMixin(eventPattern): { Properties+: { EventPattern+: eventPattern } },
+  '#withRetentionDays':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-retentiondays', args=[d.arg(name='retentionDays', type=d.T.number)]),
+  withRetentionDays(retentionDays): { Properties+: { RetentionDays: retentionDays } },
+  '#withSourceArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-events-archive.html#cfn-events-archive-sourcearn', args=[d.arg(name='sourceArn', type=d.T.string)]),
+  withSourceArn(sourceArn): { Properties+: { SourceArn: sourceArn } },
+}

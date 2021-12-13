@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='RuleGroupsNamespace', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-aps-rulegroupsnamespace.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::APS::RuleGroupsNamespace', Properties: { Workspace: if errorOnEmptyProp then (error 'You need to define Workspace properties for AWS::APS::RuleGroupsNamespace resource') else null, Data: if errorOnEmptyProp then (error 'You need to define Data properties for AWS::APS::RuleGroupsNamespace resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::APS::RuleGroupsNamespace', Properties: { Data: if errorOnEmptyProp then (error 'You need to define Data properties for AWS::APS::RuleGroupsNamespace resource') else null, Workspace: if errorOnEmptyProp then (error 'You need to define Workspace properties for AWS::APS::RuleGroupsNamespace resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-aps-rulegroupsnamespace.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withData':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-aps-rulegroupsnamespace.html#cfn-aps-rulegroupsnamespace-data', args=[d.arg(name='data', type=d.T.string)]),
   withData(data): { Properties+: { Data: data } },

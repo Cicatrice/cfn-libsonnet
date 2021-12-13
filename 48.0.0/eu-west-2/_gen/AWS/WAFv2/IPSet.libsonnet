@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='IPSet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-ipset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::WAFv2::IPSet', Properties: { IPAddressVersion: if errorOnEmptyProp then (error 'You need to define IPAddressVersion properties for AWS::WAFv2::IPSet resource') else null, Scope: if errorOnEmptyProp then (error 'You need to define Scope properties for AWS::WAFv2::IPSet resource') else null, Addresses: if errorOnEmptyProp then (error 'You need to define Addresses properties for AWS::WAFv2::IPSet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::WAFv2::IPSet', Properties: { Addresses: if errorOnEmptyProp then (error 'You need to define Addresses properties for AWS::WAFv2::IPSet resource') else null, IPAddressVersion: if errorOnEmptyProp then (error 'You need to define IPAddressVersion properties for AWS::WAFv2::IPSet resource') else null, Scope: if errorOnEmptyProp then (error 'You need to define Scope properties for AWS::WAFv2::IPSet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-ipset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAddresses':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-ipset.html#cfn-wafv2-ipset-addresses', args=[d.arg(name='addresses', type=d.T.array)]),
   withAddresses(addresses): { Properties+: { Addresses: addresses } },

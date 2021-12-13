@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='VPCEndpoint', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPCEndpoint', Properties: { VpcId: if errorOnEmptyProp then (error 'You need to define VpcId properties for AWS::EC2::VPCEndpoint resource') else null, ServiceName: if errorOnEmptyProp then (error 'You need to define ServiceName properties for AWS::EC2::VPCEndpoint resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPCEndpoint', Properties: { ServiceName: if errorOnEmptyProp then (error 'You need to define ServiceName properties for AWS::EC2::VPCEndpoint resource') else null, VpcId: if errorOnEmptyProp then (error 'You need to define VpcId properties for AWS::EC2::VPCEndpoint resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withPolicyDocument':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpoint.html#cfn-ec2-vpcendpoint-policydocument', args=[d.arg(name='policyDocument', type=d.T.object)]),
   withPolicyDocument(policyDocument): { Properties+: { PolicyDocument: policyDocument } },

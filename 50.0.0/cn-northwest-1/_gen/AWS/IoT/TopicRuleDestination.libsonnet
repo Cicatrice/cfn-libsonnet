@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='TopicRuleDestination', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::TopicRuleDestination', Properties: {} },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withHttpUrlProperties':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-httpurlproperties', args=[d.arg(name='httpUrlProperties', type=d.T.object)]),
+  withHttpUrlProperties(httpUrlProperties): { Properties+: { HttpUrlProperties: httpUrlProperties } },
+  '#withHttpUrlPropertiesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-httpurlproperties', args=[d.arg(name='httpUrlProperties', type=d.T.object)]),
+  withHttpUrlPropertiesMixin(httpUrlProperties): { Properties+: { HttpUrlProperties+: httpUrlProperties } },
+  '#withStatus':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-status', args=[d.arg(name='status', type=d.T.string)]),
+  withStatus(status): { Properties+: { Status: status } },
+  '#withVpcProperties':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-vpcproperties', args=[d.arg(name='vpcProperties', type=d.T.object)]),
+  withVpcProperties(vpcProperties): { Properties+: { VpcProperties: vpcProperties } },
+  '#withVpcPropertiesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-topicruledestination.html#cfn-iot-topicruledestination-vpcproperties', args=[d.arg(name='vpcProperties', type=d.T.object)]),
+  withVpcPropertiesMixin(vpcProperties): { Properties+: { VpcProperties+: vpcProperties } },
+}

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='OriginEndpoint', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::MediaPackage::OriginEndpoint', Properties: { ChannelId: if errorOnEmptyProp then (error 'You need to define ChannelId properties for AWS::MediaPackage::OriginEndpoint resource') else null, Id: if errorOnEmptyProp then (error 'You need to define Id properties for AWS::MediaPackage::OriginEndpoint resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::MediaPackage::OriginEndpoint', Properties: { Id: if errorOnEmptyProp then (error 'You need to define Id properties for AWS::MediaPackage::OriginEndpoint resource') else null, ChannelId: if errorOnEmptyProp then (error 'You need to define ChannelId properties for AWS::MediaPackage::OriginEndpoint resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAuthorization':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediapackage-originendpoint.html#cfn-mediapackage-originendpoint-authorization', args=[d.arg(name='authorization', type=d.T.object)]),
   withAuthorization(authorization): { Properties+: { Authorization: authorization } },

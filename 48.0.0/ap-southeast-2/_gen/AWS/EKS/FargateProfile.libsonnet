@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='FargateProfile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::FargateProfile', Properties: { PodExecutionRoleArn: if errorOnEmptyProp then (error 'You need to define PodExecutionRoleArn properties for AWS::EKS::FargateProfile resource') else null, Selectors: if errorOnEmptyProp then (error 'You need to define Selectors properties for AWS::EKS::FargateProfile resource') else null, ClusterName: if errorOnEmptyProp then (error 'You need to define ClusterName properties for AWS::EKS::FargateProfile resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::FargateProfile', Properties: { Selectors: if errorOnEmptyProp then (error 'You need to define Selectors properties for AWS::EKS::FargateProfile resource') else null, ClusterName: if errorOnEmptyProp then (error 'You need to define ClusterName properties for AWS::EKS::FargateProfile resource') else null, PodExecutionRoleArn: if errorOnEmptyProp then (error 'You need to define PodExecutionRoleArn properties for AWS::EKS::FargateProfile resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withClusterName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-fargateprofile.html#cfn-eks-fargateprofile-clustername', args=[d.arg(name='clusterName', type=d.T.string)]),
   withClusterName(clusterName): { Properties+: { ClusterName: clusterName } },

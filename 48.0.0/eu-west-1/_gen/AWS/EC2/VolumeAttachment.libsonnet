@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='VolumeAttachment', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volumeattachment.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VolumeAttachment', Properties: { InstanceId: if errorOnEmptyProp then (error 'You need to define InstanceId properties for AWS::EC2::VolumeAttachment resource') else null, VolumeId: if errorOnEmptyProp then (error 'You need to define VolumeId properties for AWS::EC2::VolumeAttachment resource') else null, Device: if errorOnEmptyProp then (error 'You need to define Device properties for AWS::EC2::VolumeAttachment resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VolumeAttachment', Properties: { Device: if errorOnEmptyProp then (error 'You need to define Device properties for AWS::EC2::VolumeAttachment resource') else null, InstanceId: if errorOnEmptyProp then (error 'You need to define InstanceId properties for AWS::EC2::VolumeAttachment resource') else null, VolumeId: if errorOnEmptyProp then (error 'You need to define VolumeId properties for AWS::EC2::VolumeAttachment resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volumeattachment.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDevice':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-ec2-ebs-volumeattachment.html#cfn-ec2-ebs-volumeattachment-device', args=[d.arg(name='device', type=d.T.string)]),
   withDevice(device): { Properties+: { Device: device } },

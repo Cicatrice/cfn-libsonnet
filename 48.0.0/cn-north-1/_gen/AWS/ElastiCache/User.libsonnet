@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='User', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ElastiCache::User', Properties: { Engine: if errorOnEmptyProp then (error 'You need to define Engine properties for AWS::ElastiCache::User resource') else null, UserId: if errorOnEmptyProp then (error 'You need to define UserId properties for AWS::ElastiCache::User resource') else null, UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::ElastiCache::User resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ElastiCache::User', Properties: { UserId: if errorOnEmptyProp then (error 'You need to define UserId properties for AWS::ElastiCache::User resource') else null, UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::ElastiCache::User resource') else null, Engine: if errorOnEmptyProp then (error 'You need to define Engine properties for AWS::ElastiCache::User resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAccessString':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-user.html#cfn-elasticache-user-accessstring', args=[d.arg(name='accessString', type=d.T.string)]),
   withAccessString(accessString): { Properties+: { AccessString: accessString } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='LoggingConfiguration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::WAFv2::LoggingConfiguration', Properties: { LogDestinationConfigs: if errorOnEmptyProp then (error 'You need to define LogDestinationConfigs properties for AWS::WAFv2::LoggingConfiguration resource') else null, ResourceArn: if errorOnEmptyProp then (error 'You need to define ResourceArn properties for AWS::WAFv2::LoggingConfiguration resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::WAFv2::LoggingConfiguration', Properties: { ResourceArn: if errorOnEmptyProp then (error 'You need to define ResourceArn properties for AWS::WAFv2::LoggingConfiguration resource') else null, LogDestinationConfigs: if errorOnEmptyProp then (error 'You need to define LogDestinationConfigs properties for AWS::WAFv2::LoggingConfiguration resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withLogDestinationConfigs':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-wafv2-loggingconfiguration.html#cfn-wafv2-loggingconfiguration-logdestinationconfigs', args=[d.arg(name='logDestinationConfigs', type=d.T.array)]),
   withLogDestinationConfigs(logDestinationConfigs): { Properties+: { LogDestinationConfigs: logDestinationConfigs } },

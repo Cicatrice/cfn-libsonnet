@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Table', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-table.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Table', Properties: { CatalogId: if errorOnEmptyProp then (error 'You need to define CatalogId properties for AWS::Glue::Table resource') else null, DatabaseName: if errorOnEmptyProp then (error 'You need to define DatabaseName properties for AWS::Glue::Table resource') else null, TableInput: if errorOnEmptyProp then (error 'You need to define TableInput properties for AWS::Glue::Table resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Glue::Table', Properties: { TableInput: if errorOnEmptyProp then (error 'You need to define TableInput properties for AWS::Glue::Table resource') else null, CatalogId: if errorOnEmptyProp then (error 'You need to define CatalogId properties for AWS::Glue::Table resource') else null, DatabaseName: if errorOnEmptyProp then (error 'You need to define DatabaseName properties for AWS::Glue::Table resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-table.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCatalogId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-glue-table.html#cfn-glue-table-catalogid', args=[d.arg(name='catalogId', type=d.T.string)]),
   withCatalogId(catalogId): { Properties+: { CatalogId: catalogId } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='PrefixList', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-prefixlist.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::PrefixList', Properties: { AddressFamily: if errorOnEmptyProp then (error 'You need to define AddressFamily properties for AWS::EC2::PrefixList resource') else null, MaxEntries: if errorOnEmptyProp then (error 'You need to define MaxEntries properties for AWS::EC2::PrefixList resource') else null, PrefixListName: if errorOnEmptyProp then (error 'You need to define PrefixListName properties for AWS::EC2::PrefixList resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::PrefixList', Properties: { PrefixListName: if errorOnEmptyProp then (error 'You need to define PrefixListName properties for AWS::EC2::PrefixList resource') else null, AddressFamily: if errorOnEmptyProp then (error 'You need to define AddressFamily properties for AWS::EC2::PrefixList resource') else null, MaxEntries: if errorOnEmptyProp then (error 'You need to define MaxEntries properties for AWS::EC2::PrefixList resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-prefixlist.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAddressFamily':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-prefixlist.html#cfn-ec2-prefixlist-addressfamily', args=[d.arg(name='addressFamily', type=d.T.string)]),
   withAddressFamily(addressFamily): { Properties+: { AddressFamily: addressFamily } },

@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Cognito', url='', help=''),
+  IdentityPool:: (import 'IdentityPool.libsonnet'),
+  IdentityPoolRoleAttachment:: (import 'IdentityPoolRoleAttachment.libsonnet'),
+  UserPool:: (import 'UserPool.libsonnet'),
+  UserPoolClient:: (import 'UserPoolClient.libsonnet'),
+  UserPoolDomain:: (import 'UserPoolDomain.libsonnet'),
+  UserPoolGroup:: (import 'UserPoolGroup.libsonnet'),
+  UserPoolIdentityProvider:: (import 'UserPoolIdentityProvider.libsonnet'),
+  UserPoolResourceServer:: (import 'UserPoolResourceServer.libsonnet'),
+  UserPoolRiskConfigurationAttachment:: (import 'UserPoolRiskConfigurationAttachment.libsonnet'),
+  UserPoolUICustomizationAttachment:: (import 'UserPoolUICustomizationAttachment.libsonnet'),
+  UserPoolUser:: (import 'UserPoolUser.libsonnet'),
+  UserPoolUserToGroupAttachment:: (import 'UserPoolUserToGroupAttachment.libsonnet'),
+}

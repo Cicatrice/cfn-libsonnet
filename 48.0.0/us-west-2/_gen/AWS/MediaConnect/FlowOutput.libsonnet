@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='FlowOutput', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::MediaConnect::FlowOutput', Properties: { Protocol: if errorOnEmptyProp then (error 'You need to define Protocol properties for AWS::MediaConnect::FlowOutput resource') else null, FlowArn: if errorOnEmptyProp then (error 'You need to define FlowArn properties for AWS::MediaConnect::FlowOutput resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::MediaConnect::FlowOutput', Properties: { FlowArn: if errorOnEmptyProp then (error 'You need to define FlowArn properties for AWS::MediaConnect::FlowOutput resource') else null, Protocol: if errorOnEmptyProp then (error 'You need to define Protocol properties for AWS::MediaConnect::FlowOutput resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCidrAllowList':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowoutput.html#cfn-mediaconnect-flowoutput-cidrallowlist', args=[d.arg(name='cidrAllowList', type=d.T.array)]),
   withCidrAllowList(cidrAllowList): { Properties+: { CidrAllowList: cidrAllowList } },

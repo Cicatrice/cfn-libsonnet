@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='User', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Transfer::User', Properties: { UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::Transfer::User resource') else null, Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Transfer::User resource') else null, ServerId: if errorOnEmptyProp then (error 'You need to define ServerId properties for AWS::Transfer::User resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Transfer::User', Properties: { Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::Transfer::User resource') else null, ServerId: if errorOnEmptyProp then (error 'You need to define ServerId properties for AWS::Transfer::User resource') else null, UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::Transfer::User resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withHomeDirectory':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-user.html#cfn-transfer-user-homedirectory', args=[d.arg(name='homeDirectory', type=d.T.string)]),
   withHomeDirectory(homeDirectory): { Properties+: { HomeDirectory: homeDirectory } },

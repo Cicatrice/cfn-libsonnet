@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ResourceVersion', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFormation::ResourceVersion', Properties: { SchemaHandlerPackage: if errorOnEmptyProp then (error 'You need to define SchemaHandlerPackage properties for AWS::CloudFormation::ResourceVersion resource') else null, TypeName: if errorOnEmptyProp then (error 'You need to define TypeName properties for AWS::CloudFormation::ResourceVersion resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFormation::ResourceVersion', Properties: { TypeName: if errorOnEmptyProp then (error 'You need to define TypeName properties for AWS::CloudFormation::ResourceVersion resource') else null, SchemaHandlerPackage: if errorOnEmptyProp then (error 'You need to define SchemaHandlerPackage properties for AWS::CloudFormation::ResourceVersion resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withExecutionRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-resourceversion.html#cfn-cloudformation-resourceversion-executionrolearn', args=[d.arg(name='executionRoleArn', type=d.T.string)]),
   withExecutionRoleArn(executionRoleArn): { Properties+: { ExecutionRoleArn: executionRoleArn } },

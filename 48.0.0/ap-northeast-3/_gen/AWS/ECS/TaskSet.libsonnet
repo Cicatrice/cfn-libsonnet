@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='TaskSet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ECS::TaskSet', Properties: { Service: if errorOnEmptyProp then (error 'You need to define Service properties for AWS::ECS::TaskSet resource') else null, Cluster: if errorOnEmptyProp then (error 'You need to define Cluster properties for AWS::ECS::TaskSet resource') else null, TaskDefinition: if errorOnEmptyProp then (error 'You need to define TaskDefinition properties for AWS::ECS::TaskSet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ECS::TaskSet', Properties: { Cluster: if errorOnEmptyProp then (error 'You need to define Cluster properties for AWS::ECS::TaskSet resource') else null, Service: if errorOnEmptyProp then (error 'You need to define Service properties for AWS::ECS::TaskSet resource') else null, TaskDefinition: if errorOnEmptyProp then (error 'You need to define TaskDefinition properties for AWS::ECS::TaskSet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCluster':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-taskset.html#cfn-ecs-taskset-cluster', args=[d.arg(name='cluster', type=d.T.string)]),
   withCluster(cluster): { Properties+: { Cluster: cluster } },

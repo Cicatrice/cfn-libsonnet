@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='SageMaker', url='', help=''),
+  CodeRepository:: (import 'CodeRepository.libsonnet'),
+  DataQualityJobDefinition:: (import 'DataQualityJobDefinition.libsonnet'),
+  Endpoint:: (import 'Endpoint.libsonnet'),
+  EndpointConfig:: (import 'EndpointConfig.libsonnet'),
+  Model:: (import 'Model.libsonnet'),
+  ModelBiasJobDefinition:: (import 'ModelBiasJobDefinition.libsonnet'),
+  ModelExplainabilityJobDefinition:: (import 'ModelExplainabilityJobDefinition.libsonnet'),
+  ModelPackageGroup:: (import 'ModelPackageGroup.libsonnet'),
+  ModelQualityJobDefinition:: (import 'ModelQualityJobDefinition.libsonnet'),
+  MonitoringSchedule:: (import 'MonitoringSchedule.libsonnet'),
+  NotebookInstance:: (import 'NotebookInstance.libsonnet'),
+  NotebookInstanceLifecycleConfig:: (import 'NotebookInstanceLifecycleConfig.libsonnet'),
+}

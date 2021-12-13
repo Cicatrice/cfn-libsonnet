@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Integration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-integration.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CustomerProfiles::Integration', Properties: { DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::CustomerProfiles::Integration resource') else null, ObjectTypeName: if errorOnEmptyProp then (error 'You need to define ObjectTypeName properties for AWS::CustomerProfiles::Integration resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CustomerProfiles::Integration', Properties: { ObjectTypeName: if errorOnEmptyProp then (error 'You need to define ObjectTypeName properties for AWS::CustomerProfiles::Integration resource') else null, DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::CustomerProfiles::Integration resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-integration.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDomainName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-integration.html#cfn-customerprofiles-integration-domainname', args=[d.arg(name='domainName', type=d.T.string)]),
   withDomainName(domainName): { Properties+: { DomainName: domainName } },

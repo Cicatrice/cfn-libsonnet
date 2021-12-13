@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Stack', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::OpsWorks::Stack', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::OpsWorks::Stack resource') else null, ServiceRoleArn: if errorOnEmptyProp then (error 'You need to define ServiceRoleArn properties for AWS::OpsWorks::Stack resource') else null, DefaultInstanceProfileArn: if errorOnEmptyProp then (error 'You need to define DefaultInstanceProfileArn properties for AWS::OpsWorks::Stack resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::OpsWorks::Stack', Properties: { DefaultInstanceProfileArn: if errorOnEmptyProp then (error 'You need to define DefaultInstanceProfileArn properties for AWS::OpsWorks::Stack resource') else null, ServiceRoleArn: if errorOnEmptyProp then (error 'You need to define ServiceRoleArn properties for AWS::OpsWorks::Stack resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::OpsWorks::Stack resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAgentVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-opsworks-stack.html#cfn-opsworks-stack-agentversion', args=[d.arg(name='agentVersion', type=d.T.string)]),
   withAgentVersion(agentVersion): { Properties+: { AgentVersion: agentVersion } },

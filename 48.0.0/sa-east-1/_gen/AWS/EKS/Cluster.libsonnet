@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Cluster', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::Cluster', Properties: { ResourcesVpcConfig: if errorOnEmptyProp then (error 'You need to define ResourcesVpcConfig properties for AWS::EKS::Cluster resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::EKS::Cluster resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EKS::Cluster', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::EKS::Cluster resource') else null, ResourcesVpcConfig: if errorOnEmptyProp then (error 'You need to define ResourcesVpcConfig properties for AWS::EKS::Cluster resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withEncryptionConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eks-cluster.html#cfn-eks-cluster-encryptionconfig', args=[d.arg(name='encryptionConfig', type=d.T.array)]),
   withEncryptionConfig(encryptionConfig): { Properties+: { EncryptionConfig: encryptionConfig } },

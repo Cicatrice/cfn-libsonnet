@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Trail', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CloudTrail::Trail', Properties: { S3BucketName: if errorOnEmptyProp then (error 'You need to define S3BucketName properties for AWS::CloudTrail::Trail resource') else null, IsLogging: if errorOnEmptyProp then (error 'You need to define IsLogging properties for AWS::CloudTrail::Trail resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudTrail::Trail', Properties: { IsLogging: if errorOnEmptyProp then (error 'You need to define IsLogging properties for AWS::CloudTrail::Trail resource') else null, S3BucketName: if errorOnEmptyProp then (error 'You need to define S3BucketName properties for AWS::CloudTrail::Trail resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCloudWatchLogsLogGroupArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudtrail-trail.html#cfn-cloudtrail-trail-cloudwatchlogsloggrouparn', args=[d.arg(name='cloudWatchLogsLogGroupArn', type=d.T.string)]),
   withCloudWatchLogsLogGroupArn(cloudWatchLogsLogGroupArn): { Properties+: { CloudWatchLogsLogGroupArn: cloudWatchLogsLogGroupArn } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='UserProfile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::UserProfile', Properties: { DomainId: if errorOnEmptyProp then (error 'You need to define DomainId properties for AWS::SageMaker::UserProfile resource') else null, UserProfileName: if errorOnEmptyProp then (error 'You need to define UserProfileName properties for AWS::SageMaker::UserProfile resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::UserProfile', Properties: { UserProfileName: if errorOnEmptyProp then (error 'You need to define UserProfileName properties for AWS::SageMaker::UserProfile resource') else null, DomainId: if errorOnEmptyProp then (error 'You need to define DomainId properties for AWS::SageMaker::UserProfile resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDomainId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-userprofile.html#cfn-sagemaker-userprofile-domainid', args=[d.arg(name='domainId', type=d.T.string)]),
   withDomainId(domainId): { Properties+: { DomainId: domainId } },

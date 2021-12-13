@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DetectorModel', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoTEvents::DetectorModel', Properties: { DetectorModelDefinition: if errorOnEmptyProp then (error 'You need to define DetectorModelDefinition properties for AWS::IoTEvents::DetectorModel resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoTEvents::DetectorModel resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTEvents::DetectorModel', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoTEvents::DetectorModel resource') else null, DetectorModelDefinition: if errorOnEmptyProp then (error 'You need to define DetectorModelDefinition properties for AWS::IoTEvents::DetectorModel resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDetectorModelDefinition':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotevents-detectormodel.html#cfn-iotevents-detectormodel-detectormodeldefinition', args=[d.arg(name='detectorModelDefinition', type=d.T.object)]),
   withDetectorModelDefinition(detectorModelDefinition): { Properties+: { DetectorModelDefinition: detectorModelDefinition } },

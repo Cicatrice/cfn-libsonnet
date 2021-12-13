@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DBParameterGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::DBParameterGroup', Properties: { Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::RDS::DBParameterGroup resource') else null, Family: if errorOnEmptyProp then (error 'You need to define Family properties for AWS::RDS::DBParameterGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::RDS::DBParameterGroup', Properties: { Family: if errorOnEmptyProp then (error 'You need to define Family properties for AWS::RDS::DBParameterGroup resource') else null, Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::RDS::DBParameterGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-rds-dbparametergroup.html#cfn-rds-dbparametergroup-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Link', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::NetworkManager::Link', Properties: { GlobalNetworkId: if errorOnEmptyProp then (error 'You need to define GlobalNetworkId properties for AWS::NetworkManager::Link resource') else null, SiteId: if errorOnEmptyProp then (error 'You need to define SiteId properties for AWS::NetworkManager::Link resource') else null, Bandwidth: if errorOnEmptyProp then (error 'You need to define Bandwidth properties for AWS::NetworkManager::Link resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::NetworkManager::Link', Properties: { SiteId: if errorOnEmptyProp then (error 'You need to define SiteId properties for AWS::NetworkManager::Link resource') else null, Bandwidth: if errorOnEmptyProp then (error 'You need to define Bandwidth properties for AWS::NetworkManager::Link resource') else null, GlobalNetworkId: if errorOnEmptyProp then (error 'You need to define GlobalNetworkId properties for AWS::NetworkManager::Link resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBandwidth':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkmanager-link.html#cfn-networkmanager-link-bandwidth', args=[d.arg(name='bandwidth', type=d.T.object)]),
   withBandwidth(bandwidth): { Properties+: { Bandwidth: bandwidth } },

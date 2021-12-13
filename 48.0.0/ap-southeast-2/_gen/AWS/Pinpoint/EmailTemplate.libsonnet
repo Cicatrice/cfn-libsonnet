@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='EmailTemplate', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Pinpoint::EmailTemplate', Properties: { TemplateName: if errorOnEmptyProp then (error 'You need to define TemplateName properties for AWS::Pinpoint::EmailTemplate resource') else null, Subject: if errorOnEmptyProp then (error 'You need to define Subject properties for AWS::Pinpoint::EmailTemplate resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Pinpoint::EmailTemplate', Properties: { Subject: if errorOnEmptyProp then (error 'You need to define Subject properties for AWS::Pinpoint::EmailTemplate resource') else null, TemplateName: if errorOnEmptyProp then (error 'You need to define TemplateName properties for AWS::Pinpoint::EmailTemplate resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDefaultSubstitutions':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-pinpoint-emailtemplate.html#cfn-pinpoint-emailtemplate-defaultsubstitutions', args=[d.arg(name='defaultSubstitutions', type=d.T.string)]),
   withDefaultSubstitutions(defaultSubstitutions): { Properties+: { DefaultSubstitutions: defaultSubstitutions } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Schema', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-schema.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EventSchemas::Schema', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::EventSchemas::Schema resource') else null, Content: if errorOnEmptyProp then (error 'You need to define Content properties for AWS::EventSchemas::Schema resource') else null, RegistryName: if errorOnEmptyProp then (error 'You need to define RegistryName properties for AWS::EventSchemas::Schema resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EventSchemas::Schema', Properties: { Content: if errorOnEmptyProp then (error 'You need to define Content properties for AWS::EventSchemas::Schema resource') else null, RegistryName: if errorOnEmptyProp then (error 'You need to define RegistryName properties for AWS::EventSchemas::Schema resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::EventSchemas::Schema resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-schema.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withContent':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-eventschemas-schema.html#cfn-eventschemas-schema-content', args=[d.arg(name='content', type=d.T.string)]),
   withContent(content): { Properties+: { Content: content } },

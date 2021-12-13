@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Theme', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-theme.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Theme', Properties: { AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Theme resource') else null, ThemeId: if errorOnEmptyProp then (error 'You need to define ThemeId properties for AWS::QuickSight::Theme resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Theme', Properties: { ThemeId: if errorOnEmptyProp then (error 'You need to define ThemeId properties for AWS::QuickSight::Theme resource') else null, AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Theme resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-theme.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAwsAccountId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-theme.html#cfn-quicksight-theme-awsaccountid', args=[d.arg(name='awsAccountId', type=d.T.string)]),
   withAwsAccountId(awsAccountId): { Properties+: { AwsAccountId: awsAccountId } },

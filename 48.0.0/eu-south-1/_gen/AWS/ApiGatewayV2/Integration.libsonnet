@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Integration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Integration', Properties: { ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Integration resource') else null, IntegrationType: if errorOnEmptyProp then (error 'You need to define IntegrationType properties for AWS::ApiGatewayV2::Integration resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Integration', Properties: { IntegrationType: if errorOnEmptyProp then (error 'You need to define IntegrationType properties for AWS::ApiGatewayV2::Integration resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Integration resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApiId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-integration.html#cfn-apigatewayv2-integration-apiid', args=[d.arg(name='apiId', type=d.T.string)]),
   withApiId(apiId): { Properties+: { ApiId: apiId } },

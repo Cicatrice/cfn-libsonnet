@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Cluster', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DAX::Cluster', Properties: { ReplicationFactor: if errorOnEmptyProp then (error 'You need to define ReplicationFactor properties for AWS::DAX::Cluster resource') else null, IAMRoleARN: if errorOnEmptyProp then (error 'You need to define IAMRoleARN properties for AWS::DAX::Cluster resource') else null, NodeType: if errorOnEmptyProp then (error 'You need to define NodeType properties for AWS::DAX::Cluster resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DAX::Cluster', Properties: { ReplicationFactor: if errorOnEmptyProp then (error 'You need to define ReplicationFactor properties for AWS::DAX::Cluster resource') else null, NodeType: if errorOnEmptyProp then (error 'You need to define NodeType properties for AWS::DAX::Cluster resource') else null, IAMRoleARN: if errorOnEmptyProp then (error 'You need to define IAMRoleARN properties for AWS::DAX::Cluster resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAvailabilityZones':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dax-cluster.html#cfn-dax-cluster-availabilityzones', args=[d.arg(name='availabilityZones', type=d.T.array)]),
   withAvailabilityZones(availabilityZones): { Properties+: { AvailabilityZones: availabilityZones } },

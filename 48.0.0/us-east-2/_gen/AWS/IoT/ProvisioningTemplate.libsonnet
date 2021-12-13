@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ProvisioningTemplate', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::ProvisioningTemplate', Properties: { TemplateBody: if errorOnEmptyProp then (error 'You need to define TemplateBody properties for AWS::IoT::ProvisioningTemplate resource') else null, ProvisioningRoleArn: if errorOnEmptyProp then (error 'You need to define ProvisioningRoleArn properties for AWS::IoT::ProvisioningTemplate resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoT::ProvisioningTemplate', Properties: { ProvisioningRoleArn: if errorOnEmptyProp then (error 'You need to define ProvisioningRoleArn properties for AWS::IoT::ProvisioningTemplate resource') else null, TemplateBody: if errorOnEmptyProp then (error 'You need to define TemplateBody properties for AWS::IoT::ProvisioningTemplate resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iot-provisioningtemplate.html#cfn-iot-provisioningtemplate-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

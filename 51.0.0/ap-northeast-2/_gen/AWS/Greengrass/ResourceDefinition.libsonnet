@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ResourceDefinition', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Greengrass::ResourceDefinition', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Greengrass::ResourceDefinition resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withInitialVersion':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html#cfn-greengrass-resourcedefinition-initialversion', args=[d.arg(name='initialVersion', type=d.T.object)]),
+  withInitialVersion(initialVersion): { Properties+: { InitialVersion: initialVersion } },
+  '#withInitialVersionMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html#cfn-greengrass-resourcedefinition-initialversion', args=[d.arg(name='initialVersion', type=d.T.object)]),
+  withInitialVersionMixin(initialVersion): { Properties+: { InitialVersion+: initialVersion } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html#cfn-greengrass-resourcedefinition-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html#cfn-greengrass-resourcedefinition-tags', args=[d.arg(name='tags', type=d.T.object)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-greengrass-resourcedefinition.html#cfn-greengrass-resourcedefinition-tags', args=[d.arg(name='tags', type=d.T.object)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

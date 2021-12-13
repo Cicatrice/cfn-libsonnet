@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DBCluster', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbcluster.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DocDB::DBCluster', Properties: { MasterUsername: if errorOnEmptyProp then (error 'You need to define MasterUsername properties for AWS::DocDB::DBCluster resource') else null, MasterUserPassword: if errorOnEmptyProp then (error 'You need to define MasterUserPassword properties for AWS::DocDB::DBCluster resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DocDB::DBCluster', Properties: { MasterUserPassword: if errorOnEmptyProp then (error 'You need to define MasterUserPassword properties for AWS::DocDB::DBCluster resource') else null, MasterUsername: if errorOnEmptyProp then (error 'You need to define MasterUsername properties for AWS::DocDB::DBCluster resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbcluster.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAvailabilityZones':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-docdb-dbcluster.html#cfn-docdb-dbcluster-availabilityzones', args=[d.arg(name='availabilityZones', type=d.T.array)]),
   withAvailabilityZones(availabilityZones): { Properties+: { AvailabilityZones: availabilityZones } },

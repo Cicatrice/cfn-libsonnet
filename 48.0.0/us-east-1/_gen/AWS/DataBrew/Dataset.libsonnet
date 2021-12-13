@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Dataset', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DataBrew::Dataset', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::DataBrew::Dataset resource') else null, Input: if errorOnEmptyProp then (error 'You need to define Input properties for AWS::DataBrew::Dataset resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DataBrew::Dataset', Properties: { Input: if errorOnEmptyProp then (error 'You need to define Input properties for AWS::DataBrew::Dataset resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::DataBrew::Dataset resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withFormat':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-databrew-dataset.html#cfn-databrew-dataset-format', args=[d.arg(name='format', type=d.T.string)]),
   withFormat(format): { Properties+: { Format: format } },

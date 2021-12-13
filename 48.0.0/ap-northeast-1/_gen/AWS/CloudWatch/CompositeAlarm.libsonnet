@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='CompositeAlarm', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CloudWatch::CompositeAlarm', Properties: { AlarmRule: if errorOnEmptyProp then (error 'You need to define AlarmRule properties for AWS::CloudWatch::CompositeAlarm resource') else null, AlarmName: if errorOnEmptyProp then (error 'You need to define AlarmName properties for AWS::CloudWatch::CompositeAlarm resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudWatch::CompositeAlarm', Properties: { AlarmName: if errorOnEmptyProp then (error 'You need to define AlarmName properties for AWS::CloudWatch::CompositeAlarm resource') else null, AlarmRule: if errorOnEmptyProp then (error 'You need to define AlarmRule properties for AWS::CloudWatch::CompositeAlarm resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withActionsEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudwatch-compositealarm.html#cfn-cloudwatch-compositealarm-actionsenabled', args=[d.arg(name='actionsEnabled', type=d.T.bool)]),
   withActionsEnabled(actionsEnabled): { Properties+: { ActionsEnabled: actionsEnabled } },

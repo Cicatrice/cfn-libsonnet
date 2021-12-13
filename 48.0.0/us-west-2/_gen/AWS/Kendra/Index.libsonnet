@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Index', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Kendra::Index', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::Kendra::Index resource') else null, Edition: if errorOnEmptyProp then (error 'You need to define Edition properties for AWS::Kendra::Index resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Kendra::Index resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Kendra::Index', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Kendra::Index resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::Kendra::Index resource') else null, Edition: if errorOnEmptyProp then (error 'You need to define Edition properties for AWS::Kendra::Index resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCapacityUnits':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-index.html#cfn-kendra-index-capacityunits', args=[d.arg(name='capacityUnits', type=d.T.object)]),
   withCapacityUnits(capacityUnits): { Properties+: { CapacityUnits: capacityUnits } },

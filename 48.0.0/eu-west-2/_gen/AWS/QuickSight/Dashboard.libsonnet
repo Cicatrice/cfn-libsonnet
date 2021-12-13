@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Dashboard', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Dashboard', Properties: { AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Dashboard resource') else null, DashboardId: if errorOnEmptyProp then (error 'You need to define DashboardId properties for AWS::QuickSight::Dashboard resource') else null, SourceEntity: if errorOnEmptyProp then (error 'You need to define SourceEntity properties for AWS::QuickSight::Dashboard resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Dashboard', Properties: { DashboardId: if errorOnEmptyProp then (error 'You need to define DashboardId properties for AWS::QuickSight::Dashboard resource') else null, SourceEntity: if errorOnEmptyProp then (error 'You need to define SourceEntity properties for AWS::QuickSight::Dashboard resource') else null, AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Dashboard resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAwsAccountId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-dashboard.html#cfn-quicksight-dashboard-awsaccountid', args=[d.arg(name='awsAccountId', type=d.T.string)]),
   withAwsAccountId(awsAccountId): { Properties+: { AwsAccountId: awsAccountId } },

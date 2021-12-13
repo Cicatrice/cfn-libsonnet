@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='NotebookInstance', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::NotebookInstance', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::SageMaker::NotebookInstance resource') else null, InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::SageMaker::NotebookInstance resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::NotebookInstance', Properties: { InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::SageMaker::NotebookInstance resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::SageMaker::NotebookInstance resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAcceleratorTypes':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-notebookinstance.html#cfn-sagemaker-notebookinstance-acceleratortypes', args=[d.arg(name='acceleratorTypes', type=d.T.array)]),
   withAcceleratorTypes(acceleratorTypes): { Properties+: { AcceleratorTypes: acceleratorTypes } },

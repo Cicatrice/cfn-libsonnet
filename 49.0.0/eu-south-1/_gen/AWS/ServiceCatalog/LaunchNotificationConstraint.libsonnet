@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='LaunchNotificationConstraint', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceCatalog::LaunchNotificationConstraint', Properties: { PortfolioId: if errorOnEmptyProp then (error 'You need to define PortfolioId properties for AWS::ServiceCatalog::LaunchNotificationConstraint resource') else null, ProductId: if errorOnEmptyProp then (error 'You need to define ProductId properties for AWS::ServiceCatalog::LaunchNotificationConstraint resource') else null, NotificationArns: if errorOnEmptyProp then (error 'You need to define NotificationArns properties for AWS::ServiceCatalog::LaunchNotificationConstraint resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAcceptLanguage':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-acceptlanguage', args=[d.arg(name='acceptLanguage', type=d.T.string)]),
+  withAcceptLanguage(acceptLanguage): { Properties+: { AcceptLanguage: acceptLanguage } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withNotificationArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-notificationarns', args=[d.arg(name='notificationArns', type=d.T.array)]),
+  withNotificationArns(notificationArns): { Properties+: { NotificationArns: notificationArns } },
+  '#withNotificationArnsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-notificationarns', args=[d.arg(name='notificationArns', type=d.T.array)]),
+  withNotificationArnsMixin(notificationArns): { Properties+: { NotificationArns+: notificationArns } },
+  '#withPortfolioId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-portfolioid', args=[d.arg(name='portfolioId', type=d.T.string)]),
+  withPortfolioId(portfolioId): { Properties+: { PortfolioId: portfolioId } },
+  '#withProductId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicecatalog-launchnotificationconstraint.html#cfn-servicecatalog-launchnotificationconstraint-productid', args=[d.arg(name='productId', type=d.T.string)]),
+  withProductId(productId): { Properties+: { ProductId: productId } },
+}

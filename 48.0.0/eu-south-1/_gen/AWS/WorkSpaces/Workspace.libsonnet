@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Workspace', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::WorkSpaces::Workspace', Properties: { UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::WorkSpaces::Workspace resource') else null, BundleId: if errorOnEmptyProp then (error 'You need to define BundleId properties for AWS::WorkSpaces::Workspace resource') else null, DirectoryId: if errorOnEmptyProp then (error 'You need to define DirectoryId properties for AWS::WorkSpaces::Workspace resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::WorkSpaces::Workspace', Properties: { BundleId: if errorOnEmptyProp then (error 'You need to define BundleId properties for AWS::WorkSpaces::Workspace resource') else null, DirectoryId: if errorOnEmptyProp then (error 'You need to define DirectoryId properties for AWS::WorkSpaces::Workspace resource') else null, UserName: if errorOnEmptyProp then (error 'You need to define UserName properties for AWS::WorkSpaces::Workspace resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBundleId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-workspaces-workspace.html#cfn-workspaces-workspace-bundleid', args=[d.arg(name='bundleId', type=d.T.string)]),
   withBundleId(bundleId): { Properties+: { BundleId: bundleId } },

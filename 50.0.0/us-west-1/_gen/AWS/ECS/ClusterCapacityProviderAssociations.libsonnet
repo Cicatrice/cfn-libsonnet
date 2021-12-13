@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ClusterCapacityProviderAssociations', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::ECS::ClusterCapacityProviderAssociations', Properties: { CapacityProviders: if errorOnEmptyProp then (error 'You need to define CapacityProviders properties for AWS::ECS::ClusterCapacityProviderAssociations resource') else null, Cluster: if errorOnEmptyProp then (error 'You need to define Cluster properties for AWS::ECS::ClusterCapacityProviderAssociations resource') else null, DefaultCapacityProviderStrategy: if errorOnEmptyProp then (error 'You need to define DefaultCapacityProviderStrategy properties for AWS::ECS::ClusterCapacityProviderAssociations resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCapacityProviders':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-capacityproviders', args=[d.arg(name='capacityProviders', type=d.T.array)]),
+  withCapacityProviders(capacityProviders): { Properties+: { CapacityProviders: capacityProviders } },
+  '#withCapacityProvidersMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-capacityproviders', args=[d.arg(name='capacityProviders', type=d.T.array)]),
+  withCapacityProvidersMixin(capacityProviders): { Properties+: { CapacityProviders+: capacityProviders } },
+  '#withCluster':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-cluster', args=[d.arg(name='cluster', type=d.T.string)]),
+  withCluster(cluster): { Properties+: { Cluster: cluster } },
+  '#withDefaultCapacityProviderStrategy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-defaultcapacityproviderstrategy', args=[d.arg(name='defaultCapacityProviderStrategy', type=d.T.array)]),
+  withDefaultCapacityProviderStrategy(defaultCapacityProviderStrategy): { Properties+: { DefaultCapacityProviderStrategy: defaultCapacityProviderStrategy } },
+  '#withDefaultCapacityProviderStrategyMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ecs-clustercapacityproviderassociations.html#cfn-ecs-clustercapacityproviderassociations-defaultcapacityproviderstrategy', args=[d.arg(name='defaultCapacityProviderStrategy', type=d.T.array)]),
+  withDefaultCapacityProviderStrategyMixin(defaultCapacityProviderStrategy): { Properties+: { DefaultCapacityProviderStrategy+: defaultCapacityProviderStrategy } },
+}

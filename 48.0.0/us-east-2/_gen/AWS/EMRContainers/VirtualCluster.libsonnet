@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='VirtualCluster', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emrcontainers-virtualcluster.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EMRContainers::VirtualCluster', Properties: { ContainerProvider: if errorOnEmptyProp then (error 'You need to define ContainerProvider properties for AWS::EMRContainers::VirtualCluster resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::EMRContainers::VirtualCluster resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EMRContainers::VirtualCluster', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::EMRContainers::VirtualCluster resource') else null, ContainerProvider: if errorOnEmptyProp then (error 'You need to define ContainerProvider properties for AWS::EMRContainers::VirtualCluster resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emrcontainers-virtualcluster.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withContainerProvider':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-emrcontainers-virtualcluster.html#cfn-emrcontainers-virtualcluster-containerprovider', args=[d.arg(name='containerProvider', type=d.T.object)]),
   withContainerProvider(containerProvider): { Properties+: { ContainerProvider: containerProvider } },

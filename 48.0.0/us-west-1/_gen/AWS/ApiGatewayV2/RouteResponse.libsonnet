@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='RouteResponse', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::RouteResponse', Properties: { ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::RouteResponse resource') else null, RouteId: if errorOnEmptyProp then (error 'You need to define RouteId properties for AWS::ApiGatewayV2::RouteResponse resource') else null, RouteResponseKey: if errorOnEmptyProp then (error 'You need to define RouteResponseKey properties for AWS::ApiGatewayV2::RouteResponse resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::RouteResponse', Properties: { RouteId: if errorOnEmptyProp then (error 'You need to define RouteId properties for AWS::ApiGatewayV2::RouteResponse resource') else null, RouteResponseKey: if errorOnEmptyProp then (error 'You need to define RouteResponseKey properties for AWS::ApiGatewayV2::RouteResponse resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::RouteResponse resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApiId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-routeresponse.html#cfn-apigatewayv2-routeresponse-apiid', args=[d.arg(name='apiId', type=d.T.string)]),
   withApiId(apiId): { Properties+: { ApiId: apiId } },

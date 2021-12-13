@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='GatewayResponse', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGateway::GatewayResponse', Properties: { ResponseType: if errorOnEmptyProp then (error 'You need to define ResponseType properties for AWS::ApiGateway::GatewayResponse resource') else null, RestApiId: if errorOnEmptyProp then (error 'You need to define RestApiId properties for AWS::ApiGateway::GatewayResponse resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGateway::GatewayResponse', Properties: { RestApiId: if errorOnEmptyProp then (error 'You need to define RestApiId properties for AWS::ApiGateway::GatewayResponse resource') else null, ResponseType: if errorOnEmptyProp then (error 'You need to define ResponseType properties for AWS::ApiGateway::GatewayResponse resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withResponseParameters':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigateway-gatewayresponse.html#cfn-apigateway-gatewayresponse-responseparameters', args=[d.arg(name='responseParameters', type=d.T.object)]),
   withResponseParameters(responseParameters): { Properties+: { ResponseParameters: responseParameters } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ClusterSubnetGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Redshift::ClusterSubnetGroup', Properties: { SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::Redshift::ClusterSubnetGroup resource') else null, Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::Redshift::ClusterSubnetGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Redshift::ClusterSubnetGroup', Properties: { Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::Redshift::ClusterSubnetGroup resource') else null, SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::Redshift::ClusterSubnetGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clustersubnetgroup.html#cfn-redshift-clustersubnetgroup-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

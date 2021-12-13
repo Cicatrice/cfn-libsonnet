@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Project', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::Project', Properties: { ProjectName: if errorOnEmptyProp then (error 'You need to define ProjectName properties for AWS::SageMaker::Project resource') else null, ServiceCatalogProvisioningDetails: if errorOnEmptyProp then (error 'You need to define ServiceCatalogProvisioningDetails properties for AWS::SageMaker::Project resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::Project', Properties: { ServiceCatalogProvisioningDetails: if errorOnEmptyProp then (error 'You need to define ServiceCatalogProvisioningDetails properties for AWS::SageMaker::Project resource') else null, ProjectName: if errorOnEmptyProp then (error 'You need to define ProjectName properties for AWS::SageMaker::Project resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withProjectDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-projectdescription', args=[d.arg(name='projectDescription', type=d.T.string)]),
   withProjectDescription(projectDescription): { Properties+: { ProjectDescription: projectDescription } },

@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ConnectorProfile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppFlow::ConnectorProfile', Properties: { ConnectorType: if errorOnEmptyProp then (error 'You need to define ConnectorType properties for AWS::AppFlow::ConnectorProfile resource') else null, ConnectionMode: if errorOnEmptyProp then (error 'You need to define ConnectionMode properties for AWS::AppFlow::ConnectorProfile resource') else null, ConnectorProfileName: if errorOnEmptyProp then (error 'You need to define ConnectorProfileName properties for AWS::AppFlow::ConnectorProfile resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withConnectionMode':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-connectionmode', args=[d.arg(name='connectionMode', type=d.T.string)]),
+  withConnectionMode(connectionMode): { Properties+: { ConnectionMode: connectionMode } },
+  '#withConnectorProfileConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-connectorprofileconfig', args=[d.arg(name='connectorProfileConfig', type=d.T.object)]),
+  withConnectorProfileConfig(connectorProfileConfig): { Properties+: { ConnectorProfileConfig: connectorProfileConfig } },
+  '#withConnectorProfileConfigMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-connectorprofileconfig', args=[d.arg(name='connectorProfileConfig', type=d.T.object)]),
+  withConnectorProfileConfigMixin(connectorProfileConfig): { Properties+: { ConnectorProfileConfig+: connectorProfileConfig } },
+  '#withConnectorProfileName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-connectorprofilename', args=[d.arg(name='connectorProfileName', type=d.T.string)]),
+  withConnectorProfileName(connectorProfileName): { Properties+: { ConnectorProfileName: connectorProfileName } },
+  '#withConnectorType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-connectortype', args=[d.arg(name='connectorType', type=d.T.string)]),
+  withConnectorType(connectorType): { Properties+: { ConnectorType: connectorType } },
+  '#withKMSArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appflow-connectorprofile.html#cfn-appflow-connectorprofile-kmsarn', args=[d.arg(name='kmsarn', type=d.T.string)]),
+  withKMSArn(kmsarn): { Properties+: { KMSArn: kmsarn } },
+}

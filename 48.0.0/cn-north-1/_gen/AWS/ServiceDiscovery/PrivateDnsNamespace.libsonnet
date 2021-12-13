@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='PrivateDnsNamespace', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-privatednsnamespace.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceDiscovery::PrivateDnsNamespace', Properties: { Vpc: if errorOnEmptyProp then (error 'You need to define Vpc properties for AWS::ServiceDiscovery::PrivateDnsNamespace resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ServiceDiscovery::PrivateDnsNamespace resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ServiceDiscovery::PrivateDnsNamespace', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ServiceDiscovery::PrivateDnsNamespace resource') else null, Vpc: if errorOnEmptyProp then (error 'You need to define Vpc properties for AWS::ServiceDiscovery::PrivateDnsNamespace resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-privatednsnamespace.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-servicediscovery-privatednsnamespace.html#cfn-servicediscovery-privatednsnamespace-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

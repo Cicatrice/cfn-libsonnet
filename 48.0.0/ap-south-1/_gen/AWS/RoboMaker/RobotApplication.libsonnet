@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='RobotApplication', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::RoboMaker::RobotApplication', Properties: { Sources: if errorOnEmptyProp then (error 'You need to define Sources properties for AWS::RoboMaker::RobotApplication resource') else null, RobotSoftwareSuite: if errorOnEmptyProp then (error 'You need to define RobotSoftwareSuite properties for AWS::RoboMaker::RobotApplication resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::RoboMaker::RobotApplication', Properties: { RobotSoftwareSuite: if errorOnEmptyProp then (error 'You need to define RobotSoftwareSuite properties for AWS::RoboMaker::RobotApplication resource') else null, Sources: if errorOnEmptyProp then (error 'You need to define Sources properties for AWS::RoboMaker::RobotApplication resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCurrentRevisionId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robotapplication.html#cfn-robomaker-robotapplication-currentrevisionid', args=[d.arg(name='currentRevisionId', type=d.T.string)]),
   withCurrentRevisionId(currentRevisionId): { Properties+: { CurrentRevisionId: currentRevisionId } },

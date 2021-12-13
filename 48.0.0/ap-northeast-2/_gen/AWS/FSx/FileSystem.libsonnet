@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='FileSystem', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fsx-filesystem.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::FSx::FileSystem', Properties: { SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::FSx::FileSystem resource') else null, FileSystemType: if errorOnEmptyProp then (error 'You need to define FileSystemType properties for AWS::FSx::FileSystem resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::FSx::FileSystem', Properties: { FileSystemType: if errorOnEmptyProp then (error 'You need to define FileSystemType properties for AWS::FSx::FileSystem resource') else null, SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::FSx::FileSystem resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fsx-filesystem.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBackupId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-fsx-filesystem.html#cfn-fsx-filesystem-backupid', args=[d.arg(name='backupId', type=d.T.string)]),
   withBackupId(backupId): { Properties+: { BackupId: backupId } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='InstanceFleetConfig', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EMR::InstanceFleetConfig', Properties: { InstanceFleetType: if errorOnEmptyProp then (error 'You need to define InstanceFleetType properties for AWS::EMR::InstanceFleetConfig resource') else null, ClusterId: if errorOnEmptyProp then (error 'You need to define ClusterId properties for AWS::EMR::InstanceFleetConfig resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EMR::InstanceFleetConfig', Properties: { ClusterId: if errorOnEmptyProp then (error 'You need to define ClusterId properties for AWS::EMR::InstanceFleetConfig resource') else null, InstanceFleetType: if errorOnEmptyProp then (error 'You need to define InstanceFleetType properties for AWS::EMR::InstanceFleetConfig resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withClusterId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticmapreduce-instancefleetconfig.html#cfn-elasticmapreduce-instancefleetconfig-clusterid', args=[d.arg(name='clusterId', type=d.T.string)]),
   withClusterId(clusterId): { Properties+: { ClusterId: clusterId } },

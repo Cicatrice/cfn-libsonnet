@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='ParameterGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::ElastiCache::ParameterGroup', Properties: { CacheParameterGroupFamily: if errorOnEmptyProp then (error 'You need to define CacheParameterGroupFamily properties for AWS::ElastiCache::ParameterGroup resource') else null, Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::ElastiCache::ParameterGroup resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCacheParameterGroupFamily':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html#cfn-elasticache-parametergroup-cacheparametergroupfamily', args=[d.arg(name='cacheParameterGroupFamily', type=d.T.string)]),
+  withCacheParameterGroupFamily(cacheParameterGroupFamily): { Properties+: { CacheParameterGroupFamily: cacheParameterGroupFamily } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html#cfn-elasticache-parametergroup-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withProperties':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html#cfn-elasticache-parametergroup-properties', args=[d.arg(name='properties', type=d.T.object)]),
+  withProperties(properties): { Properties+: { Properties: properties } },
+  '#withPropertiesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html#cfn-elasticache-parametergroup-properties', args=[d.arg(name='properties', type=d.T.object)]),
+  withPropertiesMixin(properties): { Properties+: { Properties+: properties } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html#cfn-elasticache-parametergroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-elasticache-parameter-group.html#cfn-elasticache-parametergroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

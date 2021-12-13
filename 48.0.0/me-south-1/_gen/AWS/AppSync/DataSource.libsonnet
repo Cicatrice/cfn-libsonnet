@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DataSource', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppSync::DataSource', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::AppSync::DataSource resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppSync::DataSource resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::AppSync::DataSource resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppSync::DataSource', Properties: { ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::AppSync::DataSource resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::AppSync::DataSource resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppSync::DataSource resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApiId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-datasource.html#cfn-appsync-datasource-apiid', args=[d.arg(name='apiId', type=d.T.string)]),
   withApiId(apiId): { Properties+: { ApiId: apiId } },

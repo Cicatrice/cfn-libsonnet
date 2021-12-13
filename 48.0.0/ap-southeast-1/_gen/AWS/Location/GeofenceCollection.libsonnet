@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='GeofenceCollection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-geofencecollection.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Location::GeofenceCollection', Properties: { PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::GeofenceCollection resource') else null, CollectionName: if errorOnEmptyProp then (error 'You need to define CollectionName properties for AWS::Location::GeofenceCollection resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Location::GeofenceCollection', Properties: { CollectionName: if errorOnEmptyProp then (error 'You need to define CollectionName properties for AWS::Location::GeofenceCollection resource') else null, PricingPlan: if errorOnEmptyProp then (error 'You need to define PricingPlan properties for AWS::Location::GeofenceCollection resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-geofencecollection.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCollectionName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-location-geofencecollection.html#cfn-location-geofencecollection-collectionname', args=[d.arg(name='collectionName', type=d.T.string)]),
   withCollectionName(collectionName): { Properties+: { CollectionName: collectionName } },

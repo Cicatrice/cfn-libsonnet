@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='DataSource', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-datasource.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Kendra::DataSource', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Kendra::DataSource resource') else null, IndexId: if errorOnEmptyProp then (error 'You need to define IndexId properties for AWS::Kendra::DataSource resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Kendra::DataSource resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Kendra::DataSource', Properties: { IndexId: if errorOnEmptyProp then (error 'You need to define IndexId properties for AWS::Kendra::DataSource resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Kendra::DataSource resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::Kendra::DataSource resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-datasource.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDataSourceConfiguration':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-kendra-datasource.html#cfn-kendra-datasource-datasourceconfiguration', args=[d.arg(name='dataSourceConfiguration', type=d.T.object)]),
   withDataSourceConfiguration(dataSourceConfiguration): { Properties+: { DataSourceConfiguration: dataSourceConfiguration } },

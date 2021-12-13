@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='LaunchConfiguration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AutoScaling::LaunchConfiguration', Properties: { ImageId: if errorOnEmptyProp then (error 'You need to define ImageId properties for AWS::AutoScaling::LaunchConfiguration resource') else null, InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::AutoScaling::LaunchConfiguration resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AutoScaling::LaunchConfiguration', Properties: { InstanceType: if errorOnEmptyProp then (error 'You need to define InstanceType properties for AWS::AutoScaling::LaunchConfiguration resource') else null, ImageId: if errorOnEmptyProp then (error 'You need to define ImageId properties for AWS::AutoScaling::LaunchConfiguration resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAssociatePublicIpAddress':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-properties-as-launchconfig.html#cf-as-launchconfig-associatepubip', args=[d.arg(name='associatePublicIpAddress', type=d.T.bool)]),
   withAssociatePublicIpAddress(associatePublicIpAddress): { Properties+: { AssociatePublicIpAddress: associatePublicIpAddress } },

@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='CodeSigningConfig', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Lambda::CodeSigningConfig', Properties: { AllowedPublishers: if errorOnEmptyProp then (error 'You need to define AllowedPublishers properties for AWS::Lambda::CodeSigningConfig resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAllowedPublishers':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-allowedpublishers', args=[d.arg(name='allowedPublishers', type=d.T.object)]),
+  withAllowedPublishers(allowedPublishers): { Properties+: { AllowedPublishers: allowedPublishers } },
+  '#withAllowedPublishersMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-allowedpublishers', args=[d.arg(name='allowedPublishers', type=d.T.object)]),
+  withAllowedPublishersMixin(allowedPublishers): { Properties+: { AllowedPublishers+: allowedPublishers } },
+  '#withCodeSigningPolicies':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-codesigningpolicies', args=[d.arg(name='codeSigningPolicies', type=d.T.object)]),
+  withCodeSigningPolicies(codeSigningPolicies): { Properties+: { CodeSigningPolicies: codeSigningPolicies } },
+  '#withCodeSigningPoliciesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-codesigningpolicies', args=[d.arg(name='codeSigningPolicies', type=d.T.object)]),
+  withCodeSigningPoliciesMixin(codeSigningPolicies): { Properties+: { CodeSigningPolicies+: codeSigningPolicies } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lambda-codesigningconfig.html#cfn-lambda-codesigningconfig-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+}

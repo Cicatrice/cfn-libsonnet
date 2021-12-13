@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Connection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarconnections-connection.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::CodeStarConnections::Connection', Properties: { ConnectionName: if errorOnEmptyProp then (error 'You need to define ConnectionName properties for AWS::CodeStarConnections::Connection resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarconnections-connection.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withConnectionName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarconnections-connection.html#cfn-codestarconnections-connection-connectionname', args=[d.arg(name='connectionName', type=d.T.string)]),
+  withConnectionName(connectionName): { Properties+: { ConnectionName: connectionName } },
+  '#withHostArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarconnections-connection.html#cfn-codestarconnections-connection-hostarn', args=[d.arg(name='hostArn', type=d.T.string)]),
+  withHostArn(hostArn): { Properties+: { HostArn: hostArn } },
+  '#withProviderType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarconnections-connection.html#cfn-codestarconnections-connection-providertype', args=[d.arg(name='providerType', type=d.T.string)]),
+  withProviderType(providerType): { Properties+: { ProviderType: providerType } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarconnections-connection.html#cfn-codestarconnections-connection-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-codestarconnections-connection.html#cfn-codestarconnections-connection-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

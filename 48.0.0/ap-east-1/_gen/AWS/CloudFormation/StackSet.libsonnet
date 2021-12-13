@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='StackSet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFormation::StackSet', Properties: { PermissionModel: if errorOnEmptyProp then (error 'You need to define PermissionModel properties for AWS::CloudFormation::StackSet resource') else null, StackSetName: if errorOnEmptyProp then (error 'You need to define StackSetName properties for AWS::CloudFormation::StackSet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFormation::StackSet', Properties: { StackSetName: if errorOnEmptyProp then (error 'You need to define StackSetName properties for AWS::CloudFormation::StackSet resource') else null, PermissionModel: if errorOnEmptyProp then (error 'You need to define PermissionModel properties for AWS::CloudFormation::StackSet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAdministrationRoleARN':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-stackset.html#cfn-cloudformation-stackset-administrationrolearn', args=[d.arg(name='administrationRoleArn', type=d.T.string)]),
   withAdministrationRoleARN(administrationRoleArn): { Properties+: { AdministrationRoleARN: administrationRoleArn } },

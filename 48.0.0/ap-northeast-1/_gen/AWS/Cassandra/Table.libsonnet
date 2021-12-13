@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Table', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Cassandra::Table', Properties: { PartitionKeyColumns: if errorOnEmptyProp then (error 'You need to define PartitionKeyColumns properties for AWS::Cassandra::Table resource') else null, KeyspaceName: if errorOnEmptyProp then (error 'You need to define KeyspaceName properties for AWS::Cassandra::Table resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Cassandra::Table', Properties: { KeyspaceName: if errorOnEmptyProp then (error 'You need to define KeyspaceName properties for AWS::Cassandra::Table resource') else null, PartitionKeyColumns: if errorOnEmptyProp then (error 'You need to define PartitionKeyColumns properties for AWS::Cassandra::Table resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withBillingMode':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cassandra-table.html#cfn-cassandra-table-billingmode', args=[d.arg(name='billingMode', type=d.T.object)]),
   withBillingMode(billingMode): { Properties+: { BillingMode: billingMode } },

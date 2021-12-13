@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='EndpointAuthorization', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointauthorization.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Redshift::EndpointAuthorization', Properties: { ClusterIdentifier: if errorOnEmptyProp then (error 'You need to define ClusterIdentifier properties for AWS::Redshift::EndpointAuthorization resource') else null, Account: if errorOnEmptyProp then (error 'You need to define Account properties for AWS::Redshift::EndpointAuthorization resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointauthorization.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAccount':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointauthorization.html#cfn-redshift-endpointauthorization-account', args=[d.arg(name='account', type=d.T.string)]),
+  withAccount(account): { Properties+: { Account: account } },
+  '#withClusterIdentifier':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointauthorization.html#cfn-redshift-endpointauthorization-clusteridentifier', args=[d.arg(name='clusterIdentifier', type=d.T.string)]),
+  withClusterIdentifier(clusterIdentifier): { Properties+: { ClusterIdentifier: clusterIdentifier } },
+  '#withForce':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointauthorization.html#cfn-redshift-endpointauthorization-force', args=[d.arg(name='force', type=d.T.bool)]),
+  withForce(force): { Properties+: { Force: force } },
+  '#withVpcIds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointauthorization.html#cfn-redshift-endpointauthorization-vpcids', args=[d.arg(name='vpcIds', type=d.T.array)]),
+  withVpcIds(vpcIds): { Properties+: { VpcIds: vpcIds } },
+  '#withVpcIdsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointauthorization.html#cfn-redshift-endpointauthorization-vpcids', args=[d.arg(name='vpcIds', type=d.T.array)]),
+  withVpcIdsMixin(vpcIds): { Properties+: { VpcIds+: vpcIds } },
+}

@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Project', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::Project', Properties: { ServiceCatalogProvisioningDetails: if errorOnEmptyProp then (error 'You need to define ServiceCatalogProvisioningDetails properties for AWS::SageMaker::Project resource') else null, ProjectName: if errorOnEmptyProp then (error 'You need to define ProjectName properties for AWS::SageMaker::Project resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withProjectDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-projectdescription', args=[d.arg(name='projectDescription', type=d.T.string)]),
+  withProjectDescription(projectDescription): { Properties+: { ProjectDescription: projectDescription } },
+  '#withProjectName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-projectname', args=[d.arg(name='projectName', type=d.T.string)]),
+  withProjectName(projectName): { Properties+: { ProjectName: projectName } },
+  '#withServiceCatalogProvisioningDetails':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-servicecatalogprovisioningdetails', args=[d.arg(name='serviceCatalogProvisioningDetails', type=d.T.object)]),
+  withServiceCatalogProvisioningDetails(serviceCatalogProvisioningDetails): { Properties+: { ServiceCatalogProvisioningDetails: serviceCatalogProvisioningDetails } },
+  '#withServiceCatalogProvisioningDetailsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-servicecatalogprovisioningdetails', args=[d.arg(name='serviceCatalogProvisioningDetails', type=d.T.object)]),
+  withServiceCatalogProvisioningDetailsMixin(serviceCatalogProvisioningDetails): { Properties+: { ServiceCatalogProvisioningDetails+: serviceCatalogProvisioningDetails } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-project.html#cfn-sagemaker-project-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='FindingsFilter', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Macie::FindingsFilter', Properties: { FindingCriteria: if errorOnEmptyProp then (error 'You need to define FindingCriteria properties for AWS::Macie::FindingsFilter resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Macie::FindingsFilter resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Macie::FindingsFilter', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Macie::FindingsFilter resource') else null, FindingCriteria: if errorOnEmptyProp then (error 'You need to define FindingCriteria properties for AWS::Macie::FindingsFilter resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAction':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-action', args=[d.arg(name='action', type=d.T.string)]),
   withAction(action): { Properties+: { Action: action } },

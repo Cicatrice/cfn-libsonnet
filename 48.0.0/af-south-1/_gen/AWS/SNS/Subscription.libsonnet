@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Subscription', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::SNS::Subscription', Properties: { TopicArn: if errorOnEmptyProp then (error 'You need to define TopicArn properties for AWS::SNS::Subscription resource') else null, Protocol: if errorOnEmptyProp then (error 'You need to define Protocol properties for AWS::SNS::Subscription resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::SNS::Subscription', Properties: { Protocol: if errorOnEmptyProp then (error 'You need to define Protocol properties for AWS::SNS::Subscription resource') else null, TopicArn: if errorOnEmptyProp then (error 'You need to define TopicArn properties for AWS::SNS::Subscription resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDeliveryPolicy':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sns-subscription.html#cfn-sns-subscription-deliverypolicy', args=[d.arg(name='deliveryPolicy', type=d.T.object)]),
   withDeliveryPolicy(deliveryPolicy): { Properties+: { DeliveryPolicy: deliveryPolicy } },

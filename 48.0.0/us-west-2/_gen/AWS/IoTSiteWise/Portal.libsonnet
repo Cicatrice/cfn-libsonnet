@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Portal', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-portal.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoTSiteWise::Portal', Properties: { PortalContactEmail: if errorOnEmptyProp then (error 'You need to define PortalContactEmail properties for AWS::IoTSiteWise::Portal resource') else null, PortalName: if errorOnEmptyProp then (error 'You need to define PortalName properties for AWS::IoTSiteWise::Portal resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoTSiteWise::Portal resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTSiteWise::Portal', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoTSiteWise::Portal resource') else null, PortalContactEmail: if errorOnEmptyProp then (error 'You need to define PortalContactEmail properties for AWS::IoTSiteWise::Portal resource') else null, PortalName: if errorOnEmptyProp then (error 'You need to define PortalName properties for AWS::IoTSiteWise::Portal resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-portal.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAlarms':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotsitewise-portal.html#cfn-iotsitewise-portal-alarms', args=[d.arg(name='alarms', type=d.T.object)]),
   withAlarms(alarms): { Properties+: { Alarms: alarms } },

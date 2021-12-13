@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Model', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-model.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Model', Properties: { Schema: if errorOnEmptyProp then (error 'You need to define Schema properties for AWS::ApiGatewayV2::Model resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Model resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ApiGatewayV2::Model resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::ApiGatewayV2::Model', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::ApiGatewayV2::Model resource') else null, Schema: if errorOnEmptyProp then (error 'You need to define Schema properties for AWS::ApiGatewayV2::Model resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::ApiGatewayV2::Model resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-model.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApiId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-apigatewayv2-model.html#cfn-apigatewayv2-model-apiid', args=[d.arg(name='apiId', type=d.T.string)]),
   withApiId(apiId): { Properties+: { ApiId: apiId } },

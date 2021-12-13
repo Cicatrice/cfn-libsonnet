@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='FirewallPolicy', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::NetworkFirewall::FirewallPolicy', Properties: { FirewallPolicyName: if errorOnEmptyProp then (error 'You need to define FirewallPolicyName properties for AWS::NetworkFirewall::FirewallPolicy resource') else null, FirewallPolicy: if errorOnEmptyProp then (error 'You need to define FirewallPolicy properties for AWS::NetworkFirewall::FirewallPolicy resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::NetworkFirewall::FirewallPolicy', Properties: { FirewallPolicy: if errorOnEmptyProp then (error 'You need to define FirewallPolicy properties for AWS::NetworkFirewall::FirewallPolicy resource') else null, FirewallPolicyName: if errorOnEmptyProp then (error 'You need to define FirewallPolicyName properties for AWS::NetworkFirewall::FirewallPolicy resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-firewallpolicy.html#cfn-networkfirewall-firewallpolicy-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Template', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Template', Properties: { SourceEntity: if errorOnEmptyProp then (error 'You need to define SourceEntity properties for AWS::QuickSight::Template resource') else null, TemplateId: if errorOnEmptyProp then (error 'You need to define TemplateId properties for AWS::QuickSight::Template resource') else null, AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Template resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::QuickSight::Template', Properties: { AwsAccountId: if errorOnEmptyProp then (error 'You need to define AwsAccountId properties for AWS::QuickSight::Template resource') else null, SourceEntity: if errorOnEmptyProp then (error 'You need to define SourceEntity properties for AWS::QuickSight::Template resource') else null, TemplateId: if errorOnEmptyProp then (error 'You need to define TemplateId properties for AWS::QuickSight::Template resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withAwsAccountId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-quicksight-template.html#cfn-quicksight-template-awsaccountid', args=[d.arg(name='awsAccountId', type=d.T.string)]),
   withAwsAccountId(awsAccountId): { Properties+: { AwsAccountId: awsAccountId } },

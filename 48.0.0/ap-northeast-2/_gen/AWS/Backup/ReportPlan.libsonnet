@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ReportPlan', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Backup::ReportPlan', Properties: { ReportDeliveryChannel: if errorOnEmptyProp then (error 'You need to define ReportDeliveryChannel properties for AWS::Backup::ReportPlan resource') else null, ReportSetting: if errorOnEmptyProp then (error 'You need to define ReportSetting properties for AWS::Backup::ReportPlan resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Backup::ReportPlan', Properties: { ReportSetting: if errorOnEmptyProp then (error 'You need to define ReportSetting properties for AWS::Backup::ReportPlan resource') else null, ReportDeliveryChannel: if errorOnEmptyProp then (error 'You need to define ReportDeliveryChannel properties for AWS::Backup::ReportPlan resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withReportDeliveryChannel':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-backup-reportplan.html#cfn-backup-reportplan-reportdeliverychannel', args=[d.arg(name='reportDeliveryChannel', type=d.T.object)]),
   withReportDeliveryChannel(reportDeliveryChannel): { Properties+: { ReportDeliveryChannel: reportDeliveryChannel } },

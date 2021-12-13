@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Resolver', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppSync::Resolver', Properties: { TypeName: if errorOnEmptyProp then (error 'You need to define TypeName properties for AWS::AppSync::Resolver resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::AppSync::Resolver resource') else null, FieldName: if errorOnEmptyProp then (error 'You need to define FieldName properties for AWS::AppSync::Resolver resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppSync::Resolver', Properties: { FieldName: if errorOnEmptyProp then (error 'You need to define FieldName properties for AWS::AppSync::Resolver resource') else null, TypeName: if errorOnEmptyProp then (error 'You need to define TypeName properties for AWS::AppSync::Resolver resource') else null, ApiId: if errorOnEmptyProp then (error 'You need to define ApiId properties for AWS::AppSync::Resolver resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApiId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appsync-resolver.html#cfn-appsync-resolver-apiid', args=[d.arg(name='apiId', type=d.T.string)]),
   withApiId(apiId): { Properties+: { ApiId: apiId } },

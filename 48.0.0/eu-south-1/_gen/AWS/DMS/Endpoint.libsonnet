@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Endpoint', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::DMS::Endpoint', Properties: { EndpointType: if errorOnEmptyProp then (error 'You need to define EndpointType properties for AWS::DMS::Endpoint resource') else null, EngineName: if errorOnEmptyProp then (error 'You need to define EngineName properties for AWS::DMS::Endpoint resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::DMS::Endpoint', Properties: { EngineName: if errorOnEmptyProp then (error 'You need to define EngineName properties for AWS::DMS::Endpoint resource') else null, EndpointType: if errorOnEmptyProp then (error 'You need to define EndpointType properties for AWS::DMS::Endpoint resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCertificateArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-dms-endpoint.html#cfn-dms-endpoint-certificatearn', args=[d.arg(name='certificateArn', type=d.T.string)]),
   withCertificateArn(certificateArn): { Properties+: { CertificateArn: certificateArn } },

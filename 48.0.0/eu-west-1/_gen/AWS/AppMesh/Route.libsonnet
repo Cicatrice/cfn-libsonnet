@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Route', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::AppMesh::Route', Properties: { Spec: if errorOnEmptyProp then (error 'You need to define Spec properties for AWS::AppMesh::Route resource') else null, VirtualRouterName: if errorOnEmptyProp then (error 'You need to define VirtualRouterName properties for AWS::AppMesh::Route resource') else null, MeshName: if errorOnEmptyProp then (error 'You need to define MeshName properties for AWS::AppMesh::Route resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppMesh::Route', Properties: { MeshName: if errorOnEmptyProp then (error 'You need to define MeshName properties for AWS::AppMesh::Route resource') else null, Spec: if errorOnEmptyProp then (error 'You need to define Spec properties for AWS::AppMesh::Route resource') else null, VirtualRouterName: if errorOnEmptyProp then (error 'You need to define VirtualRouterName properties for AWS::AppMesh::Route resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withMeshName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appmesh-route.html#cfn-appmesh-route-meshname', args=[d.arg(name='meshName', type=d.T.string)]),
   withMeshName(meshName): { Properties+: { MeshName: meshName } },

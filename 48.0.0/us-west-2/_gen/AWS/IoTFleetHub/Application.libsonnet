@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Application', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::IoTFleetHub::Application', Properties: { ApplicationName: if errorOnEmptyProp then (error 'You need to define ApplicationName properties for AWS::IoTFleetHub::Application resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoTFleetHub::Application resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTFleetHub::Application', Properties: { RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::IoTFleetHub::Application resource') else null, ApplicationName: if errorOnEmptyProp then (error 'You need to define ApplicationName properties for AWS::IoTFleetHub::Application resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withApplicationDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iotfleethub-application.html#cfn-iotfleethub-application-applicationdescription', args=[d.arg(name='applicationDescription', type=d.T.string)]),
   withApplicationDescription(applicationDescription): { Properties+: { ApplicationDescription: applicationDescription } },

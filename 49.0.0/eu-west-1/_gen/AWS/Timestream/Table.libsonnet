@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Table', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Timestream::Table', Properties: { DatabaseName: if errorOnEmptyProp then (error 'You need to define DatabaseName properties for AWS::Timestream::Table resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDatabaseName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html#cfn-timestream-table-databasename', args=[d.arg(name='databaseName', type=d.T.string)]),
+  withDatabaseName(databaseName): { Properties+: { DatabaseName: databaseName } },
+  '#withRetentionProperties':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html#cfn-timestream-table-retentionproperties', args=[d.arg(name='retentionProperties', type=d.T.object)]),
+  withRetentionProperties(retentionProperties): { Properties+: { RetentionProperties: retentionProperties } },
+  '#withRetentionPropertiesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html#cfn-timestream-table-retentionproperties', args=[d.arg(name='retentionProperties', type=d.T.object)]),
+  withRetentionPropertiesMixin(retentionProperties): { Properties+: { RetentionProperties+: retentionProperties } },
+  '#withTableName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html#cfn-timestream-table-tablename', args=[d.arg(name='tableName', type=d.T.string)]),
+  withTableName(tableName): { Properties+: { TableName: tableName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html#cfn-timestream-table-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-timestream-table.html#cfn-timestream-table-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='VPNConnection', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPNConnection', Properties: { CustomerGatewayId: if errorOnEmptyProp then (error 'You need to define CustomerGatewayId properties for AWS::EC2::VPNConnection resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::EC2::VPNConnection resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPNConnection', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::EC2::VPNConnection resource') else null, CustomerGatewayId: if errorOnEmptyProp then (error 'You need to define CustomerGatewayId properties for AWS::EC2::VPNConnection resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCustomerGatewayId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpn-connection.html#cfn-ec2-vpnconnection-customergatewayid', args=[d.arg(name='customerGatewayId', type=d.T.string)]),
   withCustomerGatewayId(customerGatewayId): { Properties+: { CustomerGatewayId: customerGatewayId } },

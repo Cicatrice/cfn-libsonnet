@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Robot', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robot.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::RoboMaker::Robot', Properties: { GreengrassGroupId: if errorOnEmptyProp then (error 'You need to define GreengrassGroupId properties for AWS::RoboMaker::Robot resource') else null, Architecture: if errorOnEmptyProp then (error 'You need to define Architecture properties for AWS::RoboMaker::Robot resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::RoboMaker::Robot', Properties: { Architecture: if errorOnEmptyProp then (error 'You need to define Architecture properties for AWS::RoboMaker::Robot resource') else null, GreengrassGroupId: if errorOnEmptyProp then (error 'You need to define GreengrassGroupId properties for AWS::RoboMaker::Robot resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robot.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withArchitecture':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-robomaker-robot.html#cfn-robomaker-robot-architecture', args=[d.arg(name='architecture', type=d.T.string)]),
   withArchitecture(architecture): { Properties+: { Architecture: architecture } },

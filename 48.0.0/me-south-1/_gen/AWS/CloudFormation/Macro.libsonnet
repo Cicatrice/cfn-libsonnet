@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Macro', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-macro.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFormation::Macro', Properties: { FunctionName: if errorOnEmptyProp then (error 'You need to define FunctionName properties for AWS::CloudFormation::Macro resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::CloudFormation::Macro resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFormation::Macro', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::CloudFormation::Macro resource') else null, FunctionName: if errorOnEmptyProp then (error 'You need to define FunctionName properties for AWS::CloudFormation::Macro resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-macro.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudformation-macro.html#cfn-cloudformation-macro-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

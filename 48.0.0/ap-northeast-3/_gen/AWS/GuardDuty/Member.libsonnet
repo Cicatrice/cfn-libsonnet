@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='Member', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::GuardDuty::Member', Properties: { DetectorId: if errorOnEmptyProp then (error 'You need to define DetectorId properties for AWS::GuardDuty::Member resource') else null, Email: if errorOnEmptyProp then (error 'You need to define Email properties for AWS::GuardDuty::Member resource') else null, MemberId: if errorOnEmptyProp then (error 'You need to define MemberId properties for AWS::GuardDuty::Member resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::GuardDuty::Member', Properties: { MemberId: if errorOnEmptyProp then (error 'You need to define MemberId properties for AWS::GuardDuty::Member resource') else null, DetectorId: if errorOnEmptyProp then (error 'You need to define DetectorId properties for AWS::GuardDuty::Member resource') else null, Email: if errorOnEmptyProp then (error 'You need to define Email properties for AWS::GuardDuty::Member resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDetectorId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-guardduty-member.html#cfn-guardduty-member-detectorid', args=[d.arg(name='detectorId', type=d.T.string)]),
   withDetectorId(detectorId): { Properties+: { DetectorId: detectorId } },

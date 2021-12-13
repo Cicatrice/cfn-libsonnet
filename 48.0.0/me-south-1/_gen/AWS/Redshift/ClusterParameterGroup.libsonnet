@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='ClusterParameterGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::Redshift::ClusterParameterGroup', Properties: { ParameterGroupFamily: if errorOnEmptyProp then (error 'You need to define ParameterGroupFamily properties for AWS::Redshift::ClusterParameterGroup resource') else null, Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::Redshift::ClusterParameterGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::Redshift::ClusterParameterGroup', Properties: { Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::Redshift::ClusterParameterGroup resource') else null, ParameterGroupFamily: if errorOnEmptyProp then (error 'You need to define ParameterGroupFamily properties for AWS::Redshift::ClusterParameterGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-clusterparametergroup.html#cfn-redshift-clusterparametergroup-description', args=[d.arg(name='description', type=d.T.string)]),
   withDescription(description): { Properties+: { Description: description } },

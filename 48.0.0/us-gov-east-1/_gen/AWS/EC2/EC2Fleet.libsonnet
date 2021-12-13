@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='EC2Fleet', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::EC2Fleet', Properties: { LaunchTemplateConfigs: if errorOnEmptyProp then (error 'You need to define LaunchTemplateConfigs properties for AWS::EC2::EC2Fleet resource') else null, TargetCapacitySpecification: if errorOnEmptyProp then (error 'You need to define TargetCapacitySpecification properties for AWS::EC2::EC2Fleet resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::EC2Fleet', Properties: { TargetCapacitySpecification: if errorOnEmptyProp then (error 'You need to define TargetCapacitySpecification properties for AWS::EC2::EC2Fleet resource') else null, LaunchTemplateConfigs: if errorOnEmptyProp then (error 'You need to define LaunchTemplateConfigs properties for AWS::EC2::EC2Fleet resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withContext':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-ec2fleet.html#cfn-ec2-ec2fleet-context', args=[d.arg(name='context', type=d.T.string)]),
   withContext(context): { Properties+: { Context: context } },

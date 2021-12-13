@@ -1,7 +1,7 @@
 (import '../../../extensions/attributes.libsonnet') + {
   local d = (import 'doc-util/main.libsonnet'),
   '#':: d.pkg(name='RuleGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html'),
-  new(errorOnEmptyProp=true): { Type: 'AWS::NetworkFirewall::RuleGroup', Properties: { RuleGroupName: if errorOnEmptyProp then (error 'You need to define RuleGroupName properties for AWS::NetworkFirewall::RuleGroup resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::NetworkFirewall::RuleGroup resource') else null, Capacity: if errorOnEmptyProp then (error 'You need to define Capacity properties for AWS::NetworkFirewall::RuleGroup resource') else null } },
+  new(errorOnEmptyProp=true): { Type: 'AWS::NetworkFirewall::RuleGroup', Properties: { Capacity: if errorOnEmptyProp then (error 'You need to define Capacity properties for AWS::NetworkFirewall::RuleGroup resource') else null, RuleGroupName: if errorOnEmptyProp then (error 'You need to define RuleGroupName properties for AWS::NetworkFirewall::RuleGroup resource') else null, Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::NetworkFirewall::RuleGroup resource') else null } },
   '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
   '#withCapacity':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-networkfirewall-rulegroup.html#cfn-networkfirewall-rulegroup-capacity', args=[d.arg(name='capacity', type=d.T.number)]),
   withCapacity(capacity): { Properties+: { Capacity: capacity } },
