@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='SigningProfile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-signingprofile.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Signer::SigningProfile', Properties: { PlatformId: if errorOnEmptyProp then (error 'You need to define PlatformId properties for AWS::Signer::SigningProfile resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-signingprofile.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withPlatformId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-signingprofile.html#cfn-signer-signingprofile-platformid', args=[d.arg(name='platformId', type=d.T.string)]),
+  withPlatformId(platformId): { Properties+: { PlatformId: platformId } },
+  '#withSignatureValidityPeriod':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-signingprofile.html#cfn-signer-signingprofile-signaturevalidityperiod', args=[d.arg(name='signatureValidityPeriod', type=d.T.object)]),
+  withSignatureValidityPeriod(signatureValidityPeriod): { Properties+: { SignatureValidityPeriod: signatureValidityPeriod } },
+  '#withSignatureValidityPeriodMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-signingprofile.html#cfn-signer-signingprofile-signaturevalidityperiod', args=[d.arg(name='signatureValidityPeriod', type=d.T.object)]),
+  withSignatureValidityPeriodMixin(signatureValidityPeriod): { Properties+: { SignatureValidityPeriod+: signatureValidityPeriod } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-signingprofile.html#cfn-signer-signingprofile-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-signer-signingprofile.html#cfn-signer-signingprofile-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

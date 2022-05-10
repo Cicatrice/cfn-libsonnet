@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Filter', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::InspectorV2::Filter', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::InspectorV2::Filter resource') else null, FilterAction: if errorOnEmptyProp then (error 'You need to define FilterAction properties for AWS::InspectorV2::Filter resource') else null, FilterCriteria: if errorOnEmptyProp then (error 'You need to define FilterCriteria properties for AWS::InspectorV2::Filter resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html#cfn-inspectorv2-filter-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withFilterAction':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html#cfn-inspectorv2-filter-filteraction', args=[d.arg(name='filterAction', type=d.T.string)]),
+  withFilterAction(filterAction): { Properties+: { FilterAction: filterAction } },
+  '#withFilterCriteria':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html#cfn-inspectorv2-filter-filtercriteria', args=[d.arg(name='filterCriteria', type=d.T.object)]),
+  withFilterCriteria(filterCriteria): { Properties+: { FilterCriteria: filterCriteria } },
+  '#withFilterCriteriaMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html#cfn-inspectorv2-filter-filtercriteria', args=[d.arg(name='filterCriteria', type=d.T.object)]),
+  withFilterCriteriaMixin(filterCriteria): { Properties+: { FilterCriteria+: filterCriteria } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-inspectorv2-filter.html#cfn-inspectorv2-filter-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+}

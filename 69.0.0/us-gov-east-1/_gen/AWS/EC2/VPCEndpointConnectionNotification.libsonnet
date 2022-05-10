@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='VPCEndpointConnectionNotification', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::VPCEndpointConnectionNotification', Properties: { ConnectionNotificationArn: if errorOnEmptyProp then (error 'You need to define ConnectionNotificationArn properties for AWS::EC2::VPCEndpointConnectionNotification resource') else null, ConnectionEvents: if errorOnEmptyProp then (error 'You need to define ConnectionEvents properties for AWS::EC2::VPCEndpointConnectionNotification resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withConnectionEvents':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-connectionevents', args=[d.arg(name='connectionEvents', type=d.T.array)]),
+  withConnectionEvents(connectionEvents): { Properties+: { ConnectionEvents: connectionEvents } },
+  '#withConnectionEventsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-connectionevents', args=[d.arg(name='connectionEvents', type=d.T.array)]),
+  withConnectionEventsMixin(connectionEvents): { Properties+: { ConnectionEvents+: connectionEvents } },
+  '#withConnectionNotificationArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-connectionnotificationarn', args=[d.arg(name='connectionNotificationArn', type=d.T.string)]),
+  withConnectionNotificationArn(connectionNotificationArn): { Properties+: { ConnectionNotificationArn: connectionNotificationArn } },
+  '#withServiceId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-serviceid', args=[d.arg(name='serviceId', type=d.T.string)]),
+  withServiceId(serviceId): { Properties+: { ServiceId: serviceId } },
+  '#withVPCEndpointId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-vpcendpointconnectionnotification.html#cfn-ec2-vpcendpointconnectionnotification-vpcendpointid', args=[d.arg(name='vpcendpointId', type=d.T.string)]),
+  withVPCEndpointId(vpcendpointId): { Properties+: { VPCEndpointId: vpcendpointId } },
+}

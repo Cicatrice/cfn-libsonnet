@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Entitlement', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::Entitlement', Properties: { AppVisibility: if errorOnEmptyProp then (error 'You need to define AppVisibility properties for AWS::AppStream::Entitlement resource') else null, Attributes: if errorOnEmptyProp then (error 'You need to define Attributes properties for AWS::AppStream::Entitlement resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::AppStream::Entitlement resource') else null, StackName: if errorOnEmptyProp then (error 'You need to define StackName properties for AWS::AppStream::Entitlement resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAppVisibility':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html#cfn-appstream-entitlement-appvisibility', args=[d.arg(name='appVisibility', type=d.T.string)]),
+  withAppVisibility(appVisibility): { Properties+: { AppVisibility: appVisibility } },
+  '#withAttributes':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html#cfn-appstream-entitlement-attributes', args=[d.arg(name='attributes', type=d.T.array)]),
+  withAttributes(attributes): { Properties+: { Attributes: attributes } },
+  '#withAttributesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html#cfn-appstream-entitlement-attributes', args=[d.arg(name='attributes', type=d.T.array)]),
+  withAttributesMixin(attributes): { Properties+: { Attributes+: attributes } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html#cfn-appstream-entitlement-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html#cfn-appstream-entitlement-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withStackName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-entitlement.html#cfn-appstream-entitlement-stackname', args=[d.arg(name='stackName', type=d.T.string)]),
+  withStackName(stackName): { Properties+: { StackName: stackName } },
+}

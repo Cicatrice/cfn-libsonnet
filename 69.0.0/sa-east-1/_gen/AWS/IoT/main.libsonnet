@@ -1,0 +1,18 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='IoT', url='', help=''),
+  Authorizer:: (import 'Authorizer.libsonnet'),
+  Certificate:: (import 'Certificate.libsonnet'),
+  DomainConfiguration:: (import 'DomainConfiguration.libsonnet'),
+  FleetMetric:: (import 'FleetMetric.libsonnet'),
+  JobTemplate:: (import 'JobTemplate.libsonnet'),
+  Logging:: (import 'Logging.libsonnet'),
+  Policy:: (import 'Policy.libsonnet'),
+  PolicyPrincipalAttachment:: (import 'PolicyPrincipalAttachment.libsonnet'),
+  ProvisioningTemplate:: (import 'ProvisioningTemplate.libsonnet'),
+  ResourceSpecificLogging:: (import 'ResourceSpecificLogging.libsonnet'),
+  Thing:: (import 'Thing.libsonnet'),
+  ThingPrincipalAttachment:: (import 'ThingPrincipalAttachment.libsonnet'),
+  TopicRule:: (import 'TopicRule.libsonnet'),
+  TopicRuleDestination:: (import 'TopicRuleDestination.libsonnet'),
+}

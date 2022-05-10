@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Dataset', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Personalize::Dataset', Properties: { SchemaArn: if errorOnEmptyProp then (error 'You need to define SchemaArn properties for AWS::Personalize::Dataset resource') else null, DatasetGroupArn: if errorOnEmptyProp then (error 'You need to define DatasetGroupArn properties for AWS::Personalize::Dataset resource') else null, DatasetType: if errorOnEmptyProp then (error 'You need to define DatasetType properties for AWS::Personalize::Dataset resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Personalize::Dataset resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDatasetGroupArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html#cfn-personalize-dataset-datasetgrouparn', args=[d.arg(name='datasetGroupArn', type=d.T.string)]),
+  withDatasetGroupArn(datasetGroupArn): { Properties+: { DatasetGroupArn: datasetGroupArn } },
+  '#withDatasetImportJob':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html#cfn-personalize-dataset-datasetimportjob', args=[d.arg(name='datasetImportJob', type=d.T.object)]),
+  withDatasetImportJob(datasetImportJob): { Properties+: { DatasetImportJob: datasetImportJob } },
+  '#withDatasetImportJobMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html#cfn-personalize-dataset-datasetimportjob', args=[d.arg(name='datasetImportJob', type=d.T.object)]),
+  withDatasetImportJobMixin(datasetImportJob): { Properties+: { DatasetImportJob+: datasetImportJob } },
+  '#withDatasetType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html#cfn-personalize-dataset-datasettype', args=[d.arg(name='datasetType', type=d.T.string)]),
+  withDatasetType(datasetType): { Properties+: { DatasetType: datasetType } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html#cfn-personalize-dataset-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withSchemaArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-personalize-dataset.html#cfn-personalize-dataset-schemaarn', args=[d.arg(name='schemaArn', type=d.T.string)]),
+  withSchemaArn(schemaArn): { Properties+: { SchemaArn: schemaArn } },
+}

@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Domain', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::CustomerProfiles::Domain', Properties: { DomainName: if errorOnEmptyProp then (error 'You need to define DomainName properties for AWS::CustomerProfiles::Domain resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDeadLetterQueueUrl':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html#cfn-customerprofiles-domain-deadletterqueueurl', args=[d.arg(name='deadLetterQueueUrl', type=d.T.string)]),
+  withDeadLetterQueueUrl(deadLetterQueueUrl): { Properties+: { DeadLetterQueueUrl: deadLetterQueueUrl } },
+  '#withDefaultEncryptionKey':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html#cfn-customerprofiles-domain-defaultencryptionkey', args=[d.arg(name='defaultEncryptionKey', type=d.T.string)]),
+  withDefaultEncryptionKey(defaultEncryptionKey): { Properties+: { DefaultEncryptionKey: defaultEncryptionKey } },
+  '#withDefaultExpirationDays':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html#cfn-customerprofiles-domain-defaultexpirationdays', args=[d.arg(name='defaultExpirationDays', type=d.T.number)]),
+  withDefaultExpirationDays(defaultExpirationDays): { Properties+: { DefaultExpirationDays: defaultExpirationDays } },
+  '#withDomainName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html#cfn-customerprofiles-domain-domainname', args=[d.arg(name='domainName', type=d.T.string)]),
+  withDomainName(domainName): { Properties+: { DomainName: domainName } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html#cfn-customerprofiles-domain-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-customerprofiles-domain.html#cfn-customerprofiles-domain-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

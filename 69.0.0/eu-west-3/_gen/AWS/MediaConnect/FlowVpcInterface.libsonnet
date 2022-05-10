@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='FlowVpcInterface', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::MediaConnect::FlowVpcInterface', Properties: { SubnetId: if errorOnEmptyProp then (error 'You need to define SubnetId properties for AWS::MediaConnect::FlowVpcInterface resource') else null, FlowArn: if errorOnEmptyProp then (error 'You need to define FlowArn properties for AWS::MediaConnect::FlowVpcInterface resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::MediaConnect::FlowVpcInterface resource') else null, RoleArn: if errorOnEmptyProp then (error 'You need to define RoleArn properties for AWS::MediaConnect::FlowVpcInterface resource') else null, SecurityGroupIds: if errorOnEmptyProp then (error 'You need to define SecurityGroupIds properties for AWS::MediaConnect::FlowVpcInterface resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withFlowArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html#cfn-mediaconnect-flowvpcinterface-flowarn', args=[d.arg(name='flowArn', type=d.T.string)]),
+  withFlowArn(flowArn): { Properties+: { FlowArn: flowArn } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html#cfn-mediaconnect-flowvpcinterface-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html#cfn-mediaconnect-flowvpcinterface-rolearn', args=[d.arg(name='roleArn', type=d.T.string)]),
+  withRoleArn(roleArn): { Properties+: { RoleArn: roleArn } },
+  '#withSecurityGroupIds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html#cfn-mediaconnect-flowvpcinterface-securitygroupids', args=[d.arg(name='securityGroupIds', type=d.T.array)]),
+  withSecurityGroupIds(securityGroupIds): { Properties+: { SecurityGroupIds: securityGroupIds } },
+  '#withSecurityGroupIdsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html#cfn-mediaconnect-flowvpcinterface-securitygroupids', args=[d.arg(name='securityGroupIds', type=d.T.array)]),
+  withSecurityGroupIdsMixin(securityGroupIds): { Properties+: { SecurityGroupIds+: securityGroupIds } },
+  '#withSubnetId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-mediaconnect-flowvpcinterface.html#cfn-mediaconnect-flowvpcinterface-subnetid', args=[d.arg(name='subnetId', type=d.T.string)]),
+  withSubnetId(subnetId): { Properties+: { SubnetId: subnetId } },
+}

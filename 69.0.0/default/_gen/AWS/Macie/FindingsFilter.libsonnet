@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='FindingsFilter', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Macie::FindingsFilter', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Macie::FindingsFilter resource') else null, FindingCriteria: if errorOnEmptyProp then (error 'You need to define FindingCriteria properties for AWS::Macie::FindingsFilter resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAction':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-action', args=[d.arg(name='action', type=d.T.string)]),
+  withAction(action): { Properties+: { Action: action } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withFindingCriteria':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-findingcriteria', args=[d.arg(name='findingCriteria', type=d.T.object)]),
+  withFindingCriteria(findingCriteria): { Properties+: { FindingCriteria: findingCriteria } },
+  '#withFindingCriteriaMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-findingcriteria', args=[d.arg(name='findingCriteria', type=d.T.object)]),
+  withFindingCriteriaMixin(findingCriteria): { Properties+: { FindingCriteria+: findingCriteria } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withPosition':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-findingsfilter.html#cfn-macie-findingsfilter-position', args=[d.arg(name='position', type=d.T.number)]),
+  withPosition(position): { Properties+: { Position: position } },
+}

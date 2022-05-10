@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Workspace', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::IoTTwinMaker::Workspace', Properties: { S3Location: if errorOnEmptyProp then (error 'You need to define S3Location properties for AWS::IoTTwinMaker::Workspace resource') else null, WorkspaceId: if errorOnEmptyProp then (error 'You need to define WorkspaceId properties for AWS::IoTTwinMaker::Workspace resource') else null, Role: if errorOnEmptyProp then (error 'You need to define Role properties for AWS::IoTTwinMaker::Workspace resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html#cfn-iottwinmaker-workspace-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withRole':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html#cfn-iottwinmaker-workspace-role', args=[d.arg(name='role', type=d.T.string)]),
+  withRole(role): { Properties+: { Role: role } },
+  '#withS3Location':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html#cfn-iottwinmaker-workspace-s3location', args=[d.arg(name='s3location', type=d.T.string)]),
+  withS3Location(s3location): { Properties+: { S3Location: s3location } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html#cfn-iottwinmaker-workspace-tags', args=[d.arg(name='tags', type=d.T.object)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html#cfn-iottwinmaker-workspace-tags', args=[d.arg(name='tags', type=d.T.object)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+  '#withWorkspaceId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-iottwinmaker-workspace.html#cfn-iottwinmaker-workspace-workspaceid', args=[d.arg(name='workspaceId', type=d.T.string)]),
+  withWorkspaceId(workspaceId): { Properties+: { WorkspaceId: workspaceId } },
+}
