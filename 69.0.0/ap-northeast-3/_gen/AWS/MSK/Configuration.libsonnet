@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Configuration', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-configuration.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::MSK::Configuration', Properties: { ServerProperties: if errorOnEmptyProp then (error 'You need to define ServerProperties properties for AWS::MSK::Configuration resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::MSK::Configuration resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-configuration.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-configuration.html#cfn-msk-configuration-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withKafkaVersionsList':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-configuration.html#cfn-msk-configuration-kafkaversionslist', args=[d.arg(name='kafkaVersionsList', type=d.T.array)]),
+  withKafkaVersionsList(kafkaVersionsList): { Properties+: { KafkaVersionsList: kafkaVersionsList } },
+  '#withKafkaVersionsListMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-configuration.html#cfn-msk-configuration-kafkaversionslist', args=[d.arg(name='kafkaVersionsList', type=d.T.array)]),
+  withKafkaVersionsListMixin(kafkaVersionsList): { Properties+: { KafkaVersionsList+: kafkaVersionsList } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-configuration.html#cfn-msk-configuration-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withServerProperties':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-msk-configuration.html#cfn-msk-configuration-serverproperties', args=[d.arg(name='serverProperties', type=d.T.string)]),
+  withServerProperties(serverProperties): { Properties+: { ServerProperties: serverProperties } },
+}

@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='TransitGatewayConnect', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayconnect.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::TransitGatewayConnect', Properties: { TransportTransitGatewayAttachmentId: if errorOnEmptyProp then (error 'You need to define TransportTransitGatewayAttachmentId properties for AWS::EC2::TransitGatewayConnect resource') else null, Options: if errorOnEmptyProp then (error 'You need to define Options properties for AWS::EC2::TransitGatewayConnect resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayconnect.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withOptions':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayconnect.html#cfn-ec2-transitgatewayconnect-options', args=[d.arg(name='options', type=d.T.object)]),
+  withOptions(options): { Properties+: { Options: options } },
+  '#withOptionsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayconnect.html#cfn-ec2-transitgatewayconnect-options', args=[d.arg(name='options', type=d.T.object)]),
+  withOptionsMixin(options): { Properties+: { Options+: options } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayconnect.html#cfn-ec2-transitgatewayconnect-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayconnect.html#cfn-ec2-transitgatewayconnect-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+  '#withTransportTransitGatewayAttachmentId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-transitgatewayconnect.html#cfn-ec2-transitgatewayconnect-transporttransitgatewayattachmentid', args=[d.arg(name='transportTransitGatewayAttachmentId', type=d.T.string)]),
+  withTransportTransitGatewayAttachmentId(transportTransitGatewayAttachmentId): { Properties+: { TransportTransitGatewayAttachmentId: transportTransitGatewayAttachmentId } },
+}

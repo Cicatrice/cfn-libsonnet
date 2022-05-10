@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='LoadBalancerTlsCertificate', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Lightsail::LoadBalancerTlsCertificate', Properties: { LoadBalancerName: if errorOnEmptyProp then (error 'You need to define LoadBalancerName properties for AWS::Lightsail::LoadBalancerTlsCertificate resource') else null, CertificateDomainName: if errorOnEmptyProp then (error 'You need to define CertificateDomainName properties for AWS::Lightsail::LoadBalancerTlsCertificate resource') else null, CertificateName: if errorOnEmptyProp then (error 'You need to define CertificateName properties for AWS::Lightsail::LoadBalancerTlsCertificate resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCertificateAlternativeNames':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html#cfn-lightsail-loadbalancertlscertificate-certificatealternativenames', args=[d.arg(name='certificateAlternativeNames', type=d.T.array)]),
+  withCertificateAlternativeNames(certificateAlternativeNames): { Properties+: { CertificateAlternativeNames: certificateAlternativeNames } },
+  '#withCertificateAlternativeNamesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html#cfn-lightsail-loadbalancertlscertificate-certificatealternativenames', args=[d.arg(name='certificateAlternativeNames', type=d.T.array)]),
+  withCertificateAlternativeNamesMixin(certificateAlternativeNames): { Properties+: { CertificateAlternativeNames+: certificateAlternativeNames } },
+  '#withCertificateDomainName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html#cfn-lightsail-loadbalancertlscertificate-certificatedomainname', args=[d.arg(name='certificateDomainName', type=d.T.string)]),
+  withCertificateDomainName(certificateDomainName): { Properties+: { CertificateDomainName: certificateDomainName } },
+  '#withCertificateName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html#cfn-lightsail-loadbalancertlscertificate-certificatename', args=[d.arg(name='certificateName', type=d.T.string)]),
+  withCertificateName(certificateName): { Properties+: { CertificateName: certificateName } },
+  '#withIsAttached':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html#cfn-lightsail-loadbalancertlscertificate-isattached', args=[d.arg(name='isAttached', type=d.T.bool)]),
+  withIsAttached(isAttached): { Properties+: { IsAttached: isAttached } },
+  '#withLoadBalancerName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-lightsail-loadbalancertlscertificate.html#cfn-lightsail-loadbalancertlscertificate-loadbalancername', args=[d.arg(name='loadBalancerName', type=d.T.string)]),
+  withLoadBalancerName(loadBalancerName): { Properties+: { LoadBalancerName: loadBalancerName } },
+}

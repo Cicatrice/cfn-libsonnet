@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='KeyPair', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-keypair.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::KeyPair', Properties: { KeyName: if errorOnEmptyProp then (error 'You need to define KeyName properties for AWS::EC2::KeyPair resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-keypair.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withKeyName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-keypair.html#cfn-ec2-keypair-keyname', args=[d.arg(name='keyName', type=d.T.string)]),
+  withKeyName(keyName): { Properties+: { KeyName: keyName } },
+  '#withKeyType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-keypair.html#cfn-ec2-keypair-keytype', args=[d.arg(name='keyType', type=d.T.string)]),
+  withKeyType(keyType): { Properties+: { KeyType: keyType } },
+  '#withPublicKeyMaterial':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-keypair.html#cfn-ec2-keypair-publickeymaterial', args=[d.arg(name='publicKeyMaterial', type=d.T.string)]),
+  withPublicKeyMaterial(publicKeyMaterial): { Properties+: { PublicKeyMaterial: publicKeyMaterial } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-keypair.html#cfn-ec2-keypair-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-keypair.html#cfn-ec2-keypair-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

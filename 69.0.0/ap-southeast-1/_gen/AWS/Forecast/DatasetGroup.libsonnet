@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='DatasetGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Forecast::DatasetGroup', Properties: { DatasetGroupName: if errorOnEmptyProp then (error 'You need to define DatasetGroupName properties for AWS::Forecast::DatasetGroup resource') else null, Domain: if errorOnEmptyProp then (error 'You need to define Domain properties for AWS::Forecast::DatasetGroup resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDatasetArns':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html#cfn-forecast-datasetgroup-datasetarns', args=[d.arg(name='datasetArns', type=d.T.array)]),
+  withDatasetArns(datasetArns): { Properties+: { DatasetArns: datasetArns } },
+  '#withDatasetArnsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html#cfn-forecast-datasetgroup-datasetarns', args=[d.arg(name='datasetArns', type=d.T.array)]),
+  withDatasetArnsMixin(datasetArns): { Properties+: { DatasetArns+: datasetArns } },
+  '#withDatasetGroupName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html#cfn-forecast-datasetgroup-datasetgroupname', args=[d.arg(name='datasetGroupName', type=d.T.string)]),
+  withDatasetGroupName(datasetGroupName): { Properties+: { DatasetGroupName: datasetGroupName } },
+  '#withDomain':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html#cfn-forecast-datasetgroup-domain', args=[d.arg(name='domain', type=d.T.string)]),
+  withDomain(domain): { Properties+: { Domain: domain } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html#cfn-forecast-datasetgroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-forecast-datasetgroup.html#cfn-forecast-datasetgroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

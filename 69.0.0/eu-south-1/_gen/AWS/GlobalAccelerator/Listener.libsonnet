@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Listener', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::GlobalAccelerator::Listener', Properties: { Protocol: if errorOnEmptyProp then (error 'You need to define Protocol properties for AWS::GlobalAccelerator::Listener resource') else null, AcceleratorArn: if errorOnEmptyProp then (error 'You need to define AcceleratorArn properties for AWS::GlobalAccelerator::Listener resource') else null, PortRanges: if errorOnEmptyProp then (error 'You need to define PortRanges properties for AWS::GlobalAccelerator::Listener resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAcceleratorArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html#cfn-globalaccelerator-listener-acceleratorarn', args=[d.arg(name='acceleratorArn', type=d.T.string)]),
+  withAcceleratorArn(acceleratorArn): { Properties+: { AcceleratorArn: acceleratorArn } },
+  '#withClientAffinity':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html#cfn-globalaccelerator-listener-clientaffinity', args=[d.arg(name='clientAffinity', type=d.T.string)]),
+  withClientAffinity(clientAffinity): { Properties+: { ClientAffinity: clientAffinity } },
+  '#withPortRanges':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html#cfn-globalaccelerator-listener-portranges', args=[d.arg(name='portRanges', type=d.T.array)]),
+  withPortRanges(portRanges): { Properties+: { PortRanges: portRanges } },
+  '#withPortRangesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html#cfn-globalaccelerator-listener-portranges', args=[d.arg(name='portRanges', type=d.T.array)]),
+  withPortRangesMixin(portRanges): { Properties+: { PortRanges+: portRanges } },
+  '#withProtocol':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-globalaccelerator-listener.html#cfn-globalaccelerator-listener-protocol', args=[d.arg(name='protocol', type=d.T.string)]),
+  withProtocol(protocol): { Properties+: { Protocol: protocol } },
+}

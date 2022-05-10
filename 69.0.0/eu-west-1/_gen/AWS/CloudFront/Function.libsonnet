@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Function', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::CloudFront::Function', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::CloudFront::Function resource') else null, FunctionCode: if errorOnEmptyProp then (error 'You need to define FunctionCode properties for AWS::CloudFront::Function resource') else null, FunctionConfig: if errorOnEmptyProp then (error 'You need to define FunctionConfig properties for AWS::CloudFront::Function resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAutoPublish':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-autopublish', args=[d.arg(name='autoPublish', type=d.T.bool)]),
+  withAutoPublish(autoPublish): { Properties+: { AutoPublish: autoPublish } },
+  '#withFunctionCode':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-functioncode', args=[d.arg(name='functionCode', type=d.T.string)]),
+  withFunctionCode(functionCode): { Properties+: { FunctionCode: functionCode } },
+  '#withFunctionConfig':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-functionconfig', args=[d.arg(name='functionConfig', type=d.T.object)]),
+  withFunctionConfig(functionConfig): { Properties+: { FunctionConfig: functionConfig } },
+  '#withFunctionConfigMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-functionconfig', args=[d.arg(name='functionConfig', type=d.T.object)]),
+  withFunctionConfigMixin(functionConfig): { Properties+: { FunctionConfig+: functionConfig } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cloudfront-function.html#cfn-cloudfront-function-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+}

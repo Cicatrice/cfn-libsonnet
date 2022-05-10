@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='DirectoryConfig', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::AppStream::DirectoryConfig', Properties: { DirectoryName: if errorOnEmptyProp then (error 'You need to define DirectoryName properties for AWS::AppStream::DirectoryConfig resource') else null, OrganizationalUnitDistinguishedNames: if errorOnEmptyProp then (error 'You need to define OrganizationalUnitDistinguishedNames properties for AWS::AppStream::DirectoryConfig resource') else null, ServiceAccountCredentials: if errorOnEmptyProp then (error 'You need to define ServiceAccountCredentials properties for AWS::AppStream::DirectoryConfig resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDirectoryName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-directoryname', args=[d.arg(name='directoryName', type=d.T.string)]),
+  withDirectoryName(directoryName): { Properties+: { DirectoryName: directoryName } },
+  '#withOrganizationalUnitDistinguishedNames':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-organizationalunitdistinguishednames', args=[d.arg(name='organizationalUnitDistinguishedNames', type=d.T.array)]),
+  withOrganizationalUnitDistinguishedNames(organizationalUnitDistinguishedNames): { Properties+: { OrganizationalUnitDistinguishedNames: organizationalUnitDistinguishedNames } },
+  '#withOrganizationalUnitDistinguishedNamesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-organizationalunitdistinguishednames', args=[d.arg(name='organizationalUnitDistinguishedNames', type=d.T.array)]),
+  withOrganizationalUnitDistinguishedNamesMixin(organizationalUnitDistinguishedNames): { Properties+: { OrganizationalUnitDistinguishedNames+: organizationalUnitDistinguishedNames } },
+  '#withServiceAccountCredentials':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-serviceaccountcredentials', args=[d.arg(name='serviceAccountCredentials', type=d.T.object)]),
+  withServiceAccountCredentials(serviceAccountCredentials): { Properties+: { ServiceAccountCredentials: serviceAccountCredentials } },
+  '#withServiceAccountCredentialsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-appstream-directoryconfig.html#cfn-appstream-directoryconfig-serviceaccountcredentials', args=[d.arg(name='serviceAccountCredentials', type=d.T.object)]),
+  withServiceAccountCredentialsMixin(serviceAccountCredentials): { Properties+: { ServiceAccountCredentials+: serviceAccountCredentials } },
+}

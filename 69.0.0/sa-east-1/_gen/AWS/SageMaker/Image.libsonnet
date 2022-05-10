@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Image', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::SageMaker::Image', Properties: { ImageRoleArn: if errorOnEmptyProp then (error 'You need to define ImageRoleArn properties for AWS::SageMaker::Image resource') else null, ImageName: if errorOnEmptyProp then (error 'You need to define ImageName properties for AWS::SageMaker::Image resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withImageDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html#cfn-sagemaker-image-imagedescription', args=[d.arg(name='imageDescription', type=d.T.string)]),
+  withImageDescription(imageDescription): { Properties+: { ImageDescription: imageDescription } },
+  '#withImageDisplayName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html#cfn-sagemaker-image-imagedisplayname', args=[d.arg(name='imageDisplayName', type=d.T.string)]),
+  withImageDisplayName(imageDisplayName): { Properties+: { ImageDisplayName: imageDisplayName } },
+  '#withImageName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html#cfn-sagemaker-image-imagename', args=[d.arg(name='imageName', type=d.T.string)]),
+  withImageName(imageName): { Properties+: { ImageName: imageName } },
+  '#withImageRoleArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html#cfn-sagemaker-image-imagerolearn', args=[d.arg(name='imageRoleArn', type=d.T.string)]),
+  withImageRoleArn(imageRoleArn): { Properties+: { ImageRoleArn: imageRoleArn } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html#cfn-sagemaker-image-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-sagemaker-image.html#cfn-sagemaker-image-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}
