@@ -1,0 +1,16 @@
+{
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='NetworkManager', url='', help=''),
+  ConnectAttachment:: (import 'ConnectAttachment.libsonnet'),
+  ConnectPeer:: (import 'ConnectPeer.libsonnet'),
+  CoreNetwork:: (import 'CoreNetwork.libsonnet'),
+  CustomerGatewayAssociation:: (import 'CustomerGatewayAssociation.libsonnet'),
+  Device:: (import 'Device.libsonnet'),
+  GlobalNetwork:: (import 'GlobalNetwork.libsonnet'),
+  Link:: (import 'Link.libsonnet'),
+  LinkAssociation:: (import 'LinkAssociation.libsonnet'),
+  Site:: (import 'Site.libsonnet'),
+  SiteToSiteVpnAttachment:: (import 'SiteToSiteVpnAttachment.libsonnet'),
+  TransitGatewayRegistration:: (import 'TransitGatewayRegistration.libsonnet'),
+  VpcAttachment:: (import 'VpcAttachment.libsonnet'),
+}

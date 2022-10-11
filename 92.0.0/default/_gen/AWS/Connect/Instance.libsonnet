@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Instance', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-instance.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Connect::Instance', Properties: { IdentityManagementType: if errorOnEmptyProp then (error 'You need to define IdentityManagementType properties for AWS::Connect::Instance resource') else null, Attributes: if errorOnEmptyProp then (error 'You need to define Attributes properties for AWS::Connect::Instance resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-instance.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAttributes':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-instance.html#cfn-connect-instance-attributes', args=[d.arg(name='attributes', type=d.T.object)]),
+  withAttributes(attributes): { Properties+: { Attributes: attributes } },
+  '#withAttributesMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-instance.html#cfn-connect-instance-attributes', args=[d.arg(name='attributes', type=d.T.object)]),
+  withAttributesMixin(attributes): { Properties+: { Attributes+: attributes } },
+  '#withDirectoryId':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-instance.html#cfn-connect-instance-directoryid', args=[d.arg(name='directoryId', type=d.T.string)]),
+  withDirectoryId(directoryId): { Properties+: { DirectoryId: directoryId } },
+  '#withIdentityManagementType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-instance.html#cfn-connect-instance-identitymanagementtype', args=[d.arg(name='identityManagementType', type=d.T.string)]),
+  withIdentityManagementType(identityManagementType): { Properties+: { IdentityManagementType: identityManagementType } },
+  '#withInstanceAlias':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-connect-instance.html#cfn-connect-instance-instancealias', args=[d.arg(name='instanceAlias', type=d.T.string)]),
+  withInstanceAlias(instanceAlias): { Properties+: { InstanceAlias: instanceAlias } },
+}
