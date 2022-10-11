@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Segment', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-segment.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Evidently::Segment', Properties: { Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Evidently::Segment resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-segment.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-segment.html#cfn-evidently-segment-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-segment.html#cfn-evidently-segment-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withPattern':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-segment.html#cfn-evidently-segment-pattern', args=[d.arg(name='pattern', type=d.T.string)]),
+  withPattern(pattern): { Properties+: { Pattern: pattern } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-segment.html#cfn-evidently-segment-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-evidently-segment.html#cfn-evidently-segment-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='AllowList', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Macie::AllowList', Properties: { Criteria: if errorOnEmptyProp then (error 'You need to define Criteria properties for AWS::Macie::AllowList resource') else null, Name: if errorOnEmptyProp then (error 'You need to define Name properties for AWS::Macie::AllowList resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCriteria':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html#cfn-macie-allowlist-criteria', args=[d.arg(name='criteria', type=d.T.object)]),
+  withCriteria(criteria): { Properties+: { Criteria: criteria } },
+  '#withCriteriaMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html#cfn-macie-allowlist-criteria', args=[d.arg(name='criteria', type=d.T.object)]),
+  withCriteriaMixin(criteria): { Properties+: { Criteria+: criteria } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html#cfn-macie-allowlist-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html#cfn-macie-allowlist-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html#cfn-macie-allowlist-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-macie-allowlist.html#cfn-macie-allowlist-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

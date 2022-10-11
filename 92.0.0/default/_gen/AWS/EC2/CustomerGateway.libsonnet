@@ -1,0 +1,16 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='CustomerGateway', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customergateway.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::EC2::CustomerGateway', Properties: { Type: if errorOnEmptyProp then (error 'You need to define Type properties for AWS::EC2::CustomerGateway resource') else null, BgpAsn: if errorOnEmptyProp then (error 'You need to define BgpAsn properties for AWS::EC2::CustomerGateway resource') else null, IpAddress: if errorOnEmptyProp then (error 'You need to define IpAddress properties for AWS::EC2::CustomerGateway resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customergateway.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withBgpAsn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customergateway.html#cfn-ec2-customergateway-bgpasn', args=[d.arg(name='bgpAsn', type=d.T.number)]),
+  withBgpAsn(bgpAsn): { Properties+: { BgpAsn: bgpAsn } },
+  '#withIpAddress':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customergateway.html#cfn-ec2-customergateway-ipaddress', args=[d.arg(name='ipAddress', type=d.T.string)]),
+  withIpAddress(ipAddress): { Properties+: { IpAddress: ipAddress } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customergateway.html#cfn-ec2-customergateway-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customergateway.html#cfn-ec2-customergateway-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+  '#withType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-ec2-customergateway.html#cfn-ec2-customergateway-type', args=[d.arg(name='type', type=d.T.string)]),
+  withType(type): { Properties+: { Type: type } },
+}

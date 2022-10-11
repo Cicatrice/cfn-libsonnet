@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='CRL', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::RolesAnywhere::CRL', Properties: {} },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCrlData':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html#cfn-rolesanywhere-crl-crldata', args=[d.arg(name='crlData', type=d.T.string)]),
+  withCrlData(crlData): { Properties+: { CrlData: crlData } },
+  '#withEnabled':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html#cfn-rolesanywhere-crl-enabled', args=[d.arg(name='enabled', type=d.T.bool)]),
+  withEnabled(enabled): { Properties+: { Enabled: enabled } },
+  '#withName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html#cfn-rolesanywhere-crl-name', args=[d.arg(name='name', type=d.T.string)]),
+  withName(name): { Properties+: { Name: name } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html#cfn-rolesanywhere-crl-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html#cfn-rolesanywhere-crl-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+  '#withTrustAnchorArn':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-rolesanywhere-crl.html#cfn-rolesanywhere-crl-trustanchorarn', args=[d.arg(name='trustAnchorArn', type=d.T.string)]),
+  withTrustAnchorArn(trustAnchorArn): { Properties+: { TrustAnchorArn: trustAnchorArn } },
+}

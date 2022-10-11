@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='Profile', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Transfer::Profile', Properties: { ProfileType: if errorOnEmptyProp then (error 'You need to define ProfileType properties for AWS::Transfer::Profile resource') else null, As2Id: if errorOnEmptyProp then (error 'You need to define As2Id properties for AWS::Transfer::Profile resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withAs2Id':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html#cfn-transfer-profile-as2id', args=[d.arg(name='as2id', type=d.T.string)]),
+  withAs2Id(as2id): { Properties+: { As2Id: as2id } },
+  '#withCertificateIds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html#cfn-transfer-profile-certificateids', args=[d.arg(name='certificateIds', type=d.T.array)]),
+  withCertificateIds(certificateIds): { Properties+: { CertificateIds: certificateIds } },
+  '#withCertificateIdsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html#cfn-transfer-profile-certificateids', args=[d.arg(name='certificateIds', type=d.T.array)]),
+  withCertificateIdsMixin(certificateIds): { Properties+: { CertificateIds+: certificateIds } },
+  '#withProfileType':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html#cfn-transfer-profile-profiletype', args=[d.arg(name='profileType', type=d.T.string)]),
+  withProfileType(profileType): { Properties+: { ProfileType: profileType } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html#cfn-transfer-profile-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-transfer-profile.html#cfn-transfer-profile-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

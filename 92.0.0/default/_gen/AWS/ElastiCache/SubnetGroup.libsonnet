@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='SubnetGroup', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::ElastiCache::SubnetGroup', Properties: { Description: if errorOnEmptyProp then (error 'You need to define Description properties for AWS::ElastiCache::SubnetGroup resource') else null, SubnetIds: if errorOnEmptyProp then (error 'You need to define SubnetIds properties for AWS::ElastiCache::SubnetGroup resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withCacheSubnetGroupName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html#cfn-elasticache-subnetgroup-cachesubnetgroupname', args=[d.arg(name='cacheSubnetGroupName', type=d.T.string)]),
+  withCacheSubnetGroupName(cacheSubnetGroupName): { Properties+: { CacheSubnetGroupName: cacheSubnetGroupName } },
+  '#withDescription':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html#cfn-elasticache-subnetgroup-description', args=[d.arg(name='description', type=d.T.string)]),
+  withDescription(description): { Properties+: { Description: description } },
+  '#withSubnetIds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html#cfn-elasticache-subnetgroup-subnetids', args=[d.arg(name='subnetIds', type=d.T.array)]),
+  withSubnetIds(subnetIds): { Properties+: { SubnetIds: subnetIds } },
+  '#withSubnetIdsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html#cfn-elasticache-subnetgroup-subnetids', args=[d.arg(name='subnetIds', type=d.T.array)]),
+  withSubnetIdsMixin(subnetIds): { Properties+: { SubnetIds+: subnetIds } },
+  '#withTags':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html#cfn-elasticache-subnetgroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTags(tags): { Properties+: { Tags: tags } },
+  '#withTagsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-elasticache-subnetgroup.html#cfn-elasticache-subnetgroup-tags', args=[d.arg(name='tags', type=d.T.array)]),
+  withTagsMixin(tags): { Properties+: { Tags+: tags } },
+}

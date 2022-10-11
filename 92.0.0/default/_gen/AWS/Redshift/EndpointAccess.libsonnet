@@ -1,0 +1,18 @@
+(import '../../../extensions/attributes.libsonnet') + {
+  local d = (import 'doc-util/main.libsonnet'),
+  '#':: d.pkg(name='EndpointAccess', url='', help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html'),
+  new(errorOnEmptyProp=true): { Type: 'AWS::Redshift::EndpointAccess', Properties: { EndpointName: if errorOnEmptyProp then (error 'You need to define EndpointName properties for AWS::Redshift::EndpointAccess resource') else null, SubnetGroupName: if errorOnEmptyProp then (error 'You need to define SubnetGroupName properties for AWS::Redshift::EndpointAccess resource') else null, VpcSecurityGroupIds: if errorOnEmptyProp then (error 'You need to define VpcSecurityGroupIds properties for AWS::Redshift::EndpointAccess resource') else null, ClusterIdentifier: if errorOnEmptyProp then (error 'You need to define ClusterIdentifier properties for AWS::Redshift::EndpointAccess resource') else null } },
+  '#new':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html', args=[d.arg(name='errorOnEmptyProp', type=d.T.bool)]),
+  '#withClusterIdentifier':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html#cfn-redshift-endpointaccess-clusteridentifier', args=[d.arg(name='clusterIdentifier', type=d.T.string)]),
+  withClusterIdentifier(clusterIdentifier): { Properties+: { ClusterIdentifier: clusterIdentifier } },
+  '#withEndpointName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html#cfn-redshift-endpointaccess-endpointname', args=[d.arg(name='endpointName', type=d.T.string)]),
+  withEndpointName(endpointName): { Properties+: { EndpointName: endpointName } },
+  '#withResourceOwner':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html#cfn-redshift-endpointaccess-resourceowner', args=[d.arg(name='resourceOwner', type=d.T.string)]),
+  withResourceOwner(resourceOwner): { Properties+: { ResourceOwner: resourceOwner } },
+  '#withSubnetGroupName':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html#cfn-redshift-endpointaccess-subnetgroupname', args=[d.arg(name='subnetGroupName', type=d.T.string)]),
+  withSubnetGroupName(subnetGroupName): { Properties+: { SubnetGroupName: subnetGroupName } },
+  '#withVpcSecurityGroupIds':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html#cfn-redshift-endpointaccess-vpcsecuritygroupids', args=[d.arg(name='vpcSecurityGroupIds', type=d.T.array)]),
+  withVpcSecurityGroupIds(vpcSecurityGroupIds): { Properties+: { VpcSecurityGroupIds: vpcSecurityGroupIds } },
+  '#withVpcSecurityGroupIdsMixin':: d.fn(help='https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-redshift-endpointaccess.html#cfn-redshift-endpointaccess-vpcsecuritygroupids', args=[d.arg(name='vpcSecurityGroupIds', type=d.T.array)]),
+  withVpcSecurityGroupIdsMixin(vpcSecurityGroupIds): { Properties+: { VpcSecurityGroupIds+: vpcSecurityGroupIds } },
+}
